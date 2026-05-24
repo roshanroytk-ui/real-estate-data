@@ -154,6 +154,9 @@ for soup in all_soups:
 
                         except Exception as e:
                             print("Detail Error:", e)
+
+        except Exception as e:
+            print("Script Error:", e)
         
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
