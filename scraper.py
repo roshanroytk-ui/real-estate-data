@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import time
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 
@@ -20,6 +21,7 @@ for page in range(1, 11):
     print("Scraping:", url)
 
     response = requests.get(url, headers=headers)
+    time.sleep(2)
 
     print("Status:", response.status_code)
 
