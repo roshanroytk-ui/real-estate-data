@@ -70,3 +70,44 @@ with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
 
 print(f"Saved {len(properties)} properties.")
+
+# CREATE AREA AGGREGATION
+
+area_data = {}
+
+for property in properties:
+
+    area = property["area"]
+    price = property["price"]
+
+    if area not in area_data:
+        area_data[area] = {
+            "total_price": 0,
+            "count": 0,
+            "lat": property["lat"],
+            "lng": property["lng"]
+        }
+
+    area_data[area]["total_price"] += price
+    area_data[area]["count"] += 1
+
+# FINAL HEATMAP DATA
+heatmap = []
+
+for area, data in area_data.items():
+
+    avg_price = data["total_price"] / data["count"]
+
+    heatmap.append({
+        "area": area,
+        "avg_price": round(avg_price),
+        "listing_count": data["count"],
+        "lat": data["lat"],
+        "lng": data["lng"]
+    })
+
+# SAVE HEATMAP DATA
+with open("heatmap.json", "w", encoding="utf-8") as f:
+    json.dump(heatmap, f, indent=2, ensure_ascii=False)
+
+print("Saved heatmap.json")
