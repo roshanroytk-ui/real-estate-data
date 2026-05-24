@@ -1,12 +1,472 @@
 [
   {
-    "area": null,
-    "avg_price_per_sqft": 2064,
-    "listing_count": 160,
+    "area": "Jumeirah Village Circle",
+    "avg_price_per_sqft": 1311,
+    "listing_count": 11,
     "lat": 25.06841,
     "lng": 55.212123,
-    "city_average_price_per_sqft": 2064,
-    "relative_score": 1.0,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.59,
+    "color": "green"
+  },
+  {
+    "area": "International City",
+    "avg_price_per_sqft": 546,
+    "listing_count": 1,
+    "lat": 25.155902,
+    "lng": 55.406894,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.24,
+    "color": "green"
+  },
+  {
+    "area": "La Mer",
+    "avg_price_per_sqft": 2910,
+    "listing_count": 1,
+    "lat": 25.240464,
+    "lng": 55.251283,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.3,
+    "color": "red"
+  },
+  {
+    "area": "Ras Al Khor",
+    "avg_price_per_sqft": 2400,
+    "listing_count": 1,
+    "lat": 25.182602,
+    "lng": 55.336665,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.07,
     "color": "yellow"
+  },
+  {
+    "area": "Arjan",
+    "avg_price_per_sqft": 1773,
+    "listing_count": 3,
+    "lat": 25.064176,
+    "lng": 55.230258,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.79,
+    "color": "green"
+  },
+  {
+    "area": "Dubai Science Park",
+    "avg_price_per_sqft": 1606,
+    "listing_count": 7,
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.72,
+    "color": "green"
+  },
+  {
+    "area": "Business Bay",
+    "avg_price_per_sqft": 2195,
+    "listing_count": 8,
+    "lat": 25.18133,
+    "lng": 55.263135,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.98,
+    "color": "yellow"
+  },
+  {
+    "area": "Dubai Silicon Oasis",
+    "avg_price_per_sqft": 962,
+    "listing_count": 9,
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.43,
+    "color": "green"
+  },
+  {
+    "area": "Dubai Hills Estate",
+    "avg_price_per_sqft": 2023,
+    "listing_count": 1,
+    "lat": 25.129609,
+    "lng": 55.261831,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.91,
+    "color": "yellow"
+  },
+  {
+    "area": "Dubai Marina",
+    "avg_price_per_sqft": 2011,
+    "listing_count": 17,
+    "lat": 25.088631,
+    "lng": 55.14817,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.9,
+    "color": "yellow"
+  },
+  {
+    "area": "Palm Jumeirah",
+    "avg_price_per_sqft": 3482,
+    "listing_count": 4,
+    "lat": 25.112604,
+    "lng": 55.143347,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.56,
+    "color": "red"
+  },
+  {
+    "area": "Mohammed Bin Rashid City",
+    "avg_price_per_sqft": 2141,
+    "listing_count": 9,
+    "lat": 25.176559,
+    "lng": 55.312067,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.96,
+    "color": "yellow"
+  },
+  {
+    "area": "Dubai Creek Harbour",
+    "avg_price_per_sqft": 2373,
+    "listing_count": 3,
+    "lat": 25.203338,
+    "lng": 55.351063,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.06,
+    "color": "yellow"
+  },
+  {
+    "area": "EMAAR Beachfront",
+    "avg_price_per_sqft": 6561,
+    "listing_count": 1,
+    "lat": 25.096467,
+    "lng": 55.137719,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 2.94,
+    "color": "red"
+  },
+  {
+    "area": "City Walk",
+    "avg_price_per_sqft": 2667,
+    "listing_count": 2,
+    "lat": 25.202959,
+    "lng": 55.26006,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.19,
+    "color": "yellow"
+  },
+  {
+    "area": "Jumeirah Lake Towers",
+    "avg_price_per_sqft": 1707,
+    "listing_count": 14,
+    "lat": 25.080449,
+    "lng": 55.154186,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.76,
+    "color": "green"
+  },
+  {
+    "area": "Jumeirah Beach Residence",
+    "avg_price_per_sqft": 1883,
+    "listing_count": 6,
+    "lat": 25.072954,
+    "lng": 55.128089,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.84,
+    "color": "yellow"
+  },
+  {
+    "area": "Downtown Dubai",
+    "avg_price_per_sqft": 2879,
+    "listing_count": 4,
+    "lat": 25.195542,
+    "lng": 55.26884,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.29,
+    "color": "red"
+  },
+  {
+    "area": "Mina Rashid",
+    "avg_price_per_sqft": 2293,
+    "listing_count": 5,
+    "lat": 25.267706,
+    "lng": 55.285812,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.03,
+    "color": "yellow"
+  },
+  {
+    "area": "Umm Suqeim",
+    "avg_price_per_sqft": 2771,
+    "listing_count": 1,
+    "lat": 25.135,
+    "lng": 55.189,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.24,
+    "color": "red"
+  },
+  {
+    "area": "Town Square",
+    "avg_price_per_sqft": 1446,
+    "listing_count": 6,
+    "lat": 25.008885,
+    "lng": 55.289975,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.65,
+    "color": "green"
+  },
+  {
+    "area": "Dubai Sports City",
+    "avg_price_per_sqft": 918,
+    "listing_count": 4,
+    "lat": 25.044004,
+    "lng": 55.215198,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.41,
+    "color": "green"
+  },
+  {
+    "area": "Dubai Production City",
+    "avg_price_per_sqft": 8386,
+    "listing_count": 4,
+    "lat": 25.036132,
+    "lng": 55.195348,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 3.75,
+    "color": "red"
+  },
+  {
+    "area": "Dubai Internet City",
+    "avg_price_per_sqft": 3842,
+    "listing_count": 1,
+    "lat": 25.099752,
+    "lng": 55.16813,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.72,
+    "color": "red"
+  },
+  {
+    "area": "Dubai Land Residence Complex",
+    "avg_price_per_sqft": 1284,
+    "listing_count": 4,
+    "lat": 25.10056,
+    "lng": 55.377061,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.57,
+    "color": "green"
+  },
+  {
+    "area": "Dubai South",
+    "avg_price_per_sqft": 1414,
+    "listing_count": 3,
+    "lat": 24.946417,
+    "lng": 55.211718,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.63,
+    "color": "green"
+  },
+  {
+    "area": "CityWalk Residential",
+    "avg_price_per_sqft": 2267,
+    "listing_count": 1,
+    "lat": 25.201392,
+    "lng": 55.264312,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.01,
+    "color": "yellow"
+  },
+  {
+    "area": "Dubai Media City",
+    "avg_price_per_sqft": 2272,
+    "listing_count": 2,
+    "lat": null,
+    "lng": null,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.02,
+    "color": "yellow"
+  },
+  {
+    "area": "Dubai Land",
+    "avg_price_per_sqft": 1337,
+    "listing_count": 2,
+    "lat": 25.093609,
+    "lng": 55.31851,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.6,
+    "color": "green"
+  },
+  {
+    "area": "Al Jaddaf",
+    "avg_price_per_sqft": 2030,
+    "listing_count": 2,
+    "lat": 25.214144,
+    "lng": 55.318355,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.91,
+    "color": "yellow"
+  },
+  {
+    "area": "Jumeirah Heights",
+    "avg_price_per_sqft": 1645,
+    "listing_count": 1,
+    "lat": 25.062247,
+    "lng": 55.143846,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.74,
+    "color": "green"
+  },
+  {
+    "area": "DAMAC Hills",
+    "avg_price_per_sqft": 1524,
+    "listing_count": 3,
+    "lat": 25.019165,
+    "lng": 55.246047,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.68,
+    "color": "green"
+  },
+  {
+    "area": "Meydan",
+    "avg_price_per_sqft": 1628,
+    "listing_count": 1,
+    "lat": 25.156905,
+    "lng": 55.293924,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.73,
+    "color": "green"
+  },
+  {
+    "area": "DIFC",
+    "avg_price_per_sqft": 2914,
+    "listing_count": 3,
+    "lat": 25.212088,
+    "lng": 55.282761,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.3,
+    "color": "red"
+  },
+  {
+    "area": "Motor City",
+    "avg_price_per_sqft": 1982,
+    "listing_count": 1,
+    "lat": 25.046277,
+    "lng": 55.240646,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.89,
+    "color": "yellow"
+  },
+  {
+    "area": "Azizi Venice",
+    "avg_price_per_sqft": 1862,
+    "listing_count": 2,
+    "lat": 24.843181,
+    "lng": 55.141156,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.83,
+    "color": "yellow"
+  },
+  {
+    "area": "Park Heights",
+    "avg_price_per_sqft": 2679,
+    "listing_count": 1,
+    "lat": 25.109291,
+    "lng": 55.178733,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.2,
+    "color": "yellow"
+  },
+  {
+    "area": "EMAAR South",
+    "avg_price_per_sqft": 1792,
+    "listing_count": 1,
+    "lat": 24.849837,
+    "lng": 55.136243,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.8,
+    "color": "yellow"
+  },
+  {
+    "area": "Jumeirah Village Triangle",
+    "avg_price_per_sqft": 1704,
+    "listing_count": 1,
+    "lat": 25.040576,
+    "lng": 55.183753,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.76,
+    "color": "green"
+  },
+  {
+    "area": "Al Satwa",
+    "avg_price_per_sqft": 1862,
+    "listing_count": 1,
+    "lat": 25.221632,
+    "lng": 55.272474,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.83,
+    "color": "yellow"
+  },
+  {
+    "area": "Deira",
+    "avg_price_per_sqft": 2093,
+    "listing_count": 1,
+    "lat": 25.28093,
+    "lng": 55.296249,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.94,
+    "color": "yellow"
+  },
+  {
+    "area": "Falcon City of Wonders",
+    "avg_price_per_sqft": 1722,
+    "listing_count": 1,
+    "lat": 25.095587,
+    "lng": 55.337706,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.77,
+    "color": "green"
+  },
+  {
+    "area": "Mirdif Hills",
+    "avg_price_per_sqft": 1426,
+    "listing_count": 1,
+    "lat": 25.227337,
+    "lng": 55.441623,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.64,
+    "color": "green"
+  },
+  {
+    "area": "Dubai Investment Park",
+    "avg_price_per_sqft": 1157,
+    "listing_count": 2,
+    "lat": 24.98914,
+    "lng": 55.20163,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.52,
+    "color": "green"
+  },
+  {
+    "area": "Al Wasl",
+    "avg_price_per_sqft": 3777,
+    "listing_count": 1,
+    "lat": 25.2009,
+    "lng": 55.266853,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.69,
+    "color": "red"
+  },
+  {
+    "area": "Expo City",
+    "avg_price_per_sqft": 2725,
+    "listing_count": 1,
+    "lat": 24.958235,
+    "lng": 55.147876,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 1.22,
+    "color": "red"
+  },
+  {
+    "area": "Al Furjan",
+    "avg_price_per_sqft": 834,
+    "listing_count": 1,
+    "lat": 25.025262,
+    "lng": 55.13875,
+    "city_average_price_per_sqft": 2234,
+    "relative_score": 0.37,
+    "color": "green"
   }
 ]
