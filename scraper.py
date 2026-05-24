@@ -105,7 +105,13 @@ for soup in all_soups:
 
                             if (
                                 isinstance(detail_data, dict)
-                                and detail_data.get("@type") == "RealEstateListing"
+                                and (
+                                    detail_data.get("@type") == "RealEstateListing"
+                                    or (
+                                        isinstance(detail_data.get("@type"), list)
+                                        and "RealEstateListing" in detail_data.get("@type")
+                                    )
+                                )
                             ):
 
                                 offers = detail_data.get("offers", {})
