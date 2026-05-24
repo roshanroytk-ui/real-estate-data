@@ -193,8 +193,11 @@ for property in properties:
     area_data[area]["total_price_per_sqft"] += price_per_sqft
     area_data[area]["count"] += 1
 
-# FINAL HEATMAP DATA
+# CALCULATE AREA AVERAGES FIRST
+
 heatmap = []
+
+all_area_averages = []
 
 for area, data in area_data.items():
 
@@ -202,13 +205,55 @@ for area, data in area_data.items():
         data["total_price_per_sqft"] / data["count"]
     )
 
+    all_area_averages.append(avg_price_per_sqft)
+
     heatmap.append({
         "area": area,
-        "avg_price_per_sqft": round(avg_price_per_sqft),
+        "avg_price_per_sqft": avg_price_per_sqft,
         "listing_count": data["count"],
         "lat": data["lat"],
         "lng": data["lng"]
     })
+
+# CALCULATE CITY AVERAGE
+
+city_average_price_per_sqft = (
+    sum(all_area_averages) / len(all_area_averages)
+)
+
+# ADD RELATIVE SCORE + COLOR
+
+for item in heatmap:
+
+    relative_score = (
+        item["avg_price_per_sqft"]
+        / city_average_price_per_sqft
+    )
+
+    # COLOR LOGIC
+    if relative_score < 0.8:
+        color = "green"
+
+    elif relative_score < 1.2:
+        color = "yellow"
+
+    else:
+        color = "red"
+
+    item["avg_price_per_sqft"] = round(
+        item["avg_price_per_sqft"]
+    )
+
+    item["city_average_price_per_sqft"] = round(
+        city_average_price_per_sqft
+    )
+
+    item["relative_score"] = round(
+        relative_score,
+        2
+    )
+
+    item["color"] = color
 
 # SAVE HEATMAP DATA
 with open("heatmap.json", "w", encoding="utf-8") as f:
