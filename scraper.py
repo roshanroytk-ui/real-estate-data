@@ -264,6 +264,10 @@ for item in heatmap:
 
     item["color"] = color
 
+heatmap.sort(
+    key=lambda x: x["relative_score"]
+)
+
 # SAVE HEATMAP DATA
 with open("heatmap.json", "w", encoding="utf-8") as f:
     json.dump(heatmap, f, indent=2, ensure_ascii=False)
