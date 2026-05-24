@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-url = "https://example.com"
+url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -10,22 +10,49 @@ headers = {
 
 response = requests.get(url, headers=headers)
 
+print("Status:", response.status_code)
+
 soup = BeautifulSoup(response.text, "html.parser")
 
 properties = []
 
-cards = soup.select(".property-card")
+# Find all JSON-LD scripts
+scripts = soup.find_all("script", type="application/ld+json")
 
-for card in cards:
-    title = card.select_one(".title").text.strip()
-    price = card.select_one(".price").text.strip()
+for script in scripts:
+    try:
+        data = json.loads(script.string)
 
-    properties.append({
-        "title": title,
-        "price": price
-    })
+        # Look for ItemList
+        if isinstance(data, dict) and data.get("@type") == "ItemList":
 
-with open("properties.json", "w") as f:
-    json.dump(properties, f, indent=2)
+            items = data.get("itemListElement", [])
 
-print("Done scraping.")
+            for item in items:
+
+                listing = item.get("item", {})
+
+                title = listing.get("name")
+                url = listing.get("url")
+
+                offers = listing.get("offers", {})
+                price = offers.get("price")
+
+                location = listing.get("location", {})
+                area = location.get("name")
+
+                properties.append({
+                    "title": title,
+                    "price": price,
+                    "area": area,
+                    "url": url
+                })
+
+    except Exception as e:
+        print("Error parsing script:", e)
+
+# Save JSON
+with open("properties.json", "w", encoding="utf-8") as f:
+    json.dump(properties, f, indent=2, ensure_ascii=False)
+
+print(f"Saved {len(properties)} properties.")
