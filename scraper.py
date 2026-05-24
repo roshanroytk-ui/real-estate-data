@@ -14,16 +14,27 @@ print("Status:", response.status_code)
 
 soup = BeautifulSoup(response.text, "html.parser")
 
+# LOAD AREA COORDINATES
+with open("areas.json", "r", encoding="utf-8") as f:
+    area_coords = json.load(f)
+
+# convert to quick lookup
+coord_map = {
+    item["area"]: {
+        "lat": item["lat"],
+        "lng": item["lng"]
+    }
+    for item in area_coords
+}
+
 properties = []
 
-# Find all JSON-LD scripts
 scripts = soup.find_all("script", type="application/ld+json")
 
 for script in scripts:
     try:
         data = json.loads(script.string)
 
-        # Look for ItemList
         if isinstance(data, dict) and data.get("@type") == "ItemList":
 
             items = data.get("itemListElement", [])
@@ -33,7 +44,7 @@ for script in scripts:
                 listing = item.get("item", {})
 
                 title = listing.get("name")
-                url = listing.get("url")
+                property_url = listing.get("url")
 
                 offers = listing.get("offers", {})
                 price = offers.get("price")
@@ -41,17 +52,20 @@ for script in scripts:
                 location = listing.get("location", {})
                 area = location.get("name")
 
+                coords = coord_map.get(area, {})
+
                 properties.append({
                     "title": title,
                     "price": price,
                     "area": area,
-                    "url": url
+                    "lat": coords.get("lat"),
+                    "lng": coords.get("lng"),
+                    "url": property_url
                 })
 
     except Exception as e:
-        print("Error parsing script:", e)
+        print("Error:", e)
 
-# Save JSON
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
 
