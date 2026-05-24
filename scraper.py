@@ -133,7 +133,7 @@ for soup in all_soups:
 
                                 property_type = detail_data.get("additionalType")
 
-                                location = detail_data.get("contentLocation", {})
+                                location = detail_data.get("location", {})
 
                                 area = location.get("name")
 
