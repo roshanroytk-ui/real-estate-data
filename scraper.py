@@ -2,18 +2,30 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
+base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(url, headers=headers)
+all_soups = []
 
-print("Status:", response.status_code)
+for page in range(1, 11):
 
-soup = BeautifulSoup(response.text, "html.parser")
+    if page == 1:
+        url = base_url
+    else:
+        url = f"{base_url}?page={page}&sort=date_desc"
 
+    print("Scraping:", url)
+
+    response = requests.get(url, headers=headers)
+
+    print("Status:", response.status_code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    all_soups.append(soup)
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
     area_coords = json.load(f)
@@ -28,43 +40,53 @@ coord_map = {
 }
 
 properties = []
+seen_urls = set()
 
-scripts = soup.find_all("script", type="application/ld+json")
+for soup in all_soups:
 
-for script in scripts:
-    try:
-        data = json.loads(script.string)
+    scripts = soup.find_all("script", type="application/ld+json")
 
-        if isinstance(data, dict) and data.get("@type") == "ItemList":
+    for script in scripts:
 
-            items = data.get("itemListElement", [])
+        try:
+            data = json.loads(script.string)
 
-            for item in items:
+            if isinstance(data, dict) and data.get("@type") == "ItemList":
 
-                listing = item.get("item", {})
+                items = data.get("itemListElement", [])
 
-                title = listing.get("name")
-                property_url = listing.get("url")
+                for item in items:
 
-                offers = listing.get("offers", {})
-                price = offers.get("price")
+                    listing = item.get("item", {})
 
-                location = listing.get("location", {})
-                area = location.get("name")
+                    title = listing.get("name")
+                    property_url = listing.get("url")
 
-                coords = coord_map.get(area, {})
+                    offers = listing.get("offers", {})
+                    price = offers.get("price")
 
-                properties.append({
-                    "title": title,
-                    "price": price,
-                    "area": area,
-                    "lat": coords.get("lat"),
-                    "lng": coords.get("lng"),
-                    "url": property_url
-                })
+                    location = listing.get("location", {})
+                    area = location.get("name")
 
-    except Exception as e:
-        print("Error:", e)
+                    coords = coord_map.get(area, {})
+
+                    # SKIP DUPLICATES
+                    if property_url in seen_urls:
+                        continue
+
+                    seen_urls.add(property_url)
+
+                    properties.append({
+                        "title": title,
+                        "price": price,
+                        "area": area,
+                        "lat": coords.get("lat"),
+                        "lng": coords.get("lng"),
+                        "url": property_url
+                    })
+
+        except Exception as e:
+            print("Error:", e)
 
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
