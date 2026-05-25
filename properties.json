@@ -1,5 +1,31 @@
 [
   {
+    "title": "Furnished | Lake View | Mid Floor",
+    "price": 3150000.0,
+    "currency": "AED",
+    "area": "Jumeirah Lake Towers",
+    "lat": 25.064854,
+    "lng": 55.141792,
+    "sqft": 1478,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229316"
+  },
+  {
+    "title": "Lake View | High Floor | Furnished",
+    "price": 3150000.0,
+    "currency": "AED",
+    "area": "Jumeirah Lake Towers",
+    "lat": 25.064877,
+    "lng": 55.141668,
+    "sqft": 1478,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229311"
+  },
+  {
     "title": "Vida Branded Interior| Park View | Genuine Resale",
     "price": 1975000.0,
     "currency": "AED",
@@ -26,6 +52,19 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229271"
   },
   {
+    "title": "NET ROI 6.3% | Investment | Top Location",
+    "price": 2699000.0,
+    "currency": "AED",
+    "area": "Dubai Marina",
+    "lat": 25.084418,
+    "lng": 55.144879,
+    "sqft": 1645.05,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229267"
+  },
+  {
     "title": "Luxury Branded Residence | One&Only | Vacant Unit",
     "price": 5300000.0,
     "currency": "AED",
@@ -39,17 +78,43 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229260"
   },
   {
-    "title": "Vacant on Transfer | Greece Cluster",
-    "price": 400000.0,
+    "title": "Vacant and Ready to Move | Bright and Spacious",
+    "price": 4571955.0,
     "currency": "AED",
-    "area": "International City",
-    "lat": 25.155902,
-    "lng": 55.406894,
-    "sqft": 731.95,
+    "area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "sqft": 1637,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229216"
+  },
+  {
+    "title": "Vastu Compliant | Spacious | Vacant and Ready",
+    "price": 2983997.0,
+    "currency": "AED",
+    "area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "sqft": 1636,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229213"
+  },
+  {
+    "title": "Mid Floor | Sea View | Unfurnished",
+    "price": 2304794.0,
+    "currency": "AED",
+    "area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "sqft": 898,
     "bedrooms": 1,
     "bathrooms": 2,
     "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-229203"
+    "url": "https://www.bhomes.com/en/property/bh-s-229209"
   },
   {
     "title": "Corner Unit | Partial Marina View | Well Priced",
@@ -63,6 +128,19 @@
     "bathrooms": 3,
     "property_type": null,
     "url": "https://www.bhomes.com/en/property/bh-s-229147"
+  },
+  {
+    "title": "Direct Park Access | Vacant Soon | Boulevard view",
+    "price": 1685000.0,
+    "currency": "AED",
+    "area": "Dubai Hills Estate",
+    "lat": 25.111598,
+    "lng": 55.246715,
+    "sqft": 659.61,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "property_type": null,
+    "url": "https://www.bhomes.com/en/property/bh-s-229132"
   },
   {
     "title": "Duplex | December completion | Private Lift",
@@ -97,7 +175,7 @@
     "area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "sqft": 803.74,
+    "sqft": 806,
     "bedrooms": 1,
     "bathrooms": 2,
     "property_type": null,
@@ -117,7 +195,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229021"
   },
   {
-    "title": "Siena 2, Tuscan Residences | JVC | Best Layout",
+    "title": "Largest Layout | Terrace Apartment |Best To Invest",
     "price": 825000.0,
     "currency": "AED",
     "area": "Jumeirah Village Circle",
@@ -183,7 +261,7 @@
   },
   {
     "title": "Sea View | Vacant Soon | High Yield | Seller Keen",
-    "price": 1299000.0,
+    "price": 1275000.0,
     "currency": "AED",
     "area": "Dubai Marina",
     "lat": 25.088631,
@@ -469,7 +547,7 @@
   },
   {
     "title": "PLUS STUDY | CONVERTIBLE  | VACANT",
-    "price": 2750000.0,
+    "price": 2625000.0,
     "currency": "AED",
     "area": "Dubai Marina",
     "lat": 25.085305,
@@ -2000,83 +2078,5 @@
     "bathrooms": 2,
     "property_type": null,
     "url": "https://www.bhomes.com/en/property/bh-s-226155"
-  },
-  {
-    "title": "Leasehold | Pool view | Rented",
-    "price": 560000.0,
-    "currency": "AED",
-    "area": "Dubai Silicon Oasis",
-    "lat": 25.116298,
-    "lng": 55.390612,
-    "sqft": 825.91,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-226145"
-  },
-  {
-    "title": "3-bed Sea View Duplex | Vacant | Prime Location",
-    "price": 5000000.0,
-    "currency": "AED",
-    "area": "Jumeirah Beach Residence",
-    "lat": 25.072291,
-    "lng": 55.13028,
-    "sqft": 1986.05,
-    "bedrooms": 1,
-    "bathrooms": 2,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-226128"
-  },
-  {
-    "title": "Spacious 3BR + Maid | Rented | Prime JBR Location",
-    "price": 2575000.0,
-    "currency": "AED",
-    "area": "Jumeirah Beach Residence",
-    "lat": 25.072291,
-    "lng": 55.13028,
-    "sqft": 1990.57,
-    "bedrooms": 3,
-    "bathrooms": 3,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-226077"
-  },
-  {
-    "title": "Ready To Move In| Full Golf Course View | Spacious",
-    "price": 975000.0,
-    "currency": "AED",
-    "area": "Dubai Sports City",
-    "lat": 25.038332,
-    "lng": 55.204856,
-    "sqft": 1322.02,
-    "bedrooms": 2,
-    "bathrooms": 3,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-226018"
-  },
-  {
-    "title": "Selling at OP | Urgent sale | High floor",
-    "price": 1589000.0,
-    "currency": "AED",
-    "area": "Business Bay",
-    "lat": 25.191834,
-    "lng": 55.260765,
-    "sqft": 373.4,
-    "bedrooms": 0,
-    "bathrooms": 1,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-225920"
-  },
-  {
-    "title": "Prime Expo City | Handover Q4 2026 | High ROI",
-    "price": 3650000.0,
-    "currency": "AED",
-    "area": "Expo City",
-    "lat": 24.958235,
-    "lng": 55.147876,
-    "sqft": 1339.24,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "property_type": null,
-    "url": "https://www.bhomes.com/en/property/bh-s-225887"
   }
 ]
