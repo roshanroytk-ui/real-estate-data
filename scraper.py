@@ -263,6 +263,8 @@ for market_key, data in market_groups.items():
 
     listing_count = len(prices)
 
+    comparable_count = len(prices)
+
     # MARKET TIER COLORING
 
     if market_median < 1500:
@@ -287,6 +289,8 @@ for market_key, data in market_groups.items():
         ),
 
         "listing_count": listing_count,
+
+        "comparable_count": comparable_count,
 
         "lat": data["lat"],
         "lng": data["lng"],
@@ -330,6 +334,8 @@ for market_key, data in market_groups.items():
         continue
 
     market_median = median(prices)
+
+    comparable_count = len(prices)
 
     for listing in data["listings"]:
 
@@ -377,6 +383,8 @@ for market_key, data in market_groups.items():
             "market_median_price_per_sqft": round(
                 market_median
             ),
+
+            "comparable_count": comparable_count,
 
             "deviation_score": round(
                 deviation,
