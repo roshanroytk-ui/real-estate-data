@@ -1,7 +1,7 @@
 [
   {
     "area": "Dubai Silicon Oasis",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 756,
     "listing_count": 3,
@@ -11,7 +11,7 @@
   },
   {
     "area": "Dubai Silicon Oasis",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 828,
     "listing_count": 3,
@@ -20,8 +20,18 @@
     "color": "green"
   },
   {
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1182,
+    "listing_count": 6,
+    "lat": 25.062724,
+    "lng": 55.208325,
+    "color": "green"
+  },
+  {
     "area": "Dubai Land Residence Complex",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1227,
     "listing_count": 3,
@@ -31,7 +41,7 @@
   },
   {
     "area": "Town Square",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1318,
     "listing_count": 3,
@@ -41,7 +51,7 @@
   },
   {
     "area": "Dubai Land",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1337,
     "listing_count": 2,
@@ -50,18 +60,8 @@
     "color": "green"
   },
   {
-    "area": "Jumeirah Village Circle",
-    "property_type": "other",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1347,
-    "listing_count": 5,
-    "lat": null,
-    "lng": null,
-    "color": "green"
-  },
-  {
     "area": "Dubai South",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1406,
     "listing_count": 2,
@@ -71,7 +71,7 @@
   },
   {
     "area": "Jumeirah Lake Towers",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1424,
     "listing_count": 6,
@@ -81,7 +81,7 @@
   },
   {
     "area": "Dubai Science Park",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1448,
     "listing_count": 3,
@@ -91,7 +91,7 @@
   },
   {
     "area": "Dubai Science Park",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1466,
     "listing_count": 2,
@@ -101,7 +101,7 @@
   },
   {
     "area": "Jumeirah Lake Towers",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1472,
     "listing_count": 6,
@@ -111,7 +111,7 @@
   },
   {
     "area": "Dubai Marina",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 3,
     "median_price_per_sqft": 1641,
     "listing_count": 3,
@@ -121,7 +121,7 @@
   },
   {
     "area": "DAMAC Hills",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1662,
     "listing_count": 2,
@@ -131,7 +131,7 @@
   },
   {
     "area": "Jumeirah Beach Residence",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 3,
     "median_price_per_sqft": 1677,
     "listing_count": 2,
@@ -141,7 +141,7 @@
   },
   {
     "area": "Arjan",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1701,
     "listing_count": 2,
@@ -151,7 +151,7 @@
   },
   {
     "area": "Jumeirah Village Circle",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1753,
     "listing_count": 4,
@@ -161,7 +161,7 @@
   },
   {
     "area": "Business Bay",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1814,
     "listing_count": 2,
@@ -171,7 +171,7 @@
   },
   {
     "area": "Dubai Media City",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 1824,
     "listing_count": 3,
@@ -181,7 +181,7 @@
   },
   {
     "area": "Jumeirah Lake Towers",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1833,
     "listing_count": 3,
@@ -191,7 +191,7 @@
   },
   {
     "area": "Business Bay",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1834,
     "listing_count": 2,
@@ -201,7 +201,7 @@
   },
   {
     "area": "Azizi Venice",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1862,
     "listing_count": 2,
@@ -211,7 +211,7 @@
   },
   {
     "area": "Dubai Marina",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 1884,
     "listing_count": 9,
@@ -221,7 +221,7 @@
   },
   {
     "area": "Mohammed Bin Rashid City",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 4,
     "median_price_per_sqft": 1924,
     "listing_count": 2,
@@ -231,7 +231,7 @@
   },
   {
     "area": "Dubai Science Park",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 1972,
     "listing_count": 2,
@@ -241,7 +241,7 @@
   },
   {
     "area": "Business Bay",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 2007,
     "listing_count": 3,
@@ -251,7 +251,7 @@
   },
   {
     "area": "Al Jaddaf",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 2030,
     "listing_count": 2,
@@ -261,7 +261,7 @@
   },
   {
     "area": "Dubai Marina",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 2065,
     "listing_count": 6,
@@ -271,7 +271,7 @@
   },
   {
     "area": "Mohammed Bin Rashid City",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 2183,
     "listing_count": 3,
@@ -281,7 +281,7 @@
   },
   {
     "area": "Mina Rashid",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 2188,
     "listing_count": 3,
@@ -291,7 +291,7 @@
   },
   {
     "area": "Mina Rashid",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 2300,
     "listing_count": 2,
@@ -301,7 +301,7 @@
   },
   {
     "area": "Dubai Creek Harbour",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 2339,
     "listing_count": 2,
@@ -311,7 +311,7 @@
   },
   {
     "area": "Mohammed Bin Rashid City",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 2347,
     "listing_count": 3,
@@ -321,7 +321,7 @@
   },
   {
     "area": "Dubai Hills Estate",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 2555,
     "listing_count": 3,
@@ -331,7 +331,7 @@
   },
   {
     "area": "Downtown Dubai",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 2622,
     "listing_count": 2,
@@ -341,7 +341,7 @@
   },
   {
     "area": "City Walk",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 2667,
     "listing_count": 2,
@@ -351,7 +351,7 @@
   },
   {
     "area": "Palm Jumeirah",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 2,
     "median_price_per_sqft": 3139,
     "listing_count": 2,
@@ -361,7 +361,7 @@
   },
   {
     "area": "DIFC",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 3143,
     "listing_count": 3,
@@ -371,7 +371,7 @@
   },
   {
     "area": "Dubai Production City",
-    "property_type": "other",
+    "property_type": "apartment",
     "bedrooms": 1,
     "median_price_per_sqft": 15904,
     "listing_count": 2,
