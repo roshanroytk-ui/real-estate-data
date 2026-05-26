@@ -461,6 +461,8 @@ for source_data in all_soups:
 
         href = link["href"]
 
+        print(href)
+
         if "/property/details-" not in href:
             continue
 
