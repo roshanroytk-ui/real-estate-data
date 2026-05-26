@@ -269,10 +269,10 @@ for market_key, data in market_groups.items():
 
     comparable_count = len(prices)
 
-    if comparable_count < 10:
+    if comparable_count < 5:
         confidence = "Low"
 
-    elif comparable_count < 20:
+    elif comparable_count < 8:
         confidence = "Medium"
 
     else:
@@ -354,10 +354,10 @@ for market_key, data in market_groups.items():
 
     comparable_count = len(prices)
 
-    if comparable_count < 10:
+    if comparable_count < 5:
         confidence = "Low"
 
-    elif comparable_count < 20:
+    elif comparable_count < 8:
         confidence = "Medium"
 
     else:
