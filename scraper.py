@@ -250,9 +250,6 @@ for source_data in all_soups:
                     "html.parser"
                 )
 
-                print(detail_response.text[:1000])
-                break
-
                 detail_scripts = detail_soup.find_all(
                     "script",
                     type="application/ld+json"
