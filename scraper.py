@@ -398,6 +398,8 @@ for market_key, data in market_groups.items():
 
             "bedrooms": listing["bedrooms"],
 
+            "bathrooms": listing["bathrooms"],
+
             "price": round(listing["price"]),
 
             "sqft": round(sqft),
