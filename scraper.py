@@ -8,6 +8,10 @@ import random
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
+propertyfinder_base_url = (
+    "https://www.propertyfinder.ae/en/"
+    "buy/dubai/apartments-for-sale.html"
+)
 
 headers = {
     "User-Agent": (
@@ -161,6 +165,57 @@ for page in range(1, 11):
 
     all_soups.append({
         "source": "bayut",
+        "soup": soup
+    })
+
+# =========================================
+# PROPERTY FINDER
+# =========================================
+
+for page in range(1, 11):
+
+    if page == 1:
+
+        url = propertyfinder_base_url
+
+    else:
+
+        url = (
+            propertyfinder_base_url
+            + f"?page={page}"
+        )
+
+    print("PROPERTYFINDER:", url)
+
+    try:
+
+        response = session.get(
+            url,
+            timeout=20
+        )
+
+        response.raise_for_status()
+
+    except Exception as e:
+
+        print(
+            "PROPERTYFINDER Request Error:",
+            e
+        )
+
+        continue
+
+    time.sleep(2)
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    all_soups.append({
+
+        "source": "propertyfinder",
+
         "soup": soup
     })
 # LOAD AREA COORDINATES
@@ -438,7 +493,7 @@ for source_data in all_soups:
         except Exception as e:
 
             print("BHOMES Script Error:", e)
-
+"""
 # =========================================
 # BAYUT PARSER
 # =========================================
@@ -644,6 +699,8 @@ for source_data in all_soups:
         except Exception as e:
 
             print("BAYUT Script Error:", e)
+
+"""
         
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
