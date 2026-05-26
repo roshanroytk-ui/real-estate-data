@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 import random
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
-bayut_base_url = "https://www.bayut.com/for-sale/property/dubai/"
+bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
 
 headers = {
     "User-Agent": (
@@ -132,7 +132,7 @@ for page in range(1, 11):
     if page == 1:
         url = bayut_base_url
     else:
-        url = f"{bayut_base_url}?page={page}"
+        url = f"{bayut_base_url}page-{page}/"
 
     print("BAYUT:", url)
 
