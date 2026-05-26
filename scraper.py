@@ -11,6 +11,58 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
+AREA_ALIASES = {
+
+    "dubai marina": "Dubai Marina",
+
+    "jumeirah village circle": "Jumeirah Village Circle",
+
+    "downtown dubai": "Downtown Dubai",
+
+    "business bay": "Business Bay",
+
+    "dubai south": "Dubai South"
+}
+
+PROPERTY_TYPE_MAP = {
+
+    "apartment": "apartment",
+
+    "flat": "apartment",
+
+    "villa": "villa",
+
+    "townhouse": "townhouse",
+
+    "penthouse": "penthouse"
+}
+
+
+def normalize_area(area):
+
+    if not area:
+        return "Unknown"
+
+    cleaned = area.strip().lower()
+
+    return AREA_ALIASES.get(
+        cleaned,
+        area.strip().title()
+    )
+
+
+def normalize_property_type(property_type):
+
+    if not property_type:
+        return "other"
+
+    cleaned = property_type.strip().lower()
+
+    return PROPERTY_TYPE_MAP.get(
+        cleaned,
+        cleaned
+    )
+
 all_soups = []
 
 for page in range(1, 11):
@@ -45,6 +97,7 @@ coord_map = {
 
 properties = []
 seen_urls = set()
+seen_fingerprints = set()
 
 for soup in all_soups:
 
@@ -158,19 +211,46 @@ for soup in all_soups:
                                         and prop.get("name") == "Property Type"
                                     ):
 
-                                        property_type = (
+                                        property_type = normalize_property_type(
                                             prop.get("value", "other")
-                                            .lower()
-                                            .strip()
                                         )
 
                                         break
 
                                 location = detail_data.get("location", {})
 
-                                area = location.get("name")
+                                area = normalize_area(
+                                    location.get("name")
+                                )
+
+                                try:
+
+                                    fingerprint = (
+
+                                        area,
+
+                                        property_type,
+
+                                        bedrooms,
+
+                                        round(price, -4),
+
+                                        round(float(sqft), -1)
+                                    )
+
+                                except:
+                                    continue
+
+
+                                if fingerprint in seen_fingerprints:
+                                    continue
+
+                                seen_fingerprints.add(
+                                    fingerprint
+                                )
 
                                 properties.append({
+                                    "source": "bhomes",
                                     "title": title,
                                     "price": price,
                                     "currency": currency,
@@ -260,7 +340,7 @@ for market_key, data in market_groups.items():
     prices = data["prices"]
 
     # SKIP WEAK DATA
-    if len(prices) < 2:
+    if len(prices) < 5:
         continue
 
     market_median = median(prices)
@@ -290,6 +370,11 @@ for market_key, data in market_groups.items():
         color = "red"
 
     heatmap.append({
+
+        "sources": list(set(
+            listing["source"]
+            for listing in data["listings"]
+        )),
 
         "area": area,
 
@@ -389,6 +474,8 @@ for market_key, data in market_groups.items():
             color = "yellow"
 
         opportunities.append({
+
+            "source": listing["source"],
 
             "title": listing["title"],
 
