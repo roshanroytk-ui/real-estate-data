@@ -265,6 +265,15 @@ for market_key, data in market_groups.items():
 
     comparable_count = len(prices)
 
+    if comparable_count < 10:
+        confidence = "Low"
+
+    elif comparable_count < 20:
+        confidence = "Medium"
+
+    else:
+        confidence = "High"
+
     # MARKET TIER COLORING
 
     if market_median < 1500:
@@ -291,6 +300,8 @@ for market_key, data in market_groups.items():
         "listing_count": listing_count,
 
         "comparable_count": comparable_count,
+
+        "confidence": confidence,
 
         "lat": data["lat"],
         "lng": data["lng"],
@@ -336,6 +347,15 @@ for market_key, data in market_groups.items():
     market_median = median(prices)
 
     comparable_count = len(prices)
+
+    if comparable_count < 10:
+        confidence = "Low"
+
+    elif comparable_count < 20:
+        confidence = "Medium"
+
+    else:
+        confidence = "High"
 
     for listing in data["listings"]:
 
@@ -385,6 +405,8 @@ for market_key, data in market_groups.items():
             ),
 
             "comparable_count": comparable_count,
+
+            "confidence": confidence,
 
             "deviation_score": round(
                 deviation,
