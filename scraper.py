@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import time
 from statistics import median
+from datetime import datetime, timezone
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 
@@ -195,6 +196,9 @@ with open("properties.json", "w", encoding="utf-8") as f:
 
 print(f"Saved {len(properties)} properties.")
 
+
+last_updated = datetime.now(timezone.utc).isoformat()
+
 # =========================================
 # PROFESSIONAL MARKET SEGMENT ENGINE
 # =========================================
@@ -303,6 +307,8 @@ for market_key, data in market_groups.items():
 
         "confidence": confidence,
 
+        "last_updated": last_updated,
+
         "lat": data["lat"],
         "lng": data["lng"],
 
@@ -407,6 +413,8 @@ for market_key, data in market_groups.items():
             "comparable_count": comparable_count,
 
             "confidence": confidence,
+
+            "last_updated": last_updated,
 
             "deviation_score": round(
                 deviation,
