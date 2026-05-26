@@ -143,22 +143,27 @@ for soup in all_soups:
 
                                 bathrooms = detail_data.get("numberOfBathroomsTotal")
 
-                                title_lower = title.lower()
+                                property_type = "other"
 
-                                if "villa" in title_lower:
-                                    property_type = "villa"
+                                additional_properties = detail_data.get(
+                                    "additionalProperty",
+                                    []
+                                )
 
-                                elif "apartment" in title_lower:
-                                    property_type = "apartment"
+                                for prop in additional_properties:
 
-                                elif "penthouse" in title_lower:
-                                    property_type = "penthouse"
+                                    if (
+                                        isinstance(prop, dict)
+                                        and prop.get("name") == "Property Type"
+                                    ):
 
-                                elif "townhouse" in title_lower:
-                                    property_type = "townhouse"
+                                        property_type = (
+                                            prop.get("value", "other")
+                                            .lower()
+                                            .strip()
+                                        )
 
-                                else:
-                                    property_type = "other"
+                                        break
 
                                 location = detail_data.get("location", {})
 
