@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1347,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-26T15:54:28.059033+00:00",
+    "lat": 25.062724,
+    "lng": 55.208325,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Jumeirah Lake Towers",
+    "property_type": "apartment",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1414,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-26T15:54:28.059033+00:00",
+    "lat": 25.064854,
+    "lng": 55.141792,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Jumeirah Lake Towers",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1443,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-05-26T15:54:28.059033+00:00",
+    "lat": 25.064877,
+    "lng": 55.141668,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1884,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-05-26T15:54:28.059033+00:00",
+    "lat": 25.088631,
+    "lng": 55.14817,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2065,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-05-26T15:54:28.059033+00:00",
+    "lat": 25.073851,
+    "lng": 55.13691,
+    "color": "yellow"
+  }
+]
