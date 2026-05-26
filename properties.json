@@ -1,5 +1,20 @@
 [
   {
+    "source": "bhomes",
+    "title": "Fully Furnished | High Floor | Ready to Move In",
+    "price": 1630000.0,
+    "currency": "AED",
+    "area": "Jumeirah Lake Towers",
+    "lat": 25.064877,
+    "lng": 55.141668,
+    "sqft": 835.06,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "property_type": "apartment",
+    "url": "https://www.bhomes.com/en/property/bh-s-229354"
+  },
+  {
+    "source": "bhomes",
     "title": "Furnished | Lake View | Mid Floor",
     "price": 3150000.0,
     "currency": "AED",
@@ -13,19 +28,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229316"
   },
   {
-    "title": "Lake View | High Floor | Furnished",
-    "price": 3150000.0,
-    "currency": "AED",
-    "area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
-    "sqft": 1478,
-    "bedrooms": 2,
-    "bathrooms": 3,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-229311"
-  },
-  {
+    "source": "bhomes",
     "title": "Vida Branded Interior| Park View | Genuine Resale",
     "price": 1975000.0,
     "currency": "AED",
@@ -39,6 +42,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229274"
   },
   {
+    "source": "bhomes",
     "title": "Investment Opportunity | Motivated Seller |vacant",
     "price": 625000.0,
     "currency": "AED",
@@ -52,6 +56,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229271"
   },
   {
+    "source": "bhomes",
     "title": "NET ROI 6.3% | Investment | Top Location",
     "price": 2699000.0,
     "currency": "AED",
@@ -65,6 +70,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229267"
   },
   {
+    "source": "bhomes",
     "title": "Luxury Branded Residence | One&Only | Vacant Unit",
     "price": 5300000.0,
     "currency": "AED",
@@ -78,6 +84,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229260"
   },
   {
+    "source": "bhomes",
     "title": "Vacant and Ready to Move | Bright and Spacious",
     "price": 4571955.0,
     "currency": "AED",
@@ -91,6 +98,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229216"
   },
   {
+    "source": "bhomes",
     "title": "Vastu Compliant | Spacious | Vacant and Ready",
     "price": 2983997.0,
     "currency": "AED",
@@ -104,6 +112,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229213"
   },
   {
+    "source": "bhomes",
     "title": "Mid Floor | Sea View | Unfurnished",
     "price": 2304794.0,
     "currency": "AED",
@@ -117,6 +126,21 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229209"
   },
   {
+    "source": "bhomes",
+    "title": "Motivated Seller | Vacant | Upgraded | Large Type",
+    "price": 2750000.0,
+    "currency": "AED",
+    "area": "Jumeirah Beach Residence",
+    "lat": 25.081265,
+    "lng": 55.139802,
+    "sqft": 1921.57,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "property_type": "apartment",
+    "url": "https://www.bhomes.com/en/property/bh-s-229167"
+  },
+  {
+    "source": "bhomes",
     "title": "Corner Unit | Partial Marina View | Well Priced",
     "price": 3899999.0,
     "currency": "AED",
@@ -130,6 +154,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229147"
   },
   {
+    "source": "bhomes",
     "title": "Direct Park Access | Vacant Soon | Boulevard view",
     "price": 1685000.0,
     "currency": "AED",
@@ -143,6 +168,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229132"
   },
   {
+    "source": "bhomes",
     "title": "Duplex | December completion | Private Lift",
     "price": 7180000.0,
     "currency": "AED",
@@ -156,6 +182,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229126"
   },
   {
+    "source": "bhomes",
     "title": "Top Floor | Pool Facing | Ellington",
     "price": 2400000.0,
     "currency": "AED",
@@ -169,6 +196,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229056"
   },
   {
+    "source": "bhomes",
     "title": "Prime Area | Open View | High ROI | Top Picks Best",
     "price": 1350000.0,
     "currency": "AED",
@@ -182,6 +210,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229029"
   },
   {
+    "source": "bhomes",
     "title": "Bright and Spacious |Canal Views |Vacant |Upgraded",
     "price": 1800000.0,
     "currency": "AED",
@@ -195,6 +224,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-229021"
   },
   {
+    "source": "bhomes",
     "title": "Largest Layout | Terrace Apartment |Best To Invest",
     "price": 825000.0,
     "currency": "AED",
@@ -208,6 +238,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228880"
   },
   {
+    "source": "bhomes",
     "title": "Rented | High Floor | Good Size | Prime Location",
     "price": 820000.0,
     "currency": "AED",
@@ -221,19 +252,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228833"
   },
   {
-    "title": "Higher Floor | Vacant | Prime Location | Parking",
-    "price": 820000.0,
-    "currency": "AED",
-    "area": "Dubai Silicon Oasis",
-    "lat": 25.116298,
-    "lng": 55.390612,
-    "sqft": 989.96,
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-228831"
-  },
-  {
+    "source": "bhomes",
     "title": "Vacant | High Floor | No Balcony | Prime Location",
     "price": 425000.0,
     "currency": "AED",
@@ -247,6 +266,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228829"
   },
   {
+    "source": "bhomes",
     "title": "Off-plan Resale | Below OP | Motivated Seller",
     "price": 1595000.0,
     "currency": "AED",
@@ -260,6 +280,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228828"
   },
   {
+    "source": "bhomes",
     "title": "Sea View | Vacant Soon | High Yield | Seller Keen",
     "price": 1275000.0,
     "currency": "AED",
@@ -273,6 +294,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228794"
   },
   {
+    "source": "bhomes",
     "title": "Rented | High Floor | Well Maintained | Layout",
     "price": 600000.0,
     "currency": "AED",
@@ -286,6 +308,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228791"
   },
   {
+    "source": "bhomes",
     "title": "Rented | High Flr | Spacious 1br | Well maintained",
     "price": 610000.0,
     "currency": "AED",
@@ -299,6 +322,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228786"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive | Fully Upgraded D-Type | Full Sea View",
     "price": 6100000.0,
     "currency": "AED",
@@ -312,6 +336,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228772"
   },
   {
+    "source": "bhomes",
     "title": "Waterfront Living | Premium Pool View | Spacious",
     "price": 2500000.0,
     "currency": "AED",
@@ -325,10 +350,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228665"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive | Unobstructed Sea Views | Rare Position",
     "price": 12000000.0,
     "currency": "AED",
-    "area": "EMAAR Beachfront",
+    "area": "Emaar Beachfront",
     "lat": 25.096467,
     "lng": 55.137719,
     "sqft": 1828.89,
@@ -338,6 +364,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228559"
   },
   {
+    "source": "bhomes",
     "title": "Brand New | Mid Floor | Green Community | Vacant",
     "price": 2200000.0,
     "currency": "AED",
@@ -351,6 +378,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228556"
   },
   {
+    "source": "bhomes",
     "title": "Converted | Full Golf Course View | with Balcony",
     "price": 5400000.0,
     "currency": "AED",
@@ -364,6 +392,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228538"
   },
   {
+    "source": "bhomes",
     "title": "Fully Renovated | 2 Parkings |Private Beach Access",
     "price": 4350000.0,
     "currency": "AED",
@@ -377,6 +406,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228479"
   },
   {
+    "source": "bhomes",
     "title": "HIGH FLOOR | FULLY FURNISHED | VOT",
     "price": 1450000.0,
     "currency": "AED",
@@ -390,6 +420,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228476"
   },
   {
+    "source": "bhomes",
     "title": "1 Bed With Study - Payment plan - Furnished",
     "price": 1205900.0,
     "currency": "AED",
@@ -403,6 +434,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228473"
   },
   {
+    "source": "bhomes",
     "title": "Multiple Units Available |Prime Location |High ROI",
     "price": 1254000.0,
     "currency": "AED",
@@ -416,6 +448,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228433"
   },
   {
+    "source": "bhomes",
     "title": "Sunset View | Fully Furnished | Best Amenities",
     "price": 2100000.0,
     "currency": "AED",
@@ -429,6 +462,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228410"
   },
   {
+    "source": "bhomes",
     "title": "Bright and Spacious |High ROI |Handover April 2027",
     "price": 2265000.0,
     "currency": "AED",
@@ -442,6 +476,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228405"
   },
   {
+    "source": "bhomes",
     "title": "Genuine resale | Pool & Water View | Corner Unit",
     "price": 3500000.0,
     "currency": "AED",
@@ -455,6 +490,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228403"
   },
   {
+    "source": "bhomes",
     "title": "Pool View | Big Layout | 3 Years Payment Plan",
     "price": 1625000.0,
     "currency": "AED",
@@ -468,6 +504,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228400"
   },
   {
+    "source": "bhomes",
     "title": "Vacant Now | Maids Room | Vastu | 2 En-suite Bath",
     "price": 1900000.0,
     "currency": "AED",
@@ -481,6 +518,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228389"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | Brand New | Community View",
     "price": 690000.0,
     "currency": "AED",
@@ -494,6 +532,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228380"
   },
   {
+    "source": "bhomes",
     "title": "Large Layout | Vacant | Maids + Study",
     "price": 2900000.0,
     "currency": "AED",
@@ -507,6 +546,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228339"
   },
   {
+    "source": "bhomes",
     "title": "Fully Furnished | High Floor | Vacating Soon",
     "price": 1150000.0,
     "currency": "AED",
@@ -520,6 +560,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228335"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | Open Unobstructed Views | Spacious",
     "price": 2300000.0,
     "currency": "AED",
@@ -533,6 +574,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228321"
   },
   {
+    "source": "bhomes",
     "title": "PLUS STUDY | CONVERTIBLE  | VACANT",
     "price": 2625000.0,
     "currency": "AED",
@@ -546,6 +588,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228319"
   },
   {
+    "source": "bhomes",
     "title": "Rented | Furnished | High Floor | Lagoon view",
     "price": 1300000.0,
     "currency": "AED",
@@ -559,6 +602,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228295"
   },
   {
+    "source": "bhomes",
     "title": "Pool View | Prime Location | Payment Plan",
     "price": 820000.0,
     "currency": "AED",
@@ -572,6 +616,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228279"
   },
   {
+    "source": "bhomes",
     "title": "Below OP | Near Handover | Strong ROI Upside",
     "price": 765000.0,
     "currency": "AED",
@@ -585,6 +630,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228270"
   },
   {
+    "source": "bhomes",
     "title": "2 BR | Furnished | Vacant | Modern design",
     "price": 1650000.0,
     "currency": "AED",
@@ -598,6 +644,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228267"
   },
   {
+    "source": "bhomes",
     "title": "Fully Upgraded + Furnished | Pool View | VOT",
     "price": 2300000.0,
     "currency": "AED",
@@ -611,6 +658,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228263"
   },
   {
+    "source": "bhomes",
     "title": "Full Marina View  | Upgraded | Vacant",
     "price": 3400000.0,
     "currency": "AED",
@@ -624,6 +672,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228260"
   },
   {
+    "source": "bhomes",
     "title": "Motivated Seller | High Floor | Partially Upgraded",
     "price": 1090000.0,
     "currency": "AED",
@@ -637,6 +686,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228237"
   },
   {
+    "source": "bhomes",
     "title": "Furnished 2BR | Sea View | Chiller Free | Vacant",
     "price": 3700000.0,
     "currency": "AED",
@@ -650,6 +700,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228233"
   },
   {
+    "source": "bhomes",
     "title": "Investor Deal | Luxury 1BR Waterfront Living",
     "price": 1730000.0,
     "currency": "AED",
@@ -663,6 +714,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228178"
   },
   {
+    "source": "bhomes",
     "title": "Great Access | Furnished | Investment",
     "price": 2250000.0,
     "currency": "AED",
@@ -676,6 +728,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228172"
   },
   {
+    "source": "bhomes",
     "title": "Rented | Lake view | Mid Floor | Well Maintained",
     "price": 1249999.0,
     "currency": "AED",
@@ -689,6 +742,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228152"
   },
   {
+    "source": "bhomes",
     "title": "Urgent Sale | Private Pool | Ready Dec 2026",
     "price": 1198999.0,
     "currency": "AED",
@@ -702,6 +756,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228138"
   },
   {
+    "source": "bhomes",
     "title": "Panoramic Sea Views | Premium Finishes| High Floor",
     "price": 18500000.0,
     "currency": "AED",
@@ -715,6 +770,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228106"
   },
   {
+    "source": "bhomes",
     "title": "The Signature | Vacant Now | Near Burj Khalifa",
     "price": 2400000.0,
     "currency": "AED",
@@ -728,6 +784,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228071"
   },
   {
+    "source": "bhomes",
     "title": "Luxury High-Floor |  Duplex Residence",
     "price": 850000.0,
     "currency": "AED",
@@ -741,6 +798,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228012"
   },
   {
+    "source": "bhomes",
     "title": "Prime Location | Investment | Modern Tower",
     "price": 1600000.0,
     "currency": "AED",
@@ -754,6 +812,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228009"
   },
   {
+    "source": "bhomes",
     "title": "3 Years Payment Plan | Ready April 2027 | High ROI",
     "price": 1690000.0,
     "currency": "AED",
@@ -767,6 +826,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228007"
   },
   {
+    "source": "bhomes",
     "title": "Sky-High | Terrace Living | Upgraded Elegance",
     "price": 1300000.0,
     "currency": "AED",
@@ -780,6 +840,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228004"
   },
   {
+    "source": "bhomes",
     "title": "Perfect Investment | High Floor | Vacant",
     "price": 2150000.0,
     "currency": "AED",
@@ -793,6 +854,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228001"
   },
   {
+    "source": "bhomes",
     "title": "Vacant | Fully Furnished | Pool + Marina View",
     "price": 1900000.0,
     "currency": "AED",
@@ -806,6 +868,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227992"
   },
   {
+    "source": "bhomes",
     "title": "Modern Architecture | Prime Location | High ROI",
     "price": 2500000.0,
     "currency": "AED",
@@ -819,6 +882,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227981"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | OP | 0.5% Post Handover 5/y |",
     "price": 1160000.0,
     "currency": "AED",
@@ -832,6 +896,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227975"
   },
   {
+    "source": "bhomes",
     "title": "High ROI | Rented | Furnished 2BR | Growth Area",
     "price": 1250000.0,
     "currency": "AED",
@@ -845,6 +910,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227971"
   },
   {
+    "source": "bhomes",
     "title": "Luxury Waterfront Living | Sobha Waves Opulence",
     "price": 3000000.0,
     "currency": "AED",
@@ -858,6 +924,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227970"
   },
   {
+    "source": "bhomes",
     "title": "Fully Renovated | Large Layout | Exclusive",
     "price": 5650000.0,
     "currency": "AED",
@@ -871,6 +938,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227952"
   },
   {
+    "source": "bhomes",
     "title": "Fully Furnished |High Floor |Golf N Canal Views",
     "price": 1299000.0,
     "currency": "AED",
@@ -884,10 +952,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227947"
   },
   {
+    "source": "bhomes",
     "title": "Rare Size | High ROI | Exclusive",
     "price": 3100000.0,
     "currency": "AED",
-    "area": "CityWalk Residential",
+    "area": "Citywalk Residential",
     "lat": 25.201392,
     "lng": 55.264312,
     "sqft": 1367.23,
@@ -897,6 +966,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227942"
   },
   {
+    "source": "bhomes",
     "title": "Genuine Resale | Sea View | OP | Premium Amenities",
     "price": 5900000.0,
     "currency": "AED",
@@ -910,6 +980,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227934"
   },
   {
+    "source": "bhomes",
     "title": "Largest Layout | Marina View | Higher Floor",
     "price": 1750000.0,
     "currency": "AED",
@@ -923,6 +994,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227918"
   },
   {
+    "source": "bhomes",
     "title": "Largest layout | Open views | Investor's deal",
     "price": 1460000.0,
     "currency": "AED",
@@ -936,6 +1008,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227899"
   },
   {
+    "source": "bhomes",
     "title": "Large 1BR Layout | Unfurnished | Pool View",
     "price": 3200000.0,
     "currency": "AED",
@@ -949,6 +1022,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227862"
   },
   {
+    "source": "bhomes",
     "title": "Vacant | Burj Khalifa View | Investor Deal",
     "price": 1350000.0,
     "currency": "AED",
@@ -962,6 +1036,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227857"
   },
   {
+    "source": "bhomes",
     "title": "Vacant I Upgraded | Private Beach | High Floor",
     "price": 3195000.0,
     "currency": "AED",
@@ -975,6 +1050,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227855"
   },
   {
+    "source": "bhomes",
     "title": "Full Marina View | Furnished | Vacant on Transfer",
     "price": 1750000.0,
     "currency": "AED",
@@ -988,6 +1064,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227817"
   },
   {
+    "source": "bhomes",
     "title": "Fully Vastu | Full Lake View | Vacant on Transfer",
     "price": 2950000.0,
     "currency": "AED",
@@ -1001,6 +1078,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227796"
   },
   {
+    "source": "bhomes",
     "title": "Butterfly Layout | Park View | Motivated Seller",
     "price": 1485000.0,
     "currency": "AED",
@@ -1014,6 +1092,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227735"
   },
   {
+    "source": "bhomes",
     "title": "Converted | Park Views | High Floor | VOT",
     "price": 1685000.0,
     "currency": "AED",
@@ -1027,6 +1106,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227734"
   },
   {
+    "source": "bhomes",
     "title": "Brand New | Prime Location | Freehold Opportunity",
     "price": 1400000.0,
     "currency": "AED",
@@ -1040,6 +1120,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227710"
   },
   {
+    "source": "bhomes",
     "title": "Open View | Fitted Kitchen | Rented | High ROI",
     "price": 870000.0,
     "currency": "AED",
@@ -1053,6 +1134,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227699"
   },
   {
+    "source": "bhomes",
     "title": "Motivated Seller | Handover 2027 | Payment Plan",
     "price": 1260000.0,
     "currency": "AED",
@@ -1066,6 +1148,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227675"
   },
   {
+    "source": "bhomes",
     "title": "Cheapest unit | Vacant | Unfurnished",
     "price": 1480000.0,
     "currency": "AED",
@@ -1079,6 +1162,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227670"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | Tenanted | Exclusive | Skyline Views",
     "price": 430000.0,
     "currency": "AED",
@@ -1092,6 +1176,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227653"
   },
   {
+    "source": "bhomes",
     "title": "Great Investment | Premium Amenites |Good Location",
     "price": 1600000.0,
     "currency": "AED",
@@ -1105,6 +1190,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227638"
   },
   {
+    "source": "bhomes",
     "title": "Premium Creek View | Spacious Modern Layout",
     "price": 2250000.0,
     "currency": "AED",
@@ -1118,6 +1204,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227615"
   },
   {
+    "source": "bhomes",
     "title": "Furnished | Study | Balcony |Vacant",
     "price": 1250000.0,
     "currency": "AED",
@@ -1131,6 +1218,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227608"
   },
   {
+    "source": "bhomes",
     "title": "High Return | Higher Floor | High Quality | 50% PD",
     "price": 960000.0,
     "currency": "AED",
@@ -1144,6 +1232,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227595"
   },
   {
+    "source": "bhomes",
     "title": "Hot Deal Marina Heights | High ROI | 2 Parking",
     "price": 1990000.0,
     "currency": "AED",
@@ -1157,6 +1246,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227573"
   },
   {
+    "source": "bhomes",
     "title": "Upgraded Duplex | Lake & Skyline View | Vacant",
     "price": 4750000.0,
     "currency": "AED",
@@ -1170,10 +1260,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227561"
   },
   {
+    "source": "bhomes",
     "title": "Golf Course View | Furnished | Vacant",
     "price": 1600000.0,
     "currency": "AED",
-    "area": "DAMAC Hills",
+    "area": "Damac Hills",
     "lat": 25.019165,
     "lng": 55.246047,
     "sqft": 1281,
@@ -1183,6 +1274,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227547"
   },
   {
+    "source": "bhomes",
     "title": "Spacious Layout | Open View | Vacant",
     "price": 1300000.0,
     "currency": "AED",
@@ -1196,6 +1288,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227543"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive | 965 sq ft | High Floor | Vacant",
     "price": 1300000.0,
     "currency": "AED",
@@ -1209,6 +1302,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227527"
   },
   {
+    "source": "bhomes",
     "title": "Investment Chance | Spacious Layout | High Floor",
     "price": 2740000.0,
     "currency": "AED",
@@ -1222,6 +1316,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227518"
   },
   {
+    "source": "bhomes",
     "title": "Investors Opportunity | Spacious Layout | 65% Paid",
     "price": 2800000.0,
     "currency": "AED",
@@ -1235,10 +1330,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227515"
   },
   {
+    "source": "bhomes",
     "title": "Investor Deal | Prime | Vacant | Great Layout",
     "price": 1900000.0,
     "currency": "AED",
-    "area": "DIFC",
+    "area": "Difc",
     "lat": 25.212088,
     "lng": 55.282761,
     "sqft": 781.14,
@@ -1248,6 +1344,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227493"
   },
   {
+    "source": "bhomes",
     "title": "Sub-1M | 9% Guaranteed ROI | Zero Management",
     "price": 970000.0,
     "currency": "AED",
@@ -1261,6 +1358,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227467"
   },
   {
+    "source": "bhomes",
     "title": "21 Units | 9% ROI Guaranteed | Prime Location",
     "price": 20500000.0,
     "currency": "AED",
@@ -1274,6 +1372,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227464"
   },
   {
+    "source": "bhomes",
     "title": "Full Park View | Chiller Free | Great Deal",
     "price": 1675000.0,
     "currency": "AED",
@@ -1287,6 +1386,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227420"
   },
   {
+    "source": "bhomes",
     "title": "Canal and Pool Views | Stunningly Modernized",
     "price": 1480000.0,
     "currency": "AED",
@@ -1300,6 +1400,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227414"
   },
   {
+    "source": "bhomes",
     "title": "Handover Soon | Motivated Seller  | Open Views",
     "price": 840000.0,
     "currency": "AED",
@@ -1313,10 +1414,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227394"
   },
   {
+    "source": "bhomes",
     "title": "Well Maintained | Rented | Mid Floor",
     "price": 1100000.0,
     "currency": "AED",
-    "area": "DAMAC Hills",
+    "area": "Damac Hills",
     "lat": 25.02453,
     "lng": 55.243196,
     "sqft": 767.36,
@@ -1326,6 +1428,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227385"
   },
   {
+    "source": "bhomes",
     "title": "Vacant | Ready To Move In | Higher Floor | Bright.",
     "price": 820000.0,
     "currency": "AED",
@@ -1339,6 +1442,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227372"
   },
   {
+    "source": "bhomes",
     "title": "Luxury 2BR Aprt | High Growth Area | Dubai South",
     "price": 1850000.0,
     "currency": "AED",
@@ -1352,6 +1456,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227348"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive | Ultra Luxury | Smart Home",
     "price": 11000000.0,
     "currency": "AED",
@@ -1365,6 +1470,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227320"
   },
   {
+    "source": "bhomes",
     "title": "Your New Home Awaits | Furnished | Near Downtown",
     "price": 825000.0,
     "currency": "AED",
@@ -1378,6 +1484,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227273"
   },
   {
+    "source": "bhomes",
     "title": "Keys in hand |High Floor |Marina View| Best Layout",
     "price": 1695000.0,
     "currency": "AED",
@@ -1391,6 +1498,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227268"
   },
   {
+    "source": "bhomes",
     "title": "Brand New | Best Layout | Never Occupied",
     "price": 2875000.0,
     "currency": "AED",
@@ -1404,6 +1512,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227240"
   },
   {
+    "source": "bhomes",
     "title": "Priced To Sell | Payment Plan | Semi Furnished",
     "price": 870000.0,
     "currency": "AED",
@@ -1417,6 +1526,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227231"
   },
   {
+    "source": "bhomes",
     "title": "Vacant Now | Multiple Options Available | Spacious",
     "price": 3051725.0,
     "currency": "AED",
@@ -1430,6 +1540,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227215"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive|  High floor|  closed kitchen| car Park",
     "price": 750000.0,
     "currency": "AED",
@@ -1443,6 +1554,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227197"
   },
   {
+    "source": "bhomes",
     "title": "Spacious | Rented | High Flr| Marina Skyline View",
     "price": 975000.0,
     "currency": "AED",
@@ -1456,6 +1568,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227194"
   },
   {
+    "source": "bhomes",
     "title": "Investor Deal| close to handover| park view",
     "price": 650000.0,
     "currency": "AED",
@@ -1469,6 +1582,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227143"
   },
   {
+    "source": "bhomes",
     "title": "Motivated sellle | High floor|partial lagoon view",
     "price": 670000.0,
     "currency": "AED",
@@ -1482,10 +1596,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227140"
   },
   {
+    "source": "bhomes",
     "title": "Open for Offers | DIFC View | Vacant on Transfer",
     "price": 2800000.0,
     "currency": "AED",
-    "area": "DIFC",
+    "area": "Difc",
     "lat": -77.53773,
     "lng": 40.1149,
     "sqft": 891,
@@ -1495,10 +1610,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227109"
   },
   {
+    "source": "bhomes",
     "title": "Golf View | Brand New Building | Fully  Furnished",
     "price": 1200000.0,
     "currency": "AED",
-    "area": "DAMAC Hills",
+    "area": "Damac Hills",
     "lat": 25.022166,
     "lng": 55.242781,
     "sqft": 634.75,
@@ -1508,6 +1624,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227103"
   },
   {
+    "source": "bhomes",
     "title": "Rented | Mid Floor | Community View | Balcony",
     "price": 3600000.0,
     "currency": "AED",
@@ -1521,6 +1638,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227064"
   },
   {
+    "source": "bhomes",
     "title": "Double Master Bedroom | Twin Balcony | Motivated Seller",
     "price": 1450000.0,
     "currency": "AED",
@@ -1534,6 +1652,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227062"
   },
   {
+    "source": "bhomes",
     "title": "Lake View | high Floor | Close to Metro | Balcony",
     "price": 1150000.0,
     "currency": "AED",
@@ -1547,6 +1666,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227061"
   },
   {
+    "source": "bhomes",
     "title": "Exclusive & Luxury | Green Sanctuary | DLRC",
     "price": 1003778.0,
     "currency": "AED",
@@ -1560,6 +1680,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227048"
   },
   {
+    "source": "bhomes",
     "title": "High Rent | Pool and Park view | Spacious layout",
     "price": 3650000.0,
     "currency": "AED",
@@ -1573,6 +1694,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227035"
   },
   {
+    "source": "bhomes",
     "title": "High ROI | Prime Location | Beach Access | Q4 2026",
     "price": 915000.0,
     "currency": "AED",
@@ -1586,10 +1708,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-227009"
   },
   {
+    "source": "bhomes",
     "title": "Golf course view | Upgraded | VOT | Unfurnished",
     "price": 1174999.0,
     "currency": "AED",
-    "area": "EMAAR South",
+    "area": "Emaar South",
     "lat": 24.849837,
     "lng": 55.136243,
     "sqft": 655.74,
@@ -1599,6 +1722,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226994"
   },
   {
+    "source": "bhomes",
     "title": "Vacant | Lake view | Mid floor | Well maintained",
     "price": 1850000.0,
     "currency": "AED",
@@ -1612,6 +1736,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226981"
   },
   {
+    "source": "bhomes",
     "title": "Marina View | High Floor | Vacant | Next to Metro",
     "price": 1350000.0,
     "currency": "AED",
@@ -1625,6 +1750,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226948"
   },
   {
+    "source": "bhomes",
     "title": "Investor Deal | High Floor | Motivated Seller",
     "price": 650000.0,
     "currency": "AED",
@@ -1638,6 +1764,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226916"
   },
   {
+    "source": "bhomes",
     "title": "Low Floor | Private Pool | Open Plan Living",
     "price": 890000.0,
     "currency": "AED",
@@ -1651,6 +1778,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226895"
   },
   {
+    "source": "bhomes",
     "title": "Vacant | Upgraded | Canal VIew",
     "price": 2750000.0,
     "currency": "AED",
@@ -1664,6 +1792,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226889"
   },
   {
+    "source": "bhomes",
     "title": "With Parking | Rented | Pool View",
     "price": 420000.0,
     "currency": "AED",
@@ -1677,6 +1806,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226887"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | Dubai Skyline View | Fully Furnished",
     "price": 1800000.0,
     "currency": "AED",
@@ -1690,6 +1820,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226882"
   },
   {
+    "source": "bhomes",
     "title": "Brand New | Move In Ready | Furnished | Near Metro",
     "price": 1650000.0,
     "currency": "AED",
@@ -1703,6 +1834,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226858"
   },
   {
+    "source": "bhomes",
     "title": "Canal view | Vacant | Upgraded",
     "price": 2700000.0,
     "currency": "AED",
@@ -1716,6 +1848,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226819"
   },
   {
+    "source": "bhomes",
     "title": "Park view | Best Layout | Balcony | Investment Apt",
     "price": 1150000.0,
     "currency": "AED",
@@ -1729,6 +1862,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226815"
   },
   {
+    "source": "bhomes",
     "title": "Studio | Fully Furnished | Biggest Layout",
     "price": 900000.0,
     "currency": "AED",
@@ -1742,6 +1876,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226773"
   },
   {
+    "source": "bhomes",
     "title": "Full Sea View | Dubai Islands | 2BR+Maid Prime",
     "price": 2850000.0,
     "currency": "AED",
@@ -1755,10 +1890,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226729"
   },
   {
+    "source": "bhomes",
     "title": "High ROI | 60-40 PP | Lake view",
     "price": 1330000.0,
     "currency": "AED",
-    "area": "Falcon City of Wonders",
+    "area": "Falcon City Of Wonders",
     "lat": 25.095587,
     "lng": 55.337706,
     "sqft": 772.31,
@@ -1768,6 +1904,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226721"
   },
   {
+    "source": "bhomes",
     "title": "Waterfront | Emaar Community | Prime Location",
     "price": 1850000.0,
     "currency": "AED",
@@ -1781,6 +1918,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226709"
   },
   {
+    "source": "bhomes",
     "title": "Vacating Soon | G+1 Layout | Duplex | Luxurious.",
     "price": 2200000.0,
     "currency": "AED",
@@ -1794,6 +1932,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226672"
   },
   {
+    "source": "bhomes",
     "title": "Fully Upgraded 3BR+ Maid |Rented | Balcony",
     "price": 3100000.0,
     "currency": "AED",
@@ -1807,6 +1946,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226669"
   },
   {
+    "source": "bhomes",
     "title": "Fully Upgraded 3BR+Maid | Rented | JBR Living",
     "price": 3100000.0,
     "currency": "AED",
@@ -1820,6 +1960,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226667"
   },
   {
+    "source": "bhomes",
     "title": "Furnished | Upgraded | Big Layout | Mid Floor",
     "price": 1400000.0,
     "currency": "AED",
@@ -1833,6 +1974,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226601"
   },
   {
+    "source": "bhomes",
     "title": "High Floor | Sea Views | Palm Lifestyle",
     "price": 3700000.0,
     "currency": "AED",
@@ -1846,6 +1988,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226596"
   },
   {
+    "source": "bhomes",
     "title": "Handover in 90 Days | Secure Now and Move Soon",
     "price": 900000.0,
     "currency": "AED",
@@ -1859,6 +2002,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226547"
   },
   {
+    "source": "bhomes",
     "title": "Modern & Premium Living | Near Miracle Garden",
     "price": 620000.0,
     "currency": "AED",
@@ -1872,6 +2016,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226540"
   },
   {
+    "source": "bhomes",
     "title": "Spacious 3 Bedroom | Vacant on Transfer",
     "price": 2600000.0,
     "currency": "AED",
@@ -1885,6 +2030,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226534"
   },
   {
+    "source": "bhomes",
     "title": "Fully Furnished | Best Price | Immediate Income",
     "price": 1900000.0,
     "currency": "AED",
@@ -1898,6 +2044,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226489"
   },
   {
+    "source": "bhomes",
     "title": "Motivated Seller | Leasehold | Investor Deal",
     "price": 445000.0,
     "currency": "AED",
@@ -1911,6 +2058,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226487"
   },
   {
+    "source": "bhomes",
     "title": "Full Sea view | Palm View | High Floor | Vacant",
     "price": 1450000.0,
     "currency": "AED",
@@ -1924,6 +2072,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226486"
   },
   {
+    "source": "bhomes",
     "title": "Spacious | Investor Deal | Motivated Seller",
     "price": 545000.0,
     "currency": "AED",
@@ -1937,6 +2086,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226385"
   },
   {
+    "source": "bhomes",
     "title": "Upcoming | Luxurious | Sea View | Branded",
     "price": 8600000.0,
     "currency": "AED",
@@ -1950,6 +2100,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226382"
   },
   {
+    "source": "bhomes",
     "title": "Luxury Branded  Studio | High Floor | Furnished",
     "price": 1100000.0,
     "currency": "AED",
@@ -1963,6 +2114,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226280"
   },
   {
+    "source": "bhomes",
     "title": "Modern & Luxury Living | Near Al Maktoum Airport",
     "price": 1200000.0,
     "currency": "AED",
@@ -1976,6 +2128,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226279"
   },
   {
+    "source": "bhomes",
     "title": "HIGH FLOOR | SELLING AT OP | MOTIVATED SELLER",
     "price": 4357999.0,
     "currency": "AED",
@@ -1989,10 +2142,11 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226275"
   },
   {
+    "source": "bhomes",
     "title": "Prime Investment | BK Views | Highest ROI",
     "price": 2800000.0,
     "currency": "AED",
-    "area": "DIFC",
+    "area": "Difc",
     "lat": 25.207958,
     "lng": 55.277925,
     "sqft": 884,
@@ -2002,6 +2156,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226231"
   },
   {
+    "source": "bhomes",
     "title": "10% Below OP | Genuine Resale | Motivated Seller",
     "price": 1300000.0,
     "currency": "AED",
@@ -2015,6 +2170,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226184"
   },
   {
+    "source": "bhomes",
     "title": "Burj Khalifa View | High Floor | Dubai Mall Access",
     "price": 4900000.0,
     "currency": "AED",
@@ -2028,6 +2184,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226182"
   },
   {
+    "source": "bhomes",
     "title": "Urgent Sale | Below Original Price | Must Sell",
     "price": 1150000.0,
     "currency": "AED",
@@ -2041,6 +2198,7 @@
     "url": "https://www.bhomes.com/en/property/bh-s-226163"
   },
   {
+    "source": "bhomes",
     "title": "Pool View | Larger Unit | Vacant Soon",
     "price": 1385000.0,
     "currency": "AED",
@@ -2052,31 +2210,5 @@
     "bathrooms": 2,
     "property_type": "apartment",
     "url": "https://www.bhomes.com/en/property/bh-s-226159"
-  },
-  {
-    "title": "Large Unit | 2 Full bathrooms | Vacant",
-    "price": 900000.0,
-    "currency": "AED",
-    "area": "Jumeirah Village Circle",
-    "lat": 25.068608,
-    "lng": 55.207423,
-    "sqft": 885,
-    "bedrooms": 1,
-    "bathrooms": 2,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-226155"
-  },
-  {
-    "title": "Leasehold | Pool view | Rented",
-    "price": 560000.0,
-    "currency": "AED",
-    "area": "Dubai Silicon Oasis",
-    "lat": 25.116298,
-    "lng": 55.390612,
-    "sqft": 825.91,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-226145"
   }
 ]
