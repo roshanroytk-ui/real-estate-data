@@ -720,9 +720,6 @@ for source_data in all_soups:
         type="application/ld+json"
     )
 
-    print(soup.prettify()[:5000])
-    break
-
     for script in scripts:
 
         try:
@@ -734,13 +731,18 @@ for source_data in all_soups:
                 script.string
             )
 
-            if (
-                not isinstance(data, dict)
-                or data.get("@type") != "ItemList"
-            ):
+            if not isinstance(data, dict):
                 continue
 
-            items = data.get(
+            item_list = data.get(
+                "accessModeSufficient",
+                {}
+            )
+
+            if item_list.get("@type") != "ItemList":
+                continue
+
+            items = item_list.get(
                 "itemListElement",
                 []
             )
@@ -748,7 +750,7 @@ for source_data in all_soups:
             for listing_item in items:
 
                 listing = listing_item.get(
-                    "item",
+                    "mainEntity",
                     {}
                 )
 
@@ -773,19 +775,26 @@ for source_data in all_soups:
 
                 offers = listing.get(
                     "offers",
-                    {}
+                    []
                 )
 
                 try:
 
+                    offer = offers[0]
+
+                    price_spec = offer.get(
+                        "priceSpecification",
+                        {}
+                    )
+
                     price = float(
-                        offers.get("price")
+                        price_spec.get("price")
                     )
 
                 except:
                     continue
 
-                currency = offers.get(
+                currency = price_spec.get(
                     "priceCurrency",
                     "AED"
                 )
