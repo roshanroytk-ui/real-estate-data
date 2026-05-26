@@ -453,192 +453,194 @@ for source_data in all_soups:
 
     soup = source_data["soup"]
 
-    links = soup.find_all("a", href=True)
+    scripts = soup.find_all(
+        "script",
+        type="application/ld+json"
+    )
 
-    page_seen_links = set()
-
-    for link in links:
-
-        href = link["href"]
-
-        print(href)
-
-        if "/property/details-" not in href:
-            continue
-
-        property_url = href
-
-        if property_url in page_seen_links:
-            continue
-
-        page_seen_links.add(property_url)
-
-        if property_url.startswith("/"):
-
-            property_url = (
-                "https://www.bayut.com"
-                + property_url
-            )
-
-        if property_url in seen_urls:
-            continue
-
-        seen_urls.add(property_url)
+    for script in scripts:
 
         try:
 
-            detail_response = session.get(
-                property_url,
-                headers=headers,
-                timeout=20
-            )
+            if not script.string:
+                continue
 
-            time.sleep(3)
+            data = json.loads(script.string)
+
+            if not isinstance(data, dict):
+                continue
+
+            graph = data.get("@graph", [])
+
+            for item in graph:
+
+                main_entity = item.get("mainEntity")
+
+                if not main_entity:
+                    continue
+
+                item_list = main_entity.get(
+                    "itemListElement",
+                    []
+                )
+
+                for listing_item in item_list:
+
+                    listing = listing_item.get(
+                        "item",
+                        {}
+                    )
+
+                    if (
+                        listing.get("@type")
+                        != "RealEstateListing"
+                    ):
+                        continue
+
+                    property_url = listing.get("url")
+
+                    if not property_url:
+                        continue
+
+                    if property_url in seen_urls:
+                        continue
+
+                    seen_urls.add(property_url)
+
+                    main = listing.get(
+                        "mainEntity",
+                        {}
+                    )
+
+                    title = main.get(
+                        "description",
+                        "Unknown"
+                    )
+
+                    price = main.get("price")
+
+                    try:
+                        price = float(price)
+                    except:
+                        continue
+
+                    currency = main.get(
+                        "priceCurrency",
+                        "AED"
+                    )
+
+                    geo = main.get(
+                        "geo",
+                        {}
+                    )
+
+                    lat = geo.get("latitude")
+                    lng = geo.get("longitude")
+
+                    address = main.get(
+                        "address",
+                        {}
+                    )
+
+                    area = normalize_area(
+                        address.get(
+                            "addressLocality",
+                            "Unknown"
+                        )
+                    )
+
+                    floor_size = main.get(
+                        "floorSize",
+                        {}
+                    )
+
+                    sqft = floor_size.get("value")
+
+                    try:
+                        sqft = (
+                            str(sqft)
+                            .replace(",", "")
+                        )
+
+                        sqft = float(sqft)
+
+                    except:
+                        continue
+
+                    bedrooms = main.get(
+                        "numberOfBedrooms",
+                        0
+                    )
+
+                    try:
+                        bedrooms = int(bedrooms)
+                    except:
+                        bedrooms = 0
+
+                    bathrooms = main.get(
+                        "numberOfBathroomsTotal"
+                    )
+
+                    property_type = normalize_property_type(
+                        main.get(
+                            "accommodationCategory",
+                            "other"
+                        )
+                    )
+
+                    if (
+                        (not lat or not lng)
+                        and area in coord_map
+                    ):
+
+                        lat = coord_map[area]["lat"]
+                        lng = coord_map[area]["lng"]
+
+                    fingerprint = (
+                        area,
+                        property_type,
+                        bedrooms,
+                        round(price, -4),
+                        round(sqft, -1)
+                    )
+
+                    if fingerprint in seen_fingerprints:
+                        continue
+
+                    seen_fingerprints.add(
+                        fingerprint
+                    )
+
+                    properties.append({
+
+                        "source": "bayut",
+
+                        "title": title,
+
+                        "price": price,
+
+                        "currency": currency,
+
+                        "area": area,
+
+                        "lat": lat,
+
+                        "lng": lng,
+
+                        "sqft": sqft,
+
+                        "bedrooms": bedrooms,
+
+                        "bathrooms": bathrooms,
+
+                        "property_type": property_type,
+
+                        "url": property_url
+                    })
 
         except Exception as e:
 
-            print("BAYUT Request Error:", e)
-
-            continue
-
-        detail_soup = BeautifulSoup(
-            detail_response.text,
-            "html.parser"
-        )
-
-        scripts = detail_soup.find_all("script")
-
-        for script in scripts:
-
-            try:
-
-                if not script.string:
-                    continue
-
-                text = script.string
-
-                if "property_price" not in text:
-                    continue
-
-                start = text.find("push(")
-
-                end = text.rfind(")")
-
-                if start == -1 or end == -1:
-                    continue
-
-                json_text = text[
-                    start + 5:end
-                ]
-
-                data = json.loads(json_text)
-
-                price = float(
-                    data.get("property_price", 0)
-                )
-
-                if not price:
-                    continue
-
-                bedrooms = 0
-
-                beds = data.get(
-                    "property_beds_list",
-                    []
-                )
-
-                if beds:
-                    bedrooms = int(beds[0])
-
-                bathrooms = None
-
-                baths = data.get(
-                    "property_baths_list",
-                    []
-                )
-
-                if baths:
-                    bathrooms = baths[0]
-
-                sqft = (
-                    data.get("property_area", 0)
-                    * 10.7639
-                )
-
-                property_type = normalize_property_type(
-                    data.get(
-                        "category_2_name",
-                        "other"
-                    )
-                )
-
-                area = normalize_area(
-                    data.get(
-                        "loc_2_name",
-                        "Unknown"
-                    )
-                )
-
-                lat = None
-                lng = None
-
-                if area in coord_map:
-
-                    lat = coord_map[area]["lat"]
-                    lng = coord_map[area]["lng"]
-
-                title = "Unknown"
-
-                if detail_soup.title:
-                    title = detail_soup.title.text.strip()
-
-                fingerprint = (
-                    area,
-                    property_type,
-                    bedrooms,
-                    round(price, -4),
-                    round(sqft, -1)
-                )
-
-                if fingerprint in seen_fingerprints:
-                    continue
-
-                seen_fingerprints.add(
-                    fingerprint
-                )
-
-                properties.append({
-
-                    "source": "bayut",
-
-                    "title": title,
-
-                    "price": price,
-
-                    "currency": "AED",
-
-                    "area": area,
-
-                    "lat": lat,
-
-                    "lng": lng,
-
-                    "sqft": sqft,
-
-                    "bedrooms": bedrooms,
-
-                    "bathrooms": bathrooms,
-
-                    "property_type": property_type,
-
-                    "url": property_url
-                })
-
-                break
-
-            except Exception as e:
-
-                print("BAYUT Detail Error:", e)
+            print("BAYUT Script Error:", e)
         
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
