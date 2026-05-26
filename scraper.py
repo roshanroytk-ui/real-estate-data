@@ -4,13 +4,29 @@ import json
 import time
 from statistics import median
 from datetime import datetime, timezone
+import random
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 bayut_base_url = "https://www.bayut.com/for-sale/property/dubai/"
 
 headers = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Referer": "https://www.google.com/"
 }
+
+session = requests.Session()
+session.headers.update(headers)
 
 AREA_ALIASES = {
 
@@ -79,13 +95,21 @@ for page in range(1, 11):
 
     print("BHOMES:", url)
 
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=20
-    )
+    try:
 
-    response.raise_for_status()
+        response = session.get(
+            url,
+            headers=headers,
+            timeout=20
+        )
+
+        response.raise_for_status()
+
+    except Exception as e:
+
+        print("Page Request Error:", e)
+
+        continue
 
     time.sleep(2)
 
@@ -112,15 +136,23 @@ for page in range(1, 11):
 
     print("BAYUT:", url)
 
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=20
-    )
+    try:
 
-    response.raise_for_status()
+        response = session.get(
+            url,
+            headers=headers,
+            timeout=20
+        )
 
-    time.sleep(2)
+        response.raise_for_status()
+
+    except Exception as e:
+
+        print("Page Request Error:", e)
+
+        continue
+
+    time.sleep(random.uniform(2, 5))
 
     soup = BeautifulSoup(
         response.text,
@@ -199,7 +231,7 @@ for source_data in all_soups:
 
                 try:
 
-                    detail_response = requests.get(
+                    detail_response = session.get(
                         property_url,
                         headers=headers,
                         timeout=20
@@ -450,13 +482,13 @@ for source_data in all_soups:
 
         try:
 
-            detail_response = requests.get(
+            detail_response = session.get(
                 property_url,
                 headers=headers,
                 timeout=20
             )
 
-            time.sleep(1)
+            time.sleep(3)
 
         except Exception as e:
 
