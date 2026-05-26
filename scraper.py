@@ -450,6 +450,9 @@ for source_data in all_soups:
 
     soup = source_data["soup"]
 
+    print(soup.prettify()[:5000])
+    break
+
     scripts = soup.find_all(
         "script",
         type="application/ld+json"
