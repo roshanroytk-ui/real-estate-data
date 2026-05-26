@@ -464,6 +464,9 @@ for source_data in all_soups:
 
             data = json.loads(script.string)
 
+            print(json.dumps(data)[:3000])
+            break
+
             if not isinstance(data, dict):
                 continue
 
