@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+from statistics import median
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 
@@ -135,9 +136,29 @@ for soup in all_soups:
 
                                 bedrooms = detail_data.get("numberOfRooms")
 
+                                try:
+                                    bedrooms = int(bedrooms)
+                                except:
+                                    bedrooms = 0
+
                                 bathrooms = detail_data.get("numberOfBathroomsTotal")
 
-                                property_type = detail_data.get("additionalType")
+                                title_lower = title.lower()
+
+                                if "villa" in title_lower:
+                                    property_type = "villa"
+
+                                elif "apartment" in title_lower:
+                                    property_type = "apartment"
+
+                                elif "penthouse" in title_lower:
+                                    property_type = "penthouse"
+
+                                elif "townhouse" in title_lower:
+                                    property_type = "townhouse"
+
+                                else:
+                                    property_type = "other"
 
                                 location = detail_data.get("location", {})
 
@@ -169,18 +190,20 @@ with open("properties.json", "w", encoding="utf-8") as f:
 
 print(f"Saved {len(properties)} properties.")
 
-# CREATE AREA AGGREGATION
+# =========================================
+# PROFESSIONAL MARKET SEGMENT ENGINE
+# =========================================
 
-area_data = {}
+market_groups = {}
 
 for property in properties:
 
     area = property["area"]
+    property_type = property["property_type"]
+    bedrooms = property["bedrooms"]
     price = property["price"]
-
     sqft = property["sqft"]
 
-    # SKIP BAD DATA
     if not sqft or sqft == 0:
         continue
 
@@ -191,85 +214,197 @@ for property in properties:
 
     price_per_sqft = price / sqft
 
-    if area not in area_data:
-        area_data[area] = {
-            "total_price_per_sqft": 0,
-            "count": 0,
+    # MICRO MARKET KEY
+    market_key = (
+        area,
+        property_type,
+        bedrooms
+    )
+
+    if market_key not in market_groups:
+
+        market_groups[market_key] = {
+            "prices": [],
+            "listings": [],
             "lat": property["lat"],
             "lng": property["lng"]
         }
 
-    area_data[area]["total_price_per_sqft"] += price_per_sqft
-    area_data[area]["count"] += 1
+    market_groups[market_key]["prices"].append(
+        price_per_sqft
+    )
 
-# CALCULATE AREA AVERAGES FIRST
+    market_groups[market_key]["listings"].append(
+        property
+    )
+
+# =========================================
+# BUILD HEATMAP
+# =========================================
 
 heatmap = []
 
-all_area_averages = []
+for market_key, data in market_groups.items():
 
-for area, data in area_data.items():
+    area, property_type, bedrooms = market_key
 
-    avg_price_per_sqft = (
-        data["total_price_per_sqft"] / data["count"]
-    )
+    prices = data["prices"]
 
-    all_area_averages.append(avg_price_per_sqft)
+    # SKIP WEAK DATA
+    if len(prices) < 2:
+        continue
 
-    heatmap.append({
-        "area": area,
-        "avg_price_per_sqft": avg_price_per_sqft,
-        "listing_count": data["count"],
-        "lat": data["lat"],
-        "lng": data["lng"]
-    })
+    edian = median(prices)
 
-# CALCULATE CITY AVERAGE
+    listing_count = len(prices)
 
-city_average_price_per_sqft = (
-    sum(all_area_averages) / len(all_area_averages)
-)
+    # MARKET TIER COLORING
 
-# ADD RELATIVE SCORE + COLOR
-
-for item in heatmap:
-
-    relative_score = (
-        item["avg_price_per_sqft"]
-        / city_average_price_per_sqft
-    )
-
-    # COLOR LOGIC
-    if relative_score < 0.8:
+    if market_median < 1500:
         color = "green"
 
-    elif relative_score < 1.2:
+    elif market_median < 3000:
         color = "yellow"
 
     else:
         color = "red"
 
-    item["avg_price_per_sqft"] = round(
-        item["avg_price_per_sqft"]
-    )
+    heatmap.append({
 
-    item["city_average_price_per_sqft"] = round(
-        city_average_price_per_sqft
-    )
+        "area": area,
 
-    item["relative_score"] = round(
-        relative_score,
-        2
-    )
+        "property_type": property_type,
 
-    item["color"] = color
+        "bedrooms": bedrooms,
 
+        "median_price_per_sqft": round(
+            edian
+        ),
+
+        "listing_count": listing_count,
+
+        "lat": data["lat"],
+        "lng": data["lng"],
+
+        "color": color
+    })
+
+# SORT
 heatmap.sort(
-    key=lambda x: x["relative_score"]
+    key=lambda x: x["median_price_per_sqft"]
 )
 
-# SAVE HEATMAP DATA
-with open("heatmap.json", "w", encoding="utf-8") as f:
-    json.dump(heatmap, f, indent=2, ensure_ascii=False)
+# SAVE
+with open(
+    "heatmap.json",
+    "w",
+    encoding="utf-8"
+) as f:
 
-print("Saved heatmap.json")
+    json.dump(
+        heatmap,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("Saved professional heatmap.json")
+
+# =========================================
+# INVESTMENT OPPORTUNITY ENGINE
+# =========================================
+
+opportunities = []
+
+for market_key, data in market_groups.items():
+
+    prices = data["prices"]
+
+    # STRONGER DATA QUALITY
+    if len(prices) < 5:
+        continue
+
+    market_median = median(prices)
+
+    for listing in data["listings"]:
+
+        try:
+            sqft = float(listing["sqft"])
+        except:
+            continue
+
+        listing_price_per_sqft = (
+            listing["price"] / sqft
+        )
+
+        deviation = (
+            listing_price_per_sqft - market_median
+        ) / market_median
+
+        # OPPORTUNITY COLORING
+        if deviation < -0.15:
+            color = "green"
+
+        elif deviation > 0.15:
+            color = "red"
+
+        else:
+            color = "yellow"
+
+        opportunities.append({
+
+            "title": listing["title"],
+
+            "area": listing["area"],
+
+            "property_type": listing["property_type"],
+
+            "bedrooms": listing["bedrooms"],
+
+            "price": round(listing["price"]),
+
+            "sqft": round(sqft),
+
+            "price_per_sqft": round(
+                listing_price_per_sqft
+            ),
+
+            "market_median_price_per_sqft": round(
+                market_median
+            ),
+
+            "deviation_score": round(
+                deviation,
+                2
+            ),
+
+            "lat": listing["lat"],
+            "lng": listing["lng"],
+
+            "url": listing["url"],
+
+            "color": color
+        })
+
+# SORT BEST OPPORTUNITIES FIRST
+
+opportunities.sort(
+    key=lambda x: x["deviation_score"]
+)
+
+# SAVE
+
+with open(
+    "opportunities.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        opportunities,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("Saved opportunities.json")
