@@ -720,6 +720,9 @@ for source_data in all_soups:
         type="application/ld+json"
     )
 
+    print(soup.prettify()[:5000])
+    break
+
     for script in scripts:
 
         try:
