@@ -312,19 +312,6 @@
     "url": "https://www.bhomes.com/en/property/bh-s-228772"
   },
   {
-    "title": "MOTIVATED SELLER | HIGHER FLOOR | PAYMENT PLAN",
-    "price": 4699999.0,
-    "currency": "AED",
-    "area": "Mohammed Bin Rashid City",
-    "lat": 25.176559,
-    "lng": 55.312067,
-    "sqft": 2353,
-    "bedrooms": 4,
-    "bathrooms": 6,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-228714"
-  },
-  {
     "title": "Waterfront Living | Premium Pool View | Spacious",
     "price": 2500000.0,
     "currency": "AED",
@@ -2078,5 +2065,18 @@
     "bathrooms": 2,
     "property_type": "apartment",
     "url": "https://www.bhomes.com/en/property/bh-s-226155"
+  },
+  {
+    "title": "Leasehold | Pool view | Rented",
+    "price": 560000.0,
+    "currency": "AED",
+    "area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "sqft": 825.91,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "property_type": "apartment",
+    "url": "https://www.bhomes.com/en/property/bh-s-226145"
   }
 ]
