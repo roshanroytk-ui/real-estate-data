@@ -127,6 +127,7 @@ for page in range(1, 11):
         "soup": soup
     })
 
+"""
 # =========================================
 # BAYUT
 # =========================================
@@ -167,6 +168,7 @@ for page in range(1, 11):
         "source": "bayut",
         "soup": soup
     })
+"""
 
 # =========================================
 # PROPERTY FINDER
@@ -701,7 +703,242 @@ for source_data in all_soups:
             print("BAYUT Script Error:", e)
 
 """
-        
+
+# =========================================
+# PROPERTY FINDER PARSER
+# =========================================
+
+for source_data in all_soups:
+
+    if source_data["source"] != "propertyfinder":
+        continue
+
+    soup = source_data["soup"]
+
+    scripts = soup.find_all(
+        "script",
+        type="application/ld+json"
+    )
+
+    for script in scripts:
+
+        try:
+
+            if not script.string:
+                continue
+
+            data = json.loads(
+                script.string
+            )
+
+            if (
+                not isinstance(data, dict)
+                or data.get("@type") != "ItemList"
+            ):
+                continue
+
+            items = data.get(
+                "itemListElement",
+                []
+            )
+
+            for listing_item in items:
+
+                listing = listing_item.get(
+                    "item",
+                    {}
+                )
+
+                property_url = listing.get(
+                    "url"
+                )
+
+                if not property_url:
+                    continue
+
+                if property_url in seen_urls:
+                    continue
+
+                seen_urls.add(
+                    property_url
+                )
+
+                title = listing.get(
+                    "name",
+                    "Unknown"
+                )
+
+                offers = listing.get(
+                    "offers",
+                    {}
+                )
+
+                try:
+
+                    price = float(
+                        offers.get("price")
+                    )
+
+                except:
+                    continue
+
+                currency = offers.get(
+                    "priceCurrency",
+                    "AED"
+                )
+
+                geo = listing.get(
+                    "geo",
+                    {}
+                )
+
+                lat = geo.get(
+                    "latitude"
+                )
+
+                lng = geo.get(
+                    "longitude"
+                )
+
+                address = listing.get(
+                    "address",
+                    {}
+                )
+
+                area = normalize_area(
+                    address.get(
+                        "addressLocality",
+                        "Unknown"
+                    )
+                )
+
+                floor_size = listing.get(
+                    "floorSize",
+                    {}
+                )
+
+                sqft = floor_size.get(
+                    "value"
+                )
+
+                try:
+
+                    sqft = (
+                        str(sqft)
+                        .replace(",", "")
+                    )
+
+                    sqft = float(sqft)
+
+                except:
+                    continue
+
+                bedrooms = listing.get(
+                    "numberOfRooms",
+                    0
+                )
+
+                try:
+
+                    bedrooms = int(
+                        bedrooms
+                    )
+
+                except:
+
+                    bedrooms = 0
+
+                bathrooms = listing.get(
+                    "numberOfBathroomsTotal"
+                )
+
+                property_type = (
+                    normalize_property_type(
+                        listing.get(
+                            "@type",
+                            "other"
+                        )
+                    )
+                )
+
+                if (
+                    (not lat or not lng)
+                    and area in coord_map
+                ):
+
+                    lat = coord_map[area]["lat"]
+
+                    lng = coord_map[area]["lng"]
+
+                fingerprint = (
+
+                    area,
+
+                    property_type,
+
+                    bedrooms,
+
+                    round(price, -4),
+
+                    round(sqft, -1)
+                )
+
+                if (
+                    fingerprint
+                    in seen_fingerprints
+                ):
+                    continue
+
+                seen_fingerprints.add(
+                    fingerprint
+                )
+
+                properties.append({
+
+                    "source":
+                    "propertyfinder",
+
+                    "title":
+                    title,
+
+                    "price":
+                    price,
+
+                    "currency":
+                    currency,
+
+                    "area":
+                    area,
+
+                    "lat":
+                    lat,
+
+                    "lng":
+                    lng,
+
+                    "sqft":
+                    sqft,
+
+                    "bedrooms":
+                    bedrooms,
+
+                    "bathrooms":
+                    bathrooms,
+
+                    "property_type":
+                    property_type,
+
+                    "url":
+                    property_url
+                })
+
+        except Exception as e:
+
+            print(
+                "PROPERTYFINDER Script Error:",
+                e
+            )
+            
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
 
