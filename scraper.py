@@ -254,7 +254,7 @@ for market_key, data in market_groups.items():
     if len(prices) < 2:
         continue
 
-    edian = median(prices)
+    market_median = median(prices)
 
     listing_count = len(prices)
 
@@ -278,7 +278,7 @@ for market_key, data in market_groups.items():
         "bedrooms": bedrooms,
 
         "median_price_per_sqft": round(
-            edian
+            market_median
         ),
 
         "listing_count": listing_count,
