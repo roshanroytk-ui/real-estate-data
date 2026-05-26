@@ -6,6 +6,7 @@ from statistics import median
 from datetime import datetime, timezone
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
+bayut_base_url = "https://www.bayut.com/for-sale/property/dubai/"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -65,6 +66,10 @@ def normalize_property_type(property_type):
 
 all_soups = []
 
+# =========================================
+# BHOMES
+# =========================================
+
 for page in range(1, 11):
 
     if page == 1:
@@ -72,16 +77,48 @@ for page in range(1, 11):
     else:
         url = f"{base_url}?page={page}&sort=date_desc"
 
-    print("Scraping:", url)
+    print("BHOMES:", url)
 
     response = requests.get(url, headers=headers)
+
     time.sleep(2)
 
-    print("Status:", response.status_code)
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    all_soups.append({
+        "source": "bhomes",
+        "soup": soup
+    })
 
-    all_soups.append(soup)
+# =========================================
+# BAYUT
+# =========================================
+
+for page in range(1, 11):
+
+    if page == 1:
+        url = bayut_base_url
+    else:
+        url = f"{bayut_base_url}?page={page}"
+
+    print("BAYUT:", url)
+
+    response = requests.get(url, headers=headers)
+
+    time.sleep(2)
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    all_soups.append({
+        "source": "bayut",
+        "soup": soup
+    })
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
     area_coords = json.load(f)
@@ -99,7 +136,11 @@ properties = []
 seen_urls = set()
 seen_fingerprints = set()
 
-for soup in all_soups:
+for source_data in all_soups:
+
+    source = source_data["source"]
+
+    soup = source_data["soup"]
 
     scripts = soup.find_all("script", type="application/ld+json")
 
@@ -108,16 +149,31 @@ for soup in all_soups:
         try:
             data = json.loads(script.string)
 
-            if isinstance(data, dict) and data.get("@type") == "ItemList":
+            if isinstance(data, dict) and (
+
+                data.get("@type") == "ItemList"
+
+                or source == "bayut"
+            ):
 
                 items = data.get("itemListElement", [])
 
                 for item in items:
 
-                    listing = item.get("item", {})
+                    listing = item.get("item", item)
 
-                    title = listing.get("name")
+                    title = (
+                        listing.get("name")
+                        or listing.get("title")
+                    )
                     property_url = listing.get("url")
+
+                    if property_url and property_url.startswith("/"):
+
+                        property_url = (
+                            "https://www.bayut.com"
+                            + property_url
+                        )
 
                 
                     # SKIP DUPLICATES
@@ -250,7 +306,7 @@ for soup in all_soups:
                                 )
 
                                 properties.append({
-                                    "source": "bhomes",
+                                    "source": source,
                                     "title": title,
                                     "price": price,
                                     "currency": currency,
