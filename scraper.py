@@ -93,6 +93,92 @@ def haversine_distance(lat1, lng1, lat2, lng2):
 
     return R * c
 
+def is_duplicate_property(
+
+    lat,
+    lng,
+    price,
+    sqft,
+    bedrooms
+
+):
+
+    try:
+
+        lat = float(lat)
+        lng = float(lng)
+
+        price = float(price)
+        sqft = float(sqft)
+
+    except:
+
+        return False
+
+    for existing in potential_duplicates:
+
+        # =====================================
+        # SAME BEDROOM COUNT
+        # =====================================
+
+        if existing["bedrooms"] != bedrooms:
+            continue
+
+        # =====================================
+        # DISTANCE CHECK
+        # =====================================
+
+        distance = haversine_distance(
+
+            lat,
+            lng,
+
+            existing["lat"],
+            existing["lng"]
+        )
+
+        # 150 meters
+
+        if distance > 0.15:
+            continue
+
+        # =====================================
+        # PRICE CHECK
+        # =====================================
+
+        price_diff = abs(
+            price - existing["price"]
+        )
+
+        if price_diff > 50000:
+            continue
+
+        # =====================================
+        # SQFT CHECK
+        # =====================================
+
+        sqft_diff = abs(
+            sqft - existing["sqft"]
+        )
+
+        if sqft_diff > 50:
+            continue
+
+        return True
+
+    potential_duplicates.append({
+
+        "lat": lat,
+        "lng": lng,
+
+        "price": price,
+        "sqft": sqft,
+
+        "bedrooms": bedrooms
+    })
+
+    return False
+
 
 def get_canonical_area(lat, lng, raw_area):
 
@@ -325,7 +411,7 @@ coord_map = {
 
 properties = []
 seen_urls = set()
-seen_fingerprints = set()
+potential_duplicates = []
 
 # =========================================
 # BHOMES PARSER
@@ -546,20 +632,15 @@ for source_data in all_soups:
                             lat = coord_map[area]["lat"]
                             lng = coord_map[area]["lng"]
 
-                        fingerprint = (
-                            area,
-                            property_type,
-                            bedrooms,
-                            round(price, -4),
-                            round(sqft, -1)
-                        )
-
-                        if fingerprint in seen_fingerprints:
+                        if is_duplicate_property(
+                        
+                            lat,
+                            lng,
+                            price,
+                            sqft,
+                            bedrooms
+                        ):
                             continue
-
-                        seen_fingerprints.add(
-                            fingerprint
-                        )
 
                         properties.append({
 
@@ -758,20 +839,16 @@ for source_data in all_soups:
                         lat = coord_map[area]["lat"]
                         lng = coord_map[area]["lng"]
 
-                    fingerprint = (
-                        area,
-                        property_type,
-                        bedrooms,
-                        round(price, -4),
-                        round(sqft, -1)
-                    )
-
-                    if fingerprint in seen_fingerprints:
+                    if is_duplicate_property(
+                    
+                        lat,
+                        lng,
+                        price,
+                        sqft,
+                        bedrooms
+                    ):
                         continue
 
-                    seen_fingerprints.add(
-                        fingerprint
-                    )
 
                     properties.append({
 
@@ -1125,36 +1202,16 @@ for source_data in all_soups:
                         area
                     ]["lng"]
 
-                # =====================================
-                # DUPLICATE FILTER
-                # =====================================
 
-                fingerprint = (
-
-                    area,
-
-                    property_type,
-
-                    bedrooms,
-
-                    round(price, -4),
-
-                    round(sqft, -1)
-                )
-
-                if (
-                    fingerprint
-                    in seen_fingerprints
+                if is_duplicate_property(
+                
+                    lat,
+                    lng,
+                    price,
+                    sqft,
+                    bedrooms
                 ):
                     continue
-
-                seen_fingerprints.add(
-                    fingerprint
-                )
-
-                # =====================================
-                # SAVE PROPERTY
-                # =====================================
 
                 properties.append({
 
