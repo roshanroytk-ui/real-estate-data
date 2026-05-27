@@ -1091,12 +1091,24 @@ for source_data in all_soups:
                 
                 bedroom_patterns = [
                 
+                bedroom_patterns = [
+                
+                    # DIGIT FORMATS
+                
                     r'(\d+)\s*bedrooms?',
                     r'(\d+)-bedrooms?',
                     r'(\d+)\s*bed',
                     r'(\d+)-bed',
                     r'(\d+)\s*br',
-                    r'(\d+)-br'
+                    r'(\d+)-br',
+                
+                    # WORD FORMATS
+                
+                    r'\bone\s*bedroom\b',
+                    r'\btwo\s*bedroom\b',
+                    r'\bthree\s*bedroom\b',
+                    r'\bfour\s*bedroom\b',
+                    r'\bfive\s*bedroom\b'
                 ]
                 
                 for pattern in bedroom_patterns:
@@ -1110,10 +1122,37 @@ for source_data in all_soups:
                 
                         try:
                 
-                            bedrooms = int(
-                                match.group(1)
+                            matched_text = match.group(0)
+
+                            word_to_number = {
+                            
+                                "one": 1,
+                                "two": 2,
+                                "three": 3,
+                                "four": 4,
+                                "five": 5
+                            }
+                            
+                            digit_match = re.search(
+                                r'(\d+)',
+                                matched_text
                             )
-                
+                            
+                            if digit_match:
+                            
+                                bedrooms = int(
+                                    digit_match.group(1)
+                                )
+                            
+                            else:
+                            
+                                for word, number in word_to_number.items():
+                            
+                                    if word in matched_text:
+                            
+                                        bedrooms = number
+                                        break
+                            
                             break
                 
                         except:
