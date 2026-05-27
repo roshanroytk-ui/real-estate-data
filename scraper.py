@@ -737,7 +737,10 @@ for source_data in all_soups:
                 {}
             )
 
-            if item_list.get("@type") != "ItemList":
+            if (
+                not isinstance(item_list, dict)
+                or item_list.get("@type") != "ItemList"
+            ):
                 continue
 
             items = item_list.get(
@@ -747,20 +750,20 @@ for source_data in all_soups:
 
             for listing_item in items:
 
-                webpage = listing_item
-
-                if (
-                    not isinstance(webpage, dict)
+                if not isinstance(
+                    listing_item,
+                    dict
                 ):
                     continue
 
-                listing = webpage.get(
+                listing = listing_item.get(
                     "mainEntity",
                     {}
                 )
 
-                if (
-                    not isinstance(listing, dict)
+                if not isinstance(
+                    listing,
+                    dict
                 ):
                     continue
 
@@ -784,288 +787,249 @@ for source_data in all_soups:
                 )
 
                 # =====================================
-                # OPEN DETAIL PAGE
+                # PRICE
                 # =====================================
 
                 try:
 
-                    detail_response = session.get(
-                        property_url,
-                        timeout=20
+                    offers = listing.get(
+                        "offers",
+                        []
                     )
 
-                    detail_response.raise_for_status()
+                    offer = offers[0]
 
-                    time.sleep(1)
-
-                except Exception as e:
-
-                    print(
-                        "PROPERTYFINDER Detail Request Error:",
-                        e
+                    price_spec = offer.get(
+                        "priceSpecification",
+                        {}
                     )
 
+                    price = float(
+                        price_spec.get(
+                            "price"
+                        )
+                    )
+
+                except:
                     continue
 
-                detail_soup = BeautifulSoup(
-                    detail_response.text,
-                    "html.parser"
+                currency = price_spec.get(
+                    "priceCurrency",
+                    "AED"
                 )
 
-                detail_scripts = detail_soup.find_all(
-                    "script",
-                    type="application/ld+json"
+                # =====================================
+                # GEO
+                # =====================================
+
+                geo = listing.get(
+                    "geo",
+                    {}
                 )
 
-                for detail_script in detail_scripts:
-
-                    try:
-
-                        if not detail_script.string:
-                            continue
-
-                        detail_data = json.loads(
-                            detail_script.string
-                        )
-
-                        if not isinstance(
-                            detail_data,
-                            dict
-                        ):
-                            continue
-
-                        main_entity = detail_data.get(
-                            "mainEntity",
-                            {}
-                        )
-
-                        if (
-                            not isinstance(
-                                main_entity,
-                                dict
-                            )
-                        ):
-                            continue
-
-                        property_type_raw = (
-                            main_entity.get(
-                                "@type",
-                                "other"
-                            )
-                        )
-
-                        if isinstance(
-                            property_type_raw,
-                            list
-                        ):
-
-                            property_type_raw = (
-                                property_type_raw[0]
-                            )
-
-                        property_type = (
-                            normalize_property_type(
-                                property_type_raw
-                            )
-                        )
-
-                        offers = main_entity.get(
-                            "offers",
-                            []
-                        )
-
-                        try:
-
-                            offer = offers[0]
-
-                            price_spec = offer.get(
-                                "priceSpecification",
-                                {}
-                            )
-
-                            price = float(
-                                price_spec.get(
-                                    "price"
-                                )
-                            )
-
-                        except:
-                            continue
-
-                        currency = (
-                            price_spec.get(
-                                "priceCurrency",
-                                "AED"
-                            )
-                        )
-
-                        geo = main_entity.get(
-                            "geo",
-                            {}
-                        )
-
-                        lat = geo.get(
-                            "latitude"
-                        )
-
-                        lng = geo.get(
-                            "longitude"
-                        )
-
-                        address = main_entity.get(
-                            "address",
-                            {}
-                        )
-
-                        area = normalize_area(
-                            address.get(
-                                "addressRegion"
-                            )
-                            or address.get(
-                                "addressLocality",
-                                "Unknown"
-                            )
-                        )
+                lat = geo.get(
+                    "latitude"
+                )
 
-                        floor_size = (
-                            main_entity.get(
-                                "floorSize",
-                                {}
-                            )
-                        )
+                lng = geo.get(
+                    "longitude"
+                )
 
-                        sqft = floor_size.get(
-                            "value"
-                        )
+                # =====================================
+                # AREA
+                # =====================================
 
-                        try:
+                address = listing.get(
+                    "address",
+                    {}
+                )
 
-                            sqft = (
-                                str(sqft)
-                                .replace(",", "")
-                            )
+                area = normalize_area(
 
-                            sqft = float(sqft)
+                    address.get(
+                        "addressRegion"
+                    )
 
-                        except:
-                            continue
+                    or
 
-                        bedrooms = (
-                            main_entity.get(
-                                "numberOfRooms",
-                                0
-                            )
-                        )
+                    address.get(
+                        "addressLocality",
+                        "Unknown"
+                    )
+                )
 
-                        try:
+                # =====================================
+                # SQFT
+                # =====================================
 
-                            bedrooms = int(
-                                bedrooms
-                            )
+                floor_size = listing.get(
+                    "floorSize",
+                    {}
+                )
 
-                        except:
+                sqft = floor_size.get(
+                    "value"
+                )
 
-                            bedrooms = 0
+                try:
 
-                        bathrooms = (
-                            main_entity.get(
-                                "numberOfBathroomsTotal"
-                            )
-                        )
+                    sqft = (
+                        str(sqft)
+                        .replace(",", "")
+                    )
 
-                        try:
+                    sqft = float(sqft)
 
-                            bathrooms = int(
-                                bathrooms
-                            )
+                except:
+                    continue
 
-                        except:
+                # =====================================
+                # BEDROOMS
+                # =====================================
 
-                            bathrooms = None
+                bedrooms = listing.get(
+                    "numberOfRooms",
+                    0
+                )
 
-                        if (
-                            (not lat or not lng)
-                            and area in coord_map
-                        ):
+                try:
 
-                            lat = coord_map[
-                                area
-                            ]["lat"]
+                    bedrooms = int(
+                        bedrooms
+                    )
 
-                            lng = coord_map[
-                                area
-                            ]["lng"]
+                except:
 
-                        fingerprint = (
+                    bedrooms = 0
 
-                            area,
+                # =====================================
+                # BATHROOMS
+                # =====================================
 
-                            property_type,
+                bathrooms = listing.get(
+                    "numberOfBathroomsTotal"
+                )
 
-                            bedrooms,
+                try:
 
-                            round(price, -4),
+                    bathrooms = int(
+                        bathrooms
+                    )
 
-                            round(sqft, -1)
-                        )
+                except:
 
-                        if (
-                            fingerprint
-                            in seen_fingerprints
-                        ):
-                            continue
+                    bathrooms = None
 
-                        seen_fingerprints.add(
-                            fingerprint
-                        )
+                # =====================================
+                # PROPERTY TYPE
+                # =====================================
 
-                        properties.append({
+                property_type_raw = listing.get(
+                    "@type",
+                    "other"
+                )
 
-                            "source":
-                            "propertyfinder",
+                if isinstance(
+                    property_type_raw,
+                    list
+                ):
 
-                            "title":
-                            title,
+                    property_type_raw = (
+                        property_type_raw[0]
+                    )
 
-                            "price":
-                            price,
+                property_type = (
+                    normalize_property_type(
+                        property_type_raw
+                    )
+                )
 
-                            "currency":
-                            currency,
+                # =====================================
+                # COORD FALLBACK
+                # =====================================
 
-                            "area":
-                            area,
+                if (
+                    (not lat or not lng)
+                    and area in coord_map
+                ):
 
-                            "lat":
-                            lat,
+                    lat = coord_map[
+                        area
+                    ]["lat"]
 
-                            "lng":
-                            lng,
+                    lng = coord_map[
+                        area
+                    ]["lng"]
 
-                            "sqft":
-                            sqft,
+                # =====================================
+                # DUPLICATE FILTER
+                # =====================================
 
-                            "bedrooms":
-                            bedrooms,
+                fingerprint = (
 
-                            "bathrooms":
-                            bathrooms,
+                    area,
 
-                            "property_type":
-                            property_type,
+                    property_type,
 
-                            "url":
-                            property_url
-                        })
+                    bedrooms,
 
-                        break
+                    round(price, -4),
 
-                    except Exception as e:
+                    round(sqft, -1)
+                )
 
-                        print(
-                            "PROPERTYFINDER Detail Error:",
-                            e
-                        )
+                if (
+                    fingerprint
+                    in seen_fingerprints
+                ):
+                    continue
+
+                seen_fingerprints.add(
+                    fingerprint
+                )
+
+                # =====================================
+                # SAVE PROPERTY
+                # =====================================
+
+                properties.append({
+
+                    "source":
+                    "propertyfinder",
+
+                    "title":
+                    title,
+
+                    "price":
+                    price,
+
+                    "currency":
+                    currency,
+
+                    "area":
+                    area,
+
+                    "lat":
+                    lat,
+
+                    "lng":
+                    lng,
+
+                    "sqft":
+                    sqft,
+
+                    "bedrooms":
+                    bedrooms,
+
+                    "bathrooms":
+                    bathrooms,
+
+                    "property_type":
+                    property_type,
+
+                    "url":
+                    property_url
+                })
 
         except Exception as e:
 
