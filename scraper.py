@@ -894,62 +894,65 @@ for source_data in all_soups:
 
     soup = source_data["soup"]
 
-    scripts = soup.find_all(
-        "script",
-        type="application/ld+json"
-    )
+    try:
 
-    for script in scripts:
+        # =====================================
+        # GET __NEXT_DATA__
+        # =====================================
 
-        try:
+        next_data_script = soup.find(
+            "script",
+            id="__NEXT_DATA__"
+        )
 
-            if not script.string:
-                continue
+        if (
+            not next_data_script
+            or not next_data_script.string
+        ):
+            continue
 
-            data = json.loads(
-                script.string
-            )
+        data = json.loads(
+            next_data_script.string
+        )
 
-            if not isinstance(data, dict):
-                continue
+        # =====================================
+        # GET LISTINGS
+        # =====================================
 
-            item_list = data.get(
-                "accessModeSufficient",
-                {}
-            )
+        listings = (
+            data
+            .get("props", {})
+            .get("pageProps", {})
+            .get("searchResult", {})
+            .get("listings", [])
+        )
 
-            if (
-                not isinstance(item_list, dict)
-                or item_list.get("@type") != "ItemList"
-            ):
-                continue
+        # =====================================
+        # LOOP LISTINGS
+        # =====================================
 
-            items = item_list.get(
-                "itemListElement",
-                []
-            )
+        for listing_wrapper in listings:
 
-            for listing_item in items:
+            try:
 
-                if not isinstance(
-                    listing_item,
-                    dict
-                ):
-                    continue
+                # =====================================
+                # ACTUAL PROPERTY OBJECT
+                # =====================================
 
-                listing = listing_item.get(
-                    "mainEntity",
+                property_data = listing_wrapper.get(
+                    "property",
                     {}
                 )
 
-                if not isinstance(
-                    listing,
-                    dict
-                ):
+                if not property_data:
                     continue
 
-                property_url = listing.get(
-                    "url"
+                # =====================================
+                # URL
+                # =====================================
+
+                property_url = property_data.get(
+                    "share_url"
                 )
 
                 if not property_url:
@@ -958,12 +961,14 @@ for source_data in all_soups:
                 if property_url in seen_urls:
                     continue
 
-                seen_urls.add(
-                    property_url
-                )
+                seen_urls.add(property_url)
 
-                title = listing.get(
-                    "name",
+                # =====================================
+                # TITLE
+                # =====================================
+
+                title = property_data.get(
+                    "title",
                     "Unknown"
                 )
 
@@ -971,72 +976,51 @@ for source_data in all_soups:
                 # PRICE
                 # =====================================
 
+                price_data = property_data.get(
+                    "price",
+                    {}
+                )
+
+                price = price_data.get("value")
+
+                if not price:
+                    continue
+
                 try:
-
-                    offers = listing.get(
-                        "offers",
-                        []
-                    )
-
-                    offer = offers[0]
-
-                    price_spec = offer.get(
-                        "priceSpecification",
-                        {}
-                    )
-
-                    price = float(
-                        price_spec.get(
-                            "price"
-                        )
-                    )
-
+                    price = float(price)
                 except:
                     continue
 
-                currency = price_spec.get(
-                    "priceCurrency",
+                currency = price_data.get(
+                    "currency",
                     "AED"
                 )
 
                 # =====================================
-                # GEO
+                # LOCATION
                 # =====================================
 
-                geo = listing.get(
-                    "geo",
+                location = property_data.get(
+                    "location",
                     {}
                 )
 
-                lat = geo.get(
-                    "latitude"
+                coordinates = location.get(
+                    "coordinates",
+                    {}
                 )
 
-                lng = geo.get(
-                    "longitude"
-                )
+                lat = coordinates.get("lat")
+                lng = coordinates.get("lon")
 
                 # =====================================
                 # AREA
                 # =====================================
 
-                address = listing.get(
-                    "address",
-                    {}
-                )
-
                 raw_area = (
-
-                    address.get(
-                        "addressRegion"
-                    )
-
-                    or
-
-                    address.get(
-                        "addressLocality",
-                        "Unknown"
-                    )
+                    location.get("full_name")
+                    or location.get("name")
+                    or "Unknown"
                 )
 
                 area = get_canonical_area(
@@ -1049,178 +1033,78 @@ for source_data in all_soups:
                 # SQFT
                 # =====================================
 
-                floor_size = listing.get(
-                    "floorSize",
+                size_data = property_data.get(
+                    "size",
                     {}
                 )
 
-                sqft = floor_size.get(
-                    "value"
-                )
+                sqft = size_data.get("value")
 
                 try:
 
-                    sqft = (
+                    sqft = float(
                         str(sqft)
                         .replace(",", "")
                     )
-
-                    sqft = float(sqft)
 
                 except:
                     continue
 
                 # =====================================
-                # BEDROOMS + BATHROOMS
-                # =====================================
-                
-                description = listing.get(
-                    "description",
-                    ""
-                )
-                
-                combined_text = (
-                    f"{title} {description}"
-                ).lower()
-                
-                # =====================================
                 # BEDROOMS
                 # =====================================
-                
-                bedrooms = 0
-                
-                bedroom_patterns = [
-                
-                bedroom_patterns = [
-                
-                    # DIGIT FORMATS
-                
-                    r'(\d+)\s*bedrooms?',
-                    r'(\d+)-bedrooms?',
-                    r'(\d+)\s*bed',
-                    r'(\d+)-bed',
-                    r'(\d+)\s*br',
-                    r'(\d+)-br',
-                
-                    # WORD FORMATS
-                
-                    r'\bone\s*bedroom\b',
-                    r'\btwo\s*bedroom\b',
-                    r'\bthree\s*bedroom\b',
-                    r'\bfour\s*bedroom\b',
-                    r'\bfive\s*bedroom\b'
-                ]
-                
-                for pattern in bedroom_patterns:
-                
-                    match = re.search(
-                        pattern,
-                        combined_text
-                    )
-                
-                    if match:
-                
-                        try:
-                
-                            matched_text = match.group(0)
 
-                            word_to_number = {
-                            
-                                "one": 1,
-                                "two": 2,
-                                "three": 3,
-                                "four": 4,
-                                "five": 5
-                            }
-                            
-                            digit_match = re.search(
-                                r'(\d+)',
-                                matched_text
-                            )
-                            
-                            if digit_match:
-                            
-                                bedrooms = int(
-                                    digit_match.group(1)
-                                )
-                            
-                            else:
-                            
-                                for word, number in word_to_number.items():
-                            
-                                    if word in matched_text:
-                            
-                                        bedrooms = number
-                                        break
-                            
-                            break
-                
-                        except:
-                
-                            pass
-                
-                # STUDIO DETECTION
-                
-                if "studio" in combined_text:
-                
+                bedrooms = property_data.get(
+                    "bedrooms_value"
+                )
+
+                if bedrooms is None:
+
+                    bedrooms = property_data.get(
+                        "bedrooms",
+                        0
+                    )
+
+                try:
+                    bedrooms = int(bedrooms)
+                except:
                     bedrooms = 0
-                
+
                 # =====================================
                 # BATHROOMS
                 # =====================================
-                
-                bathrooms = None
-                
-                bathroom_patterns = [
-                
-                    r'(\d+)\s*bathrooms?',
-                    r'(\d+)-bathrooms?',
-                    r'(\d+)\s*baths?',
-                    r'(\d+)-baths?'
-                ]
-                
-                for pattern in bathroom_patterns:
-                
-                    match = re.search(
-                        pattern,
-                        combined_text
+
+                bathrooms = property_data.get(
+                    "bathrooms_value"
+                )
+
+                if bathrooms is None:
+
+                    bathrooms = property_data.get(
+                        "bathrooms"
                     )
-                
-                    if match:
-                
-                        try:
-                
-                            bathrooms = int(
-                                match.group(1)
-                            )
-                
-                            break
-                
-                        except:
-                
-                            pass
+
+                try:
+                    bathrooms = int(bathrooms)
+                except:
+                    bathrooms = None
 
                 # =====================================
                 # PROPERTY TYPE
                 # =====================================
 
-                property_type_raw = listing.get(
-                    "@type",
-                    "other"
-                )
+                property_type = normalize_property_type(
 
-                if isinstance(
-                    property_type_raw,
-                    list
-                ):
+                    property_data.get(
+                        "property_type",
+                        "other"
+                    ),
 
-                    property_type_raw = (
-                        property_type_raw[0]
-                    )
+                    title=title,
 
-                property_type = (
-                    normalize_property_type(
-                        property_type_raw
+                    description=property_data.get(
+                        "description",
+                        ""
                     )
                 )
 
@@ -1241,9 +1125,12 @@ for source_data in all_soups:
                         area
                     ]["lng"]
 
+                # =====================================
+                # DUPLICATE CHECK
+                # =====================================
 
                 if is_duplicate_property(
-                
+
                     lat,
                     lng,
                     price,
@@ -1251,6 +1138,10 @@ for source_data in all_soups:
                     bedrooms
                 ):
                     continue
+
+                # =====================================
+                # SAVE PROPERTY
+                # =====================================
 
                 properties.append({
 
@@ -1294,12 +1185,19 @@ for source_data in all_soups:
                     property_url
                 })
 
-        except Exception as e:
+            except Exception as e:
 
-            print(
-                "PROPERTYFINDER Script Error:",
-                e
-            )
+                print(
+                    "PROPERTYFINDER Listing Error:",
+                    e
+                )
+
+    except Exception as e:
+
+        print(
+            "PROPERTYFINDER NEXT_DATA Error:",
+            e
+        )
             
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
