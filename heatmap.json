@@ -12,7 +12,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.064854,
     "lng": 55.141792,
     "color": "green"
@@ -30,7 +30,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.056,
     "lng": 55.209,
     "color": "green"
@@ -47,7 +47,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "green"
@@ -60,30 +60,12 @@
     "area": "Dubai Marina",
     "property_type": "apartment",
     "layout_type": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1641,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
-    "lat": 25.084418,
-    "lng": 55.144879,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Dubai Marina",
-    "property_type": "apartment",
-    "layout_type": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1852,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "median_price_per_sqft": 1883,
+    "listing_count": 8,
+    "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -97,11 +79,11 @@
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1884,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "median_price_per_sqft": 1941,
+    "listing_count": 8,
+    "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
@@ -119,7 +101,7 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
@@ -137,7 +119,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.180202,
     "lng": 55.252432,
     "color": "yellow"
@@ -151,11 +133,11 @@
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2465,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "median_price_per_sqft": 2462,
+    "listing_count": 5,
+    "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.195023,
     "lng": 55.283553,
     "color": "yellow"
@@ -165,17 +147,17 @@
       "propertyfinder",
       "bhomes"
     ],
-    "area": "DIFC",
+    "area": "Dubai Islands",
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2508,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "median_price_per_sqft": 2470,
+    "listing_count": 12,
+    "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
-    "lat": 25.212088,
-    "lng": 55.282761,
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.25863,
+    "lng": 55.278074,
     "color": "yellow"
   },
   {
@@ -183,15 +165,15 @@
       "propertyfinder",
       "bhomes"
     ],
-    "area": "City Walk",
+    "area": "Al Wasl",
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2993,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "median_price_per_sqft": 2939,
+    "listing_count": 7,
+    "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
     "lat": 25.202959,
     "lng": 55.26006,
     "color": "yellow"
@@ -200,17 +182,175 @@
     "sources": [
       "propertyfinder"
     ],
-    "area": "City Walk",
+    "area": "Al Wasl",
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 3203,
+    "median_price_per_sqft": 3332,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.18732452392578,
+    "lng": 55.24897766113281,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Al Wasl",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3338,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.2009,
+    "lng": 55.266853,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3370,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.112604,
+    "lng": 55.143347,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Dubai Islands",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 3725,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T21:13:11.624811+00:00",
-    "lat": 25.2059268951416,
-    "lng": 55.26463317871094,
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.201991,
+    "lng": 55.281157,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Dubai Islands",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3828,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.240464,
+    "lng": 55.251283,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 4727,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.106765,
+    "lng": 55.152317,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Dubai Islands",
+    "property_type": "apartment",
+    "layout_type": "serviced",
+    "bedrooms": 1,
+    "median_price_per_sqft": 4919,
+    "listing_count": 2,
+    "comparable_count": 2,
+    "confidence": "Low",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.20884,
+    "lng": 55.277032,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder"
+    ],
+    "area": "Dubai Islands",
+    "property_type": "apartment",
+    "layout_type": "serviced",
+    "bedrooms": 3,
+    "median_price_per_sqft": 5613,
+    "listing_count": 3,
+    "comparable_count": 3,
+    "confidence": "Low",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.217647552490234,
+    "lng": 55.282474517822266,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 7726,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "luxury",
+    "bedrooms": 2,
+    "median_price_per_sqft": 10324,
+    "listing_count": 2,
+    "comparable_count": 2,
+    "confidence": "Low",
+    "last_updated": "2026-05-27T21:38:46.893795+00:00",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
     "color": "red"
   }
 ]
