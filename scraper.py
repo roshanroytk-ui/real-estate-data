@@ -121,7 +121,38 @@ def get_canonical_area(lat, lng, raw_area):
     return normalize_area(raw_area)
 
 
-def normalize_property_type(property_type):
+def normalize_property_type(
+    property_type,
+    title="",
+    description=""
+):
+
+    combined_text = f"{title} {description}".lower()
+
+    # =====================================
+    # DETECT STUDIO APARTMENTS
+    # =====================================
+
+    studio_patterns = [
+
+        "studio apartment",
+        "studio flat",
+        "studio unit",
+        "spacious studio",
+        "studio layout",
+        "well-designed studio",
+        "studio"
+    ]
+
+    for pattern in studio_patterns:
+
+        if pattern in combined_text:
+
+            return "studio apartment"
+
+    # =====================================
+    # NORMAL NORMALIZATION
+    # =====================================
 
     if not property_type:
         return "other"
@@ -475,16 +506,24 @@ for source_data in all_soups:
                                 and prop.get("name") == "Property Type"
                             ):
 
-                                property_type = (
-                                    normalize_property_type(
-                                        prop.get(
-                                            "value",
-                                            "other"
-                                        )
-                                    )
+                                description = detail_data.get(
+                                    "description",
+                                    ""
                                 )
-
-                                break
+                                
+                                property_type = normalize_property_type(
+                                
+                                    prop.get(
+                                        "value",
+                                        "other"
+                                    ),
+                                
+                                    title=title,
+                                
+                                    description=description
+                                )
+    
+                                    break
 
                         location = detail_data.get(
                             "location",
