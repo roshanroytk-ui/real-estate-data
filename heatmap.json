@@ -12,7 +12,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.064854,
     "lng": 55.141792,
     "color": "green"
@@ -30,7 +30,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.056,
     "lng": 55.209,
     "color": "green"
@@ -47,7 +47,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "green"
@@ -65,7 +65,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.084418,
     "lng": 55.144879,
     "color": "yellow"
@@ -83,7 +83,7 @@
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -101,9 +101,27 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes",
+      "propertyfinder"
+    ],
+    "area": "Dubai Hills Estate",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 2139,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
+    "lat": 25.115477,
+    "lng": 55.25108,
     "color": "yellow"
   },
   {
@@ -119,27 +137,9 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.180202,
     "lng": 55.252432,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "bhomes",
-      "propertyfinder"
-    ],
-    "area": "Dubai Hills Estate",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2229,
-    "listing_count": 9,
-    "comparable_count": 9,
-    "confidence": "High",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
-    "lat": 25.115477,
-    "lng": 55.25108,
     "color": "yellow"
   },
   {
@@ -151,11 +151,11 @@
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2468,
-    "listing_count": 5,
-    "comparable_count": 5,
+    "median_price_per_sqft": 2465,
+    "listing_count": 6,
+    "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.195023,
     "lng": 55.283553,
     "color": "yellow"
@@ -169,13 +169,13 @@
     "property_type": "apartment",
     "layout_type": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2589,
-    "listing_count": 8,
-    "comparable_count": 8,
+    "median_price_per_sqft": 2671,
+    "listing_count": 9,
+    "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
-    "lat": 25.212088,
-    "lng": 55.282761,
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
+    "lat": 25.20884,
+    "lng": 55.277032,
     "color": "yellow"
   },
   {
@@ -191,7 +191,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.202959,
     "lng": 55.26006,
     "color": "yellow"
@@ -208,7 +208,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T13:17:39.330162+00:00",
+    "last_updated": "2026-05-27T15:29:42.821823+00:00",
     "lat": 25.2059268951416,
     "lng": 55.26463317871094,
     "color": "red"
