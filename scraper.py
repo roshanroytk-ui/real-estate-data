@@ -5,6 +5,7 @@ import time
 import re
 from statistics import median
 from datetime import datetime, timezone
+from math import radians, sin, cos, sqrt, atan2
 import random
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
@@ -69,6 +70,54 @@ def normalize_area(area):
         cleaned,
         area.strip().title()
     )
+
+def haversine_distance(lat1, lng1, lat2, lng2):
+
+    R = 6371
+
+    dlat = radians(lat2 - lat1)
+    dlng = radians(lng2 - lng1)
+
+    a = (
+        sin(dlat / 2) ** 2
+        + cos(radians(lat1))
+        * cos(radians(lat2))
+        * sin(dlng / 2) ** 2
+    )
+
+    c = 2 * atan2(
+        sqrt(a),
+        sqrt(1 - a)
+    )
+
+    return R * c
+
+
+def get_canonical_area(lat, lng, raw_area):
+
+    try:
+
+        lat = float(lat)
+        lng = float(lng)
+
+    except:
+
+        return normalize_area(raw_area)
+
+    for area_data in canonical_areas:
+
+        distance = haversine_distance(
+            lat,
+            lng,
+            area_data["lat"],
+            area_data["lng"]
+        )
+
+        if distance <= area_data["radius_km"]:
+
+            return area_data["canonical_area"]
+
+    return normalize_area(raw_area)
 
 
 def normalize_property_type(property_type):
@@ -219,6 +268,16 @@ for page in range(1, 11):
 
         "soup": soup
     })
+
+# LOAD CANONICAL AREAS
+
+with open(
+    "canonical_areas.json",
+    "r",
+    encoding="utf-8"
+) as f:
+
+    canonical_areas = json.load(f)
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
     area_coords = json.load(f)
@@ -431,8 +490,12 @@ for source_data in all_soups:
                             {}
                         )
 
-                        area = normalize_area(
-                            location.get("name")
+                        raw_area = location.get("name")
+
+                        area = get_canonical_area(
+                            lat,
+                            lng,
+                            raw_area
                         )
 
                         if (
@@ -845,7 +908,7 @@ for source_data in all_soups:
                     {}
                 )
 
-                area = normalize_area(
+                raw_area = (
 
                     address.get(
                         "addressRegion"
@@ -857,6 +920,12 @@ for source_data in all_soups:
                         "addressLocality",
                         "Unknown"
                     )
+                )
+
+                area = get_canonical_area(
+                    lat,
+                    lng,
+                    raw_area
                 )
 
                 # =====================================
@@ -1076,6 +1145,9 @@ for source_data in all_soups:
 
                     "area":
                     area,
+
+                    "raw_area":
+                    raw_area,
 
                     "lat":
                     lat,
