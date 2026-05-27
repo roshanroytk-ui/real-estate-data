@@ -864,13 +864,19 @@ for source_data in all_soups:
                     "numberOfBathroomsTotal"
                 )
 
-                property_type = (
-                    normalize_property_type(
-                        listing.get(
-                            "@type",
-                            "other"
-                        )
+                property_type_raw = listing.get(
+                    "@type",
+                    "other"
+                )
+
+                if isinstance(property_type_raw, list):
+
+                    property_type_raw = (
+                        property_type_raw[0]
                     )
+
+                property_type = normalize_property_type(
+                    property_type_raw
                 )
 
                 if (
