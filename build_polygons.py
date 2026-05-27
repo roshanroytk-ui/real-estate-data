@@ -11,7 +11,25 @@ AREAS = [
     "Jumeirah Lake Towers, Dubai, UAE",
     "Dubai Hills Estate, Dubai, UAE",
     "DIFC, Dubai, UAE",
-    "City Walk, Dubai, UAE"
+    "City Walk, Dubai, UAE",
+    "DIFC, Dubai, UAE",
+    "City Walk, Dubai, UAE",
+    "Palm Jumeirah, Dubai, UAE",
+    "Dubai Harbour, Dubai, UAE",
+    "Dubai Media City, Dubai, UAE",
+    "Dubai Internet City, Dubai, UAE",
+    "Al Wasl, Dubai, UAE",
+    "Arjan, Dubai, UAE",
+    "Dubai Silicon Oasis, Dubai, UAE",
+    "Al Barari, Dubai, UAE",
+    "Dubai Creek Harbour, Dubai, UAE",
+    "Dubai Islands, Dubai, UAE",
+    "Jumeirah Beach Residence, Dubai, UAE",
+    "Bluewaters Island, Dubai, UAE",
+    "Dubai Sports City, Dubai, UAE",
+    "Motor City, Dubai, UAE",
+    "Jumeirah Golf Estates, Dubai, UAE",
+    "Mohammed Bin Rashid City, Dubai, UAE"
 ]
 
 all_gdfs = []
