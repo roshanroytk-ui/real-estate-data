@@ -10,6 +10,7 @@ import random
 from bs4.element import Script
 import geopandas as gpd
 from shapely.geometry import Point
+import os
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
@@ -36,6 +37,7 @@ headers = {
 
 session = requests.Session()
 session.headers.update(headers)
+GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 AREA_ALIASES = {
 
@@ -60,6 +62,25 @@ PROPERTY_TYPE_MAP = {
     "apartmentcomplex": "apartment",
     "house": "villa"
 }
+
+VALID_LAYOUT_TYPES = [
+
+    "standard",
+
+    "terrace",
+
+    "duplex",
+
+    "penthouse",
+
+    "luxury",
+
+    "serviced",
+
+    "loft",
+
+    "ground_floor"
+]
 
 
 def normalize_area(area):
@@ -329,6 +350,113 @@ def normalize_property_type(
         cleaned,
         cleaned
     )
+
+def detect_layout_type_with_gemini(listing):
+
+    try:
+
+        title = listing.get("title", "")
+        sqft = listing.get("sqft", 0)
+        bedrooms = listing.get("bedrooms", 0)
+        area = listing.get("area", "")
+        price_per_sqft = listing.get("price_per_sqft", 0)
+        description = listing.get("description", "")
+
+        prompt = f"""
+You are a Dubai real estate classification engine.
+
+Your task:
+Classify this property into ONE layout type only.
+
+Allowed layout types:
+
+- standard
+- terrace
+- duplex
+- penthouse
+- luxury
+- serviced
+- loft
+- ground_floor
+
+Rules:
+- Return ONLY valid JSON
+- Do NOT explain
+- Do NOT add markdown
+
+Property:
+
+Title: {title}
+
+Area: {area}
+
+Bedrooms: {bedrooms}
+
+Sqft: {sqft}
+
+Price Per Sqft: {price_per_sqft}
+
+Description:
+{description}
+
+Output format:
+
+{{
+  "layout_type": "standard"
+}}
+"""
+
+        response = requests.post(
+
+            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_KEY}",
+
+            json={
+
+                "contents": [
+
+                    {
+                        "parts": [
+                            {
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            timeout=30
+        )
+
+        data = response.json()
+
+        text = (
+            data["candidates"][0]
+            ["content"]["parts"][0]["text"]
+        )
+
+        text = text.strip()
+
+        if text.startswith("```json"):
+            text = text.replace("```json", "")
+            text = text.replace("```", "")
+
+        parsed = json.loads(text)
+
+        layout_type = parsed.get(
+            "layout_type",
+            "standard"
+        )
+
+        if layout_type not in VALID_LAYOUT_TYPES:
+            return "standard"
+
+        return layout_type
+
+    except Exception as e:
+
+        print("Gemini Layout Error:", e)
+
+        return "standard"
 
 all_soups = []
 
@@ -741,7 +869,9 @@ for source_data in all_soups:
 
                             "property_type": property_type,
 
-                            "url": property_url
+                            "url": property_url,
+
+                            "layout_type": "standard",
                         })
 
                         break
@@ -949,7 +1079,9 @@ for source_data in all_soups:
 
                         "property_type": property_type,
 
-                        "url": property_url
+                        "url": property_url,
+
+                        "layout_type": "standard",
                     })
 
         except Exception as e:
@@ -1257,7 +1389,9 @@ for source_data in all_soups:
                     property_type,
 
                     "url":
-                    property_url
+                    property_url,
+
+                    "layout_type": "standard",
                 })
 
             except Exception as e:
@@ -1278,6 +1412,108 @@ with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
 
 print(f"Saved {len(properties)} properties.")
+
+# =========================================
+# AI LAYOUT AUDIT
+# =========================================
+
+for property in properties:
+
+    try:
+
+        sqft = float(property["sqft"])
+
+        if sqft <= 0:
+            continue
+
+        property["price_per_sqft"] = (
+
+            property["price"] / sqft
+        )
+
+    except:
+        continue
+
+# =====================================
+# INITIAL MARKET MEDIANS
+# =====================================
+
+initial_groups = {}
+
+for property in properties:
+
+    key = (
+
+        property["area"],
+
+        property["property_type"],
+
+        property["bedrooms"]
+    )
+
+    if key not in initial_groups:
+
+        initial_groups[key] = []
+
+    initial_groups[key].append(
+        property["price_per_sqft"]
+    )
+
+initial_medians = {
+
+    key: median(values)
+
+    for key, values in initial_groups.items()
+
+    if len(values) >= 5
+}
+
+# =====================================
+# EXTREME DEVIATION AI AUDIT
+# =====================================
+
+for property in properties:
+
+    key = (
+
+        property["area"],
+
+        property["property_type"],
+
+        property["bedrooms"]
+    )
+
+    market_median = initial_medians.get(key)
+
+    if not market_median:
+        continue
+
+    deviation = (
+
+        property["price_per_sqft"]
+        - market_median
+
+    ) / market_median
+
+    if deviation <= -0.40:
+
+        print(
+            "AI AUDIT:",
+            property["title"]
+        )
+
+        layout_type = (
+            detect_layout_type_with_gemini(
+                property
+            )
+        )
+
+        property["layout_type"] = layout_type
+
+        print(
+            "LAYOUT:",
+            layout_type
+        )
 
 
 last_updated = datetime.now(timezone.utc).isoformat()
@@ -1307,10 +1543,16 @@ for property in properties:
     price_per_sqft = price / sqft
 
     # MICRO MARKET KEY
+    layout_type = property.get(
+        "layout_type",
+        "standard"
+    )
+    
     market_key = (
         area,
         property_type,
-        bedrooms
+        bedrooms,
+        layout_type
     )
 
     if market_key not in market_groups:
@@ -1338,7 +1580,7 @@ heatmap = []
 
 for market_key, data in market_groups.items():
 
-    area, property_type, bedrooms = market_key
+    area, property_type, bedrooms, layout_type = market_key
 
     prices = data["prices"]
 
@@ -1382,6 +1624,8 @@ for market_key, data in market_groups.items():
         "area": area,
 
         "property_type": property_type,
+
+        "layout_type": layout_type,
 
         "bedrooms": bedrooms,
 
@@ -1434,9 +1678,18 @@ for market_key, data in market_groups.items():
 
     prices = data["prices"]
 
+    area, property_type, bedrooms, layout_type = market_key
+
     # STRONGER DATA QUALITY
-    if len(prices) < 5:
-        continue
+    if layout_type != "standard":
+    
+        if len(prices) < 2:
+            continue
+    
+    else:
+    
+        if len(prices) < 5:
+            continue
 
     market_median = median(prices)
 
@@ -1485,6 +1738,11 @@ for market_key, data in market_groups.items():
             "area": listing["area"],
 
             "property_type": listing["property_type"],
+
+            "layout_type": listing.get(
+                "layout_type",
+                "standard"
+            ),
 
             "bedrooms": listing["bedrooms"],
 
