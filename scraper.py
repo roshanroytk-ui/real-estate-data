@@ -523,7 +523,7 @@ for source_data in all_soups:
                                     description=description
                                 )
     
-                                    break
+                                break
 
                         location = detail_data.get(
                             "location",
