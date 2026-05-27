@@ -48,14 +48,12 @@ AREA_ALIASES = {
 PROPERTY_TYPE_MAP = {
 
     "apartment": "apartment",
-
     "flat": "apartment",
-
     "villa": "villa",
-
     "townhouse": "townhouse",
-
-    "penthouse": "penthouse"
+    "penthouse": "penthouse",
+    "apartmentcomplex": "apartment",
+    "house": "villa"
 }
 
 
@@ -754,6 +752,9 @@ for source_data in all_soups:
                     {}
                 )
 
+                print(listing.keys())
+                break
+
                 property_url = listing.get(
                     "url"
                 )
@@ -819,6 +820,9 @@ for source_data in all_soups:
 
                 area = normalize_area(
                     address.get(
+                        "addressRegion"
+                    )
+                    or address.get(
                         "addressLocality",
                         "Unknown"
                     )
