@@ -436,6 +436,10 @@ Output format:
 
             json={
 
+                "generationConfig": {
+                    "temperature": 0
+                },
+
                 "contents": [
 
                     {
@@ -538,6 +542,10 @@ Return format:
             f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_KEY}",
 
             json={
+
+                "generationConfig": {
+                    "temperature": 0
+                },
                 "contents": [
                     {
                         "parts": [
