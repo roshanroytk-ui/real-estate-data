@@ -2062,6 +2062,8 @@ for market_key, data in market_groups.items():
 
             "title": listing["title"],
 
+            "description": listing.get("description", ""),
+
             "area": listing["area"],
 
             "property_type": listing["property_type"],
