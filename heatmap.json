@@ -1,8 +1,8 @@
 [
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Jumeirah Village Circle",
     "property_type": "apartment",
@@ -11,32 +11,49 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.062724,
     "lng": 55.208325,
     "color": "green"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Dubai Marina",
     "property_type": "apartment",
     "bedrooms": 1,
-    "median_price_per_sqft": 1620,
-    "listing_count": 15,
-    "comparable_count": 15,
+    "median_price_per_sqft": 1628,
+    "listing_count": 14,
+    "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
+    ],
+    "area": "Dubai Science Park",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1675,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Dubai Marina",
     "property_type": "apartment",
@@ -45,32 +62,15 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.084418,
     "lng": 55.144879,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Dubai Science Park",
-    "property_type": "apartment",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1718,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
-    "lat": 25.0716,
-    "lng": 55.24687,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Dubai Marina",
     "property_type": "apartment",
@@ -79,7 +79,7 @@
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -95,15 +95,15 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.286724090576172,
     "lng": 55.29915237426758,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Dubai Hills Estate",
     "property_type": "apartment",
@@ -112,32 +112,15 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Business Bay",
-    "property_type": "apartment",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2397,
-    "listing_count": 9,
-    "comparable_count": 9,
-    "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
-    "lat": 25.180202,
-    "lng": 55.252432,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Difc",
     "property_type": "apartment",
@@ -146,9 +129,26 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.212088,
     "lng": 55.282761,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes",
+      "propertyfinder"
+    ],
+    "area": "Business Bay",
+    "property_type": "apartment",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2567,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
+    "lat": 25.180202,
+    "lng": 55.252432,
     "color": "yellow"
   },
   {
@@ -162,15 +162,15 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.21103286743164,
     "lng": 55.28205108642578,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Downtown Dubai",
     "property_type": "apartment",
@@ -179,15 +179,15 @@
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.195542,
     "lng": 55.26884,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Downtown Dubai",
     "property_type": "apartment",
@@ -196,15 +196,15 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.195023,
     "lng": 55.283553,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Downtown Dubai",
     "property_type": "apartment",
@@ -213,15 +213,15 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.201991,
     "lng": 55.281157,
     "color": "red"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Palm Jumeirah",
     "property_type": "apartment",
@@ -230,15 +230,15 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.112604,
     "lng": 55.143347,
     "color": "red"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Palm Jumeirah",
     "property_type": "apartment",
@@ -247,7 +247,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.106765,
     "lng": 55.152317,
     "color": "red"
@@ -263,7 +263,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
@@ -279,25 +279,9 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
+    "last_updated": "2026-05-27T07:02:02.475654+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder"
-    ],
-    "area": "Jumeirah",
-    "property_type": "apartment",
-    "bedrooms": 3,
-    "median_price_per_sqft": 14085,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T06:41:49.968641+00:00",
-    "lat": 25.194454193115234,
-    "lng": 55.24066162109375,
     "color": "red"
   }
 ]

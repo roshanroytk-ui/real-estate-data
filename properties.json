@@ -309,20 +309,6 @@
   },
   {
     "source": "bhomes",
-    "title": "Rented | High Flr | Spacious 1br | Well maintained",
-    "price": 610000.0,
-    "currency": "AED",
-    "area": "Dubai Silicon Oasis",
-    "lat": 25.116298,
-    "lng": 55.390612,
-    "sqft": 825.91,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-228786"
-  },
-  {
-    "source": "bhomes",
     "title": "Exclusive | Fully Upgraded D-Type | Full Sea View",
     "price": 6100000.0,
     "currency": "AED",
@@ -1583,20 +1569,6 @@
   },
   {
     "source": "bhomes",
-    "title": "Motivated sellle | High floor|partial lagoon view",
-    "price": 670000.0,
-    "currency": "AED",
-    "area": "Azizi Venice",
-    "lat": 24.843181,
-    "lng": 55.141156,
-    "sqft": 364.25,
-    "bedrooms": 0,
-    "bathrooms": 1,
-    "property_type": "studio apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-227140"
-  },
-  {
-    "source": "bhomes",
     "title": "Open for Offers | DIFC View | Vacant on Transfer",
     "price": 2800000.0,
     "currency": "AED",
@@ -1835,20 +1807,6 @@
   },
   {
     "source": "bhomes",
-    "title": "Canal view | Vacant | Upgraded",
-    "price": 2700000.0,
-    "currency": "AED",
-    "area": "Business Bay",
-    "lat": 25.183333,
-    "lng": 55.256432,
-    "sqft": 1358.51,
-    "bedrooms": 2,
-    "bathrooms": 3,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-226819"
-  },
-  {
-    "source": "bhomes",
     "title": "Park view | Best Layout | Balcony | Investment Apt",
     "price": 1150000.0,
     "currency": "AED",
@@ -1958,20 +1916,6 @@
     "bathrooms": 3,
     "property_type": "apartment",
     "url": "https://www.bhomes.com/en/property/bh-s-226667"
-  },
-  {
-    "source": "bhomes",
-    "title": "Furnished | Upgraded | Big Layout | Mid Floor",
-    "price": 1400000.0,
-    "currency": "AED",
-    "area": "Dubai Marina",
-    "lat": 25.087926,
-    "lng": 55.149224,
-    "sqft": 864.02,
-    "bedrooms": 1,
-    "bathrooms": 2,
-    "property_type": "apartment",
-    "url": "https://www.bhomes.com/en/property/bh-s-226601"
   },
   {
     "source": "bhomes",
@@ -2288,21 +2232,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "High Floor | Luxurious with Full Skyline Views",
-    "price": 38000000.0,
-    "currency": "AED",
-    "area": "Jumeirah",
-    "raw_area": "Jumeirah",
-    "lat": 25.20964813232422,
-    "lng": 55.23322296142578,
-    "sqft": 2631.0,
-    "bedrooms": 3,
-    "bathrooms": 4,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-jumeirah-bay-island-bulgari-resort-residences-bulgari-resort-residences-6-84904354.html"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Opulent Design Unit | Burj Al Arab Views",
     "price": 155000000.0,
     "currency": "AED",
@@ -2438,21 +2367,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "Fully Upgraded Spacious Unit with Wow-View",
-    "price": 16800000.0,
-    "currency": "AED",
-    "area": "Bluewaters",
-    "raw_area": "Bluewaters",
-    "lat": 25.078081130981445,
-    "lng": 55.12199020385742,
-    "sqft": 2128.0,
-    "bedrooms": 3,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-4-88737275.html"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Brand New | Prime Location | Handover July 2026",
     "price": 2200000.0,
     "currency": "AED",
@@ -2483,21 +2397,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "Close to metro | Best price | Spacious Layout",
-    "price": 1300000.0,
-    "currency": "AED",
-    "area": "Discovery Gardens",
-    "raw_area": "Discovery Gardens",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "sqft": 1581.0,
-    "bedrooms": 0,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-discovery-gardens-mogul-cluster-building-157-90063923.html"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Lowest price | Ready & Rented | Walkable to Metro",
     "price": 1150000.0,
     "currency": "AED",
@@ -2510,21 +2409,6 @@
     "bathrooms": null,
     "property_type": "apartment",
     "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-discovery-gardens-mogul-cluster-building-157-90063872.html"
-  },
-  {
-    "source": "propertyfinder",
-    "title": "Below Market  | Tenanted | Close to Metro",
-    "price": 1150000.0,
-    "currency": "AED",
-    "area": "Discovery Gardens",
-    "raw_area": "Discovery Gardens",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "sqft": 1453.0,
-    "bedrooms": 0,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-discovery-gardens-mogul-cluster-building-157-90063823.html"
   },
   {
     "source": "propertyfinder",
@@ -2885,6 +2769,21 @@
     "bathrooms": 1,
     "property_type": "apartment",
     "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-falcon-city-of-wonders-belgravia-gardens-89647256.html"
+  },
+  {
+    "source": "propertyfinder",
+    "title": "Vacant Now | Best Price | Great Investment",
+    "price": 1950000.0,
+    "currency": "AED",
+    "area": "Dubai Hills Estate",
+    "raw_area": "Dubai Hills Estate",
+    "lat": 25.1135196685791,
+    "lng": 55.24772262573242,
+    "sqft": 958.0,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "property_type": "apartment",
+    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-park-heights-park-heights-2-park-heights-2-tower-2-94017302.html"
   },
   {
     "source": "propertyfinder",
@@ -3683,21 +3582,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "Just Handed Over - High Floor - Multiple Option",
-    "price": 655000.0,
-    "currency": "AED",
-    "area": "Jumeirah Village Circle",
-    "raw_area": "Jumeirah Village Circle",
-    "lat": 25.065427780151367,
-    "lng": 55.20225143432617,
-    "sqft": 434.0,
-    "bedrooms": 0,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-10-binghatti-apex-93995534.html"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Full Marina View | Motivated Seller | Vacant |",
     "price": 2650000.0,
     "currency": "AED",
@@ -4295,21 +4179,6 @@
     "bathrooms": null,
     "property_type": "apartment",
     "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-creek-harbour-the-lagoons-island-park-ii-91822065.html"
-  },
-  {
-    "source": "propertyfinder",
-    "title": "Pool View | Video Walk Through Available",
-    "price": 1150000.0,
-    "currency": "AED",
-    "area": "Dubai Science Park",
-    "raw_area": "Dubai Science Park",
-    "lat": 25.077001571655273,
-    "lng": 55.24882507324219,
-    "sqft": 653.0,
-    "bedrooms": 1,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-science-park-skyhills-residences-skyhills-residences-2-91798885.html"
   },
   {
     "source": "propertyfinder",
@@ -5003,21 +4872,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "Highest Floor | Best Views | Handover Soon",
-    "price": 850000.0,
-    "currency": "AED",
-    "area": "Dubai Science Park",
-    "raw_area": "Dubai Science Park",
-    "lat": 25.071121215820312,
-    "lng": 55.24883270263672,
-    "sqft": 460.0,
-    "bedrooms": 0,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-science-park-binghatti-hills-binghatti-hills-tower-2-89176590.html"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Luxurious Unit | High Floor | Great View",
     "price": 5900000.0,
     "currency": "AED",
@@ -5060,21 +4914,6 @@
     "bathrooms": null,
     "property_type": "apartment",
     "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-crestlane-city-walk-crestlane-4-city-walk-crestlane-4-building-b-92270594.html"
-  },
-  {
-    "source": "propertyfinder",
-    "title": "Direct Lagoon and Beach| Luxury 1BR | Urban Living",
-    "price": 2650000.0,
-    "currency": "AED",
-    "area": "City Walk",
-    "raw_area": "City Walk",
-    "lat": 25.204362869262695,
-    "lng": 55.2635612487793,
-    "sqft": 805.0,
-    "bedrooms": 1,
-    "bathrooms": null,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-crestlane-city-walk-crestlane-4-city-walk-crestlane-4-building-b-92265127.html"
   },
   {
     "source": "propertyfinder",
