@@ -8,6 +8,8 @@ from datetime import datetime, timezone
 from math import radians, sin, cos, sqrt, atan2
 import random
 from bs4.element import Script
+import geopandas as gpd
+from shapely.geometry import Point
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
@@ -180,7 +182,7 @@ def is_duplicate_property(
     return False
 
 
-def get_canonical_area(lat, lng, raw_area):
+def get_canonical_area(lat, lng, raw_area=""):
 
     try:
 
@@ -191,18 +193,43 @@ def get_canonical_area(lat, lng, raw_area):
 
         return normalize_area(raw_area)
 
-    for area_data in canonical_areas:
+    point = Point(lng, lat)
 
-        distance = haversine_distance(
-            lat,
-            lng,
-            area_data["lat"],
-            area_data["lng"]
+    matches = []
+
+    for _, row in areas_gdf.iterrows():
+
+        polygon = row.geometry
+
+        try:
+
+            if polygon.contains(point):
+
+                matches.append({
+
+                    "area": row["canonical_area"],
+
+                    "polygon_area": polygon.area
+                })
+
+        except:
+            continue
+
+    # =====================================
+    # SMALLEST POLYGON WINS
+    # =====================================
+
+    if matches:
+
+        matches.sort(
+            key=lambda x: x["polygon_area"]
         )
 
-        if distance <= area_data["radius_km"]:
+        return matches[0]["area"]
 
-            return area_data["canonical_area"]
+    # =====================================
+    # FALLBACK
+    # =====================================
 
     return normalize_area(raw_area)
 
@@ -387,18 +414,13 @@ for page in range(1, 11):
         "soup": soup
     })
 
-# LOAD CANONICAL AREAS
-
-with open(
-    "canonical_areas.json",
-    "r",
-    encoding="utf-8"
-) as f:
-
-    canonical_areas = json.load(f)
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
     area_coords = json.load(f)
+
+areas_gdf = gpd.read_file(
+    "dubai_areas.geojson"
+)
 
 # convert to quick lookup
 coord_map = {
