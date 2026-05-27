@@ -7,6 +7,7 @@ from statistics import median
 from datetime import datetime, timezone
 from math import radians, sin, cos, sqrt, atan2
 import random
+from bs4.element import Script
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
@@ -954,108 +955,156 @@ for source_data in all_soups:
                     continue
 
                 # =====================================
-                # BEDROOMS (REGEX FROM DESCRIPTION)
+                # BEDROOMS + BATHROOMS
+                # FROM __NEXT_DATA__
                 # =====================================
-
-                description = listing.get(
-                    "description",
-                    ""
-                )
-
-                description = str(
-                    description
-                ).lower()
-
+                
                 bedrooms = 0
-
-                # STUDIO HANDLING
-
-                if "studio" in description:
-
-                    bedrooms = 0
-
-                else:
-
+                bathrooms = None
+                
+                try:
+                
+                    next_data_script = soup.find(
+                        "script",
+                        id="__NEXT_DATA__"
+                    )
+                
+                    if (
+                        next_data_script
+                        and next_data_script.string
+                    ):
+                
+                        next_data = json.loads(
+                            next_data_script.string
+                        )
+                
+                        next_data_text = json.dumps(
+                            next_data
+                        ).lower()
+                
+                        # BEDROOMS
+                
+                        bedroom_patterns = [
+                
+                            r'"bedrooms"\s*:\s*(\d+)',
+                
+                            r'"bedroom"\s*:\s*(\d+)',
+                
+                            r'(\d+)\s*beds?',
+                
+                            r'(\d+)\s*bedroom'
+                        ]
+                
+                        for pattern in bedroom_patterns:
+                
+                            match = re.search(
+                                pattern,
+                                next_data_text
+                            )
+                
+                            if match:
+                
+                                try:
+                
+                                    bedrooms = int(
+                                        match.group(1)
+                                    )
+                
+                                    break
+                
+                                except:
+                
+                                    pass
+                
+                        # BATHROOMS
+                
+                        bathroom_patterns = [
+                
+                            r'"bathrooms"\s*:\s*(\d+)',
+                
+                            r'"bathroom"\s*:\s*(\d+)',
+                
+                            r'(\d+)\s*baths?',
+                
+                            r'(\d+)\s*bathroom'
+                        ]
+                
+                        for pattern in bathroom_patterns:
+                
+                            match = re.search(
+                                pattern,
+                                next_data_text
+                            )
+                
+                            if match:
+                
+                                try:
+                
+                                    bathrooms = int(
+                                        match.group(1)
+                                    )
+                
+                                    break
+                
+                                except:
+                
+                                    pass
+                
+                except Exception as e:
+                
+                    print(
+                        "PROPERTYFINDER NEXT_DATA Error:",
+                        e
+                    )
+                
+                # =====================================
+                # FALLBACK TO DESCRIPTION REGEX
+                # =====================================
+                
+                if bedrooms == 0:
+                
+                    description = str(
+                        listing.get(
+                            "description",
+                            ""
+                        )
+                    ).lower()
+                
                     bedroom_patterns = [
-
+                
                         r'(\d+)\s*bedroom',
-
+                
                         r'(\d+)-bedroom',
-
+                
                         r'(\d+)\s*bed',
-
+                
                         r'(\d+)-bed',
-
+                
                         r'(\d+)\s*br',
-
+                
                         r'(\d+)-br'
                     ]
-
+                
                     for pattern in bedroom_patterns:
-
+                
                         match = re.search(
                             pattern,
                             description
                         )
-
+                
                         if match:
-
+                
                             try:
-
+                
                                 bedrooms = int(
                                     match.group(1)
                                 )
-
+                
                                 break
-
+                
                             except:
-
+                
                                 pass
-
-                print(
-                   "PF DEBUG:",
-                   bedrooms,
-                   "|",
-                   description[:120]
-                )
-
-                # =====================================
-                # BATHROOMS (REGEX FROM DESCRIPTION)
-                # =====================================
-
-                bathrooms = None
-
-                bathroom_patterns = [
-
-                    r'(\d+)\s*bathroom',
-
-                    r'(\d+)-bathroom',
-
-                    r'(\d+)\s*bath',
-
-                    r'(\d+)-bath'
-                ]
-
-                for pattern in bathroom_patterns:
-
-                    match = re.search(
-                        pattern,
-                        description
-                    )
-
-                    if match:
-
-                        try:
-
-                            bathrooms = int(
-                                match.group(1)
-                            )
-
-                            break
-
-                        except:
-
-                            pass
 
                 # =====================================
                 # PROPERTY TYPE
