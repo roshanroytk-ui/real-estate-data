@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
+import re
 from statistics import median
 from datetime import datetime, timezone
 import random
@@ -884,41 +885,101 @@ for source_data in all_soups:
                     continue
 
                 # =====================================
-                # BEDROOMS
+                # BEDROOMS (REGEX FROM DESCRIPTION)
                 # =====================================
 
-                bedrooms = listing.get(
-                    "numberOfRooms",
-                    0
+                description = listing.get(
+                    "description",
+                    ""
                 )
 
-                try:
+                description = str(
+                    description
+                ).lower()
 
-                    bedrooms = int(
-                        bedrooms
-                    )
+                bedrooms = 0
 
-                except:
+                # STUDIO HANDLING
+
+                if "studio" in description:
 
                     bedrooms = 0
 
-                # =====================================
-                # BATHROOMS
-                # =====================================
+                else:
 
-                bathrooms = listing.get(
-                    "numberOfBathroomsTotal"
-                )
+                    bedroom_patterns = [
 
-                try:
+                        r'(\d+)\s*bedroom',
 
-                    bathrooms = int(
-                        bathrooms
+                        r'(\d+)-bedroom',
+
+                        r'(\d+)\s*bed',
+
+                        r'(\d+)-bed',
+
+                        r'(\d+)\s*br',
+
+                        r'(\d+)-br'
+                    ]
+
+                    for pattern in bedroom_patterns:
+
+                        match = re.search(
+                            pattern,
+                            description
                     )
 
-                except:
+                    if match:
 
-                    bathrooms = None
+                        try:
+
+                            bedrooms = int(
+                                match.group(1)
+                            )
+
+                            break
+
+                        except:
+
+                            pass
+
+                # =====================================
+                # BATHROOMS (REGEX FROM DESCRIPTION)
+                # =====================================
+
+                bathrooms = None
+
+                bathroom_patterns = [
+
+                    r'(\d+)\s*bathroom',
+
+                    r'(\d+)-bathroom',
+
+                    r'(\d+)\s*bath',
+
+                    r'(\d+)-bath'
+                ]
+
+                for pattern in bathroom_patterns:
+
+                    match = re.search(
+                        pattern,
+                        description
+                    )
+
+                    if match:
+
+                        try:
+
+                            bathrooms = int(
+                                match.group(1)
+                            )
+
+                            break
+
+                        except:
+
+                            pass
 
                 # =====================================
                 # PROPERTY TYPE
