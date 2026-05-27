@@ -39,6 +39,29 @@ session = requests.Session()
 session.headers.update(headers)
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
+if not GEMINI_KEY:
+    print("WARNING: GEMINI_API_KEY missing")
+
+# =====================================
+# AI CACHE
+# =====================================
+
+AI_CACHE_FILE = "ai_cache.json"
+
+try:
+
+    with open(
+        AI_CACHE_FILE,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        ai_cache = json.load(f)
+
+except:
+
+    ai_cache = {}
+
 AREA_ALIASES = {
 
     "dubai marina": "Dubai Marina",
@@ -457,6 +480,85 @@ Output format:
         print("Gemini Layout Error:", e)
 
         return "standard"
+
+def generate_ai_analysis(listing, market_median):
+
+    try:
+
+        prompt = f"""
+You are a Dubai real estate investment analyst.
+
+Analyze this property compared to its market.
+
+Return ONLY valid JSON.
+
+Property:
+
+Title: {listing.get("title")}
+
+Area: {listing.get("area")}
+
+Bedrooms: {listing.get("bedrooms")}
+
+Sqft: {listing.get("sqft")}
+
+Price Per Sqft: {listing.get("price_per_sqft")}
+
+Market Median: {market_median}
+
+Description:
+{listing.get("description", "")}
+
+Return format:
+
+{{
+  "quality_context": "...",
+  "risk_flags": [
+    "..."
+  ],
+  "investment_summary": "..."
+}}
+"""
+
+        response = requests.post(
+
+            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_KEY}",
+
+            json={
+                "contents": [
+                    {
+                        "parts": [
+                            {
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            timeout=30
+        )
+
+        data = response.json()
+
+        text = (
+            data["candidates"][0]
+            ["content"]["parts"][0]["text"]
+        )
+
+        text = text.strip()
+
+        if text.startswith("```json"):
+            text = text.replace("```json", "")
+            text = text.replace("```", "")
+
+        return json.loads(text)
+
+    except Exception as e:
+
+        print("AI ANALYSIS ERROR:", e)
+
+        return None
 
 all_soups = []
 
@@ -1504,7 +1606,7 @@ for property in properties:
 
     ) / market_median
 
-    if deviation <= -0.40:
+    if abs(deviation) >= 0.40:
 
         title_lower = property["title"].lower()
 
@@ -1542,18 +1644,42 @@ for property in properties:
             property["title"]
         )
 
-        layout_type = (
-            detect_layout_type_with_gemini(
-                property
+        cache_key = property["url"]
+        
+        if cache_key in ai_cache:
+        
+            layout_type = ai_cache[
+                cache_key
+            ].get(
+                "layout_type",
+                "standard"
             )
-        )
-
+        
+            print(
+                "CACHE HIT:",
+                layout_type
+            )
+        
+        else:
+        
+            layout_type = (
+                detect_layout_type_with_gemini(
+                    property
+                )
+            )
+        
+            ai_cache[cache_key] = {
+        
+                "layout_type": layout_type
+            }
+        
+            print(
+                "NEW AI ANALYSIS:",
+                layout_type
+            )
+        
         property["layout_type"] = layout_type
 
-        print(
-            "LAYOUT:",
-            layout_type
-        )
 
 
 last_updated = datetime.now(timezone.utc).isoformat()
@@ -1826,6 +1952,63 @@ for market_key, data in market_groups.items():
             "color": color
         })
 
+
+# =====================================
+# AI INVESTMENT ANALYSIS
+# =====================================
+
+for opportunity in opportunities:
+
+    deviation = opportunity["deviation_score"]
+
+    # ONLY HIGH SIGNAL DEALS
+
+    if deviation > -0.30:
+        continue
+
+    print(
+        "AI INVESTMENT ANALYSIS:",
+        opportunity["title"]
+    )
+
+    cache_key = (
+        opportunity["url"]
+        + "_investment_analysis"
+    )
+    
+    if cache_key in ai_cache:
+    
+        analysis = ai_cache[
+            cache_key
+        ]
+    
+        print(
+            "CACHE HIT: investment analysis"
+        )
+    
+    else:
+    
+        analysis = generate_ai_analysis(
+    
+            opportunity,
+    
+            opportunity[
+                "market_median_price_per_sqft"
+            ]
+        )
+    
+        if analysis:
+    
+            ai_cache[cache_key] = analysis
+    
+            print(
+                "NEW INVESTMENT ANALYSIS"
+            )
+    
+    if analysis:
+    
+        opportunity["ai_analysis"] = analysis
+        
 # SORT BEST OPPORTUNITIES FIRST
 
 opportunities.sort(
@@ -1848,3 +2031,22 @@ with open(
     )
 
 print("Saved opportunities.json")
+
+# =====================================
+# SAVE AI CACHE
+# =====================================
+
+with open(
+    AI_CACHE_FILE,
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        ai_cache,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("Saved ai_cache.json")
