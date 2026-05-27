@@ -871,6 +871,8 @@ for source_data in all_soups:
 
                             "url": property_url,
 
+                            "description": description,
+
                             "layout_type": "standard",
                         })
 
@@ -1296,6 +1298,11 @@ for source_data in all_soups:
                 except:
                     bathrooms = None
 
+                description = property_data.get(
+                    "description",
+                    ""
+                )
+
                 # =====================================
                 # PROPERTY TYPE
                 # =====================================
@@ -1390,6 +1397,8 @@ for source_data in all_soups:
 
                     "url":
                     property_url,
+
+                    "description": description,
 
                     "layout_type": "standard",
                 })
@@ -1497,6 +1506,37 @@ for property in properties:
 
     if deviation <= -0.40:
 
+        title_lower = property["title"].lower()
+
+        # =====================================
+        # FREE RULE ENGINE
+        # =====================================
+        
+        if "terrace" in title_lower:
+        
+            property["layout_type"] = "terrace"
+            continue
+        
+        if "duplex" in title_lower:
+        
+            property["layout_type"] = "duplex"
+            continue
+        
+        if "penthouse" in title_lower:
+        
+            property["layout_type"] = "penthouse"
+            continue
+        
+        if "loft" in title_lower:
+        
+            property["layout_type"] = "loft"
+            continue
+        
+        if "ground floor" in title_lower:
+        
+            property["layout_type"] = "ground_floor"
+            continue
+
         print(
             "AI AUDIT:",
             property["title"]
@@ -1585,8 +1625,15 @@ for market_key, data in market_groups.items():
     prices = data["prices"]
 
     # SKIP WEAK DATA
-    if len(prices) < 5:
-        continue
+    if layout_type != "standard":
+
+        if len(prices) < 2:
+            continue
+    
+    else:
+    
+        if len(prices) < 5:
+            continue
 
     market_median = median(prices)
 
