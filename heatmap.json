@@ -10,7 +10,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-26T17:19:04.369684+00:00",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
     "lat": 25.062724,
     "lng": 55.208325,
     "color": "green"
@@ -26,7 +26,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-26T17:19:04.369684+00:00",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
     "lat": 25.064854,
     "lng": 55.141792,
     "color": "green"
@@ -42,7 +42,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-26T17:19:04.369684+00:00",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "green"
@@ -58,7 +58,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-26T17:19:04.369684+00:00",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
@@ -74,9 +74,25 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-26T17:19:04.369684+00:00",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
     "lat": 25.073851,
     "lng": 55.13691,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder"
+    ],
+    "area": "Dubai",
+    "property_type": "apartmentcomplex",
+    "bedrooms": 0,
+    "median_price_per_sqft": 2878,
+    "listing_count": 192,
+    "comparable_count": 192,
+    "confidence": "High",
+    "last_updated": "2026-05-27T01:03:44.598259+00:00",
+    "lat": 25.112384796142578,
+    "lng": 55.24824523925781,
     "color": "yellow"
   }
 ]
