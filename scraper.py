@@ -428,6 +428,7 @@ Output format:
   "layout_type": "standard"
 }}
 """
+        time.sleep(2)
 
         response = requests.post(
 
@@ -451,7 +452,18 @@ Output format:
         )
 
         data = response.json()
-
+        
+        # =====================================
+        # DEBUG GEMINI FAILURES
+        # =====================================
+        
+        if "candidates" not in data:
+        
+            print("GEMINI BAD RESPONSE:")
+            print(json.dumps(data, indent=2))
+        
+            return "standard"
+        
         text = (
             data["candidates"][0]
             ["content"]["parts"][0]["text"]
@@ -519,6 +531,7 @@ Return format:
   "investment_summary": "..."
 }}
 """
+        time.sleep(2)
 
         response = requests.post(
 
@@ -540,7 +553,18 @@ Return format:
         )
 
         data = response.json()
-
+        
+        # =====================================
+        # DEBUG GEMINI FAILURES
+        # =====================================
+        
+        if "candidates" not in data:
+        
+            print("GEMINI ANALYSIS BAD RESPONSE:")
+            print(json.dumps(data, indent=2))
+        
+            return None
+        
         text = (
             data["candidates"][0]
             ["content"]["parts"][0]["text"]
