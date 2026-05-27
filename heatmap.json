@@ -11,9 +11,25 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
+    "last_updated": "2026-05-27T10:34:34.551500+00:00",
     "lat": 25.062724,
     "lng": 55.208325,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "bhomes"
+    ],
+    "area": "Jumeirah Lake Towers",
+    "property_type": "apartment",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1443,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-05-27T10:34:34.551500+00:00",
+    "lat": 25.064877,
+    "lng": 55.141668,
     "color": "green"
   },
   {
@@ -23,29 +39,12 @@
     ],
     "area": "Dubai Marina",
     "property_type": "apartment",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1628,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.088631,
-    "lng": 55.14817,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Dubai Marina",
-    "property_type": "apartment",
     "bedrooms": 3,
-    "median_price_per_sqft": 1683,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "median_price_per_sqft": 1641,
+    "listing_count": 7,
+    "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
+    "last_updated": "2026-05-27T10:34:34.551500+00:00",
     "lat": 25.084418,
     "lng": 55.144879,
     "color": "yellow"
@@ -58,11 +57,11 @@
     "area": "Dubai Marina",
     "property_type": "apartment",
     "bedrooms": 2,
-    "median_price_per_sqft": 1748,
-    "listing_count": 11,
-    "comparable_count": 11,
+    "median_price_per_sqft": 1883,
+    "listing_count": 10,
+    "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
+    "last_updated": "2026-05-27T10:34:34.551500+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -72,84 +71,16 @@
       "propertyfinder",
       "bhomes"
     ],
-    "area": "Dubai Hills Estate",
+    "area": "Dubai Marina",
     "property_type": "apartment",
     "bedrooms": 1,
-    "median_price_per_sqft": 2229,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.115477,
-    "lng": 55.25108,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Business Bay",
-    "property_type": "apartment",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2397,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.180202,
-    "lng": 55.252432,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2861,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.195542,
-    "lng": 55.26884,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2900,
+    "median_price_per_sqft": 1884,
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.195023,
-    "lng": 55.283553,
+    "last_updated": "2026-05-27T10:34:34.551500+00:00",
+    "lat": 25.088631,
+    "lng": 55.14817,
     "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "bedrooms": 3,
-    "median_price_per_sqft": 3277,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-05-27T09:40:45.488162+00:00",
-    "lat": 25.201991,
-    "lng": 55.281157,
-    "color": "red"
   }
 ]
