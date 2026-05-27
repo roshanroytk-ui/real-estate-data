@@ -927,21 +927,28 @@ for source_data in all_soups:
                         match = re.search(
                             pattern,
                             description
-                    )
+                        )
 
-                    if match:
+                        if match:
 
-                        try:
+                            try:
 
-                            bedrooms = int(
-                                match.group(1)
-                            )
+                                bedrooms = int(
+                                    match.group(1)
+                                )
 
-                            break
+                                break
 
-                        except:
+                            except:
 
-                            pass
+                                pass
+
+                print(
+                   "PF DEBUG:",
+                   bedrooms,
+                   "|",
+                   description[:120]
+                )
 
                 # =====================================
                 # BATHROOMS (REGEX FROM DESCRIPTION)
