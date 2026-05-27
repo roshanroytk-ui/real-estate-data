@@ -10,7 +10,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.029897689819336,
     "lng": 55.13871383666992,
     "color": "green"
@@ -26,7 +26,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.062724,
     "lng": 55.208325,
     "color": "green"
@@ -42,7 +42,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.064854,
     "lng": 55.141792,
     "color": "green"
@@ -58,15 +58,15 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "green"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Jumeirah Village Circle",
     "property_type": "apartment",
@@ -75,15 +75,15 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.06841,
     "lng": 55.212123,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Arjan",
     "property_type": "apartment",
@@ -92,15 +92,15 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.065134,
     "lng": 55.237327,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Jumeirah Lake Towers",
     "property_type": "apartment",
@@ -109,15 +109,15 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.070522,
     "lng": 55.140874,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Dubai Science Park",
     "property_type": "apartment",
@@ -126,7 +126,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.078556,
     "lng": 55.248944,
     "color": "yellow"
@@ -142,7 +142,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
@@ -158,7 +158,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.073851,
     "lng": 55.13691,
     "color": "yellow"
@@ -174,7 +174,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.080215454101562,
     "lng": 55.13917922973633,
     "color": "yellow"
@@ -190,15 +190,15 @@
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.112384796142578,
     "lng": 55.24824523925781,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Business Bay",
     "property_type": "apartment",
@@ -207,7 +207,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.184174,
     "lng": 55.280526,
     "color": "yellow"
@@ -223,15 +223,15 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.18755531311035,
     "lng": 55.27516555786133,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Al Jaddaf",
     "property_type": "apartment",
@@ -240,7 +240,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.214144,
     "lng": 55.318355,
     "color": "yellow"
@@ -253,10 +253,10 @@
     "property_type": "apartment",
     "bedrooms": 0,
     "median_price_per_sqft": 2908,
-    "listing_count": 13,
-    "comparable_count": 13,
+    "listing_count": 15,
+    "comparable_count": 15,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
     "color": "yellow"
@@ -272,7 +272,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.190338134765625,
     "lng": 55.30483627319336,
     "color": "yellow"
@@ -288,7 +288,7 @@
     "listing_count": 14,
     "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.286724090576172,
     "lng": 55.29915237426758,
     "color": "red"
@@ -300,11 +300,11 @@
     "area": "City Walk",
     "property_type": "apartment",
     "bedrooms": 0,
-    "median_price_per_sqft": 3167,
-    "listing_count": 14,
-    "comparable_count": 14,
+    "median_price_per_sqft": 3132,
+    "listing_count": 15,
+    "comparable_count": 15,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.203636169433594,
     "lng": 55.260555267333984,
     "color": "red"
@@ -320,7 +320,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.10262680053711,
     "lng": 55.1435432434082,
     "color": "red"
@@ -332,11 +332,11 @@
     "area": "Palm Jumeirah",
     "property_type": "apartment",
     "bedrooms": 0,
-    "median_price_per_sqft": 5682,
-    "listing_count": 22,
-    "comparable_count": 22,
+    "median_price_per_sqft": 5728,
+    "listing_count": 21,
+    "comparable_count": 21,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
@@ -352,7 +352,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.07798194885254,
     "lng": 55.1230354309082,
     "color": "red"
@@ -368,7 +368,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-27T02:25:36.083778+00:00",
+    "last_updated": "2026-05-27T02:59:31.254333+00:00",
     "lat": 25.194454193115234,
     "lng": 55.24066162109375,
     "color": "red"
