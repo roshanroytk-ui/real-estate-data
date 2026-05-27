@@ -215,6 +215,20 @@ def get_canonical_area(lat, lng, raw_area=""):
         except:
             continue
 
+
+    # =====================================
+    # DEBUG POLYGON FAILURES
+    # =====================================
+
+    if not matches:
+
+        print(
+            "NO POLYGON MATCH:",
+            raw_area,
+            lat,
+            lng
+        )
+
     # =====================================
     # SMALLEST POLYGON WINS
     # =====================================
@@ -229,6 +243,45 @@ def get_canonical_area(lat, lng, raw_area=""):
 
     # =====================================
     # FALLBACK
+    # =====================================
+
+    # =====================================
+    # SEMANTIC FALLBACK
+    # =====================================
+
+    raw_lower = raw_area.lower()
+
+    SEMANTIC_AREA_MATCHES = {
+
+        "downtown": "Downtown Dubai",
+
+        "business bay": "Business Bay",
+
+        "difc": "DIFC",
+
+        "city walk": "City Walk",
+
+        "dubai marina": "Dubai Marina",
+
+        "jumeirah lake towers": "Jumeirah Lake Towers",
+
+        "jlt": "Jumeirah Lake Towers",
+
+        "jumeirah village circle": "Jumeirah Village Circle",
+
+        "jvc": "Jumeirah Village Circle",
+
+        "dubai hills": "Dubai Hills Estate"
+    }
+
+    for keyword, canonical in SEMANTIC_AREA_MATCHES.items():
+
+        if keyword in raw_lower:
+
+            return canonical
+
+    # =====================================
+    # FINAL FALLBACK
     # =====================================
 
     return normalize_area(raw_area)
