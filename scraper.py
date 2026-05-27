@@ -995,155 +995,94 @@ for source_data in all_soups:
 
                 # =====================================
                 # BEDROOMS + BATHROOMS
-                # FROM __NEXT_DATA__
+                # =====================================
+                
+                description = listing.get(
+                    "description",
+                    ""
+                )
+                
+                combined_text = (
+                    f"{title} {description}"
+                ).lower()
+                
+                # =====================================
+                # BEDROOMS
                 # =====================================
                 
                 bedrooms = 0
+                
+                bedroom_patterns = [
+                
+                    r'(\d+)\s*bedrooms?',
+                    r'(\d+)-bedrooms?',
+                    r'(\d+)\s*bed',
+                    r'(\d+)-bed',
+                    r'(\d+)\s*br',
+                    r'(\d+)-br'
+                ]
+                
+                for pattern in bedroom_patterns:
+                
+                    match = re.search(
+                        pattern,
+                        combined_text
+                    )
+                
+                    if match:
+                
+                        try:
+                
+                            bedrooms = int(
+                                match.group(1)
+                            )
+                
+                            break
+                
+                        except:
+                
+                            pass
+                
+                # STUDIO DETECTION
+                
+                if "studio" in combined_text:
+                
+                    bedrooms = 0
+                
+                # =====================================
+                # BATHROOMS
+                # =====================================
+                
                 bathrooms = None
                 
-                try:
+                bathroom_patterns = [
                 
-                    next_data_script = soup.find(
-                        "script",
-                        id="__NEXT_DATA__"
+                    r'(\d+)\s*bathrooms?',
+                    r'(\d+)-bathrooms?',
+                    r'(\d+)\s*baths?',
+                    r'(\d+)-baths?'
+                ]
+                
+                for pattern in bathroom_patterns:
+                
+                    match = re.search(
+                        pattern,
+                        combined_text
                     )
                 
-                    if (
-                        next_data_script
-                        and next_data_script.string
-                    ):
+                    if match:
                 
-                        next_data = json.loads(
-                            next_data_script.string
-                        )
+                        try:
                 
-                        next_data_text = json.dumps(
-                            next_data
-                        ).lower()
-                
-                        # BEDROOMS
-                
-                        bedroom_patterns = [
-                
-                            r'"bedrooms"\s*:\s*(\d+)',
-                
-                            r'"bedroom"\s*:\s*(\d+)',
-                
-                            r'(\d+)\s*beds?',
-                
-                            r'(\d+)\s*bedroom'
-                        ]
-                
-                        for pattern in bedroom_patterns:
-                
-                            match = re.search(
-                                pattern,
-                                next_data_text
+                            bathrooms = int(
+                                match.group(1)
                             )
                 
-                            if match:
+                            break
                 
-                                try:
+                        except:
                 
-                                    bedrooms = int(
-                                        match.group(1)
-                                    )
-                
-                                    break
-                
-                                except:
-                
-                                    pass
-                
-                        # BATHROOMS
-                
-                        bathroom_patterns = [
-                
-                            r'"bathrooms"\s*:\s*(\d+)',
-                
-                            r'"bathroom"\s*:\s*(\d+)',
-                
-                            r'(\d+)\s*baths?',
-                
-                            r'(\d+)\s*bathroom'
-                        ]
-                
-                        for pattern in bathroom_patterns:
-                
-                            match = re.search(
-                                pattern,
-                                next_data_text
-                            )
-                
-                            if match:
-                
-                                try:
-                
-                                    bathrooms = int(
-                                        match.group(1)
-                                    )
-                
-                                    break
-                
-                                except:
-                
-                                    pass
-                
-                except Exception as e:
-                
-                    print(
-                        "PROPERTYFINDER NEXT_DATA Error:",
-                        e
-                    )
-                
-                # =====================================
-                # FALLBACK TO DESCRIPTION REGEX
-                # =====================================
-                
-                if bedrooms == 0:
-                
-                    description = str(
-                        listing.get(
-                            "description",
-                            ""
-                        )
-                    ).lower()
-                
-                    bedroom_patterns = [
-                
-                        r'(\d+)\s*bedroom',
-                
-                        r'(\d+)-bedroom',
-                
-                        r'(\d+)\s*bed',
-                
-                        r'(\d+)-bed',
-                
-                        r'(\d+)\s*br',
-                
-                        r'(\d+)-br'
-                    ]
-                
-                    for pattern in bedroom_patterns:
-                
-                        match = re.search(
-                            pattern,
-                            description
-                        )
-                
-                        if match:
-                
-                            try:
-                
-                                bedrooms = int(
-                                    match.group(1)
-                                )
-                
-                                break
-                
-                            except:
-                
-                                pass
+                            pass
 
                 # =====================================
                 # PROPERTY TYPE
