@@ -105,6 +105,29 @@ VALID_LAYOUT_TYPES = [
     "ground_floor"
 ]
 
+# =====================================
+# MINIMUM COMPARABLES
+# =====================================
+
+MIN_LAYOUT_COMPS = {
+
+    "standard": 5,
+
+    "terrace": 3,
+
+    "duplex": 3,
+
+    "penthouse": 3,
+
+    "luxury": 3,
+
+    "serviced": 3,
+
+    "loft": 3,
+
+    "ground_floor": 3
+}
+
 
 def normalize_area(area):
 
@@ -1856,15 +1879,28 @@ for market_key, data in market_groups.items():
     prices = data["prices"]
 
     # SKIP WEAK DATA
-    if layout_type != "standard":
-
-        if len(prices) < 2:
-            continue
+    minimum_required = MIN_LAYOUT_COMPS.get(
     
-    else:
+        layout_type,
     
-        if len(prices) < 5:
-            continue
+        3
+    )
+    
+    if len(prices) < minimum_required:
+    
+        print(
+    
+            "SKIPPING WEAK SEGMENT:",
+    
+            layout_type,
+    
+            len(prices),
+    
+            market_key
+        )
+    
+        continue
+    
 
     market_median = median(prices)
 
@@ -1959,15 +1995,28 @@ for market_key, data in market_groups.items():
     area, property_type, bedrooms, layout_type = market_key
 
     # STRONGER DATA QUALITY
-    if layout_type != "standard":
+    minimum_required = MIN_LAYOUT_COMPS.get(
     
-        if len(prices) < 2:
-            continue
+        layout_type,
     
-    else:
+        3
+    )
     
-        if len(prices) < 5:
-            continue
+    if len(prices) < minimum_required:
+    
+        print(
+    
+            "SKIPPING WEAK SEGMENT:",
+    
+            layout_type,
+    
+            len(prices),
+    
+            market_key
+        )
+    
+        continue
+    
 
     market_median = median(prices)
 
