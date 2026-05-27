@@ -374,128 +374,6 @@ def normalize_property_type(
         cleaned
     )
 
-def detect_layout_type_with_gemini(listing):
-
-    try:
-
-        title = listing.get("title", "")
-        sqft = listing.get("sqft", 0)
-        bedrooms = listing.get("bedrooms", 0)
-        area = listing.get("area", "")
-        price_per_sqft = listing.get("price_per_sqft", 0)
-        description = listing.get("description", "")
-
-        prompt = f"""
-You are a Dubai real estate classification engine.
-
-Your task:
-Classify this property into ONE layout type only.
-
-Allowed layout types:
-
-- standard
-- terrace
-- duplex
-- penthouse
-- luxury
-- serviced
-- loft
-- ground_floor
-
-Rules:
-- Return ONLY valid JSON
-- Do NOT explain
-- Do NOT add markdown
-
-Property:
-
-Title: {title}
-
-Area: {area}
-
-Bedrooms: {bedrooms}
-
-Sqft: {sqft}
-
-Price Per Sqft: {price_per_sqft}
-
-Description:
-{description}
-
-Output format:
-
-{{
-  "layout_type": "standard"
-}}
-"""
-        time.sleep(2)
-
-        response = requests.post(
-
-            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_KEY}",
-
-            json={
-
-                "generationConfig": {
-                    "temperature": 0
-                },
-
-                "contents": [
-
-                    {
-                        "parts": [
-                            {
-                                "text": prompt
-                            }
-                        ]
-                    }
-                ]
-            },
-
-            timeout=30
-        )
-
-        data = response.json()
-        
-        # =====================================
-        # DEBUG GEMINI FAILURES
-        # =====================================
-        
-        if "candidates" not in data:
-        
-            print("GEMINI BAD RESPONSE:")
-            print(json.dumps(data, indent=2))
-        
-            return "standard"
-        
-        text = (
-            data["candidates"][0]
-            ["content"]["parts"][0]["text"]
-        )
-
-        text = text.strip()
-
-        if text.startswith("```json"):
-            text = text.replace("```json", "")
-            text = text.replace("```", "")
-
-        parsed = json.loads(text)
-
-        layout_type = parsed.get(
-            "layout_type",
-            "standard"
-        )
-
-        if layout_type not in VALID_LAYOUT_TYPES:
-            return "standard"
-
-        return layout_type
-
-    except Exception as e:
-
-        print("Gemini Layout Error:", e)
-
-        return "standard"
 
 def batch_detect_layout_types(listings):
 
@@ -534,6 +412,11 @@ def batch_detect_layout_types(listings):
                         "price_per_sqft",
                         0
                     )
+                ),
+
+                "description": listing.get(
+                    "description",
+                    ""
                 )
             })
 
@@ -571,7 +454,7 @@ Properties:
 {json.dumps(simplified, indent=2)}
 """
 
-        time.sleep(15)
+        time.sleep(2)
 
         response = requests.post(
 
