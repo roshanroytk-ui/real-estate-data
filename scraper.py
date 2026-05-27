@@ -497,6 +497,163 @@ Output format:
 
         return "standard"
 
+def batch_detect_layout_types(listings):
+
+    try:
+
+        simplified = []
+
+        for listing in listings:
+
+            simplified.append({
+
+                "url": listing["url"],
+
+                "title": listing.get(
+                    "title",
+                    ""
+                ),
+
+                "area": listing.get(
+                    "area",
+                    ""
+                ),
+
+                "bedrooms": listing.get(
+                    "bedrooms",
+                    0
+                ),
+
+                "sqft": listing.get(
+                    "sqft",
+                    0
+                ),
+
+                "price_per_sqft": round(
+                    listing.get(
+                        "price_per_sqft",
+                        0
+                    )
+                )
+            })
+
+        prompt = f"""
+You are a Dubai real estate classification engine.
+
+For EACH property:
+
+Classify into ONE layout type only.
+
+Allowed values:
+
+- standard
+- terrace
+- duplex
+- penthouse
+- luxury
+- serviced
+- loft
+- ground_floor
+
+Return ONLY valid JSON array.
+
+Example:
+
+[
+  {{
+    "url": "...",
+    "layout_type": "standard"
+  }}
+]
+
+Properties:
+
+{json.dumps(simplified, indent=2)}
+"""
+
+        time.sleep(15)
+
+        response = requests.post(
+
+            f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_KEY}",
+
+            json={
+
+                "generationConfig": {
+                    "temperature": 0
+                },
+
+                "contents": [
+                    {
+                        "parts": [
+                            {
+                                "text": prompt
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            timeout=60
+        )
+
+        data = response.json()
+
+        if "candidates" not in data:
+
+            print("BATCH GEMINI ERROR:")
+            print(json.dumps(data, indent=2))
+
+            return {}
+
+        text = (
+            data["candidates"][0]
+            ["content"]["parts"][0]["text"]
+        )
+
+        text = text.strip()
+
+        if text.startswith("```json"):
+            text = text.replace(
+                "```json",
+                ""
+            )
+
+            text = text.replace(
+                "```",
+                ""
+            )
+
+        parsed = json.loads(text)
+
+        results = {}
+
+        for item in parsed:
+
+            url = item.get("url")
+
+            layout_type = item.get(
+                "layout_type",
+                "standard"
+            )
+
+            if (
+                layout_type
+                not in VALID_LAYOUT_TYPES
+            ):
+
+                layout_type = "standard"
+
+            results[url] = layout_type
+
+        return results
+
+    except Exception as e:
+
+        print("BATCH LAYOUT ERROR:", e)
+
+        return {}
+
 def generate_ai_analysis(listing, market_median):
 
     try:
@@ -1615,6 +1772,8 @@ initial_medians = {
 # EXTREME DEVIATION AI AUDIT
 # =====================================
 
+suspicious_properties = []
+
 for property in properties:
 
     key = (
@@ -1672,46 +1831,77 @@ for property in properties:
             continue
 
         print(
-            "AI AUDIT:",
+            "QUEUE AI AUDIT:",
             property["title"]
         )
-
+        
         cache_key = property["url"]
         
         if cache_key in ai_cache:
         
-            layout_type = ai_cache[
-                cache_key
-            ].get(
-                "layout_type",
-                "standard"
+            property["layout_type"] = (
+        
+                ai_cache[
+                    cache_key
+                ].get(
+                    "layout_type",
+                    "standard"
+                )
             )
         
             print(
                 "CACHE HIT:",
-                layout_type
+                property["layout_type"]
             )
         
         else:
         
-            layout_type = (
-                detect_layout_type_with_gemini(
-                    property
-                )
+            suspicious_properties.append(
+                property
             )
-        
-            ai_cache[cache_key] = {
-        
-                "layout_type": layout_type
-            }
-        
-            print(
-                "NEW AI ANALYSIS:",
-                layout_type
-            )
-        
-        property["layout_type"] = layout_type
 
+# =====================================
+# BATCH GEMINI LAYOUT ANALYSIS
+# =====================================
+
+if suspicious_properties:
+
+    print(
+        "RUNNING BATCH LAYOUT ANALYSIS:",
+        len(suspicious_properties)
+    )
+
+    batch_results = (
+        batch_detect_layout_types(
+            suspicious_properties
+        )
+    )
+
+    for property in suspicious_properties:
+
+        layout_type = batch_results.get(
+
+            property["url"],
+
+            "standard"
+        )
+
+        property["layout_type"] = (
+            layout_type
+        )
+
+        ai_cache[
+            property["url"]
+        ] = {
+
+            "layout_type":
+            layout_type
+        }
+
+        print(
+            "BATCH RESULT:",
+            layout_type
+        )
 
 
 last_updated = datetime.now(timezone.utc).isoformat()
