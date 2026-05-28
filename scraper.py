@@ -1336,6 +1336,17 @@ for source_data in all_soups:
 
                         seen_urls.add(property_url)
 
+                        desc_lower = description.lower()
+                            
+                        if "unfurnished" in desc_lower:
+                            furnished_status = "NO"
+                            
+                        elif "furnished" in desc_lower:
+                            furnished_status = "YES"
+                            
+                        else:
+                            furnished_status = "UNKNOWN"
+
                         properties.append({
 
                             "source": "bhomes",
@@ -1372,16 +1383,7 @@ for source_data in all_soups:
 
                             "is_verified": is_verified,
                             
-                            desc_lower = description.lower(),
-                            
-                            if "unfurnished" in desc_lower:
-                                furnished_status = "NO"
-                            
-                            elif "furnished" in desc_lower:
-                                furnished_status = "YES"
-                            
-                            else:
-                                furnished_status = "UNKNOWN"
+                            "furnished_status": furnished_status,
 
                             "layout_type": "standard",
 
