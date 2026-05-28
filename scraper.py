@@ -1294,7 +1294,9 @@ for source_data in all_soups:
                         )
                         
                         tower_name = (
-                            addressRegion.split(",")[0].strip()
+                            location.get("name")
+                            or addressRegion
+                            or "Unknown"
                         )
 
                         area = get_canonical_area(
