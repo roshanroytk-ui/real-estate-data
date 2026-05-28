@@ -477,6 +477,19 @@ def extract_amenities(amenity_features):
 
     return amenities
 
+def normalize_amenities(amenities):
+
+    if not amenities:
+        return []
+
+    # REMOVE DUPLICATES
+    amenities = list(
+        dict.fromkeys(amenities)
+    )
+
+    # LIMIT TO 3
+    return amenities[:3]
+
 
 def normalize_property_type(
     property_type,
@@ -997,6 +1010,8 @@ for source_data in all_soups:
                     type="application/ld+json"
                 )
 
+                all_amenities = []
+
                 for detail_script in detail_scripts:
 
                     try:
@@ -1088,12 +1103,18 @@ for source_data in all_soups:
                         # AMENITIES
                         # =====================================
                         
-                        amenities = extract_amenities(
+                        features = detail_data.get(
+                            "amenityFeature",
+                            []
+                        )
                         
-                            detail_data.get(
-                                "amenityFeature",
-                                []
-                            )
+                        all_amenities.extend(
+                        
+                            extract_amenities(features)
+                        )
+                        
+                        amenities = normalize_amenities(
+                            all_amenities
                         )
 
                         property_type = "other"
@@ -1148,8 +1169,13 @@ for source_data in all_soups:
                             {}
                         )
                         
-                        tower_name = address.get(
-                            "addressRegion"
+                        addressRegion = address.get(
+                            "addressRegion",
+                            ""
+                        )
+                        
+                        tower_name = (
+                            addressRegion.split(",")[0].strip()
                         )
 
                         area = get_canonical_area(
@@ -1588,7 +1614,8 @@ for source_data in all_soups:
                     ),
                 
                     
-                    "amenities": (
+                    "amenities": normalize_amenities(
+                    
                         property_data.get(
                             "amenity_names",
                             []
