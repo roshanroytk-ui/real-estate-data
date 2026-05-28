@@ -482,12 +482,75 @@ def normalize_amenities(amenities):
     if not amenities:
         return []
 
+    # =====================================
     # REMOVE DUPLICATES
+    # =====================================
+
     amenities = list(
         dict.fromkeys(amenities)
     )
 
-    # LIMIT TO 3
+    # =====================================
+    # PRIORITY SYSTEM
+    # =====================================
+
+    PRIORITY_AMENITIES = [
+
+        # ULTRA PREMIUM
+        "Private Beach",
+        "Beach Access",
+        "Sea View",
+        "View of Water",
+        "Waterfront",
+        "Infinity Pool",
+        "Private Pool",
+        "Shared Pool",
+
+        # WELLNESS
+        "Gym",
+        "Shared Gym",
+        "Private Gym",
+        "Spa",
+        "Shared Spa",
+        "Sauna",
+
+        # LIFESTYLE
+        "Rooftop",
+        "Sky Lounge",
+        "Concierge Service",
+        "Valet Service",
+        "Children's Play Area",
+        "Children's Pool",
+
+        # PROPERTY FEATURES
+        "Balcony",
+        "Walk-in Closet",
+        "Built-In Wardrobes",
+
+        # SAFETY
+        "Security",
+        "Covered Parking"
+    ]
+
+    # =====================================
+    # SORT BY PRIORITY
+    # =====================================
+
+    def amenity_score(name):
+
+        try:
+            return PRIORITY_AMENITIES.index(name)
+        except:
+            return 999
+
+    amenities.sort(
+        key=amenity_score
+    )
+
+    # =====================================
+    # LIMIT TO TOP 3
+    # =====================================
+
     return amenities[:3]
 
 
