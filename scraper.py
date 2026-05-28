@@ -1209,14 +1209,42 @@ for source_data in all_soups:
                             description
                         )
 
-                        additional_properties = (
-                            detail_data.get(
-                                "additionalProperty",
-                                []
-                            )
+                        additional_properties = detail_data.get(
+                            "additionalProperty",
+                            []
                         )
-
+                        
+                        # normalize into list
+                        if isinstance(additional_properties, dict):
+                            additional_properties = [additional_properties]
+                        
                         for prop in additional_properties:
+                        
+                            if not isinstance(prop, dict):
+                                continue
+                        
+                            # CASE 1
+                            if prop.get("name") == "Property Type":
+                        
+                                property_type = normalize_property_type(
+                                    prop.get("value", "other"),
+                                    title=title,
+                                    description=description
+                                )
+                        
+                                break
+                        
+                            # CASE 2 (bhomes weird schema)
+                            elif (
+                                prop.get("@type") == "PropertyValue"
+                                and prop.get("name")
+                            ):
+                        
+                                property_type = normalize_property_type(
+                                    prop.get("name"),
+                                    title=title,
+                                    description=description
+                                )
 
                             if (
                                 isinstance(prop, dict)
