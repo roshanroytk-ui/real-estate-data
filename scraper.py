@@ -105,6 +105,15 @@ VALID_LAYOUT_TYPES = [
     "ground_floor"
 ]
 
+VALID_QUALITY_TIERS = [
+
+    "standard",
+
+    "premium",
+
+    "ultra_luxury"
+]
+
 # =====================================
 # MINIMUM COMPARABLES
 # =====================================
@@ -126,6 +135,15 @@ MIN_LAYOUT_COMPS = {
     "loft": 3,
 
     "ground_floor": 3
+}
+
+MIN_QUALITY_COMPS = {
+
+    "standard": 5,
+
+    "premium": 3,
+
+    "ultra_luxury": 3
 }
 
 
@@ -461,6 +479,13 @@ Allowed values:
 - loft
 - ground_floor
 
+
+Allowed quality_tier values:
+
+- standard
+- premium
+- ultra_luxury
+
 Return ONLY valid JSON array.
 
 Example:
@@ -468,7 +493,8 @@ Example:
 [
   {{
     "url": "...",
-    "layout_type": "standard"
+    "layout_type": "standard",
+    "quality_tier": "standard"
   }}
 ]
 
@@ -543,6 +569,13 @@ Properties:
                 "standard"
             )
 
+            quality_tier = item.get(
+
+                "quality_tier",
+            
+                "standard"
+            )
+
             if (
                 layout_type
                 not in VALID_LAYOUT_TYPES
@@ -550,7 +583,19 @@ Properties:
 
                 layout_type = "standard"
 
-            results[url] = layout_type
+            if (
+                quality_tier
+                not in VALID_QUALITY_TIERS
+            ):
+            
+                quality_tier = "standard"
+
+            results[url] = {
+
+                "layout_type": layout_type,
+            
+                "quality_tier": quality_tier
+            }
 
         return results
 
@@ -1071,6 +1116,8 @@ for source_data in all_soups:
                             "description": description,
 
                             "layout_type": "standard",
+
+                            "quality_tier": "standard",
                         })
 
                         break
@@ -1281,6 +1328,8 @@ for source_data in all_soups:
                         "url": property_url,
 
                         "layout_type": "standard",
+
+                        "quality_tier": "standard",
                     })
 
         except Exception as e:
@@ -1598,6 +1647,8 @@ for source_data in all_soups:
                     "description": description,
 
                     "layout_type": "standard",
+
+                    "quality_tier": "standard",
                 })
 
             except Exception as e:
@@ -1754,6 +1805,16 @@ for property in properties:
                     "standard"
                 )
             )
+
+            property["quality_tier"] = (
+
+                ai_cache[
+                    cache_key
+                ].get(
+                    "quality_tier",
+                    "standard"
+                )
+            )
         
             print(
                 "CACHE HIT:",
@@ -1785,23 +1846,40 @@ if suspicious_properties:
 
     for property in suspicious_properties:
 
-        layout_type = batch_results.get(
-
+        result = batch_results.get(
+        
             property["url"],
-
+        
+            {}
+        )
+        
+        layout_type = result.get(
+        
+            "layout_type",
+        
             "standard"
         )
-
-        property["layout_type"] = (
-            layout_type
+        
+        quality_tier = result.get(
+        
+            "quality_tier",
+        
+            "standard"
         )
+        
+        property["layout_type"] = layout_type
+        
+        property["quality_tier"] = quality_tier
 
         ai_cache[
             property["url"]
         ] = {
 
             "layout_type":
-            layout_type
+            layout_type,
+
+            "quality_tier":
+            quality_tier
         }
 
         print(
@@ -1841,12 +1919,21 @@ for property in properties:
         "layout_type",
         "standard"
     )
+
+    quality_tier = property.get(
+
+        "quality_tier",
+    
+        "standard"
+    )
+
     
     market_key = (
         area,
         property_type,
         bedrooms,
-        layout_type
+        layout_type,
+        quality_tier
     )
 
     if market_key not in market_groups:
@@ -1874,16 +1961,30 @@ heatmap = []
 
 for market_key, data in market_groups.items():
 
-    area, property_type, bedrooms, layout_type = market_key
+    area, property_type, bedrooms, layout_type, quality_tier = market_key
 
     prices = data["prices"]
 
     # SKIP WEAK DATA
-    minimum_required = MIN_LAYOUT_COMPS.get(
+    layout_required = MIN_LAYOUT_COMPS.get(
     
         layout_type,
     
         3
+    )
+    
+    quality_required = MIN_QUALITY_COMPS.get(
+    
+        quality_tier,
+    
+        3
+    )
+    
+    minimum_required = max(
+    
+        layout_required,
+    
+        quality_required
     )
     
     if len(prices) < minimum_required:
@@ -1941,6 +2042,8 @@ for market_key, data in market_groups.items():
 
         "layout_type": layout_type,
 
+        "quality_tier": quality_tier,
+
         "bedrooms": bedrooms,
 
         "median_price_per_sqft": round(
@@ -1992,14 +2095,28 @@ for market_key, data in market_groups.items():
 
     prices = data["prices"]
 
-    area, property_type, bedrooms, layout_type = market_key
+    area, property_type, bedrooms, layout_type, quality_tier = market_key
 
     # STRONGER DATA QUALITY
-    minimum_required = MIN_LAYOUT_COMPS.get(
+    layout_required = MIN_LAYOUT_COMPS.get(
     
         layout_type,
     
         3
+    )
+    
+    quality_required = MIN_QUALITY_COMPS.get(
+    
+        quality_tier,
+    
+        3
+    )
+    
+    minimum_required = max(
+    
+        layout_required,
+    
+        quality_required
     )
     
     if len(prices) < minimum_required:
@@ -2070,6 +2187,11 @@ for market_key, data in market_groups.items():
 
             "layout_type": listing.get(
                 "layout_type",
+                "standard"
+            ),
+
+            "quality_tier": listing.get(
+                "quality_tier",
                 "standard"
             ),
 
