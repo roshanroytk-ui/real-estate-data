@@ -1446,40 +1446,6 @@ for source_data in all_soups:
                     "description",
                     ""
                 )
-
-                # =====================================
-                # DEVELOPER EXTRACTION
-                # =====================================
-                
-                developer_name = None
-                
-                developer_patterns = [
-                
-                    r"by ([A-Z][A-Za-z& ]+)",
-                
-                    r"developed by ([A-Z][A-Za-z& ]+)"
-                ]
-                
-                for pattern in developer_patterns:
-                
-                    match = re.search(
-                
-                        pattern,
-                
-                        description,
-                
-                        re.IGNORECASE
-                    )
-                
-                    if match:
-                
-                        developer_name = (
-                
-                            match.group(1)
-                            .strip()
-                        )
-                
-                        break
         
 
                 # =====================================
@@ -1620,10 +1586,7 @@ for source_data in all_soups:
                             "is_new_construction"
                         )
                     ),
-                    
-                    "developer_name": (
-                        developer_name
-                    ),
+                
                     
                     "amenities": (
                         property_data.get(
