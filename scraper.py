@@ -2518,6 +2518,10 @@ for market_key, data in market_groups.items():
                 ""
             ),
 
+            "lat": listing.get("lat"),
+
+            "lng": listing.get("lng"),
+
             "price_per_sqft": ppsf,
 
             "price": round(
