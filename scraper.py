@@ -188,6 +188,158 @@ VALID_QUALITY_TIERS = [
     "ultra_luxury"
 ]
 
+def detect_quality_tier(property):
+
+    score = 0
+
+    description = (
+        property.get("description", "")
+        .lower()
+    )
+
+    title = (
+        property.get("title", "")
+        .lower()
+    )
+
+    amenities = property.get(
+        "amenities",
+        []
+    )
+
+    completion_status = property.get(
+        "completion_status",
+        ""
+    )
+
+    sqft = property.get(
+        "sqft",
+        0
+    )
+
+    try:
+        sqft = float(sqft)
+    except:
+        sqft = 0
+
+    # =====================================
+    # ULTRA LUXURY KEYWORDS
+    # =====================================
+
+    ultra_keywords = [
+
+        "ultra luxury",
+        "branded residence",
+        "dorchester",
+        "omniyat",
+        "foster + partners",
+        "private beach",
+        "private pool",
+        "sky palace",
+        "full floor",
+        "penthouse",
+        "serviced by",
+        "waterfront luxury",
+        "exclusive residence",
+        "iconic address"
+    ]
+
+    # =====================================
+    # PREMIUM KEYWORDS
+    # =====================================
+
+    premium_keywords = [
+
+        "beach access",
+        "sea view",
+        "high floor",
+        "luxury living",
+        "modern finishes",
+        "upgraded",
+        "infinity pool",
+        "concierge",
+        "waterfront",
+        "premium",
+        "resort-style"
+    ]
+
+    # =====================================
+    # SCORE ULTRA
+    # =====================================
+
+    for keyword in ultra_keywords:
+
+        if keyword in description or keyword in title:
+            score += 3
+
+    # =====================================
+    # SCORE PREMIUM
+    # =====================================
+
+    for keyword in premium_keywords:
+
+        if keyword in description or keyword in title:
+            score += 1
+
+    # =====================================
+    # AMENITY SCORING
+    # =====================================
+
+    ultra_amenities = [
+
+        "Private Beach",
+        "Private Pool",
+        "Infinity Pool",
+        "Spa",
+        "Valet Service"
+    ]
+
+    premium_amenities = [
+
+        "Shared Pool",
+        "Shared Gym",
+        "View of Water",
+        "Concierge Service",
+        "Balcony"
+    ]
+
+    for amenity in amenities:
+
+        if amenity in ultra_amenities:
+            score += 2
+
+        elif amenity in premium_amenities:
+            score += 1
+
+    # =====================================
+    # OFF PLAN LUXURY BOOST
+    # =====================================
+
+    if completion_status == "off_plan":
+        score += 2
+
+    # =====================================
+    # HUGE LAYOUT BOOST
+    # =====================================
+
+    if sqft >= 5000:
+        score += 4
+
+    elif sqft >= 2500:
+        score += 2
+
+    # =====================================
+    # FINAL CLASSIFICATION
+    # =====================================
+
+    if score >= 8:
+        return "ultra_luxury"
+
+    elif score >= 4:
+        return "premium"
+
+    return "standard"
+
 # =====================================
 # MINIMUM COMPARABLES
 # =====================================
@@ -497,6 +649,32 @@ def normalize_amenities(amenities):
         dict.fromkeys(amenities)
     )
 
+    ALIASES = {
+
+        "Private Beach Access": "Private Beach",
+    
+        "Beach Access": "Private Beach",
+    
+        "Sea View": "View of Water",
+    
+        "Infinity Swimming Pool": "Infinity Pool",
+    
+        "Gymnasium": "Shared Gym"
+    }
+    
+    normalized = []
+    
+    for amenity in amenities:
+    
+        normalized.append(
+            ALIASES.get(
+                amenity,
+                amenity
+            )
+        )
+    
+    amenities = normalized
+
     # =====================================
     # PRIORITY SYSTEM
     # =====================================
@@ -647,7 +825,26 @@ def batch_detect_layout_types(listings):
                 "description": listing.get(
                     "description",
                     ""
-                )
+                ),
+                "amenities": listing.get(
+                    "amenities",
+                    []
+                ),
+                
+                "completion_status": listing.get(
+                    "completion_status",
+                    ""
+                ),
+                
+                "tower_name": listing.get(
+                    "tower_name",
+                    ""
+                ),
+                
+                "quality_tier": listing.get(
+                    "quality_tier",
+                    "standard"
+                ),
             })
 
         prompt = f"""
@@ -671,9 +868,24 @@ Allowed values:
 
 Allowed quality_tier values:
 
-- standard
-- premium
-- ultra_luxury
+ultra_luxury:
+- branded residences
+- waterfront trophy assets
+- ultra-premium developers
+- private beach/pool
+- penthouse-scale layouts
+- iconic architecture
+
+premium:
+- luxury towers
+- beachfront
+- modern high-end finishes
+- strong amenities
+
+standard:
+- regular apartments
+- older stock
+- non-branded
 
 Return ONLY valid JSON array.
 
@@ -1257,25 +1469,6 @@ for source_data in all_soups:
                                     description=description
                                 )
 
-                            if (
-                                isinstance(prop, dict)
-                                and prop.get("name") == "Property Type"
-                            ):
-
-                                
-                                property_type = normalize_property_type(
-                                
-                                    prop.get(
-                                        "value",
-                                        "other"
-                                    ),
-                                
-                                    title=title,
-                                
-                                    description=description
-                                )
-    
-                                break
 
                         location = detail_data.get(
                             "location",
@@ -1293,11 +1486,45 @@ for source_data in all_soups:
                             ""
                         )
                         
-                        tower_name = (
-                            location.get("name")
-                            or addressRegion
-                            or "Unknown"
+                        tower_name = "Unknown"
+
+                        location_name = (
+                            location.get("name", "")
+                            .strip()
                         )
+                        
+                        if (
+                            location_name
+                            and location_name.lower() != "dubai"
+                        ):
+                            tower_name = location_name
+                        
+                        else:
+                        
+                            tower_patterns = [
+                        
+                                r"in ([A-Z][A-Za-z0-9&\- ]+)",
+                        
+                                r"at ([A-Z][A-Za-z0-9&\- ]+)",
+                        
+                                r"located in ([A-Z][A-Za-z0-9&\- ]+)"
+                            ]
+                        
+                            for pattern in tower_patterns:
+                        
+                                match = re.search(
+                                    pattern,
+                                    description
+                                )
+                        
+                                if match:
+                        
+                                    tower_name = (
+                                        match.group(1)
+                                        .strip()
+                                    )
+                        
+                                    break
 
                         area = get_canonical_area(
                             lat,
@@ -1785,10 +2012,22 @@ with open("properties.json", "w", encoding="utf-8") as f:
 
 print(f"Saved {len(properties)} properties.")
 
+
+
+
 # =========================================
 # AI LAYOUT AUDIT
 # =========================================
+# =====================================
+# PRE-CLASSIFY QUALITY TIERS
+# =====================================
 
+for property in properties:
+
+    property["quality_tier"] = (
+        detect_quality_tier(property)
+    )
+    
 for property in properties:
 
     try:
@@ -1869,7 +2108,16 @@ for property in properties:
 
     ) / market_median
 
-    if abs(deviation) >= 0.40:
+    needs_ai = (
+
+    abs(deviation) >= 0.40
+
+        or property["quality_tier"] == "premium"
+    
+        or property["quality_tier"] == "ultra_luxury"
+    )
+    
+    if needs_ai:
 
         title_lower = property["title"].lower()
 
