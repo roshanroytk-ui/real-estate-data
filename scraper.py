@@ -1045,7 +1045,7 @@ for source_data in all_soups:
                 if property_url in seen_urls:
                     continue
 
-                seen_urls.add(property_url)
+                
 
                 try:
 
@@ -1133,6 +1133,10 @@ for source_data in all_soups:
                                 )
                             )
                         ):
+                            continue
+
+                        # NEW FIX
+                        if not detail_data.get("additionalProperty"):
                             continue
 
                         offers = detail_data.get(
@@ -1322,6 +1326,8 @@ for source_data in all_soups:
                             detail_data.get("additionalProperty"),
                             indent=2
                         ))
+
+                        seen_urls.add(property_url)
 
                         properties.append({
 
