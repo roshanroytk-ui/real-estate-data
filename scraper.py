@@ -849,48 +849,6 @@ for page in range(1, 11):
         "soup": soup
     })
 
-"""
-# =========================================
-# BAYUT
-# =========================================
-
-for page in range(1, 11):
-
-    if page == 1:
-        url = bayut_base_url
-    else:
-        url = f"{bayut_base_url}page-{page}/"
-
-    print("BAYUT:", url)
-
-    try:
-
-        response = session.get(
-            url,
-            headers=headers,
-            timeout=20
-        )
-
-        response.raise_for_status()
-
-    except Exception as e:
-
-        print("Page Request Error:", e)
-
-        continue
-
-    time.sleep(random.uniform(2, 5))
-
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser"
-    )
-
-    all_soups.append({
-        "source": "bayut",
-        "soup": soup
-    })
-"""
 
 # =========================================
 # PROPERTY FINDER
@@ -1251,8 +1209,6 @@ for source_data in all_soups:
                             "tower_name": tower_name,
 
                             "amenities": amenities,
-
-                            "developer_name": developer_name,
 
                             "completion_status": completion_status,
 
