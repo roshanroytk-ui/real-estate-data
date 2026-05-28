@@ -1262,11 +1262,8 @@ for source_data in all_soups:
                             "is_verified": is_verified,
                             
                             "furnished_status": (
-                            
                                 "YES"
-                            
-                                if "Fully Furnished" in description
-                            
+                                if "furnished" in description.lower()
                                 else "NO"
                             ),
 
@@ -2216,62 +2213,37 @@ for market_key, data in market_groups.items():
         else:
             color = "yellow"
 
-        opportunities.append({
+        opportunity = listing.copy()
 
-            "source": listing["source"],
-
-            "title": listing["title"],
-
-            "description": listing.get("description", ""),
-
-            "area": listing["area"],
-
-            "property_type": listing["property_type"],
-
-            "layout_type": listing.get(
-                "layout_type",
-                "standard"
-            ),
-
-            "quality_tier": listing.get(
-                "quality_tier",
-                "standard"
-            ),
-
-            "bedrooms": listing["bedrooms"],
-
-            "bathrooms": listing["bathrooms"],
-
+        opportunity.update({
+        
             "price": round(listing["price"]),
-
+        
             "sqft": round(sqft),
-
+        
             "price_per_sqft": round(
                 listing_price_per_sqft
             ),
-
+        
             "market_median_price_per_sqft": round(
                 market_median
             ),
-
+        
             "comparable_count": comparable_count,
-
+        
             "confidence": confidence,
-
+        
             "last_updated": last_updated,
-
+        
             "deviation_score": round(
                 deviation,
                 2
             ),
-
-            "lat": listing["lat"],
-            "lng": listing["lng"],
-
-            "url": listing["url"],
-
+        
             "color": color
         })
+        
+        opportunities.append(opportunity)
 
 
 # =====================================
