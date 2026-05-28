@@ -6903,38 +6903,6 @@
   },
   {
     "source": "propertyfinder",
-    "title": "High Floor | Brand New | Burj Al Arab View",
-    "price": 1600000.0,
-    "currency": "AED",
-    "area": "Dubai Hills Estate",
-    "raw_area": "Golf Grand, Dubai Hills Estate, Dubai",
-    "lat": 25.11564064025879,
-    "lng": 55.268245697021484,
-    "sqft": 687.0,
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "property_type": "apartment",
-    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-golf-grand-89633220.html",
-    "description": "Presenting this brand-new 1-bedroom apartment in the prestigious Golf Grand community, offering a spacious layout and elevated high-floor living with serene views.\n\nThoughtfully designed with contemporary finishes and abundant natural light, this home features a well-planned open living and dining area that seamlessly connects to a modern kitchen. Large windows enhance the sense of space while providing a bright and airy ambiance throughout.\n\nProperty Features:\n\n⦁ Brand new unit\n⦁ Just Handed over\n⦁ High-floor, Burj Al Arab View\n⦁ Spacious and functional layout\n⦁ Bright open-plan living and dining area\n⦁ Modern kitchen with premium finishes\n⦁ A well-sized bedrooms with built-in wardrobes\n⦁ Contemporary bathroom with quality fixtures\n⦁ Floor-to-ceiling windows for natural light\n\nCommunity Highlights – Golf Grand:\n\n⦁ Overlooking lush golf course views\n⦁ Premium amenities including swimming pool and gym\n⦁ Landscaped areas and walking paths\n⦁ Family-friendly environment\n⦁ Best Amenities in Dubai Hills Estate\n⦁ Easy access to major roads and key Dubai destinations\n\nAn excellent opportunity to own a brand-new home in a vibrant golf community offering luxury, comfort, and lifestyle convenience.\n\nCompany Name: Provident Real Estate\nRERA ORN: 1933",
-    "tower_name": "Golf Grand",
-    "location_type": "SUBCOMMUNITY",
-    "community_path": "Dubai, Dubai Hills Estate",
-    "completion_status": "completed",
-    "furnished_status": "NO",
-    "listing_level": "premium",
-    "is_verified": true,
-    "is_new_construction": false,
-    "amenities": [
-      "Shared Pool",
-      "Shared Gym",
-      "Children's Play Area"
-    ],
-    "floor_plans": [],
-    "layout_type": "standard",
-    "quality_tier": "standard"
-  },
-  {
-    "source": "propertyfinder",
     "title": "Ultra Luxury 4BR | Private Terrace | Iconic Views",
     "price": 36164000.0,
     "currency": "AED",
@@ -10034,6 +10002,46 @@
         "image_url": "https://static.shared.propertyfinder.ae/media/images/floorplan/64abf6f6f46338803617dfd68c709c2e/1697974d-e15b-4d2e-96e9-c8d820c55c18/watermarked.png",
         "floor_number": 0,
         "area": 379
+      }
+    ],
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  {
+    "source": "propertyfinder",
+    "title": "High Floor | Fully Furnished | Motivated Seller",
+    "price": 1000000.0,
+    "currency": "AED",
+    "area": "Dubai Silicon Oasis",
+    "raw_area": "Oasiz By Danube, Dubai Silicon Oasis, Dubai",
+    "lat": 25.12537384033203,
+    "lng": 55.384376525878906,
+    "sqft": 566.0,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "property_type": "apartment",
+    "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-silicon-oasis-oasiz-by-danube-91371046.html",
+    "description": "ALH Properties is proud to present this elegant 1-bedroom apartment for SALE in Oasiz by Danube, located in Silicon Oasis.\n\nStep into contemporary living with this stylish, fully furnished 1-bedroom apartment, ideally located in the heart of Dubai Silicon Oasis. Positioned on a high floor, the apartment features floor-to-ceiling windows that flood the space with natural light while showcasing stunning open views.\n\nDesigned with modern lifestyles in mind, this elegant residence offers premium finishes, smart layouts, and access to exceptional world-class amenities, making it an ideal choice for both end-users and investors alike.\n\nKey Features:\n•\t1 bed\n•\t2 bath\n•\t566 sq ft\n•\tFully Furnished with White Goods\n•\tCommunity View\n•\tFloor to Ceiling Windows\n•\tOpen-Plan Living and Dining Area\n•\tHigh Floor\n•\tBalcony\n•\t1 Dedicated Parking Space\n•\tHandover Q4 2027\n\nAmenities:\n•\tSwimming Pool\n•\tFully Equipped Gym\n•\tChildren's Play Area\n•\tYoga, spa and wellness zones\n•\tMini Golf\n•\t24/7 Security",
+    "tower_name": "Oasiz By Danube",
+    "location_type": "TOWER",
+    "community_path": "Dubai, Dubai Silicon Oasis",
+    "completion_status": "off_plan",
+    "furnished_status": "YES",
+    "listing_level": "premium",
+    "is_verified": true,
+    "is_new_construction": false,
+    "amenities": [
+      "Shared Pool",
+      "Shared Gym",
+      "Balcony"
+    ],
+    "floor_plans": [
+      {
+        "unit_number": "",
+        "dimension": "2d",
+        "image_url": "https://static.shared.propertyfinder.ae/media/images/floorplan/1252e136fbc1349252732029e9c4ffe8/1dc5e756-fe51-4b43-8d5f-dd065aa4901a/watermarked.png",
+        "floor_number": 0,
+        "area": 566
       }
     ],
     "layout_type": "standard",
