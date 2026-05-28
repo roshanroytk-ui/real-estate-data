@@ -1022,17 +1022,39 @@ for source_data in all_soups:
                         detail_data = json.loads(
                             detail_script.string
                         )
-
+                        
+                        # =====================================
+                        # HANDLE mainEntity
+                        # =====================================
+                        
+                        if (
+                            isinstance(detail_data, dict)
+                            and "mainEntity" in detail_data
+                        ):
+                        
+                            detail_data = detail_data["mainEntity"]
+                        
+                        # =====================================
+                        # HANDLE ARRAY JSON-LD
+                        # =====================================
+                        
                         if isinstance(detail_data, list):
-
+                        
                             for item_data in detail_data:
-
-                                if (
-                                    isinstance(item_data, dict)
-                                    and item_data.get("@type") == "RealEstateListing"
-                                ):
-
+                        
+                                item_type = item_data.get("@type")
+                        
+                                if isinstance(item_type, list):
+                        
+                                    if "RealEstateListing" in item_type:
+                        
+                                        detail_data = item_data
+                                        break
+                        
+                                elif item_type == "RealEstateListing":
+                        
                                     detail_data = item_data
+                                    break
 
                         if (
                             not isinstance(detail_data, dict)
