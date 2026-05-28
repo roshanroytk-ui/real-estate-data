@@ -1312,6 +1312,17 @@ for source_data in all_soups:
 
                         is_verified = True
 
+                        print("\n====================")
+                        print("URL:", property_url)
+                        print("TYPE:", detail_data.get("@type"))
+                        print("PROPERTY TYPE:", property_type)
+                        
+                        print("ADDITIONAL PROPERTY:")
+                        print(json.dumps(
+                            detail_data.get("additionalProperty"),
+                            indent=2
+                        ))
+
                         properties.append({
 
                             "source": "bhomes",
