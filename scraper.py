@@ -454,7 +454,6 @@ def extract_amenities(amenity_features):
     amenities = []
 
     if not amenity_features:
-
         return amenities
 
     for item in amenity_features:
@@ -462,13 +461,21 @@ def extract_amenities(amenity_features):
         try:
 
             name = item.get("name")
-
             value = item.get("value")
 
-            if (
-                name
-                and value == "http://schema.org/True"
-            ):
+            # =====================================
+            # HANDLE BOTH SCHEMA FORMATS
+            # =====================================
+
+            is_enabled = (
+                value is True
+                or value == True
+                or value == "true"
+                or value == "True"
+                or value == "http://schema.org/True"
+            )
+
+            if name and is_enabled:
 
                 amenities.append(name)
 
@@ -1365,11 +1372,16 @@ for source_data in all_soups:
 
                             "is_verified": is_verified,
                             
-                            "furnished_status": (
-                                "YES"
-                                if "furnished" in description.lower()
-                                else "NO"
-                            ),
+                            desc_lower = description.lower()
+                            
+                            if "unfurnished" in desc_lower:
+                                furnished_status = "NO"
+                            
+                            elif "furnished" in desc_lower:
+                                furnished_status = "YES"
+                            
+                            else:
+                                furnished_status = "UNKNOWN"
 
                             "layout_type": "standard",
 
