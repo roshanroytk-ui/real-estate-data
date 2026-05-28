@@ -311,6 +311,20 @@ def detect_quality_tier(property):
         elif amenity in premium_amenities:
             score += 1
 
+    title_upper = title.upper()
+
+    if "ULTRA LUXURY" in title_upper:
+        score += 6
+    
+    if "BRANDED" in title_upper:
+        score += 3
+    
+    if "EXCLUSIVE" in title_upper:
+        score += 2
+    
+    if "WATERFRONT" in title_upper:
+        score += 2
+
     # =====================================
     # OFF PLAN LUXURY BOOST
     # =====================================
