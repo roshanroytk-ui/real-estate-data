@@ -1145,9 +1145,6 @@ for source_data in all_soups:
                             ""
                         )
 
-                        developer_name = extract_developer_name(
-                            description
-                        )
 
                         completion_status = detect_completion_status(
                             description
