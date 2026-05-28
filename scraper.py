@@ -143,7 +143,7 @@ MIN_QUALITY_COMPS = {
 
     "premium": 3,
 
-    "ultra_luxury": 3
+    "ultra_luxury": 2
 }
 
 
