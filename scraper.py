@@ -1550,6 +1550,41 @@ for source_data in all_soups:
                 )
 
                 # =====================================
+                # DEVELOPER EXTRACTION
+                # =====================================
+                
+                developer_name = None
+                
+                developer_patterns = [
+                
+                    r"by ([A-Z][A-Za-z& ]+)",
+                
+                    r"developed by ([A-Z][A-Za-z& ]+)"
+                ]
+                
+                for pattern in developer_patterns:
+                
+                    match = re.search(
+                
+                        pattern,
+                
+                        description,
+                
+                        re.IGNORECASE
+                    )
+                
+                    if match:
+                
+                        developer_name = (
+                
+                            match.group(1)
+                            .strip()
+                        )
+                
+                        break
+        
+
+                # =====================================
                 # PROPERTY TYPE
                 # =====================================
 
@@ -1645,6 +1680,66 @@ for source_data in all_soups:
                     property_url,
 
                     "description": description,
+
+                    "tower_name": (
+                        location.get("name")
+                    ),
+                    
+                    "location_type": (
+                        location.get("type")
+                    ),
+                    
+                    "community_path": (
+                        location.get("path_name")
+                    ),
+                    
+                    "completion_status": (
+                        property_data.get(
+                            "completion_status"
+                        )
+                    ),
+                    
+                    "furnished_status": (
+                        property_data.get(
+                            "furnished"
+                        )
+                    ),
+                    
+                    "listing_level": (
+                        property_data.get(
+                            "listing_level"
+                        )
+                    ),
+                    
+                    "is_verified": (
+                        property_data.get(
+                            "is_verified"
+                        )
+                    ),
+                    
+                    "is_new_construction": (
+                        property_data.get(
+                            "is_new_construction"
+                        )
+                    ),
+                    
+                    "developer_name": (
+                        developer_name
+                    ),
+                    
+                    "amenities": (
+                        property_data.get(
+                            "amenity_names",
+                            []
+                        )
+                    ),
+                    
+                    "floor_plans": (
+                        property_data.get(
+                            "floor_plans",
+                            []
+                        )
+                    ),
 
                     "layout_type": "standard",
 
