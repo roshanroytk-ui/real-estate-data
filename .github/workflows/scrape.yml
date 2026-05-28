@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add properties.json heatmap.json opportunities.json ai_cache.json
+          git add properties.json heatmap.json opportunities.json ai_cache.json market_debug.json
           git commit -m "Update properties" || echo "No changes"
           git push
