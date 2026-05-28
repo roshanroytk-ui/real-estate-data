@@ -1744,13 +1744,6 @@ for source_data in all_soups:
                             []
                         )
                     ),
-                    
-                    "floor_plans": (
-                        property_data.get(
-                            "floor_plans",
-                            []
-                        )
-                    ),
 
                     "layout_type": "standard",
 
