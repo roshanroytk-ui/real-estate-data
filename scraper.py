@@ -1372,7 +1372,7 @@ for source_data in all_soups:
 
                             "is_verified": is_verified,
                             
-                            desc_lower = description.lower()
+                            desc_lower = description.lower(),
                             
                             if "unfurnished" in desc_lower:
                                 furnished_status = "NO"
