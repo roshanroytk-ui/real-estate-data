@@ -2448,6 +2448,165 @@ with open(
 
 print("Saved professional heatmap.json")
 
+# =====================================
+# MARKET DEBUG ENGINE
+# =====================================
+
+market_debug = []
+
+for market_key, data in market_groups.items():
+
+    prices = sorted(data["prices"])
+
+    if not prices:
+        continue
+
+    area, property_type, bedrooms, layout_type, quality_tier = market_key
+
+    market_median = median(prices)
+
+    min_price = min(prices)
+
+    max_price = max(prices)
+
+    # =====================================
+    # SPREAD DETECTION
+    # =====================================
+
+    try:
+
+        spread_percent = (
+            (max_price - min_price)
+            / market_median
+        )
+
+    except:
+
+        spread_percent = 0
+
+    listings_debug = []
+
+    for listing in data["listings"]:
+
+        try:
+
+            sqft = float(listing["sqft"])
+
+            ppsf = round(
+                listing["price"] / sqft
+            )
+
+        except:
+
+            continue
+
+        listings_debug.append({
+
+            "title": listing.get("title"),
+
+            "price_per_sqft": ppsf,
+
+            "price": round(
+                listing.get("price", 0)
+            ),
+
+            "sqft": round(sqft),
+
+            "quality_tier": listing.get(
+                "quality_tier"
+            ),
+
+            "layout_type": listing.get(
+                "layout_type"
+            ),
+
+            "url": listing.get("url")
+        })
+
+    listings_debug.sort(
+        key=lambda x: x["price_per_sqft"]
+    )
+
+    market_debug.append({
+
+        "market_key": {
+
+            "area": area,
+
+            "property_type": property_type,
+
+            "bedrooms": bedrooms,
+
+            "layout_type": layout_type,
+
+            "quality_tier": quality_tier
+        },
+
+        "median_price_per_sqft": round(
+            market_median
+        ),
+
+        "listing_count": len(prices),
+
+        "min_price_per_sqft": round(
+            min_price
+        ),
+
+        "max_price_per_sqft": round(
+            max_price
+        ),
+
+        "price_spread_percent": round(
+            spread_percent,
+            2
+        ),
+
+        "prices_sorted": [
+            round(x)
+            for x in prices
+        ],
+
+        "listings": listings_debug
+    })
+
+# =====================================
+# SORT WORST DISTORTIONS FIRST
+# =====================================
+
+market_debug.sort(
+
+    key=lambda x: x["price_spread_percent"],
+
+    reverse=True
+)
+
+# =====================================
+# SAVE
+# =====================================
+
+with open(
+
+    "market_debug.json",
+
+    "w",
+
+    encoding="utf-8"
+
+) as f:
+
+    json.dump(
+
+        market_debug,
+
+        f,
+
+        indent=2,
+
+        ensure_ascii=False
+    )
+
+print("Saved market_debug.json")
+
 # =========================================
 # INVESTMENT OPPORTUNITY ENGINE
 # =========================================
