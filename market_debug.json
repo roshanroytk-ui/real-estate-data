@@ -6823,6 +6823,39 @@
   },
   {
     "market_key": {
+      "area": "Cheval Residences, Dubai Islands, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4151,
+    "listing_count": 1,
+    "min_price_per_sqft": 4151,
+    "max_price_per_sqft": 4151,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4151
+    ],
+    "listings": [
+      {
+        "title": "SPACIOUS 2BR | BEACHFRONT LIVING",
+        "area": "Cheval Residences, Dubai Islands, Dubai",
+        "tower_name": "Cheval Residences",
+        "raw_area": "Cheval Residences, Dubai Islands, Dubai",
+        "lat": 25.308719635009766,
+        "lng": 55.31583786010742,
+        "price_per_sqft": 4151,
+        "price": 4798000,
+        "sqft": 1156,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-islands-cheval-residences-87459418.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Bluewaters Residences Building 5, Bluewaters Residences, Bluewaters, Dubai",
       "property_type": "apartment",
       "bedrooms": 2,
