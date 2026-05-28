@@ -2504,6 +2504,20 @@ for market_key, data in market_groups.items():
 
             "title": listing.get("title"),
 
+            "area": listing.get(
+                "area"
+            ),
+
+            "tower_name": listing.get(
+                "tower_name",
+                ""
+            ),
+        
+            "raw_area": listing.get(
+                "raw_area",
+                ""
+            ),
+
             "price_per_sqft": ppsf,
 
             "price": round(
