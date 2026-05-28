@@ -1073,7 +1073,7 @@ for source_data in all_soups:
                     type="application/ld+json"
                 )
 
-                all_amenities = []
+                amenities = []
 
                 for detail_script in detail_scripts:
 
@@ -1193,15 +1193,10 @@ for source_data in all_soups:
                             []
                         )
                         
-                        all_amenities.extend(
-                        
+                        amenities = normalize_amenities(
+
                             extract_amenities(features)
                         )
-                        
-                        amenities = normalize_amenities(
-                            all_amenities
-                        )
-
                         property_type = "other"
 
                         description = detail_data.get(
@@ -1335,8 +1330,6 @@ for source_data in all_soups:
 
                             "quality_tier": "standard",
                         })
-
-                        break
 
                     except Exception as e:
 
