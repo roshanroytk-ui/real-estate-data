@@ -62,6 +62,80 @@ except:
 
     ai_cache = {}
 
+def extract_developer_name(description):
+
+    if not description:
+        return None
+
+    developer_patterns = [
+
+        r"developed by ([A-Z][A-Za-z&\- ]+)",
+
+        r"by ([A-Z][A-Za-z&\- ]+)",
+
+        r"from ([A-Z][A-Za-z&\- ]+)",
+
+        r"project by ([A-Z][A-Za-z&\- ]+)"
+    ]
+
+    blacklist = {
+
+        "betterhomes",
+        "dubai marina",
+        "downtown dubai"
+    }
+
+    for pattern in developer_patterns:
+
+        match = re.search(
+            pattern,
+            description,
+            re.IGNORECASE
+        )
+
+        if match:
+
+            developer = (
+                match.group(1)
+                .strip()
+            )
+
+            developer_lower = developer.lower()
+
+            if developer_lower not in blacklist:
+
+                return developer
+
+    return None
+
+def detect_completion_status(description):
+
+    if not description:
+        return "ready"
+
+    text = description.lower()
+
+    offplan_keywords = [
+
+        "off-plan",
+        "off plan",
+        "handover",
+        "completion expected",
+        "under construction",
+        "q1 2026",
+        "q2 2026",
+        "q3 2026",
+        "q4 2026"
+    ]
+
+    for keyword in offplan_keywords:
+
+        if keyword in text:
+
+            return "off_plan"
+
+    return "ready"
+
 AREA_ALIASES = {
 
     "dubai marina": "Dubai Marina",
@@ -370,6 +444,38 @@ def get_canonical_area(lat, lng, raw_area=""):
     # =====================================
 
     return normalize_area(raw_area)
+
+# =====================================
+# BHOMES AMENITY EXTRACTION
+# =====================================
+
+def extract_amenities(amenity_features):
+
+    amenities = []
+
+    if not amenity_features:
+
+        return amenities
+
+    for item in amenity_features:
+
+        try:
+
+            name = item.get("name")
+
+            value = item.get("value")
+
+            if (
+                name
+                and value == "http://schema.org/True"
+            ):
+
+                amenities.append(name)
+
+        except:
+            continue
+
+    return amenities
 
 
 def normalize_property_type(
@@ -1020,8 +1126,32 @@ for source_data in all_soups:
                         bathrooms = detail_data.get(
                             "numberOfBathroomsTotal"
                         )
+                        # =====================================
+                        # AMENITIES
+                        # =====================================
+                        
+                        amenities = extract_amenities(
+                        
+                            detail_data.get(
+                                "amenityFeature",
+                                []
+                            )
+                        )
 
                         property_type = "other"
+
+                        description = detail_data.get(
+                            "description",
+                            ""
+                        )
+
+                        developer_name = extract_developer_name(
+                            description
+                        )
+
+                        completion_status = detect_completion_status(
+                            description
+                        )
 
                         additional_properties = (
                             detail_data.get(
@@ -1037,10 +1167,6 @@ for source_data in all_soups:
                                 and prop.get("name") == "Property Type"
                             ):
 
-                                description = detail_data.get(
-                                    "description",
-                                    ""
-                                )
                                 
                                 property_type = normalize_property_type(
                                 
@@ -1062,6 +1188,14 @@ for source_data in all_soups:
                         )
 
                         raw_area = location.get("name")
+                        address = location.get(
+                            "address",
+                            {}
+                        )
+                        
+                        tower_name = address.get(
+                            "addressRegion"
+                        )
 
                         area = get_canonical_area(
                             lat,
@@ -1086,6 +1220,8 @@ for source_data in all_soups:
                             bedrooms
                         ):
                             continue
+
+                        is_verified = True
 
                         properties.append({
 
@@ -1114,6 +1250,25 @@ for source_data in all_soups:
                             "url": property_url,
 
                             "description": description,
+
+                            "tower_name": tower_name,
+
+                            "amenities": amenities,
+
+                            "developer_name": developer_name,
+
+                            "completion_status": completion_status,
+
+                            "is_verified": is_verified,
+                            
+                            "furnished_status": (
+                            
+                                "YES"
+                            
+                                if "Fully Furnished" in description
+                            
+                                else "NO"
+                            ),
 
                             "layout_type": "standard",
 
