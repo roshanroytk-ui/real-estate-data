@@ -1,6 +1,7 @@
 import osmnx as ox
 import geopandas as gpd
 import pandas as pd
+import json
 
 AREAS = [
 
@@ -34,6 +35,8 @@ AREAS = [
 
 all_gdfs = []
 
+areas_debug = []
+
 for area in AREAS:
 
     print(f"Downloading: {area}")
@@ -46,8 +49,43 @@ for area in AREAS:
 
         gdf["osm_name"] = gdf["display_name"]
 
-        all_gdfs.append(gdf)
+        for _, row in gdf.iterrows():
 
+            polygon = row.geometry
+        
+            bounds = polygon.bounds
+        
+            centroid = polygon.centroid
+        
+            areas_debug.append({
+        
+                "canonical_area": row["canonical_area"],
+        
+                "osm_name": row.get("osm_name"),
+        
+                "osm_type": row.get("type"),
+        
+                "place_rank": row.get("place_rank"),
+        
+                "polygon_area": polygon.area,
+        
+                "centroid_lat": centroid.y,
+        
+                "centroid_lng": centroid.x,
+        
+                "bounds": {
+        
+                    "min_lng": bounds[0],
+        
+                    "min_lat": bounds[1],
+        
+                    "max_lng": bounds[2],
+        
+                    "max_lat": bounds[3]
+                }
+            })
+        
+        all_gdfs.append(gdf)
     except Exception as e:
 
         print(f"Failed: {area}")
@@ -64,3 +102,22 @@ combined.to_file(
 )
 
 print("Saved dubai_areas.geojson")
+
+with open(
+    "areas_debug.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+
+        areas_debug,
+
+        f,
+
+        indent=2,
+
+        ensure_ascii=False
+    )
+
+print("Saved areas_debug.json")
