@@ -521,6 +521,7 @@ def get_canonical_area(lat, lng, raw_area=""):
     point = Point(lng, lat)
 
     matches = []
+    debug_matches = []
 
     for _, row in areas_gdf.iterrows():
 
@@ -530,13 +531,35 @@ def get_canonical_area(lat, lng, raw_area=""):
 
             if polygon.contains(point):
 
-                matches.append({
+                polygon_bounds = polygon.bounds
 
+                centroid = polygon.centroid
+            
+                match_info = {
+            
                     "area": row["canonical_area"],
+            
+                    "polygon_area": polygon.area,
 
-                    "polygon_area": polygon.area
-                })
-
+                    "polygon_centroid_lat": centroid.y,
+                    
+                    "polygon_centroid_lng": centroid.x,
+            
+                    "bounds": {
+            
+                        "min_lng": polygon_bounds[0],
+            
+                        "min_lat": polygon_bounds[1],
+            
+                        "max_lng": polygon_bounds[2],
+            
+                        "max_lat": polygon_bounds[3]
+                    }
+                }
+            
+                matches.append(match_info)
+            
+                debug_matches.append(match_info)
         except:
             continue
 
@@ -547,6 +570,19 @@ def get_canonical_area(lat, lng, raw_area=""):
 
     if not matches:
 
+        polygon_debug.append({
+    
+            "raw_area": raw_area,
+    
+            "lat": lat,
+    
+            "lng": lng,
+    
+            "matched_polygons": [],
+    
+            "selected_area": None
+        })
+    
         print(
             "NO POLYGON MATCH:",
             raw_area,
@@ -557,6 +593,27 @@ def get_canonical_area(lat, lng, raw_area=""):
     # =====================================
     # SMALLEST POLYGON WINS
     # =====================================
+
+    if matches:
+
+        matches.sort(
+            key=lambda x: x["polygon_area"]
+        )
+    
+        polygon_debug.append({
+    
+            "raw_area": raw_area,
+    
+            "lat": lat,
+    
+            "lng": lng,
+    
+            "matched_polygons": matches,
+    
+            "selected_area": matches[0]["area"],
+    
+            "selected_polygon_area": matches[0]["polygon_area"]
+        })
 
     if matches:
 
@@ -1209,6 +1266,8 @@ for page in range(1, 11):
 
         "soup": soup
     })
+
+polygon_debug = []
 
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
@@ -2638,6 +2697,21 @@ with open(
     )
 
 print("Saved market_debug.json")
+
+with open(
+    "polygon_debug.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        polygon_debug,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("Saved polygon_debug.json")
 
 # =========================================
 # INVESTMENT OPPORTUNITY ENGINE
