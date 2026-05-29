@@ -10,7 +10,6 @@ AREAS = [
     "Business Bay, Dubai, UAE",
     "Jumeirah Village Circle, Dubai, UAE",
     "Jumeirah Lakes Towers, Dubai, UAE", #tested
-    "Dubai Hills, Dubai, UAE", #tested
     "DIFC, Dubai, UAE",
     "City Walk, Dubai, UAE",
     "Palm Jumeirah, Dubai, UAE",
@@ -25,7 +24,6 @@ AREAS = [
     "Deira Island, Dubai, UAE", #tested
     "Jumeirah Beach Residence, Dubai, UAE",
     "Bluewaters, Dubai, UAE", #tested
-    "Dubai Sports City, Dubai, UAE",
     "Motor City, Dubai, UAE",
     "Jumeirah Golf Estates, Dubai, UAE",
     "Mohammed Bin Rashid City, Dubai, UAE"
