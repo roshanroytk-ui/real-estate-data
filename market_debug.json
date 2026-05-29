@@ -4384,39 +4384,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Production City",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 896,
-    "listing_count": 1,
-    "min_price_per_sqft": 896,
-    "max_price_per_sqft": 896,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      896
-    ],
-    "listings": [
-      {
-        "title": "Urgent Sale | Private Pool | Ready Dec 2026",
-        "area": "Dubai Production City",
-        "tower_name": "Dubai Production City",
-        "raw_area": "",
-        "lat": 25.036132,
-        "lng": 55.195348,
-        "price_per_sqft": 896,
-        "price": 1198999,
-        "sqft": 1339,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228138"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Internet City",
       "property_type": "apartment",
       "bedrooms": 4,
@@ -5897,6 +5864,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-226275"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Investment Park",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1335,
+    "listing_count": 1,
+    "min_price_per_sqft": 1335,
+    "max_price_per_sqft": 1335,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1335
+    ],
+    "listings": [
+      {
+        "title": "Urgent Sale | Below Original Price | Must Sell",
+        "area": "Dubai Investment Park",
+        "tower_name": "Dubai Investment Park",
+        "raw_area": "",
+        "lat": 24.973041,
+        "lng": 55.233639,
+        "price_per_sqft": 1335,
+        "price": 1150000,
+        "sqft": 862,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-226163"
       }
     ]
   },
