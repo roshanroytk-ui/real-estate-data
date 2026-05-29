@@ -6610,39 +6610,6 @@
   },
   {
     "market_key": {
-      "area": "Arjan",
-      "property_type": "studio apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 1653,
-    "listing_count": 1,
-    "min_price_per_sqft": 1653,
-    "max_price_per_sqft": 1653,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1653
-    ],
-    "listings": [
-      {
-        "title": "Fully Furnished |Branded Manhattan Inspired Living",
-        "area": "Arjan",
-        "tower_name": "Art House Hills by Adaan and Tuscany",
-        "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
-        "lat": 25.064807891845703,
-        "lng": 55.24600601196289,
-        "price_per_sqft": 1653,
-        "price": 1315888,
-        "sqft": 796,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-arjan-art-house-hills-by-adaan-and-tuscany-88772438.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Belgravia Gardens, Falcon City Of Wonders, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -6671,6 +6638,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-falcon-city-of-wonders-belgravia-gardens-89647256.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Arjan",
+      "property_type": "studio apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 1653,
+    "listing_count": 1,
+    "min_price_per_sqft": 1653,
+    "max_price_per_sqft": 1653,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1653
+    ],
+    "listings": [
+      {
+        "title": "Fully Furnished |Branded Manhattan Inspired Living",
+        "area": "Arjan",
+        "tower_name": "Art House Hills by Adaan and Tuscany",
+        "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
+        "lat": 25.064807891845703,
+        "lng": 55.24600601196289,
+        "price_per_sqft": 1653,
+        "price": 1315888,
+        "sqft": 796,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-arjan-art-house-hills-by-adaan-and-tuscany-88772438.html"
       }
     ]
   },
@@ -6709,39 +6709,6 @@
   },
   {
     "market_key": {
-      "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2014,
-    "listing_count": 1,
-    "min_price_per_sqft": 2014,
-    "max_price_per_sqft": 2014,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2014
-    ],
-    "listings": [
-      {
-        "title": "Best Deal | Spacious 2BR | Golf Course View",
-        "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-        "tower_name": "Golf Tower 1",
-        "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-        "lat": 25.09207534790039,
-        "lng": 55.16822052001953,
-        "price_per_sqft": 2014,
-        "price": 2850000,
-        "sqft": 1415,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-towers-golf-tower-1-90907707.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Zahra Apartments 2B, Zahra Apartments 2, Zahra Apartments, Town Square, Dubai",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -6770,6 +6737,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-town-square-zahra-apartments-zahra-apartments-2-zahra-apartments-2b-88767800.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2014,
+    "listing_count": 1,
+    "min_price_per_sqft": 2014,
+    "max_price_per_sqft": 2014,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2014
+    ],
+    "listings": [
+      {
+        "title": "Best Deal | Spacious 2BR | Golf Course View",
+        "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+        "tower_name": "Golf Tower 1",
+        "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+        "lat": 25.09207534790039,
+        "lng": 55.16822052001953,
+        "price_per_sqft": 2014,
+        "price": 2850000,
+        "sqft": 1415,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-towers-golf-tower-1-90907707.html"
       }
     ]
   },
@@ -7138,6 +7138,39 @@
   },
   {
     "market_key": {
+      "area": "Pearlz By Danube, Al Furjan, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1897,
+    "listing_count": 1,
+    "min_price_per_sqft": 1897,
+    "max_price_per_sqft": 1897,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1897
+    ],
+    "listings": [
+      {
+        "title": "Spacious | Next to Metro | Open Villa View | VATSU",
+        "area": "Pearlz By Danube, Al Furjan, Dubai",
+        "tower_name": "Pearlz by Danube",
+        "raw_area": "Pearlz by Danube, Al Furjan, Dubai",
+        "lat": 25.02781105041504,
+        "lng": 55.15467071533203,
+        "price_per_sqft": 1897,
+        "price": 2180000,
+        "sqft": 1149,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-furjan-pearlz-by-danube-83668831.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Jumeirah Village Circle",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -7166,39 +7199,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Islands",
-      "property_type": "studio apartment",
-      "bedrooms": 4,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 10428,
-    "listing_count": 1,
-    "min_price_per_sqft": 10428,
-    "max_price_per_sqft": 10428,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      10428
-    ],
-    "listings": [
-      {
-        "title": "Branded Residences | DIFC | Hot Deal",
-        "area": "Dubai Islands",
-        "tower_name": "Jumeirah Emirates Tower",
-        "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
-        "lat": 25.217647552490234,
-        "lng": 55.282474517822266,
-        "price_per_sqft": 10428,
-        "price": 36164000,
-        "sqft": 3468,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-sheikh-zayed-road-emirates-towers-jumeirah-emirates-tower-92260176.html"
       }
     ]
   },
@@ -7237,67 +7237,34 @@
   },
   {
     "market_key": {
-      "area": "Pearlz By Danube, Al Furjan, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
+      "area": "Dubai Islands",
+      "property_type": "studio apartment",
+      "bedrooms": 4,
       "layout_type": "standard",
-      "quality_tier": "standard"
+      "quality_tier": "ultra_luxury"
     },
-    "median_price_per_sqft": 1897,
+    "median_price_per_sqft": 10428,
     "listing_count": 1,
-    "min_price_per_sqft": 1897,
-    "max_price_per_sqft": 1897,
+    "min_price_per_sqft": 10428,
+    "max_price_per_sqft": 10428,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      1897
+      10428
     ],
     "listings": [
       {
-        "title": "Spacious | Next to Metro | Open Villa View | VATSU",
-        "area": "Pearlz By Danube, Al Furjan, Dubai",
-        "tower_name": "Pearlz by Danube",
-        "raw_area": "Pearlz by Danube, Al Furjan, Dubai",
-        "lat": 25.02781105041504,
-        "lng": 55.15467071533203,
-        "price_per_sqft": 1897,
-        "price": 2180000,
-        "sqft": 1149,
-        "quality_tier": "standard",
+        "title": "Branded Residences | DIFC | Hot Deal",
+        "area": "Dubai Islands",
+        "tower_name": "Jumeirah Emirates Tower",
+        "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
+        "lat": 25.217647552490234,
+        "lng": 55.282474517822266,
+        "price_per_sqft": 10428,
+        "price": 36164000,
+        "sqft": 3468,
+        "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-furjan-pearlz-by-danube-83668831.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3657,
-    "listing_count": 1,
-    "min_price_per_sqft": 3657,
-    "max_price_per_sqft": 3657,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3657
-    ],
-    "listings": [
-      {
-        "title": "Large Layout | Furnished | Fountain and Burj Views",
-        "area": "Downtown Dubai",
-        "tower_name": "The Residences 4",
-        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
-        "lat": 25.192771911621094,
-        "lng": 55.273765563964844,
-        "price_per_sqft": 3657,
-        "price": 9500000,
-        "sqft": 2598,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-sheikh-zayed-road-emirates-towers-jumeirah-emirates-tower-92260176.html"
       }
     ]
   },
@@ -7331,6 +7298,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-furjan-equiti-home-equiti-home-a-82808853.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3657,
+    "listing_count": 1,
+    "min_price_per_sqft": 3657,
+    "max_price_per_sqft": 3657,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3657
+    ],
+    "listings": [
+      {
+        "title": "Large Layout | Furnished | Fountain and Burj Views",
+        "area": "Downtown Dubai",
+        "tower_name": "The Residences 4",
+        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
+        "lat": 25.192771911621094,
+        "lng": 55.273765563964844,
+        "price_per_sqft": 3657,
+        "price": 9500000,
+        "sqft": 2598,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
       }
     ]
   },
@@ -7397,6 +7397,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-g-91379172.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Islands",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 10428,
+    "listing_count": 1,
+    "min_price_per_sqft": 10428,
+    "max_price_per_sqft": 10428,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      10428
+    ],
+    "listings": [
+      {
+        "title": "Ultra Luxury 4BR | Private Terrace | Iconic Views",
+        "area": "Dubai Islands",
+        "tower_name": "Jumeirah Residences Emirates Towers",
+        "raw_area": "Jumeirah Residences Emirates Towers, Sheikh Zayed Road, Dubai",
+        "lat": 25.216997146606445,
+        "lng": 55.285465240478516,
+        "price_per_sqft": 10428,
+        "price": 36164000,
+        "sqft": 3468,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-sheikh-zayed-road-jumeirah-residences-emirates-towers-76197286.html"
       }
     ]
   },
@@ -8161,34 +8194,34 @@
   },
   {
     "market_key": {
-      "area": "Al Wasl",
+      "area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
       "property_type": "apartment",
-      "bedrooms": 4,
+      "bedrooms": 1,
       "layout_type": "standard",
-      "quality_tier": "premium"
+      "quality_tier": "ultra_luxury"
     },
-    "median_price_per_sqft": 5410,
+    "median_price_per_sqft": 1476,
     "listing_count": 1,
-    "min_price_per_sqft": 5410,
-    "max_price_per_sqft": 5410,
+    "min_price_per_sqft": 1476,
+    "max_price_per_sqft": 1476,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      5410
+      1476
     ],
     "listings": [
       {
-        "title": "Furnished and Upgraded | High Floor Unit",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 18B",
-        "raw_area": "City Walk Residential Building 18B, City Walk Residential, City Walk, Dubai",
-        "lat": 25.201656341552734,
-        "lng": 55.26326370239258,
-        "price_per_sqft": 5410,
-        "price": 15300000,
-        "sqft": 2828,
-        "quality_tier": "premium",
+        "title": "Branded Home | Premium Living | Remaining Units",
+        "area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
+        "tower_name": "Marriott Executive Apartments",
+        "raw_area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
+        "lat": 25.08014678955078,
+        "lng": 55.24605178833008,
+        "price_per_sqft": 1476,
+        "price": 1700000,
+        "sqft": 1152,
+        "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-18b-91798654.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-barsha-al-barsha-south-al-barsha-south-2-marriott-executive-apartments-88293145.html"
       }
     ]
   },
@@ -8227,34 +8260,34 @@
   },
   {
     "market_key": {
-      "area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
+      "area": "Al Wasl",
       "property_type": "apartment",
-      "bedrooms": 1,
+      "bedrooms": 4,
       "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
+      "quality_tier": "premium"
     },
-    "median_price_per_sqft": 1476,
+    "median_price_per_sqft": 5410,
     "listing_count": 1,
-    "min_price_per_sqft": 1476,
-    "max_price_per_sqft": 1476,
+    "min_price_per_sqft": 5410,
+    "max_price_per_sqft": 5410,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      1476
+      5410
     ],
     "listings": [
       {
-        "title": "Branded Home | Premium Living | Remaining Units",
-        "area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
-        "tower_name": "Marriott Executive Apartments",
-        "raw_area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
-        "lat": 25.08014678955078,
-        "lng": 55.24605178833008,
-        "price_per_sqft": 1476,
-        "price": 1700000,
-        "sqft": 1152,
-        "quality_tier": "ultra_luxury",
+        "title": "Furnished and Upgraded | High Floor Unit",
+        "area": "Al Wasl",
+        "tower_name": "City Walk Residential Building 18B",
+        "raw_area": "City Walk Residential Building 18B, City Walk Residential, City Walk, Dubai",
+        "lat": 25.201656341552734,
+        "lng": 55.26326370239258,
+        "price_per_sqft": 5410,
+        "price": 15300000,
+        "sqft": 2828,
+        "quality_tier": "premium",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-barsha-al-barsha-south-al-barsha-south-2-marriott-executive-apartments-88293145.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-18b-91798654.html"
       }
     ]
   },
