@@ -13,7 +13,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.064854,
     "lng": 55.141792,
     "color": "green"
@@ -32,7 +32,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.056,
     "lng": 55.209,
     "color": "green"
@@ -50,7 +50,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "yellow"
@@ -69,7 +69,7 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -88,7 +88,7 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
@@ -107,7 +107,7 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
@@ -126,7 +126,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.180202,
     "lng": 55.252432,
     "color": "yellow"
@@ -145,7 +145,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.195023,
     "lng": 55.283553,
     "color": "yellow"
@@ -160,13 +160,32 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2470,
-    "listing_count": 12,
-    "comparable_count": 12,
+    "median_price_per_sqft": 2562,
+    "listing_count": 14,
+    "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
-    "lat": 25.25863,
-    "lng": 55.278074,
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
+    "lat": 25.240419,
+    "lng": 55.25277,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes",
+      "propertyfinder"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2804,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
+    "lat": 25.112604,
+    "lng": 55.143347,
     "color": "yellow"
   },
   {
@@ -183,7 +202,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.2009,
     "lng": 55.266853,
     "color": "yellow"
@@ -202,29 +221,10 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.202959,
     "lng": 55.26006,
     "color": "yellow"
-  },
-  {
-    "sources": [
-      "bhomes",
-      "propertyfinder"
-    ],
-    "area": "Palm Jumeirah",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3370,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
-    "lat": 25.112604,
-    "lng": 55.143347,
-    "color": "red"
   },
   {
     "sources": [
@@ -239,7 +239,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.2059268951416,
     "lng": 55.26463317871094,
     "color": "red"
@@ -254,11 +254,11 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 3828,
-    "listing_count": 10,
-    "comparable_count": 10,
+    "median_price_per_sqft": 4041,
+    "listing_count": 9,
+    "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.240464,
     "lng": 55.251283,
     "color": "red"
@@ -277,7 +277,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.106765,
     "lng": 55.152317,
     "color": "red"
@@ -295,7 +295,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-29T05:16:50.578066+00:00",
+    "last_updated": "2026-05-29T14:54:56.799045+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
