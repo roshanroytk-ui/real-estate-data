@@ -58,6 +58,8 @@ for area in AREAS:
             areas_debug.append({
         
                 "canonical_area": row["canonical_area"],
+
+                "query_used": area,
         
                 "osm_name": row.get("osm_name"),
         
