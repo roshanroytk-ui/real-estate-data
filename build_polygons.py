@@ -22,9 +22,9 @@ AREAS = [
     "Dubai Silicon Oasis, Dubai, UAE",
     "Al Barari, Dubai, UAE",
     "Dubai Creek Harbour, Dubai, UAE",
-    "Deira Island, Dubai, UAE",
+    "Deira Island, Dubai, UAE", #tested
     "Jumeirah Beach Residence, Dubai, UAE",
-    "Bluewaters Island, Dubai, UAE",
+    "Bluewaters, Dubai, UAE", #tested
     "Dubai Sports City, Dubai, UAE",
     "Motor City, Dubai, UAE",
     "Jumeirah Golf Estates, Dubai, UAE",
