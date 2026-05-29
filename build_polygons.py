@@ -44,6 +44,8 @@ for area in AREAS:
 
         gdf["canonical_area"] = area.split(",")[0]
 
+        gdf["osm_name"] = gdf["display_name"]
+
         all_gdfs.append(gdf)
 
     except Exception as e:
