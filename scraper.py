@@ -538,6 +538,8 @@ def get_canonical_area(lat, lng, raw_area=""):
                 match_info = {
             
                     "area": row["canonical_area"],
+
+                    "osm_name": row.get("osm_name"),
             
                     "polygon_area": polygon.area,
 
