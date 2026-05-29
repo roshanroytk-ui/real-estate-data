@@ -7171,39 +7171,6 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Village Circle",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1253,
-    "listing_count": 1,
-    "min_price_per_sqft": 1253,
-    "max_price_per_sqft": 1253,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1253
-    ],
-    "listings": [
-      {
-        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Neva Residences",
-        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
-        "lat": 25.069103240966797,
-        "lng": 55.21466064453125,
-        "price_per_sqft": 1253,
-        "price": 1500000,
-        "sqft": 1197,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters Residences Building 9, Bluewaters Residences, Bluewaters, Dubai",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -7232,6 +7199,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-9-87881524.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Jumeirah Village Circle",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1253,
+    "listing_count": 1,
+    "min_price_per_sqft": 1253,
+    "max_price_per_sqft": 1253,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1253
+    ],
+    "listings": [
+      {
+        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Neva Residences",
+        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
+        "lat": 25.069103240966797,
+        "lng": 55.21466064453125,
+        "price_per_sqft": 1253,
+        "price": 1500000,
+        "sqft": 1197,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
       }
     ]
   },
@@ -8227,6 +8227,39 @@
   },
   {
     "market_key": {
+      "area": "Al Wasl",
+      "property_type": "studio apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 4012,
+    "listing_count": 1,
+    "min_price_per_sqft": 4012,
+    "max_price_per_sqft": 4012,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4012
+    ],
+    "listings": [
+      {
+        "title": "SELLING AT COST | HIGH FLOOR | PAYMENT PLAN",
+        "area": "Al Wasl",
+        "tower_name": "Eden House The Park Building A",
+        "raw_area": "Eden House The Park Building A, Eden House The Park, Al Wasl, Dubai",
+        "lat": 25.18732452392578,
+        "lng": 55.24897766113281,
+        "price_per_sqft": 4012,
+        "price": 9420423,
+        "sqft": 2348,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-a-82385812.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 2,
@@ -8288,39 +8321,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-18b-91798654.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Al Wasl",
-      "property_type": "studio apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 4012,
-    "listing_count": 1,
-    "min_price_per_sqft": 4012,
-    "max_price_per_sqft": 4012,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      4012
-    ],
-    "listings": [
-      {
-        "title": "SELLING AT COST | HIGH FLOOR | PAYMENT PLAN",
-        "area": "Al Wasl",
-        "tower_name": "Eden House The Park Building A",
-        "raw_area": "Eden House The Park Building A, Eden House The Park, Al Wasl, Dubai",
-        "lat": 25.18732452392578,
-        "lng": 55.24897766113281,
-        "price_per_sqft": 4012,
-        "price": 9420423,
-        "sqft": 2348,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-a-82385812.html"
       }
     ]
   },
