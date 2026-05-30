@@ -507,7 +507,7 @@ def is_duplicate_property(
     return False
 
 
-def get_canonical_area(lat, lng, raw_area=""):
+def get_area_assignment(lat, lng, raw_area=""):
 
     try:
 
@@ -622,8 +622,15 @@ def get_canonical_area(lat, lng, raw_area=""):
         matches.sort(
             key=lambda x: x["polygon_area"]
         )
-
-        return matches[0]["area"]
+    
+        comparable_area = matches[0]["area"]
+    
+        heatmap_area = matches[-1]["area"]
+    
+        return {
+            "comparable_area": comparable_area,
+            "heatmap_area": heatmap_area
+        }
 
     # =====================================
     # FALLBACK
@@ -668,7 +675,12 @@ def get_canonical_area(lat, lng, raw_area=""):
     # FINAL FALLBACK
     # =====================================
 
-    return normalize_area(raw_area)
+    fallback = normalize_area(raw_area)
+
+    return {
+        "comparable_area": fallback,
+        "heatmap_area": fallback
+    }
 
 # =====================================
 # BHOMES AMENITY EXTRACTION
@@ -1601,11 +1613,15 @@ for source_data in all_soups:
                         
                                     break
 
-                        area = get_canonical_area(
+                        area_info = get_area_assignment(
                             lat,
                             lng,
                             raw_area
                         )
+                        
+                        area = area_info["comparable_area"]
+                        
+                        heatmap_area = area_info["heatmap_area"]
 
                         if (
                             (not lat or not lng)
@@ -1662,6 +1678,8 @@ for source_data in all_soups:
                             "currency": currency,
 
                             "area": area,
+
+                            "heatmap_area": heatmap_area,
 
                             "lat": lat,
 
@@ -1843,11 +1861,15 @@ for source_data in all_soups:
                     or "Unknown"
                 )
 
-                area = get_canonical_area(
+                area_info = get_area_assignment(
                     lat,
                     lng,
                     raw_area
                 )
+                
+                area = area_info["comparable_area"]
+                
+                heatmap_area = area_info["heatmap_area"]
 
                 # =====================================
                 # SQFT
@@ -1985,6 +2007,8 @@ for source_data in all_soups:
 
                     "area":
                     area,
+
+                    "heatmap_area": heatmap_area,
 
                     "raw_area":
                     raw_area,
