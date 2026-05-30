@@ -10,67 +10,22 @@
     "raw_area": "Jumeirah",
     "lat": 25.240419,
     "lng": 55.25277,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "DIFC",
     "lat": 25.20884,
     "lng": 55.277032,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Harbour",
     "lat": 25.091846,
     "lng": 55.143439,
-    "matched_polygons": [
-      {
-        "area": "Dubai Harbour",
-        "osm_name": "Dubai Harbour, Emaar Beachfront, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 8.473291679999256e-05,
-        "polygon_centroid_lat": 25.094084679116843,
-        "polygon_centroid_lng": 55.13955727513526,
-        "bounds": {
-          "min_lng": 55.1257074,
-          "min_lat": 25.087718,
-          "max_lng": 55.1502473,
-          "max_lat": 25.1035588
-        }
-      }
-    ],
-    "selected_area": "Dubai Harbour",
-    "selected_polygon_area": 8.473291679999256e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -104,190 +59,57 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.06841,
     "lng": 55.212123,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.084418,
     "lng": 55.144879,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Zabeel",
     "lat": 25.227611,
     "lng": 55.29295,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Media City",
     "lat": 25.102121,
     "lng": 55.17154,
-    "matched_polygons": [
-      {
-        "area": "Dubai Internet City",
-        "osm_name": "Dubai Internet City, Al Sufouh, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 9.8607314064987e-05,
-        "polygon_centroid_lat": 25.095458982217075,
-        "polygon_centroid_lng": 55.161704043384994,
-        "bounds": {
-          "min_lng": 55.1516214,
-          "min_lat": 25.0869041,
-          "max_lng": 55.1733737,
-          "max_lat": 25.1043291
-        }
-      }
-    ],
-    "selected_area": "Dubai Internet City",
-    "selected_polygon_area": 9.8607314064987e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Media City",
     "lat": 25.102121,
     "lng": 55.17154,
-    "matched_polygons": [
-      {
-        "area": "Dubai Internet City",
-        "osm_name": "Dubai Internet City, Al Sufouh, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 9.8607314064987e-05,
-        "polygon_centroid_lat": 25.095458982217075,
-        "polygon_centroid_lng": 55.161704043384994,
-        "bounds": {
-          "min_lng": 55.1516214,
-          "min_lat": 25.0869041,
-          "max_lng": 55.1733737,
-          "max_lat": 25.1043291
-        }
-      }
-    ],
-    "selected_area": "Dubai Internet City",
-    "selected_polygon_area": 9.8607314064987e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Media City",
     "lat": 25.102121,
     "lng": 55.17154,
-    "matched_polygons": [
-      {
-        "area": "Dubai Internet City",
-        "osm_name": "Dubai Internet City, Al Sufouh, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 9.8607314064987e-05,
-        "polygon_centroid_lat": 25.095458982217075,
-        "polygon_centroid_lng": 55.161704043384994,
-        "bounds": {
-          "min_lng": 55.1516214,
-          "min_lat": 25.0869041,
-          "max_lng": 55.1733737,
-          "max_lat": 25.1043291
-        }
-      }
-    ],
-    "selected_area": "Dubai Internet City",
-    "selected_polygon_area": 9.8607314064987e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Beach Residence",
     "lat": 25.081265,
     "lng": 55.139802,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "La Mer",
     "lat": 25.240464,
     "lng": 55.251283,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Hills Estate",
@@ -307,23 +129,8 @@
     "raw_area": "Arjan",
     "lat": 25.064176,
     "lng": 55.230258,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -343,89 +150,29 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.062724,
     "lng": 55.208325,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Hills Estate",
@@ -438,168 +185,50 @@
     "raw_area": "Dubai Marina",
     "lat": 25.088631,
     "lng": 55.14817,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Palm Jumeirah",
     "lat": 25.112604,
     "lng": 55.143347,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Creek Harbour",
     "lat": 25.203338,
     "lng": 55.351063,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "EMAAR Beachfront",
     "lat": 25.096467,
     "lng": 55.137719,
-    "matched_polygons": [
-      {
-        "area": "Dubai Harbour",
-        "osm_name": "Dubai Harbour, Emaar Beachfront, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 8.473291679999256e-05,
-        "polygon_centroid_lat": 25.094084679116843,
-        "polygon_centroid_lng": 55.13955727513526,
-        "bounds": {
-          "min_lng": 55.1257074,
-          "min_lat": 25.087718,
-          "max_lng": 55.1502473,
-          "max_lat": 25.1035588
-        }
-      }
-    ],
-    "selected_area": "Dubai Harbour",
-    "selected_polygon_area": 8.473291679999256e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk",
     "lat": 25.202959,
     "lng": 55.26006,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -612,102 +241,29 @@
     "raw_area": "Jumeirah Beach Residence",
     "lat": 25.072954,
     "lng": 55.128089,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.088631,
     "lng": 55.14817,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Downtown Dubai",
     "lat": 25.195542,
     "lng": 55.26884,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -720,23 +276,8 @@
     "raw_area": "Mina Rashid",
     "lat": 25.267706,
     "lng": 55.285812,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -756,45 +297,15 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.065427,
     "lng": 55.202253,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.06759,
     "lng": 55.131556,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mohammed Bin Rashid City",
@@ -814,67 +325,22 @@
     "raw_area": "Dubai Marina",
     "lat": 25.085305,
     "lng": 55.149287,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Arjan",
     "lat": 25.065134,
     "lng": 55.237327,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.068554,
     "lng": 55.213448,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Business Bay",
@@ -894,23 +360,8 @@
     "raw_area": "Dubai Marina",
     "lat": 25.073851,
     "lng": 55.13691,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Sports City",
@@ -923,67 +374,22 @@
     "raw_area": "Dubai Marina",
     "lat": 25.080542,
     "lng": 55.140343,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mina Rashid",
     "lat": 25.25863,
     "lng": 55.278074,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.090136,
     "lng": 55.150381,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -996,58 +402,15 @@
     "raw_area": "Dubai Internet City",
     "lat": 25.099752,
     "lng": 55.16813,
-    "matched_polygons": [
-      {
-        "area": "Dubai Internet City",
-        "osm_name": "Dubai Internet City, Al Sufouh, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 9.8607314064987e-05,
-        "polygon_centroid_lat": 25.095458982217075,
-        "polygon_centroid_lng": 55.161704043384994,
-        "bounds": {
-          "min_lng": 55.1516214,
-          "min_lat": 25.0869041,
-          "max_lng": 55.1733737,
-          "max_lat": 25.1043291
-        }
-      }
-    ],
-    "selected_area": "Dubai Internet City",
-    "selected_polygon_area": 9.8607314064987e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Downtown Dubai",
     "lat": 25.195023,
     "lng": 55.283553,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -1060,23 +423,8 @@
     "raw_area": "Dubai Marina",
     "lat": 25.071849,
     "lng": 55.131921,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -1096,67 +444,22 @@
     "raw_area": "Dubai Marina",
     "lat": 25.086376,
     "lng": 55.14736,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.068933,
     "lng": 55.128814,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Land Residence Complex",
@@ -1183,23 +486,8 @@
     "raw_area": "Dubai Marina",
     "lat": 25.089833,
     "lng": 55.150625,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Sports City",
@@ -1212,58 +500,15 @@
     "raw_area": "CityWalk Residential",
     "lat": 25.201392,
     "lng": 55.264312,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.074167,
     "lng": 55.137779,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -1276,115 +521,29 @@
     "raw_area": "City Walk",
     "lat": 25.205218,
     "lng": 55.262688,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Business Bay",
     "lat": 25.184174,
     "lng": 55.280526,
-    "matched_polygons": [
-      {
-        "area": "Business Bay",
-        "osm_name": "Business Bay, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00015717051220997765,
-        "polygon_centroid_lat": 25.18865521392355,
-        "polygon_centroid_lng": 55.26931948652079,
-        "bounds": {
-          "min_lng": 55.2550965,
-          "min_lat": 25.1829246,
-          "max_lng": 55.2908299,
-          "max_lat": 25.1961521
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Business Bay",
-    "selected_polygon_area": 0.00015717051220997765
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Palm Jumeirah",
     "lat": 25.106765,
     "lng": 55.152317,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.080138,
     "lng": 55.145241,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -1446,23 +605,8 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Creek Harbour",
@@ -1475,67 +619,22 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.049301,
     "lng": 55.197768,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Al Jaddaf",
     "lat": 25.214144,
     "lng": 55.318355,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.087042,
     "lng": 55.148385,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Heights",
@@ -1562,23 +661,8 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.056571,
     "lng": 55.204936,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mina Rashid",
@@ -1598,23 +682,8 @@
     "raw_area": "DIFC",
     "lat": 25.212088,
     "lng": 55.282761,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Production City",
@@ -1634,23 +703,8 @@
     "raw_area": "Dubai Creek Harbour",
     "lat": 25.207505,
     "lng": 55.344384,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Business Bay",
@@ -1663,23 +717,8 @@
     "raw_area": "Al Jaddaf",
     "lat": 25.213042,
     "lng": 55.319719,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "DAMAC Hills",
@@ -1692,45 +731,15 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.060784,
     "lng": 55.215372,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Palm Jumeirah",
     "lat": 25.116907,
     "lng": 55.141733,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mohammed Bin Rashid City",
@@ -1743,36 +752,8 @@
     "raw_area": "Jumeirah Beach Residence",
     "lat": 25.081955,
     "lng": 55.138863,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mohammed Bin Rashid City",
@@ -1785,45 +766,15 @@
     "raw_area": "Motor City",
     "lat": 25.046277,
     "lng": 55.240646,
-    "matched_polygons": [
-      {
-        "area": "Motor City",
-        "osm_name": "Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00026074289443997847,
-        "polygon_centroid_lat": 25.048138376491234,
-        "polygon_centroid_lng": 55.238368147064854,
-        "bounds": {
-          "min_lng": 55.2253691,
-          "min_lat": 25.0405957,
-          "max_lng": 55.2518225,
-          "max_lat": 25.0546996
-        }
-      }
-    ],
-    "selected_area": "Motor City",
-    "selected_polygon_area": 0.00026074289443997847
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Media City",
     "lat": 25.102121,
     "lng": 55.17154,
-    "matched_polygons": [
-      {
-        "area": "Dubai Internet City",
-        "osm_name": "Dubai Internet City, Al Sufouh, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 9.8607314064987e-05,
-        "polygon_centroid_lat": 25.095458982217075,
-        "polygon_centroid_lng": 55.161704043384994,
-        "bounds": {
-          "min_lng": 55.1516214,
-          "min_lat": 25.0869041,
-          "max_lng": 55.1733737,
-          "max_lat": 25.1043291
-        }
-      }
-    ],
-    "selected_area": "Dubai Internet City",
-    "selected_polygon_area": 9.8607314064987e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -1871,36 +822,8 @@
     "raw_area": "Downtown Dubai",
     "lat": 25.192165,
     "lng": 55.272116,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Town Square",
@@ -1955,45 +878,15 @@
     "raw_area": "Dubai Marina",
     "lat": 25.080444,
     "lng": 55.144318,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Village Triangle",
     "lat": 25.040576,
     "lng": 55.183753,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Land Residence Complex",
@@ -2027,23 +920,8 @@
     "raw_area": "Al Satwa",
     "lat": 25.221632,
     "lng": 55.272474,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Business Bay",
@@ -2091,137 +969,36 @@
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.062184,
     "lng": 55.217714,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Beach Residence",
     "lat": 25.08058,
     "lng": 55.139147,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Beach Residence",
     "lat": 25.080787,
     "lng": 55.13738,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Marina",
     "lat": 25.087926,
     "lng": 55.149224,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Palm Jumeirah",
     "lat": 25.107353,
     "lng": 55.148401,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -2234,23 +1011,8 @@
     "raw_area": "Arjan",
     "lat": 25.059242,
     "lng": 55.238385,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Mirdif Hills",
@@ -2277,80 +1039,22 @@
     "raw_area": "Dubai Marina",
     "lat": 25.068933,
     "lng": 55.128814,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Village Circle",
     "lat": 25.052699,
     "lng": 55.202582,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Al Wasl",
     "lat": 25.2009,
     "lng": 55.266853,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
@@ -2377,23 +1081,8 @@
     "raw_area": "DIFC",
     "lat": 25.207958,
     "lng": 55.277925,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Dubai Science Park",
@@ -2406,93 +1095,22 @@
     "raw_area": "Burj Vista Tower 1, Burj Vista, Downtown Dubai, Dubai",
     "lat": 25.198795318603516,
     "lng": 55.27134323120117,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Grande, Opera District, Downtown Dubai, Dubai",
     "lat": 25.195236206054688,
     "lng": 55.27145004272461,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Private Residences, Jumeirah 2, Jumeirah, Dubai",
     "lat": 25.194454193115234,
     "lng": 55.24066162109375,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Bulgari Resort & Residences 6, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
@@ -2512,45 +1130,22 @@
     "raw_area": "Barton House 1, Barton House, Motor City, Dubai",
     "lat": 25.04483413696289,
     "lng": 55.24247741699219,
-    "matched_polygons": [
-      {
-        "area": "Motor City",
-        "osm_name": "Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00026074289443997847,
-        "polygon_centroid_lat": 25.048138376491234,
-        "polygon_centroid_lng": 55.238368147064854,
-        "bounds": {
-          "min_lng": 55.2253691,
-          "min_lat": 25.0405957,
-          "max_lng": 55.2518225,
-          "max_lat": 25.0546996
-        }
-      }
-    ],
-    "selected_area": "Motor City",
-    "selected_polygon_area": 0.00026074289443997847
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Continental Tower, Dubai Marina, Dubai",
     "lat": 25.080215454101562,
     "lng": 55.13917922973633,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
+    "lat": 25.07798194885254,
+    "lng": 55.1230354309082,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "South Garden B, South Garden, Wasl Gate, Dubai",
@@ -2560,9 +1155,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
-    "lat": 25.07798194885254,
-    "lng": 55.1230354309082,
+    "raw_area": "Sky Residences, Expo City, Dubai",
+    "lat": 24.964250564575195,
+    "lng": 55.1649284362793,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -2602,146 +1197,86 @@
     "selected_area": null
   },
   {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
+    "lat": 25.035930633544922,
+    "lng": 55.15129089355469,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
-  },
-  {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
-    "lat": 25.035930633544922,
-    "lng": 55.15129089355469,
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -2763,45 +1298,15 @@
     "raw_area": "Serenia Living Tower 3, Serenia Living, Palm Jumeirah, Dubai",
     "lat": 25.123783111572266,
     "lng": 55.11256408691406,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Maria Tower, Al Furjan, Dubai",
@@ -2814,199 +1319,64 @@
     "raw_area": "Bayview Tower 1, Bayview, Emaar Beachfront, Dubai Harbour, Dubai",
     "lat": 25.09602165222168,
     "lng": 55.13733673095703,
-    "matched_polygons": [
-      {
-        "area": "Dubai Harbour",
-        "osm_name": "Dubai Harbour, Emaar Beachfront, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 8.473291679999256e-05,
-        "polygon_centroid_lat": 25.094084679116843,
-        "polygon_centroid_lng": 55.13955727513526,
-        "bounds": {
-          "min_lng": 55.1257074,
-          "min_lat": 25.087718,
-          "max_lng": 55.1502473,
-          "max_lat": 25.1035588
-        }
-      }
-    ],
-    "selected_area": "Dubai Harbour",
-    "selected_polygon_area": 8.473291679999256e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Index Tower, DIFC, Dubai",
     "lat": 25.20753288269043,
     "lng": 55.277976989746094,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Burj Daman, DIFC, Dubai",
     "lat": 25.21103286743164,
     "lng": 55.28205108642578,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Burj Daman, DIFC, Dubai",
     "lat": 25.21103286743164,
     "lng": 55.28205108642578,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Limestone House, DIFC, Dubai",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Soulever by Beyond Tower 2, Soulever by Beyond, Maritime City, Dubai",
     "lat": 25.276174545288086,
     "lng": 55.26521301269531,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Avita, Passo by Beyond, Palm Jumeirah, Dubai",
     "lat": 25.115354537963867,
     "lng": 55.10947799682617,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Hado by Beyond Tower B, Hado by Beyond, Dubai Islands, Dubai",
@@ -3019,67 +1389,22 @@
     "raw_area": "Seventh Heaven, Al Barari, Dubai",
     "lat": 25.100921630859375,
     "lng": 55.31316375732422,
-    "matched_polygons": [
-      {
-        "area": "Al Barari",
-        "osm_name": "Al Barari, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.003259376263180005,
-        "polygon_centroid_lat": 25.115472857285525,
-        "polygon_centroid_lng": 55.31879035195093,
-        "bounds": {
-          "min_lng": 55.2878158,
-          "min_lat": 25.0653948,
-          "max_lng": 55.3648828,
-          "max_lat": 25.1508228
-        }
-      }
-    ],
-    "selected_area": "Al Barari",
-    "selected_polygon_area": 0.003259376263180005
-  },
-  {
-    "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-    "lat": 25.10262680053711,
-    "lng": 55.1435432434082,
-    "matched_polygons": [
-      {
-        "area": "Dubai Harbour",
-        "osm_name": "Dubai Harbour, Emaar Beachfront, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 8.473291679999256e-05,
-        "polygon_centroid_lat": 25.094084679116843,
-        "polygon_centroid_lng": 55.13955727513526,
-        "bounds": {
-          "min_lng": 55.1257074,
-          "min_lat": 25.087718,
-          "max_lng": 55.1502473,
-          "max_lat": 25.1035588
-        }
-      }
-    ],
-    "selected_area": "Dubai Harbour",
-    "selected_polygon_area": 8.473291679999256e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Sunrise Bay Tower 2, Sunrise Bay, Emaar Beachfront, Dubai Harbour, Dubai",
     "lat": 25.097517013549805,
     "lng": 55.14009475708008,
-    "matched_polygons": [
-      {
-        "area": "Dubai Harbour",
-        "osm_name": "Dubai Harbour, Emaar Beachfront, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 8.473291679999256e-05,
-        "polygon_centroid_lat": 25.094084679116843,
-        "polygon_centroid_lng": 55.13955727513526,
-        "bounds": {
-          "min_lng": 55.1257074,
-          "min_lat": 25.087718,
-          "max_lng": 55.1502473,
-          "max_lat": 25.1035588
-        }
-      }
-    ],
-    "selected_area": "Dubai Harbour",
-    "selected_polygon_area": 8.473291679999256e-05
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
+    "lat": 25.10262680053711,
+    "lng": 55.1435432434082,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "SAAS Hills, Dubai Science Park, Dubai",
@@ -3103,83 +1428,25 @@
     "selected_area": null
   },
   {
-    "raw_area": "DT1, Downtown Dubai, Dubai",
-    "lat": 25.191650390625,
-    "lng": 55.269405364990234,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
-  },
-  {
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "matched_polygons": [
-      {
-        "area": "Arjan",
-        "osm_name": "Arjan, Al Barsha South 3, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00034962954511499395,
-        "polygon_centroid_lat": 25.060862015208208,
-        "polygon_centroid_lng": 55.236419338408425,
-        "bounds": {
-          "min_lng": 55.2208194,
-          "min_lat": 25.0519207,
-          "max_lng": 55.2498105,
-          "max_lat": 25.068637
-        }
-      }
-    ],
-    "selected_area": "Arjan",
-    "selected_polygon_area": 0.00034962954511499395
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DT1, Downtown Dubai, Dubai",
+    "lat": 25.191650390625,
+    "lng": 55.269405364990234,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Island Park I, Dubai Creek Harbour (The Lagoons), Dubai",
     "lat": 25.207714080810547,
     "lng": 55.34437942504883,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Upper House East, Upper House, Jumeirah Lake Towers, Dubai",
@@ -3206,58 +1473,15 @@
     "raw_area": "Maya 5, District 1, Jumeirah Village Triangle, Dubai",
     "lat": 25.03611183166504,
     "lng": 55.175872802734375,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Burj Crown, Downtown Dubai, Dubai",
     "lat": 25.19400978088379,
     "lng": 55.269405364990234,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Cheval Residences, Dubai Islands, Dubai",
@@ -3291,45 +1515,15 @@
     "raw_area": "Como Residences, Palm Jumeirah, Dubai",
     "lat": 25.11118507385254,
     "lng": 55.14548110961914,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Como Residences, Palm Jumeirah, Dubai",
     "lat": 25.11118507385254,
     "lng": 55.14548110961914,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Maravea Residences, Dubai Islands, Dubai",
@@ -3346,48 +1540,11 @@
     "selected_area": null
   },
   {
-    "raw_area": "Island Park II, Dubai Creek Harbour (The Lagoons), Dubai",
-    "lat": 25.207841873168945,
-    "lng": 55.344390869140625,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
-  },
-  {
     "raw_area": "Al Haseer, Shoreline Apartments, Palm Jumeirah, Dubai",
     "lat": 25.111942291259766,
     "lng": 55.14417266845703,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Maravea Residences, Dubai Islands, Dubai",
@@ -3407,6 +1564,13 @@
     "raw_area": "Maravea Residences, Dubai Islands, Dubai",
     "lat": 25.290544509887695,
     "lng": 55.306549072265625,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Island Park II, Dubai Creek Harbour (The Lagoons), Dubai",
+    "lat": 25.207841873168945,
+    "lng": 55.344390869140625,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3414,23 +1578,8 @@
     "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
     "lat": 25.206411361694336,
     "lng": 55.27519989013672,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Park Heights 2 Tower 2, Park Heights 2, Park Heights, Dubai Hills Estate, Dubai",
@@ -3440,66 +1589,30 @@
     "selected_area": null
   },
   {
+    "raw_area": "Samana Lake Views 2, Dubai Production City (IMPZ), Dubai",
+    "lat": 25.040210723876953,
+    "lng": 55.191890716552734,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Kamoon 1, Kamoon, Old Town, Downtown Dubai, Dubai",
     "lat": 25.189836502075195,
     "lng": 55.275760650634766,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
-  },
-  {
-    "raw_area": "Sobha Orbis Tower A, Sobha Orbis, Motor City, Dubai",
-    "lat": 25.050228118896484,
-    "lng": 55.24924850463867,
-    "matched_polygons": [
-      {
-        "area": "Motor City",
-        "osm_name": "Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00026074289443997847,
-        "polygon_centroid_lat": 25.048138376491234,
-        "polygon_centroid_lng": 55.238368147064854,
-        "bounds": {
-          "min_lng": 55.2253691,
-          "min_lat": 25.0405957,
-          "max_lng": 55.2518225,
-          "max_lat": 25.0546996
-        }
-      }
-    ],
-    "selected_area": "Motor City",
-    "selected_polygon_area": 0.00026074289443997847
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Samana Lake Views 2, Dubai Production City (IMPZ), Dubai",
     "lat": 25.040210723876953,
     "lng": 55.191890716552734,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Sobha Orbis Tower A, Sobha Orbis, Motor City, Dubai",
+    "lat": 25.050228118896484,
+    "lng": 55.24924850463867,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3511,9 +1624,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Samana Lake Views 2, Dubai Production City (IMPZ), Dubai",
-    "lat": 25.040210723876953,
-    "lng": 55.191890716552734,
+    "raw_area": "Golden Mile 1, Golden Mile, Palm Jumeirah, Dubai",
+    "lat": 25.105371475219727,
+    "lng": 55.14915084838867,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3525,127 +1638,32 @@
     "selected_area": null
   },
   {
-    "raw_area": "Golden Mile 1, Golden Mile, Palm Jumeirah, Dubai",
-    "lat": 25.105371475219727,
-    "lng": 55.14915084838867,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.137941360473633,
     "lng": 55.12687683105469,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
-  },
-  {
-    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.137941360473633,
-    "lng": 55.12687683105469,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
     "lat": 25.08125114440918,
     "lng": 55.138519287109375,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Limestone House, DIFC, Dubai",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Pearlz by Danube, Al Furjan, Dubai",
@@ -3662,6 +1680,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
+    "lat": 25.12430191040039,
+    "lng": 55.1125602722168,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
     "lat": 25.130144119262695,
     "lng": 55.19469451904297,
@@ -3672,67 +1697,15 @@
     "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
     "lat": 25.206926345825195,
     "lng": 55.32322311401367,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
-  },
-  {
-    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-    "lat": 25.12430191040039,
-    "lng": 55.1125602722168,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Limestone House, DIFC, Dubai",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Park Heights 2 Tower 1, Park Heights 2, Park Heights, Dubai Hills Estate, Dubai",
@@ -3745,225 +1718,43 @@
     "raw_area": "City Walk Residential Building 2B, City Walk Residential, City Walk, Dubai",
     "lat": 25.2059268951416,
     "lng": 55.26463317871094,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
-  },
-  {
-    "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
-    "lat": 25.217647552490234,
-    "lng": 55.282474517822266,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Liberty House, DIFC, Dubai",
     "lat": 25.20949935913086,
     "lng": 55.27676010131836,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Dubai Creek Residences North Tower 1, Dubai Creek Residences North, Dubai Creek Residences, Dubai Creek Harbour (The Lagoons), Dubai",
-    "lat": 25.204631805419922,
-    "lng": 55.34345626831055,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
-  },
-  {
-    "raw_area": "City Walk Crestlane 5, City Walk Crestlane, City Walk, Dubai",
-    "lat": 25.20611572265625,
-    "lng": 55.257022857666016,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
-  },
-  {
-    "raw_area": "Index Tower, DIFC, Dubai",
-    "lat": 25.20753288269043,
-    "lng": 55.277976989746094,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
+    "lat": 25.217647552490234,
+    "lng": 55.282474517822266,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Residences Emirates Towers, Sheikh Zayed Road, Dubai",
     "lat": 25.216997146606445,
     "lng": 55.285465240478516,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
     "lat": 25.217647552490234,
     "lng": 55.282474517822266,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
     "lat": 25.217647552490234,
     "lng": 55.282474517822266,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Treppan Serenique Residences, Dubai Islands, Dubai",
@@ -3980,75 +1771,30 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Palm Tower, Palm Jumeirah, Dubai",
-    "lat": 25.114274978637695,
-    "lng": 55.13976287841797,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "Index Tower, DIFC, Dubai",
+    "lat": 25.20753288269043,
+    "lng": 55.277976989746094,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "The Palm Tower, Palm Jumeirah, Dubai",
     "lat": 25.114274978637695,
     "lng": 55.13976287841797,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Ocean House, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.13320541381836,
     "lng": 55.151893615722656,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Al Jazi 3, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-    "lat": 25.130998611450195,
-    "lng": 55.19198989868164,
+    "raw_area": "Dubai Creek Residences North Tower 1, Dubai Creek Residences North, Dubai Creek Residences, Dubai Creek Harbour (The Lagoons), Dubai",
+    "lat": 25.204631805419922,
+    "lng": 55.34345626831055,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4056,50 +1802,13 @@
     "raw_area": "Soulever by Beyond Tower 1, Soulever by Beyond, Maritime City, Dubai",
     "lat": 25.27714729309082,
     "lng": 55.265045166015625,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
-    "lat": 25.069103240966797,
-    "lng": 55.21466064453125,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
-  },
-  {
-    "raw_area": "399 Hills Park B, 399 Hills Park, Dubai Hills Estate, Dubai",
-    "lat": 25.118860244750977,
-    "lng": 55.25785446166992,
+    "raw_area": "City Walk Crestlane 5, City Walk Crestlane, City Walk, Dubai",
+    "lat": 25.20611572265625,
+    "lng": 55.257022857666016,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4107,80 +1816,15 @@
     "raw_area": "DEC Tower 1, DEC Towers, Dubai Marina, Dubai",
     "lat": 25.06829261779785,
     "lng": 55.129180908203125,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
-  },
-  {
-    "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
-    "lat": 25.192771911621094,
-    "lng": 55.273765563964844,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Soulever by Beyond Tower 1, Soulever by Beyond, Maritime City, Dubai",
     "lat": 25.27714729309082,
     "lng": 55.265045166015625,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Lia by Avenew, Dubai Islands, Dubai",
@@ -4200,23 +1844,8 @@
     "raw_area": "Chelsea Residence by Damac, Maritime City, Dubai",
     "lat": 25.279510498046875,
     "lng": 55.259944915771484,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
@@ -4229,6 +1858,13 @@
     "raw_area": "SAAS Hills, Dubai Science Park, Dubai",
     "lat": 25.08028221130371,
     "lng": 55.24728775024414,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "399 Hills Park B, 399 Hills Park, Dubai Hills Estate, Dubai",
+    "lat": 25.118860244750977,
+    "lng": 55.25785446166992,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4261,26 +1897,25 @@
     "selected_area": null
   },
   {
+    "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
+    "lat": 25.069103240966797,
+    "lng": 55.21466064453125,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "The Fairmont Palm Residence South, The Fairmont Palm Residences, Palm Jumeirah, Dubai",
     "lat": 25.108728408813477,
     "lng": 55.14238357543945,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
+    "lat": 25.192771911621094,
+    "lng": 55.273765563964844,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Vela Viento By Omniyat, Business Bay, Dubai",
@@ -4300,164 +1935,41 @@
     "raw_area": "Como Residences, Palm Jumeirah, Dubai",
     "lat": 25.11118507385254,
     "lng": 55.14548110961914,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Eden House The Park Building G, Eden House The Park, Al Wasl, Dubai",
     "lat": 25.18732452392578,
     "lng": 55.24897766113281,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Eden House The Park Building G, Eden House The Park, Al Wasl, Dubai",
     "lat": 25.18732452392578,
     "lng": 55.24897766113281,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
     "lat": 25.196975708007812,
     "lng": 55.23417282104492,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
     "lat": 25.206926345825195,
     "lng": 55.32322311401367,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Hercules, Living Legends, Dubai",
     "lat": 25.088119506835938,
     "lng": 55.30339813232422,
-    "matched_polygons": [
-      {
-        "area": "Al Barari",
-        "osm_name": "Al Barari, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.003259376263180005,
-        "polygon_centroid_lat": 25.115472857285525,
-        "polygon_centroid_lng": 55.31879035195093,
-        "bounds": {
-          "min_lng": 55.2878158,
-          "min_lat": 25.0653948,
-          "max_lng": 55.3648828,
-          "max_lat": 25.1508228
-        }
-      }
-    ],
-    "selected_area": "Al Barari",
-    "selected_polygon_area": 0.003259376263180005
-  },
-  {
-    "raw_area": "Azizi Plaza, Al Furjan, Dubai",
-    "lat": 25.022220611572266,
-    "lng": 55.138877868652344,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4469,26 +1981,18 @@
     "selected_area": null
   },
   {
+    "raw_area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
+    "lat": 25.077001571655273,
+    "lng": 55.24882507324219,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Azizi Mina, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.1269474029541,
     "lng": 55.153533935546875,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Golf Suites, Dubai Hills Estate, Dubai",
@@ -4498,23 +2002,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
-    "lat": 25.077001571655273,
-    "lng": 55.24882507324219,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Bluewaters Residences Building 9, Bluewaters Residences, Bluewaters, Dubai",
     "lat": 25.07953643798828,
     "lng": 55.12154006958008,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Golf Grand, Dubai Hills Estate, Dubai",
-    "lat": 25.11564064025879,
-    "lng": 55.268245697021484,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4529,330 +2019,85 @@
     "raw_area": "Ashjar Building E1, Ashjar, Al Barari, Dubai",
     "lat": 25.100688934326172,
     "lng": 55.31568908691406,
-    "matched_polygons": [
-      {
-        "area": "Al Barari",
-        "osm_name": "Al Barari, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.003259376263180005,
-        "polygon_centroid_lat": 25.115472857285525,
-        "polygon_centroid_lng": 55.31879035195093,
-        "bounds": {
-          "min_lng": 55.2878158,
-          "min_lat": 25.0653948,
-          "max_lng": 55.3648828,
-          "max_lat": 25.1508228
-        }
-      }
-    ],
-    "selected_area": "Al Barari",
-    "selected_polygon_area": 0.003259376263180005
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Park Tower B, Park Towers, DIFC, Dubai",
     "lat": 25.209806442260742,
     "lng": 55.27897262573242,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "DIFC Living, DIFC, Dubai",
     "lat": 25.208654403686523,
     "lng": 55.2785530090332,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Six Senses Residences, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.101139068603516,
     "lng": 55.117088317871094,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "University View, Dubai Silicon Oasis, Dubai",
     "lat": 25.126480102539062,
     "lng": 55.4051513671875,
-    "matched_polygons": [
-      {
-        "area": "Dubai Silicon Oasis",
-        "osm_name": "Dubai Silicon Oasis, International City, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0007607042350700285,
-        "polygon_centroid_lat": 25.121970957561473,
-        "polygon_centroid_lng": 55.38556404174409,
-        "bounds": {
-          "min_lng": 55.3648828,
-          "min_lat": 25.1037774,
-          "max_lng": 55.4083445,
-          "max_lat": 25.138728
-        }
-      }
-    ],
-    "selected_area": "Dubai Silicon Oasis",
-    "selected_polygon_area": 0.0007607042350700285
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
     "lat": 25.200855255126953,
     "lng": 55.26466751098633,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.137941360473633,
     "lng": 55.12687683105469,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
     "lat": 25.200855255126953,
     "lng": 55.26466751098633,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
     "lat": 25.200855255126953,
     "lng": 55.26466751098633,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
     "lat": 25.200855255126953,
     "lng": 55.26466751098633,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
     "lat": 25.200855255126953,
     "lng": 55.26466751098633,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Safa one, Al Wasl, Dubai",
     "lat": 25.183317184448242,
     "lng": 55.249000549316406,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Aykon City Tower C, Aykon City, Business Bay, Dubai",
@@ -4865,67 +2110,22 @@
     "raw_area": "Park Gate Residence 2, Park Gate Residences, Al Kifaf, Bur Dubai, Dubai",
     "lat": 25.233734130859375,
     "lng": 55.29496765136719,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
     "lat": 25.206926345825195,
     "lng": 55.32322311401367,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Ellington Beach House, The Crescent, Palm Jumeirah, Dubai",
     "lat": 25.140127182006836,
     "lng": 55.14112854003906,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
@@ -4935,83 +2135,25 @@
     "selected_area": null
   },
   {
-    "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
-    "lat": 25.206411361694336,
-    "lng": 55.27519989013672,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
-  },
-  {
     "raw_area": "The Cape, Al Barari, Dubai",
     "lat": 25.09952163696289,
     "lng": 55.31328582763672,
-    "matched_polygons": [
-      {
-        "area": "Al Barari",
-        "osm_name": "Al Barari, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.003259376263180005,
-        "polygon_centroid_lat": 25.115472857285525,
-        "polygon_centroid_lng": 55.31879035195093,
-        "bounds": {
-          "min_lng": 55.2878158,
-          "min_lat": 25.0653948,
-          "max_lng": 55.3648828,
-          "max_lat": 25.1508228
-        }
-      }
-    ],
-    "selected_area": "Al Barari",
-    "selected_polygon_area": 0.003259376263180005
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Eden House The Park Building A, Eden House The Park, Al Wasl, Dubai",
     "lat": 25.18732452392578,
     "lng": 55.24897766113281,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
+    "lat": 25.206411361694336,
+    "lng": 55.27519989013672,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
@@ -5024,23 +2166,8 @@
     "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
     "lat": 25.195905685424805,
     "lng": 55.23814392089844,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
@@ -5053,36 +2180,8 @@
     "raw_area": "Imperial Avenue, Downtown Dubai, Dubai",
     "lat": 25.188282012939453,
     "lng": 55.27410125732422,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Golf Grand, Dubai Hills Estate, Dubai",
@@ -5109,133 +2208,41 @@
     "raw_area": "City Walk Residential Building 18B, City Walk Residential, City Walk, Dubai",
     "lat": 25.201656341552734,
     "lng": 55.26326370239258,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "The Edge Tower A, The Edge, Business Bay, Dubai",
     "lat": 25.188905715942383,
     "lng": 55.26838302612305,
-    "matched_polygons": [
-      {
-        "area": "Business Bay",
-        "osm_name": "Business Bay, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00015717051220997765,
-        "polygon_centroid_lat": 25.18865521392355,
-        "polygon_centroid_lng": 55.26931948652079,
-        "bounds": {
-          "min_lng": 55.2550965,
-          "min_lat": 25.1829246,
-          "max_lng": 55.2908299,
-          "max_lat": 25.1961521
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Business Bay",
-    "selected_polygon_area": 0.00015717051220997765
-  },
-  {
-    "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
-    "lat": 25.19428253173828,
-    "lng": 55.27188491821289,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
     "lat": 25.206926345825195,
     "lng": 55.32322311401367,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "The Pulse Residence B2, The Pulse Residence, The Pulse, Dubai South (Dubai World Central), Dubai",
-    "lat": 24.944473266601562,
-    "lng": 55.22305679321289,
+    "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
+    "lat": 25.19428253173828,
+    "lng": 55.27188491821289,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
+    "lat": 25.12430191040039,
+    "lng": 55.1125602722168,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Living Marina Gate, Marina Gate, Dubai Marina, Dubai",
+    "lat": 25.087146759033203,
+    "lng": 55.14668273925781,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -5243,80 +2250,15 @@
     "raw_area": "Kamoon 2, Kamoon, Old Town, Downtown Dubai, Dubai",
     "lat": 25.189252853393555,
     "lng": 55.275535583496094,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": "Downtown Dubai, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00022636064038998339,
-        "polygon_centroid_lat": 25.19498619187775,
-        "polygon_centroid_lng": 55.2762321736295,
-        "bounds": {
-          "min_lng": 55.2670396,
-          "min_lat": 25.1847433,
-          "max_lng": 55.289052,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.00022636064038998339
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "Jumeirah Living Marina Gate, Marina Gate, Dubai Marina, Dubai",
-    "lat": 25.087146759033203,
-    "lng": 55.14668273925781,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0003281887554850169
-  },
-  {
-    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-    "lat": 25.12430191040039,
-    "lng": 55.1125602722168,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": "Palm Jumeirah, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0017879471374549966,
-        "polygon_centroid_lat": 25.118611338059303,
-        "polygon_centroid_lng": 55.13355138375155,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0017879471374549966
+    "raw_area": "The Pulse Residence B2, The Pulse Residence, The Pulse, Dubai South (Dubai World Central), Dubai",
+    "lat": 24.944473266601562,
+    "lng": 55.22305679321289,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "350 Riverside Crescent, Sobha Hartland II, Bukadra, Dubai",
@@ -5329,72 +2271,20 @@
     "raw_area": "Belgravia Square, District 14, Jumeirah Village Circle, Dubai",
     "lat": 25.048561096191406,
     "lng": 55.20402526855469,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
-  },
-  {
-    "raw_area": "One Za'abeel The Residences, Zabeel 1, Zabeel, Dubai",
-    "lat": 25.227611541748047,
-    "lng": 55.29294967651367,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "DIFC Living, DIFC, Dubai",
     "lat": 25.208654403686523,
     "lng": 55.2785530090332,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
-    "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-    "lat": 25.176891326904297,
-    "lng": 55.31071090698242,
+    "raw_area": "One Za'abeel The Residences, Zabeel 1, Zabeel, Dubai",
+    "lat": 25.227611541748047,
+    "lng": 55.29294967651367,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -5402,6 +2292,13 @@
     "raw_area": "Maybach Six, Nad Al Sheba 1, Nad Al Sheba, Dubai",
     "lat": 25.165393829345703,
     "lng": 55.324886322021484,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+    "lat": 25.176891326904297,
+    "lng": 55.31071090698242,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -5416,36 +2313,8 @@
     "raw_area": "Bugatti Residences, Business Bay, Dubai",
     "lat": 25.1881160736084,
     "lng": 55.26538848876953,
-    "matched_polygons": [
-      {
-        "area": "Business Bay",
-        "osm_name": "Business Bay, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00015717051220997765,
-        "polygon_centroid_lat": 25.18865521392355,
-        "polygon_centroid_lng": 55.26931948652079,
-        "bounds": {
-          "min_lng": 55.2550965,
-          "min_lat": 25.1829246,
-          "max_lng": 55.2908299,
-          "max_lat": 25.1961521
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Business Bay",
-    "selected_polygon_area": 0.00015717051220997765
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Allegro Residences, Dubai Islands, Dubai",
@@ -5465,67 +2334,15 @@
     "raw_area": "Bayshore at Creek Beach Building 4, Bayshore at Creek Beach, Creek Beach, Dubai Creek Harbour (The Lagoons), Dubai",
     "lat": 25.200410842895508,
     "lng": 55.34886932373047,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Palazzo Versace, Culture Village, Dubai",
     "lat": 25.227294921875,
     "lng": 55.34176254272461,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
-  },
-  {
-    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-    "lat": 25.030311584472656,
-    "lng": 55.20481491088867,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Golf Estates",
-        "osm_name": "Jumeirah Golf Estates, Me’aisem 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003450168225749894,
-        "polygon_centroid_lat": 25.020163312938255,
-        "polygon_centroid_lng": 55.2015481715061,
-        "bounds": {
-          "min_lng": 55.1843784,
-          "min_lat": 25.0121375,
-          "max_lng": 55.2154431,
-          "max_lat": 25.031429
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Golf Estates",
-    "selected_polygon_area": 0.0003450168225749894
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Bluewaters Residences Building 4, Bluewaters Residences, Bluewaters, Dubai",
@@ -5535,44 +2352,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
-    "lat": 25.08125114440918,
-    "lng": 55.138519287109375,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Beach Residence",
-        "osm_name": "Jumeirah Beach Residence, Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 2.835728754501836e-05,
-        "polygon_centroid_lat": 25.077732482098273,
-        "polygon_centroid_lng": 55.13512262353214,
-        "bounds": {
-          "min_lng": 55.1282924,
-          "min_lat": 25.071762,
-          "max_lng": 55.14137,
-          "max_lat": 25.0836679
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": "Dubai Marina, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003281887554850169,
-        "polygon_centroid_lat": 25.08049366283081,
-        "polygon_centroid_lng": 55.13911419184997,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Beach Residence",
-    "selected_polygon_area": 2.835728754501836e-05
-  },
-  {
-    "raw_area": "Binghatti Elite, Dubai Production City (IMPZ), Dubai",
-    "lat": 25.038888931274414,
-    "lng": 55.19058609008789,
+    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+    "lat": 25.030311584472656,
+    "lng": 55.20481491088867,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -5580,23 +2362,22 @@
     "raw_area": "Esplora, District 18, Jumeirah Village Circle, Dubai",
     "lat": 25.053646087646484,
     "lng": 55.200439453125,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Village Circle",
-        "osm_name": "Jumeirah Village Circle, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0008734689467450129,
-        "polygon_centroid_lat": 25.0542570135479,
-        "polygon_centroid_lng": 55.20213268984285,
-        "bounds": {
-          "min_lng": 55.1685745,
-          "min_lat": 25.0294169,
-          "max_lng": 55.2237482,
-          "max_lat": 25.0769248
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Village Circle",
-    "selected_polygon_area": 0.0008734689467450129
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
+    "lat": 25.08125114440918,
+    "lng": 55.138519287109375,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Binghatti Elite, Dubai Production City (IMPZ), Dubai",
+    "lat": 25.038888931274414,
+    "lng": 55.19058609008789,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
@@ -5623,102 +2404,15 @@
     "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
     "lat": 25.206411361694336,
     "lng": 55.27519989013672,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "City Walk Crestlane 1, City Walk Crestlane, City Walk, Dubai",
     "lat": 25.208223342895508,
     "lng": 55.257022857666016,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
-  },
-  {
-    "raw_area": "Burj Daman, DIFC, Dubai",
-    "lat": 25.21103286743164,
-    "lng": 55.28205108642578,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
-  },
-  {
-    "raw_area": "Sky Gardens, DIFC, Dubai",
-    "lat": 25.212017059326172,
-    "lng": 55.282859802246094,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
@@ -5731,124 +2425,43 @@
     "raw_area": "Sobha Orbis Tower E, Sobha Orbis, Motor City, Dubai",
     "lat": 25.048465728759766,
     "lng": 55.24924087524414,
-    "matched_polygons": [
-      {
-        "area": "Motor City",
-        "osm_name": "Motor City, Al Hebiah 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00026074289443997847,
-        "polygon_centroid_lat": 25.048138376491234,
-        "polygon_centroid_lng": 55.238368147064854,
-        "bounds": {
-          "min_lng": 55.2253691,
-          "min_lat": 25.0405957,
-          "max_lng": 55.2518225,
-          "max_lat": 25.0546996
-        }
-      }
-    ],
-    "selected_area": "Motor City",
-    "selected_polygon_area": 0.00026074289443997847
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
     "lat": 25.030311584472656,
     "lng": 55.20481491088867,
-    "matched_polygons": [
-      {
-        "area": "Jumeirah Golf Estates",
-        "osm_name": "Jumeirah Golf Estates, Me’aisem 1, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0003450168225749894,
-        "polygon_centroid_lat": 25.020163312938255,
-        "polygon_centroid_lng": 55.2015481715061,
-        "bounds": {
-          "min_lng": 55.1843784,
-          "min_lat": 25.0121375,
-          "max_lng": 55.2154431,
-          "max_lat": 25.031429
-        }
-      }
-    ],
-    "selected_area": "Jumeirah Golf Estates",
-    "selected_polygon_area": 0.0003450168225749894
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Burj Daman, DIFC, Dubai",
+    "lat": 25.21103286743164,
+    "lng": 55.28205108642578,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Sky Gardens, DIFC, Dubai",
+    "lat": 25.212017059326172,
+    "lng": 55.282859802246094,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Creek Edge Tower 1, Creek Edge, Dubai Creek Harbour (The Lagoons), Dubai",
     "lat": 25.209863662719727,
     "lng": 55.34536361694336,
-    "matched_polygons": [
-      {
-        "area": "Dubai Creek Harbour",
-        "osm_name": "Dubai Creek Harbour, Al Kheeran 1, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.0006304207198649974,
-        "polygon_centroid_lat": 25.197236453351273,
-        "polygon_centroid_lng": 55.35819793070053,
-        "bounds": {
-          "min_lng": 55.3404649,
-          "min_lat": 25.1849211,
-          "max_lng": 55.375842,
-          "max_lat": 25.2110181
-        }
-      }
-    ],
-    "selected_area": "Dubai Creek Harbour",
-    "selected_polygon_area": 0.0006304207198649974
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
     "lat": 25.195905685424805,
     "lng": 55.23814392089844,
-    "matched_polygons": [
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Dubai Islands",
-    "selected_polygon_area": 0.005773476202349929
-  },
-  {
-    "raw_area": "City Walk Crestlane 4 Building B, City Walk Crestlane 4, City Walk Crestlane, City Walk, Dubai",
-    "lat": 25.204362869262695,
-    "lng": 55.2635612487793,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "320 Riverside Crescent, Sobha Hartland II, Bukadra, Dubai",
@@ -5861,35 +2474,35 @@
     "raw_area": "City Walk Crestlane 4 Building B, City Walk Crestlane 4, City Walk Crestlane, City Walk, Dubai",
     "lat": 25.204362869262695,
     "lng": 55.2635612487793,
-    "matched_polygons": [
-      {
-        "area": "Al Wasl",
-        "osm_name": "Al Wasl, Dubai, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.00043685713313500093,
-        "polygon_centroid_lat": 25.19641124208353,
-        "polygon_centroid_lng": 55.255017836850065,
-        "bounds": {
-          "min_lng": 55.2397704,
-          "min_lat": 25.1802752,
-          "max_lng": 55.2708067,
-          "max_lat": 25.2120591
-        }
-      },
-      {
-        "area": "Dubai Islands",
-        "osm_name": "Bur Dubai, Dubai International Financial Centre, Dubai Emirate, United Arab Emirates",
-        "polygon_area": 0.005773476202349929,
-        "polygon_centroid_lat": 25.225482649955385,
-        "polygon_centroid_lng": 55.2877151518088,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Al Wasl",
-    "selected_polygon_area": 0.00043685713313500093
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "City Walk Crestlane 4 Building B, City Walk Crestlane 4, City Walk Crestlane, City Walk, Dubai",
+    "lat": 25.204362869262695,
+    "lng": 55.2635612487793,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Address Residences Zabeel 4, Address Residences Zabeel, Zabeel 1, Zabeel, Dubai",
+    "lat": 25.226516723632812,
+    "lng": 55.29519271850586,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Azizi Riviera Beachfront Tower C, Azizi Riviera Beachfront, Azizi Riviera, Meydan One, Meydan, Dubai",
+    "lat": 25.175128936767578,
+    "lng": 55.31095504760742,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Oasiz By Danube, Dubai Silicon Oasis, Dubai",
+    "lat": 25.12537384033203,
+    "lng": 55.384376525878906,
+    "matched_polygons": [],
+    "selected_area": null
   }
 ]
