@@ -701,15 +701,13 @@
       "quality_tier": "standard"
     },
     "median_price_per_sqft": 3462,
-    "listing_count": 5,
+    "listing_count": 3,
     "min_price_per_sqft": 2832,
     "max_price_per_sqft": 6376,
     "price_spread_percent": 1.02,
     "prices_sorted": [
       2832,
-      2898,
       3462,
-      4553,
       6376
     ],
     "listings": [
@@ -728,20 +726,6 @@
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565864.html"
       },
       {
-        "title": "CITY WALK 3BR | SPACIOUS | PRIME LOCATION",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 2898,
-        "price": 7045000,
-        "sqft": 2431,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201629.html"
-      },
-      {
         "title": "Vacant | Coca Cola Arena View | High Floor",
         "area": "Al Wasl",
         "tower_name": "City Walk Residential Building 2B",
@@ -754,20 +738,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-2b-85304661.html"
-      },
-      {
-        "title": "Full Canal View | Corner Unit plus Maids Room",
-        "area": "Al Wasl",
-        "tower_name": "Eden House The Park Building G",
-        "raw_area": "Eden House The Park Building G, Eden House The Park, Al Wasl, Dubai",
-        "lat": 25.18732452392578,
-        "lng": 55.24897766113281,
-        "price_per_sqft": 4553,
-        "price": 11000000,
-        "sqft": 2416,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-g-91379301.html"
       },
       {
         "title": "SPACIOUS 3BR APARTMENT | CITY WALK 21A | AL WASL",
@@ -1891,99 +1861,6 @@
   },
   {
     "market_key": {
-      "area": "Al Wasl",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2900,
-    "listing_count": 5,
-    "min_price_per_sqft": 2737,
-    "max_price_per_sqft": 3969,
-    "price_spread_percent": 0.43,
-    "prices_sorted": [
-      2737,
-      2878,
-      2900,
-      3777,
-      3969
-    ],
-    "listings": [
-      {
-        "title": "MULTIPLE OPTIONS AVAILABLE | SAFA ONE BY DAMAC",
-        "area": "Al Wasl",
-        "tower_name": "Safa one",
-        "raw_area": "Safa one, Al Wasl, Dubai",
-        "lat": 25.183317184448242,
-        "lng": 55.249000549316406,
-        "price_per_sqft": 2737,
-        "price": 3399000,
-        "sqft": 1242,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-safa-one-76565323.html"
-      },
-      {
-        "title": "CITY WALK 2BR | PRIME LOCATION | SPACIOUS",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 2878,
-        "price": 4950000,
-        "sqft": 1720,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201634.html"
-      },
-      {
-        "title": "CITY WALK | SPACIOUS 2BR | PRIME LOCATION",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 2900,
-        "price": 4530000,
-        "sqft": 1562,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201631.html"
-      },
-      {
-        "title": "Upcoming | Luxurious | Sea View | Branded",
-        "area": "Al Wasl",
-        "tower_name": "Al Wasl",
-        "raw_area": "",
-        "lat": 25.2009,
-        "lng": 55.266853,
-        "price_per_sqft": 3777,
-        "price": 8600000,
-        "sqft": 2277,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-226382"
-      },
-      {
-        "title": "PRIME LOCATION | VIBRANT CITY WALK LIVING",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 3969,
-        "price": 6200000,
-        "sqft": 1562,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565321.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Silicon Oasis",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -2027,84 +1904,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-silicon-oasis-university-view-90909555.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Islands",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 3291,
-    "listing_count": 4,
-    "min_price_per_sqft": 2846,
-    "max_price_per_sqft": 4190,
-    "price_spread_percent": 0.41,
-    "prices_sorted": [
-      2846,
-      2857,
-      3725,
-      4190
-    ],
-    "listings": [
-      {
-        "title": "Elegant 3BR with Balcony | DIFC Skyline View",
-        "area": "Dubai Islands",
-        "tower_name": "Burj Daman",
-        "raw_area": "Burj Daman, DIFC, Dubai",
-        "lat": 25.21103286743164,
-        "lng": 55.28205108642578,
-        "price_per_sqft": 2846,
-        "price": 5950000,
-        "sqft": 2091,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-burj-daman-91372629.html"
-      },
-      {
-        "title": "Burj Khalifa View | High Floor | Dubai Mall Access",
-        "area": "Dubai Islands",
-        "tower_name": "Downtown Dubai",
-        "raw_area": "",
-        "lat": 25.201991,
-        "lng": 55.281157,
-        "price_per_sqft": 2857,
-        "price": 4900000,
-        "sqft": 1715,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-226182"
-      },
-      {
-        "title": "Premium Furnished 3BR | DIFC View | Exclusive",
-        "area": "Dubai Islands",
-        "tower_name": "Burj Daman",
-        "raw_area": "Burj Daman, DIFC, Dubai",
-        "lat": 25.21103286743164,
-        "lng": 55.28205108642578,
-        "price_per_sqft": 3725,
-        "price": 7790000,
-        "sqft": 2091,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-burj-daman-91372762.html"
-      },
-      {
-        "title": "High-end Upgrades and Luxurious Furnishings",
-        "area": "Dubai Islands",
-        "tower_name": "Index Tower",
-        "raw_area": "Index Tower, DIFC, Dubai",
-        "lat": 25.20753288269043,
-        "lng": 55.277976989746094,
-        "price_per_sqft": 4190,
-        "price": 13500000,
-        "sqft": 3222,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-index-tower-91375940.html"
       }
     ]
   },
@@ -2221,54 +2020,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Harbour",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3092,
-    "listing_count": 2,
-    "min_price_per_sqft": 2510,
-    "max_price_per_sqft": 3674,
-    "price_spread_percent": 0.38,
-    "prices_sorted": [
-      2510,
-      3674
-    ],
-    "listings": [
-      {
-        "title": "Exclusive | Negotiable | Viewing Available",
-        "area": "Dubai Harbour",
-        "tower_name": "Sunrise Bay Tower 2",
-        "raw_area": "Sunrise Bay Tower 2, Sunrise Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.097517013549805,
-        "lng": 55.14009475708008,
-        "price_per_sqft": 2510,
-        "price": 3250000,
-        "sqft": 1295,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-92697723.html"
-      },
-      {
-        "title": "2 Bedroom | Excellent Views | Below Original Price",
-        "area": "Dubai Harbour",
-        "tower_name": "Seapoint Tower 1",
-        "raw_area": "Seapoint Tower 1, Seapoint, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.098583221435547,
-        "lng": 55.14064407348633,
-        "price_per_sqft": 3674,
-        "price": 5080888,
-        "sqft": 1383,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-seapoint-seapoint-tower-1-81524489.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Jumeirah Lake Towers",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -2377,21 +2128,83 @@
   },
   {
     "market_key": {
+      "area": "Dubai Islands",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 3725,
+    "listing_count": 3,
+    "min_price_per_sqft": 2846,
+    "max_price_per_sqft": 4190,
+    "price_spread_percent": 0.36,
+    "prices_sorted": [
+      2846,
+      3725,
+      4190
+    ],
+    "listings": [
+      {
+        "title": "Elegant 3BR with Balcony | DIFC Skyline View",
+        "area": "Dubai Islands",
+        "tower_name": "Burj Daman",
+        "raw_area": "Burj Daman, DIFC, Dubai",
+        "lat": 25.21103286743164,
+        "lng": 55.28205108642578,
+        "price_per_sqft": 2846,
+        "price": 5950000,
+        "sqft": 2091,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-burj-daman-91372629.html"
+      },
+      {
+        "title": "Premium Furnished 3BR | DIFC View | Exclusive",
+        "area": "Dubai Islands",
+        "tower_name": "Burj Daman",
+        "raw_area": "Burj Daman, DIFC, Dubai",
+        "lat": 25.21103286743164,
+        "lng": 55.28205108642578,
+        "price_per_sqft": 3725,
+        "price": 7790000,
+        "sqft": 2091,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-burj-daman-91372762.html"
+      },
+      {
+        "title": "High-end Upgrades and Luxurious Furnishings",
+        "area": "Dubai Islands",
+        "tower_name": "Index Tower",
+        "raw_area": "Index Tower, DIFC, Dubai",
+        "lat": 25.20753288269043,
+        "lng": 55.277976989746094,
+        "price_per_sqft": 4190,
+        "price": 13500000,
+        "sqft": 3222,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-index-tower-91375940.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Al Wasl",
       "property_type": "apartment",
       "bedrooms": 1,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 2939,
-    "listing_count": 7,
+    "median_price_per_sqft": 2993,
+    "listing_count": 6,
     "min_price_per_sqft": 2267,
     "max_price_per_sqft": 3321,
-    "price_spread_percent": 0.36,
+    "price_spread_percent": 0.35,
     "prices_sorted": [
       2267,
       2395,
-      2861,
       2939,
       3047,
       3132,
@@ -2425,20 +2238,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-227862"
-      },
-      {
-        "title": "CITY WALK | 1BR | HIGH ROI | PRIME LOCATION",
-        "area": "Al Wasl",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 2861,
-        "price": 2695000,
-        "sqft": 942,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201632.html"
       },
       {
         "title": "Brand New | Mid Floor | Green Community | Vacant",
@@ -2611,49 +2410,64 @@
   },
   {
     "market_key": {
-      "area": "Dubai Harbour",
+      "area": "Al Wasl",
       "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
+      "quality_tier": "standard"
     },
-    "median_price_per_sqft": 3957,
-    "listing_count": 2,
-    "min_price_per_sqft": 3349,
-    "max_price_per_sqft": 4565,
-    "price_spread_percent": 0.31,
+    "median_price_per_sqft": 3777,
+    "listing_count": 3,
+    "min_price_per_sqft": 2737,
+    "max_price_per_sqft": 3969,
+    "price_spread_percent": 0.33,
     "prices_sorted": [
-      3349,
-      4565
+      2737,
+      3777,
+      3969
     ],
     "listings": [
       {
-        "title": "Brand New 2 Bedroom | Furnished | Make Me An Offer",
-        "area": "Dubai Harbour",
-        "tower_name": "Beach Mansion Tower 1",
-        "raw_area": "Beach Mansion Tower 1, Beach Mansion, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.09919548034668,
-        "lng": 55.141151428222656,
-        "price_per_sqft": 3349,
-        "price": 4150000,
-        "sqft": 1239,
-        "quality_tier": "ultra_luxury",
+        "title": "MULTIPLE OPTIONS AVAILABLE | SAFA ONE BY DAMAC",
+        "area": "Al Wasl",
+        "tower_name": "Safa one",
+        "raw_area": "Safa one, Al Wasl, Dubai",
+        "lat": 25.183317184448242,
+        "lng": 55.249000549316406,
+        "price_per_sqft": 2737,
+        "price": 3399000,
+        "sqft": 1242,
+        "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-beach-mansion-beach-mansion-tower-1-88307624.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-safa-one-76565323.html"
       },
       {
-        "title": "Sea View | Beach Access |  Luxury Branded",
-        "area": "Dubai Harbour",
-        "tower_name": "Bayview Tower 1",
-        "raw_area": "Bayview Tower 1, Bayview, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.09602165222168,
-        "lng": 55.13733673095703,
-        "price_per_sqft": 4565,
-        "price": 6300000,
-        "sqft": 1380,
-        "quality_tier": "ultra_luxury",
+        "title": "Upcoming | Luxurious | Sea View | Branded",
+        "area": "Al Wasl",
+        "tower_name": "Al Wasl",
+        "raw_area": "",
+        "lat": 25.2009,
+        "lng": 55.266853,
+        "price_per_sqft": 3777,
+        "price": 8600000,
+        "sqft": 2277,
+        "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-bayview-bayview-tower-1-87029165.html"
+        "url": "https://www.bhomes.com/en/property/bh-s-226382"
+      },
+      {
+        "title": "PRIME LOCATION | VIBRANT CITY WALK LIVING",
+        "area": "Al Wasl",
+        "tower_name": "City Walk Residential Building 21A",
+        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+        "lat": 25.200855255126953,
+        "lng": 55.26466751098633,
+        "price_per_sqft": 3969,
+        "price": 6200000,
+        "sqft": 1562,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565321.html"
       }
     ]
   },
@@ -2992,6 +2806,102 @@
   },
   {
     "market_key": {
+      "area": "Dubai Creek Harbour",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2692,
+    "listing_count": 2,
+    "min_price_per_sqft": 2441,
+    "max_price_per_sqft": 2942,
+    "price_spread_percent": 0.19,
+    "prices_sorted": [
+      2441,
+      2942
+    ],
+    "listings": [
+      {
+        "title": "Waterfront Living | Premium Pool View | Spacious",
+        "area": "Dubai Creek Harbour",
+        "tower_name": "Dubai Creek Harbour",
+        "raw_area": "",
+        "lat": 25.203338,
+        "lng": 55.351063,
+        "price_per_sqft": 2441,
+        "price": 2500000,
+        "sqft": 1024,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228665"
+      },
+      {
+        "title": "Newly Renovated | Serious Seller | NO AGENTS",
+        "area": "Dubai Creek Harbour",
+        "tower_name": "Creek Edge Tower 1",
+        "raw_area": "Creek Edge Tower 1, Creek Edge, Dubai Creek Harbour (The Lagoons), Dubai",
+        "lat": 25.209863662719727,
+        "lng": 55.34536361694336,
+        "price_per_sqft": 2942,
+        "price": 3080000,
+        "sqft": 1047,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-creek-harbour-the-lagoons-creek-edge-creek-edge-tower-1-94007280.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Mohammed Bin Rashid City",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2365,
+    "listing_count": 2,
+    "min_price_per_sqft": 2172,
+    "max_price_per_sqft": 2557,
+    "price_spread_percent": 0.16,
+    "prices_sorted": [
+      2172,
+      2557
+    ],
+    "listings": [
+      {
+        "title": "Exclusive | Vacant On Transfer | High Floor",
+        "area": "Mohammed Bin Rashid City",
+        "tower_name": "Mohammed Bin Rashid City",
+        "raw_area": "",
+        "lat": 25.179355,
+        "lng": 55.304135,
+        "price_per_sqft": 2172,
+        "price": 1150000,
+        "sqft": 529,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-229444"
+      },
+      {
+        "title": "Rented | Furnished | High Floor | Lagoon view",
+        "area": "Mohammed Bin Rashid City",
+        "tower_name": "Mohammed Bin Rashid City",
+        "raw_area": "",
+        "lat": 25.152,
+        "lng": 55.303,
+        "price_per_sqft": 2557,
+        "price": 1300000,
+        "sqft": 508,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228295"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai Islands",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -3280,54 +3190,6 @@
   },
   {
     "market_key": {
-      "area": "Mohammed Bin Rashid City",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2452,
-    "listing_count": 2,
-    "min_price_per_sqft": 2347,
-    "max_price_per_sqft": 2557,
-    "price_spread_percent": 0.09,
-    "prices_sorted": [
-      2347,
-      2557
-    ],
-    "listings": [
-      {
-        "title": "Fully Furnished | High Floor | Vacating Soon",
-        "area": "Mohammed Bin Rashid City",
-        "tower_name": "Mohammed Bin Rashid City",
-        "raw_area": "",
-        "lat": 25.179734,
-        "lng": 55.304978,
-        "price_per_sqft": 2347,
-        "price": 1150000,
-        "sqft": 490,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228335"
-      },
-      {
-        "title": "Rented | Furnished | High Floor | Lagoon view",
-        "area": "Mohammed Bin Rashid City",
-        "tower_name": "Mohammed Bin Rashid City",
-        "raw_area": "",
-        "lat": 25.152,
-        "lng": 55.303,
-        "price_per_sqft": 2557,
-        "price": 1300000,
-        "sqft": 508,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228295"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Creek Harbour",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -3386,6 +3248,54 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-227615"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Samana Lake Views 2, Dubai Production City (Impz), Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 0,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1987,
+    "listing_count": 2,
+    "min_price_per_sqft": 1897,
+    "max_price_per_sqft": 2076,
+    "price_spread_percent": 0.09,
+    "prices_sorted": [
+      1897,
+      2076
+    ],
+    "listings": [
+      {
+        "title": "Modern Studio | Luxurious Lifestyle|Tranquil Oasis",
+        "area": "Samana Lake Views 2, Dubai Production City (Impz), Dubai",
+        "tower_name": "Samana Lake Views 2",
+        "raw_area": "Samana Lake Views 2, Dubai Production City (IMPZ), Dubai",
+        "lat": 25.040210723876953,
+        "lng": 55.191890716552734,
+        "price_per_sqft": 1897,
+        "price": 795000,
+        "sqft": 419,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-production-city-impz-samana-lake-views-2-65152802.html"
+      },
+      {
+        "title": "Luxurious Studio | Elevated | Dubai Skyline Views",
+        "area": "Samana Lake Views 2, Dubai Production City (Impz), Dubai",
+        "tower_name": "Samana Lake Views 2",
+        "raw_area": "Samana Lake Views 2, Dubai Production City (IMPZ), Dubai",
+        "lat": 25.040210723876953,
+        "lng": 55.191890716552734,
+        "price_per_sqft": 2076,
+        "price": 870000,
+        "sqft": 419,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-production-city-impz-samana-lake-views-2-68271088.html"
       }
     ]
   },
@@ -4100,39 +4010,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228829"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Creek Harbour",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2441,
-    "listing_count": 1,
-    "min_price_per_sqft": 2441,
-    "max_price_per_sqft": 2441,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2441
-    ],
-    "listings": [
-      {
-        "title": "Waterfront Living | Premium Pool View | Spacious",
-        "area": "Dubai Creek Harbour",
-        "tower_name": "Dubai Creek Harbour",
-        "raw_area": "",
-        "lat": 25.203338,
-        "lng": 55.351063,
-        "price_per_sqft": 2441,
-        "price": 2500000,
-        "sqft": 1024,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228665"
       }
     ]
   },
@@ -6052,67 +5929,34 @@
   },
   {
     "market_key": {
-      "area": "Bulgari Resort & Residences 3, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 14085,
-    "listing_count": 1,
-    "min_price_per_sqft": 14085,
-    "max_price_per_sqft": 14085,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      14085
-    ],
-    "listings": [
-      {
-        "title": "Luxurious Unit with Marina View | Partly Furnished",
-        "area": "Bulgari Resort & Residences 3, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
-        "tower_name": "Bulgari Resort & Residences 3",
-        "raw_area": "Bulgari Resort & Residences 3, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
-        "lat": 25.208560943603516,
-        "lng": 55.23484420776367,
-        "price_per_sqft": 14085,
-        "price": 38000000,
-        "sqft": 2698,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-jumeirah-bay-island-bulgari-resort-residences-bulgari-resort-residences-3-82374915.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
+      "area": "Dubai Marina",
       "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "standard"
+      "quality_tier": "premium"
     },
-    "median_price_per_sqft": 5992,
+    "median_price_per_sqft": 1913,
     "listing_count": 1,
-    "min_price_per_sqft": 5992,
-    "max_price_per_sqft": 5992,
+    "min_price_per_sqft": 1913,
+    "max_price_per_sqft": 1913,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      5992
+      1913
     ],
     "listings": [
       {
-        "title": "Premium 2BR Apartment | Ain Dubai View | Furnished",
-        "area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
-        "tower_name": "Bluewaters Residences Building 7",
-        "raw_area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
-        "lat": 25.07798194885254,
-        "lng": 55.1230354309082,
-        "price_per_sqft": 5992,
-        "price": 10000000,
-        "sqft": 1669,
-        "quality_tier": "standard",
+        "title": "BEST PRICE - FULL MARINA VIEW - VACANT",
+        "area": "Dubai Marina",
+        "tower_name": "Continental Tower",
+        "raw_area": "Continental Tower, Dubai Marina, Dubai",
+        "lat": 25.080215454101562,
+        "lng": 55.13917922973633,
+        "price_per_sqft": 1913,
+        "price": 2500000,
+        "sqft": 1307,
+        "quality_tier": "premium",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-7-91812322.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-continental-tower-95712149.html"
       }
     ]
   },
@@ -6146,6 +5990,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-wasl-gate-south-garden-south-garden-b-95697633.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 5992,
+    "listing_count": 1,
+    "min_price_per_sqft": 5992,
+    "max_price_per_sqft": 5992,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      5992
+    ],
+    "listings": [
+      {
+        "title": "Premium 2BR Apartment | Ain Dubai View | Furnished",
+        "area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
+        "tower_name": "Bluewaters Residences Building 7",
+        "raw_area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
+        "lat": 25.07798194885254,
+        "lng": 55.1230354309082,
+        "price_per_sqft": 5992,
+        "price": 10000000,
+        "sqft": 1669,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-7-91812322.html"
       }
     ]
   },
@@ -6397,6 +6274,39 @@
   },
   {
     "market_key": {
+      "area": "Dubai Harbour",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4565,
+    "listing_count": 1,
+    "min_price_per_sqft": 4565,
+    "max_price_per_sqft": 4565,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4565
+    ],
+    "listings": [
+      {
+        "title": "Sea View | Beach Access |  Luxury Branded",
+        "area": "Dubai Harbour",
+        "tower_name": "Bayview Tower 1",
+        "raw_area": "Bayview Tower 1, Bayview, Emaar Beachfront, Dubai Harbour, Dubai",
+        "lat": 25.09602165222168,
+        "lng": 55.13733673095703,
+        "price_per_sqft": 4565,
+        "price": 6300000,
+        "sqft": 1380,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-bayview-bayview-tower-1-87029165.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Arjan",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -6458,6 +6368,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-arjan-art-house-hills-by-adaan-and-tuscany-91364171.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Islands",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4164,
+    "listing_count": 1,
+    "min_price_per_sqft": 4164,
+    "max_price_per_sqft": 4164,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4164
+    ],
+    "listings": [
+      {
+        "title": "30/70 PAYMENT PLAN | TALLEST TOWER | ULTRA LUXURY",
+        "area": "Dubai Islands",
+        "tower_name": "Soulever by Beyond Tower 2",
+        "raw_area": "Soulever by Beyond Tower 2, Soulever by Beyond, Maritime City, Dubai",
+        "lat": 25.276174545288086,
+        "lng": 55.26521301269531,
+        "price_per_sqft": 4164,
+        "price": 7575000,
+        "sqft": 1819,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-maritime-city-soulever-by-beyond-soulever-by-beyond-tower-2-90913376.html"
       }
     ]
   },
@@ -6562,6 +6505,39 @@
   },
   {
     "market_key": {
+      "area": "Dubai Harbour",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2510,
+    "listing_count": 1,
+    "min_price_per_sqft": 2510,
+    "max_price_per_sqft": 2510,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2510
+    ],
+    "listings": [
+      {
+        "title": "Exclusive | Negotiable | Viewing Available",
+        "area": "Dubai Harbour",
+        "tower_name": "Sunrise Bay Tower 2",
+        "raw_area": "Sunrise Bay Tower 2, Sunrise Bay, Emaar Beachfront, Dubai Harbour, Dubai",
+        "lat": 25.097517013549805,
+        "lng": 55.14009475708008,
+        "price_per_sqft": 2510,
+        "price": 3250000,
+        "sqft": 1295,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-sunrise-bay-sunrise-bay-tower-2-92697723.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Saas Hills, Dubai Science Park, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 4,
@@ -6628,72 +6604,6 @@
   },
   {
     "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 0,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2519,
-    "listing_count": 1,
-    "min_price_per_sqft": 2519,
-    "max_price_per_sqft": 2519,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2519
-    ],
-    "listings": [
-      {
-        "title": "Premium Studio | Vacant | High Yield",
-        "area": "Downtown Dubai",
-        "tower_name": "DT1",
-        "raw_area": "DT1, Downtown Dubai, Dubai",
-        "lat": 25.191650390625,
-        "lng": 55.269405364990234,
-        "price_per_sqft": 2519,
-        "price": 1350000,
-        "sqft": 536,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-dt1-95697775.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Harbour",
-      "property_type": "apartment",
-      "bedrooms": 4,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 4011,
-    "listing_count": 1,
-    "min_price_per_sqft": 4011,
-    "max_price_per_sqft": 4011,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      4011
-    ],
-    "listings": [
-      {
-        "title": "4 Bedroom Plus | High Floor | Will Consider Offers",
-        "area": "Dubai Harbour",
-        "tower_name": "Beach Mansion Tower 1",
-        "raw_area": "Beach Mansion Tower 1, Beach Mansion, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.09919548034668,
-        "lng": 55.141151428222656,
-        "price_per_sqft": 4011,
-        "price": 9750000,
-        "sqft": 2431,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-beach-mansion-beach-mansion-tower-1-87026392.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Belgravia Gardens, Falcon City Of Wonders, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -6722,6 +6632,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-falcon-city-of-wonders-belgravia-gardens-89647256.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 0,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2519,
+    "listing_count": 1,
+    "min_price_per_sqft": 2519,
+    "max_price_per_sqft": 2519,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2519
+    ],
+    "listings": [
+      {
+        "title": "Premium Studio | Vacant | High Yield",
+        "area": "Downtown Dubai",
+        "tower_name": "DT1",
+        "raw_area": "DT1, Downtown Dubai, Dubai",
+        "lat": 25.191650390625,
+        "lng": 55.269405364990234,
+        "price_per_sqft": 2519,
+        "price": 1350000,
+        "sqft": 536,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-dt1-95697775.html"
       }
     ]
   },
@@ -6859,39 +6802,6 @@
   },
   {
     "market_key": {
-      "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2014,
-    "listing_count": 1,
-    "min_price_per_sqft": 2014,
-    "max_price_per_sqft": 2014,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2014
-    ],
-    "listings": [
-      {
-        "title": "Best Deal | Spacious 2BR | Golf Course View",
-        "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-        "tower_name": "Golf Tower 1",
-        "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-        "lat": 25.09207534790039,
-        "lng": 55.16822052001953,
-        "price_per_sqft": 2014,
-        "price": 2850000,
-        "sqft": 1415,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-towers-golf-tower-1-90907707.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Cheval Residences, Dubai Islands, Dubai",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -6953,6 +6863,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-islands-cheval-residences-87459418.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2014,
+    "listing_count": 1,
+    "min_price_per_sqft": 2014,
+    "max_price_per_sqft": 2014,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2014
+    ],
+    "listings": [
+      {
+        "title": "Best Deal | Spacious 2BR | Golf Course View",
+        "area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+        "tower_name": "Golf Tower 1",
+        "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+        "lat": 25.09207534790039,
+        "lng": 55.16822052001953,
+        "price_per_sqft": 2014,
+        "price": 2850000,
+        "sqft": 1415,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-towers-golf-tower-1-90907707.html"
       }
     ]
   },
@@ -7156,6 +7099,39 @@
   },
   {
     "market_key": {
+      "area": "Jumeirah Beach Residence",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 2167,
+    "listing_count": 1,
+    "min_price_per_sqft": 2167,
+    "max_price_per_sqft": 2167,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2167
+    ],
+    "listings": [
+      {
+        "title": "Ultra Luxury Upgraded | Turnkey | Marina View",
+        "area": "Jumeirah Beach Residence",
+        "tower_name": "Sadaf 7",
+        "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
+        "lat": 25.08125114440918,
+        "lng": 55.138519287109375,
+        "price_per_sqft": 2167,
+        "price": 3120000,
+        "sqft": 1440,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-sadaf-sadaf-7-96119218.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Pearlz By Danube, Al Furjan, Dubai",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -7184,72 +7160,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-furjan-pearlz-by-danube-83668831.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Islands",
-      "property_type": "studio apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3541,
-    "listing_count": 1,
-    "min_price_per_sqft": 3541,
-    "max_price_per_sqft": 3541,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3541
-    ],
-    "listings": [
-      {
-        "title": "Price Reduced Exclusive 2BR Fully Furnished",
-        "area": "Dubai Islands",
-        "tower_name": "Kempinski Residences The Creek Tower 1",
-        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "lat": 25.206926345825195,
-        "lng": 55.32322311401367,
-        "price_per_sqft": 3541,
-        "price": 4600000,
-        "sqft": 1299,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 2686,
-    "listing_count": 1,
-    "min_price_per_sqft": 2686,
-    "max_price_per_sqft": 2686,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2686
-    ],
-    "listings": [
-      {
-        "title": "Full Burj Al Arab View | Exclusive | High Returns",
-        "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-        "tower_name": "Riwa Tower 1",
-        "raw_area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-        "lat": 25.130144119262695,
-        "lng": 55.19469451904297,
-        "price_per_sqft": 2686,
-        "price": 3750000,
-        "sqft": 1396,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-umm-suqeim-madinat-jumeirah-living-riwa-riwa-tower-1-92252790.html"
       }
     ]
   },
@@ -7288,6 +7198,72 @@
   },
   {
     "market_key": {
+      "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 2686,
+    "listing_count": 1,
+    "min_price_per_sqft": 2686,
+    "max_price_per_sqft": 2686,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2686
+    ],
+    "listings": [
+      {
+        "title": "Full Burj Al Arab View | Exclusive | High Returns",
+        "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+        "tower_name": "Riwa Tower 1",
+        "raw_area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+        "lat": 25.130144119262695,
+        "lng": 55.19469451904297,
+        "price_per_sqft": 2686,
+        "price": 3750000,
+        "sqft": 1396,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-umm-suqeim-madinat-jumeirah-living-riwa-riwa-tower-1-92252790.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Islands",
+      "property_type": "studio apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3541,
+    "listing_count": 1,
+    "min_price_per_sqft": 3541,
+    "max_price_per_sqft": 3541,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3541
+    ],
+    "listings": [
+      {
+        "title": "Price Reduced Exclusive 2BR Fully Furnished",
+        "area": "Dubai Islands",
+        "tower_name": "Kempinski Residences The Creek Tower 1",
+        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "lat": 25.206926345825195,
+        "lng": 55.32322311401367,
+        "price_per_sqft": 3541,
+        "price": 4600000,
+        "sqft": 1299,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai Islands",
       "property_type": "studio apartment",
       "bedrooms": 4,
@@ -7321,67 +7297,34 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Village Circle",
+      "area": "Al Wasl",
       "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "premium"
+      "quality_tier": "ultra_luxury"
     },
-    "median_price_per_sqft": 1253,
+    "median_price_per_sqft": 3503,
     "listing_count": 1,
-    "min_price_per_sqft": 1253,
-    "max_price_per_sqft": 1253,
+    "min_price_per_sqft": 3503,
+    "max_price_per_sqft": 3503,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      1253
+      3503
     ],
     "listings": [
       {
-        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Neva Residences",
-        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
-        "lat": 25.069103240966797,
-        "lng": 55.21466064453125,
-        "price_per_sqft": 1253,
-        "price": 1500000,
-        "sqft": 1197,
-        "quality_tier": "premium",
+        "title": "Brand New | High ROI | Prime Location",
+        "area": "Al Wasl",
+        "tower_name": "City Walk Crestlane 5",
+        "raw_area": "City Walk Crestlane 5, City Walk Crestlane, City Walk, Dubai",
+        "lat": 25.20611572265625,
+        "lng": 55.257022857666016,
+        "price_per_sqft": 3503,
+        "price": 4399990,
+        "sqft": 1256,
+        "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3657,
-    "listing_count": 1,
-    "min_price_per_sqft": 3657,
-    "max_price_per_sqft": 3657,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3657
-    ],
-    "listings": [
-      {
-        "title": "Large Layout | Furnished | Fountain and Burj Views",
-        "area": "Downtown Dubai",
-        "tower_name": "The Residences 4",
-        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
-        "lat": 25.192771911621094,
-        "lng": 55.273765563964844,
-        "price_per_sqft": 3657,
-        "price": 9500000,
-        "sqft": 2598,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-crestlane-city-walk-crestlane-5-91823027.html"
       }
     ]
   },
@@ -7547,6 +7490,72 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-maritime-city-soulever-by-beyond-soulever-by-beyond-tower-1-73115092.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Jumeirah Village Circle",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1253,
+    "listing_count": 1,
+    "min_price_per_sqft": 1253,
+    "max_price_per_sqft": 1253,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1253
+    ],
+    "listings": [
+      {
+        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Neva Residences",
+        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
+        "lat": 25.069103240966797,
+        "lng": 55.21466064453125,
+        "price_per_sqft": 1253,
+        "price": 1500000,
+        "sqft": 1197,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3657,
+    "listing_count": 1,
+    "min_price_per_sqft": 3657,
+    "max_price_per_sqft": 3657,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3657
+    ],
+    "listings": [
+      {
+        "title": "Large Layout | Furnished | Fountain and Burj Views",
+        "area": "Downtown Dubai",
+        "tower_name": "The Residences 4",
+        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
+        "lat": 25.192771911621094,
+        "lng": 55.273765563964844,
+        "price_per_sqft": 3657,
+        "price": 9500000,
+        "sqft": 2598,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
       }
     ]
   },
@@ -7818,6 +7827,39 @@
     "market_key": {
       "area": "Al Wasl",
       "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 4553,
+    "listing_count": 1,
+    "min_price_per_sqft": 4553,
+    "max_price_per_sqft": 4553,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4553
+    ],
+    "listings": [
+      {
+        "title": "Full Canal View | Corner Unit plus Maids Room",
+        "area": "Al Wasl",
+        "tower_name": "Eden House The Park Building G",
+        "raw_area": "Eden House The Park Building G, Eden House The Park, Al Wasl, Dubai",
+        "lat": 25.18732452392578,
+        "lng": 55.24897766113281,
+        "price_per_sqft": 4553,
+        "price": 11000000,
+        "sqft": 2416,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-g-91379301.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Al Wasl",
+      "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
       "quality_tier": "premium"
@@ -7981,39 +8023,6 @@
   },
   {
     "market_key": {
-      "area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 2990,
-    "listing_count": 1,
-    "min_price_per_sqft": 2990,
-    "max_price_per_sqft": 2990,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2990
-    ],
-    "listings": [
-      {
-        "title": "Resort-Style Living | Premium 1 BR | Private Beach",
-        "area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
-        "tower_name": "Palm Central Private Residences- Frond M",
-        "raw_area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
-        "lat": 25.00555419921875,
-        "lng": 54.98606872558594,
-        "price_per_sqft": 2990,
-        "price": 2500000,
-        "sqft": 836,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jebel-ali-palm-central-private-residences--frond-m-92264912.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters Residences Building 9, Bluewaters Residences, Bluewaters, Dubai",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -8042,6 +8051,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-9-77371437.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 2990,
+    "listing_count": 1,
+    "min_price_per_sqft": 2990,
+    "max_price_per_sqft": 2990,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2990
+    ],
+    "listings": [
+      {
+        "title": "Resort-Style Living | Premium 1 BR | Private Beach",
+        "area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
+        "tower_name": "Palm Central Private Residences- Frond M",
+        "raw_area": "Palm Central Private Residences- Frond M, Palm Jebel Ali, Dubai",
+        "lat": 25.00555419921875,
+        "lng": 54.98606872558594,
+        "price_per_sqft": 2990,
+        "price": 2500000,
+        "sqft": 836,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jebel-ali-palm-central-private-residences--frond-m-92264912.html"
       }
     ]
   },
@@ -8113,72 +8155,6 @@
   },
   {
     "market_key": {
-      "area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1977,
-    "listing_count": 1,
-    "min_price_per_sqft": 1977,
-    "max_price_per_sqft": 1977,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1977
-    ],
-    "listings": [
-      {
-        "title": "Full Golf View | High Floor | Spacious 3BR",
-        "area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
-        "tower_name": "Golf Point Tower 2",
-        "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
-        "lat": 24.860815048217773,
-        "lng": 55.14402389526367,
-        "price_per_sqft": 1977,
-        "price": 3499999,
-        "sqft": 1770,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-south-dubai-world-central-emaaar-south-golf-point-golf-point-tower-2-91839788.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 2169,
-    "listing_count": 1,
-    "min_price_per_sqft": 2169,
-    "max_price_per_sqft": 2169,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2169
-    ],
-    "listings": [
-      {
-        "title": "OP Deal | Vacant | Prime Location | Semi Furnished",
-        "area": "Downtown Dubai",
-        "tower_name": "Imperial Avenue",
-        "raw_area": "Imperial Avenue, Downtown Dubai, Dubai",
-        "lat": 25.188282012939453,
-        "lng": 55.27410125732422,
-        "price_per_sqft": 2169,
-        "price": 1900000,
-        "sqft": 876,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-imperial-avenue-94437787.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Al Wasl",
       "property_type": "studio apartment",
       "bedrooms": 3,
@@ -8207,6 +8183,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-wasl-eden-house-the-park-eden-house-the-park-building-a-82385812.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1977,
+    "listing_count": 1,
+    "min_price_per_sqft": 1977,
+    "max_price_per_sqft": 1977,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1977
+    ],
+    "listings": [
+      {
+        "title": "Full Golf View | High Floor | Spacious 3BR",
+        "area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
+        "tower_name": "Golf Point Tower 2",
+        "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
+        "lat": 24.860815048217773,
+        "lng": 55.14402389526367,
+        "price_per_sqft": 1977,
+        "price": 3499999,
+        "sqft": 1770,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-south-dubai-world-central-emaaar-south-golf-point-golf-point-tower-2-91839788.html"
       }
     ]
   },
@@ -8245,34 +8254,34 @@
   },
   {
     "market_key": {
-      "area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 2,
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 1,
       "layout_type": "standard",
-      "quality_tier": "premium"
+      "quality_tier": "ultra_luxury"
     },
-    "median_price_per_sqft": 2171,
+    "median_price_per_sqft": 2169,
     "listing_count": 1,
-    "min_price_per_sqft": 2171,
-    "max_price_per_sqft": 2171,
+    "min_price_per_sqft": 2169,
+    "max_price_per_sqft": 2169,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      2171
+      2169
     ],
     "listings": [
       {
-        "title": "Plus Study | High Floor | Pool View",
-        "area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "tower_name": "The Crest Tower C",
-        "raw_area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "lat": 25.17682647705078,
-        "lng": 55.313720703125,
-        "price_per_sqft": 2171,
-        "price": 2290000,
-        "sqft": 1055,
-        "quality_tier": "premium",
+        "title": "OP Deal | Vacant | Prime Location | Semi Furnished",
+        "area": "Downtown Dubai",
+        "tower_name": "Imperial Avenue",
+        "raw_area": "Imperial Avenue, Downtown Dubai, Dubai",
+        "lat": 25.188282012939453,
+        "lng": 55.27410125732422,
+        "price_per_sqft": 2169,
+        "price": 1900000,
+        "sqft": 876,
+        "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-c-91372512.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-imperial-avenue-94437787.html"
       }
     ]
   },
@@ -8311,34 +8320,67 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Village Circle",
-      "property_type": "apartment",
+      "area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+      "property_type": "studio apartment",
       "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
+      "quality_tier": "premium"
     },
-    "median_price_per_sqft": 1776,
+    "median_price_per_sqft": 2171,
     "listing_count": 1,
-    "min_price_per_sqft": 1776,
-    "max_price_per_sqft": 1776,
+    "min_price_per_sqft": 2171,
+    "max_price_per_sqft": 2171,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      1776
+      2171
     ],
     "listings": [
       {
-        "title": "High ROI | City View | Prime Luxury Lifestyle Apt",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Fashionz by Danube",
-        "raw_area": "Fashionz by Danube, District 4, Jumeirah Village Triangle, Dubai",
-        "lat": 25.04250144958496,
-        "lng": 55.18404006958008,
-        "price_per_sqft": 1776,
-        "price": 1900000,
-        "sqft": 1070,
+        "title": "Plus Study | High Floor | Pool View",
+        "area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "tower_name": "The Crest Tower C",
+        "raw_area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.17682647705078,
+        "lng": 55.313720703125,
+        "price_per_sqft": 2171,
+        "price": 2290000,
+        "sqft": 1055,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-c-91372512.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4254,
+    "listing_count": 1,
+    "min_price_per_sqft": 4254,
+    "max_price_per_sqft": 4254,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4254
+    ],
+    "listings": [
+      {
+        "title": "Vacant | Exclusive | High floor",
+        "area": "Downtown Dubai",
+        "tower_name": "Opera Grand",
+        "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
+        "lat": 25.19428253173828,
+        "lng": 55.27188491821289,
+        "price_per_sqft": 4254,
+        "price": 13000000,
+        "sqft": 3056,
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-triangle-district-4-fashionz-by-danube-82809417.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-opera-grand-92698597.html"
       }
     ]
   },
@@ -8377,39 +8419,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Marina",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "serviced",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 5856,
-    "listing_count": 1,
-    "min_price_per_sqft": 5856,
-    "max_price_per_sqft": 5856,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      5856
-    ],
-    "listings": [
-      {
-        "title": "High Floor I Motivated Seller | R2E",
-        "area": "Dubai Marina",
-        "tower_name": "Jumeirah Gate Tower 1",
-        "raw_area": "Jumeirah Gate Tower 1, The Address Jumeirah Resort and Spa, Jumeirah Beach Residence, Dubai",
-        "lat": 25.072513580322266,
-        "lng": 55.12628936767578,
-        "price_per_sqft": 5856,
-        "price": 8650000,
-        "sqft": 1477,
-        "quality_tier": "standard",
-        "layout_type": "serviced",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-the-address-jumeirah-resort-and-spa-jumeirah-gate-tower-1-89618685.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "350 Riverside Crescent, Sobha Hartland Ii, Bukadra, Dubai",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -8443,6 +8452,39 @@
   },
   {
     "market_key": {
+      "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2217,
+    "listing_count": 1,
+    "min_price_per_sqft": 2217,
+    "max_price_per_sqft": 2217,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2217
+    ],
+    "listings": [
+      {
+        "title": "Vacant | Community View | Mid Floor",
+        "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "tower_name": "One Park Avenue",
+        "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.176891326904297,
+        "lng": 55.31071090698242,
+        "price_per_sqft": 2217,
+        "price": 3295000,
+        "sqft": 1486,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-one-park-avenue-96113676.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Maybach Six, Nad Al Sheba 1, Nad Al Sheba, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -8471,6 +8513,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-nad-al-sheba-nad-al-sheba-1-maybach-six-90906916.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2005,
+    "listing_count": 1,
+    "min_price_per_sqft": 2005,
+    "max_price_per_sqft": 2005,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2005
+    ],
+    "listings": [
+      {
+        "title": "High Floor | Vacant Soon | Maids Room",
+        "area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "tower_name": "The Crest Tower A",
+        "raw_area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.177446365356445,
+        "lng": 55.314884185791016,
+        "price_per_sqft": 2005,
+        "price": 2550000,
+        "sqft": 1272,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-a-96109112.html"
       }
     ]
   },
@@ -8575,39 +8650,6 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Beach Residence",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1685,
-    "listing_count": 1,
-    "min_price_per_sqft": 1685,
-    "max_price_per_sqft": 1685,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1685
-    ],
-    "listings": [
-      {
-        "title": "Vacant 2BR | Spacious Layout | Prime JBR",
-        "area": "Jumeirah Beach Residence",
-        "tower_name": "Sadaf 7",
-        "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
-        "lat": 25.08125114440918,
-        "lng": 55.138519287109375,
-        "price_per_sqft": 1685,
-        "price": 2400000,
-        "sqft": 1424,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-sadaf-sadaf-7-92699373.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters Residences Building 4, Bluewaters Residences, Bluewaters, Dubai",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -8641,34 +8683,34 @@
   },
   {
     "market_key": {
-      "area": "The Edit At D3 Tower A, The Edit At D3, Dubai Design District, Dubai",
-      "property_type": "studio apartment",
+      "area": "Jumeirah Beach Residence",
+      "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "standard"
+      "quality_tier": "premium"
     },
-    "median_price_per_sqft": 3275,
+    "median_price_per_sqft": 1685,
     "listing_count": 1,
-    "min_price_per_sqft": 3275,
-    "max_price_per_sqft": 3275,
+    "min_price_per_sqft": 1685,
+    "max_price_per_sqft": 1685,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      3275
+      1685
     ],
     "listings": [
       {
-        "title": "Fountain Views 2 BR | New Masterplan | Sky Gardens",
-        "area": "The Edit At D3 Tower A, The Edit At D3, Dubai Design District, Dubai",
-        "tower_name": "The Edit at D3 Tower A",
-        "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
-        "lat": 25.18958282470703,
-        "lng": 55.30175018310547,
-        "price_per_sqft": 3275,
-        "price": 4146000,
-        "sqft": 1266,
-        "quality_tier": "standard",
+        "title": "Vacant 2BR | Spacious Layout | Prime JBR",
+        "area": "Jumeirah Beach Residence",
+        "tower_name": "Sadaf 7",
+        "raw_area": "Sadaf 7, Sadaf, Jumeirah Beach Residence, Dubai",
+        "lat": 25.08125114440918,
+        "lng": 55.138519287109375,
+        "price_per_sqft": 1685,
+        "price": 2400000,
+        "sqft": 1424,
+        "quality_tier": "premium",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-edit-at-d3-dubai-design-district-the-edit-at-d3-tower-a-92718257.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-sadaf-sadaf-7-92699373.html"
       }
     ]
   },
@@ -8735,6 +8777,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-18-esplora-83227854.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "The Edit At D3 Tower A, The Edit At D3, Dubai Design District, Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 3275,
+    "listing_count": 1,
+    "min_price_per_sqft": 3275,
+    "max_price_per_sqft": 3275,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3275
+    ],
+    "listings": [
+      {
+        "title": "Fountain Views 2 BR | New Masterplan | Sky Gardens",
+        "area": "The Edit At D3 Tower A, The Edit At D3, Dubai Design District, Dubai",
+        "tower_name": "The Edit at D3 Tower A",
+        "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
+        "lat": 25.18958282470703,
+        "lng": 55.30175018310547,
+        "price_per_sqft": 3275,
+        "price": 4146000,
+        "sqft": 1266,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-edit-at-d3-dubai-design-district-the-edit-at-d3-tower-a-92718257.html"
       }
     ]
   },
