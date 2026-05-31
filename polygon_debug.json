@@ -1513,6 +1513,238 @@
     "selected_area": null
   },
   {
+    "raw_area": "Meydan",
+    "lat": 25.156905,
+    "lng": 55.293924,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.056571,
+    "lng": 55.204936,
+    "matched_polygons": [
+      {
+        "area": "District 15",
+        "osm_name": null,
+        "polygon_area": 4.9395097039989173e-05,
+        "polygon_centroid_lat": 25.058280245037903,
+        "polygon_centroid_lng": 55.200870340149,
+        "bounds": {
+          "min_lng": 55.1962462,
+          "min_lat": 25.054823,
+          "max_lng": 55.2064771,
+          "max_lat": 25.0632538
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 15",
+    "selected_polygon_area": 4.9395097039989173e-05
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.259324,
+    "lng": 55.276867,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.259324,
+    "lng": 55.276867,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DIFC",
+    "lat": 25.212088,
+    "lng": 55.282761,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Production City",
+    "lat": 25.02757,
+    "lng": 55.181704,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Production City",
+    "lat": 25.02757,
+    "lng": 55.181704,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 25.207505,
+    "lng": 55.344384,
+    "matched_polygons": [
+      {
+        "area": "Dubai Creek Harbour",
+        "osm_name": null,
+        "polygon_area": 0.0006304207198649967,
+        "polygon_centroid_lat": 25.19723645335127,
+        "polygon_centroid_lng": 55.35819793070052,
+        "bounds": {
+          "min_lng": 55.3404649,
+          "min_lat": 25.1849211,
+          "max_lng": 55.375842,
+          "max_lat": 25.2110181
+        }
+      }
+    ],
+    "selected_area": "Dubai Creek Harbour",
+    "selected_polygon_area": 0.0006304207198649967
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.18133,
+    "lng": 55.263135,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Al Jaddaf",
+    "lat": 25.213042,
+    "lng": 55.319719,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 25.02453,
+    "lng": 55.243196,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.060784,
+    "lng": 55.215372,
+    "matched_polygons": [
+      {
+        "area": "District 11",
+        "osm_name": null,
+        "polygon_area": 7.772811409001951e-05,
+        "polygon_centroid_lat": 25.063311134333336,
+        "polygon_centroid_lng": 55.213636027097834,
+        "bounds": {
+          "min_lng": 55.2084751,
+          "min_lat": 25.0576809,
+          "max_lng": 55.2196751,
+          "max_lat": 25.0687897
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 11",
+    "selected_polygon_area": 7.772811409001951e-05
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 25.116907,
+    "lng": 55.141733,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.142169,
+    "lng": 55.283753,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.081955,
+    "lng": 55.138863,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0003281887554850163,
+        "polygon_centroid_lat": 25.080493662830825,
+        "polygon_centroid_lng": 55.13911419185,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0003281887554850163
+  },
+  {
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.177097,
     "lng": 55.314596,
