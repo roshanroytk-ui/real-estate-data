@@ -520,6 +520,8 @@ def get_area_assignment(lat, lng, raw_area=""):
 
     point = Point(lng, lat)
 
+    print("POINT:", point.x, point.y)
+
     print("\nPOINT:")
     print(
         "lat=", lat,
@@ -1355,7 +1357,13 @@ areas_gdf = gpd.read_file(
     "dubai_areas.geojson"
 )
 
-print("CRS:", areas_gdf.crs)
+print("ORIGINAL CRS:", areas_gdf.crs)
+
+# force WGS84 lat/lng
+if areas_gdf.crs is not None:
+    areas_gdf = areas_gdf.to_crs("EPSG:4326")
+
+print("AFTER CONVERSION:", areas_gdf.crs)
 
 print(
     "TOTAL BOUNDS:",
