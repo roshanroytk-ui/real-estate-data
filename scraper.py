@@ -2870,6 +2870,18 @@ print(
     "%"
 )
 
+print("\nAI SUMMARY")
+
+print(
+    "AI audits queued:",
+    ai_audits_queued
+)
+
+print(
+    "AI cache hits:",
+    ai_cache_hits
+)
+
 print("Saved polygon_debug.json")
 
 with open(
