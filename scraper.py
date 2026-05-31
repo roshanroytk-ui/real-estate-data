@@ -1801,7 +1801,11 @@ for source_data in all_soups:
 
                     except Exception as e:
 
+                        import traceback
+
                         print("BHOMES Detail Error:", e)
+
+                        traceback.print_exc()
 
         except Exception as e:
 
@@ -2181,10 +2185,14 @@ for source_data in all_soups:
 
             except Exception as e:
 
+                import traceback
+
                 print(
                     "PROPERTYFINDER Listing Error:",
                     e
                 )
+
+                traceback.print_exc()
 
     except Exception as e:
 
