@@ -739,7 +739,10 @@ def get_area_assignment(lat, lng, raw_area=""):
 
         if keyword in raw_lower:
 
-            return canonical
+            return {
+                "comparable_area": canonical,
+                "heatmap_area": canonical
+            }
 
     # =====================================
     # FINAL FALLBACK
