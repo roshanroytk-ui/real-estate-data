@@ -6658,39 +6658,6 @@
   },
   {
     "market_key": {
-      "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3541,
-    "listing_count": 1,
-    "min_price_per_sqft": 3541,
-    "max_price_per_sqft": 3541,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3541
-    ],
-    "listings": [
-      {
-        "title": "Price Reduced Exclusive 2BR Fully Furnished",
-        "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "tower_name": "Kempinski Residences The Creek Tower 1",
-        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "lat": 25.206926345825195,
-        "lng": 55.32322311401367,
-        "price_per_sqft": 3541,
-        "price": 4600000,
-        "sqft": 1299,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Hills",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -6719,6 +6686,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-park-heights-park-heights-2-park-heights-2-tower-1-89647095.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3541,
+    "listing_count": 1,
+    "min_price_per_sqft": 3541,
+    "max_price_per_sqft": 3541,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3541
+    ],
+    "listings": [
+      {
+        "title": "Price Reduced Exclusive 2BR Fully Furnished",
+        "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "tower_name": "Kempinski Residences The Creek Tower 1",
+        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "lat": 25.206926345825195,
+        "lng": 55.32322311401367,
+        "price_per_sqft": 3541,
+        "price": 4600000,
+        "sqft": 1299,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
       }
     ]
   },
