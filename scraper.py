@@ -600,22 +600,22 @@ def get_area_assignment(lat, lng, raw_area=""):
     # =====================================
 
     closest_distance = 999999
-closest_area = None
-
-for _, row in areas_gdf.iterrows():
-
-    polygon = row.geometry
-
-    try:
-
-        distance = polygon.distance(point)
-
-        if distance < closest_distance:
-            closest_distance = distance
-            closest_area = row["name"]
-
-    except:
-        pass
+    closest_area = None
+    
+    for _, row in areas_gdf.iterrows():
+    
+        polygon = row.geometry
+    
+        try:
+    
+            distance = polygon.distance(point)
+    
+            if distance < closest_distance:
+                closest_distance = distance
+                closest_area = row["name"]
+    
+        except:
+            pass
 
     if not matches:
 
