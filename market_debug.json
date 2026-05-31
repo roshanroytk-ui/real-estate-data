@@ -1504,6 +1504,54 @@
   },
   {
     "market_key": {
+      "area": "Mohammed Bin Rashid City",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2365,
+    "listing_count": 2,
+    "min_price_per_sqft": 2172,
+    "max_price_per_sqft": 2557,
+    "price_spread_percent": 0.16,
+    "prices_sorted": [
+      2172,
+      2557
+    ],
+    "listings": [
+      {
+        "title": "Exclusive | Vacant On Transfer | High Floor",
+        "area": "Mohammed Bin Rashid City",
+        "tower_name": "Mohammed Bin Rashid City",
+        "raw_area": "",
+        "lat": 25.179355,
+        "lng": 55.304135,
+        "price_per_sqft": 2172,
+        "price": 1150000,
+        "sqft": 529,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-229444"
+      },
+      {
+        "title": "Rented | Furnished | High Floor | Lagoon view",
+        "area": "Mohammed Bin Rashid City",
+        "tower_name": "Mohammed Bin Rashid City",
+        "raw_area": "",
+        "lat": 25.152,
+        "lng": 55.303,
+        "price_per_sqft": 2557,
+        "price": 1300000,
+        "sqft": 508,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228295"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai Science Park",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -2046,7 +2094,7 @@
     ],
     "listings": [
       {
-        "title": "Large Layout | Ready to Move | Al Furjan | VATSU |",
+        "title": "Spacious Layout | Ready to Move | Chiller Free |",
         "area": "Maria Tower, Al Furjan, Dubai",
         "tower_name": "Maria Tower",
         "raw_area": "Maria Tower, Al Furjan, Dubai",
@@ -2423,39 +2471,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-difc-living-85731160.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Mohammed Bin Rashid City",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2172,
-    "listing_count": 1,
-    "min_price_per_sqft": 2172,
-    "max_price_per_sqft": 2172,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2172
-    ],
-    "listings": [
-      {
-        "title": "Exclusive | Vacant On Transfer | High Floor",
-        "area": "Mohammed Bin Rashid City",
-        "tower_name": "Mohammed Bin Rashid City",
-        "raw_area": "",
-        "lat": 25.179355,
-        "lng": 55.304135,
-        "price_per_sqft": 2172,
-        "price": 1150000,
-        "sqft": 529,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-229444"
       }
     ]
   },
@@ -3116,6 +3131,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228538"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Jumeirah Village Circle",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1550,
+    "listing_count": 1,
+    "min_price_per_sqft": 1550,
+    "max_price_per_sqft": 1550,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1550
+    ],
+    "listings": [
+      {
+        "title": "1 Bed With Study - Payment plan - Furnished",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Jumeirah Village Circle",
+        "raw_area": "",
+        "lat": 25.056,
+        "lng": 55.209,
+        "price_per_sqft": 1550,
+        "price": 1205900,
+        "sqft": 778,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228473"
       }
     ]
   },
@@ -3880,6 +3928,39 @@
   },
   {
     "market_key": {
+      "area": "Dubai Media City",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2862,
+    "listing_count": 1,
+    "min_price_per_sqft": 2862,
+    "max_price_per_sqft": 2862,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2862
+    ],
+    "listings": [
+      {
+        "title": "Genuine Resale | Sea View | OP | Premium Amenities",
+        "area": "Dubai Media City",
+        "tower_name": "Dubai Media City",
+        "raw_area": "",
+        "lat": null,
+        "lng": null,
+        "price_per_sqft": 2862,
+        "price": 5900000,
+        "sqft": 2061,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227934"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "JLT Cluster O",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -4370,6 +4451,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-227372"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai South",
+      "property_type": "studio apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1635,
+    "listing_count": 1,
+    "min_price_per_sqft": 1635,
+    "max_price_per_sqft": 1635,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1635
+    ],
+    "listings": [
+      {
+        "title": "Luxury 2BR Aprt | High Growth Area | Dubai South",
+        "area": "Dubai South",
+        "tower_name": "Dubai South",
+        "raw_area": "",
+        "lat": 24.891,
+        "lng": 55.148,
+        "price_per_sqft": 1635,
+        "price": 1850000,
+        "sqft": 1132,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227348"
       }
     ]
   },
@@ -6469,39 +6583,6 @@
   },
   {
     "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 0,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2519,
-    "listing_count": 1,
-    "min_price_per_sqft": 2519,
-    "max_price_per_sqft": 2519,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2519
-    ],
-    "listings": [
-      {
-        "title": "Premium Studio | Vacant | High Yield",
-        "area": "Downtown Dubai",
-        "tower_name": "DT1",
-        "raw_area": "DT1, Downtown Dubai, Dubai",
-        "lat": 25.191650390625,
-        "lng": 55.269405364990234,
-        "price_per_sqft": 2519,
-        "price": 1350000,
-        "sqft": 536,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-dt1-95697775.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "District 1",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -6530,6 +6611,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-triangle-district-1-maya-5-88733521.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 0,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2519,
+    "listing_count": 1,
+    "min_price_per_sqft": 2519,
+    "max_price_per_sqft": 2519,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2519
+    ],
+    "listings": [
+      {
+        "title": "Premium Studio | Vacant | High Yield",
+        "area": "Downtown Dubai",
+        "tower_name": "DT1",
+        "raw_area": "DT1, Downtown Dubai, Dubai",
+        "lat": 25.191650390625,
+        "lng": 55.269405364990234,
+        "price_per_sqft": 2519,
+        "price": 1350000,
+        "sqft": 536,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-dt1-95697775.html"
       }
     ]
   },

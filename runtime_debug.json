@@ -2750,26 +2750,6 @@
     "distance": 0.07898104388046989
   },
   {
-    "type": "close_polygon",
-    "area": "Business Bay",
-    "distance": 0.0007167829381153996
-  },
-  {
-    "type": "close_polygon",
-    "area": "Downtown Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Downtown Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Downtown Dubai",
-    "heatmap_area": "Downtown Dubai",
-    "match_count": 1
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Maria Tower, Al Furjan, Dubai",
     "lat": 25.029897689819336,
@@ -2805,6 +2785,26 @@
     "comparable_area": "District 1",
     "heatmap_area": "Jumeirah Village Circle",
     "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Business Bay",
+    "distance": 0.0007167829381153996
+  },
+  {
+    "type": "close_polygon",
+    "area": "Downtown Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Downtown Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Downtown Dubai",
+    "heatmap_area": "Downtown Dubai",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",

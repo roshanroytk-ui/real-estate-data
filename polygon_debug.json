@@ -3088,28 +3088,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "DT1, Downtown Dubai, Dubai",
-    "lat": 25.191650390625,
-    "lng": 55.269405364990234,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": null,
-        "polygon_area": 0.0008274599583149869,
-        "polygon_centroid_lat": 25.186630976712973,
-        "polygon_centroid_lng": 55.272241590360515,
-        "bounds": {
-          "min_lng": 55.2496071,
-          "min_lat": 25.1690128,
-          "max_lng": 55.2940679,
-          "max_lat": 25.2048544
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.0008274599583149869
-  },
-  {
     "raw_area": "Maria Tower, Al Furjan, Dubai",
     "lat": 25.029897689819336,
     "lng": 55.13871383666992,
@@ -3150,6 +3128,28 @@
     ],
     "selected_area": "District 1",
     "selected_polygon_area": 1.8975908070004567e-05
+  },
+  {
+    "raw_area": "DT1, Downtown Dubai, Dubai",
+    "lat": 25.191650390625,
+    "lng": 55.269405364990234,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
   },
   {
     "raw_area": "Cheval Residences, Dubai Islands, Dubai",
