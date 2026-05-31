@@ -6412,39 +6412,6 @@
   },
   {
     "market_key": {
-      "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 2686,
-    "listing_count": 1,
-    "min_price_per_sqft": 2686,
-    "max_price_per_sqft": 2686,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2686
-    ],
-    "listings": [
-      {
-        "title": "Full Burj Al Arab View | Exclusive | High Returns",
-        "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-        "tower_name": "Riwa Tower 1",
-        "raw_area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
-        "lat": 25.130144119262695,
-        "lng": 55.19469451904297,
-        "price_per_sqft": 2686,
-        "price": 3750000,
-        "sqft": 1396,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-umm-suqeim-madinat-jumeirah-living-riwa-riwa-tower-1-92252790.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Treppan Serenique Residences, Dubai Islands, Dubai",
       "property_type": "studio apartment",
       "bedrooms": 3,
@@ -6506,6 +6473,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-science-park-saas-hills-74231888.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 2686,
+    "listing_count": 1,
+    "min_price_per_sqft": 2686,
+    "max_price_per_sqft": 2686,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2686
+    ],
+    "listings": [
+      {
+        "title": "Full Burj Al Arab View | Exclusive | High Returns",
+        "area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+        "tower_name": "Riwa Tower 1",
+        "raw_area": "Riwa Tower 1, Riwa, Madinat Jumeirah Living, Umm Suqeim, Dubai",
+        "lat": 25.130144119262695,
+        "lng": 55.19469451904297,
+        "price_per_sqft": 2686,
+        "price": 3750000,
+        "sqft": 1396,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-umm-suqeim-madinat-jumeirah-living-riwa-riwa-tower-1-92252790.html"
       }
     ]
   },
@@ -6676,39 +6676,6 @@
   },
   {
     "market_key": {
-      "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3541,
-    "listing_count": 1,
-    "min_price_per_sqft": 3541,
-    "max_price_per_sqft": 3541,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3541
-    ],
-    "listings": [
-      {
-        "title": "Price Reduced Exclusive 2BR Fully Furnished",
-        "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "tower_name": "Kempinski Residences The Creek Tower 1",
-        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "lat": 25.206926345825195,
-        "lng": 55.32322311401367,
-        "price_per_sqft": 3541,
-        "price": 4600000,
-        "sqft": 1299,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Lia By Avenew, Dubai Islands, Dubai",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -6836,6 +6803,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-science-park-saas-hills-74231837.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3541,
+    "listing_count": 1,
+    "min_price_per_sqft": 3541,
+    "max_price_per_sqft": 3541,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3541
+    ],
+    "listings": [
+      {
+        "title": "Price Reduced Exclusive 2BR Fully Furnished",
+        "area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "tower_name": "Kempinski Residences The Creek Tower 1",
+        "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "lat": 25.206926345825195,
+        "lng": 55.32322311401367,
+        "price_per_sqft": 3541,
+        "price": 4600000,
+        "sqft": 1299,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-1-92721700.html"
       }
     ]
   },
@@ -7237,39 +7237,6 @@
   },
   {
     "market_key": {
-      "area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 11500,
-    "listing_count": 1,
-    "min_price_per_sqft": 11500,
-    "max_price_per_sqft": 11500,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      11500
-    ],
-    "listings": [
-      {
-        "title": "Sea and Skyline View | Multiple Units | Exclusive",
-        "area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
-        "tower_name": "Peninsula Dubai Residences Tower 2",
-        "raw_area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
-        "lat": 25.196975708007812,
-        "lng": 55.23417282104492,
-        "price_per_sqft": 11500,
-        "price": 25000000,
-        "sqft": 2174,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-jumeirah-2-peninsula-dubai-residences-peninsula-dubai-residences-tower-2-91373189.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters Residential District",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -7303,34 +7270,34 @@
   },
   {
     "market_key": {
-      "area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 0,
+      "area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
       "layout_type": "standard",
-      "quality_tier": "premium"
+      "quality_tier": "ultra_luxury"
     },
-    "median_price_per_sqft": 3550,
+    "median_price_per_sqft": 11500,
     "listing_count": 1,
-    "min_price_per_sqft": 3550,
-    "max_price_per_sqft": 3550,
+    "min_price_per_sqft": 11500,
+    "max_price_per_sqft": 11500,
     "price_spread_percent": 0.0,
     "prices_sorted": [
-      3550
+      11500
     ],
     "listings": [
       {
-        "title": "High Floor Brand New Luxury Fully Furnished",
-        "area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "tower_name": "Kempinski Residences The Creek Tower 2",
-        "raw_area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-        "lat": 25.206926345825195,
-        "lng": 55.32322311401367,
-        "price_per_sqft": 3550,
-        "price": 2815425,
-        "sqft": 793,
-        "quality_tier": "premium",
+        "title": "Sea and Skyline View | Multiple Units | Exclusive",
+        "area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
+        "tower_name": "Peninsula Dubai Residences Tower 2",
+        "raw_area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
+        "lat": 25.196975708007812,
+        "lng": 55.23417282104492,
+        "price_per_sqft": 11500,
+        "price": 25000000,
+        "sqft": 2174,
+        "quality_tier": "ultra_luxury",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-2-91823739.html"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-jumeirah-2-peninsula-dubai-residences-peninsula-dubai-residences-tower-2-91373189.html"
       }
     ]
   },
@@ -7364,6 +7331,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-hills-park-90054637.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+      "property_type": "studio apartment",
+      "bedrooms": 0,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3550,
+    "listing_count": 1,
+    "min_price_per_sqft": 3550,
+    "max_price_per_sqft": 3550,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3550
+    ],
+    "listings": [
+      {
+        "title": "High Floor Brand New Luxury Fully Furnished",
+        "area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "tower_name": "Kempinski Residences The Creek Tower 2",
+        "raw_area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
+        "lat": 25.206926345825195,
+        "lng": 55.32322311401367,
+        "price_per_sqft": 3550,
+        "price": 2815425,
+        "sqft": 793,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-al-jaddaf-dubai-healthcare-city-2-kempinski-residences-the-creek-kempinski-residences-the-creek-tower-2-91823739.html"
       }
     ]
   },
@@ -8128,39 +8128,6 @@
   },
   {
     "market_key": {
-      "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2217,
-    "listing_count": 1,
-    "min_price_per_sqft": 2217,
-    "max_price_per_sqft": 2217,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2217
-    ],
-    "listings": [
-      {
-        "title": "Vacant | Community View | Mid Floor",
-        "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "tower_name": "One Park Avenue",
-        "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "lat": 25.176891326904297,
-        "lng": 55.31071090698242,
-        "price_per_sqft": 2217,
-        "price": 3295000,
-        "sqft": 1486,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-one-park-avenue-96113676.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Business Bay",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -8189,6 +8156,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-business-bay-bugatti-residences-92265533.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2217,
+    "listing_count": 1,
+    "min_price_per_sqft": 2217,
+    "max_price_per_sqft": 2217,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2217
+    ],
+    "listings": [
+      {
+        "title": "Vacant | Community View | Mid Floor",
+        "area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "tower_name": "One Park Avenue",
+        "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.176891326904297,
+        "lng": 55.31071090698242,
+        "price_per_sqft": 2217,
+        "price": 3295000,
+        "sqft": 1486,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-one-park-avenue-96113676.html"
       }
     ]
   },
