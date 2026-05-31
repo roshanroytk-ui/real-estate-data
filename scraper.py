@@ -1291,6 +1291,8 @@ areas_gdf = gpd.read_file(
     "dubai_areas.geojson"
 )
 
+print(areas_gdf.columns.tolist())
+
 # convert to quick lookup
 coord_map = {
     item["area"]: {
