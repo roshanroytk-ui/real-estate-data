@@ -537,7 +537,7 @@ def get_area_assignment(lat, lng, raw_area=""):
             
                 match_info = {
             
-                    "area": row["canonical_area"],
+                    "area": row["name"],
 
                     "osm_name": row.get("osm_name"),
             
@@ -562,6 +562,10 @@ def get_area_assignment(lat, lng, raw_area=""):
                 matches.append(match_info)
             
                 debug_matches.append(match_info)
+                print(
+                    "MATCHED:",
+                    row["name"]
+                )
         except:
             continue
 
@@ -1289,6 +1293,11 @@ with open("areas.json", "r", encoding="utf-8") as f:
 
 areas_gdf = gpd.read_file(
     "dubai_areas.geojson"
+)
+
+print(
+    "AREA COUNT:",
+    len(areas_gdf)
 )
 
 print(areas_gdf.columns.tolist())
