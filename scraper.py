@@ -520,13 +520,6 @@ def get_area_assignment(lat, lng, raw_area=""):
 
     point = Point(lng, lat)
 
-    print("POINT:", point.x, point.y)
-
-    print("\nPOINT:")
-    print(
-        "lat=", lat,
-        "lng=", lng
-    )
 
     matches = []
     debug_matches = []
@@ -539,15 +532,6 @@ def get_area_assignment(lat, lng, raw_area=""):
     
             b = polygon.bounds
     
-            print(
-                "CHECKING:",
-                row["name"],
-                "| bounds:",
-                round(b[0], 6),
-                round(b[1], 6),
-                round(b[2], 6),
-                round(b[3], 6)
-            )
     
         except:
             continue
@@ -2826,6 +2810,28 @@ with open(
         indent=2,
         ensure_ascii=False
     )
+
+matched_count = sum(
+    1
+    for p in polygon_debug
+    if p.get("selected_area")
+)
+
+unmatched_count = len(polygon_debug) - matched_count
+
+print(
+    "\nPOLYGON MATCH SUMMARY"
+)
+
+print(
+    "Matched:",
+    matched_count
+)
+
+print(
+    "Unmatched:",
+    unmatched_count
+)
 
 print("Saved polygon_debug.json")
 
