@@ -599,6 +599,24 @@ def get_area_assignment(lat, lng, raw_area=""):
     # DEBUG POLYGON FAILURES
     # =====================================
 
+    closest_distance = 999999
+closest_area = None
+
+for _, row in areas_gdf.iterrows():
+
+    polygon = row.geometry
+
+    try:
+
+        distance = polygon.distance(point)
+
+        if distance < closest_distance:
+            closest_distance = distance
+            closest_area = row["name"]
+
+    except:
+        pass
+
     if not matches:
 
         polygon_debug.append({
@@ -618,7 +636,11 @@ def get_area_assignment(lat, lng, raw_area=""):
             "NO POLYGON MATCH:",
             raw_area,
             lat,
-            lng
+            lng,
+            "| nearest:",
+            closest_area,
+            "| distance:",
+            closest_distance
         )
 
     # =====================================
