@@ -1192,54 +1192,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Creek Harbour",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2692,
-    "listing_count": 2,
-    "min_price_per_sqft": 2441,
-    "max_price_per_sqft": 2942,
-    "price_spread_percent": 0.19,
-    "prices_sorted": [
-      2441,
-      2942
-    ],
-    "listings": [
-      {
-        "title": "Waterfront Living | Premium Pool View | Spacious",
-        "area": "Dubai Creek Harbour",
-        "tower_name": "Dubai Creek Harbour",
-        "raw_area": "",
-        "lat": 25.203338,
-        "lng": 55.351063,
-        "price_per_sqft": 2441,
-        "price": 2500000,
-        "sqft": 1024,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228665"
-      },
-      {
-        "title": "Newly Renovated | Serious Seller | NO AGENTS",
-        "area": "Dubai Creek Harbour",
-        "tower_name": "Creek Edge Tower 1",
-        "raw_area": "Creek Edge Tower 1, Creek Edge, Dubai Creek Harbour (The Lagoons), Dubai",
-        "lat": 25.209863662719727,
-        "lng": 55.34536361694336,
-        "price_per_sqft": 2942,
-        "price": 3080000,
-        "sqft": 1047,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-creek-harbour-the-lagoons-creek-edge-creek-edge-tower-1-94007280.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Science Park",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -2447,6 +2399,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228772"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Creek Harbour",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2441,
+    "listing_count": 1,
+    "min_price_per_sqft": 2441,
+    "max_price_per_sqft": 2441,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2441
+    ],
+    "listings": [
+      {
+        "title": "Waterfront Living | Premium Pool View | Spacious",
+        "area": "Dubai Creek Harbour",
+        "tower_name": "Dubai Creek Harbour",
+        "raw_area": "",
+        "lat": 25.203338,
+        "lng": 55.351063,
+        "price_per_sqft": 2441,
+        "price": 2500000,
+        "sqft": 1024,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228665"
       }
     ]
   },
@@ -6064,39 +6049,6 @@
   },
   {
     "market_key": {
-      "area": "Bluewaters Residential District",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 4808,
-    "listing_count": 1,
-    "min_price_per_sqft": 4808,
-    "max_price_per_sqft": 4808,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      4808
-    ],
-    "listings": [
-      {
-        "title": "Below Market Price | Exclusive | 2 Beds",
-        "area": "Bluewaters Residential District",
-        "tower_name": "Bluewaters Residences Building 5",
-        "raw_area": "Bluewaters Residences Building 5, Bluewaters Residences, Bluewaters, Dubai",
-        "lat": 25.07757568359375,
-        "lng": 55.12261199951172,
-        "price_per_sqft": 4808,
-        "price": 6500000,
-        "sqft": 1352,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-5-89184900.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Maravea Residences, Dubai Islands, Dubai",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -6158,6 +6110,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-islands-maravea-residences-86619882.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Bluewaters Residential District",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4808,
+    "listing_count": 1,
+    "min_price_per_sqft": 4808,
+    "max_price_per_sqft": 4808,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4808
+    ],
+    "listings": [
+      {
+        "title": "Below Market Price | Exclusive | 2 Beds",
+        "area": "Bluewaters Residential District",
+        "tower_name": "Bluewaters Residences Building 5",
+        "raw_area": "Bluewaters Residences Building 5, Bluewaters Residences, Bluewaters, Dubai",
+        "lat": 25.07757568359375,
+        "lng": 55.12261199951172,
+        "price_per_sqft": 4808,
+        "price": 6500000,
+        "sqft": 1352,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-5-89184900.html"
       }
     ]
   },
@@ -7120,39 +7105,6 @@
   },
   {
     "market_key": {
-      "area": "Al Barsha South 4",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1253,
-    "listing_count": 1,
-    "min_price_per_sqft": 1253,
-    "max_price_per_sqft": 1253,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1253
-    ],
-    "listings": [
-      {
-        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
-        "area": "Al Barsha South 4",
-        "tower_name": "Neva Residences",
-        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
-        "lat": 25.069103240966797,
-        "lng": 55.21466064453125,
-        "price_per_sqft": 1253,
-        "price": 1500000,
-        "sqft": 1197,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -7181,6 +7133,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-science-park-skyhills-residences-skyhills-residences-2-83224740.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Al Barsha South 4",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1253,
+    "listing_count": 1,
+    "min_price_per_sqft": 1253,
+    "max_price_per_sqft": 1253,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1253
+    ],
+    "listings": [
+      {
+        "title": "Brand New I Closed Kitchen I Luxury Furnishing",
+        "area": "Al Barsha South 4",
+        "tower_name": "Neva Residences",
+        "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
+        "lat": 25.069103240966797,
+        "lng": 55.21466064453125,
+        "price_per_sqft": 1253,
+        "price": 1500000,
+        "sqft": 1197,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-16-neva-residences-94027952.html"
       }
     ]
   },
