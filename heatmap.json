@@ -13,7 +13,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-05-31T16:03:56.543076+00:00",
+    "last_updated": "2026-05-31T16:17:51.717506+00:00",
     "lat": 25.072954,
     "lng": 55.128089,
     "color": "yellow"
@@ -32,7 +32,7 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-05-31T16:03:56.543076+00:00",
+    "last_updated": "2026-05-31T16:17:51.717506+00:00",
     "lat": 25.088631,
     "lng": 55.14817,
     "color": "yellow"
@@ -51,7 +51,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-05-31T16:03:56.543076+00:00",
+    "last_updated": "2026-05-31T16:17:51.717506+00:00",
     "lat": 25.195542,
     "lng": 55.26884,
     "color": "yellow"
@@ -70,9 +70,28 @@
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-05-31T16:03:56.543076+00:00",
+    "last_updated": "2026-05-31T16:17:51.717506+00:00",
     "lat": 25.180202,
     "lng": 55.252432,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "bhomes",
+      "propertyfinder"
+    ],
+    "area": "DIFC",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 2508,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-05-31T16:17:51.717506+00:00",
+    "lat": 25.212088,
+    "lng": 55.282761,
     "color": "yellow"
   }
 ]
