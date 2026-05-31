@@ -3431,6 +3431,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Como Residences, Palm Jumeirah, Dubai",
+    "lat": 25.11118507385254,
+    "lng": 55.14548110961914,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
     "lat": 25.192771911621094,
     "lng": 55.273765563964844,
@@ -3451,13 +3458,6 @@
     ],
     "selected_area": "Downtown Dubai",
     "selected_polygon_area": 0.0008274599583149869
-  },
-  {
-    "raw_area": "Como Residences, Palm Jumeirah, Dubai",
-    "lat": 25.11118507385254,
-    "lng": 55.14548110961914,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "Neva Residences, District 16, Jumeirah Village Circle, Dubai",
@@ -3635,16 +3635,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-    "lat": 25.200855255126953,
-    "lng": 55.26466751098633,
+    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.137941360473633,
-    "lng": 55.12687683105469,
+    "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+    "lat": 25.200855255126953,
+    "lng": 55.26466751098633,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3755,16 +3755,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
-    "lat": 25.206411361694336,
-    "lng": 55.27519989013672,
+    "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
+    "lat": 25.195905685424805,
+    "lng": 55.23814392089844,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
-    "lat": 25.195905685424805,
-    "lng": 55.23814392089844,
+    "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
+    "lat": 25.206411361694336,
+    "lng": 55.27519989013672,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3883,6 +3883,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
+    "lat": 25.12430191040039,
+    "lng": 55.1125602722168,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
     "lat": 25.19428253173828,
     "lng": 55.27188491821289,
@@ -3903,13 +3910,6 @@
     ],
     "selected_area": "Downtown Dubai",
     "selected_polygon_area": 0.0008274599583149869
-  },
-  {
-    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-    "lat": 25.12430191040039,
-    "lng": 55.1125602722168,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "350 Riverside Crescent, Sobha Hartland II, Bukadra, Dubai",
@@ -4123,13 +4123,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-    "lat": 25.030311584472656,
-    "lng": 55.20481491088867,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Esplora, District 18, Jumeirah Village Circle, Dubai",
     "lat": 25.053646087646484,
     "lng": 55.200439453125,
@@ -4176,6 +4169,13 @@
     ],
     "selected_area": "District 18",
     "selected_polygon_area": 1.7488665225001877e-05
+  },
+  {
+    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+    "lat": 25.030311584472656,
+    "lng": 55.20481491088867,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Binghatti Elite, Dubai Production City (IMPZ), Dubai",
@@ -4242,16 +4242,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-    "lat": 25.17559051513672,
-    "lng": 55.30958557128906,
+    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+    "lat": 25.030311584472656,
+    "lng": 55.20481491088867,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-    "lat": 25.030311584472656,
-    "lng": 55.20481491088867,
+    "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+    "lat": 25.17559051513672,
+    "lng": 55.30958557128906,
     "matched_polygons": [],
     "selected_area": null
   },

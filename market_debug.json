@@ -7969,39 +7969,6 @@
   },
   {
     "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 4,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 4254,
-    "listing_count": 1,
-    "min_price_per_sqft": 4254,
-    "max_price_per_sqft": 4254,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      4254
-    ],
-    "listings": [
-      {
-        "title": "Vacant | Exclusive | High floor",
-        "area": "Downtown Dubai",
-        "tower_name": "Opera Grand",
-        "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
-        "lat": 25.19428253173828,
-        "lng": 55.27188491821289,
-        "price_per_sqft": 4254,
-        "price": 13000000,
-        "sqft": 3056,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-opera-grand-92698597.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -8030,6 +7997,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jumeirah-serenia-living-serenia-living-tower-1-87882942.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4254,
+    "listing_count": 1,
+    "min_price_per_sqft": 4254,
+    "max_price_per_sqft": 4254,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4254
+    ],
+    "listings": [
+      {
+        "title": "Vacant | Exclusive | High floor",
+        "area": "Downtown Dubai",
+        "tower_name": "Opera Grand",
+        "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
+        "lat": 25.19428253173828,
+        "lng": 55.27188491821289,
+        "price_per_sqft": 4254,
+        "price": 13000000,
+        "sqft": 3056,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-opera-grand-92698597.html"
       }
     ]
   },
@@ -8398,39 +8398,6 @@
   },
   {
     "market_key": {
-      "area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1786,
-    "listing_count": 1,
-    "min_price_per_sqft": 1786,
-    "max_price_per_sqft": 1786,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1786
-    ],
-    "listings": [
-      {
-        "title": "Vacant 1st July | Low Price | Good Investment",
-        "area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-        "tower_name": "Al Andalus Tower B",
-        "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-        "lat": 25.030311584472656,
-        "lng": 55.20481491088867,
-        "price_per_sqft": 1786,
-        "price": 1300000,
-        "sqft": 728,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-golf-estates-al-andalus-al-andalus-tower-b-91351235.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "District 18",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -8459,6 +8426,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-18-esplora-83227854.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1786,
+    "listing_count": 1,
+    "min_price_per_sqft": 1786,
+    "max_price_per_sqft": 1786,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1786
+    ],
+    "listings": [
+      {
+        "title": "Vacant 1st July | Low Price | Good Investment",
+        "area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+        "tower_name": "Al Andalus Tower B",
+        "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
+        "lat": 25.030311584472656,
+        "lng": 55.20481491088867,
+        "price_per_sqft": 1786,
+        "price": 1300000,
+        "sqft": 728,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-golf-estates-al-andalus-al-andalus-tower-b-91351235.html"
       }
     ]
   },
@@ -8530,39 +8530,6 @@
   },
   {
     "market_key": {
-      "area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2661,
-    "listing_count": 1,
-    "min_price_per_sqft": 2661,
-    "max_price_per_sqft": 2661,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2661
-    ],
-    "listings": [
-      {
-        "title": "Hot Deal | Lowest price 1 Bed + Study | Top Floor",
-        "area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "tower_name": "Sobha Hartland Waves",
-        "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "lat": 25.17559051513672,
-        "lng": 55.30958557128906,
-        "price_per_sqft": 2661,
-        "price": 1650000,
-        "sqft": 620,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-sobha-hartland-waves-88318588.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -8591,6 +8558,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-golf-estates-al-andalus-al-andalus-tower-b-84890933.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2661,
+    "listing_count": 1,
+    "min_price_per_sqft": 2661,
+    "max_price_per_sqft": 2661,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2661
+    ],
+    "listings": [
+      {
+        "title": "Hot Deal | Lowest price 1 Bed + Study | Top Floor",
+        "area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "tower_name": "Sobha Hartland Waves",
+        "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.17559051513672,
+        "lng": 55.30958557128906,
+        "price_per_sqft": 2661,
+        "price": 1650000,
+        "sqft": 620,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-sobha-hartland-waves-88318588.html"
       }
     ]
   },
