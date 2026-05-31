@@ -516,7 +516,12 @@ def get_area_assignment(lat, lng, raw_area=""):
 
     except:
 
-        return normalize_area(raw_area)
+        fallback = normalize_area(raw_area)
+
+        return {
+            "comparable_area": fallback,
+            "heatmap_area": fallback
+        }
 
     point = Point(lng, lat)
 
