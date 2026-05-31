@@ -532,6 +532,17 @@ def get_area_assignment(lat, lng, raw_area=""):
     for _, row in areas_gdf.iterrows():
 
         polygon = row.geometry
+
+        print(
+            "GEOM:",
+            row["name"],
+            polygon.geom_type
+        )
+
+        print(
+            "VALID:",
+            polygon.is_valid
+        )
     
         try:
     
@@ -555,6 +566,17 @@ def get_area_assignment(lat, lng, raw_area=""):
             contains = polygon.contains(point)
             covers = polygon.covers(point)
             intersects = polygon.intersects(point)
+            
+            distance = polygon.distance(point)
+            
+            if distance < 0.001:
+            
+                print(
+                    "CLOSE TO:",
+                    row["name"],
+                    "| distance:",
+                    distance
+                )
             
             if contains or covers or intersects:
             
