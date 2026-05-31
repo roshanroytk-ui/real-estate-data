@@ -520,16 +520,54 @@ def get_area_assignment(lat, lng, raw_area=""):
 
     point = Point(lng, lat)
 
+    print("\nPOINT:")
+    print(
+        "lat=", lat,
+        "lng=", lng
+    )
+
     matches = []
     debug_matches = []
 
     for _, row in areas_gdf.iterrows():
 
         polygon = row.geometry
+    
+        try:
+    
+            b = polygon.bounds
+    
+            print(
+                "CHECKING:",
+                row["name"],
+                "| bounds:",
+                round(b[0], 6),
+                round(b[1], 6),
+                round(b[2], 6),
+                round(b[3], 6)
+            )
+    
+        except:
+            continue
 
         try:
 
-            if polygon.contains(point):
+            contains = polygon.contains(point)
+            covers = polygon.covers(point)
+            intersects = polygon.intersects(point)
+            
+            if contains or covers or intersects:
+            
+                print(
+                    "GEOMETRY MATCH:",
+                    row["name"],
+                    "contains=",
+                    contains,
+                    "covers=",
+                    covers,
+                    "intersects=",
+                    intersects
+                )
 
                 polygon_bounds = polygon.bounds
 
@@ -1293,6 +1331,13 @@ with open("areas.json", "r", encoding="utf-8") as f:
 
 areas_gdf = gpd.read_file(
     "dubai_areas.geojson"
+)
+
+print("CRS:", areas_gdf.crs)
+
+print(
+    "TOTAL BOUNDS:",
+    areas_gdf.total_bounds
 )
 
 print(
