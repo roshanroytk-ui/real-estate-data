@@ -2435,6 +2435,13 @@
     "selected_polygon_area": 0.0003281887554850163
   },
   {
+    "raw_area": "Sky Residences, Expo City, Dubai",
+    "lat": 24.964250564575195,
+    "lng": 55.1649284362793,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Bluewaters Residences Building 7, Bluewaters Residences, Bluewaters, Dubai",
     "lat": 25.07798194885254,
     "lng": 55.1230354309082,
@@ -2445,13 +2452,6 @@
     "raw_area": "South Garden B, South Garden, Wasl Gate, Dubai",
     "lat": 25.020727157592773,
     "lng": 55.10655975341797,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sky Residences, Expo City, Dubai",
-    "lat": 24.964250564575195,
-    "lng": 55.1649284362793,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -2695,13 +2695,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Seventh Heaven, Al Barari, Dubai",
-    "lat": 25.100921630859375,
-    "lng": 55.31316375732422,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Sunrise Bay Tower 2, Sunrise Bay, Emaar Beachfront, Dubai Harbour, Dubai",
     "lat": 25.097517013549805,
     "lng": 55.14009475708008,
@@ -2723,9 +2716,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Sola Residences, Wasl Gate, Dubai",
-    "lat": 25.020753860473633,
-    "lng": 55.10671615600586,
+    "raw_area": "Seventh Heaven, Al Barari, Dubai",
+    "lat": 25.100921630859375,
+    "lng": 55.31316375732422,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -2740,6 +2733,13 @@
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Sola Residences, Wasl Gate, Dubai",
+    "lat": 25.020753860473633,
+    "lng": 55.10671615600586,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -2850,6 +2850,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
+    "lat": 25.09207534790039,
+    "lng": 55.16822052001953,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Burj Crown, Downtown Dubai, Dubai",
     "lat": 25.19400978088379,
     "lng": 55.269405364990234,
@@ -2870,13 +2877,6 @@
     ],
     "selected_area": "Downtown Dubai",
     "selected_polygon_area": 0.0008274599583149869
-  },
-  {
-    "raw_area": "Golf Tower 1, Golf Towers, The Views, Dubai",
-    "lat": 25.09207534790039,
-    "lng": 55.16822052001953,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "Como Residences, Palm Jumeirah, Dubai",
@@ -3141,16 +3141,16 @@
     "selected_polygon_area": 0.0003281887554850163
   },
   {
-    "raw_area": "Bluewaters Residences Building 9, Bluewaters Residences, Bluewaters, Dubai",
-    "lat": 25.07953643798828,
-    "lng": 55.12154006958008,
+    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
+    "lat": 25.12430191040039,
+    "lng": 55.1125602722168,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-    "lat": 25.12430191040039,
-    "lng": 55.1125602722168,
+    "raw_area": "Bluewaters Residences Building 9, Bluewaters Residences, Bluewaters, Dubai",
+    "lat": 25.07953643798828,
+    "lng": 55.12154006958008,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3172,6 +3172,13 @@
     "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
     "lat": 25.206926345825195,
     "lng": 55.32322311401367,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Liberty House, DIFC, Dubai",
+    "lat": 25.20949935913086,
+    "lng": 55.27676010131836,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3198,16 +3205,16 @@
     "selected_polygon_area": 0.000427147701394996
   },
   {
-    "raw_area": "Liberty House, DIFC, Dubai",
-    "lat": 25.20949935913086,
-    "lng": 55.27676010131836,
+    "raw_area": "Treppan Serenique Residences, Dubai Islands, Dubai",
+    "lat": 25.301250457763672,
+    "lng": 55.30074691772461,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "City Walk Residential Building 2B, City Walk Residential, City Walk, Dubai",
-    "lat": 25.2059268951416,
-    "lng": 55.26463317871094,
+    "raw_area": "SAAS Hills, Dubai Science Park, Dubai",
+    "lat": 25.08028221130371,
+    "lng": 55.24728775024414,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3233,16 +3240,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Treppan Serenique Residences, Dubai Islands, Dubai",
-    "lat": 25.301250457763672,
-    "lng": 55.30074691772461,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "SAAS Hills, Dubai Science Park, Dubai",
-    "lat": 25.08028221130371,
-    "lng": 55.24728775024414,
+    "raw_area": "City Walk Residential Building 2B, City Walk Residential, City Walk, Dubai",
+    "lat": 25.2059268951416,
+    "lng": 55.26463317871094,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3381,13 +3381,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Creek Residences North Tower 1, Dubai Creek Residences North, Dubai Creek Residences, Dubai Creek Harbour (The Lagoons), Dubai",
-    "lat": 25.204631805419922,
-    "lng": 55.34345626831055,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Vela Viento By Omniyat, Business Bay, Dubai",
     "lat": 25.190732955932617,
     "lng": 55.28993225097656,
@@ -3410,6 +3403,13 @@
     "selected_polygon_area": 0.0008274599583149869
   },
   {
+    "raw_area": "Dubai Creek Residences North Tower 1, Dubai Creek Residences North, Dubai Creek Residences, Dubai Creek Harbour (The Lagoons), Dubai",
+    "lat": 25.204631805419922,
+    "lng": 55.34345626831055,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "City Walk Crestlane 5, City Walk Crestlane, City Walk, Dubai",
     "lat": 25.20611572265625,
     "lng": 55.257022857666016,
@@ -3417,16 +3417,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "399 Hills Park B, 399 Hills Park, Dubai Hills Estate, Dubai",
-    "lat": 25.118860244750977,
-    "lng": 55.25785446166992,
+    "raw_area": "Club Place Building B, Club Place, Dubai Hills Estate, Dubai",
+    "lat": 25.12763023376465,
+    "lng": 55.26041030883789,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Club Place Building B, Club Place, Dubai Hills Estate, Dubai",
-    "lat": 25.12763023376465,
-    "lng": 55.26041030883789,
+    "raw_area": "399 Hills Park B, 399 Hills Park, Dubai Hills Estate, Dubai",
+    "lat": 25.118860244750977,
+    "lng": 55.25785446166992,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3635,16 +3635,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.137941360473633,
-    "lng": 55.12687683105469,
+    "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+    "lat": 25.200855255126953,
+    "lng": 55.26466751098633,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-    "lat": 25.200855255126953,
-    "lng": 55.26466751098633,
+    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -3755,13 +3755,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
-    "lat": 24.860815048217773,
-    "lng": 55.14402389526367,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Marriott Executive Apartments, Al Barsha South 2, Al Barsha South, Al Barsha, Dubai",
     "lat": 25.08014678955078,
     "lng": 55.24605178833008,
@@ -3769,26 +3762,11 @@
     "selected_area": null
   },
   {
-    "raw_area": "Imperial Avenue, Downtown Dubai, Dubai",
-    "lat": 25.188282012939453,
-    "lng": 55.27410125732422,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": null,
-        "polygon_area": 0.0008274599583149869,
-        "polygon_centroid_lat": 25.186630976712973,
-        "polygon_centroid_lng": 55.272241590360515,
-        "bounds": {
-          "min_lng": 55.2496071,
-          "min_lat": 25.1690128,
-          "max_lng": 55.2940679,
-          "max_lat": 25.2048544
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.0008274599583149869
+    "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
+    "lat": 24.860815048217773,
+    "lng": 55.14402389526367,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Golf Grand, Dubai Hills Estate, Dubai",
@@ -3825,6 +3803,28 @@
     "lng": 55.23814392089844,
     "matched_polygons": [],
     "selected_area": null
+  },
+  {
+    "raw_area": "Imperial Avenue, Downtown Dubai, Dubai",
+    "lat": 25.188282012939453,
+    "lng": 55.27410125732422,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
   },
   {
     "raw_area": "City Walk Residential Building 18B, City Walk Residential, City Walk, Dubai",
@@ -3941,28 +3941,6 @@
     "selected_polygon_area": 0.0003281887554850163
   },
   {
-    "raw_area": "Kamoon 2, Kamoon, Old Town, Downtown Dubai, Dubai",
-    "lat": 25.189252853393555,
-    "lng": 55.275535583496094,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": null,
-        "polygon_area": 0.0008274599583149869,
-        "polygon_centroid_lat": 25.186630976712973,
-        "polygon_centroid_lng": 55.272241590360515,
-        "bounds": {
-          "min_lng": 55.2496071,
-          "min_lat": 25.1690128,
-          "max_lng": 55.2940679,
-          "max_lat": 25.2048544
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.0008274599583149869
-  },
-  {
     "raw_area": "Belgravia Square, District 14, Jumeirah Village Circle, Dubai",
     "lat": 25.048561096191406,
     "lng": 55.20402526855469,
@@ -4009,6 +3987,28 @@
     ],
     "selected_area": "District 14",
     "selected_polygon_area": 6.427237006000393e-05
+  },
+  {
+    "raw_area": "Kamoon 2, Kamoon, Old Town, Downtown Dubai, Dubai",
+    "lat": 25.189252853393555,
+    "lng": 55.275535583496094,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
   },
   {
     "raw_area": "DIFC Living, DIFC, Dubai",
@@ -4207,16 +4207,16 @@
     "selected_polygon_area": 0.0003281887554850163
   },
   {
-    "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
-    "lat": 25.18958282470703,
-    "lng": 55.30175018310547,
+    "raw_area": "City Walk Crestlane 1, City Walk Crestlane, City Walk, Dubai",
+    "lat": 25.208223342895508,
+    "lng": 55.257022857666016,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "City Walk Crestlane 1, City Walk Crestlane, City Walk, Dubai",
-    "lat": 25.208223342895508,
-    "lng": 55.257022857666016,
+    "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
+    "lat": 25.18958282470703,
+    "lng": 55.30175018310547,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -4284,13 +4284,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Creek Edge Tower 1, Creek Edge, Dubai Creek Harbour (The Lagoons), Dubai",
-    "lat": 25.209863662719727,
-    "lng": 55.34536361694336,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Azizi Riviera Beachfront Tower C, Azizi Riviera Beachfront, Azizi Riviera, Meydan One, Meydan, Dubai",
     "lat": 25.175128936767578,
     "lng": 55.31095504760742,
@@ -4301,6 +4294,13 @@
     "raw_area": "Address Residences Zabeel 4, Address Residences Zabeel, Zabeel 1, Zabeel, Dubai",
     "lat": 25.226516723632812,
     "lng": 55.29519271850586,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Creek Edge Tower 1, Creek Edge, Dubai Creek Harbour (The Lagoons), Dubai",
+    "lat": 25.209863662719727,
+    "lng": 55.34536361694336,
     "matched_polygons": [],
     "selected_area": null
   },
