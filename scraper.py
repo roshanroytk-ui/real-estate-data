@@ -555,16 +555,6 @@ def get_area_assignment(lat, lng, raw_area=""):
             
             if contains or covers or intersects:
             
-                print(
-                    "GEOMETRY MATCH:",
-                    row["name"],
-                    "contains=",
-                    contains,
-                    "covers=",
-                    covers,
-                    "intersects=",
-                    intersects
-                )
 
                 polygon_bounds = polygon.bounds
 
@@ -1717,16 +1707,6 @@ for source_data in all_soups:
 
                         is_verified = True
 
-                        print("\n====================")
-                        print("URL:", property_url)
-                        print("TYPE:", detail_data.get("@type"))
-                        print("PROPERTY TYPE:", property_type)
-                        
-                        print("ADDITIONAL PROPERTY:")
-                        print(json.dumps(
-                            detail_data.get("additionalProperty"),
-                            indent=2
-                        ))
 
                         seen_urls.add(property_url)
 
@@ -2525,16 +2505,6 @@ for market_key, data in market_groups.items():
     
     if len(prices) < minimum_required:
     
-        print(
-    
-            "SKIPPING WEAK SEGMENT:",
-    
-            layout_type,
-    
-            len(prices),
-    
-            market_key
-        )
     
         continue
     
@@ -2833,6 +2803,20 @@ print(
     unmatched_count
 )
 
+failed = [
+    p for p in polygon_debug
+    if not p.get("selected_area")
+]
+
+print(
+    "Failure rate:",
+    round(
+        len(failed) / max(len(polygon_debug), 1) * 100,
+        1
+    ),
+    "%"
+)
+
 print("Saved polygon_debug.json")
 
 # =========================================
@@ -2871,16 +2855,6 @@ for market_key, data in market_groups.items():
     
     if len(prices) < minimum_required:
     
-        print(
-    
-            "SKIPPING WEAK SEGMENT:",
-    
-            layout_type,
-    
-            len(prices),
-    
-            market_key
-        )
     
         continue
     
