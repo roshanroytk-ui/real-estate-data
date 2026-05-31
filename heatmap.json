@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1852,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-05-31T01:53:29.587147+00:00",
+    "lat": 25.072954,
+    "lng": 55.128089,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1941,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-05-31T01:53:29.587147+00:00",
+    "lat": 25.088631,
+    "lng": 55.14817,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Downtown Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2368,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-05-31T01:53:29.587147+00:00",
+    "lat": 25.180202,
+    "lng": 55.252432,
+    "color": "yellow"
+  }
+]
