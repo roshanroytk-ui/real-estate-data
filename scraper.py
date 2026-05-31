@@ -545,13 +545,15 @@ def get_area_assignment(lat, lng, raw_area=""):
             distance = polygon.distance(point)
             
             if distance < 0.001:
+
+                runtime_debug.append({
             
-                print(
-                    "CLOSE TO:",
-                    row["name"],
-                    "| distance:",
-                    distance
-                )
+                    "type": "close_polygon",
+            
+                    "area": row["name"],
+            
+                    "distance": distance
+                })
             
             if contains or covers or intersects:
             
@@ -1351,6 +1353,9 @@ for page in range(1, 11):
 
 polygon_debug = []
 runtime_debug = []
+
+ai_cache_hits = 0
+ai_audits_queued = 0
 
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
@@ -2328,10 +2333,8 @@ for property in properties:
             property["layout_type"] = "ground_floor"
             continue
 
-        print(
-            "QUEUE AI AUDIT:",
-            property["title"]
-        )
+            ai_audits_queued += 1,
+
         
         cache_key = property["url"]
         
@@ -2357,10 +2360,7 @@ for property in properties:
                 )
             )
         
-            print(
-                "CACHE HIT:",
-                property["layout_type"]
-            )
+            ai_cache_hits += 1
         
         else:
         
