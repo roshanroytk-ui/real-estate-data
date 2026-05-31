@@ -2434,6 +2434,9 @@ last_updated = datetime.now(timezone.utc).isoformat()
 
 market_groups = {}
 
+# heatmap uses larger parent polygons
+heatmap_groups = {}
+
 for property in properties:
 
     area = property["area"]
@@ -2474,6 +2477,14 @@ for property in properties:
         quality_tier
     )
 
+    heatmap_key = (
+        property["heatmap_area"],
+        property_type,
+        bedrooms,
+        layout_type,
+        quality_tier
+    )
+
     if market_key not in market_groups:
 
         market_groups[market_key] = {
@@ -2491,13 +2502,30 @@ for property in properties:
         property
     )
 
+    if heatmap_key not in heatmap_groups:
+    
+        heatmap_groups[heatmap_key] = {
+            "prices": [],
+            "listings": [],
+            "lat": property["lat"],
+            "lng": property["lng"]
+        }
+    
+    heatmap_groups[heatmap_key]["prices"].append(
+        price_per_sqft
+    )
+    
+    heatmap_groups[heatmap_key]["listings"].append(
+        property
+    )
+
 # =========================================
 # BUILD HEATMAP
 # =========================================
 
 heatmap = []
 
-for market_key, data in market_groups.items():
+for market_key, data in heatmap_groups.items():
 
     area, property_type, bedrooms, layout_type, quality_tier = market_key
 
