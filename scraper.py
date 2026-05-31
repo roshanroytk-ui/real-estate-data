@@ -534,17 +534,6 @@ def get_area_assignment(lat, lng, raw_area=""):
     for _, row in areas_gdf.iterrows():
 
         polygon = row.geometry
-
-        print(
-            "GEOM:",
-            row["name"],
-            polygon.geom_type
-        )
-
-        print(
-            "VALID:",
-            polygon.is_valid
-        )
     
         try:
     
@@ -692,6 +681,21 @@ def get_area_assignment(lat, lng, raw_area=""):
         comparable_area = matches[0]["area"]
     
         heatmap_area = matches[-1]["area"]
+
+        print(
+            "SELECTED COMPARABLE:",
+            comparable_area
+        )
+        
+        print(
+            "SELECTED HEATMAP:",
+            heatmap_area
+        )
+        
+        print(
+            "MATCH COUNT:",
+            len(matches)
+        )
     
         return {
             "comparable_area": comparable_area,
