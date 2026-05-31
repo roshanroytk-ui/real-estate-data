@@ -587,10 +587,12 @@ def get_area_assignment(lat, lng, raw_area=""):
                 matches.append(match_info)
             
                 debug_matches.append(match_info)
-                print(
-                    "MATCHED:",
-                    row["name"]
-                )
+                runtime_debug.append({
+
+                    "type": "polygon_match",
+                
+                    "area": row["name"]
+                })
         except:
             continue
 
@@ -632,16 +634,20 @@ def get_area_assignment(lat, lng, raw_area=""):
             "selected_area": None
         })
     
-        print(
-            "NO POLYGON MATCH:",
-            raw_area,
-            lat,
-            lng,
-            "| nearest:",
-            closest_area,
-            "| distance:",
-            closest_distance
-        )
+        runtime_debug.append({
+
+            "type": "polygon_miss",
+        
+            "raw_area": raw_area,
+        
+            "lat": lat,
+        
+            "lng": lng,
+        
+            "nearest_area": closest_area,
+        
+            "distance": closest_distance
+        })
 
     # =====================================
     # SMALLEST POLYGON WINS
@@ -678,20 +684,16 @@ def get_area_assignment(lat, lng, raw_area=""):
     
         heatmap_area = matches[-1]["area"]
 
-        print(
-            "SELECTED COMPARABLE:",
-            comparable_area
-        )
+        runtime_debug.append({
+
+            "type": "polygon_selection",
         
-        print(
-            "SELECTED HEATMAP:",
-            heatmap_area
-        )
+            "comparable_area": comparable_area,
         
-        print(
-            "MATCH COUNT:",
-            len(matches)
-        )
+            "heatmap_area": heatmap_area,
+        
+            "match_count": len(matches)
+        })
     
         return {
             "comparable_area": comparable_area,
@@ -1348,6 +1350,7 @@ for page in range(1, 11):
     })
 
 polygon_debug = []
+runtime_debug = []
 
 # LOAD AREA COORDINATES
 with open("areas.json", "r", encoding="utf-8") as f:
@@ -2868,6 +2871,21 @@ print(
 )
 
 print("Saved polygon_debug.json")
+
+with open(
+    "runtime_debug.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        runtime_debug,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("Saved runtime_debug.json")
 
 # =========================================
 # INVESTMENT OPPORTUNITY ENGINE
