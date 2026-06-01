@@ -249,6 +249,10 @@ for point in points:
 
             print("ERROR:", e)
 
+if not records:
+    print("No new polygons found")
+    exit(0)
+
 
 if records:
 
@@ -265,21 +269,25 @@ else:
         crs="EPSG:4326"
     )
 
-gdf = gdf.sort_values(
-    "polygon_area"
-)
+if "polygon_area" in gdf.columns:
+    gdf = gdf.sort_values(
+        "polygon_area"
+    )
 
-print(
-    gdf[
-        [
-            "name",
-            "landuse",
-            "place",
-            "boundary",
-            "polygon_area"
+if len(gdf) > 0:
+    print(
+        gdf[
+            [
+                "name",
+                "landuse",
+                "place",
+                "boundary",
+                "polygon_area"
+            ]
         ]
-    ]
-)
+    )
+else:
+    print("No polygons found")
 
 
 if cache is not None:
