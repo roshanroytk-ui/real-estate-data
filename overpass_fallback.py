@@ -3,8 +3,36 @@ import json
 import geopandas as gpd
 from shapely.geometry import Polygon
 from shapely.ops import unary_union
+import os
+import pandas as pd
+import time
+
+
+searched_points = set()
+
+CACHE_FILE = "polygon_cache.geojson"
+
+existing_osm_ids = set()
+
+if os.path.exists(CACHE_FILE):
+
+    cache = gpd.read_file(
+        "polygon_cache.geojson"
+    )
+
+    existing_osm_ids = set(
+        cache["osm_id"]
+        .astype(int)
+        .tolist()
+    )
+
+else:
+
+    cache = None
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+
+
 
 
 def fetch_polygons(lat, lng):
@@ -24,8 +52,8 @@ def fetch_polygons(lat, lng):
       way(pivot.a)["place"="neighbourhood"];
       relation(pivot.a)["place"="neighbourhood"];
 
-      way(pivot.a)["boundary"="administrative"];
-      relation(pivot.a)["boundary"="administrative"];
+      way(pivot.a)["boundary"="administrative"]["admin_level"!~"^(1|2|3|4)$"];
+      relation(pivot.a)["boundary"="administrative"]["admin_level"!~"^(1|2|3|4)$"];
 
       way(pivot.a)["place"="island"];
       relation(pivot.a)["place"="island"];
@@ -37,15 +65,44 @@ def fetch_polygons(lat, lng):
     out geom;
     """
 
-    response = requests.post(
-        OVERPASS_URL,
-        data=query,
-        timeout=180
+    for attempt in range(5):
+
+        try:
+
+            response = requests.post(
+                OVERPASS_URL,
+                data=query,
+                headers={
+                    "User-Agent": "DubaiResearch/1.0"
+                },
+                timeout=180
+            )
+
+            response.raise_for_status()
+
+            return response.json()
+
+        except requests.exceptions.RequestException as e:
+
+            print(
+                f"Attempt {attempt + 1}/5 failed for {lat},{lng}: {e}"
+            )
+
+            if attempt < 4:
+
+                wait_time = 10 * (attempt + 1)
+
+                print(
+                    f"Waiting {wait_time} seconds before retry..."
+                )
+
+                time.sleep(wait_time)
+
+    print(
+        f"Giving up on {lat},{lng}"
     )
 
-    response.raise_for_status()
-
-    return response.json()
+    return {"elements": []}
 
 
 def build_geometry(element):
@@ -105,55 +162,108 @@ def build_geometry(element):
     return None
 
 
-lat = 25.179355
-lng = 55.304135
+with open(
+    "polygon_debug.json",
+    "r",
+    encoding="utf-8"
+) as f:
 
-data = fetch_polygons(lat, lng)
+    points = json.load(f)
 
 records = []
 
-for element in data.get("elements", []):
+for point in points:
 
-    try:
+    if point["selected_area"] is not None:
+        continue
 
-        geometry = build_geometry(element)
+    lat = point["lat"]
+    lng = point["lng"]
 
-        if geometry is None:
-            continue
+    cache_key = (
+        round(lat, 3),
+        round(lng, 3)
+    )
 
-        tags = element.get("tags", {})
+    if cache_key in searched_points:
+        continue
 
-        records.append({
+    searched_points.add(cache_key)
 
-            "osm_id": element["id"],
+    print(
+        "Searching:",
+        lat,
+        lng
+    )
 
-            "osm_type": element["type"],
+    data = fetch_polygons(
+        lat,
+        lng
+    )
 
-            "name": (
-                tags.get("name:en")
-                or tags.get("name")
-            ),
+    time.sleep(2)
 
-            "landuse": tags.get("landuse"),
+    for element in data.get("elements", []):
 
-            "place": tags.get("place"),
+        try:
 
-            "boundary": tags.get("boundary"),
+            geometry = build_geometry(element)
 
-            "polygon_area": geometry.area,
+            if geometry is None:
+                continue
 
-            "geometry": geometry
-        })
+            if geometry.area > 0.01:
+                continue
 
-    except Exception as e:
+            if geometry.area < 0.00001:
+                continue
 
-        print("ERROR:", e)
+            tags = element.get("tags", {})
 
-gdf = gpd.GeoDataFrame(
-    records,
-    geometry="geometry",
-    crs="EPSG:4326"
-)
+            if int(element["id"]) in existing_osm_ids:
+                continue
+
+            records.append({
+
+                "osm_id": element["id"],
+
+                "osm_type": element["type"],
+
+                "name": (
+                    tags.get("name:en")
+                    or tags.get("name")
+                ),
+
+                "landuse": tags.get("landuse"),
+
+                "place": tags.get("place"),
+
+                "boundary": tags.get("boundary"),
+
+                "polygon_area": geometry.area,
+
+                "geometry": geometry
+            })
+
+        except Exception as e:
+
+            print("ERROR:", e)
+
+
+if records:
+
+    gdf = gpd.GeoDataFrame(
+        records,
+        geometry="geometry",
+        crs="EPSG:4326"
+    )
+
+else:
+
+    gdf = gpd.GeoDataFrame(
+        geometry=[],
+        crs="EPSG:4326"
+    )
 
 gdf = gdf.sort_values(
     "polygon_area"
@@ -171,9 +281,30 @@ print(
     ]
 )
 
+
+if cache is not None:
+
+    gdf = pd.concat(
+        [cache, gdf],
+        ignore_index=True
+    )
+
+    gdf["unique_id"] = (
+        gdf["osm_type"].astype(str)
+        + "_"
+        + gdf["osm_id"].astype(str)
+    )
+
+    gdf = gdf.drop_duplicates(
+        subset=["unique_id"]
+    )
+
+    gdf = gdf.drop(
+        columns=["unique_id"]
+    )   
+
 gdf.to_file(
-    "overpass_result.geojson",
+    CACHE_FILE,
     driver="GeoJSON"
 )
-
-print("Saved overpass_result.geojson")
+print("Saved polygon_cache.geojson")
