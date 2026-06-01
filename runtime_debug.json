@@ -4,24 +4,50 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.179355,
     "lng": 55.304135,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.010806445303618156
+    "nearest_area": "Dubai Design District",
+    "distance": 0.002558245270904912
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah",
-    "lat": 25.240419,
-    "lng": 55.25277,
-    "nearest_area": "Al Mina",
-    "distance": 0.010059001074686574
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0008778025947066614
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0008778025947066614
   },
   {
     "type": "polygon_miss",
     "raw_area": "DIFC",
     "lat": 25.20884,
     "lng": 55.277032,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.006369420223511625
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0008778025947066614
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
   },
   {
     "type": "close_polygon",
@@ -29,12 +55,10 @@
     "distance": 0.0009757930951693003
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Harbour",
-    "lat": 25.091846,
-    "lng": 55.143439,
-    "nearest_area": "Dubai Marina",
-    "distance": 0.0009757930951693003
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -43,16 +67,23 @@
   },
   {
     "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Heights"
+  },
+  {
+    "type": "close_polygon",
     "area": "Jumeirah Lakes Towers",
     "distance": 0.00037175585374211203
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.00037175585374211203
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Heights",
+    "heatmap_area": "Jumeirah Heights",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -61,16 +92,23 @@
   },
   {
     "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Heights"
+  },
+  {
+    "type": "close_polygon",
     "area": "Jumeirah Lakes Towers",
     "distance": 0.0004753807357900722
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064854,
-    "lng": 55.141792,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.0004753807357900722
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Heights",
+    "heatmap_area": "Jumeirah Heights",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -79,16 +117,23 @@
   },
   {
     "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Heights"
+  },
+  {
+    "type": "close_polygon",
     "area": "Jumeirah Lakes Towers",
     "distance": 0.00037175585374211203
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.00037175585374211203
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Heights",
+    "heatmap_area": "Jumeirah Heights",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -159,8 +204,8 @@
     "raw_area": "Zabeel",
     "lat": 25.227611,
     "lng": 55.29295,
-    "nearest_area": "Al Kifaf",
-    "distance": 0.0027705542481174425
+    "nearest_area": "Trade Centre",
+    "distance": 0.0019216064591691894
   },
   {
     "type": "polygon_miss",
@@ -196,18 +241,34 @@
     "area": "Dubai Marina"
   },
   {
-    "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
-    "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "La Mer",
-    "lat": 25.240464,
-    "lng": 55.251283,
-    "nearest_area": "Al Mina",
-    "distance": 0.01077111817831043
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Beach Residence",
+    "heatmap_area": "Dubai Marina",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -229,8 +290,8 @@
     "raw_area": "Ras Al Khor",
     "lat": 25.182602,
     "lng": 55.336665,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.009960370312892257
+    "nearest_area": "Al Jaddaf",
+    "distance": 0.009808365603405013
   },
   {
     "type": "polygon_miss",
@@ -245,8 +306,8 @@
     "raw_area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016013493216661165
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015856138026980583
   },
   {
     "type": "close_polygon",
@@ -301,24 +362,24 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.071427938243379
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.019621010772238743
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.071427938243379
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.019621010772238743
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.071427938243379
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.019621010772238743
   },
   {
     "type": "polygon_miss",
@@ -348,16 +409,16 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.071427938243379
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.019621010772238743
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.116298,
     "lng": 55.390612,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.071427938243379
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.019621010772238743
   },
   {
     "type": "polygon_miss",
@@ -383,20 +444,27 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "EMAAR Beachfront",
-    "lat": 25.096467,
-    "lng": 55.137719,
-    "nearest_area": "Dubai Marina",
-    "distance": 0.004573555328186329
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "City Walk",
     "lat": 25.202959,
     "lng": 55.26006,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.007670358979395433
+    "nearest_area": "Jumeirah",
+    "distance": 0.0074743242835550614
   },
   {
     "type": "close_polygon",
@@ -433,6 +501,11 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0007820351340827963
+  },
+  {
     "type": "polygon_selection",
     "comparable_area": "Dubai Marina",
     "heatmap_area": "Dubai Marina",
@@ -458,8 +531,8 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.06211826980929141
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.008238113938803065
   },
   {
     "type": "close_polygon",
@@ -481,8 +554,8 @@
     "raw_area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016013493216661165
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015856138026980583
   },
   {
     "type": "close_polygon",
@@ -522,8 +595,8 @@
     "raw_area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016013493216661165
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015856138026980583
   },
   {
     "type": "close_polygon",
@@ -607,8 +680,8 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.179734,
     "lng": 55.304978,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.011480885858679327
+    "nearest_area": "Dubai Design District",
+    "distance": 0.0020618169165331694
   },
   {
     "type": "polygon_miss",
@@ -638,8 +711,8 @@
     "raw_area": "Arjan",
     "lat": 25.065134,
     "lng": 55.237327,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.01665412929106085
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.01045860137853775
   },
   {
     "type": "close_polygon",
@@ -695,8 +768,8 @@
     "raw_area": "Town Square",
     "lat": 25.008885,
     "lng": 55.289975,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.07898139345902595
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.0530270746601172
   },
   {
     "type": "close_polygon",
@@ -729,6 +802,11 @@
   {
     "type": "polygon_match",
     "area": "Dubai Marina"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0004679772681993135
   },
   {
     "type": "polygon_selection",
@@ -871,6 +949,11 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0006766946077239309
+  },
+  {
     "type": "polygon_selection",
     "comparable_area": "Dubai Marina",
     "heatmap_area": "Dubai Marina",
@@ -881,8 +964,8 @@
     "raw_area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016013493216661165
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015856138026980583
   },
   {
     "type": "close_polygon",
@@ -953,16 +1036,16 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.06211826980929141
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.008238113938803065
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Land Residence Complex",
     "lat": 25.10056,
     "lng": 55.377061,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.0845936864836839
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.022885321305149565
   },
   {
     "type": "close_polygon",
@@ -984,8 +1067,8 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.175521,
     "lng": 55.310065,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01776957352611874
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.004781961364273521
   },
   {
     "type": "close_polygon",
@@ -1007,8 +1090,8 @@
     "raw_area": "Dubai Sports City",
     "lat": 25.039066,
     "lng": 55.220697,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.010453220831364617
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.007715430547888339
   },
   {
     "type": "polygon_miss",
@@ -1067,8 +1150,8 @@
     "raw_area": "City Walk",
     "lat": 25.205218,
     "lng": 55.262688,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.0069030781339566045
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.006371489868156544
   },
   {
     "type": "close_polygon",
@@ -1156,8 +1239,8 @@
     "raw_area": "Town Square",
     "lat": 25.00563,
     "lng": 55.291383,
-    "nearest_area": "Dubai South Residential District",
-    "distance": 0.0809161216455485
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.056317243806936874
   },
   {
     "type": "close_polygon",
@@ -1188,32 +1271,32 @@
     "raw_area": "Dubai Land",
     "lat": 25.093609,
     "lng": 55.31851,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.04666487722238238
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.036636025519151905
   },
   {
     "type": "polygon_miss",
     "raw_area": "Town Square",
     "lat": 25.003874,
     "lng": 55.284898,
-    "nearest_area": "Dubai South Residential District",
-    "distance": 0.07498354676643289
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.05333329555549386
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Land",
     "lat": 25.086999,
     "lng": 55.388531,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.09951582359655381
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.040547288312331044
   },
   {
     "type": "polygon_miss",
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.176965,
     "lng": 55.311826,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01885249751359823
+    "nearest_area": "Dubai Design District",
+    "distance": 0.003866260080772851
   },
   {
     "type": "polygon_miss",
@@ -1228,8 +1311,8 @@
     "raw_area": "Dubai Silicon Oasis",
     "lat": 25.123837,
     "lng": 55.38208,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.06211826980929141
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.008238113938803065
   },
   {
     "type": "close_polygon",
@@ -1278,12 +1361,19 @@
     "match_count": 3
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 25.214144,
-    "lng": 55.318355,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.012457108197730955
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -1301,28 +1391,56 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Heights",
-    "lat": 25.062247,
-    "lng": 55.143846,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.0037729180060154742
+    "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Heights"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Islands",
+    "distance": 0.0007946081150154663
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Heights",
+    "heatmap_area": "Jumeirah Heights",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "DAMAC Hills",
     "lat": 25.019165,
     "lng": 55.246047,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.03962540048920257
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.020520009041714176
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Meydan",
-    "lat": 25.156905,
-    "lng": 55.293924,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.02609687706005133
+    "type": "close_polygon",
+    "area": "Nad Al Sheba",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Nad Al Sheba"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Nad Al Sheba 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Nad Al Sheba 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Nad Al Sheba 1",
+    "heatmap_area": "Nad Al Sheba",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -1408,24 +1526,24 @@
     "raw_area": "DIFC",
     "lat": 25.212088,
     "lng": 55.282761,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.011954294260564536
+    "nearest_area": "Trade Centre",
+    "distance": 0.0029318614491250926
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Production City",
     "lat": 25.02757,
     "lng": 55.181704,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.008015552486659529
+    "nearest_area": "Jumeirah Golf Estates",
+    "distance": 0.006508198497289478
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Production City",
     "lat": 25.02757,
     "lng": 55.181704,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.008015552486659529
+    "nearest_area": "Jumeirah Golf Estates",
+    "distance": 0.006508198497289478
   },
   {
     "type": "close_polygon",
@@ -1458,20 +1576,27 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 25.213042,
-    "lng": 55.319719,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.013170941276914889
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "DAMAC Hills",
     "lat": 25.02453,
     "lng": 55.243196,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.0335926684163357
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.014444651040747863
   },
   {
     "type": "close_polygon",
@@ -1524,8 +1649,8 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.142169,
     "lng": 55.283753,
-    "nearest_area": "Emerald Hills, Dubai Hills Estate",
-    "distance": 0.01482438961171504
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.004631480147380066
   },
   {
     "type": "close_polygon",
@@ -1537,26 +1662,56 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
     "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
+    "comparable_area": "Jumeirah Beach Residence",
     "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.177097,
     "lng": 55.314596,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.021450589150421383
+    "nearest_area": "Dubai Design District",
+    "distance": 0.0036558768688249015
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 25.046277,
-    "lng": 55.240646,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.017815358389037365
+    "type": "close_polygon",
+    "area": "Al Hebiah 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 1"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Motor City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Motor City"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Up Town Motor City",
+    "distance": 0.0006397089605100093
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Motor City",
+    "heatmap_area": "Al Hebiah 1",
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
@@ -1645,16 +1800,16 @@
     "raw_area": "DIFC",
     "lat": -77.53773,
     "lng": 40.1149,
-    "nearest_area": "Dubai Emirate",
-    "distance": 103.35497293947338
+    "nearest_area": "Jumeirah Beachfront Apartments",
+    "distance": 73.49785784194034
   },
   {
     "type": "polygon_miss",
     "raw_area": "DAMAC Hills",
     "lat": 25.022166,
     "lng": 55.242781,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.03532123508500257
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.016328165464370985
   },
   {
     "type": "close_polygon",
@@ -1676,8 +1831,8 @@
     "raw_area": "Town Square",
     "lat": 25.004121,
     "lng": 55.291201,
-    "nearest_area": "Dubai South Residential District",
-    "distance": 0.07975548925641802
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.057275743698442454
   },
   {
     "type": "close_polygon",
@@ -1713,8 +1868,8 @@
     "raw_area": "Dubai Land Residence Complex",
     "lat": 25.090686,
     "lng": 55.384321,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.09520125942286596
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.035119882107432894
   },
   {
     "type": "polygon_miss",
@@ -1804,8 +1959,8 @@
     "raw_area": "Dubai Land Residence Complex",
     "lat": 25.092075,
     "lng": 55.381922,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.09351079353368762
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.03265837806199354
   },
   {
     "type": "close_polygon",
@@ -1827,24 +1982,24 @@
     "raw_area": "Dubai Production City",
     "lat": 25.033238,
     "lng": 55.202479,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.010470029429113266
+    "nearest_area": "Jumeirah Golf Estates",
+    "distance": 0.0035567794772811603
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Land Residence Complex",
     "lat": 25.100306,
     "lng": 55.376709,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.08482170999750067
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.02291715310504366
   },
   {
     "type": "polygon_miss",
     "raw_area": "Al Satwa",
     "lat": 25.221632,
     "lng": 55.272474,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.014732980238111096
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.005147236876223883
   },
   {
     "type": "close_polygon",
@@ -1913,8 +2068,8 @@
     "raw_area": "Falcon City of Wonders",
     "lat": 25.095587,
     "lng": 55.337706,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.06431557489387603
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.02293647933402534
   },
   {
     "type": "close_polygon",
@@ -1987,10 +2142,19 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
     "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
+    "comparable_area": "Jumeirah Beach Residence",
     "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -2002,10 +2166,19 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
     "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
+    "comparable_area": "Jumeirah Beach Residence",
     "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -2035,16 +2208,16 @@
     "raw_area": "Dubai Science Park",
     "lat": 25.070994,
     "lng": 55.248796,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.01650231228887639
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.01508348206482858
   },
   {
     "type": "polygon_miss",
     "raw_area": "Arjan",
     "lat": 25.059242,
     "lng": 55.238385,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.016213743188731155
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.004484491734136577
   },
   {
     "type": "polygon_miss",
@@ -2059,16 +2232,16 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.175591,
     "lng": 55.309586,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01730753418890649
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.004873520612275728
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Investment Park",
     "lat": 24.98914,
     "lng": 55.20163,
-    "nearest_area": "Dubai South Residential District",
-    "distance": 0.02944143416965291
+    "nearest_area": "Jumeirah Golf Estates",
+    "distance": 0.023323154247861095
   },
   {
     "type": "close_polygon",
@@ -2148,6 +2321,11 @@
   },
   {
     "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0006438739222672825
+  },
+  {
+    "type": "close_polygon",
     "area": "Jumeirah Lakes Towers",
     "distance": 0.0
   },
@@ -2181,24 +2359,24 @@
     "raw_area": "Mohammed Bin Rashid City",
     "lat": 25.176559,
     "lng": 55.312067,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01921583403602467
+    "nearest_area": "Dubai Design District",
+    "distance": 0.004247311748811828
   },
   {
     "type": "polygon_miss",
     "raw_area": "DIFC",
     "lat": 25.207958,
     "lng": 55.277925,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.006031145242323437
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0021077714005331
   },
   {
     "type": "polygon_miss",
     "raw_area": "Dubai Science Park",
     "lat": 25.0716,
     "lng": 55.24687,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016013493216661165
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015856138026980583
   },
   {
     "type": "close_polygon",
@@ -2231,36 +2409,100 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Private Residences, Jumeirah 2, Jumeirah, Dubai",
-    "lat": 25.194454193115234,
-    "lng": 55.24066162109375,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.016185309481838463
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Bulgari Resort & Residences 6, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
-    "lat": 25.20964813232422,
-    "lng": 55.23322296142578,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.0319596531595167
+    "type": "polygon_match",
+    "area": "Jumeirah"
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Bulgari Resort & Residences 6, Bulgari Resort & Residences, Jumeirah Bay Island, Jumeirah, Dubai",
-    "lat": 25.20964813232422,
-    "lng": 55.23322296142578,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.0319596531595167
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Barton House 1, Barton House, Motor City, Dubai",
-    "lat": 25.04483413696289,
-    "lng": 55.24247741699219,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.02002505792299402
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Bay Island",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Bay Island"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Bay Island",
+    "heatmap_area": "Jumeirah",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Bay Island",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Bay Island"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Bay Island",
+    "heatmap_area": "Jumeirah",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Hebiah 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 1"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Motor City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Motor City"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Up Town Motor City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Up Town Motor City"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Up Town Motor City",
+    "heatmap_area": "Al Hebiah 1",
+    "match_count": 3
   },
   {
     "type": "close_polygon",
@@ -2270,6 +2512,11 @@
   {
     "type": "polygon_match",
     "area": "Dubai Marina"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.00012546722063386172
   },
   {
     "type": "polygon_selection",
@@ -2314,8 +2561,8 @@
     "raw_area": "South Garden B, South Garden, Wasl Gate, Dubai",
     "lat": 25.020727157592773,
     "lng": 55.10655975341797,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.04997726671974537
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.04793811389782679
   },
   {
     "type": "close_polygon",
@@ -2402,72 +2649,72 @@
     "raw_area": "Aria On The Park, Town Square, Dubai",
     "lat": 25.003414154052734,
     "lng": 55.29148864746094,
-    "nearest_area": "Dubai South Residential District",
-    "distance": 0.0794924253588327
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.05798745437254441
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "polygon_miss",
     "raw_area": "Building 157, Mogul Cluster, Discovery Gardens, Dubai",
     "lat": 25.035930633544922,
     "lng": 55.15129089355469,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.018043251020617657
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.006709559765568368
   },
   {
     "type": "close_polygon",
@@ -2561,64 +2808,78 @@
     "raw_area": "Maria Tower, Al Furjan, Dubai",
     "lat": 25.029897689819336,
     "lng": 55.13871383666992,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.02987283312028413
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.019277643269977194
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Bayview Tower 1, Bayview, Emaar Beachfront, Dubai Harbour, Dubai",
-    "lat": 25.09602165222168,
-    "lng": 55.13733673095703,
-    "nearest_area": "Dubai Marina",
-    "distance": 0.004055453515682862
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Beachgate by Address, Emaar Beachfront, Dubai Harbour, Dubai",
-    "lat": 25.10200309753418,
-    "lng": 55.14405822753906,
-    "nearest_area": "Dubai Marina",
-    "distance": 0.007989736850026706
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.022857977716068307
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.009190250261683209
   },
   {
     "type": "polygon_miss",
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.022857977716068307
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.009190250261683209
   },
   {
     "type": "polygon_miss",
     "raw_area": "Index Tower, DIFC, Dubai",
     "lat": 25.20753288269043,
     "lng": 55.277976989746094,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.005680289158457757
+    "nearest_area": "Trade Centre",
+    "distance": 0.0023837744433667617
   },
   {
     "type": "polygon_miss",
     "raw_area": "Burj Daman, DIFC, Dubai",
     "lat": 25.21103286743164,
     "lng": 55.28205108642578,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.010686555396909856
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.003884686094867109
   },
   {
     "type": "polygon_miss",
     "raw_area": "Burj Daman, DIFC, Dubai",
     "lat": 25.21103286743164,
     "lng": 55.28205108642578,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.010686555396909856
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.003884686094867109
   },
   {
     "type": "close_polygon",
@@ -2670,12 +2931,22 @@
     "distance": 0.021963524285641543
   },
   {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006048759627213896
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Limestone House, DIFC, Dubai",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.009990649741507802
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
   },
   {
     "type": "polygon_miss",
@@ -2686,76 +2957,97 @@
     "distance": 0.007342300787949171
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Sunrise Bay Tower 2, Sunrise Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-    "lat": 25.097517013549805,
-    "lng": 55.14009475708008,
-    "nearest_area": "Dubai Marina",
-    "distance": 0.006350310237315638
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-    "lat": 25.10262680053711,
-    "lng": 55.1435432434082,
-    "nearest_area": "Palma Residences, Palm Jumeirah",
-    "distance": 0.00865090448317743
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Harbour",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Harbour"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Harbour",
+    "heatmap_area": "Dubai Harbour",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "Belgravia Gardens, Falcon City of Wonders, Dubai",
     "lat": 25.0955867767334,
     "lng": 55.33770751953125,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.06431710268480467
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.022936060164339495
   },
   {
     "type": "polygon_miss",
     "raw_area": "Art House Hills by Adaan and Tuscany, Arjan, Dubai",
     "lat": 25.064807891845703,
     "lng": 55.24600601196289,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.022857977716068307
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.009190250261683209
   },
   {
     "type": "polygon_miss",
     "raw_area": "Seventh Heaven, Al Barari, Dubai",
     "lat": 25.100921630859375,
     "lng": 55.31316375732422,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.039224494036201485
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.03695675977289827
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Upper House East, Upper House, Jumeirah Lake Towers, Dubai",
-    "lat": 25.066797256469727,
-    "lng": 55.144535064697266,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.0010244793573296676
+    "type": "close_polygon",
+    "area": "Jumeirah Heights",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Heights"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Heights",
+    "heatmap_area": "Jumeirah Heights",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "Sola Residences, Wasl Gate, Dubai",
     "lat": 25.020753860473633,
     "lng": 55.10671615600586,
-    "nearest_area": "Jumeirah Lakes Towers",
-    "distance": 0.04986128819595594
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.04780169263740153
   },
   {
     "type": "polygon_miss",
     "raw_area": "Zahra Apartments 2B, Zahra Apartments 2, Zahra Apartments, Town Square, Dubai",
     "lat": 25.00888442993164,
     "lng": 55.289974212646484,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.07898104388046989
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.05302690408854372
   },
   {
     "type": "polygon_miss",
     "raw_area": "Maria Tower, Al Furjan, Dubai",
     "lat": 25.029897689819336,
     "lng": 55.13871383666992,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.02987283312028413
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.019277643269977194
   },
   {
     "type": "close_polygon",
@@ -2925,12 +3217,22 @@
     "distance": 0.017400369482502953
   },
   {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006803103322333525
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
     "lat": 25.206411361694336,
     "lng": 55.27519989013672,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.003365941255178968
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
   },
   {
     "type": "polygon_miss",
@@ -3026,8 +3328,8 @@
     "raw_area": "Golden Mile 1, Golden Mile, Palm Jumeirah, Dubai",
     "lat": 25.105371475219727,
     "lng": 55.14915084838867,
-    "nearest_area": "Palma Residences, Palm Jumeirah",
-    "distance": 0.0057959954250619145
+    "nearest_area": "Dubai Harbour",
+    "distance": 0.005572265506600444
   },
   {
     "type": "close_polygon",
@@ -3125,20 +3427,36 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Orbis Tower A, Sobha Orbis, Motor City, Dubai",
-    "lat": 25.050228118896484,
-    "lng": 55.24924850463867,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.025556415387469823
+    "type": "close_polygon",
+    "area": "Al Hebiah 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 1"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Motor City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Motor City"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Motor City",
+    "heatmap_area": "Al Hebiah 1",
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
     "raw_area": "Pearlz by Danube, Al Furjan, Dubai",
     "lat": 25.02781105041504,
     "lng": 55.15467071533203,
-    "nearest_area": "Jumeirah Village Circle",
-    "distance": 0.014211066681143084
+    "nearest_area": "Jumeirah Park",
+    "distance": 0.010959440337205778
   },
   {
     "type": "polygon_miss",
@@ -3149,12 +3467,22 @@
     "distance": 0.006546476565458489
   },
   {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006048759627213896
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Limestone House, DIFC, Dubai",
     "lat": 25.212017059326172,
     "lng": 55.278770446777344,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.009990649741507802
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
   },
   {
     "type": "close_polygon",
@@ -3197,36 +3525,54 @@
     "distance": 0.007342300787949171
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Residences Emirates Towers, Sheikh Zayed Road, Dubai",
-    "lat": 25.216997146606445,
-    "lng": 55.285465240478516,
-    "nearest_area": "Al Kifaf",
-    "distance": 0.013467671201663424
+    "type": "close_polygon",
+    "area": "Dubai World Trade Centre",
+    "distance": 0.000975451711438382
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
-    "lat": 25.217647552490234,
-    "lng": 55.282474517822266,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.013963734509008723
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
-    "lat": 25.217647552490234,
-    "lng": 55.282474517822266,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.013963734509008723
+    "type": "polygon_match",
+    "area": "Trade Centre"
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Limestone House, DIFC, Dubai",
-    "lat": 25.212017059326172,
-    "lng": 55.278770446777344,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.009990649741507802
+    "type": "polygon_selection",
+    "comparable_area": "Trade Centre",
+    "heatmap_area": "Trade Centre",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Trade Centre"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Trade Centre",
+    "heatmap_area": "Trade Centre",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Trade Centre"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Trade Centre",
+    "heatmap_area": "Trade Centre",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -3271,6 +3617,24 @@
   },
   {
     "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006048759627213896
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Limestone House, DIFC, Dubai",
+    "lat": 25.212017059326172,
+    "lng": 55.278770446777344,
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006048759627213896
+  },
+  {
+    "type": "close_polygon",
     "area": "Palm Jumeirah",
     "distance": 0.0
   },
@@ -3290,20 +3654,22 @@
     "match_count": 1
   },
   {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.00028958986724151746
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.00028958986724151746
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Liberty House, DIFC, Dubai",
     "lat": 25.20949935913086,
     "lng": 55.27676010131836,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.006825099211540191
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "City Walk Residential Building 2B, City Walk Residential, City Walk, Dubai",
-    "lat": 25.2059268951416,
-    "lng": 55.26463317871094,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.0057145969986707006
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.00028958986724151746
   },
   {
     "type": "close_polygon",
@@ -3388,12 +3754,19 @@
     "match_count": 3
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
-    "lat": 25.190338134765625,
-    "lng": 55.30483627319336,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01122360567566976
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -3402,6 +3775,14 @@
     "lng": 55.24728775024414,
     "nearest_area": "Dubai Hills",
     "distance": 0.007342300787949171
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "City Walk Residential Building 2B, City Walk Residential, City Walk, Dubai",
+    "lat": 25.2059268951416,
+    "lng": 55.26463317871094,
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0044039885315278115
   },
   {
     "type": "close_polygon",
@@ -3443,20 +3824,34 @@
     "distance": 0.021963524285641543
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
-    "lat": 25.190338134765625,
-    "lng": 55.30483627319336,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01122360567566976
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
-    "lat": 25.190338134765625,
-    "lng": 55.30483627319336,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01122360567566976
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -3497,14 +3892,6 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Club Place Building B, Club Place, Dubai Hills Estate, Dubai",
-    "lat": 25.12763023376465,
-    "lng": 55.26041030883789,
-    "nearest_area": "Parkway Vistas, Dubai Hills Estate",
-    "distance": 0.0015973770113424488
-  },
-  {
     "type": "close_polygon",
     "area": "Palma Residences, Palm Jumeirah",
     "distance": 0.00029901306563939674
@@ -3519,19 +3906,34 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Index Tower, DIFC, Dubai",
-    "lat": 25.20753288269043,
-    "lng": 55.277976989746094,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.005680289158457757
+    "raw_area": "Club Place Building B, Club Place, Dubai Hills Estate, Dubai",
+    "lat": 25.12763023376465,
+    "lng": 55.26041030883789,
+    "nearest_area": "Parkway Vistas, Dubai Hills Estate",
+    "distance": 0.0015973770113424488
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-    "lat": 25.206926345825195,
-    "lng": 55.32322311401367,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.017575703534740996
+    "raw_area": "Index Tower, DIFC, Dubai",
+    "lat": 25.20753288269043,
+    "lng": 55.277976989746094,
+    "nearest_area": "Trade Centre",
+    "distance": 0.0023837744433667617
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -3543,10 +3945,19 @@
     "area": "Dubai Marina"
   },
   {
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
     "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
+    "comparable_area": "Jumeirah Beach Residence",
     "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
@@ -3561,16 +3972,23 @@
     "raw_area": "City Walk Crestlane 5, City Walk Crestlane, City Walk, Dubai",
     "lat": 25.20611572265625,
     "lng": 55.257022857666016,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.012023071814197567
+    "nearest_area": "Jumeirah",
+    "distance": 0.0031801191041591044
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Emirates Tower, Emirates Towers, Sheikh Zayed Road, Dubai",
-    "lat": 25.217647552490234,
-    "lng": 55.282474517822266,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.013963734509008723
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Trade Centre"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Trade Centre",
+    "heatmap_area": "Trade Centre",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -3659,12 +4077,19 @@
     "distance": 0.005238874218265421
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Peninsula Dubai Residences Tower 2, Peninsula Dubai Residences, Jumeirah 2, Jumeirah, Dubai",
-    "lat": 25.196975708007812,
-    "lng": 55.23417282104492,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.02266507425975175
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -3691,12 +4116,19 @@
     "match_count": 2
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Kempinski Residences The Creek Tower 2, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-    "lat": 25.206926345825195,
-    "lng": 55.32322311401367,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.017575703534740996
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -3710,6 +4142,30 @@
     "lng": 55.260475158691406,
     "nearest_area": "Club Villas, Dubai Hills Estate",
     "distance": 0.0008063070698957921
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Jumeirah"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Jumeirah - The Crescent",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Jumeirah - The Crescent"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Jumeirah - The Crescent",
+    "heatmap_area": "Palm Jumeirah",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -3741,36 +4197,12 @@
     "match_count": 2
   },
   {
-    "type": "close_polygon",
-    "area": "Palm Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Jumeirah - The Crescent",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah - The Crescent"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Jumeirah - The Crescent",
-    "heatmap_area": "Palm Jumeirah",
-    "match_count": 2
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "DIFC Living, DIFC, Dubai",
     "lat": 25.208654403686523,
     "lng": 55.2785530090332,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.006941082038077859
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0022542429784464676
   },
   {
     "type": "polygon_miss",
@@ -3793,16 +4225,16 @@
     "raw_area": "Ashjar Building E1, Ashjar, Al Barari, Dubai",
     "lat": 25.100688934326172,
     "lng": 55.31568908691406,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.0417226840936538
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.03496559168626349
   },
   {
     "type": "polygon_miss",
     "raw_area": "Park Tower B, Park Towers, DIFC, Dubai",
     "lat": 25.209806442260742,
     "lng": 55.27897262573242,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.008155818309180718
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0020424797145552572
   },
   {
     "type": "polygon_miss",
@@ -3865,8 +4297,8 @@
     "raw_area": "University View, Dubai Silicon Oasis, Dubai",
     "lat": 25.126480102539062,
     "lng": 55.4051513671875,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.06779303564692046
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.026216243011509443
   },
   {
     "type": "polygon_miss",
@@ -3909,28 +4341,27 @@
     "distance": 0.005238874218265421
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-    "lat": 25.206926345825195,
-    "lng": 55.32322311401367,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.017575703534740996
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "The Cape, Al Barari, Dubai",
     "lat": 25.09952163696289,
     "lng": 55.31328582763672,
-    "nearest_area": "Golf Grove, Dubai Hills Estate",
-    "distance": 0.03973780330891386
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
-    "lat": 25.077001571655273,
-    "lng": 55.24882507324219,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.010501647637972743
+    "nearest_area": "Mohammed Bin Rashid City District 11",
+    "distance": 0.03761688687866055
   },
   {
     "type": "polygon_miss",
@@ -3939,6 +4370,14 @@
     "lng": 55.24605178833008,
     "nearest_area": "Dubai Hills",
     "distance": 0.007755703631999539
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Skyhills Residences 2, Skyhills Residences, Dubai Science Park, Dubai",
+    "lat": 25.077001571655273,
+    "lng": 55.24882507324219,
+    "nearest_area": "Dubai Hills",
+    "distance": 0.010501647637972743
   },
   {
     "type": "polygon_miss",
@@ -3972,28 +4411,42 @@
     "distance": 0.0011593252267067514
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
-    "lat": 25.195905685424805,
-    "lng": 55.23814392089844,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.019019632151894627
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "350 Riverside Crescent, Sobha Hartland II, Bukadra, Dubai",
     "lat": 25.177854537963867,
     "lng": 55.32522964477539,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.022322339020436337
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.007991193530309483
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Kempinski Residences The Creek Tower 1, Kempinski Residences The Creek, Dubai Healthcare City 2, Al Jaddaf, Dubai",
-    "lat": 25.206926345825195,
-    "lng": 55.32322311401367,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.017575703534740996
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -4002,26 +4455,6 @@
     "lng": 55.26326370239258,
     "nearest_area": "Downtown Dubai",
     "distance": 0.004364019037634644
-  },
-  {
-    "type": "close_polygon",
-    "area": "Business Bay",
-    "distance": 0.0005773279604606245
-  },
-  {
-    "type": "close_polygon",
-    "area": "Downtown Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Downtown Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Downtown Dubai",
-    "heatmap_area": "Downtown Dubai",
-    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -4056,12 +4489,42 @@
     "match_count": 2
   },
   {
+    "type": "close_polygon",
+    "area": "Business Bay",
+    "distance": 0.0005773279604606245
+  },
+  {
+    "type": "close_polygon",
+    "area": "Downtown Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Downtown Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Downtown Dubai",
+    "heatmap_area": "Downtown Dubai",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006803103322333525
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
     "lat": 25.206411361694336,
     "lng": 55.27519989013672,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.003365941255178968
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
   },
   {
     "type": "close_polygon",
@@ -4116,16 +4579,16 @@
     "raw_area": "DIFC Living, DIFC, Dubai",
     "lat": 25.208654403686523,
     "lng": 55.2785530090332,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.006941082038077859
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0022542429784464676
   },
   {
     "type": "polygon_miss",
     "raw_area": "The Crest Tower C, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
     "lat": 25.17682647705078,
     "lng": 55.313720703125,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.020693500672394987
+    "nearest_area": "Dubai Design District",
+    "distance": 0.003913183892036085
   },
   {
     "type": "close_polygon",
@@ -4147,8 +4610,8 @@
     "raw_area": "One Za'abeel The Residences, Zabeel 1, Zabeel, Dubai",
     "lat": 25.227611541748047,
     "lng": 55.29294967651367,
-    "nearest_area": "Al Kifaf",
-    "distance": 0.0027699515459628315
+    "nearest_area": "Dubai World Trade Centre",
+    "distance": 0.0019217726986818285
   },
   {
     "type": "close_polygon",
@@ -4166,20 +4629,45 @@
     "match_count": 1
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Maybach Six, Nad Al Sheba 1, Nad Al Sheba, Dubai",
-    "lat": 25.165393829345703,
-    "lng": 55.324886322021484,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.02935718372308039
+    "type": "close_polygon",
+    "area": "Nad Al Sheba",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Nad Al Sheba"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Nad Al Sheba 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Nad Al Sheba 1"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Tonino Lamborghini Residences",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Tonino Lamborghini Residences"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Tonino Lamborghini Residences",
+    "heatmap_area": "Nad Al Sheba",
+    "match_count": 3
   },
   {
     "type": "polygon_miss",
     "raw_area": "Binghatti Hills Tower 2, Binghatti Hills, Dubai Science Park, Dubai",
     "lat": 25.071121215820312,
     "lng": 55.24883270263672,
-    "nearest_area": "Dubai Hills",
-    "distance": 0.016373329582854618
+    "nearest_area": "Al Hebiah 1",
+    "distance": 0.015209143851543882
   },
   {
     "type": "close_polygon",
@@ -4296,12 +4784,19 @@
     "match_count": 2
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-    "lat": 25.030311584472656,
-    "lng": 55.20481491088867,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.013825733970424102
+    "type": "close_polygon",
+    "area": "Jumeirah Golf Estates",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Golf Estates"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Golf Estates",
+    "heatmap_area": "Jumeirah Golf Estates",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -4331,40 +4826,56 @@
     "raw_area": "One Park Avenue, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
     "lat": 25.176891326904297,
     "lng": 55.31071090698242,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.017828711384974282
+    "nearest_area": "Dubai Design District",
+    "distance": 0.004065877390891855
   },
   {
     "type": "polygon_miss",
     "raw_area": "City Walk Crestlane 1, City Walk Crestlane, City Walk, Dubai",
     "lat": 25.208223342895508,
     "lng": 55.257022857666016,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.013266553889173789
+    "nearest_area": "Jumeirah",
+    "distance": 0.001979935588314984
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Culture Village",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Culture Village"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Culture Village",
+    "heatmap_area": "Al Jaddaf",
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
     "raw_area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
     "lat": 25.177446365356445,
     "lng": 55.314884185791016,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.021632409517924518
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palazzo Versace, Culture Village, Dubai",
-    "lat": 25.227294921875,
-    "lng": 55.34176254272461,
-    "nearest_area": "Bur Dubai",
-    "distance": 0.006893124790948259
+    "nearest_area": "Dubai Design District",
+    "distance": 0.003332120642396444
   },
   {
     "type": "polygon_miss",
     "raw_area": "320 Riverside Crescent, Sobha Hartland II, Bukadra, Dubai",
     "lat": 25.175735473632812,
     "lng": 55.32565689086914,
-    "nearest_area": "Dubai Creek Harbour",
-    "distance": 0.022760459274672764
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.005906537321192877
   },
   {
     "type": "polygon_miss",
@@ -4375,60 +4886,109 @@
     "distance": 0.0024025121859460783
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Al Andalus Tower B, Al Andalus, Jumeirah Golf Estates, Dubai",
-    "lat": 25.030311584472656,
-    "lng": 55.20481491088867,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.013825733970424102
+    "type": "close_polygon",
+    "area": "Jumeirah Golf Estates",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Golf Estates"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Golf Estates",
+    "heatmap_area": "Jumeirah Golf Estates",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "Sobha Hartland Waves, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
     "lat": 25.17559051513672,
     "lng": 55.30958557128906,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01730736045668043
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.004873055603329481
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Orbis Tower E, Sobha Orbis, Motor City, Dubai",
-    "lat": 25.048465728759766,
-    "lng": 55.24924087524414,
-    "nearest_area": "Al Barsha South 4",
-    "distance": 0.025725732591588585
+    "type": "close_polygon",
+    "area": "Al Hebiah 1",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "The Edit at D3 Tower A, The Edit at D3, Dubai Design District, Dubai",
-    "lat": 25.18958282470703,
-    "lng": 55.30175018310547,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.008072067075970699
+    "type": "polygon_match",
+    "area": "Al Hebiah 1"
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "The Edit at D3 Tower C, The Edit at D3, Dubai Design District, Dubai",
-    "lat": 25.189579010009766,
-    "lng": 55.301753997802734,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.008075453165579526
+    "type": "close_polygon",
+    "area": "Motor City",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "The Edit at D3 Tower C, The Edit at D3, Dubai Design District, Dubai",
-    "lat": 25.189579010009766,
-    "lng": 55.301753997802734,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.008075453165579526
+    "type": "polygon_match",
+    "area": "Motor City"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Up Town Motor City",
+    "distance": 0.00046321118029238827
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Motor City",
+    "heatmap_area": "Al Hebiah 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Design District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Design District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Design District",
+    "heatmap_area": "Dubai Design District",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
     "raw_area": "Azizi Riviera Beachfront Tower C, Azizi Riviera Beachfront, Azizi Riviera, Meydan One, Meydan, Dubai",
     "lat": 25.175128936767578,
     "lng": 55.31095504760742,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.01874175697204839
+    "nearest_area": "Nad Al Sheba",
+    "distance": 0.0043531092950256445
   },
   {
     "type": "close_polygon",
@@ -4440,18 +5000,34 @@
     "area": "Dubai Marina"
   },
   {
-    "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
-    "heatmap_area": "Dubai Marina",
-    "match_count": 1
+    "type": "close_polygon",
+    "area": "Jumeirah Beach Residence",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
-    "lat": 25.195905685424805,
-    "lng": 55.23814392089844,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.019019632151894627
+    "type": "polygon_match",
+    "area": "Jumeirah Beach Residence"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Beach Residence",
+    "heatmap_area": "Dubai Marina",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -4482,8 +5058,8 @@
     "raw_area": "Address Residences Zabeel 4, Address Residences Zabeel, Zabeel 1, Zabeel, Dubai",
     "lat": 25.226516723632812,
     "lng": 55.29519271850586,
-    "nearest_area": "Al Kifaf",
-    "distance": 0.004358542224947135
+    "nearest_area": "Dubai World Trade Centre",
+    "distance": 0.0029177456778966986
   },
   {
     "type": "close_polygon",
@@ -4515,35 +5091,45 @@
     "match_count": 2
   },
   {
+    "type": "close_polygon",
+    "area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0006803103322333525
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
     "lat": 25.206411361694336,
     "lng": 55.27519989013672,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.003365941255178968
+    "nearest_area": "Sheikh Zayed Road",
+    "distance": 0.0006803103322333525
   },
   {
     "type": "polygon_miss",
     "raw_area": "Eden House Zaabeel, DIFC, Dubai",
     "lat": 25.208112716674805,
     "lng": 55.29780578613281,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.015496317993893446
+    "nearest_area": "Al Jaddaf",
+    "distance": 0.013753016019092635
   },
   {
     "type": "polygon_miss",
     "raw_area": "Eden House Zaabeel, DIFC, Dubai",
     "lat": 25.208112716674805,
     "lng": 55.29780578613281,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.015496317993893446
+    "nearest_area": "Al Jaddaf",
+    "distance": 0.013753016019092635
   },
   {
     "type": "polygon_miss",
     "raw_area": "Eden House Zaabeel, DIFC, Dubai",
     "lat": 25.208112716674805,
     "lng": 55.29780578613281,
-    "nearest_area": "Downtown Dubai",
-    "distance": 0.015496317993893446
+    "nearest_area": "Al Jaddaf",
+    "distance": 0.013753016019092635
   }
 ]
