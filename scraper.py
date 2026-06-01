@@ -1370,7 +1370,7 @@ with open("areas.json", "r", encoding="utf-8") as f:
     area_coords = json.load(f)
 
 areas_gdf = gpd.read_file(
-    "dubai_areas.geojson"
+    "polygon_cache.geojson"
 )
 
 print("ORIGINAL CRS:", areas_gdf.crs)
