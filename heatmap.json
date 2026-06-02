@@ -7,14 +7,158 @@
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 321,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.392963,
+    "lng": 55.5761,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Emirates City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 333,
+    "median_price_per_sqft": 338,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.392834,
+    "lng": 55.575992,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Nuaimiya",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 416,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.386411,
+    "lng": 55.459753,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Rashidiya",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 446,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.395008,
+    "lng": 55.451151,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Helio",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 492,
+    "listing_count": 12,
+    "comparable_count": 12,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.390655392167,
+    "lng": 55.595150565966,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Rashidiya",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 498,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.395075,
+    "lng": 55.430699,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Zahya",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 500,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.414129848511,
+    "lng": 55.602666465888,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Helio",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 500,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.390655392167,
+    "lng": 55.595150565966,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Helio",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 6,
+    "median_price_per_sqft": 502,
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.575992,
-    "lng": 25.392834,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.390655392167,
+    "lng": 55.595150565966,
     "color": "green"
   },
   {
@@ -30,9 +174,172 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.57603736337992,
-    "lng": 25.38681945394501,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.38681945394501,
+    "lng": 55.57603736337992,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Yasmeen",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 513,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.3784999847412,
+    "lng": 55.5713005065917,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Corniche Ajman",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 568,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.404942,
+    "lng": 55.430433,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Corniche Ajman",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 579,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.401445,
+    "lng": 55.426894,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai Investments Park",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 680,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.00287629931355,
+    "lng": 55.15564432932171,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Shamkha",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 720,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.367948990675,
+    "lng": 54.672864750437,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Shamkha",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 820,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.367948990675,
+    "lng": 54.672864750437,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Damac Hills 2 (Akoya By Damac)",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 874,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.987104834855,
+    "lng": 55.393395594397,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Tilal City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 937,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.255450422751,
+    "lng": 55.595003420933,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Al Hebiah 4",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 986,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.041972,
+    "lng": 55.205478,
     "color": "green"
   },
   {
@@ -48,45 +355,45 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.595003420933,
-    "lng": 25.255450422751,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.255450422751,
+    "lng": 55.595003420933,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Dubai Sports City",
+    "area": "Damac Hills 2 (Akoya By Damac)",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1017,
-    "listing_count": 5,
-    "comparable_count": 5,
+    "bedrooms": 4,
+    "median_price_per_sqft": 994,
+    "listing_count": 6,
+    "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.205478,
-    "lng": 25.041972,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.983187450139,
+    "lng": 55.386862621076,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Zibalai",
+    "area": "Aljada",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1048,
+    "median_price_per_sqft": 1006,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.09211357111146,
-    "lng": 24.97845819621965,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.31771255153204,
+    "lng": 55.47784674908144,
     "color": "green"
   },
   {
@@ -102,369 +409,84 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.46930049802504,
-    "lng": 25.30851371534784,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.30851371534784,
+    "lng": 55.46930049802504,
     "color": "green"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "bhomes"
     ],
-    "area": "Dubai Sports City",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1104,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.221146,
-    "lng": 25.035858,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Production City (Impz)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1142,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.192581,
-    "lng": 25.040295,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Šešuolių seniūnija",
+    "area": "Wadi Al Safa 5",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1152,
-    "listing_count": 22,
-    "comparable_count": 22,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.222844,
-    "lng": 24.939454,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai South",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1206,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.213237048612,
-    "lng": 24.949316249846,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Šešuolių seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1262,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.22404574140586,
-    "lng": 24.93916309468872,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Šešuolių seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1265,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24445,
-    "lng": 25.020692,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jebel Ali",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1265,
-    "listing_count": 12,
-    "comparable_count": 12,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.08857651,
-    "lng": 24.97103564,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Valley By Emaar",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1282,
-    "listing_count": 16,
-    "comparable_count": 16,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.435048023911,
-    "lng": 25.000877491656,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Šešuolių seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1293,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.224219996037,
-    "lng": 24.934315136653,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Production City (Impz)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1299,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.18416605730451,
-    "lng": 25.02342960386642,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Valley By Emaar",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1315,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.453680220734,
-    "lng": 25.003543693073,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Villa",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1315,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.368357969395,
-    "lng": 25.091316096391,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Lagoons",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1321,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.246361534926,
-    "lng": 25.009123191741,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Village Circle",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1321,
-    "listing_count": 30,
-    "comparable_count": 30,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.219049,
-    "lng": 25.05668,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1330,
-    "listing_count": 12,
-    "comparable_count": 12,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24372382361911,
-    "lng": 25.02490540945352,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Village Triangle (Jvt)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1331,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.17329329949487,
-    "lng": 25.03271393337673,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Village Circle",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1348,
+    "median_price_per_sqft": 1084,
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.20664925671974,
-    "lng": 25.0491150073548,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0949189454839,
+    "lng": 55.37280160190662,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Mirdif",
+    "area": "International City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1092,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.116807,
+    "lng": 55.391435,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Al Hebiah 4",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1121,
+    "listing_count": 12,
+    "comparable_count": 12,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.031639,
+    "lng": 55.223646,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Dubai South Residential District",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1350,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "median_price_per_sqft": 1133,
+    "listing_count": 12,
+    "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.43951886589804,
-    "lng": 25.21918873707877,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai South",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1351,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.154535952292,
-    "lng": 24.846504047637,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Lagoons",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1355,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.237728075756,
-    "lng": 25.006214622407,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.939454,
+    "lng": 55.222844,
     "color": "green"
   },
   {
@@ -476,88 +498,528 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 4,
-    "median_price_per_sqft": 1382,
-    "listing_count": 12,
-    "comparable_count": 12,
+    "median_price_per_sqft": 1135,
+    "listing_count": 11,
+    "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.449441926779,
-    "lng": 24.529110666659,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.529110666659,
+    "lng": 54.449441926779,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Motor City",
+    "area": "Al Hebiah 1",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1392,
+    "bedrooms": 2,
+    "median_price_per_sqft": 1140,
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.237168853875,
-    "lng": 25.04597726630246,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0478894745553,
+    "lng": 55.2479557693278,
     "color": "green"
   },
   {
     "sources": [
-      "propertyfinder",
       "dubizzle",
-      "99acres",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "International City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1142,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.127852,
+    "lng": 55.402524,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1160,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.006214622407,
+    "lng": 55.237728075756,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 4",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1165,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.043246,
+    "lng": 55.216638,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Aljada",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1176,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.31963210530658,
+    "lng": 55.48151540671174,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai South Residential District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1177,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.939454,
+    "lng": 55.222844,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Emaar South Golf District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1191,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.843779906086,
+    "lng": 55.147831964912,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "International City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1194,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.12393599721689,
+    "lng": 55.37361723231035,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Zayed City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1221,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.40537462194,
+    "lng": 54.642862778286,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "City of Arabia",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1223,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.09290607,
+    "lng": 55.3277578,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Wadi Al Safa 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1227,
+    "listing_count": 20,
+    "comparable_count": 20,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.092683265725,
+    "lng": 55.38431245004455,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Emaar South Golf District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1249,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.846504047637,
+    "lng": 55.154535952292,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai Studio City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1257,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.03673917437332,
+    "lng": 55.23786093984242,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1263,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.09569362327983,
+    "lng": 55.32407786444423,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Me’aisem 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1265,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.02703679980081,
+    "lng": 55.1943420977582,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Zayed City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1268,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.40374094849,
+    "lng": 54.633209077221,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai South Residential District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1281,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.943485473601,
+    "lng": 55.216565030359,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "The Valley By Emaar",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1293,
+    "listing_count": 21,
+    "comparable_count": 21,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.004398653094,
+    "lng": 55.436878693469,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
       "bhomes"
     ],
     "area": "Jumeirah Village Circle",
     "property_type": "apartment",
     "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1395,
-    "listing_count": 88,
-    "comparable_count": 88,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.217732,
-    "lng": 25.062218,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Science Park",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1403,
+    "quality_tier": "premium",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1299,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.245798,
-    "lng": 25.069335,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.044990447876,
+    "lng": 55.192315178714,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jebel Ali",
+    "area": "The Valley By Emaar",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1303,
+    "listing_count": 18,
+    "comparable_count": 18,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.004398653094,
+    "lng": 55.436878693469,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 3",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 0,
-    "median_price_per_sqft": 1404,
+    "median_price_per_sqft": 1303,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.02490540945352,
+    "lng": 55.24372382361911,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Me’aisem 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1310,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0305272909067,
+    "lng": 55.20544858892561,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1316,
+    "listing_count": 19,
+    "comparable_count": 19,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.009123191741,
+    "lng": 55.246361534926,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "City of Arabia",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1320,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0929175,
+    "lng": 55.33127331,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1326,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.07246849205455,
-    "lng": 24.95029397607766,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.012263208915,
+    "lng": 55.237202871851,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai Investments Park",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1329,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.000101574861,
+    "lng": 55.164339642843,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai South Residential District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1330,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.949316249846,
+    "lng": 55.213237048612,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Al Yalayis 2",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1330,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.996511134941,
+    "lng": 55.295086858842,
     "color": "green"
   },
   {
@@ -569,104 +1031,441 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 4,
-    "median_price_per_sqft": 1417,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.622272901061,
-    "lng": 24.499244777519,
+    "median_price_per_sqft": 1335,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.499244777519,
+    "lng": 54.622272901061,
     "color": "green"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "bhomes"
     ],
-    "area": "Al Furjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1429,
-    "listing_count": 23,
-    "comparable_count": 23,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.15033650203543,
-    "lng": 25.03098371264151,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Oasis By Emaar",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1441,
-    "listing_count": 20,
-    "comparable_count": 20,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.2245270465,
-    "lng": 24.989481441631,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1442,
-    "listing_count": 17,
-    "comparable_count": 17,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.25253868935633,
-    "lng": 25.01780923659676,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Furjan",
+    "area": "Al Hebiah 3",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1452,
-    "listing_count": 16,
-    "comparable_count": 16,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.140038,
-    "lng": 25.038946,
+    "median_price_per_sqft": 1335,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.014448,
+    "lng": 55.250484,
     "color": "green"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Dubai Science Park",
+    "area": "Mirdif",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1339,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.2266599104849,
+    "lng": 55.44139962834856,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Al Hebiah 1",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1462,
-    "listing_count": 11,
-    "comparable_count": 11,
+    "median_price_per_sqft": 1339,
+    "listing_count": 10,
+    "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24777641781685,
-    "lng": 25.06993074551899,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.04597726630246,
+    "lng": 55.237168853875,
     "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Me’aisem 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1341,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0301125929586,
+    "lng": 55.20456608943636,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jebel Ali",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1342,
+    "listing_count": 16,
+    "comparable_count": 16,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.97103564,
+    "lng": 55.08857651,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "The Valley By Emaar",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1342,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.019624908004,
+    "lng": 55.438095751955,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1350,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.090813566325,
+    "lng": 55.32188921802,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1382,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.038946,
+    "lng": 55.140038,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1383,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.022187,
+    "lng": 55.138874,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Emaar South Golf District",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1400,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.860619853084,
+    "lng": 55.150731014564,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai Investments Park",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1409,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.997899243276,
+    "lng": 55.163377671807,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1432,
+    "listing_count": 105,
+    "comparable_count": 105,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.06294770824654,
+    "lng": 55.20083927443633,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1437,
+    "listing_count": 20,
+    "comparable_count": 20,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.03098371264151,
+    "lng": 55.15033650203543,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Emirates Hills",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1442,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.079233,
+    "lng": 55.153963,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Mudon",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1446,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.022637307531,
+    "lng": 55.27036843309,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Al Barsha",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1451,
+    "listing_count": 20,
+    "comparable_count": 20,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.069335,
+    "lng": 55.245798,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Reem",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1456,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.015727681703,
+    "lng": 55.297929059535,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Downtown Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1462,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.394165,
+    "lng": 55.457588,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Al Hebiah 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1481,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.020692,
+    "lng": 55.24445,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1481,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.08651389348434,
+    "lng": 55.31528700485058,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1496,
+    "listing_count": 49,
+    "comparable_count": 49,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.05981267501302,
+    "lng": 55.20012450821483,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Palm Deira",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1498,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.312516469502,
+    "lng": 55.323258579321,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1508,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.03302053742,
+    "lng": 55.120643382328,
+    "color": "yellow"
   },
   {
     "sources": [
@@ -677,176 +1476,139 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1465,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.14249447699528,
-    "lng": 24.84035577405214,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Saadiyat Island",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1479,
-    "listing_count": 13,
-    "comparable_count": 13,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.444338431491,
-    "lng": 24.519648299353,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "Dubai Marina",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1488,
-    "listing_count": 13,
-    "comparable_count": 13,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.1473999023438,
-    "lng": 25.0879001617432,
-    "color": "green"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Arjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1504,
+    "median_price_per_sqft": 1510,
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.23639138755607,
-    "lng": 25.05933676264459,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.91562246349383,
+    "lng": 55.10828564009944,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Želvos seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1509,
-    "listing_count": 58,
-    "comparable_count": 58,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.20404424036172,
-    "lng": 25.0667152273962,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Furjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1514,
-    "listing_count": 9,
-    "comparable_count": 9,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.138874,
-    "lng": 25.022187,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Pakryžė",
+    "area": "The Oasis By Emaar",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 4,
-    "median_price_per_sqft": 1516,
-    "listing_count": 11,
-    "comparable_count": 11,
+    "median_price_per_sqft": 1510,
+    "listing_count": 24,
+    "comparable_count": 24,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.323258579321,
-    "lng": 25.312516469502,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.989481441631,
+    "lng": 55.2245270465,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jumeirah Village Triangle (Jvt)",
+    "area": "Wadi Al Safa 5",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1527,
-    "listing_count": 25,
-    "comparable_count": 25,
+    "bedrooms": 0,
+    "median_price_per_sqft": 1520,
+    "listing_count": 16,
+    "comparable_count": 16,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.1733092441599,
-    "lng": 25.03290515313728,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.092683265725,
+    "lng": 55.38431245004455,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Arabian Ranches 3",
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1532,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.044682416584,
+    "lng": 55.181835595496,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "premium",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1532,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.035311186394,
+    "lng": 55.115082846246,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jebel Ali",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1540,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.95029397607766,
+    "lng": 55.07246849205455,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Reem Island",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
     "median_price_per_sqft": 1550,
-    "listing_count": 13,
-    "comparable_count": 13,
+    "listing_count": 12,
+    "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.320044469091,
-    "lng": 25.062156816163,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.49673867098242,
+    "lng": 54.40514716557482,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Al Furjan",
+    "area": "Damac Islands",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1559,
-    "listing_count": 19,
-    "comparable_count": 19,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.136951636266,
-    "lng": 25.025434822233,
+    "bedrooms": 4,
+    "median_price_per_sqft": 1563,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.035276457058,
+    "lng": 55.314129853497,
     "color": "yellow"
   },
   {
@@ -862,63 +1624,27 @@
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.266820612229,
-    "lng": 25.021295041619,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.021295041619,
+    "lng": 55.266820612229,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Arjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1594,
-    "listing_count": 10,
-    "comparable_count": 10,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.239318,
-    "lng": 25.057845,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Business Bay",
+    "area": "Wadi Al Safa 5",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 1595,
-    "listing_count": 8,
-    "comparable_count": 8,
+    "median_price_per_sqft": 1582,
+    "listing_count": 27,
+    "comparable_count": 27,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.29216158023235,
-    "lng": 25.18576267465938,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "bhomes"
-    ],
-    "area": "Emirates Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1601,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.062156816163,
+    "lng": 55.320044469091,
     "color": "yellow"
   },
   {
@@ -930,13 +1656,269 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1602,
-    "listing_count": 21,
-    "comparable_count": 21,
+    "median_price_per_sqft": 1595,
+    "listing_count": 25,
+    "comparable_count": 25,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.40610080971199,
-    "lng": 24.4984843912363,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.4984843912363,
+    "lng": 54.40610080971199,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Saadiyat Island",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1595,
+    "listing_count": 12,
+    "comparable_count": 12,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.519648299353,
+    "lng": 54.444338431491,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Al Barsha",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1596,
+    "listing_count": 36,
+    "comparable_count": 36,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.06993074551899,
+    "lng": 55.24777641781685,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Emirates Hills",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1601,
+    "listing_count": 19,
+    "comparable_count": 19,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.06832392584624,
+    "lng": 55.13828286310058,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1616,
+    "listing_count": 27,
+    "comparable_count": 27,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.083908229287,
+    "lng": 55.355261861831,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Masdar City",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1622,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.43238110095678,
+    "lng": 54.62191314782395,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1627,
+    "listing_count": 16,
+    "comparable_count": 16,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.03302053742,
+    "lng": 55.120643382328,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Raha Beach",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1644,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.446082304574,
+    "lng": 54.586917297717,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Mudon",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1659,
+    "listing_count": 17,
+    "comparable_count": 17,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.007668426252,
+    "lng": 55.259200278983,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jabal Ali 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1660,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.023808248879,
+    "lng": 55.124693609791,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Barsha",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1664,
+    "listing_count": 26,
+    "comparable_count": 26,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.06993074551899,
+    "lng": 55.24777641781685,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Yas Island",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1669,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.499234396045,
+    "lng": 54.617994325037,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 1671,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.021236224569,
+    "lng": 55.264471578425,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Reem Island",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1699,
+    "listing_count": 36,
+    "comparable_count": 36,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.50671421758344,
+    "lng": 54.41265074056367,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1700,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0879001617432,
+    "lng": 55.1473999023438,
     "color": "yellow"
   },
   {
@@ -949,49 +1931,122 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 0,
-    "median_price_per_sqft": 1627,
-    "listing_count": 42,
-    "comparable_count": 42,
+    "median_price_per_sqft": 1703,
+    "listing_count": 62,
+    "comparable_count": 62,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.213305535744,
-    "lng": 25.06841785674463,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.03906316131446,
+    "lng": 55.18090745998242,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Želvos seniūnija",
+    "area": "Al Hebiah 5",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1640,
-    "listing_count": 48,
-    "comparable_count": 48,
+    "median_price_per_sqft": 1708,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.00787277240835,
+    "lng": 55.22977989927188,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1745,
+    "listing_count": 29,
+    "comparable_count": 29,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.174361264888,
-    "lng": 25.051038895544,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.080451,
+    "lng": 55.144278,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jebel Ali",
+    "area": "The Oasis By Emaar",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1641,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "bedrooms": 6,
+    "median_price_per_sqft": 1754,
+    "listing_count": 14,
+    "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.120643382328,
-    "lng": 25.03302053742,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.997676848957,
+    "lng": 55.201512611125,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1758,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.132607171585,
+    "lng": 55.31150767068,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 1760,
+    "listing_count": 20,
+    "comparable_count": 20,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.021236224569,
+    "lng": 55.264471578425,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Dubai South",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 1780,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.829927684048,
+    "lng": 55.131588153281,
     "color": "yellow"
   },
   {
@@ -1004,373 +2059,85 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 1645,
-    "listing_count": 15,
-    "comparable_count": 15,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.150731014564,
-    "lng": 24.860619853084,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Furjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1647,
-    "listing_count": 15,
-    "comparable_count": 15,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.143907705696,
-    "lng": 25.026186893907,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jebel Ali",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1659,
+    "median_price_per_sqft": 1783,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.11490119117,
-    "lng": 25.036632722983,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.91593871542939,
+    "lng": 55.1074748968378,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Al Furjan",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1660,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.124693609791,
-    "lng": 25.023808248879,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Mudon",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1661,
-    "listing_count": 20,
-    "comparable_count": 20,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.260066304011,
-    "lng": 25.006520562643,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Mohammed Bin Rashid City (Mbr City)",
+    "area": "Wadi Al Safa 3",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 4,
-    "median_price_per_sqft": 1675,
+    "median_price_per_sqft": 1796,
+    "listing_count": 33,
+    "comparable_count": 33,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.136818691866,
+    "lng": 55.317237915958,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 5",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 1806,
     "listing_count": 18,
     "comparable_count": 18,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.34259688844,
-    "lng": 25.118498186892,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.091316096391,
+    "lng": 55.368357969395,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jumeirah Lake Towers",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1676,
-    "listing_count": 20,
-    "comparable_count": 20,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.13828286310058,
-    "lng": 25.06832392584624,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Yas Island",
+    "area": "Me’aisem 1",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 1681,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.617994325037,
-    "lng": 24.499234396045,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Reem Island",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1682,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.40514716557482,
-    "lng": 24.49673867098242,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1701,
+    "median_price_per_sqft": 1813,
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.250484,
-    "lng": 25.014448,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.019019208061,
+    "lng": 55.207371472279,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Arabian Ranches 3",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1707,
-    "listing_count": 20,
-    "comparable_count": 20,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.324410151305,
-    "lng": 25.065295837494,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Science Park",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1735,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24777641781685,
-    "lng": 25.06993074551899,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Reem Island",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1738,
-    "listing_count": 30,
-    "comparable_count": 30,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.41265074056367,
-    "lng": 24.50671421758344,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
+    "area": "Arabian Ranches 2",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 1739,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.258516364215,
-    "lng": 25.021891559809,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Želvos seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1748,
-    "listing_count": 30,
-    "comparable_count": 30,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.18090745998242,
-    "lng": 25.03906316131446,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Village Triangle (Jvt)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1759,
-    "listing_count": 17,
-    "comparable_count": 17,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.183052929383,
-    "lng": 25.039597135976,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Nad Al Sheba",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1767,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.31150767068,
-    "lng": 25.132607171585,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Arabian Ranches 3",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1769,
+    "median_price_per_sqft": 1831,
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.330197831251,
-    "lng": 25.069850731597,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai South",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1774,
-    "listing_count": 12,
-    "comparable_count": 12,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.2028741825811,
-    "lng": 24.94836508323226,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Oasis By Emaar",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 6,
-    "median_price_per_sqft": 1774,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.201512611125,
-    "lng": 24.997676848957,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 1791,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.258326171042,
-    "lng": 25.028615315617,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.039630840532,
+    "lng": 55.273974341638,
     "color": "yellow"
   },
   {
@@ -1386,190 +2153,9 @@
     "listing_count": 15,
     "comparable_count": 15,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Damac Hills",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1854,
-    "listing_count": 12,
-    "comparable_count": 12,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.254776620815,
-    "lng": 25.030325129239,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Lake Towers",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 1883,
-    "listing_count": 10,
-    "comparable_count": 10,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.153963,
-    "lng": 25.079233,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "Dubai Marina",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1892,
-    "listing_count": 42,
-    "comparable_count": 42,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.133048,
-    "lng": 25.070527,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Mohammed Bin Rashid City (Mbr City)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 1892,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28567751025173,
-    "lng": 25.15619738184898,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Greens",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1899,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.174058,
-    "lng": 25.0926,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Arabian Ranches",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 1901,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.294824907081,
-    "lng": 25.058993810658,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Al Barari",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 1986,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.322592942369,
-    "lng": 25.098237935585,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Tilal Al Ghaf",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2045,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.231094482924,
-    "lng": 25.02991353096,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Bajorai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2056,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.1491012573242,
-    "lng": 25.0879993438721,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "The Views",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2060,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.169574,
-    "lng": 25.090899,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.005792864907,
+    "lng": 55.211808604721,
     "color": "yellow"
   },
   {
@@ -1581,69 +2167,199 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 0,
-    "median_price_per_sqft": 2068,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "median_price_per_sqft": 1887,
+    "listing_count": 7,
+    "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.41031756032844,
-    "lng": 24.48735515587689,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.48735515587689,
+    "lng": 54.41031756032844,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jumeirah Lake Towers",
+    "area": "Al Hebiah 3",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2090,
-    "listing_count": 19,
-    "comparable_count": 19,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.14664348025735,
-    "lng": 25.07018305828622,
+    "bedrooms": 6,
+    "median_price_per_sqft": 1913,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.02357576275,
+    "lng": 55.249552648452,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "bhomes"
     ],
-    "area": "Sobha Hartland",
+    "area": "Downtown Dubai",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2091,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.31063165277458,
-    "lng": 25.17509609729514,
+    "median_price_per_sqft": 1932,
+    "listing_count": 25,
+    "comparable_count": 25,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.18106436611211,
+    "lng": 55.25299478768792,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "dubizzle",
-      "bhomes"
+      "dubizzle"
     ],
-    "area": "Dubai Marina",
+    "area": "Dubai Media City 2",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1965,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0919535472702,
+    "lng": 55.1747426390648,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Dubai Media City 2",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2094,
-    "listing_count": 36,
-    "comparable_count": 36,
+    "median_price_per_sqft": 2027,
+    "listing_count": 11,
+    "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.135845,
-    "lng": 25.075998,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.090597,
+    "lng": 55.172042,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Downtown Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 2045,
+    "listing_count": 18,
+    "comparable_count": 18,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.18106436611211,
+    "lng": 55.25299478768792,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Meydan",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2059,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.17602661455947,
+    "lng": 55.3126941018505,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Raha Beach",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2065,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.44785858373068,
+    "lng": 54.60209667959522,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Palm Deira",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2071,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.312516469502,
+    "lng": 55.323258579321,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Arabian Ranches",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2093,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.058993810658,
+    "lng": 55.294824907081,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Emirates Hills",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2097,
+    "listing_count": 31,
+    "comparable_count": 31,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.051038895544,
+    "lng": 55.174361264888,
     "color": "yellow"
   },
   {
@@ -1655,13 +2371,69 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2111,
-    "listing_count": 16,
-    "comparable_count": 16,
+    "median_price_per_sqft": 2104,
+    "listing_count": 14,
+    "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.625239121667,
-    "lng": 24.510630788922,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.510630788922,
+    "lng": 54.625239121667,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Jurf",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 11,
+    "median_price_per_sqft": 2111,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.414904,
+    "lng": 55.50137,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Al Hebiah 4",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 2116,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.02991353096,
+    "lng": 55.231094482924,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Downtown Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2131,
+    "listing_count": 14,
+    "comparable_count": 14,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.18620089964251,
+    "lng": 55.28623263068857,
     "color": "yellow"
   },
   {
@@ -1673,13 +2445,31 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 4,
-    "median_price_per_sqft": 2144,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.268843597279,
-    "lng": 25.031753980668,
+    "median_price_per_sqft": 2161,
+    "listing_count": 22,
+    "comparable_count": 22,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.031753980668,
+    "lng": 55.268843597279,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Meydan",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 0,
+    "median_price_per_sqft": 2169,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.172922,
+    "lng": 55.30553403945746,
     "color": "yellow"
   },
   {
@@ -1693,12 +2483,12 @@
     "quality_tier": "standard",
     "bedrooms": 1,
     "median_price_per_sqft": 2175,
-    "listing_count": 8,
-    "comparable_count": 8,
+    "listing_count": 24,
+    "comparable_count": 24,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.315917,
-    "lng": 25.172611,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.172611,
+    "lng": 55.315917,
     "color": "yellow"
   },
   {
@@ -1710,143 +2500,93 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2191,
+    "median_price_per_sqft": 2206,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.460181,
+    "lng": 54.598522,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Palm Deira",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2221,
     "listing_count": 12,
     "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.62893917257736,
-    "lng": 24.48459430366637,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.30044813597988,
+    "lng": 55.29915842638064,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder"
     ],
-    "area": "Trakų rajono savivaldybė",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2219,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.586917297717,
-    "lng": 24.446082304574,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Želvos seniūnija",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2228,
-    "listing_count": 9,
-    "comparable_count": 9,
+    "median_price_per_sqft": 2253,
+    "listing_count": 25,
+    "comparable_count": 25,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.18113961957,
-    "lng": 25.057615513683,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.11143273870171,
+    "lng": 55.24387229994684,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
     ],
-    "area": "Dubai Islands",
+    "area": "Dubai Marina",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2237,
-    "listing_count": 18,
-    "comparable_count": 18,
+    "median_price_per_sqft": 2263,
+    "listing_count": 36,
+    "comparable_count": 36,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.29915842638064,
-    "lng": 25.30044813597988,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.080376,
+    "lng": 55.138238,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "The Views",
+    "area": "Al Hebiah 4",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2243,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.172042,
-    "lng": 25.090597,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Park",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2248,
-    "listing_count": 8,
-    "comparable_count": 8,
+    "bedrooms": 5,
+    "median_price_per_sqft": 2322,
+    "listing_count": 11,
+    "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.145948643222,
-    "lng": 25.054263110592,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.017086395129,
+    "lng": 55.216530430639,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
-    ],
-    "area": "Nad Al Sheba",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2279,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.317237915958,
-    "lng": 25.136818691866,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Golf Estates",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2300,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.20456608943636,
-    "lng": 25.0301125929586,
-    "color": "yellow"
-  },
-  {
-    "sources": [
+      "dubizzle",
       "propertyfinder",
       "bhomes"
     ],
@@ -1855,71 +2595,55 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2302,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.115477,
-    "lng": 55.25108,
+    "median_price_per_sqft": 2322,
+    "listing_count": 21,
+    "comparable_count": 21,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.121514,
+    "lng": 55.259127,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Business Bay",
+    "area": "Al Hebiah 4",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2378,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.028951933637,
+    "lng": 55.233590634198,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "New Ras Al Khor Community",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2340,
-    "listing_count": 63,
-    "comparable_count": 63,
+    "median_price_per_sqft": 2396,
+    "listing_count": 25,
+    "comparable_count": 25,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.2680828814135,
-    "lng": 25.18427671765799,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.20856057364126,
+    "lng": 55.34802323623862,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
-    ],
-    "area": "Tilal Al Ghaf",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2347,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.233590634198,
-    "lng": 25.028951933637,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Park",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2351,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.148156442811,
-    "lng": 25.051988913055,
-    "color": "yellow"
-  },
-  {
-    "sources": [
+      "dubizzle",
       "propertyfinder",
       "bhomes"
     ],
@@ -1928,433 +2652,87 @@
     "layout_type": "standard",
     "quality_tier": "premium",
     "bedrooms": 1,
-    "median_price_per_sqft": 2352,
-    "listing_count": 7,
-    "comparable_count": 7,
+    "median_price_per_sqft": 2397,
+    "listing_count": 6,
+    "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.25863,
-    "lng": 55.278074,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.184467,
+    "lng": 55.281964,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder"
     ],
-    "area": "Želvos seniūnija",
+    "area": "New Ras Al Khor Community",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 2353,
-    "listing_count": 21,
-    "comparable_count": 21,
+    "median_price_per_sqft": 2422,
+    "listing_count": 12,
+    "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.177292060561,
-    "lng": 25.0786140426,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.20672827085545,
+    "lng": 55.34359826145362,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Emirates Hills",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2474,
+    "listing_count": 40,
+    "comparable_count": 40,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0786140426,
+    "lng": 55.177292060561,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
-    ],
-    "area": "Dubai Hills Estate",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2366,
-    "listing_count": 40,
-    "comparable_count": 40,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24387229994684,
-    "lng": 25.11143273870171,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "dubizzle",
-      "99acres",
-      "bhomes"
     ],
     "area": "Bur Dubai",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2368,
-    "listing_count": 13,
-    "comparable_count": 13,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.29465471356306,
-    "lng": 25.23252097684315,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Mohammed Bin Rashid City (Mbr City)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2383,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.285427286885,
-    "lng": 25.141625467941,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Hills Estate",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2408,
-    "listing_count": 29,
-    "comparable_count": 29,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.259127,
-    "lng": 25.121514,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Islands",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2410,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.30631432,
-    "lng": 25.29044178,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Islands",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2410,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.31479985414257,
-    "lng": 25.29980783704368,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "DIFC",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2414,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28303,
-    "lng": 25.211736,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Business Bay",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
     "bedrooms": 0,
-    "median_price_per_sqft": 2435,
-    "listing_count": 34,
-    "comparable_count": 34,
+    "median_price_per_sqft": 2509,
+    "listing_count": 19,
+    "comparable_count": 19,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.25299478768792,
-    "lng": 25.18106436611211,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.191739239441,
+    "lng": 55.263328524946,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Downtown Dubai",
+    "area": "Arabian Ranches",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 2450,
+    "bedrooms": 5,
+    "median_price_per_sqft": 2544,
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.278036480422,
-    "lng": 25.186118739077,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Creek Harbour",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2452,
-    "listing_count": 25,
-    "comparable_count": 25,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.34462779918985,
-    "lng": 25.204346660306,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Arabian Ranches",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 2499,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.285286240526,
-    "lng": 25.055445173141,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Arabian Ranches",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 4,
-    "median_price_per_sqft": 2500,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.294824907081,
-    "lng": 25.058993810658,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Ščiurys",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2504,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.27878614159877,
-    "lng": 25.19427245049215,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Zabeel",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2508,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.212088,
-    "lng": 55.282761,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Business Bay",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2519,
-    "listing_count": 26,
-    "comparable_count": 26,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28623263068857,
-    "lng": 25.18620089964251,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2563,
-    "listing_count": 38,
-    "comparable_count": 38,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.281293,
-    "lng": 25.190219,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Nad Al Sheba",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 2570,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.317237915958,
-    "lng": 25.136818691866,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Creek Harbour",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2572,
-    "listing_count": 21,
-    "comparable_count": 21,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.34359826145362,
-    "lng": 25.20672827085545,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Park",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 2577,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.16528266701,
-    "lng": 25.044894531219,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "DIFC",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 2607,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28303,
-    "lng": 25.211736,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Nad Al Sheba",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 6,
-    "median_price_per_sqft": 2641,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.317237915958,
-    "lng": 25.136818691866,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Creek Harbour",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2647,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.346275,
-    "lng": 25.210124,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.055445173141,
+    "lng": 55.285286240526,
     "color": "yellow"
   },
   {
@@ -2366,93 +2744,244 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 0,
-    "median_price_per_sqft": 2660,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.59727623253776,
-    "lng": 24.48434518437707,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Hills Estate",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2681,
-    "listing_count": 17,
-    "comparable_count": 17,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24493015675696,
-    "lng": 25.10580935483182,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Hills Estate",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 2703,
+    "median_price_per_sqft": 2545,
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.276349813802,
-    "lng": 25.131881850633,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.48434518437707,
+    "lng": 54.59727623253776,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Arabian Ranches",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 2558,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.052695022356,
+    "lng": 55.255484989068,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Nakhlat Jabal Ali",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 6,
+    "median_price_per_sqft": 2601,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.009765644748,
+    "lng": 55.003252034198,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle",
+      "propertyfinder",
       "bhomes"
     ],
-    "area": "Al Wasl",
+    "area": "Bur Dubai",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 2752,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.265007,
-    "lng": 25.205857,
+    "median_price_per_sqft": 2616,
+    "listing_count": 61,
+    "comparable_count": 61,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.18427671765799,
+    "lng": 55.2680828814135,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "DIFC",
+    "area": "New Ras Al Khor Community",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2847,
-    "listing_count": 8,
-    "comparable_count": 8,
+    "median_price_per_sqft": 2651,
+    "listing_count": 16,
+    "comparable_count": 16,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28303,
-    "lng": 25.211736,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.210124,
+    "lng": 55.346275,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Zabeel",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 2671,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.211736,
+    "lng": 55.28303,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Palm Deira",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 2675,
+    "listing_count": 18,
+    "comparable_count": 18,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.29044178,
+    "lng": 55.30631432,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 2691,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.141625467941,
+    "lng": 55.285427286885,
     "color": "yellow"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Dubai Hills Estate",
+    "area": "Me’aisem 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 4,
+    "median_price_per_sqft": 2692,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.0301125929586,
+    "lng": 55.20456608943636,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Bur Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2694,
+    "listing_count": 71,
+    "comparable_count": 71,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.19751058339483,
+    "lng": 55.2714513848,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 2703,
+    "listing_count": 9,
+    "comparable_count": 9,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.131881850633,
+    "lng": 55.276349813802,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Umm Suqeim",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2728,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.13027746115067,
+    "lng": 55.19588229014532,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 2767,
+    "listing_count": 12,
+    "comparable_count": 12,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.097248969832,
+    "lng": 55.304113779919,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
@@ -2461,9 +2990,27 @@
     "listing_count": 11,
     "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.250323027948,
-    "lng": 25.088593423426,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.088593423426,
+    "lng": 55.250323027948,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Nakhlat Jabal Ali",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 2875,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.017117335379,
+    "lng": 54.99713253652,
     "color": "yellow"
   },
   {
@@ -2475,238 +3022,56 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2874,
-    "listing_count": 11,
-    "comparable_count": 11,
+    "median_price_per_sqft": 2927,
+    "listing_count": 10,
+    "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.40369830907594,
-    "lng": 24.53547831186947,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.53547831186947,
+    "lng": 54.40369830907594,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder"
     ],
-    "area": "The Lakes",
+    "area": "Emirates Hills",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 2890,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.17154731623,
-    "lng": 25.079339567078,
+    "bedrooms": 4,
+    "median_price_per_sqft": 2930,
+    "listing_count": 46,
+    "comparable_count": 46,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.057615513683,
+    "lng": 55.18113961957,
     "color": "yellow"
   },
   {
     "sources": [
-      "dubizzle"
-    ],
-    "area": "Mina Rashid",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 2915,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.276167084656,
-    "lng": 25.2578860703015,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Ščiurys",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3010,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.27878614159877,
-    "lng": 25.19427245049215,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Bur Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 3047,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.202959,
-    "lng": 55.26006,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Umm Suqeim",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 3073,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.194270044342,
-    "lng": 25.130667307656,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "dubizzle"
-    ],
-    "area": "Al Wasl",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3083,
-    "listing_count": 13,
-    "comparable_count": 13,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.25968461668731,
-    "lng": 25.20255741800889,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
       "dubizzle",
       "bhomes"
     ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3084,
-    "listing_count": 53,
-    "comparable_count": 53,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.2714513848,
-    "lng": 25.19751058339483,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Beach Residence (Jbr)",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3177,
-    "listing_count": 12,
-    "comparable_count": 12,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.128089161834,
-    "lng": 25.07286290392,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
     "area": "Umm Suqeim",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 3197,
-    "listing_count": 8,
-    "comparable_count": 8,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.18906324864454,
-    "lng": 25.13535573362038,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Za'Abeel",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 3268,
+    "median_price_per_sqft": 3094,
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28119445968633,
-    "lng": 25.2027455547214,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.13535573362038,
+    "lng": 55.18906324864454,
     "color": "red"
   },
   {
     "sources": [
-      "dubizzle"
-    ],
-    "area": "Mina Rashid",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3404,
-    "listing_count": 15,
-    "comparable_count": 15,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.27722787274146,
-    "lng": 25.25802890017533,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "dubizzle"
-    ],
-    "area": "Al Wasl",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 3462,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.262553,
-    "lng": 25.205439,
-    "color": "red"
-  },
-  {
-    "sources": [
+      "dubizzle",
       "propertyfinder"
     ],
     "area": "Bur Dubai",
@@ -2714,313 +3079,282 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 3657,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.192771911621094,
-    "lng": 55.273765563964844,
+    "median_price_per_sqft": 3210,
+    "listing_count": 26,
+    "comparable_count": 26,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.201524,
+    "lng": 55.269977,
     "color": "red"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "dubizzle",
+      "propertyfinder"
     ],
-    "area": "Bur Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "premium",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3682,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.267706,
-    "lng": 55.285812,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Harbour",
+    "area": "Al Wasl",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 3718,
+    "bedrooms": 2,
+    "median_price_per_sqft": 3231,
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.139725,
-    "lng": 25.09841,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Pumpučiai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3719,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.25511245655207,
-    "lng": 25.23771587087803,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Saadiyat Island",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 3722,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 54.41006798022357,
-    "lng": 24.53589880702493,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Harbour",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 3762,
-    "listing_count": 16,
-    "comparable_count": 16,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.1434007831659,
-    "lng": 25.09165213712398,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "Palm Jumeirah",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 1,
-    "median_price_per_sqft": 3788,
-    "listing_count": 15,
-    "comparable_count": 15,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.15186687102334,
-    "lng": 25.13214651213518,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Molėtų rajono savivaldybė",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3862,
-    "listing_count": 5,
-    "comparable_count": 5,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.24806696687,
-    "lng": 25.185732622653,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Mina Rashid",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 3879,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.28537895595667,
-    "lng": 25.2728409522257,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Golf Estates",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 6,
-    "median_price_per_sqft": 4012,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.190998689429,
-    "lng": 25.018363356041,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.185732622653,
+    "lng": 55.24806696687,
     "color": "red"
   },
   {
     "sources": [
       "dubizzle",
-      "bhomes"
-    ],
-    "area": "Downtown Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 4032,
-    "listing_count": 17,
-    "comparable_count": 17,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.269977,
-    "lng": 25.201524,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Harbour",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 4041,
-    "listing_count": 14,
-    "comparable_count": 14,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.14094557680649,
-    "lng": 25.09815726734817,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Jumeirah Golf Estates",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 4203,
-    "listing_count": 9,
-    "comparable_count": 9,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.204386272808,
-    "lng": 25.016735083275,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "dubizzle",
-      "bhomes"
-    ],
-    "area": "Palm Jumeirah",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 4285,
-    "listing_count": 18,
-    "comparable_count": 18,
-    "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.11216947531227,
-    "lng": 25.12500362163502,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Molėtų rajono savivaldybė",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 4471,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.2496452420995,
-    "lng": 25.18700970738459,
-    "color": "red"
-  },
-  {
-    "sources": [
       "propertyfinder"
     ],
     "area": "Zabeel",
     "property_type": "apartment",
     "layout_type": "standard",
-    "quality_tier": "premium",
-    "bedrooms": 2,
-    "median_price_per_sqft": 4479,
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 3276,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 25.21103286743164,
-    "lng": 55.28205108642578,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.1896835199505,
+    "lng": 55.30112199340162,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 3280,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.13214651213518,
+    "lng": 55.15186687102334,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3310,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.23771587087803,
+    "lng": 55.25511245655207,
     "color": "red"
   },
   {
     "sources": [
       "dubizzle"
     ],
-    "area": "Jumeirah Beach Residence (Jbr)",
+    "area": "Me’aisem 1",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 3,
-    "median_price_per_sqft": 4950,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "bedrooms": 6,
+    "median_price_per_sqft": 3485,
+    "listing_count": 5,
+    "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.13556618468854,
-    "lng": 25.081475587645,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.018363356041,
+    "lng": 55.190998689429,
     "color": "red"
   },
   {
     "sources": [
-      "propertyfinder",
+      "dubizzle"
+    ],
+    "area": "Emirates Hills",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 3506,
+    "listing_count": 29,
+    "comparable_count": 29,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.074094345887,
+    "lng": 55.15550395237,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Saadiyat Island",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 3607,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 24.53589880702493,
+    "lng": 54.41006798022357,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Emaar Beachfront",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 3619,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.09165213712398,
+    "lng": 55.1434007831659,
+    "color": "red"
+  },
+  {
+    "sources": [
       "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Zabeel",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3733,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.211736,
+    "lng": 55.28303,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder"
+    ],
+    "area": "Emaar Beachfront",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3956,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.09815726734817,
+    "lng": 55.14094557680649,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 6,
+    "median_price_per_sqft": 4022,
+    "listing_count": 7,
+    "comparable_count": 7,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.101756098215,
+    "lng": 55.302913370153,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 4083,
+    "listing_count": 15,
+    "comparable_count": 15,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.12500362163502,
+    "lng": 55.11216947531227,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Me’aisem 1",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 5,
+    "median_price_per_sqft": 4162,
+    "listing_count": 13,
+    "comparable_count": 13,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.016735083275,
+    "lng": 55.204386272808,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Emaar Beachfront",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 3,
+    "median_price_per_sqft": 4486,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.09841,
+    "lng": 55.139725,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
       "bhomes"
     ],
     "area": "Palm Jumeirah",
@@ -3028,55 +3362,38 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 3,
-    "median_price_per_sqft": 4998,
-    "listing_count": 16,
-    "comparable_count": 16,
+    "median_price_per_sqft": 5171,
+    "listing_count": 14,
+    "comparable_count": 14,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.11171799944759,
-    "lng": 25.1239609218123,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.1239609218123,
+    "lng": 55.11171799944759,
     "color": "red"
   },
   {
     "sources": [
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder"
     ],
-    "area": "Jumeirah Islands",
+    "area": "Bluewaters",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 5,
-    "median_price_per_sqft": 5706,
-    "listing_count": 6,
-    "comparable_count": 6,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.151611597811,
-    "lng": 25.065158444011,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "dubizzle"
-    ],
-    "area": "Dubai Marina",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 0,
-    "median_price_per_sqft": 6061,
+    "bedrooms": 2,
+    "median_price_per_sqft": 5992,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.14463405276084,
-    "lng": 25.08744703925072,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.07856,
+    "lng": 55.12123,
     "color": "red"
   },
   {
     "sources": [
-      "propertyfinder",
-      "dubizzle"
+      "dubizzle",
+      "propertyfinder"
     ],
     "area": "Palm Jumeirah",
     "property_type": "apartment",
@@ -3087,9 +3404,9 @@
     "listing_count": 12,
     "comparable_count": 12,
     "confidence": "High",
-    "last_updated": "2026-06-02T14:42:33.712723+00:00",
-    "lat": 55.11223028513876,
-    "lng": 25.12385836518986,
+    "last_updated": "2026-06-02T16:01:38.727799+00:00",
+    "lat": 25.12385836518986,
+    "lng": 55.11223028513876,
     "color": "red"
   }
 ]
