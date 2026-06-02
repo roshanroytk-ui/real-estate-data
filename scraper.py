@@ -2311,25 +2311,26 @@ for source_data in all_soups:
             .get("properties", [])
         )
 
+        count = len(properties_data)
+
         print(
             "99ACRES PROPERTY COUNT:",
-            len(properties_data)
+            count
         )
+        
+        if count == 0:
+        
+            print(
+                "99ACRES PAGE DATA KEYS:",
+                list(
+                    data
+                    .get("srp", {})
+                    .get("pageData", {})
+                    .keys()
+                )
+            )
 
         for prop in properties_data:
-
-            print(
-                prop.get("PROP_HEADING"),
-                prop.get("PROPERTY_TYPE"),
-                prop.get("BEDROOM_NUM")
-            )
-
-            print(
-                "99ACRES FOUND:",
-                prop.get("PROP_HEADING"),
-                prop.get("MIN_PRICE"),
-                prop.get("CARPET_AREA")
-            )
 
             property_type_raw = prop.get(
                 "PROPERTY_TYPE",
