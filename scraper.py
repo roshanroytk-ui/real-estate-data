@@ -2258,6 +2258,8 @@ for source_data in all_soups:
 
     soup = source_data["soup"]
 
+    print("99ACRES PAGE START")
+
     try:
 
         scripts = soup.find_all("script")
@@ -2285,6 +2287,8 @@ for source_data in all_soups:
 
         if not json_text:
             continue
+
+        print("FOUND INITIAL DATA")
 
         data = json.loads(json_text)
 
