@@ -577,9 +577,3486 @@
     "selected_polygon_area": 0.003760337531000007
   },
   {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.06841,
+    "lng": 55.212123,
+    "matched_polygons": [
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "Al Barsha South 4",
+    "selected_polygon_area": 0.0006062196929549992
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.084418,
+    "lng": 55.144879,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Zabeel",
+    "lat": 25.227611,
+    "lng": 55.29295,
+    "matched_polygons": [
+      {
+        "area": "Za'abeel",
+        "osm_name": null,
+        "polygon_area": 0.0010480248859550177,
+        "polygon_centroid_lat": 25.21524169482116,
+        "polygon_centroid_lng": 55.29819511880468,
+        "bounds": {
+          "min_lng": 55.2776828,
+          "min_lat": 25.1942549,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.0014054120800900322,
+        "polygon_centroid_lat": 25.209735942619456,
+        "polygon_centroid_lng": 55.2984559222953,
+        "bounds": {
+          "min_lng": 55.2727324,
+          "min_lat": 25.1807377,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      },
+      {
+        "area": "Zabeel",
+        "osm_name": null,
+        "polygon_area": 0.0014054120800900322,
+        "polygon_centroid_lat": 25.209735942619456,
+        "polygon_centroid_lng": 55.2984559222953,
+        "bounds": {
+          "min_lng": 55.2727324,
+          "min_lat": 25.1807377,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      }
+    ],
+    "selected_area": "Za'abeel",
+    "selected_polygon_area": 0.0010480248859550177
+  },
+  {
+    "raw_area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "matched_polygons": [
+      {
+        "area": "Dubai Internet City",
+        "osm_name": null,
+        "polygon_area": 9.860731406498703e-05,
+        "polygon_centroid_lat": 25.095458982217064,
+        "polygon_centroid_lng": 55.16170404338501,
+        "bounds": {
+          "min_lng": 55.1516214,
+          "min_lat": 25.0869041,
+          "max_lng": 55.1733737,
+          "max_lat": 25.1043291
+        }
+      },
+      {
+        "area": "Al Sufouh 2",
+        "osm_name": null,
+        "polygon_area": 0.00036354735031497135,
+        "polygon_centroid_lat": 25.101188612755333,
+        "polygon_centroid_lng": 55.16171462155734,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.176877,
+          "max_lat": 25.1153096
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Dubai Internet City",
+    "selected_polygon_area": 9.860731406498703e-05
+  },
+  {
+    "raw_area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "matched_polygons": [
+      {
+        "area": "Dubai Internet City",
+        "osm_name": null,
+        "polygon_area": 9.860731406498703e-05,
+        "polygon_centroid_lat": 25.095458982217064,
+        "polygon_centroid_lng": 55.16170404338501,
+        "bounds": {
+          "min_lng": 55.1516214,
+          "min_lat": 25.0869041,
+          "max_lng": 55.1733737,
+          "max_lat": 25.1043291
+        }
+      },
+      {
+        "area": "Al Sufouh 2",
+        "osm_name": null,
+        "polygon_area": 0.00036354735031497135,
+        "polygon_centroid_lat": 25.101188612755333,
+        "polygon_centroid_lng": 55.16171462155734,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.176877,
+          "max_lat": 25.1153096
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Dubai Internet City",
+    "selected_polygon_area": 9.860731406498703e-05
+  },
+  {
+    "raw_area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "matched_polygons": [
+      {
+        "area": "Dubai Internet City",
+        "osm_name": null,
+        "polygon_area": 9.860731406498703e-05,
+        "polygon_centroid_lat": 25.095458982217064,
+        "polygon_centroid_lng": 55.16170404338501,
+        "bounds": {
+          "min_lng": 55.1516214,
+          "min_lat": 25.0869041,
+          "max_lng": 55.1733737,
+          "max_lat": 25.1043291
+        }
+      },
+      {
+        "area": "Al Sufouh 2",
+        "osm_name": null,
+        "polygon_area": 0.00036354735031497135,
+        "polygon_centroid_lat": 25.101188612755333,
+        "polygon_centroid_lng": 55.16171462155734,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.176877,
+          "max_lat": 25.1153096
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Dubai Internet City",
+    "selected_polygon_area": 9.860731406498703e-05
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.081265,
+    "lng": 55.139802,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Beach Residence",
+        "osm_name": null,
+        "polygon_area": 2.8357287545018357e-05,
+        "polygon_centroid_lat": 25.077732482098277,
+        "polygon_centroid_lng": 55.13512262353213,
+        "bounds": {
+          "min_lng": 55.1282924,
+          "min_lat": 25.071762,
+          "max_lng": 55.14137,
+          "max_lat": 25.0836679
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Beach Residence",
+    "selected_polygon_area": 2.8357287545018357e-05
+  },
+  {
+    "raw_area": "La Mer",
+    "lat": 25.240464,
+    "lng": 55.251283,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0010935860979700035,
+        "polygon_centroid_lat": 25.208546708399957,
+        "polygon_centroid_lng": 55.24478673799099,
+        "bounds": {
+          "min_lng": 55.2163957,
+          "min_lat": 25.1696404,
+          "max_lng": 55.2726031,
+          "max_lat": 25.2496996
+        }
+      }
+    ],
+    "selected_area": "Jumeirah",
+    "selected_polygon_area": 0.0010935860979700035
+  },
+  {
+    "raw_area": "Dubai Hills Estate",
+    "lat": 25.111598,
+    "lng": 55.246715,
+    "matched_polygons": [
+      {
+        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "osm_name": null,
+        "polygon_area": 0.003760337531000007,
+        "polygon_centroid_lat": 25.101235040106733,
+        "polygon_centroid_lng": 55.269397304573125,
+        "bounds": {
+          "min_lng": 55.2330231,
+          "min_lat": 25.0559232,
+          "max_lng": 55.2957661,
+          "max_lat": 25.1553966
+        }
+      }
+    ],
+    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "selected_polygon_area": 0.003760337531000007
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.182602,
+    "lng": 55.336665,
+    "matched_polygons": [
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "New Ras Al Khor Community",
+    "selected_polygon_area": 0.002477630884340004
+  },
+  {
+    "raw_area": "Arjan",
+    "lat": 25.064176,
+    "lng": 55.230258,
+    "matched_polygons": [
+      {
+        "area": "Al Barsha South 3",
+        "osm_name": null,
+        "polygon_area": 0.0003489682647199932,
+        "polygon_centroid_lat": 25.060854455853665,
+        "polygon_centroid_lng": 55.23640403776296,
+        "bounds": {
+          "min_lng": 55.2208224,
+          "min_lat": 25.0519243,
+          "max_lng": 55.2498103,
+          "max_lat": 25.0686367
+        }
+      },
+      {
+        "area": "Arjan",
+        "osm_name": null,
+        "polygon_area": 0.00034962954511499395,
+        "polygon_centroid_lat": 25.060862015208215,
+        "polygon_centroid_lng": 55.236419338408425,
+        "bounds": {
+          "min_lng": 55.2208194,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2498105,
+          "max_lat": 25.068637
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Al Barsha South 3",
+    "selected_polygon_area": 0.0003489682647199932
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.18133,
+    "lng": 55.263135,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.062724,
+    "lng": 55.208325,
+    "matched_polygons": [
+      {
+        "area": "District 10",
+        "osm_name": null,
+        "polygon_area": 7.369621402001647e-05,
+        "polygon_centroid_lat": 25.063958488415732,
+        "polygon_centroid_lng": 55.20588087598296,
+        "bounds": {
+          "min_lng": 55.2001564,
+          "min_lat": 25.0577957,
+          "max_lng": 55.2103691,
+          "max_lat": 25.0701019
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 10",
+    "selected_polygon_area": 7.369621402001647e-05
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Hills Estate",
+    "lat": 25.129609,
+    "lng": 55.261831,
+    "matched_polygons": [
+      {
+        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "osm_name": null,
+        "polygon_area": 0.003760337531000007,
+        "polygon_centroid_lat": 25.101235040106733,
+        "polygon_centroid_lng": 55.269397304573125,
+        "bounds": {
+          "min_lng": 55.2330231,
+          "min_lat": 25.0559232,
+          "max_lng": 55.2957661,
+          "max_lat": 25.1553966
+        }
+      }
+    ],
+    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "selected_polygon_area": 0.003760337531000007
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.088631,
+    "lng": 55.14817,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.116298,
+    "lng": 55.390612,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 25.112604,
+    "lng": 55.143347,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 25.203338,
+    "lng": 55.351063,
+    "matched_polygons": [
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "New Ras Al Khor Community",
+    "selected_polygon_area": 0.002477630884340004
+  },
+  {
+    "raw_area": "EMAAR Beachfront",
+    "lat": 25.096467,
+    "lng": 55.137719,
+    "matched_polygons": [
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 1.5057494130001607e-05,
+        "polygon_centroid_lat": 25.098839188652857,
+        "polygon_centroid_lng": 55.1406112954481,
+        "bounds": {
+          "min_lng": 55.135278,
+          "min_lat": 25.0946955,
+          "max_lng": 55.144311,
+          "max_lat": 25.1029046
+        }
+      },
+      {
+        "area": "Dubai Harbour",
+        "osm_name": null,
+        "polygon_area": 8.473291679999255e-05,
+        "polygon_centroid_lat": 25.09408467911688,
+        "polygon_centroid_lng": 55.13955727513526,
+        "bounds": {
+          "min_lng": 55.1257074,
+          "min_lat": 25.087718,
+          "max_lng": 55.1502473,
+          "max_lat": 25.1035588
+        }
+      },
+      {
+        "area": "Emaar Beachfront",
+        "osm_name": null,
+        "polygon_area": 0.00014115935021000487,
+        "polygon_centroid_lat": 25.096296846659737,
+        "polygon_centroid_lng": 55.13997040501952,
+        "bounds": {
+          "min_lng": 55.1257074,
+          "min_lat": 25.0887452,
+          "max_lng": 55.1495218,
+          "max_lat": 25.104725
+        }
+      }
+    ],
+    "selected_area": NaN,
+    "selected_polygon_area": 1.5057494130001607e-05
+  },
+  {
+    "raw_area": "City Walk",
+    "lat": 25.202959,
+    "lng": 55.26006,
+    "matched_polygons": [
+      {
+        "area": "City Walk",
+        "osm_name": null,
+        "polygon_area": 7.531803645999568e-05,
+        "polygon_centroid_lat": 25.20517555014153,
+        "polygon_centroid_lng": 55.26256160934323,
+        "bounds": {
+          "min_lng": 55.2563548,
+          "min_lat": 25.1992805,
+          "max_lng": 55.2690347,
+          "max_lat": 25.2120591
+        }
+      },
+      {
+        "area": "Al Wasl",
+        "osm_name": null,
+        "polygon_area": 0.0004368571331350012,
+        "polygon_centroid_lat": 25.196411242083524,
+        "polygon_centroid_lng": 55.25501783685002,
+        "bounds": {
+          "min_lng": 55.2397704,
+          "min_lat": 25.1802752,
+          "max_lng": 55.2708067,
+          "max_lat": 25.2120591
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "City Walk",
+    "selected_polygon_area": 7.531803645999568e-05
+  },
+  {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.080449,
+    "lng": 55.154186,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.182419,
+    "lng": 55.255777,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.072954,
+    "lng": 55.128089,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.00032818875548501676
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.088631,
+    "lng": 55.14817,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.123837,
+    "lng": 55.38208,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Downtown Dubai",
+    "lat": 25.195542,
+    "lng": 55.26884,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.267706,
+    "lng": 55.285812,
+    "matched_polygons": [
+      {
+        "area": "Port Rashid",
+        "osm_name": null,
+        "polygon_area": 0.00039062489070491456,
+        "polygon_centroid_lat": 25.269531252479744,
+        "polygon_centroid_lng": 55.27220005983255,
+        "bounds": {
+          "min_lng": 55.254581,
+          "min_lat": 25.2533645,
+          "max_lng": 55.2939098,
+          "max_lat": 25.2885558
+        }
+      },
+      {
+        "area": "Al Mina",
+        "osm_name": null,
+        "polygon_area": 0.0005961852714950048,
+        "polygon_centroid_lat": 25.26304520532232,
+        "polygon_centroid_lng": 55.27311296152967,
+        "bounds": {
+          "min_lng": 55.2491484,
+          "min_lat": 25.2382535,
+          "max_lng": 55.2943895,
+          "max_lat": 25.2885558
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0020585917170149294,
+        "polygon_centroid_lat": 25.250063228397174,
+        "polygon_centroid_lng": 55.29455491603642,
+        "bounds": {
+          "min_lng": 55.254581,
+          "min_lat": 25.2255521,
+          "max_lng": 55.3368873,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Port Rashid",
+    "selected_polygon_area": 0.00039062489070491456
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.078175,
+    "lng": 55.151121,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.065427,
+    "lng": 55.202253,
+    "matched_polygons": [
+      {
+        "area": "District 10",
+        "osm_name": null,
+        "polygon_area": 7.369621402001647e-05,
+        "polygon_centroid_lat": 25.063958488415732,
+        "polygon_centroid_lng": 55.20588087598296,
+        "bounds": {
+          "min_lng": 55.2001564,
+          "min_lat": 25.0577957,
+          "max_lng": 55.2103691,
+          "max_lat": 25.0701019
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 10",
+    "selected_polygon_area": 7.369621402001647e-05
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.06759,
+    "lng": 55.131556,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.179734,
+    "lng": 55.304978,
+    "matched_polygons": [
+      {
+        "area": "Sobha Hartland",
+        "osm_name": null,
+        "polygon_area": 7.218910602498055e-05,
+        "polygon_centroid_lat": 25.177187161059994,
+        "polygon_centroid_lng": 55.30682860349328,
+        "bounds": {
+          "min_lng": 55.298363,
+          "min_lat": 25.1743058,
+          "max_lng": 55.3155291,
+          "max_lat": 25.180896
+        }
+      },
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "Sobha Hartland",
+    "selected_polygon_area": 7.218910602498055e-05
+  },
+  {
+    "raw_area": "Umm Suqeim",
+    "lat": 25.135,
+    "lng": 55.189,
+    "matched_polygons": [
+      {
+        "area": "Umm Suqeim 3",
+        "osm_name": null,
+        "polygon_area": 0.00015127815415000043,
+        "polygon_centroid_lat": 25.137943360423314,
+        "polygon_centroid_lng": 55.19530638970739,
+        "bounds": {
+          "min_lng": 55.1880603,
+          "min_lat": 25.1279963,
+          "max_lng": 55.2044795,
+          "max_lat": 25.1470893
+        }
+      },
+      {
+        "area": "Umm Suqeim 3",
+        "osm_name": null,
+        "polygon_area": 0.00020095072386998,
+        "polygon_centroid_lat": 25.138347465232993,
+        "polygon_centroid_lng": 55.19432139050306,
+        "bounds": {
+          "min_lng": 55.183562,
+          "min_lat": 25.1279963,
+          "max_lng": 55.2042724,
+          "max_lat": 25.1477908
+        }
+      },
+      {
+        "area": "Umm Suqeim",
+        "osm_name": null,
+        "polygon_area": 0.0007237442406300597,
+        "polygon_centroid_lat": 25.15216996120078,
+        "polygon_centroid_lng": 55.205030400002244,
+        "bounds": {
+          "min_lng": 55.183562,
+          "min_lat": 25.1279963,
+          "max_lng": 55.2276524,
+          "max_lat": 25.1765877
+        }
+      }
+    ],
+    "selected_area": "Umm Suqeim 3",
+    "selected_polygon_area": 0.00015127815415000043
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.085305,
+    "lng": 55.149287,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Arjan",
+    "lat": 25.065134,
+    "lng": 55.237327,
+    "matched_polygons": [
+      {
+        "area": "Al Barsha South 3",
+        "osm_name": null,
+        "polygon_area": 0.0003489682647199932,
+        "polygon_centroid_lat": 25.060854455853665,
+        "polygon_centroid_lng": 55.23640403776296,
+        "bounds": {
+          "min_lng": 55.2208224,
+          "min_lat": 25.0519243,
+          "max_lng": 55.2498103,
+          "max_lat": 25.0686367
+        }
+      },
+      {
+        "area": "Arjan",
+        "osm_name": null,
+        "polygon_area": 0.00034962954511499395,
+        "polygon_centroid_lat": 25.060862015208215,
+        "polygon_centroid_lng": 55.236419338408425,
+        "bounds": {
+          "min_lng": 55.2208194,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2498105,
+          "max_lat": 25.068637
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Al Barsha South 3",
+    "selected_polygon_area": 0.0003489682647199932
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.068554,
+    "lng": 55.213448,
+    "matched_polygons": [
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "Al Barsha South 4",
+    "selected_polygon_area": 0.0006062196929549992
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.180202,
+    "lng": 55.252432,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Town Square",
+    "lat": 25.008885,
+    "lng": 55.289975,
+    "matched_polygons": [
+      {
+        "area": "Town Square Dubai",
+        "osm_name": null,
+        "polygon_area": 0.000381293040869927,
+        "polygon_centroid_lat": 25.00683618670027,
+        "polygon_centroid_lng": 55.288977740977224,
+        "bounds": {
+          "min_lng": 55.2723628,
+          "min_lat": 24.9913768,
+          "max_lng": 55.3052806,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.0012539553129499866,
+        "polygon_centroid_lat": 24.99736017989077,
+        "polygon_centroid_lng": 55.29002054092682,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9739198,
+          "max_lng": 55.3205858,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.001305263628479934,
+        "polygon_centroid_lat": 24.997046808671037,
+        "polygon_centroid_lng": 55.29021136053316,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9735648,
+          "max_lng": 55.3210531,
+          "max_lat": 25.0219497
+        }
+      }
+    ],
+    "selected_area": "Town Square Dubai",
+    "selected_polygon_area": 0.000381293040869927
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.073851,
+    "lng": 55.13691,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Sports City",
+    "lat": 25.044004,
+    "lng": 55.215198,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 4",
+        "osm_name": null,
+        "polygon_area": 0.0007618209028049966,
+        "polygon_centroid_lat": 25.03290091671137,
+        "polygon_centroid_lng": 55.21918423229297,
+        "bounds": {
+          "min_lng": 55.1997617,
+          "min_lat": 25.0129777,
+          "max_lng": 55.2384079,
+          "max_lat": 25.0519207
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 4",
+    "selected_polygon_area": 0.0007618209028049966
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.080542,
+    "lng": 55.140343,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.25863,
+    "lng": 55.278074,
+    "matched_polygons": [
+      {
+        "area": "Port Rashid",
+        "osm_name": null,
+        "polygon_area": 0.00039062489070491456,
+        "polygon_centroid_lat": 25.269531252479744,
+        "polygon_centroid_lng": 55.27220005983255,
+        "bounds": {
+          "min_lng": 55.254581,
+          "min_lat": 25.2533645,
+          "max_lng": 55.2939098,
+          "max_lat": 25.2885558
+        }
+      },
+      {
+        "area": "Al Mina",
+        "osm_name": null,
+        "polygon_area": 0.0005961852714950048,
+        "polygon_centroid_lat": 25.26304520532232,
+        "polygon_centroid_lng": 55.27311296152967,
+        "bounds": {
+          "min_lng": 55.2491484,
+          "min_lat": 25.2382535,
+          "max_lng": 55.2943895,
+          "max_lat": 25.2885558
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0020585917170149294,
+        "polygon_centroid_lat": 25.250063228397174,
+        "polygon_centroid_lng": 55.29455491603642,
+        "bounds": {
+          "min_lng": 55.254581,
+          "min_lat": 25.2255521,
+          "max_lng": 55.3368873,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Port Rashid",
+    "selected_polygon_area": 0.00039062489070491456
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.090136,
+    "lng": 55.150381,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.066358,
+    "lng": 55.138144,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Dubai Internet City",
+    "lat": 25.099752,
+    "lng": 55.16813,
+    "matched_polygons": [
+      {
+        "area": "Dubai Internet City",
+        "osm_name": null,
+        "polygon_area": 9.860731406498703e-05,
+        "polygon_centroid_lat": 25.095458982217064,
+        "polygon_centroid_lng": 55.16170404338501,
+        "bounds": {
+          "min_lng": 55.1516214,
+          "min_lat": 25.0869041,
+          "max_lng": 55.1733737,
+          "max_lat": 25.1043291
+        }
+      },
+      {
+        "area": "Al Sufouh 2",
+        "osm_name": null,
+        "polygon_area": 0.00036354735031497135,
+        "polygon_centroid_lat": 25.101188612755333,
+        "polygon_centroid_lng": 55.16171462155734,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.176877,
+          "max_lat": 25.1153096
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Dubai Internet City",
+    "selected_polygon_area": 9.860731406498703e-05
+  },
+  {
+    "raw_area": "Downtown Dubai",
+    "lat": 25.195023,
+    "lng": 55.283553,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.067359,
+    "lng": 55.137581,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.071849,
+    "lng": 55.131921,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.0716,
+    "lng": 55.24687,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.069779,
+    "lng": 55.144168,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.086376,
+    "lng": 55.14736,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.068933,
+    "lng": 55.128814,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.123837,
+    "lng": 55.38208,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Land Residence Complex",
+    "lat": 25.10056,
+    "lng": 55.377061,
+    "matched_polygons": [
+      {
+        "area": "Dubai Residence Complex",
+        "osm_name": null,
+        "polygon_area": 0.000234966528920041,
+        "polygon_centroid_lat": 25.09259256062381,
+        "polygon_centroid_lng": 55.38078485411856,
+        "bounds": {
+          "min_lng": 55.3692823,
+          "min_lat": 25.081364,
+          "max_lng": 55.3922401,
+          "max_lat": 25.1037774
+        }
+      },
+      {
+        "area": "Wadi Al Safa 5",
+        "osm_name": null,
+        "polygon_area": 0.0014588101316850145,
+        "polygon_centroid_lat": 25.077924119047577,
+        "polygon_centroid_lng": 55.35227849105937,
+        "bounds": {
+          "min_lng": 55.301318,
+          "min_lat": 25.0494503,
+          "max_lng": 55.3921045,
+          "max_lat": 25.1038021
+        }
+      }
+    ],
+    "selected_area": "Dubai Residence Complex",
+    "selected_polygon_area": 0.000234966528920041
+  },
+  {
+    "raw_area": "Dubai South",
+    "lat": 24.946417,
+    "lng": 55.211718,
+    "matched_polygons": [
+      {
+        "area": "Dubai South Residential District",
+        "osm_name": null,
+        "polygon_area": 0.0005922752650899779,
+        "polygon_centroid_lat": 24.947316268707574,
+        "polygon_centroid_lng": 55.21481078367927,
+        "bounds": {
+          "min_lng": 55.1911697,
+          "min_lat": 24.9271836,
+          "max_lng": 55.2324608,
+          "max_lat": 24.9612546
+        }
+      }
+    ],
+    "selected_area": "Dubai South Residential District",
+    "selected_polygon_area": 0.0005922752650899779
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.175521,
+    "lng": 55.310065,
+    "matched_polygons": [
+      {
+        "area": "Sobha Hartland",
+        "osm_name": null,
+        "polygon_area": 7.218910602498055e-05,
+        "polygon_centroid_lat": 25.177187161059994,
+        "polygon_centroid_lng": 55.30682860349328,
+        "bounds": {
+          "min_lng": 55.298363,
+          "min_lat": 25.1743058,
+          "max_lng": 55.3155291,
+          "max_lat": 25.180896
+        }
+      },
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "Sobha Hartland",
+    "selected_polygon_area": 7.218910602498055e-05
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.089833,
+    "lng": 55.150625,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Dubai Sports City",
+    "lat": 25.039066,
+    "lng": 55.220697,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 4",
+        "osm_name": null,
+        "polygon_area": 0.0007618209028049966,
+        "polygon_centroid_lat": 25.03290091671137,
+        "polygon_centroid_lng": 55.21918423229297,
+        "bounds": {
+          "min_lng": 55.1997617,
+          "min_lat": 25.0129777,
+          "max_lng": 55.2384079,
+          "max_lat": 25.0519207
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 4",
+    "selected_polygon_area": 0.0007618209028049966
+  },
+  {
+    "raw_area": "CityWalk Residential",
+    "lat": 25.201392,
+    "lng": 55.264312,
+    "matched_polygons": [
+      {
+        "area": "City Walk",
+        "osm_name": null,
+        "polygon_area": 7.531803645999568e-05,
+        "polygon_centroid_lat": 25.20517555014153,
+        "polygon_centroid_lng": 55.26256160934323,
+        "bounds": {
+          "min_lng": 55.2563548,
+          "min_lat": 25.1992805,
+          "max_lng": 55.2690347,
+          "max_lat": 25.2120591
+        }
+      },
+      {
+        "area": "Al Wasl",
+        "osm_name": null,
+        "polygon_area": 0.0004368571331350012,
+        "polygon_centroid_lat": 25.196411242083524,
+        "polygon_centroid_lng": 55.25501783685002,
+        "bounds": {
+          "min_lng": 55.2397704,
+          "min_lat": 25.1802752,
+          "max_lng": 55.2708067,
+          "max_lat": 25.2120591
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "City Walk",
+    "selected_polygon_area": 7.531803645999568e-05
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.074167,
+    "lng": 55.137779,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.074521,
+    "lng": 55.143825,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "City Walk",
+    "lat": 25.205218,
+    "lng": 55.262688,
+    "matched_polygons": [
+      {
+        "area": "City Walk",
+        "osm_name": null,
+        "polygon_area": 7.531803645999568e-05,
+        "polygon_centroid_lat": 25.20517555014153,
+        "polygon_centroid_lng": 55.26256160934323,
+        "bounds": {
+          "min_lng": 55.2563548,
+          "min_lat": 25.1992805,
+          "max_lng": 55.2690347,
+          "max_lat": 25.2120591
+        }
+      },
+      {
+        "area": "Al Wasl",
+        "osm_name": null,
+        "polygon_area": 0.0004368571331350012,
+        "polygon_centroid_lat": 25.196411242083524,
+        "polygon_centroid_lng": 55.25501783685002,
+        "bounds": {
+          "min_lng": 55.2397704,
+          "min_lat": 25.1802752,
+          "max_lng": 55.2708067,
+          "max_lat": 25.2120591
+        }
+      }
+    ],
+    "selected_area": "City Walk",
+    "selected_polygon_area": 7.531803645999568e-05
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.184174,
+    "lng": 55.280526,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 25.106765,
+    "lng": 55.152317,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.080138,
+    "lng": 55.145241,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.071324,
+    "lng": 55.14183,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Town Square",
+    "lat": 25.00563,
+    "lng": 55.291383,
+    "matched_polygons": [
+      {
+        "area": "Town Square Dubai",
+        "osm_name": null,
+        "polygon_area": 0.000381293040869927,
+        "polygon_centroid_lat": 25.00683618670027,
+        "polygon_centroid_lng": 55.288977740977224,
+        "bounds": {
+          "min_lng": 55.2723628,
+          "min_lat": 24.9913768,
+          "max_lng": 55.3052806,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.0012539553129499866,
+        "polygon_centroid_lat": 24.99736017989077,
+        "polygon_centroid_lng": 55.29002054092682,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9739198,
+          "max_lng": 55.3205858,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.001305263628479934,
+        "polygon_centroid_lat": 24.997046808671037,
+        "polygon_centroid_lng": 55.29021136053316,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9735648,
+          "max_lng": 55.3210531,
+          "max_lat": 25.0219497
+        }
+      }
+    ],
+    "selected_area": "Town Square Dubai",
+    "selected_polygon_area": 0.000381293040869927
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers",
+    "lat": 25.075364,
+    "lng": 55.145308,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Lakes Towers",
+        "osm_name": null,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
+        }
+      },
+      {
+        "area": "Emirates Hills",
+        "osm_name": null,
+        "polygon_area": 0.0021441067388299983,
+        "polygon_centroid_lat": 25.06281925389821,
+        "polygon_centroid_lng": 55.16483369179832,
+        "bounds": {
+          "min_lng": 55.1322721,
+          "min_lat": 25.0307503,
+          "max_lng": 55.1987558,
+          "max_lat": 25.0949557
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Town Square",
+    "lat": 25.003874,
+    "lng": 55.284898,
+    "matched_polygons": [
+      {
+        "area": "Town Square Dubai",
+        "osm_name": null,
+        "polygon_area": 0.000381293040869927,
+        "polygon_centroid_lat": 25.00683618670027,
+        "polygon_centroid_lng": 55.288977740977224,
+        "bounds": {
+          "min_lng": 55.2723628,
+          "min_lat": 24.9913768,
+          "max_lng": 55.3052806,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.0012539553129499866,
+        "polygon_centroid_lat": 24.99736017989077,
+        "polygon_centroid_lng": 55.29002054092682,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9739198,
+          "max_lng": 55.3205858,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.001305263628479934,
+        "polygon_centroid_lat": 24.997046808671037,
+        "polygon_centroid_lng": 55.29021136053316,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9735648,
+          "max_lng": 55.3210531,
+          "max_lat": 25.0219497
+        }
+      }
+    ],
+    "selected_area": "Town Square Dubai",
+    "selected_polygon_area": 0.000381293040869927
+  },
+  {
+    "raw_area": "Dubai Land",
+    "lat": 25.086999,
+    "lng": 55.388531,
+    "matched_polygons": [
+      {
+        "area": "Dubai Residence Complex",
+        "osm_name": null,
+        "polygon_area": 0.000234966528920041,
+        "polygon_centroid_lat": 25.09259256062381,
+        "polygon_centroid_lng": 55.38078485411856,
+        "bounds": {
+          "min_lng": 55.3692823,
+          "min_lat": 25.081364,
+          "max_lng": 55.3922401,
+          "max_lat": 25.1037774
+        }
+      },
+      {
+        "area": "Wadi Al Safa 5",
+        "osm_name": null,
+        "polygon_area": 0.0014588101316850145,
+        "polygon_centroid_lat": 25.077924119047577,
+        "polygon_centroid_lng": 55.35227849105937,
+        "bounds": {
+          "min_lng": 55.301318,
+          "min_lat": 25.0494503,
+          "max_lng": 55.3921045,
+          "max_lat": 25.1038021
+        }
+      }
+    ],
+    "selected_area": "Dubai Residence Complex",
+    "selected_polygon_area": 0.000234966528920041
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.176965,
+    "lng": 55.311826,
+    "matched_polygons": [
+      {
+        "area": "Sobha Hartland",
+        "osm_name": null,
+        "polygon_area": 7.218910602498055e-05,
+        "polygon_centroid_lat": 25.177187161059994,
+        "polygon_centroid_lng": 55.30682860349328,
+        "bounds": {
+          "min_lng": 55.298363,
+          "min_lat": 25.1743058,
+          "max_lng": 55.3155291,
+          "max_lat": 25.180896
+        }
+      },
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "Sobha Hartland",
+    "selected_polygon_area": 7.218910602498055e-05
+  },
+  {
+    "raw_area": "Dubai Sports City",
+    "lat": 25.044679,
+    "lng": 55.215536,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 4",
+        "osm_name": null,
+        "polygon_area": 0.0007618209028049966,
+        "polygon_centroid_lat": 25.03290091671137,
+        "polygon_centroid_lng": 55.21918423229297,
+        "bounds": {
+          "min_lng": 55.1997617,
+          "min_lat": 25.0129777,
+          "max_lng": 55.2384079,
+          "max_lat": 25.0519207
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 4",
+    "selected_polygon_area": 0.0007618209028049966
+  },
+  {
+    "raw_area": "Dubai Silicon Oasis",
+    "lat": 25.123837,
+    "lng": 55.38208,
+    "matched_polygons": [
+      {
+        "area": "Nadd Hessa",
+        "osm_name": null,
+        "polygon_area": 0.0007539620656200676,
+        "polygon_centroid_lat": 25.122088785470623,
+        "polygon_centroid_lng": 55.38546140151879,
+        "bounds": {
+          "min_lng": 55.3648636,
+          "min_lat": 25.1038021,
+          "max_lng": 55.4083226,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "Dubai Silicon Oasis",
+        "osm_name": null,
+        "polygon_area": 0.0007607042350700289,
+        "polygon_centroid_lat": 25.12197095756146,
+        "polygon_centroid_lng": 55.385564041744054,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4083445,
+          "max_lat": 25.138728
+        }
+      },
+      {
+        "area": "International City",
+        "osm_name": null,
+        "polygon_area": 0.0015886567530800637,
+        "polygon_centroid_lat": 25.132626260849104,
+        "polygon_centroid_lng": 55.394882241061204,
+        "bounds": {
+          "min_lng": 55.3648828,
+          "min_lat": 25.1037774,
+          "max_lng": 55.4269558,
+          "max_lat": 25.1606092
+        }
+      }
+    ],
+    "selected_area": "Nadd Hessa",
+    "selected_polygon_area": 0.0007539620656200676
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 25.209875,
+    "lng": 55.351645,
+    "matched_polygons": [
+      {
+        "area": "Dubai Festival City",
+        "osm_name": null,
+        "polygon_area": 0.0005405936204599789,
+        "polygon_centroid_lat": 25.218076829684573,
+        "polygon_centroid_lng": 55.3599442162963,
+        "bounds": {
+          "min_lng": 55.3388602,
+          "min_lat": 25.2023877,
+          "max_lng": 55.3766638,
+          "max_lat": 25.2410131
+        }
+      },
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "Dubai Festival City",
+    "selected_polygon_area": 0.0005405936204599789
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.049301,
+    "lng": 55.197768,
+    "matched_polygons": [
+      {
+        "area": "District 14",
+        "osm_name": null,
+        "polygon_area": 6.427237006000393e-05,
+        "polygon_centroid_lat": 25.050168423962894,
+        "polygon_centroid_lng": 55.20285591588029,
+        "bounds": {
+          "min_lng": 55.1968737,
+          "min_lat": 25.0456387,
+          "max_lng": 55.2075014,
+          "max_lat": 25.0555266
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 14",
+    "selected_polygon_area": 6.427237006000393e-05
+  },
+  {
+    "raw_area": "Al Jaddaf",
+    "lat": 25.214144,
+    "lng": 55.318355,
+    "matched_polygons": [
+      {
+        "area": "Al Jaddaf",
+        "osm_name": null,
+        "polygon_area": 0.0009075079837449618,
+        "polygon_centroid_lat": 25.209110425053165,
+        "polygon_centroid_lng": 55.32498923117999,
+        "bounds": {
+          "min_lng": 55.3090287,
+          "min_lat": 25.1808167,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2318207
+        }
+      }
+    ],
+    "selected_area": "Al Jaddaf",
+    "selected_polygon_area": 0.0009075079837449618
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.087042,
+    "lng": 55.148385,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Jumeirah Heights",
+    "lat": 25.062247,
+    "lng": 55.143846,
     "matched_polygons": [
       {
         "area": "Jumeirah Heights",
@@ -612,56 +4089,673 @@
     "selected_polygon_area": 5.159247134500207e-05
   },
   {
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "raw_area": "DAMAC Hills",
+    "lat": 25.019165,
+    "lng": 55.246047,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Al Hebiah 3",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0004120765762100287,
+        "polygon_centroid_lat": 25.021931428828847,
+        "polygon_centroid_lng": 55.25513765991566,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
-        }
-      },
-      {
-        "area": "Emirates Hills",
-        "osm_name": null,
-        "polygon_area": 0.0021441067388299983,
-        "polygon_centroid_lat": 25.06281925389821,
-        "polygon_centroid_lng": 55.16483369179832,
-        "bounds": {
-          "min_lng": 55.1322721,
-          "min_lat": 25.0307503,
-          "max_lng": 55.1987558,
-          "max_lat": 25.0949557
+          "min_lng": 55.2399401,
+          "min_lat": 25.0074978,
+          "max_lng": 55.2667146,
+          "max_lat": 25.0354259
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Al Hebiah 3",
+    "selected_polygon_area": 0.0004120765762100287
+  },
+  {
+    "raw_area": "Meydan",
+    "lat": 25.156905,
+    "lng": 55.293924,
+    "matched_polygons": [
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "MBR- Al Merkad",
+    "selected_polygon_area": 0.0010116995101900504
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.056571,
+    "lng": 55.204936,
+    "matched_polygons": [
+      {
+        "area": "District 15",
+        "osm_name": null,
+        "polygon_area": 4.9395097039989173e-05,
+        "polygon_centroid_lat": 25.058280245037903,
+        "polygon_centroid_lng": 55.200870340149,
+        "bounds": {
+          "min_lng": 55.1962462,
+          "min_lat": 25.054823,
+          "max_lng": 55.2064771,
+          "max_lat": 25.0632538
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 15",
+    "selected_polygon_area": 4.9395097039989173e-05
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.259324,
+    "lng": 55.276867,
+    "matched_polygons": [
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Bur Dubai",
+    "selected_polygon_area": 0.002699111736984241
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.259324,
+    "lng": 55.276867,
+    "matched_polygons": [
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Bur Dubai",
+    "selected_polygon_area": 0.002699111736984241
+  },
+  {
+    "raw_area": "DIFC",
+    "lat": 25.212088,
+    "lng": 55.282761,
+    "matched_polygons": [
+      {
+        "area": "Za'abeel",
+        "osm_name": null,
+        "polygon_area": 0.0010480248859550177,
+        "polygon_centroid_lat": 25.21524169482116,
+        "polygon_centroid_lng": 55.29819511880468,
+        "bounds": {
+          "min_lng": 55.2776828,
+          "min_lat": 25.1942549,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.0014054120800900322,
+        "polygon_centroid_lat": 25.209735942619456,
+        "polygon_centroid_lng": 55.2984559222953,
+        "bounds": {
+          "min_lng": 55.2727324,
+          "min_lat": 25.1807377,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      },
+      {
+        "area": "Zabeel",
+        "osm_name": null,
+        "polygon_area": 0.0014054120800900322,
+        "polygon_centroid_lat": 25.209735942619456,
+        "polygon_centroid_lng": 55.2984559222953,
+        "bounds": {
+          "min_lng": 55.2727324,
+          "min_lat": 25.1807377,
+          "max_lng": 55.3156084,
+          "max_lat": 25.2396768
+        }
+      }
+    ],
+    "selected_area": "Za'abeel",
+    "selected_polygon_area": 0.0010480248859550177
+  },
+  {
+    "raw_area": "Dubai Production City",
+    "lat": 25.02757,
+    "lng": 55.181704,
+    "matched_polygons": [
+      {
+        "area": "Dubai Production City",
+        "osm_name": null,
+        "polygon_area": 0.0003920425935100168,
+        "polygon_centroid_lat": 25.032919547661933,
+        "polygon_centroid_lng": 55.191242501923696,
+        "bounds": {
+          "min_lng": 55.1752493,
+          "min_lat": 25.0216358,
+          "max_lng": 55.2071543,
+          "max_lat": 25.0433619
+        }
+      },
+      {
+        "area": "Me’aisem 1",
+        "osm_name": null,
+        "polygon_area": 0.0014616462794599942,
+        "polygon_centroid_lat": 25.020603824399686,
+        "polygon_centroid_lng": 55.18769148345808,
+        "bounds": {
+          "min_lng": 55.1587197,
+          "min_lat": 24.9959224,
+          "max_lng": 55.2154431,
+          "max_lat": 25.0433619
+        }
+      }
+    ],
+    "selected_area": "Dubai Production City",
+    "selected_polygon_area": 0.0003920425935100168
+  },
+  {
+    "raw_area": "Dubai Production City",
+    "lat": 25.02757,
+    "lng": 55.181704,
+    "matched_polygons": [
+      {
+        "area": "Dubai Production City",
+        "osm_name": null,
+        "polygon_area": 0.0003920425935100168,
+        "polygon_centroid_lat": 25.032919547661933,
+        "polygon_centroid_lng": 55.191242501923696,
+        "bounds": {
+          "min_lng": 55.1752493,
+          "min_lat": 25.0216358,
+          "max_lng": 55.2071543,
+          "max_lat": 25.0433619
+        }
+      },
+      {
+        "area": "Me’aisem 1",
+        "osm_name": null,
+        "polygon_area": 0.0014616462794599942,
+        "polygon_centroid_lat": 25.020603824399686,
+        "polygon_centroid_lng": 55.18769148345808,
+        "bounds": {
+          "min_lng": 55.1587197,
+          "min_lat": 24.9959224,
+          "max_lng": 55.2154431,
+          "max_lat": 25.0433619
+        }
+      }
+    ],
+    "selected_area": "Dubai Production City",
+    "selected_polygon_area": 0.0003920425935100168
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 25.207505,
+    "lng": 55.344384,
+    "matched_polygons": [
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "New Ras Al Khor Community",
+    "selected_polygon_area": 0.002477630884340004
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.18133,
+    "lng": 55.263135,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Al Jaddaf",
+    "lat": 25.213042,
+    "lng": 55.319719,
+    "matched_polygons": [
+      {
+        "area": "Al Jaddaf",
+        "osm_name": null,
+        "polygon_area": 0.0009075079837449618,
+        "polygon_centroid_lat": 25.209110425053165,
+        "polygon_centroid_lng": 55.32498923117999,
+        "bounds": {
+          "min_lng": 55.3090287,
+          "min_lat": 25.1808167,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2318207
+        }
+      }
+    ],
+    "selected_area": "Al Jaddaf",
+    "selected_polygon_area": 0.0009075079837449618
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 25.02453,
+    "lng": 55.243196,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 3",
+        "osm_name": null,
+        "polygon_area": 0.0004120765762100287,
+        "polygon_centroid_lat": 25.021931428828847,
+        "polygon_centroid_lng": 55.25513765991566,
+        "bounds": {
+          "min_lng": 55.2399401,
+          "min_lat": 25.0074978,
+          "max_lng": 55.2667146,
+          "max_lat": 25.0354259
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 3",
+    "selected_polygon_area": 0.0004120765762100287
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.060784,
+    "lng": 55.215372,
+    "matched_polygons": [
+      {
+        "area": "District 11",
+        "osm_name": null,
+        "polygon_area": 7.772811409001951e-05,
+        "polygon_centroid_lat": 25.063311134333336,
+        "polygon_centroid_lng": 55.213636027097834,
+        "bounds": {
+          "min_lng": 55.2084751,
+          "min_lat": 25.0576809,
+          "max_lng": 55.2196751,
+          "max_lat": 25.0687897
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 11",
+    "selected_polygon_area": 7.772811409001951e-05
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 25.116907,
+    "lng": 55.141733,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.142169,
+    "lng": 55.283753,
+    "matched_polygons": [
+      {
+        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "osm_name": null,
+        "polygon_area": 0.003760337531000007,
+        "polygon_centroid_lat": 25.101235040106733,
+        "polygon_centroid_lng": 55.269397304573125,
+        "bounds": {
+          "min_lng": 55.2330231,
+          "min_lat": 25.0559232,
+          "max_lng": 55.2957661,
+          "max_lat": 25.1553966
+        }
+      }
+    ],
+    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "selected_polygon_area": 0.003760337531000007
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.081955,
+    "lng": 55.138863,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Beach Residence",
+        "osm_name": null,
+        "polygon_area": 2.8357287545018357e-05,
+        "polygon_centroid_lat": 25.077732482098277,
+        "polygon_centroid_lng": 55.13512262353213,
+        "bounds": {
+          "min_lng": 55.1282924,
+          "min_lat": 25.071762,
+          "max_lng": 55.14137,
+          "max_lat": 25.0836679
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Beach Residence",
+    "selected_polygon_area": 2.8357287545018357e-05
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.177097,
+    "lng": 55.314596,
+    "matched_polygons": [
+      {
+        "area": "Sobha Hartland",
+        "osm_name": null,
+        "polygon_area": 7.218910602498055e-05,
+        "polygon_centroid_lat": 25.177187161059994,
+        "polygon_centroid_lng": 55.30682860349328,
+        "bounds": {
+          "min_lng": 55.298363,
+          "min_lat": 25.1743058,
+          "max_lng": 55.3155291,
+          "max_lat": 25.180896
+        }
+      },
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "Sobha Hartland",
+    "selected_polygon_area": 7.218910602498055e-05
+  },
+  {
+    "raw_area": "Motor City",
+    "lat": 25.046277,
+    "lng": 55.240646,
+    "matched_polygons": [
+      {
+        "area": "Motor City",
+        "osm_name": null,
+        "polygon_area": 0.0002607428944399785,
+        "polygon_centroid_lat": 25.048138376491245,
+        "polygon_centroid_lng": 55.238368147064904,
+        "bounds": {
+          "min_lng": 55.2253691,
+          "min_lat": 25.0405957,
+          "max_lng": 55.2518225,
+          "max_lat": 25.0546996
+        }
+      },
+      {
+        "area": "Al Hebiah 1",
+        "osm_name": null,
+        "polygon_area": 0.0003651377653149807,
+        "polygon_centroid_lat": 25.04696567066486,
+        "polygon_centroid_lng": 55.23760622129062,
+        "bounds": {
+          "min_lng": 55.2237482,
+          "min_lat": 25.0348651,
+          "max_lng": 55.2518225,
+          "max_lat": 25.0559232
+        }
+      }
+    ],
+    "selected_area": "Motor City",
+    "selected_polygon_area": 0.0002607428944399785
+  },
+  {
+    "raw_area": "Dubai Media City",
+    "lat": 25.102121,
+    "lng": 55.17154,
+    "matched_polygons": [
+      {
+        "area": "Dubai Internet City",
+        "osm_name": null,
+        "polygon_area": 9.860731406498703e-05,
+        "polygon_centroid_lat": 25.095458982217064,
+        "polygon_centroid_lng": 55.16170404338501,
+        "bounds": {
+          "min_lng": 55.1516214,
+          "min_lat": 25.0869041,
+          "max_lng": 55.1733737,
+          "max_lat": 25.1043291
+        }
+      },
+      {
+        "area": "Al Sufouh 2",
+        "osm_name": null,
+        "polygon_area": 0.00036354735031497135,
+        "polygon_centroid_lat": 25.101188612755333,
+        "polygon_centroid_lng": 55.16171462155734,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.176877,
+          "max_lat": 25.1153096
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Dubai Internet City",
+    "selected_polygon_area": 9.860731406498703e-05
   },
   {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.070522,
+    "lng": 55.140874,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Jumeirah Lakes Towers",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
         }
       },
       {
@@ -678,25 +4772,25 @@
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
   },
   {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.069852,
+    "lng": 55.140209,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Jumeirah Lakes Towers",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
         }
       },
       {
@@ -713,25 +4807,151 @@
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Azizi Venice",
+    "lat": 24.843181,
+    "lng": 55.141156,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Azizi Venice",
+    "lat": 24.843181,
+    "lng": 55.141156,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DIFC",
+    "lat": -77.53773,
+    "lng": 40.1149,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 25.022166,
+    "lng": 55.242781,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 3",
+        "osm_name": null,
+        "polygon_area": 0.0004120765762100287,
+        "polygon_centroid_lat": 25.021931428828847,
+        "polygon_centroid_lng": 55.25513765991566,
+        "bounds": {
+          "min_lng": 55.2399401,
+          "min_lat": 25.0074978,
+          "max_lng": 55.2667146,
+          "max_lat": 25.0354259
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 3",
+    "selected_polygon_area": 0.0004120765762100287
+  },
+  {
+    "raw_area": "Downtown Dubai",
+    "lat": 25.192165,
+    "lng": 55.272116,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Town Square",
+    "lat": 25.004121,
+    "lng": 55.291201,
+    "matched_polygons": [
+      {
+        "area": "Town Square Dubai",
+        "osm_name": null,
+        "polygon_area": 0.000381293040869927,
+        "polygon_centroid_lat": 25.00683618670027,
+        "polygon_centroid_lng": 55.288977740977224,
+        "bounds": {
+          "min_lng": 55.2723628,
+          "min_lat": 24.9913768,
+          "max_lng": 55.3052806,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.0012539553129499866,
+        "polygon_centroid_lat": 24.99736017989077,
+        "polygon_centroid_lng": 55.29002054092682,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9739198,
+          "max_lng": 55.3205858,
+          "max_lat": 25.0219497
+        }
+      },
+      {
+        "area": "Al Yalayis 2",
+        "osm_name": null,
+        "polygon_area": 0.001305263628479934,
+        "polygon_centroid_lat": 24.997046808671037,
+        "polygon_centroid_lng": 55.29021136053316,
+        "bounds": {
+          "min_lng": 55.2599031,
+          "min_lat": 24.9735648,
+          "max_lng": 55.3210531,
+          "max_lat": 25.0219497
+        }
+      }
+    ],
+    "selected_area": "Town Square Dubai",
+    "selected_polygon_area": 0.000381293040869927
   },
   {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.069929,
+    "lng": 55.141025,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Jumeirah Lakes Towers",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
         }
       },
       {
@@ -748,25 +4968,215 @@
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Dubai Land Residence Complex",
+    "lat": 25.090686,
+    "lng": 55.384321,
+    "matched_polygons": [
+      {
+        "area": "Dubai Residence Complex",
+        "osm_name": null,
+        "polygon_area": 0.000234966528920041,
+        "polygon_centroid_lat": 25.09259256062381,
+        "polygon_centroid_lng": 55.38078485411856,
+        "bounds": {
+          "min_lng": 55.3692823,
+          "min_lat": 25.081364,
+          "max_lng": 55.3922401,
+          "max_lat": 25.1037774
+        }
+      },
+      {
+        "area": "Wadi Al Safa 5",
+        "osm_name": null,
+        "polygon_area": 0.0014588101316850145,
+        "polygon_centroid_lat": 25.077924119047577,
+        "polygon_centroid_lng": 55.35227849105937,
+        "bounds": {
+          "min_lng": 55.301318,
+          "min_lat": 25.0494503,
+          "max_lng": 55.3921045,
+          "max_lat": 25.1038021
+        }
+      }
+    ],
+    "selected_area": "Dubai Residence Complex",
+    "selected_polygon_area": 0.000234966528920041
+  },
+  {
+    "raw_area": "Park Heights",
+    "lat": 25.109291,
+    "lng": 55.178733,
+    "matched_polygons": [
+      {
+        "area": "Sufouh Gardens",
+        "osm_name": null,
+        "polygon_area": 2.0008327265003107e-05,
+        "polygon_centroid_lat": 25.110248435989217,
+        "polygon_centroid_lng": 55.1787399735535,
+        "bounds": {
+          "min_lng": 55.1753577,
+          "min_lat": 25.1074201,
+          "max_lng": 55.1818607,
+          "max_lat": 25.1134979
+        }
+      },
+      {
+        "area": "Al Sufouh 1",
+        "osm_name": null,
+        "polygon_area": 0.0005530549976949971,
+        "polygon_centroid_lat": 25.120790346170327,
+        "polygon_centroid_lng": 55.18264643421952,
+        "bounds": {
+          "min_lng": 55.1643929,
+          "min_lat": 25.1054121,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1396624
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.000826887340574983,
+        "polygon_centroid_lat": 25.112455901284218,
+        "polygon_centroid_lng": 55.17478507185022,
+        "bounds": {
+          "min_lng": 55.1489896,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1327194
+        }
+      },
+      {
+        "area": "Al Sufouh",
+        "osm_name": null,
+        "polygon_area": 0.0008995149164649857,
+        "polygon_centroid_lat": 25.11259238088206,
+        "polygon_centroid_lng": 55.174175844065,
+        "bounds": {
+          "min_lng": 55.1478813,
+          "min_lat": 25.0869041,
+          "max_lng": 55.2019412,
+          "max_lat": 25.1368309
+        }
+      }
+    ],
+    "selected_area": "Sufouh Gardens",
+    "selected_polygon_area": 2.0008327265003107e-05
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.078556,
+    "lng": 55.248944,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "EMAAR South",
+    "lat": 24.849837,
+    "lng": 55.136243,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.07718,
+    "lng": 55.14756,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Jumeirah Lakes Towers",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
         }
       },
       {
@@ -783,25 +5193,305 @@
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.080444,
+    "lng": 55.144318,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Jumeirah Village Triangle",
+    "lat": 25.040576,
+    "lng": 55.183753,
+    "matched_polygons": [
+      {
+        "area": "District 3",
+        "osm_name": null,
+        "polygon_area": 1.5679981829999386e-05,
+        "polygon_centroid_lat": 25.041129575676123,
+        "polygon_centroid_lng": 55.18397124570037,
+        "bounds": {
+          "min_lng": 55.1806233,
+          "min_lat": 25.03917,
+          "max_lng": 55.1883133,
+          "max_lat": 25.0428608
+        }
+      },
+      {
+        "area": "Al Barsha South 5",
+        "osm_name": null,
+        "polygon_area": 0.0002670548594150171,
+        "polygon_centroid_lat": 25.044819507828326,
+        "polygon_centroid_lng": 55.18673976862851,
+        "bounds": {
+          "min_lng": 55.1685766,
+          "min_lat": 25.0294169,
+          "max_lng": 55.1997617,
+          "max_lat": 25.0636832
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 3",
+    "selected_polygon_area": 1.5679981829999386e-05
+  },
+  {
+    "raw_area": "Dubai Land Residence Complex",
+    "lat": 25.092075,
+    "lng": 55.381922,
+    "matched_polygons": [
+      {
+        "area": "Dubai Residence Complex",
+        "osm_name": null,
+        "polygon_area": 0.000234966528920041,
+        "polygon_centroid_lat": 25.09259256062381,
+        "polygon_centroid_lng": 55.38078485411856,
+        "bounds": {
+          "min_lng": 55.3692823,
+          "min_lat": 25.081364,
+          "max_lng": 55.3922401,
+          "max_lat": 25.1037774
+        }
+      },
+      {
+        "area": "Wadi Al Safa 5",
+        "osm_name": null,
+        "polygon_area": 0.0014588101316850145,
+        "polygon_centroid_lat": 25.077924119047577,
+        "polygon_centroid_lng": 55.35227849105937,
+        "bounds": {
+          "min_lng": 55.301318,
+          "min_lat": 25.0494503,
+          "max_lng": 55.3921045,
+          "max_lat": 25.1038021
+        }
+      }
+    ],
+    "selected_area": "Dubai Residence Complex",
+    "selected_polygon_area": 0.000234966528920041
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.183333,
+    "lng": 55.256432,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
+  },
+  {
+    "raw_area": "Dubai Production City",
+    "lat": 25.033238,
+    "lng": 55.202479,
+    "matched_polygons": [
+      {
+        "area": "Dubai Production City",
+        "osm_name": null,
+        "polygon_area": 0.0003920425935100168,
+        "polygon_centroid_lat": 25.032919547661933,
+        "polygon_centroid_lng": 55.191242501923696,
+        "bounds": {
+          "min_lng": 55.1752493,
+          "min_lat": 25.0216358,
+          "max_lng": 55.2071543,
+          "max_lat": 25.0433619
+        }
+      },
+      {
+        "area": "Me’aisem 1",
+        "osm_name": null,
+        "polygon_area": 0.0014616462794599942,
+        "polygon_centroid_lat": 25.020603824399686,
+        "polygon_centroid_lng": 55.18769148345808,
+        "bounds": {
+          "min_lng": 55.1587197,
+          "min_lat": 24.9959224,
+          "max_lng": 55.2154431,
+          "max_lat": 25.0433619
+        }
+      }
+    ],
+    "selected_area": "Dubai Production City",
+    "selected_polygon_area": 0.0003920425935100168
+  },
+  {
+    "raw_area": "Dubai Land Residence Complex",
+    "lat": 25.100306,
+    "lng": 55.376709,
+    "matched_polygons": [
+      {
+        "area": "Dubai Residence Complex",
+        "osm_name": null,
+        "polygon_area": 0.000234966528920041,
+        "polygon_centroid_lat": 25.09259256062381,
+        "polygon_centroid_lng": 55.38078485411856,
+        "bounds": {
+          "min_lng": 55.3692823,
+          "min_lat": 25.081364,
+          "max_lng": 55.3922401,
+          "max_lat": 25.1037774
+        }
+      },
+      {
+        "area": "Wadi Al Safa 5",
+        "osm_name": null,
+        "polygon_area": 0.0014588101316850145,
+        "polygon_centroid_lat": 25.077924119047577,
+        "polygon_centroid_lng": 55.35227849105937,
+        "bounds": {
+          "min_lng": 55.301318,
+          "min_lat": 25.0494503,
+          "max_lng": 55.3921045,
+          "max_lat": 25.1038021
+        }
+      }
+    ],
+    "selected_area": "Dubai Residence Complex",
+    "selected_polygon_area": 0.000234966528920041
+  },
+  {
+    "raw_area": "Al Satwa",
+    "lat": 25.221632,
+    "lng": 55.272474,
+    "matched_polygons": [
+      {
+        "area": "Al Satwa",
+        "osm_name": null,
+        "polygon_area": 0.00024176490610500477,
+        "polygon_centroid_lat": 25.2199012961749,
+        "polygon_centroid_lng": 55.27340036676575,
+        "bounds": {
+          "min_lng": 55.2611324,
+          "min_lat": 25.2057795,
+          "max_lng": 55.286128,
+          "max_lat": 25.2349942
+        }
+      }
+    ],
+    "selected_area": "Al Satwa",
+    "selected_polygon_area": 0.00024176490610500477
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 25.183333,
+    "lng": 55.256432,
+    "matched_polygons": [
+      {
+        "area": "Business Bay",
+        "osm_name": null,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
+        }
+      },
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      }
+    ],
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
   },
   {
     "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "lat": 25.075364,
+    "lng": 55.145308,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Jumeirah Lakes Towers",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0001836229879299618,
+        "polygon_centroid_lat": 25.072845251257625,
+        "polygon_centroid_lng": 55.1448708341338,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.1322721,
+          "min_lat": 25.0604614,
+          "max_lng": 55.1583355,
+          "max_lat": 25.0840851
         }
       },
       {
@@ -818,78 +5508,615 @@
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Jumeirah Lakes Towers",
+    "selected_polygon_area": 0.0001836229879299618
   },
   {
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "raw_area": "Business Bay",
+    "lat": 25.176728,
+    "lng": 55.271595,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Business Bay",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0006012346684400073,
+        "polygon_centroid_lat": 25.18348836068809,
+        "polygon_centroid_lng": 55.27074064051517,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.199431
         }
       },
       {
-        "area": "Emirates Hills",
+        "area": "Downtown Dubai",
         "osm_name": null,
-        "polygon_area": 0.0021441067388299983,
-        "polygon_centroid_lat": 25.06281925389821,
-        "polygon_centroid_lng": 55.16483369179832,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
         "bounds": {
-          "min_lng": 55.1322721,
-          "min_lat": 25.0307503,
-          "max_lng": 55.1987558,
-          "max_lat": 25.0949557
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Business Bay",
+    "selected_polygon_area": 0.0006012346684400073
   },
   {
-    "raw_area": "Jumeirah Lake Towers",
-    "lat": 25.064877,
-    "lng": 55.141668,
+    "raw_area": "Deira",
+    "lat": 25.28093,
+    "lng": 55.296249,
     "matched_polygons": [
       {
-        "area": "Jumeirah Heights",
+        "area": "Deira Island",
         "osm_name": null,
-        "polygon_area": 5.159247134500207e-05,
-        "polygon_centroid_lat": 25.06535339493772,
-        "polygon_centroid_lng": 55.145347566041345,
+        "polygon_area": 0.0005409881863102296,
+        "polygon_centroid_lat": 25.31357332203559,
+        "polygon_centroid_lng": 55.303375696581305,
         "bounds": {
-          "min_lng": 55.1399185,
-          "min_lat": 25.060276,
-          "max_lng": 55.1498081,
-          "max_lat": 25.0706403
+          "min_lng": 55.2812546,
+          "min_lat": 25.2792217,
+          "max_lng": 55.3315241,
+          "max_lat": 25.3566384
         }
       },
       {
-        "area": "Emirates Hills",
+        "area": "Palm Deira",
         "osm_name": null,
-        "polygon_area": 0.0021441067388299983,
-        "polygon_centroid_lat": 25.06281925389821,
-        "polygon_centroid_lng": 55.16483369179832,
+        "polygon_area": 0.001694996489254967,
+        "polygon_centroid_lat": 25.314673906526092,
+        "polygon_centroid_lng": 55.307793050515606,
         "bounds": {
-          "min_lng": 55.1322721,
-          "min_lat": 25.0307503,
-          "max_lng": 55.1987558,
-          "max_lat": 25.0949557
+          "min_lng": 55.2812546,
+          "min_lat": 25.2792339,
+          "max_lng": 55.3317495,
+          "max_lat": 25.3566043
         }
       }
     ],
-    "selected_area": "Jumeirah Heights",
-    "selected_polygon_area": 5.159247134500207e-05
+    "selected_area": "Deira Island",
+    "selected_polygon_area": 0.0005409881863102296
+  },
+  {
+    "raw_area": "Falcon City of Wonders",
+    "lat": 25.095587,
+    "lng": 55.337706,
+    "matched_polygons": [
+      {
+        "area": "Falcon City of Wonders",
+        "osm_name": null,
+        "polygon_area": 0.0004243081374749962,
+        "polygon_centroid_lat": 25.096251660350543,
+        "polygon_centroid_lng": 55.34479104498572,
+        "bounds": {
+          "min_lng": 55.3299781,
+          "min_lat": 25.0829536,
+          "max_lng": 55.3600585,
+          "max_lat": 25.1104775
+        }
+      },
+      {
+        "area": "Wadi Al Safa 2",
+        "osm_name": null,
+        "polygon_area": 0.0009471675846899166,
+        "polygon_centroid_lat": 25.10037529999413,
+        "polygon_centroid_lng": 55.352650841941845,
+        "bounds": {
+          "min_lng": 55.330269,
+          "min_lat": 25.0791727,
+          "max_lng": 55.3786296,
+          "max_lat": 25.1199267
+        }
+      },
+      {
+        "area": "Wadi Al Safa 2",
+        "osm_name": null,
+        "polygon_area": 0.0009549236940900177,
+        "polygon_centroid_lat": 25.10034365582197,
+        "polygon_centroid_lng": 55.35273115773076,
+        "bounds": {
+          "min_lng": 55.3299781,
+          "min_lat": 25.0791727,
+          "max_lng": 55.3786599,
+          "max_lat": 25.119936
+        }
+      },
+      {
+        "area": "City of Arabia",
+        "osm_name": null,
+        "polygon_area": 0.0015619145942249546,
+        "polygon_centroid_lat": 25.09110244269762,
+        "polygon_centroid_lng": 55.339064372905426,
+        "bounds": {
+          "min_lng": 55.2951082,
+          "min_lat": 25.0582591,
+          "max_lng": 55.3786599,
+          "max_lat": 25.119936
+        }
+      }
+    ],
+    "selected_area": "Falcon City of Wonders",
+    "selected_polygon_area": 0.0004243081374749962
+  },
+  {
+    "raw_area": "Mina Rashid",
+    "lat": 25.259324,
+    "lng": 55.276867,
+    "matched_polygons": [
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Bur Dubai",
+    "selected_polygon_area": 0.002699111736984241
+  },
+  {
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.062184,
+    "lng": 55.217714,
+    "matched_polygons": [
+      {
+        "area": "District 11",
+        "osm_name": null,
+        "polygon_area": 7.772811409001951e-05,
+        "polygon_centroid_lat": 25.063311134333336,
+        "polygon_centroid_lng": 55.213636027097834,
+        "bounds": {
+          "min_lng": 55.2084751,
+          "min_lat": 25.0576809,
+          "max_lng": 55.2196751,
+          "max_lat": 25.0687897
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 11",
+    "selected_polygon_area": 7.772811409001951e-05
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.08058,
+    "lng": 55.139147,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Beach Residence",
+        "osm_name": null,
+        "polygon_area": 2.8357287545018357e-05,
+        "polygon_centroid_lat": 25.077732482098277,
+        "polygon_centroid_lng": 55.13512262353213,
+        "bounds": {
+          "min_lng": 55.1282924,
+          "min_lat": 25.071762,
+          "max_lng": 55.14137,
+          "max_lat": 25.0836679
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Beach Residence",
+    "selected_polygon_area": 2.8357287545018357e-05
+  },
+  {
+    "raw_area": "Jumeirah Beach Residence",
+    "lat": 25.080787,
+    "lng": 55.13738,
+    "matched_polygons": [
+      {
+        "area": "Jumeirah Beach Residence",
+        "osm_name": null,
+        "polygon_area": 2.8357287545018357e-05,
+        "polygon_centroid_lat": 25.077732482098277,
+        "polygon_centroid_lng": 55.13512262353213,
+        "bounds": {
+          "min_lng": 55.1282924,
+          "min_lat": 25.071762,
+          "max_lng": 55.14137,
+          "max_lat": 25.0836679
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Jumeirah Beach Residence",
+    "selected_polygon_area": 2.8357287545018357e-05
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 25.087926,
+    "lng": 55.149224,
+    "matched_polygons": [
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.0002706535925000033,
+        "polygon_centroid_lat": 25.079553353124606,
+        "polygon_centroid_lng": 55.13989095558866,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0921743
+        }
+      },
+      {
+        "area": "Dubai Marina",
+        "osm_name": null,
+        "polygon_area": 0.00032818875548501676,
+        "polygon_centroid_lat": 25.080493662830865,
+        "polygon_centroid_lng": 55.13911419185002,
+        "bounds": {
+          "min_lng": 55.1236635,
+          "min_lat": 25.0642641,
+          "max_lng": 55.1551429,
+          "max_lat": 25.0949874
+        }
+      }
+    ],
+    "selected_area": "Dubai Marina",
+    "selected_polygon_area": 0.0002706535925000033
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 25.107353,
+    "lng": 55.148401,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 25.070994,
+    "lng": 55.248796,
+    "matched_polygons": [
+      {
+        "area": "Dubiotech",
+        "osm_name": null,
+        "polygon_area": 0.00018161109233998473,
+        "polygon_centroid_lat": 25.074631738746852,
+        "polygon_centroid_lng": 55.24253916628897,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0685609,
+          "max_lng": 55.2501752,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.00034523873624997596,
+        "polygon_centroid_lat": 25.07420491847161,
+        "polygon_centroid_lng": 55.24947814618781,
+        "bounds": {
+          "min_lng": 55.2349206,
+          "min_lat": 25.0684562,
+          "max_lng": 55.2665628,
+          "max_lat": 25.0811669
+        }
+      },
+      {
+        "area": "Al Barsha South 2",
+        "osm_name": null,
+        "polygon_area": 0.00041340892647999454,
+        "polygon_centroid_lat": 25.073172223303963,
+        "polygon_centroid_lng": 55.23387063330523,
+        "bounds": {
+          "min_lng": 55.2168243,
+          "min_lat": 25.0624609,
+          "max_lng": 55.2501726,
+          "max_lat": 25.0813063
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Dubiotech",
+    "selected_polygon_area": 0.00018161109233998473
+  },
+  {
+    "raw_area": "Arjan",
+    "lat": 25.059242,
+    "lng": 55.238385,
+    "matched_polygons": [
+      {
+        "area": "Al Barsha South 3",
+        "osm_name": null,
+        "polygon_area": 0.0003489682647199932,
+        "polygon_centroid_lat": 25.060854455853665,
+        "polygon_centroid_lng": 55.23640403776296,
+        "bounds": {
+          "min_lng": 55.2208224,
+          "min_lat": 25.0519243,
+          "max_lng": 55.2498103,
+          "max_lat": 25.0686367
+        }
+      },
+      {
+        "area": "Arjan",
+        "osm_name": null,
+        "polygon_area": 0.00034962954511499395,
+        "polygon_centroid_lat": 25.060862015208215,
+        "polygon_centroid_lng": 55.236419338408425,
+        "bounds": {
+          "min_lng": 55.2208194,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2498105,
+          "max_lat": 25.068637
+        }
+      },
+      {
+        "area": "Al Barsha South",
+        "osm_name": null,
+        "polygon_area": 0.0011750601004899583,
+        "polygon_centroid_lat": 25.075743655880544,
+        "polygon_centroid_lng": 55.23343230266875,
+        "bounds": {
+          "min_lng": 55.2126331,
+          "min_lat": 25.0543727,
+          "max_lng": 55.2496703,
+          "max_lat": 25.1002743
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.001291181855520009,
+        "polygon_centroid_lat": 25.075346873235016,
+        "polygon_centroid_lng": 55.233351131299315,
+        "bounds": {
+          "min_lng": 55.210239,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1023289
+        }
+      },
+      {
+        "area": "Al Barsha",
+        "osm_name": null,
+        "polygon_area": 0.0032199187278949977,
+        "polygon_centroid_lat": 25.086963296606893,
+        "polygon_centroid_lng": 55.213691861734965,
+        "bounds": {
+          "min_lng": 55.1727574,
+          "min_lat": 25.0519207,
+          "max_lng": 55.2501752,
+          "max_lat": 25.1230372
+        }
+      }
+    ],
+    "selected_area": "Al Barsha South 3",
+    "selected_polygon_area": 0.0003489682647199932
+  },
+  {
+    "raw_area": "Mirdif Hills",
+    "lat": 25.227337,
+    "lng": 55.441623,
+    "matched_polygons": [
+      {
+        "area": "Mirdif",
+        "osm_name": null,
+        "polygon_area": 0.00089929470015505,
+        "polygon_centroid_lat": 25.22214510581879,
+        "polygon_centroid_lng": 55.42257659623746,
+        "bounds": {
+          "min_lng": 55.4028121,
+          "min_lat": 25.2056186,
+          "max_lng": 55.4424026,
+          "max_lat": 25.2352206
+        }
+      }
+    ],
+    "selected_area": "Mirdif",
+    "selected_polygon_area": 0.00089929470015505
+  },
+  {
+    "raw_area": "Mohammed Bin Rashid City",
+    "lat": 25.175591,
+    "lng": 55.309586,
+    "matched_polygons": [
+      {
+        "area": "Sobha Hartland",
+        "osm_name": null,
+        "polygon_area": 7.218910602498055e-05,
+        "polygon_centroid_lat": 25.177187161059994,
+        "polygon_centroid_lng": 55.30682860349328,
+        "bounds": {
+          "min_lng": 55.298363,
+          "min_lat": 25.1743058,
+          "max_lng": 55.3155291,
+          "max_lat": 25.180896
+        }
+      },
+      {
+        "area": "MBR- Al Merkad",
+        "osm_name": null,
+        "polygon_area": 0.0010116995101900504,
+        "polygon_centroid_lat": 25.16893198013833,
+        "polygon_centroid_lng": 55.29216844752255,
+        "bounds": {
+          "min_lng": 55.2678755,
+          "min_lat": 25.1508012,
+          "max_lng": 55.3173541,
+          "max_lat": 25.1831562
+        }
+      },
+      {
+        "area": "Meydan",
+        "osm_name": null,
+        "polygon_area": 0.0017343592039550187,
+        "polygon_centroid_lat": 25.162152149571984,
+        "polygon_centroid_lng": 55.309661946022985,
+        "bounds": {
+          "min_lng": 55.2765459,
+          "min_lat": 25.1403831,
+          "max_lng": 55.3395153,
+          "max_lat": 25.1849498
+        }
+      }
+    ],
+    "selected_area": "Sobha Hartland",
+    "selected_polygon_area": 7.218910602498055e-05
+  },
+  {
+    "raw_area": "Dubai Investment Park",
+    "lat": 24.98914,
+    "lng": 55.20163,
+    "matched_polygons": [
+      {
+        "area": "Ritaj",
+        "osm_name": null,
+        "polygon_area": 1.539179214499544e-05,
+        "polygon_centroid_lat": 24.988793794582236,
+        "polygon_centroid_lng": 55.20254587818731,
+        "bounds": {
+          "min_lng": 55.2008214,
+          "min_lat": 24.9864291,
+          "max_lng": 55.2044525,
+          "max_lat": 24.9912434
+        }
+      },
+      {
+        "area": "Dubai Investments Park",
+        "osm_name": null,
+        "polygon_area": 0.0031994729352300254,
+        "polygon_centroid_lat": 24.980715266568964,
+        "polygon_centroid_lng": 55.1888498377517,
+        "bounds": {
+          "min_lng": 55.1422922,
+          "min_lat": 24.9541,
+          "max_lng": 55.2403639,
+          "max_lat": 25.0172522
+        }
+      }
+    ],
+    "selected_area": "Ritaj",
+    "selected_polygon_area": 1.539179214499544e-05
   },
   {
     "raw_area": "Burj Vista Tower 1, Burj Vista, Downtown Dubai, Dubai",
