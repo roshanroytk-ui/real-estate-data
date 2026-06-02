@@ -1301,6 +1301,62 @@ ALGOLIA_HEADERS = {
 }
 
 # =========================================
+# DUBIZZLE SCRAPER
+# =========================================
+
+def fetch_dubizzle_algolia(max_pages=25):
+
+    listings = []
+
+    for page in range(max_pages):
+
+        payload = {
+            "requests": [
+                {
+                    "indexName":
+                    "by_verification_feature_asc_property-for-sale-residential.com",
+
+                    "params":
+                    f"query=&page={page}&hitsPerPage=35"
+                }
+            ]
+        }
+
+        try:
+
+            response = requests.post(
+                ALGOLIA_URL,
+                headers=ALGOLIA_HEADERS,
+                json=payload,
+                timeout=30
+            )
+
+            response.raise_for_status()
+
+            data = response.json()
+
+            hits = data["results"][0]["hits"]
+
+            listings.extend(hits)
+
+            print(
+                f"DUBIZZLE PAGE {page} "
+                f"({len(hits)} listings)"
+            )
+
+            time.sleep(0.5)
+
+        except Exception as e:
+
+            print(
+                "DUBIZZLE ERROR:",
+                page,
+                e
+            )
+
+    return listings
+
+# =========================================
 # BHOMES
 # =========================================
 
@@ -1500,61 +1556,7 @@ print(
     len(dubizzle_hits)
 )
 
-# =========================================
-# DUBIZZLE SCRAPER
-# =========================================
 
-def fetch_dubizzle_algolia(max_pages=25):
-
-    listings = []
-
-    for page in range(max_pages):
-
-        payload = {
-            "requests": [
-                {
-                    "indexName":
-                    "by_verification_feature_asc_property-for-sale-residential.com",
-
-                    "params":
-                    f"query=&page={page}&hitsPerPage=35"
-                }
-            ]
-        }
-
-        try:
-
-            response = requests.post(
-                ALGOLIA_URL,
-                headers=ALGOLIA_HEADERS,
-                json=payload,
-                timeout=30
-            )
-
-            response.raise_for_status()
-
-            data = response.json()
-
-            hits = data["results"][0]["hits"]
-
-            listings.extend(hits)
-
-            print(
-                f"DUBIZZLE PAGE {page} "
-                f"({len(hits)} listings)"
-            )
-
-            time.sleep(0.5)
-
-        except Exception as e:
-
-            print(
-                "DUBIZZLE ERROR:",
-                page,
-                e
-            )
-
-    return listings
 
 # =========================================
 # DUBIZZLE PARSER
