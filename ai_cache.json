@@ -601,5 +601,46 @@
   "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-22-96118728.html": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-majan-dubai-382-sqft-spid-R88793686": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-business-bay-dubai-748-sqft-spid-C88605342": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-downtown-dubai-3000-sqft-r5-spid-E74418215": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-jumeirah-village-circle-dubai-420-sqft-r1-spid-W88793860": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-dubailand-dubai-323-sqft-r1-spid-F88823424": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-jumeirah-village-circle-dubai-747-sqft-r3-spid-E77862385": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-jumeirah-lakes-towers-dubai-398-sqft-spid-D89117161": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/4-bhk-bedroom-apartment-flat-for-sale-in-viceroy-apartments-the-palm-jumeirah-dubai-5200-sqft-spid-N86192728": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.99acres.com/4-bhk-bedroom-apartment-flat-for-sale-in-viceroy-apartments-the-palm-jumeirah-dubai-5200-sqft-spid-N86192728_investment_analysis": {
+    "quality_context": "The property is located in Palm Jumeirah, Dubai's premier ultra-luxury waterfront district. However, the listing quality is exceptionally poor. A 5,200 sqft luxury asset is presented with a highly unprofessional, single-sentence description ('It's a dubai based property in best location') and lacks critical specifications such as the building name, floor level, view, furnishing status, or developer details.",
+    "risk_flags": [
+      "Severe Pricing Discrepancy: The listed price of AED 813/sqft is ~89% below the market median of AED 7,437/sqft for Palm Jumeirah, indicating a highly probable data entry error, a bait-and-switch lead generation tactic, or a distressed asset with extreme legal/structural complications.",
+      "Lack of Transparency: The absence of a specific building name or project phase makes it impossible to verify the property's actual market positioning.",
+      "Potential Fraud/Phantom Listing: Highly suspicious pricing combined with a low-effort description strongly correlates with unauthorized or fake broker listings."
+    ],
+    "investment_summary": "On paper, acquiring a 5,200 sqft 4-BHK in Palm Jumeirah for AED 4.23M (AED 813/sqft) represents an impossible arbitrage opportunity compared to the market median value of ~AED 38.6M. However, as a professional analyst, this is flagged as a high-risk anomaly rather than a viable investment. No capital should be committed without immediate verification of the Title Deed via the Dubai Land Department (DLD) REST app, validation of the broker's RERA permit, and a physical site inspection."
   }
 }
