@@ -1592,6 +1592,13 @@ for hit in dubizzle_hits:
         lat = geo.get("lat")
         lng = geo.get("lng")
 
+        print(
+            "DUBIZZLE RAW:",
+            raw_area,
+            lat,
+            lng
+        )
+
         title = (
             hit.get("name", {})
             .get("en", "")
