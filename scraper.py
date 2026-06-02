@@ -574,8 +574,12 @@ def get_area_assignment(lat, lng, raw_area=""):
                 })
             
             if contains or covers or intersects:
-            
 
+                area_name = row["name"]
+
+                if not area_name:
+                    continue
+            
                 polygon_bounds = polygon.bounds
 
                 centroid = polygon.centroid
