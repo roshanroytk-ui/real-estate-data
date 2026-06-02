@@ -2313,6 +2313,12 @@ for source_data in all_soups:
         for prop in properties_data:
 
             print(
+                prop.get("PROP_HEADING"),
+                prop.get("PROPERTY_TYPE"),
+                prop.get("BEDROOM_NUM")
+            )
+
+            print(
                 "99ACRES FOUND:",
                 prop.get("PROP_HEADING"),
                 prop.get("MIN_PRICE"),
@@ -2598,6 +2604,14 @@ for source_data in all_soups:
             "99ACRES PARSER ERROR:",
             e
         )
+
+count_99 = sum(
+    1
+    for p in properties
+    if p["source"] == "99acres"
+)
+
+print("99ACRES SAVED:", count_99)
             
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
