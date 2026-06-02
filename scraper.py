@@ -9,6 +9,7 @@ from math import radians, sin, cos, sqrt, atan2
 import random
 from bs4.element import Script
 import geopandas as gpd
+import pandas as pd
 from shapely.geometry import Point
 import os
 
@@ -577,7 +578,7 @@ def get_area_assignment(lat, lng, raw_area=""):
 
                 area_name = row["name"]
 
-                if not area_name:
+                if pd.isna(area_name) or str(area_name).strip() == "":
                     continue
             
                 polygon_bounds = polygon.bounds
@@ -1526,6 +1527,10 @@ with open("areas.json", "r", encoding="utf-8") as f:
 areas_gdf = gpd.read_file(
     "polygon_cache.geojson"
 )
+
+areas_gdf = areas_gdf[
+    areas_gdf["name"].notna()
+]
 
 print("ORIGINAL CRS:", areas_gdf.crs)
 
