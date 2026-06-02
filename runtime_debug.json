@@ -919,17 +919,17 @@
   },
   {
     "type": "close_polygon",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "area": "Bluewaters",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
+    "area": "Bluewaters"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "comparable_area": "Bluewaters",
+    "heatmap_area": "Bluewaters",
     "match_count": 1
   },
   {
@@ -945,6 +945,21 @@
     "type": "polygon_selection",
     "comparable_area": "Bluewaters",
     "heatmap_area": "Bluewaters",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
     "match_count": 1
   },
   {
@@ -994,21 +1009,6 @@
     "comparable_area": "Wasl Gate",
     "heatmap_area": "Jabal Ali 1",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bluewaters",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bluewaters"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bluewaters",
-    "heatmap_area": "Bluewaters",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -1126,21 +1126,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Trade Centre",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Trade Centre"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Trade Centre",
-    "heatmap_area": "Trade Centre",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
     "area": "Bluewaters",
     "distance": 0.0
   },
@@ -1152,6 +1137,21 @@
     "type": "polygon_selection",
     "comparable_area": "Bluewaters",
     "heatmap_area": "Bluewaters",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trade Centre",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Trade Centre"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Trade Centre",
+    "heatmap_area": "Trade Centre",
     "match_count": 1
   },
   {
@@ -2478,6 +2478,51 @@
   },
   {
     "type": "close_polygon",
+    "area": "Palm Deira",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Deira"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Deira",
+    "heatmap_area": "Palm Deira",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Deira",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Deira"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Deira",
+    "heatmap_area": "Palm Deira",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Deira",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Deira"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Deira",
+    "heatmap_area": "Palm Deira",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Wasl Gate",
     "distance": 0.0
   },
@@ -2508,51 +2553,6 @@
     "comparable_area": "Wasl Gate",
     "heatmap_area": "Jabal Ali 1",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -2940,30 +2940,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Jumeirah Lakes Towers",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jumeirah Lakes Towers"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Emirates Hills",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Emirates Hills"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Jumeirah Lakes Towers",
-    "heatmap_area": "Emirates Hills",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
     "area": "Palm Deira",
     "distance": 0.0
   },
@@ -3138,6 +3114,30 @@
     "comparable_area": "Port Rashid",
     "heatmap_area": "Bur Dubai",
     "match_count": 4
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Lakes Towers",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Lakes Towers"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emirates Hills",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emirates Hills"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Lakes Towers",
+    "heatmap_area": "Emirates Hills",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -3601,26 +3601,26 @@
   },
   {
     "type": "close_polygon",
-    "area": "Motor City",
+    "area": "Palm Jumeirah",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Motor City"
+    "area": "Palm Jumeirah"
   },
   {
     "type": "close_polygon",
-    "area": "Al Hebiah 1",
+    "area": "Palm Jumeirah",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Al Hebiah 1"
+    "area": "Palm Jumeirah"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Motor City",
-    "heatmap_area": "Al Hebiah 1",
+    "comparable_area": "Palm Jumeirah",
+    "heatmap_area": "Palm Jumeirah",
     "match_count": 2
   },
   {
@@ -3663,26 +3663,26 @@
   },
   {
     "type": "close_polygon",
-    "area": "Palm Jumeirah",
+    "area": "Motor City",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Palm Jumeirah"
+    "area": "Motor City"
   },
   {
     "type": "close_polygon",
-    "area": "Palm Jumeirah",
+    "area": "Al Hebiah 1",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Palm Jumeirah"
+    "area": "Al Hebiah 1"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Palm Jumeirah",
-    "heatmap_area": "Palm Jumeirah",
+    "comparable_area": "Motor City",
+    "heatmap_area": "Al Hebiah 1",
     "match_count": 2
   },
   {
@@ -4071,6 +4071,21 @@
   },
   {
     "type": "close_polygon",
+    "area": "Bluewaters",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bluewaters"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Bluewaters",
+    "heatmap_area": "Bluewaters",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Bur Dubai",
     "distance": 0.0
   },
@@ -4092,21 +4107,6 @@
     "comparable_area": "Downtown Dubai",
     "heatmap_area": "Bur Dubai",
     "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bluewaters",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bluewaters"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bluewaters",
-    "heatmap_area": "Bluewaters",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -4206,30 +4206,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Al Barsha South 4",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Barsha South 4"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jumeirah Village Circle",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jumeirah Village Circle"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Al Barsha South 4",
-    "heatmap_area": "Jumeirah Village Circle",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
     "area": "Dubai International Financial Centre",
     "distance": 0.0
   },
@@ -4265,6 +4241,30 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Barsha South 4",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Barsha South 4"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Village Circle",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Village Circle"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Barsha South 4",
+    "heatmap_area": "Jumeirah Village Circle",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -4536,6 +4536,178 @@
   },
   {
     "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Lakes Towers",
+    "distance": 0.000996798369902405
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emirates Hills",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emirates Hills"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Emirates Hills",
+    "heatmap_area": "Emirates Hills",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Lakes Towers",
+    "distance": 0.000996798369902405
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emirates Hills",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emirates Hills"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Emirates Hills",
+    "heatmap_area": "Emirates Hills",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Dubai International Financial Centre",
     "distance": 0.0
   },
@@ -4571,178 +4743,6 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "City Walk",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "City Walk"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "City Walk",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "City Walk",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "City Walk"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "City Walk",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "City Walk",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "City Walk"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "City Walk",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "City Walk",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "City Walk"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "City Walk",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jumeirah Lakes Towers",
-    "distance": 0.000996798369902405
-  },
-  {
-    "type": "close_polygon",
-    "area": "Emirates Hills",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Emirates Hills"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Emirates Hills",
-    "heatmap_area": "Emirates Hills",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jumeirah Lakes Towers",
-    "distance": 0.000996798369902405
-  },
-  {
-    "type": "close_polygon",
-    "area": "Emirates Hills",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Emirates Hills"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Emirates Hills",
-    "heatmap_area": "Emirates Hills",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -5230,6 +5230,26 @@
   },
   {
     "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0008969694687856706
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Jumeirah",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "City Walk",
     "distance": 0.0
   },
@@ -5260,26 +5280,6 @@
     "comparable_area": "City Walk",
     "heatmap_area": "Bur Dubai",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0008969694687856706
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jumeirah"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Jumeirah",
-    "heatmap_area": "Jumeirah",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -5397,21 +5397,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Emaar South Golf District",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Emaar South Golf District"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Emaar South Golf District",
-    "heatmap_area": "Emaar South Golf District",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
     "area": "Al Wasl",
     "distance": 0.0
   },
@@ -5427,27 +5412,18 @@
   },
   {
     "type": "close_polygon",
-    "area": "Bur Dubai",
+    "area": "Emaar South Golf District",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Downtown Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Downtown Dubai"
+    "area": "Emaar South Golf District"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Downtown Dubai",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 2
+    "comparable_area": "Emaar South Golf District",
+    "heatmap_area": "Emaar South Golf District",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -5505,6 +5481,30 @@
     "comparable_area": "District 14",
     "heatmap_area": "Jumeirah Village Circle",
     "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Downtown Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Downtown Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Downtown Dubai",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -5571,39 +5571,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Sobha Hartland",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Sobha Hartland"
-  },
-  {
-    "type": "close_polygon",
-    "area": "MBR- Al Merkad",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "MBR- Al Merkad"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Meydan",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Meydan"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Sobha Hartland",
-    "heatmap_area": "Meydan",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
     "area": "Dubai International Financial Centre",
     "distance": 0.0
   },
@@ -5638,6 +5605,39 @@
     "type": "polygon_selection",
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Sobha Hartland",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Sobha Hartland"
+  },
+  {
+    "type": "close_polygon",
+    "area": "MBR- Al Merkad",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "MBR- Al Merkad"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Meydan",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Meydan"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Sobha Hartland",
+    "heatmap_area": "Meydan",
     "match_count": 3
   },
   {
@@ -5851,6 +5851,21 @@
   },
   {
     "type": "close_polygon",
+    "area": "Palm Deira",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Deira"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Deira",
+    "heatmap_area": "Palm Deira",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Umm Suqeim 3",
     "distance": 0.0
   },
@@ -5896,21 +5911,6 @@
     "comparable_area": "Umm Suqeim 3",
     "heatmap_area": "Umm Suqeim",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -6060,6 +6060,26 @@
   },
   {
     "type": "close_polygon",
+    "area": "Dubai Production City",
+    "distance": 0.00010351847474917569
+  },
+  {
+    "type": "close_polygon",
+    "area": "Me’aisem 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Me’aisem 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Me’aisem 1",
+    "heatmap_area": "Me’aisem 1",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Bur Dubai",
     "distance": 0.0
   },
@@ -6093,23 +6113,27 @@
   },
   {
     "type": "close_polygon",
-    "area": "Dubai Production City",
-    "distance": 0.00010351847474917569
-  },
-  {
-    "type": "close_polygon",
-    "area": "Me’aisem 1",
+    "area": "Bukadra",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Me’aisem 1"
+    "area": "Bukadra"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Meydan",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Meydan"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Me’aisem 1",
-    "heatmap_area": "Me’aisem 1",
-    "match_count": 1
+    "comparable_area": "Bukadra",
+    "heatmap_area": "Meydan",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -6143,30 +6167,6 @@
     "comparable_area": "Sobha Hartland",
     "heatmap_area": "Meydan",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bukadra",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bukadra"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Meydan",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Meydan"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bukadra",
-    "heatmap_area": "Meydan",
-    "match_count": 2
   },
   {
     "type": "close_polygon",

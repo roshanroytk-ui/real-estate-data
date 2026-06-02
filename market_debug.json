@@ -3331,39 +3331,6 @@
   },
   {
     "market_key": {
-      "area": "Wasl Gate",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1307,
-    "listing_count": 1,
-    "min_price_per_sqft": 1307,
-    "max_price_per_sqft": 1307,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1307
-    ],
-    "listings": [
-      {
-        "title": "3 BR | AMENITIES & PARK VIEW |NEAR METRO |HIGH ROI",
-        "area": "Wasl Gate",
-        "tower_name": "Sola Residences",
-        "raw_area": "Sola Residences, Wasl Gate, Dubai",
-        "lat": 25.020753860473633,
-        "lng": 55.10671615600586,
-        "price_per_sqft": 1307,
-        "price": 2141000,
-        "sqft": 1638,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-wasl-gate-sola-residences-94022852.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Palm Deira",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -3425,6 +3392,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-islands-maravea-residences-86619882.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Wasl Gate",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1307,
+    "listing_count": 1,
+    "min_price_per_sqft": 1307,
+    "max_price_per_sqft": 1307,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1307
+    ],
+    "listings": [
+      {
+        "title": "3 BR | AMENITIES & PARK VIEW |NEAR METRO |HIGH ROI",
+        "area": "Wasl Gate",
+        "tower_name": "Sola Residences",
+        "raw_area": "Sola Residences, Wasl Gate, Dubai",
+        "lat": 25.020753860473633,
+        "lng": 55.10671615600586,
+        "price_per_sqft": 1307,
+        "price": 2141000,
+        "sqft": 1638,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-wasl-gate-sola-residences-94022852.html"
       }
     ]
   },
@@ -3661,39 +3661,6 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Lakes Towers",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1371,
-    "listing_count": 1,
-    "min_price_per_sqft": 1371,
-    "max_price_per_sqft": 1371,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1371
-    ],
-    "listings": [
-      {
-        "title": "Largest Layout | High Floor | Lake Views",
-        "area": "Jumeirah Lakes Towers",
-        "tower_name": "Laguna Tower",
-        "raw_area": "Laguna Tower, JLT Cluster A, Jumeirah Lake Towers, Dubai",
-        "lat": 25.065837860107422,
-        "lng": 55.138187408447266,
-        "price_per_sqft": 1371,
-        "price": 2750000,
-        "sqft": 2006,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-lake-towers-jlt-cluster-a-laguna-tower-93993709.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubiotech",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -3788,6 +3755,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-maritime-city-soulever-by-beyond-soulever-by-beyond-tower-1-73115092.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Jumeirah Lakes Towers",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1371,
+    "listing_count": 1,
+    "min_price_per_sqft": 1371,
+    "max_price_per_sqft": 1371,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1371
+    ],
+    "listings": [
+      {
+        "title": "Largest Layout | High Floor | Lake Views",
+        "area": "Jumeirah Lakes Towers",
+        "tower_name": "Laguna Tower",
+        "raw_area": "Laguna Tower, JLT Cluster A, Jumeirah Lake Towers, Dubai",
+        "lat": 25.065837860107422,
+        "lng": 55.138187408447266,
+        "price_per_sqft": 1371,
+        "price": 2750000,
+        "sqft": 2006,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-lake-towers-jlt-cluster-a-laguna-tower-93993709.html"
       }
     ]
   },
@@ -3958,39 +3958,6 @@
   },
   {
     "market_key": {
-      "area": "Motor City",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2156,
-    "listing_count": 1,
-    "min_price_per_sqft": 2156,
-    "max_price_per_sqft": 2156,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2156
-    ],
-    "listings": [
-      {
-        "title": "Golf Course View | Northeast Facing | Low OP",
-        "area": "Motor City",
-        "tower_name": "Sobha Orbis Tower A",
-        "raw_area": "Sobha Orbis Tower A, Sobha Orbis, Motor City, Dubai",
-        "lat": 25.050228118896484,
-        "lng": 55.24924850463867,
-        "price_per_sqft": 2156,
-        "price": 1175000,
-        "sqft": 545,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-motor-city-sobha-orbis-sobha-orbis-tower-a-94872985.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "The Views",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -4019,6 +3986,39 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-towers-golf-tower-1-90907707.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Motor City",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2156,
+    "listing_count": 1,
+    "min_price_per_sqft": 2156,
+    "max_price_per_sqft": 2156,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2156
+    ],
+    "listings": [
+      {
+        "title": "Golf Course View | Northeast Facing | Low OP",
+        "area": "Motor City",
+        "tower_name": "Sobha Orbis Tower A",
+        "raw_area": "Sobha Orbis Tower A, Sobha Orbis, Motor City, Dubai",
+        "lat": 25.050228118896484,
+        "lng": 55.24924850463867,
+        "price_per_sqft": 2156,
+        "price": 1175000,
+        "sqft": 545,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-motor-city-sobha-orbis-sobha-orbis-tower-a-94872985.html"
       }
     ]
   },
@@ -4222,39 +4222,6 @@
   },
   {
     "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3657,
-    "listing_count": 1,
-    "min_price_per_sqft": 3657,
-    "max_price_per_sqft": 3657,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      3657
-    ],
-    "listings": [
-      {
-        "title": "Large Layout | Furnished | Fountain and Burj Views",
-        "area": "Downtown Dubai",
-        "tower_name": "The Residences 4",
-        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
-        "lat": 25.192771911621094,
-        "lng": 55.273765563964844,
-        "price_per_sqft": 3657,
-        "price": 9500000,
-        "sqft": 2598,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -4283,6 +4250,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bluewaters-bluewaters-residences-bluewaters-residences-building-9-77371437.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3657,
+    "listing_count": 1,
+    "min_price_per_sqft": 3657,
+    "max_price_per_sqft": 3657,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3657
+    ],
+    "listings": [
+      {
+        "title": "Large Layout | Furnished | Fountain and Burj Views",
+        "area": "Downtown Dubai",
+        "tower_name": "The Residences 4",
+        "raw_area": "The Residences 4, The Residences, Downtown Dubai, Dubai",
+        "lat": 25.192771911621094,
+        "lng": 55.273765563964844,
+        "price_per_sqft": 3657,
+        "price": 9500000,
+        "sqft": 2598,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-the-residences-the-residences-4-91806173.html"
       }
     ]
   },
@@ -4651,39 +4651,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai International Financial Centre",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2164,
-    "listing_count": 1,
-    "min_price_per_sqft": 2164,
-    "max_price_per_sqft": 2164,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2164
-    ],
-    "listings": [
-      {
-        "title": "Best price in the entire building , sea view ,",
-        "area": "Dubai International Financial Centre",
-        "tower_name": "Central Park Residential Tower",
-        "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
-        "lat": 25.206411361694336,
-        "lng": 55.27519989013672,
-        "price_per_sqft": 2164,
-        "price": 2400000,
-        "sqft": 1109,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-central-park-tower-central-park-residential-tower-96109173.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Emirates Hills",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -4745,6 +4712,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-the-views-golf-heights-71517345.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai International Financial Centre",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2164,
+    "listing_count": 1,
+    "min_price_per_sqft": 2164,
+    "max_price_per_sqft": 2164,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2164
+    ],
+    "listings": [
+      {
+        "title": "Best price in the entire building , sea view ,",
+        "area": "Dubai International Financial Centre",
+        "tower_name": "Central Park Residential Tower",
+        "raw_area": "Central Park Residential Tower, Central Park Tower, DIFC, Dubai",
+        "lat": 25.206411361694336,
+        "lng": 55.27519989013672,
+        "price_per_sqft": 2164,
+        "price": 2400000,
+        "sqft": 1109,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-central-park-tower-central-park-residential-tower-96109173.html"
       }
     ]
   },
@@ -5080,39 +5080,6 @@
   },
   {
     "market_key": {
-      "area": "Emaar South Golf District",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1977,
-    "listing_count": 1,
-    "min_price_per_sqft": 1977,
-    "max_price_per_sqft": 1977,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1977
-    ],
-    "listings": [
-      {
-        "title": "Full Golf View | High Floor | Spacious 3BR",
-        "area": "Emaar South Golf District",
-        "tower_name": "Golf Point Tower 2",
-        "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
-        "lat": 24.860815048217773,
-        "lng": 55.14402389526367,
-        "price_per_sqft": 1977,
-        "price": 3499999,
-        "sqft": 1770,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-south-dubai-world-central-emaaar-south-golf-point-golf-point-tower-2-91839788.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Al Wasl",
       "property_type": "apartment",
       "bedrooms": 4,
@@ -5141,6 +5108,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-crestlane-city-walk-crestlane-1-82802425.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Emaar South Golf District",
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1977,
+    "listing_count": 1,
+    "min_price_per_sqft": 1977,
+    "max_price_per_sqft": 1977,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1977
+    ],
+    "listings": [
+      {
+        "title": "Full Golf View | High Floor | Spacious 3BR",
+        "area": "Emaar South Golf District",
+        "tower_name": "Golf Point Tower 2",
+        "raw_area": "Golf Point Tower 2, Golf Point, Emaaar South, Dubai South (Dubai World Central), Dubai",
+        "lat": 24.860815048217773,
+        "lng": 55.14402389526367,
+        "price_per_sqft": 1977,
+        "price": 3499999,
+        "sqft": 1770,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-south-dubai-world-central-emaaar-south-golf-point-golf-point-tower-2-91839788.html"
       }
     ]
   },
@@ -5608,39 +5608,6 @@
   },
   {
     "market_key": {
-      "area": "Sobha Hartland",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2005,
-    "listing_count": 1,
-    "min_price_per_sqft": 2005,
-    "max_price_per_sqft": 2005,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2005
-    ],
-    "listings": [
-      {
-        "title": "High Floor | Vacant Soon | Maids Room",
-        "area": "Sobha Hartland",
-        "tower_name": "The Crest Tower A",
-        "raw_area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
-        "lat": 25.177446365356445,
-        "lng": 55.314884185791016,
-        "price_per_sqft": 2005,
-        "price": 2550000,
-        "sqft": 1272,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-a-96109112.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bukadra",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -5669,6 +5636,39 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-bukadra-320-riverside-crescent-83642572.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Sobha Hartland",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2005,
+    "listing_count": 1,
+    "min_price_per_sqft": 2005,
+    "max_price_per_sqft": 2005,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2005
+    ],
+    "listings": [
+      {
+        "title": "High Floor | Vacant Soon | Maids Room",
+        "area": "Sobha Hartland",
+        "tower_name": "The Crest Tower A",
+        "raw_area": "The Crest Tower A, The Crest, Sobha Hartland, Mohammed Bin Rashid City, Dubai",
+        "lat": 25.177446365356445,
+        "lng": 55.314884185791016,
+        "price_per_sqft": 2005,
+        "price": 2550000,
+        "sqft": 1272,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-mohammed-bin-rashid-city-sobha-hartland-the-crest-the-crest-tower-a-96109112.html"
       }
     ]
   },
