@@ -9250,30 +9250,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Palm Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Jumeirah",
-    "heatmap_area": "Palm Jumeirah",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
     "area": "Bur Dubai",
     "distance": 0.0
   },
@@ -9944,5 +9920,29 @@
     "comparable_area": "Dubai South Residential District",
     "heatmap_area": "Dubai South Residential District",
     "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Production City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Production City"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Me’aisem 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Me’aisem 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Production City",
+    "heatmap_area": "Me’aisem 1",
+    "match_count": 2
   }
 ]

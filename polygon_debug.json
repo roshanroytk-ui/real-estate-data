@@ -12916,41 +12916,6 @@
     "selected_polygon_area": 0.0008274599583149869
   },
   {
-    "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-    "lat": 25.12430191040039,
-    "lng": 55.1125602722168,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0006897771107349585,
-        "polygon_centroid_lat": 25.11880805799114,
-        "polygon_centroid_lng": 55.13047251496105,
-        "bounds": {
-          "min_lng": 55.1083124,
-          "min_lat": 25.0971363,
-          "max_lng": 55.1531713,
-          "max_lat": 25.1416085
-        }
-      },
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0017879471374549973,
-        "polygon_centroid_lat": 25.118611338059324,
-        "polygon_centroid_lng": 55.133551383751595,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0006897771107349585
-  },
-  {
     "raw_area": "Eden House The Canal, Jumeirah 2, Jumeirah, Dubai",
     "lat": 25.195905685424805,
     "lng": 55.23814392089844,
@@ -13874,5 +13839,40 @@
     ],
     "selected_area": "Dubai South Residential District",
     "selected_polygon_area": 0.0005922752650899779
+  },
+  {
+    "raw_area": "Binghatti Elite, Dubai Production City (IMPZ), Dubai",
+    "lat": 25.038888931274414,
+    "lng": 55.19058609008789,
+    "matched_polygons": [
+      {
+        "area": "Dubai Production City",
+        "osm_name": null,
+        "polygon_area": 0.0003920425935100168,
+        "polygon_centroid_lat": 25.032919547661933,
+        "polygon_centroid_lng": 55.191242501923696,
+        "bounds": {
+          "min_lng": 55.1752493,
+          "min_lat": 25.0216358,
+          "max_lng": 55.2071543,
+          "max_lat": 25.0433619
+        }
+      },
+      {
+        "area": "Me’aisem 1",
+        "osm_name": null,
+        "polygon_area": 0.0014616462794599942,
+        "polygon_centroid_lat": 25.020603824399686,
+        "polygon_centroid_lng": 55.18769148345808,
+        "bounds": {
+          "min_lng": 55.1587197,
+          "min_lat": 24.9959224,
+          "max_lng": 55.2154431,
+          "max_lat": 25.0433619
+        }
+      }
+    ],
+    "selected_area": "Dubai Production City",
+    "selected_polygon_area": 0.0003920425935100168
   }
 ]

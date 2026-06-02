@@ -1,23 +1,85 @@
 [
   {
     "market_key": {
+      "area": "Dubai Production City",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1777,
+    "listing_count": 3,
+    "min_price_per_sqft": 1302,
+    "max_price_per_sqft": 30506,
+    "price_spread_percent": 16.43,
+    "prices_sorted": [
+      1302,
+      1777,
+      30506
+    ],
+    "listings": [
+      {
+        "title": "Sub-1M | 9% Guaranteed ROI | Zero Management",
+        "area": "Dubai Production City",
+        "tower_name": "Dubai Production City",
+        "raw_area": "",
+        "lat": 25.02757,
+        "lng": 55.181704,
+        "price_per_sqft": 1302,
+        "price": 970000,
+        "sqft": 745,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227467"
+      },
+      {
+        "title": "Pool & Skyline View | Luxury 1BR | Binghatti Elite",
+        "area": "Dubai Production City",
+        "tower_name": "Binghatti Elite",
+        "raw_area": "Binghatti Elite, Dubai Production City (IMPZ), Dubai",
+        "lat": 25.038888931274414,
+        "lng": 55.19058609008789,
+        "price_per_sqft": 1777,
+        "price": 1149999,
+        "sqft": 647,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-production-city-impz-binghatti-elite-90057879.html"
+      },
+      {
+        "title": "21 Units | 9% ROI Guaranteed | Prime Location",
+        "area": "Dubai Production City",
+        "tower_name": "Dubai Production City",
+        "raw_area": "",
+        "lat": 25.02757,
+        "lng": 55.181704,
+        "price_per_sqft": 30506,
+        "price": 20500000,
+        "sqft": 672,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227464"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Palm Jumeirah",
       "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 3935,
-    "listing_count": 7,
+    "median_price_per_sqft": 3370,
+    "listing_count": 6,
     "min_price_per_sqft": 2057,
     "max_price_per_sqft": 9776,
-    "price_spread_percent": 1.96,
+    "price_spread_percent": 2.29,
     "prices_sorted": [
       2057,
       2343,
       2804,
       3935,
-      5023,
       7771,
       9776
     ],
@@ -77,20 +139,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228772"
-      },
-      {
-        "title": "Palm Facing | Large 2 bed | Serenia Expert",
-        "area": "Palm Jumeirah",
-        "tower_name": "Serenia Living Tower 1",
-        "raw_area": "Serenia Living Tower 1, Serenia Living, Palm Jumeirah, Dubai",
-        "lat": 25.12430191040039,
-        "lng": 55.1125602722168,
-        "price_per_sqft": 5023,
-        "price": 8700000,
-        "sqft": 1732,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jumeirah-serenia-living-serenia-living-tower-1-87882942.html"
       },
       {
         "title": "Furnished |Luxurious 2 Bedroom | Sunset View",
@@ -212,54 +260,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-business-bay-vela-viento-by-omniyat-71117793.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Production City",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 15904,
-    "listing_count": 2,
-    "min_price_per_sqft": 1302,
-    "max_price_per_sqft": 30506,
-    "price_spread_percent": 1.84,
-    "prices_sorted": [
-      1302,
-      30506
-    ],
-    "listings": [
-      {
-        "title": "Sub-1M | 9% Guaranteed ROI | Zero Management",
-        "area": "Dubai Production City",
-        "tower_name": "Dubai Production City",
-        "raw_area": "",
-        "lat": 25.02757,
-        "lng": 55.181704,
-        "price_per_sqft": 1302,
-        "price": 970000,
-        "sqft": 745,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227467"
-      },
-      {
-        "title": "21 Units | 9% ROI Guaranteed | Prime Location",
-        "area": "Dubai Production City",
-        "tower_name": "Dubai Production City",
-        "raw_area": "",
-        "lat": 25.02757,
-        "lng": 55.181704,
-        "price_per_sqft": 30506,
-        "price": 20500000,
-        "sqft": 672,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227464"
       }
     ]
   },
