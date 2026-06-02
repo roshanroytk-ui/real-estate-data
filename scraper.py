@@ -194,15 +194,29 @@ def detect_quality_tier(property):
 
     score = 0
 
-    description = (
-        property.get("description", "")
-        .lower()
-    )
-
-    title = (
-        property.get("title", "")
-        .lower()
-    )
+    description_raw = property.get("description", "")
+    title_raw = property.get("title", "")
+    
+    if not isinstance(description_raw, str):
+    
+        print("\n===== BAD DESCRIPTION =====")
+        print("SOURCE:", property.get("source"))
+        print("URL:", property.get("url"))
+        print("TYPE:", type(description_raw))
+        print("VALUE:", description_raw)
+        print("===========================\n")
+    
+    if not isinstance(title_raw, str):
+    
+        print("\n===== BAD TITLE =====")
+        print("SOURCE:", property.get("source"))
+        print("URL:", property.get("url"))
+        print("TYPE:", type(title_raw))
+        print("VALUE:", title_raw)
+        print("=====================\n")
+    
+    description = str(description_raw).lower()
+    title = str(title_raw).lower()
 
     amenities = property.get(
         "amenities",
