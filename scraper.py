@@ -1390,6 +1390,15 @@ for page in range(1,11):
         timeout=20
     )
 
+    if "verifycaptcha" in response.url:
+
+        print(
+            "99ACRES CAPTCHA HIT:",
+            page
+        )
+    
+        break
+
     print("99ACRES STATUS:", response.status_code)
     print("99ACRES URL:", response.url)
     print("99ACRES TITLE CHECK:")
@@ -1398,8 +1407,7 @@ for page in range(1,11):
     
     if tmp_soup.title:
         print(tmp_soup.title.text)
-    
-    print(response.text[:500])
+
 
     soup = BeautifulSoup(
         response.text,
@@ -2298,9 +2306,6 @@ for source_data in all_soups:
             print("99ACRES: __initialData__ NOT FOUND")
             continue
 
-        if not json_text:
-            continue
-
 
         data = json.loads(json_text)
 
@@ -2772,9 +2777,8 @@ for property in properties:
         if "ground floor" in title_lower:
         
             property["layout_type"] = "ground_floor"
-            continue
-
             ai_audits_queued += 1,
+            continue 
 
         
         cache_key = property["url"]
