@@ -1390,6 +1390,13 @@ for page in range(1,11):
         timeout=20
     )
 
+    with open(
+        f"99acres_debug_page_{page}.html",
+        "w",
+        encoding="utf-8"
+    ) as f:
+        f.write(response.text)
+
     soup = BeautifulSoup(
         response.text,
         "html.parser"
