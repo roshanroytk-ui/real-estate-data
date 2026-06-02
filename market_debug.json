@@ -250,69 +250,6 @@
   },
   {
     "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "apartment",
-      "bedrooms": 4,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3184,
-    "listing_count": 3,
-    "min_price_per_sqft": 3184,
-    "max_price_per_sqft": 7105,
-    "price_spread_percent": 1.23,
-    "prices_sorted": [
-      3184,
-      3184,
-      7105
-    ],
-    "listings": [
-      {
-        "title": "High Floor Apt | Resale with Full Burj View",
-        "area": "Downtown Dubai",
-        "tower_name": "St. Regis Residences Financial Center Road",
-        "raw_area": "Downtown Dubai",
-        "lat": 55.28354404937377,
-        "lng": 25.19278702655922,
-        "price_per_sqft": 3184,
-        "price": 10500000,
-        "sqft": 3298,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/9/26/high-floor-apt-resale-with-full-burj-vi-2-322189/"
-      },
-      {
-        "title": "High Floor Apt | Resale with Full Burj View",
-        "area": "Downtown Dubai",
-        "tower_name": "St. Regis Residences Financial Center Road",
-        "raw_area": "St. Regis Residences Financial Center Road, Downtown Dubai, Dubai",
-        "lat": 25.194984436035156,
-        "lng": 55.27841567993164,
-        "price_per_sqft": 3184,
-        "price": 10500000,
-        "sqft": 3298,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-st-regis-residences-financial-center-road-91381352.html"
-      },
-      {
-        "title": "Luxury Living | Custom Built | Fully Upgraded",
-        "area": "Downtown Dubai",
-        "tower_name": "Burj Khalifa",
-        "raw_area": "Burj Khalifa, Burj Khalifa Area, Downtown Dubai, Dubai",
-        "lat": 25.197315216064453,
-        "lng": 55.27419662475586,
-        "price_per_sqft": 7105,
-        "price": 28000000,
-        "sqft": 3941,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-burj-khalifa-94441868.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "City Walk",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -421,23 +358,86 @@
   },
   {
     "market_key": {
+      "area": "District 11",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 966,
+    "listing_count": 3,
+    "min_price_per_sqft": 937,
+    "max_price_per_sqft": 1972,
+    "price_spread_percent": 1.07,
+    "prices_sorted": [
+      937,
+      966,
+      1972
+    ],
+    "listings": [
+      {
+        "title": "Vacant | Ready To Move In | Higher Floor | Bright.",
+        "area": "District 11",
+        "tower_name": "Jumeirah Village Circle",
+        "raw_area": "",
+        "lat": 25.060784,
+        "lng": 55.215372,
+        "price_per_sqft": 937,
+        "price": 820000,
+        "sqft": 875,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227372"
+      },
+      {
+        "title": "Ready to move | Near Circle mall | Prime Location",
+        "area": "District 11",
+        "tower_name": "Pulse Smart Residence",
+        "raw_area": "Pulse Smart Residence, District 11, Jumeirah Village Circle, Dubai",
+        "lat": 25.063655853271484,
+        "lng": 55.21162033081055,
+        "price_per_sqft": 966,
+        "price": 740000,
+        "sqft": 766,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-11-pulse-smart-residence-97381091.html"
+      },
+      {
+        "title": "1 BHK Flat in Jumeirah Village Circle, Dubai",
+        "area": "District 11",
+        "tower_name": "Bloom Towers",
+        "raw_area": "Jumeirah Village Circle",
+        "lat": 25.059972,
+        "lng": 55.209436,
+        "price_per_sqft": 1972,
+        "price": 678412,
+        "sqft": 344,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-bloom-towers-jumeirah-village-circle-dubai-344-sqft-spid-V90953600"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai Marina",
       "property_type": "apartment",
       "bedrooms": 1,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 1941,
+    "median_price_per_sqft": 1961,
     "listing_count": 10,
     "min_price_per_sqft": 1276,
     "max_price_per_sqft": 3348,
-    "price_spread_percent": 1.07,
+    "price_spread_percent": 1.06,
     "prices_sorted": [
       1276,
       1382,
       1655,
       1682,
-      1884,
+      1923,
       1998,
       2238,
       2816,
@@ -502,18 +502,18 @@
         "url": "https://www.bhomes.com/en/property/bh-s-228476"
       },
       {
-        "title": "Largest Layout | Marina View | Higher Floor",
+        "title": "Full Marina View - Vacant - High Floor",
         "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.074167,
-        "lng": 55.137779,
-        "price_per_sqft": 1884,
+        "tower_name": "Orra Marina",
+        "raw_area": "Dubai Marina",
+        "lat": 55.133048,
+        "lng": 25.070527,
+        "price_per_sqft": 1923,
         "price": 1750000,
-        "sqft": 929,
+        "sqft": 910,
         "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227918"
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/24/full-marina-view-vacant-high-floor-2-241518/"
       },
       {
         "title": "Prime Location | Investment | Modern Tower",
@@ -584,159 +584,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-5242-5242-tower-2-97380620.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Marina",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1852,
-    "listing_count": 9,
-    "min_price_per_sqft": 1490,
-    "max_price_per_sqft": 3118,
-    "price_spread_percent": 0.88,
-    "prices_sorted": [
-      1490,
-      1546,
-      1748,
-      1779,
-      1852,
-      2513,
-      2553,
-      2598,
-      3118
-    ],
-    "listings": [
-      {
-        "title": "Panoramic Views| High Floor| Vacant| Spacious 2BR",
-        "area": "Dubai Marina",
-        "tower_name": "Dorra Bay",
-        "raw_area": "Dorra Bay, Dubai Marina, Dubai",
-        "lat": 25.071504592895508,
-        "lng": 55.128578186035156,
-        "price_per_sqft": 1490,
-        "price": 2150000,
-        "sqft": 1443,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-dorra-bay-97380694.html"
-      },
-      {
-        "title": "Hot Deal Marina Heights | High ROI | 2 Parking",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.087042,
-        "lng": 55.148385,
-        "price_per_sqft": 1546,
-        "price": 1990000,
-        "sqft": 1287,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227573"
-      },
-      {
-        "title": "Full Marina View | Furnished | Vacant on Transfer",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.080138,
-        "lng": 55.145241,
-        "price_per_sqft": 1748,
-        "price": 1750000,
-        "sqft": 1001,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227817"
-      },
-      {
-        "title": "Full Marina View | Motivated Seller | Vacant |",
-        "area": "Dubai Marina",
-        "tower_name": "DEC Tower 1",
-        "raw_area": "DEC Tower 1, DEC Towers, Dubai Marina, Dubai",
-        "lat": 25.06829261779785,
-        "lng": 55.129180908203125,
-        "price_per_sqft": 1779,
-        "price": 2650000,
-        "sqft": 1490,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-dec-towers-dec-tower-1-78985857.html"
-      },
-      {
-        "title": "Great Access | Furnished | Investment",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.090136,
-        "lng": 55.150381,
-        "price_per_sqft": 1852,
-        "price": 2250000,
-        "sqft": 1215,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228172"
-      },
-      {
-        "title": "Vacant | Full Marina Views | 2 Plus Maids",
-        "area": "Dubai Marina",
-        "tower_name": "LIV Residence",
-        "raw_area": "Dubai Marina",
-        "lat": 55.140594,
-        "lng": 25.080958,
-        "price_per_sqft": 2513,
-        "price": 3500000,
-        "sqft": 1393,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/1/large-layout-full-marina-views-2-plus-m-2-126724/"
-      },
-      {
-        "title": "Fully Renovated | 2 Parkings |Private Beach Access",
-        "area": "Dubai Marina",
-        "tower_name": "Jumeirah Beach Residence",
-        "raw_area": "",
-        "lat": 25.072954,
-        "lng": 55.128089,
-        "price_per_sqft": 2553,
-        "price": 4350000,
-        "sqft": 1704,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228479"
-      },
-      {
-        "title": "Full Marina View  | Upgraded | Vacant",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.073851,
-        "lng": 55.13691,
-        "price_per_sqft": 2598,
-        "price": 3300000,
-        "sqft": 1270,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228260"
-      },
-      {
-        "title": "Furnished 2BR | Sea View | Chiller Free | Vacant",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.080542,
-        "lng": 55.140343,
-        "price_per_sqft": 3118,
-        "price": 3700000,
-        "sqft": 1187,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228233"
       }
     ]
   },
@@ -926,6 +773,144 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/5/7/best-deal-vacant-now-back-to-back-2-296864/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Marina",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2183,
+    "listing_count": 8,
+    "min_price_per_sqft": 1490,
+    "max_price_per_sqft": 3118,
+    "price_spread_percent": 0.75,
+    "prices_sorted": [
+      1490,
+      1546,
+      1779,
+      1852,
+      2513,
+      2553,
+      2598,
+      3118
+    ],
+    "listings": [
+      {
+        "title": "Panoramic Views| High Floor| Vacant| Spacious 2BR",
+        "area": "Dubai Marina",
+        "tower_name": "Dorra Bay",
+        "raw_area": "Dorra Bay, Dubai Marina, Dubai",
+        "lat": 25.071504592895508,
+        "lng": 55.128578186035156,
+        "price_per_sqft": 1490,
+        "price": 2150000,
+        "sqft": 1443,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-dorra-bay-97380694.html"
+      },
+      {
+        "title": "Hot Deal Marina Heights | High ROI | 2 Parking",
+        "area": "Dubai Marina",
+        "tower_name": "Dubai Marina",
+        "raw_area": "",
+        "lat": 25.087042,
+        "lng": 55.148385,
+        "price_per_sqft": 1546,
+        "price": 1990000,
+        "sqft": 1287,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227573"
+      },
+      {
+        "title": "Full Marina View | Motivated Seller | Vacant |",
+        "area": "Dubai Marina",
+        "tower_name": "DEC Tower 1",
+        "raw_area": "DEC Tower 1, DEC Towers, Dubai Marina, Dubai",
+        "lat": 25.06829261779785,
+        "lng": 55.129180908203125,
+        "price_per_sqft": 1779,
+        "price": 2650000,
+        "sqft": 1490,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-dec-towers-dec-tower-1-78985857.html"
+      },
+      {
+        "title": "Great Access | Furnished | Investment",
+        "area": "Dubai Marina",
+        "tower_name": "Dubai Marina",
+        "raw_area": "",
+        "lat": 25.090136,
+        "lng": 55.150381,
+        "price_per_sqft": 1852,
+        "price": 2250000,
+        "sqft": 1215,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228172"
+      },
+      {
+        "title": "Vacant | Full Marina Views | 2 Plus Maids",
+        "area": "Dubai Marina",
+        "tower_name": "LIV Residence",
+        "raw_area": "Dubai Marina",
+        "lat": 55.140594,
+        "lng": 25.080958,
+        "price_per_sqft": 2513,
+        "price": 3500000,
+        "sqft": 1393,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/1/large-layout-full-marina-views-2-plus-m-2-126724/"
+      },
+      {
+        "title": "Fully Renovated | 2 Parkings |Private Beach Access",
+        "area": "Dubai Marina",
+        "tower_name": "Jumeirah Beach Residence",
+        "raw_area": "",
+        "lat": 25.072954,
+        "lng": 55.128089,
+        "price_per_sqft": 2553,
+        "price": 4350000,
+        "sqft": 1704,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228479"
+      },
+      {
+        "title": "Full Marina View  | Upgraded | Vacant",
+        "area": "Dubai Marina",
+        "tower_name": "Dubai Marina",
+        "raw_area": "",
+        "lat": 25.073851,
+        "lng": 55.13691,
+        "price_per_sqft": 2598,
+        "price": 3300000,
+        "sqft": 1270,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228260"
+      },
+      {
+        "title": "Furnished 2BR | Sea View | Chiller Free | Vacant",
+        "area": "Dubai Marina",
+        "tower_name": "Dubai Marina",
+        "raw_area": "",
+        "lat": 25.080542,
+        "lng": 55.140343,
+        "price_per_sqft": 3118,
+        "price": 3700000,
+        "sqft": 1187,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228233"
       }
     ]
   },
@@ -1381,49 +1366,49 @@
   },
   {
     "market_key": {
-      "area": "Palm Jumeirah",
+      "area": "Al Hebiah 4",
       "property_type": "apartment",
       "bedrooms": 1,
       "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
+      "quality_tier": "standard"
     },
-    "median_price_per_sqft": 3676,
+    "median_price_per_sqft": 1091,
     "listing_count": 2,
-    "min_price_per_sqft": 2625,
-    "max_price_per_sqft": 4727,
+    "min_price_per_sqft": 778,
+    "max_price_per_sqft": 1403,
     "price_spread_percent": 0.57,
     "prices_sorted": [
-      2625,
-      4727
+      778,
+      1403
     ],
     "listings": [
       {
-        "title": "Vacant I Upgraded | Private Beach | High Floor",
-        "area": "Palm Jumeirah",
-        "tower_name": "Palm Jumeirah",
+        "title": "Rented | Higher Flr | Amazing Location | Spacious",
+        "area": "Al Hebiah 4",
+        "tower_name": "Dubai Sports City",
         "raw_area": "",
-        "lat": 25.106765,
-        "lng": 55.152317,
-        "price_per_sqft": 2625,
-        "price": 3000000,
-        "sqft": 1143,
-        "quality_tier": "ultra_luxury",
+        "lat": 25.043778,
+        "lng": 55.217041,
+        "price_per_sqft": 778,
+        "price": 710000,
+        "sqft": 912,
+        "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227855"
+        "url": "https://www.bhomes.com/en/property/bh-s-229502"
       },
       {
-        "title": "40|60 PROMO | SEA VIEW | BEACHFRONT | ULTRA LUXURY",
-        "area": "Palm Jumeirah",
-        "tower_name": "Avita",
-        "raw_area": "Avita, Passo by Beyond, Palm Jumeirah, Dubai",
-        "lat": 25.115354537963867,
-        "lng": 55.10947799682617,
-        "price_per_sqft": 4727,
-        "price": 4146000,
-        "sqft": 877,
-        "quality_tier": "ultra_luxury",
+        "title": "1 BHK Flat in Dubai Sports City",
+        "area": "Al Hebiah 4",
+        "tower_name": "Golf Tower",
+        "raw_area": "Dubai Sports City",
+        "lat": 25.040645,
+        "lng": 55.20505,
+        "price_per_sqft": 1403,
+        "price": 1035242,
+        "sqft": 738,
+        "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jumeirah-passo-by-beyond-avita-90913146.html"
+        "url": "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-golf-tower-dubai-sports-city-dubai-739-sqft-spid-W76323223"
       }
     ]
   },
@@ -1873,6 +1858,54 @@
   },
   {
     "market_key": {
+      "area": NaN,
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 3834,
+    "listing_count": 2,
+    "min_price_per_sqft": 3053,
+    "max_price_per_sqft": 4616,
+    "price_spread_percent": 0.41,
+    "prices_sorted": [
+      3053,
+      4616
+    ],
+    "listings": [
+      {
+        "title": "3 BEDROOM | PRIME D3 LOCATION | MAID'S ROOM",
+        "area": NaN,
+        "tower_name": "Artistry One Residences",
+        "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
+        "lat": 25.190338134765625,
+        "lng": 55.30483627319336,
+        "price_per_sqft": 3053,
+        "price": 6069000,
+        "sqft": 1988,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-design-district-artistry-one-residences-73114729.html"
+      },
+      {
+        "title": "Largest Layout | Full Palm View | Multiple Options",
+        "area": NaN,
+        "tower_name": "Address The Bay",
+        "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
+        "lat": 25.10262680053711,
+        "lng": 55.1435432434082,
+        "price_per_sqft": 4616,
+        "price": 9500000,
+        "sqft": 2058,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-address-the-bay-94013135.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "City Walk",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -2090,99 +2123,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-sheikh-zayed-road-emirates-towers-jumeirah-emirates-tower-76197278.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Jumeirah Village Circle",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1245,
-    "listing_count": 5,
-    "min_price_per_sqft": 1109,
-    "max_price_per_sqft": 1550,
-    "price_spread_percent": 0.35,
-    "prices_sorted": [
-      1109,
-      1215,
-      1245,
-      1267,
-      1550
-    ],
-    "listings": [
-      {
-        "title": "Amenities View | High Floor | Premium Location | 1% Monthly | High ROI",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Vue by Crystal Bay",
-        "raw_area": "Jumeirah Village Circle (JVC)",
-        "lat": 55.21247393749855,
-        "lng": 25.05356057864717,
-        "price_per_sqft": 1109,
-        "price": 999000,
-        "sqft": 901,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/1/amenities-view-high-floor-premium-locat-2-212976/"
-      },
-      {
-        "title": "Below OP | Hot Deal | Huge Layout | Prime Location",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Violet Tower",
-        "raw_area": "Jumeirah Village Circle (JVC)",
-        "lat": 55.20223108789512,
-        "lng": 25.05400041457892,
-        "price_per_sqft": 1215,
-        "price": 999000,
-        "sqft": 822,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/2/modern-finishing-prime-location-great-l-2-171097/"
-      },
-      {
-        "title": "Newly Built | Spacious Layout | Modern Finishes",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Rise Residences",
-        "raw_area": "Jumeirah Village Circle (JVC)",
-        "lat": 55.20867203872908,
-        "lng": 25.0692047299446,
-        "price_per_sqft": 1245,
-        "price": 889999,
-        "sqft": 715,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/21/newly-built-spacious-layout-modern-fini-2-224472/"
-      },
-      {
-        "title": "Handover In Q4 2026 | Spacious 1 Bed | High ROI | 60/40 PP | Stunning Interior | Call Now!",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Havelock Heights",
-        "raw_area": "Jumeirah Village Circle (JVC)",
-        "lat": 55.20177575849253,
-        "lng": 25.0620647318802,
-        "price_per_sqft": 1267,
-        "price": 1000000,
-        "sqft": 789,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/13/handover-in-q4-2026-spacious-1-bed-high-2-219690/"
-      },
-      {
-        "title": "1 Bed With Study - Payment plan - Furnished",
-        "area": "Jumeirah Village Circle",
-        "tower_name": "Jumeirah Village Circle",
-        "raw_area": "",
-        "lat": 25.056,
-        "lng": 55.209,
-        "price_per_sqft": 1550,
-        "price": 1205900,
-        "sqft": 778,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228473"
       }
     ]
   },
@@ -2635,114 +2575,6 @@
   },
   {
     "market_key": {
-      "area": "City Walk",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2900,
-    "listing_count": 6,
-    "min_price_per_sqft": 2267,
-    "max_price_per_sqft": 3132,
-    "price_spread_percent": 0.3,
-    "prices_sorted": [
-      2267,
-      2395,
-      2861,
-      2939,
-      3047,
-      3132
-    ],
-    "listings": [
-      {
-        "title": "Rare Size | High ROI | Exclusive",
-        "area": "City Walk",
-        "tower_name": "CityWalk Residential",
-        "raw_area": "",
-        "lat": 25.201392,
-        "lng": 55.264312,
-        "price_per_sqft": 2267,
-        "price": 3100000,
-        "sqft": 1367,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227942"
-      },
-      {
-        "title": "Large 1BR Layout | Unfurnished | Pool View",
-        "area": "City Walk",
-        "tower_name": "City Walk",
-        "raw_area": "",
-        "lat": 25.205218,
-        "lng": 55.262688,
-        "price_per_sqft": 2395,
-        "price": 3200000,
-        "sqft": 1336,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227862"
-      },
-      {
-        "title": "CITY WALK | 1BR | HIGH ROI | PRIME LOCATION",
-        "area": "City Walk",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 2861,
-        "price": 2695000,
-        "sqft": 942,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201632.html"
-      },
-      {
-        "title": "Brand New | Mid Floor | Green Community | Vacant",
-        "area": "City Walk",
-        "tower_name": "City Walk",
-        "raw_area": "",
-        "lat": 25.202959,
-        "lng": 55.26006,
-        "price_per_sqft": 2939,
-        "price": 2200000,
-        "sqft": 749,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228556"
-      },
-      {
-        "title": "MODERN 1BR APARTMENT | CITY WALK BUILDING 21A",
-        "area": "City Walk",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 3047,
-        "price": 3599000,
-        "sqft": 1181,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565325.html"
-      },
-      {
-        "title": "MODERN 1BR | CITY WALK 21A | AL WASL",
-        "area": "City Walk",
-        "tower_name": "City Walk Residential Building 21A",
-        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
-        "lat": 25.200855255126953,
-        "lng": 55.26466751098633,
-        "price_per_sqft": 3132,
-        "price": 3699000,
-        "sqft": 1181,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565393.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Bluewaters",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -2849,6 +2681,84 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/5/14/largest-plot-exclusive-true-corner-2-486038/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Jumeirah Village Circle",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1256,
+    "listing_count": 4,
+    "min_price_per_sqft": 1215,
+    "max_price_per_sqft": 1550,
+    "price_spread_percent": 0.27,
+    "prices_sorted": [
+      1215,
+      1245,
+      1267,
+      1550
+    ],
+    "listings": [
+      {
+        "title": "Below OP | Hot Deal | Huge Layout | Prime Location",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Violet Tower",
+        "raw_area": "Jumeirah Village Circle (JVC)",
+        "lat": 55.20223108789512,
+        "lng": 25.05400041457892,
+        "price_per_sqft": 1215,
+        "price": 999000,
+        "sqft": 822,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/2/modern-finishing-prime-location-great-l-2-171097/"
+      },
+      {
+        "title": "Newly Built | Spacious Layout | Modern Finishes",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Rise Residences",
+        "raw_area": "Jumeirah Village Circle (JVC)",
+        "lat": 55.20867203872908,
+        "lng": 25.0692047299446,
+        "price_per_sqft": 1245,
+        "price": 889999,
+        "sqft": 715,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/21/newly-built-spacious-layout-modern-fini-2-224472/"
+      },
+      {
+        "title": "Handover In Q4 2026 | Spacious 1 Bed | High ROI | 60/40 PP | Stunning Interior | Call Now!",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Havelock Heights",
+        "raw_area": "Jumeirah Village Circle (JVC)",
+        "lat": 55.20177575849253,
+        "lng": 25.0620647318802,
+        "price_per_sqft": 1267,
+        "price": 1000000,
+        "sqft": 789,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/13/handover-in-q4-2026-spacious-1-bed-high-2-219690/"
+      },
+      {
+        "title": "1 Bed With Study - Payment plan - Furnished",
+        "area": "Jumeirah Village Circle",
+        "tower_name": "Jumeirah Village Circle",
+        "raw_area": "",
+        "lat": 25.056,
+        "lng": 55.209,
+        "price_per_sqft": 1550,
+        "price": 1205900,
+        "sqft": 778,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228473"
       }
     ]
   },
@@ -2975,54 +2885,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228665"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Al Hebiah 3",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1662,
-    "listing_count": 2,
-    "min_price_per_sqft": 1433,
-    "max_price_per_sqft": 1891,
-    "price_spread_percent": 0.27,
-    "prices_sorted": [
-      1433,
-      1891
-    ],
-    "listings": [
-      {
-        "title": "Well Maintained | Rented | Mid Floor",
-        "area": "Al Hebiah 3",
-        "tower_name": "DAMAC Hills",
-        "raw_area": "",
-        "lat": 25.02453,
-        "lng": 55.243196,
-        "price_per_sqft": 1433,
-        "price": 1100000,
-        "sqft": 767,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227385"
-      },
-      {
-        "title": "Golf View | Brand New Building | Fully  Furnished",
-        "area": "Al Hebiah 3",
-        "tower_name": "DAMAC Hills",
-        "raw_area": "",
-        "lat": 25.022166,
-        "lng": 55.242781,
-        "price_per_sqft": 1891,
-        "price": 1200000,
-        "sqft": 635,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227103"
       }
     ]
   },
@@ -3247,21 +3109,83 @@
   },
   {
     "market_key": {
+      "area": "Al Hebiah 3",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1762,
+    "listing_count": 3,
+    "min_price_per_sqft": 1433,
+    "max_price_per_sqft": 1891,
+    "price_spread_percent": 0.26,
+    "prices_sorted": [
+      1433,
+      1762,
+      1891
+    ],
+    "listings": [
+      {
+        "title": "Well Maintained | Rented | Mid Floor",
+        "area": "Al Hebiah 3",
+        "tower_name": "DAMAC Hills",
+        "raw_area": "",
+        "lat": 25.02453,
+        "lng": 55.243196,
+        "price_per_sqft": 1433,
+        "price": 1100000,
+        "sqft": 767,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227385"
+      },
+      {
+        "title": "1 BHK Flat in Dubailand",
+        "area": "Al Hebiah 3",
+        "tower_name": "BOULEVARD HEIGHTS",
+        "raw_area": "Dubailand",
+        "lat": 25.027482,
+        "lng": 55.252402,
+        "price_per_sqft": 1762,
+        "price": 1321586,
+        "sqft": 750,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-dubailand-dubai-750-sqft-spid-V88555142"
+      },
+      {
+        "title": "Golf View | Brand New Building | Fully  Furnished",
+        "area": "Al Hebiah 3",
+        "tower_name": "DAMAC Hills",
+        "raw_area": "",
+        "lat": 25.022166,
+        "lng": 55.242781,
+        "price_per_sqft": 1891,
+        "price": 1200000,
+        "sqft": 635,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227103"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Jumeirah Lakes Towers",
       "property_type": "apartment",
       "bedrooms": 1,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 1443,
-    "listing_count": 5,
+    "median_price_per_sqft": 1503,
+    "listing_count": 4,
     "min_price_per_sqft": 1389,
     "max_price_per_sqft": 1765,
-    "price_spread_percent": 0.26,
+    "price_spread_percent": 0.25,
     "prices_sorted": [
       1389,
       1405,
-      1443,
       1601,
       1765
     ],
@@ -3293,20 +3217,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-228004"
-      },
-      {
-        "title": "Largest layout | Open views | Investor's deal",
-        "area": "Jumeirah Lakes Towers",
-        "tower_name": "Jumeirah Lake Towers",
-        "raw_area": "",
-        "lat": 25.074521,
-        "lng": 55.143825,
-        "price_per_sqft": 1443,
-        "price": 1460000,
-        "sqft": 1012,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227899"
       },
       {
         "title": "Lake View | high Floor | Close to Metro | Balcony",
@@ -3466,6 +3376,69 @@
   },
   {
     "market_key": {
+      "area": "Jumeirah Village Triangle (Jvt)",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1460,
+    "listing_count": 3,
+    "min_price_per_sqft": 1337,
+    "max_price_per_sqft": 1670,
+    "price_spread_percent": 0.23,
+    "prices_sorted": [
+      1337,
+      1460,
+      1670
+    ],
+    "listings": [
+      {
+        "title": "PARK BACKING! / Middle Unit / Well Kept",
+        "area": "Jumeirah Village Triangle (Jvt)",
+        "tower_name": "Unknown",
+        "raw_area": "Jumeirah Village Triangle (JVT)",
+        "lat": 55.182444739153,
+        "lng": 25.041053324374,
+        "price_per_sqft": 1337,
+        "price": 2590000,
+        "sqft": 1937,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/4/21/park-backing-middle-unit-well-kept-2-757236/"
+      },
+      {
+        "title": "The Perfect JVT Home or Investment Opportunity",
+        "area": "Jumeirah Village Triangle (Jvt)",
+        "tower_name": "Altai Tower",
+        "raw_area": "Jumeirah Village Triangle (JVT)",
+        "lat": 55.1733092441599,
+        "lng": 25.03290515313728,
+        "price_per_sqft": 1460,
+        "price": 850000,
+        "sqft": 582,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/27/the-perfect-jvt-home-or-investment-oppo-2-224955/"
+      },
+      {
+        "title": "NO COMMISSION | HIGH ROI | INVESTMENT OPPORTUNITY",
+        "area": "Jumeirah Village Triangle (Jvt)",
+        "tower_name": "Elaris Sky",
+        "raw_area": "Jumeirah Village Triangle (JVT)",
+        "lat": 55.18613115,
+        "lng": 25.04127772,
+        "price_per_sqft": 1670,
+        "price": 1192153,
+        "sqft": 714,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/10/14/no-commission-high-roi-investment-oppor-2-128235/"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Al Jaddaf",
       "property_type": "studio apartment",
       "bedrooms": 1,
@@ -3557,54 +3530,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://abudhabi.dubizzle.com/property-for-sale/residential/townhouse/2026/6/2/move-into-a-premium-townhouse-hot-deal--3-962166/"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Jumeirah Village Triangle (Jvt)",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1503,
-    "listing_count": 2,
-    "min_price_per_sqft": 1337,
-    "max_price_per_sqft": 1670,
-    "price_spread_percent": 0.22,
-    "prices_sorted": [
-      1337,
-      1670
-    ],
-    "listings": [
-      {
-        "title": "PARK BACKING! / Middle Unit / Well Kept",
-        "area": "Jumeirah Village Triangle (Jvt)",
-        "tower_name": "Unknown",
-        "raw_area": "Jumeirah Village Triangle (JVT)",
-        "lat": 55.182444739153,
-        "lng": 25.041053324374,
-        "price_per_sqft": 1337,
-        "price": 2590000,
-        "sqft": 1937,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/4/21/park-backing-middle-unit-well-kept-2-757236/"
-      },
-      {
-        "title": "NO COMMISSION | HIGH ROI | INVESTMENT OPPORTUNITY",
-        "area": "Jumeirah Village Triangle (Jvt)",
-        "tower_name": "Elaris Sky",
-        "raw_area": "Jumeirah Village Triangle (JVT)",
-        "lat": 55.18613115,
-        "lng": 25.04127772,
-        "price_per_sqft": 1670,
-        "price": 1192153,
-        "sqft": 714,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/10/14/no-commission-high-roi-investment-oppor-2-128235/"
       }
     ]
   },
@@ -3880,49 +3805,49 @@
   },
   {
     "market_key": {
-      "area": "Dubai South",
+      "area": "Majan",
       "property_type": "apartment",
-      "bedrooms": 2,
+      "bedrooms": 1,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 1144,
+    "median_price_per_sqft": 1482,
     "listing_count": 2,
-    "min_price_per_sqft": 1058,
-    "max_price_per_sqft": 1230,
-    "price_spread_percent": 0.15,
+    "min_price_per_sqft": 1367,
+    "max_price_per_sqft": 1598,
+    "price_spread_percent": 0.16,
     "prices_sorted": [
-      1058,
-      1230
+      1367,
+      1598
     ],
     "listings": [
       {
-        "title": "READY TO MOVE IN 2BHK FLAT FOR SALE IN DUBAI SOUTH",
-        "area": "Dubai South",
-        "tower_name": "Kappa Acca 1",
-        "raw_area": "Dubai South",
-        "lat": 55.222844,
-        "lng": 24.939454,
-        "price_per_sqft": 1058,
-        "price": 988928,
-        "sqft": 935,
+        "title": "Investor Choice | Flexible Payment Plan",
+        "area": "Majan",
+        "tower_name": "Binghatti Titania",
+        "raw_area": "Binghatti Titania, Majan, Dubai",
+        "lat": 25.085857391357422,
+        "lng": 55.315147399902344,
+        "price_per_sqft": 1367,
+        "price": 1150999,
+        "sqft": 842,
         "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/12/16/ready-to-move-in-2bhk-flat-for-sale-in--2-975921/"
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-majan-binghatti-titania-97381088.html"
       },
       {
-        "title": "Single Row | Tenanted | Corner Unit",
-        "area": "Dubai South",
-        "tower_name": "Unknown",
-        "raw_area": "Dubai South",
-        "lat": 55.150731014564,
-        "lng": 24.860619853084,
-        "price_per_sqft": 1230,
-        "price": 1600000,
-        "sqft": 1301,
+        "title": "1 BHK Flat in Majan, Dubai",
+        "area": "Majan",
+        "tower_name": "BINGHATTI VINTAGE",
+        "raw_area": "Majan",
+        "lat": 25.091652,
+        "lng": 55.316666,
+        "price_per_sqft": 1598,
+        "price": 1198238,
+        "sqft": 750,
         "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/18/single-row-tenanted-corner-unit-2-156022/"
+        "url": "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-majan-dubai-750-sqft-spid-C88498278"
       }
     ]
   },
@@ -4342,54 +4267,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Hills Estate",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2182,
-    "listing_count": 2,
-    "min_price_per_sqft": 2060,
-    "max_price_per_sqft": 2305,
-    "price_spread_percent": 0.11,
-    "prices_sorted": [
-      2060,
-      2305
-    ],
-    "listings": [
-      {
-        "title": "On The Park | Corner Unit | Spacious Layout",
-        "area": "Dubai Hills Estate",
-        "tower_name": "Parkside Views",
-        "raw_area": "Dubai Hills Estate",
-        "lat": 55.24130909684004,
-        "lng": 25.10578747919638,
-        "price_per_sqft": 2060,
-        "price": 2350000,
-        "sqft": 1141,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/23/on-the-park-corner-unit-spacious-layout-2-218631/"
-      },
-      {
-        "title": "High Floor Unit | Investor Deal | On the Park",
-        "area": "Dubai Hills Estate",
-        "tower_name": "Tower A",
-        "raw_area": "Dubai Hills Estate",
-        "lat": 55.24287170121104,
-        "lng": 25.10743548183039,
-        "price_per_sqft": 2305,
-        "price": 2449888,
-        "sqft": 1063,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/22/high-floor-unit-investor-deal-on-the-pa-2-180581/"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai Creek Harbour",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -4789,6 +4666,84 @@
   },
   {
     "market_key": {
+      "area": "City Walk",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2993,
+    "listing_count": 4,
+    "min_price_per_sqft": 2861,
+    "max_price_per_sqft": 3132,
+    "price_spread_percent": 0.09,
+    "prices_sorted": [
+      2861,
+      2939,
+      3047,
+      3132
+    ],
+    "listings": [
+      {
+        "title": "CITY WALK | 1BR | HIGH ROI | PRIME LOCATION",
+        "area": "City Walk",
+        "tower_name": "City Walk Residential Building 21A",
+        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+        "lat": 25.200855255126953,
+        "lng": 55.26466751098633,
+        "price_per_sqft": 2861,
+        "price": 2695000,
+        "sqft": 942,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-78201632.html"
+      },
+      {
+        "title": "Brand New | Mid Floor | Green Community | Vacant",
+        "area": "City Walk",
+        "tower_name": "City Walk",
+        "raw_area": "",
+        "lat": 25.202959,
+        "lng": 55.26006,
+        "price_per_sqft": 2939,
+        "price": 2200000,
+        "sqft": 749,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228556"
+      },
+      {
+        "title": "MODERN 1BR APARTMENT | CITY WALK BUILDING 21A",
+        "area": "City Walk",
+        "tower_name": "City Walk Residential Building 21A",
+        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+        "lat": 25.200855255126953,
+        "lng": 55.26466751098633,
+        "price_per_sqft": 3047,
+        "price": 3599000,
+        "sqft": 1181,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565325.html"
+      },
+      {
+        "title": "MODERN 1BR | CITY WALK 21A | AL WASL",
+        "area": "City Walk",
+        "tower_name": "City Walk Residential Building 21A",
+        "raw_area": "City Walk Residential Building 21A, City Walk Residential, City Walk, Dubai",
+        "lat": 25.200855255126953,
+        "lng": 55.26466751098633,
+        "price_per_sqft": 3132,
+        "price": 3699000,
+        "sqft": 1181,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-city-walk-city-walk-residential-city-walk-residential-building-21a-76565393.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai South",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -4847,54 +4802,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/4/7/motivated-seller-great-location-60-paid-2-254140/"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Town Square Dubai",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1373,
-    "listing_count": 2,
-    "min_price_per_sqft": 1318,
-    "max_price_per_sqft": 1429,
-    "price_spread_percent": 0.08,
-    "prices_sorted": [
-      1318,
-      1429
-    ],
-    "listings": [
-      {
-        "title": "Double Master Bedroom | Twin Balcony | Motivated Seller",
-        "area": "Town Square Dubai",
-        "tower_name": "Town Square",
-        "raw_area": "",
-        "lat": 25.004121,
-        "lng": 55.291201,
-        "price_per_sqft": 1318,
-        "price": 1450000,
-        "sqft": 1100,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227062"
-      },
-      {
-        "title": "Butterfly Layout | Park View | Motivated Seller",
-        "area": "Town Square Dubai",
-        "tower_name": "Town Square",
-        "raw_area": "",
-        "lat": 25.00563,
-        "lng": 55.291383,
-        "price_per_sqft": 1429,
-        "price": 1485000,
-        "sqft": 1039,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227735"
       }
     ]
   },
@@ -5332,6 +5239,54 @@
   },
   {
     "market_key": {
+      "area": "Emaar South Golf District",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2175,
+    "listing_count": 2,
+    "min_price_per_sqft": 2135,
+    "max_price_per_sqft": 2215,
+    "price_spread_percent": 0.04,
+    "prices_sorted": [
+      2135,
+      2215
+    ],
+    "listings": [
+      {
+        "title": "2 BHK Flat in Emaar South, Dubai",
+        "area": "Emaar South Golf District",
+        "tower_name": "GOLF VERGE",
+        "raw_area": "Emaar South",
+        "lat": 24.869299,
+        "lng": 55.137248,
+        "price_per_sqft": 2135,
+        "price": 2775330,
+        "sqft": 1300,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-emaar-south-dubai-1300-sqft-spid-M88923416"
+      },
+      {
+        "title": "2 BHK Flat in Emaar South, Dubai",
+        "area": "Emaar South Golf District",
+        "tower_name": "GROVE RIDGE",
+        "raw_area": "Emaar South",
+        "lat": 24.869299,
+        "lng": 55.137248,
+        "price_per_sqft": 2215,
+        "price": 2863436,
+        "sqft": 1293,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-emaar-south-dubai-1293-sqft-spid-B88923246"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Jumeirah Village Triangle (Jvt)",
       "property_type": "apartment",
       "bedrooms": 0,
@@ -5375,54 +5330,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/17/specious-studio-apartment-investor-deal-2-322864/"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "District 11",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 951,
-    "listing_count": 2,
-    "min_price_per_sqft": 937,
-    "max_price_per_sqft": 966,
-    "price_spread_percent": 0.03,
-    "prices_sorted": [
-      937,
-      966
-    ],
-    "listings": [
-      {
-        "title": "Vacant | Ready To Move In | Higher Floor | Bright.",
-        "area": "District 11",
-        "tower_name": "Jumeirah Village Circle",
-        "raw_area": "",
-        "lat": 25.060784,
-        "lng": 55.215372,
-        "price_per_sqft": 937,
-        "price": 820000,
-        "sqft": 875,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227372"
-      },
-      {
-        "title": "Ready to move | Near Circle mall | Prime Location",
-        "area": "District 11",
-        "tower_name": "Pulse Smart Residence",
-        "raw_area": "Pulse Smart Residence, District 11, Jumeirah Village Circle, Dubai",
-        "lat": 25.063655853271484,
-        "lng": 55.21162033081055,
-        "price_per_sqft": 966,
-        "price": 740000,
-        "sqft": 766,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-circle-district-11-pulse-smart-residence-97381091.html"
       }
     ]
   },
@@ -5668,54 +5575,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai South",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1085,
-    "listing_count": 2,
-    "min_price_per_sqft": 1082,
-    "max_price_per_sqft": 1089,
-    "price_spread_percent": 0.01,
-    "prices_sorted": [
-      1082,
-      1089
-    ],
-    "listings": [
-      {
-        "title": "Investor Deal / Vacant - Ready to Move-in / Near Airport",
-        "area": "Dubai South",
-        "tower_name": "Anchorage Residences",
-        "raw_area": "Dubai South",
-        "lat": 55.217234,
-        "lng": 24.938721,
-        "price_per_sqft": 1082,
-        "price": 820000,
-        "sqft": 758,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/2/investor-deal-vacant-ready-to-move-in-n-2-301473/"
-      },
-      {
-        "title": "READY TO MOVE IN 1BHK IN DUBAI SOUTH FOR SALE",
-        "area": "Dubai South",
-        "tower_name": "Kappa Acca 1",
-        "raw_area": "Dubai South",
-        "lat": 55.222844,
-        "lng": 24.939454,
-        "price_per_sqft": 1089,
-        "price": 694579,
-        "sqft": 638,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/13/ready-to-move-in-1bhk-in-dubai-south-fo-2-336433/"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Al Barari",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -5812,49 +5671,133 @@
   },
   {
     "market_key": {
-      "area": "Jumeirah Lakes Towers",
+      "area": "Damac Lagoons",
+      "property_type": "apartment",
+      "bedrooms": 5,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1160,
+    "listing_count": 1,
+    "min_price_per_sqft": 1160,
+    "max_price_per_sqft": 1160,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1160
+    ],
+    "listings": [
+      {
+        "title": "Middle Corner Unit | Mortgage Ready | Well Priced",
+        "area": "Damac Lagoons",
+        "tower_name": "Unknown",
+        "raw_area": "DAMAC Lagoons",
+        "lat": 55.237202871851,
+        "lng": 25.012263208915,
+        "price_per_sqft": 1160,
+        "price": 3400000,
+        "sqft": 2930,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/5/11/middle-corner-unit-mortgage-ready-well--2-235971/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Yas Island",
       "property_type": "apartment",
       "bedrooms": 2,
       "layout_type": "standard",
       "quality_tier": "standard"
     },
-    "median_price_per_sqft": 1410,
-    "listing_count": 2,
-    "min_price_per_sqft": 1405,
-    "max_price_per_sqft": 1414,
-    "price_spread_percent": 0.01,
+    "median_price_per_sqft": 2501,
+    "listing_count": 1,
+    "min_price_per_sqft": 2501,
+    "max_price_per_sqft": 2501,
+    "price_spread_percent": 0.0,
     "prices_sorted": [
-      1405,
-      1414
+      2501
     ],
     "listings": [
       {
-        "title": "Converted | Park Views | High Floor | VOT",
-        "area": "Jumeirah Lakes Towers",
-        "tower_name": "Jumeirah Lake Towers",
-        "raw_area": "",
-        "lat": 25.075364,
-        "lng": 55.145308,
-        "price_per_sqft": 1405,
-        "price": 1685000,
-        "sqft": 1199,
+        "title": "2 Balconies | Spacious Layout | Hot Deal",
+        "area": "Yas Island",
+        "tower_name": "Unknown",
+        "raw_area": "Yas Island",
+        "lat": 54.625239121667,
+        "lng": 24.510630788922,
+        "price_per_sqft": 2501,
+        "price": 3038545,
+        "sqft": 1215,
         "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227734"
-      },
+        "url": "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/5/12/2-balconies-spacious-layout-great-locat-3-365900/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Science Park",
+      "property_type": "apartment",
+      "bedrooms": 0,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2074,
+    "listing_count": 1,
+    "min_price_per_sqft": 2074,
+    "max_price_per_sqft": 2074,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2074
+    ],
+    "listings": [
       {
-        "title": "Vacant Now | Maids Room | Vastu | 2 En-suite Bath",
-        "area": "Jumeirah Lakes Towers",
-        "tower_name": "Jumeirah Lake Towers",
-        "raw_area": "",
-        "lat": 25.078175,
-        "lng": 55.151121,
-        "price_per_sqft": 1414,
-        "price": 1900000,
-        "sqft": 1344,
+        "title": "Ideal Investment | Excellent Returns | Future Growth 🚀 🏙️",
+        "area": "Dubai Science Park",
+        "tower_name": "Binghatti Hills Tower 2",
+        "raw_area": "Dubai Science Park",
+        "lat": 55.24838432117396,
+        "lng": 25.07030925185161,
+        "price_per_sqft": 2074,
+        "price": 950000,
+        "sqft": 458,
         "quality_tier": "standard",
         "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-228389"
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/29/ideal-investment-excellent-returns-futu-2-536608/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Yas Island",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2212,
+    "listing_count": 1,
+    "min_price_per_sqft": 2212,
+    "max_price_per_sqft": 2212,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2212
+    ],
+    "listings": [
+      {
+        "title": "1BR Junior | Sea View | Fully Furnished | prime location | High ROI",
+        "area": "Yas Island",
+        "tower_name": "Diva",
+        "raw_area": "Yas Island",
+        "lat": 54.598522,
+        "lng": 24.460181,
+        "price_per_sqft": 2212,
+        "price": 1170000,
+        "sqft": 529,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/4/4/1br-junior-sea-view-fully-furnished-pri-3-536624/"
       }
     ]
   },
@@ -6053,6 +5996,72 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/2/ultra-luxury-private-beach-access-ain-v-2-282298/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Hills Estate",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2305,
+    "listing_count": 1,
+    "min_price_per_sqft": 2305,
+    "max_price_per_sqft": 2305,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2305
+    ],
+    "listings": [
+      {
+        "title": "High Floor Unit | Investor Deal | On the Park",
+        "area": "Dubai Hills Estate",
+        "tower_name": "Tower A",
+        "raw_area": "Dubai Hills Estate",
+        "lat": 55.24287170121104,
+        "lng": 25.10743548183039,
+        "price_per_sqft": 2305,
+        "price": 2449888,
+        "sqft": 1063,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/22/high-floor-unit-investor-deal-on-the-pa-2-180581/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai South",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1082,
+    "listing_count": 1,
+    "min_price_per_sqft": 1082,
+    "max_price_per_sqft": 1082,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1082
+    ],
+    "listings": [
+      {
+        "title": "Investor Deal / Vacant - Ready to Move-in / Near Airport",
+        "area": "Dubai South",
+        "tower_name": "Anchorage Residences",
+        "raw_area": "Dubai South",
+        "lat": 55.217234,
+        "lng": 24.938721,
+        "price_per_sqft": 1082,
+        "price": 820000,
+        "sqft": 758,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/2/investor-deal-vacant-ready-to-move-in-n-2-301473/"
       }
     ]
   },
@@ -7642,6 +7651,87 @@
   },
   {
     "market_key": {
+      "area": "Dubai South",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1230,
+    "listing_count": 1,
+    "min_price_per_sqft": 1230,
+    "max_price_per_sqft": 1230,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1230
+    ],
+    "listings": [
+      {
+        "title": "Single Row | Tenanted | Corner Unit",
+        "area": "Dubai South",
+        "tower_name": "Unknown",
+        "raw_area": "Dubai South",
+        "lat": 55.150731014564,
+        "lng": 24.860619853084,
+        "price_per_sqft": 1230,
+        "price": 1600000,
+        "sqft": 1301,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/18/single-row-tenanted-corner-unit-2-156022/"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 3184,
+    "listing_count": 2,
+    "min_price_per_sqft": 3184,
+    "max_price_per_sqft": 3184,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3184,
+      3184
+    ],
+    "listings": [
+      {
+        "title": "High Floor Apt | Resale with Full Burj View",
+        "area": "Downtown Dubai",
+        "tower_name": "St. Regis Residences Financial Center Road",
+        "raw_area": "Downtown Dubai",
+        "lat": 55.28354404937377,
+        "lng": 25.19278702655922,
+        "price_per_sqft": 3184,
+        "price": 10500000,
+        "sqft": 3298,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/9/26/high-floor-apt-resale-with-full-burj-vi-2-322189/"
+      },
+      {
+        "title": "High Floor Apt | Resale with Full Burj View",
+        "area": "Downtown Dubai",
+        "tower_name": "St. Regis Residences Financial Center Road",
+        "raw_area": "St. Regis Residences Financial Center Road, Downtown Dubai, Dubai",
+        "lat": 25.194984436035156,
+        "lng": 55.27841567993164,
+        "price_per_sqft": 3184,
+        "price": 10500000,
+        "sqft": 3298,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-st-regis-residences-financial-center-road-91381352.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Yas Island",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -7972,39 +8062,6 @@
   },
   {
     "market_key": {
-      "area": "Dubai Science Park",
-      "property_type": "apartment",
-      "bedrooms": 0,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1923,
-    "listing_count": 1,
-    "min_price_per_sqft": 1923,
-    "max_price_per_sqft": 1923,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1923
-    ],
-    "listings": [
-      {
-        "title": "Handover in 90 Days | Secure Now and Move Soon",
-        "area": "Dubai Science Park",
-        "tower_name": "Unknown",
-        "raw_area": "Dubai Science Park",
-        "lat": 55.24868481191345,
-        "lng": 25.07026919901496,
-        "price_per_sqft": 1923,
-        "price": 900000,
-        "sqft": 468,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/20/handover-in-90-days-your-new-home-await-2-321670/"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "The Lakes",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -8203,39 +8260,6 @@
   },
   {
     "market_key": {
-      "area": "Arabian Ranches",
-      "property_type": "apartment",
-      "bedrooms": 5,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 2499,
-    "listing_count": 1,
-    "min_price_per_sqft": 2499,
-    "max_price_per_sqft": 2499,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2499
-    ],
-    "listings": [
-      {
-        "title": "Fully Renovated | Turnkey- Ready | Type 15 Villa",
-        "area": "Arabian Ranches",
-        "tower_name": "Unknown",
-        "raw_area": "Arabian Ranches",
-        "lat": 55.285286240526,
-        "lng": 25.055445173141,
-        "price_per_sqft": 2499,
-        "price": 11995000,
-        "sqft": 4800,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/1/fully-renovated-turnkey-ready-type-15-v-2-318231/"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubiotech",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -8345,39 +8369,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-229508"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Al Hebiah 4",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 778,
-    "listing_count": 1,
-    "min_price_per_sqft": 778,
-    "max_price_per_sqft": 778,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      778
-    ],
-    "listings": [
-      {
-        "title": "Rented | Higher Flr | Amazing Location | Spacious",
-        "area": "Al Hebiah 4",
-        "tower_name": "Dubai Sports City",
-        "raw_area": "",
-        "lat": 25.043778,
-        "lng": 55.217041,
-        "price_per_sqft": 778,
-        "price": 710000,
-        "sqft": 912,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-229502"
       }
     ]
   },
@@ -9010,6 +9001,39 @@
   },
   {
     "market_key": {
+      "area": "Jumeirah Lakes Towers",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1414,
+    "listing_count": 1,
+    "min_price_per_sqft": 1414,
+    "max_price_per_sqft": 1414,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1414
+    ],
+    "listings": [
+      {
+        "title": "Vacant Now | Maids Room | Vastu | 2 En-suite Bath",
+        "area": "Jumeirah Lakes Towers",
+        "tower_name": "Jumeirah Lake Towers",
+        "raw_area": "",
+        "lat": 25.078175,
+        "lng": 55.151121,
+        "price_per_sqft": 1414,
+        "price": 1900000,
+        "sqft": 1344,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-228389"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "District 10",
       "property_type": "studio apartment",
       "bedrooms": 0,
@@ -9335,270 +9359,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-227975"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai South Residential District",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1176,
-    "listing_count": 1,
-    "min_price_per_sqft": 1176,
-    "max_price_per_sqft": 1176,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1176
-    ],
-    "listings": [
-      {
-        "title": "High ROI | Rented | Furnished 2BR | Growth Area",
-        "area": "Dubai South Residential District",
-        "tower_name": "Dubai South",
-        "raw_area": "",
-        "lat": 24.946417,
-        "lng": 55.211718,
-        "price_per_sqft": 1176,
-        "price": 1250000,
-        "sqft": 1062,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227971"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Sobha Hartland",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 1859,
-    "listing_count": 1,
-    "min_price_per_sqft": 1859,
-    "max_price_per_sqft": 1859,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1859
-    ],
-    "listings": [
-      {
-        "title": "Luxury Waterfront Living | Sobha Waves Opulence",
-        "area": "Sobha Hartland",
-        "tower_name": "Mohammed Bin Rashid City",
-        "raw_area": "",
-        "lat": 25.175521,
-        "lng": 55.310065,
-        "price_per_sqft": 1859,
-        "price": 3000000,
-        "sqft": 1614,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227970"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Marina",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
-    },
-    "median_price_per_sqft": 1812,
-    "listing_count": 1,
-    "min_price_per_sqft": 1812,
-    "max_price_per_sqft": 1812,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1812
-    ],
-    "listings": [
-      {
-        "title": "Fully Renovated | Large Layout | Exclusive",
-        "area": "Dubai Marina",
-        "tower_name": "Dubai Marina",
-        "raw_area": "",
-        "lat": 25.089833,
-        "lng": 55.150625,
-        "price_per_sqft": 1812,
-        "price": 5400000,
-        "sqft": 2980,
-        "quality_tier": "ultra_luxury",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227952"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Al Hebiah 4",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1116,
-    "listing_count": 1,
-    "min_price_per_sqft": 1116,
-    "max_price_per_sqft": 1116,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1116
-    ],
-    "listings": [
-      {
-        "title": "Fully Furnished |High Floor |Golf N Canal Views",
-        "area": "Al Hebiah 4",
-        "tower_name": "Dubai Sports City",
-        "raw_area": "",
-        "lat": 25.039066,
-        "lng": 55.220697,
-        "price_per_sqft": 1116,
-        "price": 1299000,
-        "sqft": 1164,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227947"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Dubai Media City",
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2862,
-    "listing_count": 1,
-    "min_price_per_sqft": 2862,
-    "max_price_per_sqft": 2862,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2862
-    ],
-    "listings": [
-      {
-        "title": "Genuine Resale | Sea View | OP | Premium Amenities",
-        "area": "Dubai Media City",
-        "tower_name": "Dubai Media City",
-        "raw_area": "",
-        "lat": null,
-        "lng": null,
-        "price_per_sqft": 2862,
-        "price": 5900000,
-        "sqft": 2061,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227934"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Business Bay",
-      "property_type": "studio apartment",
-      "bedrooms": 0,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2218,
-    "listing_count": 1,
-    "min_price_per_sqft": 2218,
-    "max_price_per_sqft": 2218,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2218
-    ],
-    "listings": [
-      {
-        "title": "Vacant | Burj Khalifa View | Investor Deal",
-        "area": "Business Bay",
-        "tower_name": "Business Bay",
-        "raw_area": "",
-        "lat": 25.184174,
-        "lng": 55.280526,
-        "price_per_sqft": 2218,
-        "price": 1350000,
-        "sqft": 609,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227857"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Jumeirah Lakes Towers",
-      "property_type": "studio apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1531,
-    "listing_count": 1,
-    "min_price_per_sqft": 1531,
-    "max_price_per_sqft": 1531,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1531
-    ],
-    "listings": [
-      {
-        "title": "Fully Vastu | Full Lake View | Vacant on Transfer",
-        "area": "Jumeirah Lakes Towers",
-        "tower_name": "Jumeirah Lake Towers",
-        "raw_area": "",
-        "lat": 25.071324,
-        "lng": 55.14183,
-        "price_per_sqft": 1531,
-        "price": 2950000,
-        "sqft": 1927,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227796"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Town Square Dubai",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1820,
-    "listing_count": 1,
-    "min_price_per_sqft": 1820,
-    "max_price_per_sqft": 1820,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1820
-    ],
-    "listings": [
-      {
-        "title": "Open View | Fitted Kitchen | Rented | High ROI",
-        "area": "Town Square Dubai",
-        "tower_name": "Town Square",
-        "raw_area": "",
-        "lat": 25.003874,
-        "lng": 55.284898,
-        "price_per_sqft": 1820,
-        "price": 870000,
-        "sqft": 478,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.bhomes.com/en/property/bh-s-227699"
       }
     ]
   },
@@ -10132,6 +9892,39 @@
   },
   {
     "market_key": {
+      "area": "Town Square Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1318,
+    "listing_count": 1,
+    "min_price_per_sqft": 1318,
+    "max_price_per_sqft": 1318,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1318
+    ],
+    "listings": [
+      {
+        "title": "Double Master Bedroom | Twin Balcony | Motivated Seller",
+        "area": "Town Square Dubai",
+        "tower_name": "Town Square",
+        "raw_area": "",
+        "lat": 25.004121,
+        "lng": 55.291201,
+        "price_per_sqft": 1318,
+        "price": 1450000,
+        "sqft": 1100,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.bhomes.com/en/property/bh-s-227062"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Dubai Residence Complex",
       "property_type": "studio apartment",
       "bedrooms": 1,
@@ -10589,39 +10382,6 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.bhomes.com/en/property/bh-s-226534"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Majan",
-      "property_type": "apartment",
-      "bedrooms": 1,
-      "layout_type": "standard",
-      "quality_tier": "standard"
-    },
-    "median_price_per_sqft": 1367,
-    "listing_count": 1,
-    "min_price_per_sqft": 1367,
-    "max_price_per_sqft": 1367,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1367
-    ],
-    "listings": [
-      {
-        "title": "Investor Choice | Flexible Payment Plan",
-        "area": "Majan",
-        "tower_name": "Binghatti Titania",
-        "raw_area": "Binghatti Titania, Majan, Dubai",
-        "lat": 25.085857391357422,
-        "lng": 55.315147399902344,
-        "price_per_sqft": 1367,
-        "price": 1150999,
-        "sqft": 842,
-        "quality_tier": "standard",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-majan-binghatti-titania-97381088.html"
       }
     ]
   },
@@ -11203,39 +10963,6 @@
   },
   {
     "market_key": {
-      "area": "District 4",
-      "property_type": "apartment",
-      "bedrooms": 2,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 1633,
-    "listing_count": 1,
-    "min_price_per_sqft": 1633,
-    "max_price_per_sqft": 1633,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      1633
-    ],
-    "listings": [
-      {
-        "title": "Large Layout | High Floor | Pool View | Ready Soon",
-        "area": "District 4",
-        "tower_name": "Belmont Residences",
-        "raw_area": "Belmont Residences, District 4, Jumeirah Village Triangle, Dubai",
-        "lat": 25.044668197631836,
-        "lng": 55.19497299194336,
-        "price_per_sqft": 1633,
-        "price": 2000000,
-        "sqft": 1225,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-triangle-district-4-belmont-residences-96931612.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "Dubai International Financial Centre",
       "property_type": "apartment",
       "bedrooms": 3,
@@ -11330,6 +11057,72 @@
         "quality_tier": "standard",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-burj-daman-91372629.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "District 4",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 1633,
+    "listing_count": 1,
+    "min_price_per_sqft": 1633,
+    "max_price_per_sqft": 1633,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1633
+    ],
+    "listings": [
+      {
+        "title": "Large Layout | High Floor | Pool View | Ready Soon",
+        "area": "District 4",
+        "tower_name": "Belmont Residences",
+        "raw_area": "Belmont Residences, District 4, Jumeirah Village Triangle, Dubai",
+        "lat": 25.044668197631836,
+        "lng": 55.19497299194336,
+        "price_per_sqft": 1633,
+        "price": 2000000,
+        "sqft": 1225,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-village-triangle-district-4-belmont-residences-96931612.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Palm Jumeirah",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 4727,
+    "listing_count": 1,
+    "min_price_per_sqft": 4727,
+    "max_price_per_sqft": 4727,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4727
+    ],
+    "listings": [
+      {
+        "title": "40|60 PROMO | SEA VIEW | BEACHFRONT | ULTRA LUXURY",
+        "area": "Palm Jumeirah",
+        "tower_name": "Avita",
+        "raw_area": "Avita, Passo by Beyond, Palm Jumeirah, Dubai",
+        "lat": 25.115354537963867,
+        "lng": 55.10947799682617,
+        "price_per_sqft": 4727,
+        "price": 4146000,
+        "sqft": 877,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-palm-jumeirah-passo-by-beyond-avita-90913146.html"
       }
     ]
   },
@@ -11462,39 +11255,6 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-falcon-city-of-wonders-belgravia-gardens-89647256.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": NaN,
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 4616,
-    "listing_count": 1,
-    "min_price_per_sqft": 4616,
-    "max_price_per_sqft": 4616,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      4616
-    ],
-    "listings": [
-      {
-        "title": "Largest Layout | Full Palm View | Multiple Options",
-        "area": NaN,
-        "tower_name": "Address The Bay",
-        "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.10262680053711,
-        "lng": 55.1435432434082,
-        "price_per_sqft": 4616,
-        "price": 9500000,
-        "sqft": 2058,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-address-the-bay-94013135.html"
       }
     ]
   },
@@ -13480,6 +13240,39 @@
   },
   {
     "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "luxury",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 7105,
+    "listing_count": 1,
+    "min_price_per_sqft": 7105,
+    "max_price_per_sqft": 7105,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      7105
+    ],
+    "listings": [
+      {
+        "title": "Luxury Living | Custom Built | Fully Upgraded",
+        "area": "Downtown Dubai",
+        "tower_name": "Burj Khalifa",
+        "raw_area": "Burj Khalifa, Burj Khalifa Area, Downtown Dubai, Dubai",
+        "lat": 25.197315216064453,
+        "lng": 55.27419662475586,
+        "price_per_sqft": 7105,
+        "price": 28000000,
+        "sqft": 3941,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "luxury",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-burj-khalifa-94441868.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Sobha Hartland",
       "property_type": "studio apartment",
       "bedrooms": 2,
@@ -13583,7 +13376,7 @@
       "property_type": "apartment",
       "bedrooms": 4,
       "layout_type": "standard",
-      "quality_tier": "ultra_luxury"
+      "quality_tier": "premium"
     },
     "median_price_per_sqft": 4254,
     "listing_count": 1,
@@ -13604,7 +13397,7 @@
         "price_per_sqft": 4254,
         "price": 13000000,
         "sqft": 3056,
-        "quality_tier": "ultra_luxury",
+        "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-khalifa-area-opera-grand-92698597.html"
       }
@@ -13772,6 +13565,204 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-golf-estates-al-andalus-al-andalus-tower-b-84890933.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "penthouse",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 3029,
+    "listing_count": 1,
+    "min_price_per_sqft": 3029,
+    "max_price_per_sqft": 3029,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3029
+    ],
+    "listings": [
+      {
+        "title": "4 BHK Flat in Downtown, Dubai",
+        "area": "Downtown Dubai",
+        "tower_name": "Burj Khalifa",
+        "raw_area": "Downtown",
+        "lat": 25.199342,
+        "lng": 55.272723,
+        "price_per_sqft": 3029,
+        "price": 24229075,
+        "sqft": 8000,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "penthouse",
+        "url": "https://www.99acres.com/4-bhk-bedroom-apartment-flat-for-sale-in-burj-khalifa-downtown-dubai-8000-sqft-r4-spid-A77167085"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Dubai Rd Al Hiyar",
+      "property_type": "apartment",
+      "bedrooms": 4,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 3409,
+    "listing_count": 1,
+    "min_price_per_sqft": 3409,
+    "max_price_per_sqft": 3409,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      3409
+    ],
+    "listings": [
+      {
+        "title": "4 BHK Flat in Dubai RD Al Hiyar",
+        "area": "Dubai Rd Al Hiyar",
+        "tower_name": "LEOS Royal ",
+        "raw_area": "Dubai RD Al Hiyar",
+        "lat": 25.27114,
+        "lng": 55.30748,
+        "price_per_sqft": 3409,
+        "price": 5460848,
+        "sqft": 1602,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/4-bhk-bedroom-apartment-flat-for-sale-in-dubai-1800-sqft-spid-M90141070"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Downtown Dubai",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "ultra_luxury"
+    },
+    "median_price_per_sqft": 1468,
+    "listing_count": 1,
+    "min_price_per_sqft": 1468,
+    "max_price_per_sqft": 1468,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1468
+    ],
+    "listings": [
+      {
+        "title": "2 BHK Flat in Downtown, Dubai",
+        "area": "Downtown Dubai",
+        "tower_name": "Mercedes Benz by Binghatti",
+        "raw_area": "Downtown",
+        "lat": 25.195643,
+        "lng": 55.278198,
+        "price_per_sqft": 1468,
+        "price": 2643172,
+        "sqft": 1800,
+        "quality_tier": "ultra_luxury",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-downtown-dubai-1800-sqft-spid-N89147955"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Al Jaddaf",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 1627,
+    "listing_count": 1,
+    "min_price_per_sqft": 1627,
+    "max_price_per_sqft": 1627,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      1627
+    ],
+    "listings": [
+      {
+        "title": "2 BHK Flat in Al Jaddaf, Dubai",
+        "area": "Al Jaddaf",
+        "tower_name": "Cullinan by Binghatti",
+        "raw_area": "Al Jaddaf",
+        "lat": 25.217415,
+        "lng": 55.330495,
+        "price_per_sqft": 1627,
+        "price": 2114537,
+        "sqft": 1300,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-al-jaddaf-dubai-1300-sqft-spid-Q89151145"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "Deira Islands",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 2643,
+    "listing_count": 1,
+    "min_price_per_sqft": 2643,
+    "max_price_per_sqft": 2643,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2643
+    ],
+    "listings": [
+      {
+        "title": "1 BHK Flat in Deira Islands, Dubai",
+        "area": "Deira Islands",
+        "tower_name": "OCEAN CREST",
+        "raw_area": "Deira Islands",
+        "lat": 25.31846,
+        "lng": 55.305615,
+        "price_per_sqft": 2643,
+        "price": 2378855,
+        "sqft": 900,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/1-bhk-bedroom-apartment-flat-for-sale-in-deira-islands-dubai-900-sqft-spid-G90845612"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "New Ras Al Khor Community",
+      "property_type": "apartment",
+      "bedrooms": 2,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2597,
+    "listing_count": 1,
+    "min_price_per_sqft": 2597,
+    "max_price_per_sqft": 2597,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2597
+    ],
+    "listings": [
+      {
+        "title": "2 BHK Flat in Dubai Creek Harbour",
+        "area": "New Ras Al Khor Community",
+        "tower_name": "Emaar Palace Residences",
+        "raw_area": "Dubai Creek Harbour",
+        "lat": 25.196154,
+        "lng": 55.349649,
+        "price_per_sqft": 2597,
+        "price": 2466960,
+        "sqft": 950,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-sale-in-emaar-palace-residences-dubai-creek-harbour-dubai-1098-sqft-r13-spid-R42600679"
       }
     ]
   }
