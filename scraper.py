@@ -923,6 +923,13 @@ def normalize_property_type(
 
     combined_text = f"{title} {description}".lower()
 
+    if property_type:
+
+        pt = property_type.lower()
+    
+        if "studio" in pt:
+            return "studio apartment"
+
     # =====================================
     # DETECT STUDIO APARTMENTS
     # =====================================
@@ -934,8 +941,7 @@ def normalize_property_type(
         "studio unit",
         "spacious studio",
         "studio layout",
-        "well-designed studio",
-        "studio"
+        "well-designed studio"
     ]
 
     for pattern in studio_patterns:
