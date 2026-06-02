@@ -1609,6 +1609,42 @@ for hit in dubizzle_hits:
             .get("en", "")
         )
 
+
+        if len(properties) < 5:
+
+            print("\nDUBIZZLE FIELD CHECK")
+            print("TITLE:", title)
+        
+            print(
+                "HAS description:",
+                "description" in hit
+            )
+        
+            print(
+                "HAS description_short:",
+                "description_short" in hit
+            )
+        
+            print(
+                "description type:",
+                type(hit.get("description"))
+            )
+        
+            print(
+                "description_short type:",
+                type(hit.get("description_short"))
+            )
+        
+            print(
+                "description sample:",
+                str(hit.get("description"))[:200]
+            )
+        
+            print(
+                "description_short sample:",
+                str(hit.get("description_short"))[:200]
+            )
+
         property_url = (
             hit.get(
                 "absolute_url",
