@@ -2284,6 +2284,10 @@ for source_data in all_soups:
                     break
 
         if not json_text:
+            print("99ACRES: __initialData__ NOT FOUND")
+            continue
+
+        if not json_text:
             continue
 
 
