@@ -1,5 +1,68 @@
 [
   {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.18090745998242,
+    "lng": 25.03906316131446,
+    "matched_polygons": [
+      {
+        "area": "Šešuolių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.00341776330703227,
+        "polygon_centroid_lat": 55.190551889093065,
+        "polygon_centroid_lng": 24.993898614369858,
+        "bounds": {
+          "min_lng": 24.8862263,
+          "min_lat": 55.1166789,
+          "max_lng": 25.1023555,
+          "max_lat": 55.260798092723725
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Šešuolių seniūnija",
+    "selected_polygon_area": 0.00341776330703227
+  },
+  {
+    "raw_area": "Dubai Harbour",
+    "lat": 55.14094557680649,
+    "lng": 25.09815726734817,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.346275,
+    "lng": 25.210124,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Arabian Ranches 2",
+    "lat": 55.273974341638,
+    "lng": 25.039630840532,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.153963,
+    "lng": 25.079233,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Al Reem Island",
     "lat": 54.40610080971199,
     "lng": 24.4984843912363,
@@ -1529,41 +1592,6 @@
     "lng": 25.022637307531,
     "matched_polygons": [],
     "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Triangle (JVT)",
-    "lat": 55.18090745998242,
-    "lng": 25.03906316131446,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
   },
   {
     "raw_area": "Jumeirah Village Triangle (JVT)",
@@ -11260,34 +11288,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.343798757331,
-    "lng": 25.119882626071,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.249151866231,
-    "lng": 25.020483302739,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.204014,
-    "lng": 25.048591,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20436747475478,
-    "lng": 25.04981334140857,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Jumeirah Village Circle (JVC)",
     "lat": 55.20343789863386,
     "lng": 25.06126066369926,
@@ -11358,13 +11358,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Palm Jumeirah",
     "lat": 55.1100718975067,
     "lng": 25.1175048477668,
@@ -11428,76 +11421,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Springs",
-    "lat": 55.174361264888,
-    "lng": 25.051038895544,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
-  },
-  {
-    "raw_area": "The Springs",
-    "lat": 55.188138570738,
-    "lng": 25.060462361189,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
-  },
-  {
     "raw_area": "Dubai South",
     "lat": 55.21921813,
     "lng": 24.9439042,
@@ -11543,27 +11466,6 @@
     "raw_area": "The Greens",
     "lat": 55.17455,
     "lng": 25.090962,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arabian Ranches 2",
-    "lat": 55.266242708757,
-    "lng": 25.035551180044,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.253252837078,
-    "lng": 25.107429294234,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.27248831037261,
-    "lng": 25.18179523428656,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -11652,27 +11554,6 @@
     "selected_polygon_area": 0.00341776330703227
   },
   {
-    "raw_area": "Al Furjan",
-    "lat": 55.124693609791,
-    "lng": 25.023808248879,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.592547354418,
-    "lng": 24.457414357713,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jebel Ali",
-    "lat": 55.11490119117,
-    "lng": 25.036632722983,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "DAMAC Hills",
     "lat": 55.259956525677,
     "lng": 25.033416130055,
@@ -11680,18 +11561,39 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Greens",
-    "lat": 55.1747426390648,
-    "lng": 25.0919535472702,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27048,
-    "lng": 25.191735,
-    "matched_polygons": [],
-    "selected_area": null
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.1969971370963,
+    "lng": 25.05571648363922,
+    "matched_polygons": [
+      {
+        "area": "Šešuolių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.00341776330703227,
+        "polygon_centroid_lat": 55.190551889093065,
+        "polygon_centroid_lng": 24.993898614369858,
+        "bounds": {
+          "min_lng": 24.8862263,
+          "min_lat": 55.1166789,
+          "max_lng": 25.1023555,
+          "max_lat": 55.260798092723725
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Šešuolių seniūnija",
+    "selected_polygon_area": 0.00341776330703227
   },
   {
     "raw_area": "Dubai Hills Estate",
@@ -11704,13 +11606,6 @@
     "raw_area": "Dubai Hills Estate",
     "lat": 55.252916100774,
     "lng": 25.093067784933,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20156833852448,
-    "lng": 25.05106636221176,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -11769,41 +11664,6 @@
     "lng": 25.05731151044457,
     "matched_polygons": [],
     "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.2036401225603,
-    "lng": 25.05603550877689,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
   },
   {
     "raw_area": "Jumeirah Village Circle (JVC)",
@@ -12057,56 +11917,6 @@
     "selected_polygon_area": 3.601030525371932e-05
   },
   {
-    "raw_area": "Palm Jebel Ali",
-    "lat": 54.972350868442,
-    "lng": 25.004669156316,
-    "matched_polygons": [
-      {
-        "area": "Širvintų seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0033814509694680694,
-        "polygon_centroid_lat": 55.0108859346029,
-        "polygon_centroid_lng": 24.95409047151963,
-        "bounds": {
-          "min_lng": 24.7690115,
-          "min_lat": 54.9477185,
-          "max_lng": 25.0959813,
-          "max_lat": 55.1150157
-        }
-      }
-    ],
-    "selected_area": "Širvintų seniūnija",
-    "selected_polygon_area": 0.0033814509694680694
-  },
-  {
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.2245270465,
-    "lng": 24.989481441631,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jebel Ali",
-    "lat": 54.99713253652,
-    "lng": 25.017117335379,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.237394859189,
-    "lng": 24.985667999466,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.308396237872,
-    "lng": 25.292604563985,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34841802556082,
     "lng": 25.20201339358486,
@@ -12135,79 +11945,57 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Raha Beach",
-    "lat": 54.60624466121821,
-    "lng": 24.44866124005624,
-    "matched_polygons": [],
-    "selected_area": null
+    "raw_area": "Arabian Ranches",
+    "lat": 55.255484989068,
+    "lng": 25.052695022356,
+    "matched_polygons": [
+      {
+        "area": "Laukeliai",
+        "osm_name": null,
+        "polygon_area": 0.0001212539281351065,
+        "polygon_centroid_lat": 55.25735982148922,
+        "polygon_centroid_lng": 25.059327131666944,
+        "bounds": {
+          "min_lng": 25.0504393,
+          "min_lat": 55.2459664,
+          "max_lng": 25.0720199,
+          "max_lat": 55.2628355
+        }
+      },
+      {
+        "area": "Žemaitkiemio seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0010260281346588433,
+        "polygon_centroid_lat": 55.29406039627309,
+        "polygon_centroid_lng": 24.976858956904085,
+        "bounds": {
+          "min_lng": 24.85249,
+          "min_lat": 55.2532608,
+          "max_lng": 25.1107404,
+          "max_lat": 55.3499924
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Laukeliai",
+    "selected_polygon_area": 0.0001212539281351065
   },
   {
     "raw_area": "Arabian Ranches",
     "lat": 55.261355885584,
     "lng": 25.043331290237,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.154039,
-    "lng": 25.057582,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.154028,
-    "lng": 25.054977,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.149897,
-    "lng": 25.063676,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.149897,
-    "lng": 25.063676,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.63215231247389,
-    "lng": 24.49701918397001,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Saadiyat Island",
-    "lat": 54.443483398615,
-    "lng": 24.535078896215,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.404785,
-    "lng": 24.498713,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.6017615442069,
-    "lng": 24.47636911635525,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.598948,
-    "lng": 24.483866,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -12233,13 +12021,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Saadiyat Island",
-    "lat": 54.447313497363,
-    "lng": 24.541806818354,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Reem Island",
     "lat": 54.421155507923,
     "lng": 24.483989113965,
@@ -12261,23 +12042,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Masdar City",
-    "lat": 54.61383876601514,
-    "lng": 24.4344753291755,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Green Community",
     "lat": 55.15564432932171,
     "lng": 25.00287629931355,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.2815070129806,
-    "lng": 25.18450656243944,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -12299,6 +12066,13 @@
     "raw_area": "The Valley by Emaar",
     "lat": 55.438095751955,
     "lng": 25.019624908004,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.24861841677411,
+    "lng": 25.01593818327917,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -12541,27 +12315,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.23321666902217,
-    "lng": 25.06707653555288,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.23321666902217,
-    "lng": 25.06707653555288,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Sports City",
     "lat": 55.223646,
     "lng": 25.031639,
@@ -12584,193 +12337,9 @@
     "selected_polygon_area": 0.000348426067649987
   },
   {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.222927,
-    "lng": 25.031979,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.28593172496537,
-    "lng": 25.00512370035528,
-    "matched_polygons": [
-      {
-        "area": "Valai",
-        "osm_name": null,
-        "polygon_area": 0.000416612094992987,
-        "polygon_centroid_lat": 55.28105401447631,
-        "polygon_centroid_lng": 25.020228156106967,
-        "bounds": {
-          "min_lng": 24.9834181,
-          "min_lat": 55.2646884,
-          "max_lng": 25.0416183,
-          "max_lat": 55.2916141
-        }
-      }
-    ],
-    "selected_area": "Valai",
-    "selected_polygon_area": 0.000416612094992987
-  },
-  {
-    "raw_area": "Al Jaddaf",
-    "lat": 55.31912037735391,
-    "lng": 25.21229513121177,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.216751,
-    "lng": 25.040036,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Studio City",
-    "lat": 55.23670325371054,
-    "lng": 25.02944323735721,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.300858091218,
-    "lng": 25.002050606249,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39099247068955,
-    "lng": 24.98294835585094,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Discovery Gardens",
-    "lat": 55.14562842610272,
-    "lng": 25.03942841970518,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Baniyas",
-    "lat": 54.619002,
-    "lng": 24.313741,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.263139,
-    "lng": 25.278444,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.240429838485,
-    "lng": 25.040877659396,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Investment Park (DIP)",
     "lat": 55.17974272394784,
     "lng": 24.9884609712675,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.180653583305,
-    "lng": 24.987881968941,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17991994445,
-    "lng": 24.99156038205,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.314806,
-    "lng": 25.097222,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13069,65 +12638,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "",
-    "lat": 55.374639,
-    "lng": 25.098306,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.201681,
-    "lng": 25.034128,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.40539456678721,
-    "lng": 25.14796413559107,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.40319890549108,
-    "lng": 25.1631279057195,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39358909548054,
-    "lng": 24.98444784455826,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.40304873226432,
-    "lng": 25.14983931266904,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.42022621282464,
-    "lng": 25.16213058550901,
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13146,37 +12659,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "DAMAC Islands",
-    "lat": 55.30756556111082,
-    "lng": 25.039586,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Sports City",
     "lat": 55.21809010759,
     "lng": 25.0359868073,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.3236355413693,
-    "lng": 25.17348090572518,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.378627842224,
-    "lng": 24.989421892071,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13188,44 +12673,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubailand",
-    "lat": 55.360343340986,
-    "lng": 25.074394178567,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Islands",
-    "lat": 55.314129853497,
-    "lng": 25.035276457058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.217111322811,
-    "lng": 24.97128183346,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.30960250091234,
-    "lng": 25.17538306453063,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Meydan",
-    "lat": 55.306232,
-    "lng": 25.172831,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Media City",
-    "lat": 55.15577186422377,
-    "lng": 25.09739139925155,
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13237,16 +12687,77 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.205866,
-    "lng": 25.037336,
+    "raw_area": "Dubai Silicon Oasis (DSO)",
+    "lat": 55.37361723231035,
+    "lng": 25.12393599721689,
+    "matched_polygons": [
+      {
+        "area": "Balninkai Eldership",
+        "osm_name": null,
+        "polygon_area": 0.0013779170484946885,
+        "polygon_centroid_lat": 55.300930994930226,
+        "polygon_centroid_lng": 25.200433780672277,
+        "bounds": {
+          "min_lng": 25.0689817,
+          "min_lat": 55.2520139,
+          "max_lng": 25.322654,
+          "max_lat": 55.3754327
+        }
+      },
+      {
+        "area": "Kurklių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0019324807979947446,
+        "polygon_centroid_lat": 55.40712677314661,
+        "polygon_centroid_lng": 25.066435076860298,
+        "bounds": {
+          "min_lng": 24.965992,
+          "min_lat": 55.3058477,
+          "max_lng": 25.2018752,
+          "max_lat": 55.470043
+        }
+      },
+      {
+        "area": "Molėtų rajono savivaldybė",
+        "osm_name": null,
+        "polygon_area": 0.00808881682923085,
+        "polygon_centroid_lat": 55.2220184455941,
+        "polygon_centroid_lng": 25.33626883939265,
+        "bounds": {
+          "min_lng": 25.0689817,
+          "min_lat": 55.030879,
+          "max_lng": 25.8003868,
+          "max_lat": 55.425939
+        }
+      },
+      {
+        "area": "Anykščiai District Municipality",
+        "osm_name": null,
+        "polygon_area": 0.009336926095543435,
+        "polygon_centroid_lat": 55.57662221704922,
+        "polygon_centroid_lng": 25.015986089966614,
+        "bounds": {
+          "min_lng": 24.653144131791166,
+          "min_lat": 55.3058477,
+          "max_lng": 25.5191985,
+          "max_lat": 55.761648
+        }
+      }
+    ],
+    "selected_area": "Balninkai Eldership",
+    "selected_polygon_area": 0.0013779170484946885
+  },
+  {
+    "raw_area": "Dubai Media City",
+    "lat": 55.15577186422377,
+    "lng": 25.09739139925155,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Zayed City",
-    "lat": 54.642862778286,
-    "lng": 24.40537462194,
+    "raw_area": "Dubai Sports City",
+    "lat": 55.205866,
+    "lng": 25.037336,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13265,28 +12776,14 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Jaddaf",
-    "lat": 55.319042,
-    "lng": 25.213721,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37280160190662,
     "lng": 25.0949189454839,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37172027302614,
     "lng": 25.09574803745835,
     "matched_polygons": [],
@@ -13296,13 +12793,6 @@
     "raw_area": "Living Legends",
     "lat": 55.3021882001366,
     "lng": 25.08016569473218,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Meydan",
-    "lat": 55.294626469913,
-    "lng": 25.144441964645,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13349,20 +12839,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.376639,
     "lng": 25.100444,
@@ -13387,13 +12863,6 @@
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.380444,
     "lng": 25.086639,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.4025809,
-    "lng": 25.14580881,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13489,9 +12958,23 @@
     "selected_polygon_area": 0.0013779170484946885
   },
   {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37172027302614,
     "lng": 25.09574803745835,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13510,13 +12993,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Arjan",
-    "lat": 55.23399,
-    "lng": 25.066545,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Jaddaf",
     "lat": 55.329806,
     "lng": 25.213639,
@@ -13531,44 +13007,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Meydan Horizon",
-    "lat": 55.32264434821542,
-    "lng": 25.18103028947657,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Islands",
-    "lat": 55.312493751578,
-    "lng": 25.036120404605,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.198677974081,
-    "lng": 25.034497552513,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Shamkha",
     "lat": 54.678754472888,
     "lng": 24.358580289459,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Fahid Island",
-    "lat": 54.55880360833092,
-    "lng": 24.50909369859011,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Discovery Gardens",
-    "lat": 55.14971337276273,
-    "lng": 25.03760993119558,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13580,16 +13021,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.374386106865,
-    "lng": 25.097882406181,
+    "raw_area": "Al Shamkha",
+    "lat": 54.672864750437,
+    "lng": 24.367948990675,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "International City",
-    "lat": 55.396781456722,
-    "lng": 25.15865605196,
+    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "lat": 55.374386106865,
+    "lng": 25.097882406181,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13827,108 +13268,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Bahia",
-    "lat": 55.57816411327896,
-    "lng": 25.41912354460853,
-    "matched_polygons": [
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Anykščiai District Municipality",
-    "selected_polygon_area": 0.009336926095543435
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Nuaimiya",
-    "lat": 55.4409599304199,
-    "lng": 25.3907915832682,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Nuaimiya",
     "lat": 55.435697,
     "lng": 25.39052,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Khan",
-    "lat": 55.36104674454276,
-    "lng": 25.32809787340477,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Muwaileh",
-    "lat": 55.466462862081,
-    "lng": 25.30897232582,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Mamzar",
-    "lat": 55.3648124754105,
-    "lng": 25.31096686074115,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Ajman Free Zone",
-    "lat": 55.45528910544604,
-    "lng": 25.39691635180789,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.581915,
-    "lng": 25.380037,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -13947,20 +13289,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Mowaihat",
-    "lat": 55.501041,
-    "lng": 25.378513,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Emirates City",
     "lat": 55.57343220046565,
     "lng": 25.38976465695946,
@@ -13971,13 +13299,6 @@
     "raw_area": "Tilal City",
     "lat": 55.592339088882,
     "lng": 25.259921848529,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Aljada",
-    "lat": 55.481748,
-    "lng": 25.320366,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14024,9 +13345,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Rodhat Al Qrt",
-    "lat": 55.65369721569397,
-    "lng": 25.261682,
+    "raw_area": "Al Amerah",
+    "lat": 55.57603736337992,
+    "lng": 25.38681945394501,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14055,13 +13376,6 @@
     "raw_area": "Al Helio",
     "lat": 55.595150565966,
     "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14125,49 +13439,6 @@
     "raw_area": "Aljada",
     "lat": 55.47337069857022,
     "lng": 25.31342974606767,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Bahia",
-    "lat": 55.57816411327896,
-    "lng": 25.41912354460853,
-    "matched_polygons": [
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Anykščiai District Municipality",
-    "selected_polygon_area": 0.009336926095543435
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14249,30 +13520,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Amerah",
-    "lat": 55.582283005904,
-    "lng": 25.392379912018,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Amerah",
-    "lat": 55.582283005904,
-    "lng": 25.392379912018,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Muwaileh",
     "lat": 55.466462862081,
     "lng": 25.30897232582,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.59179085788252,
-    "lng": 25.3769438893839,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14398,13 +13648,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Mowaihat",
-    "lat": 55.491085,
-    "lng": 25.36688,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Mamzar",
     "lat": 55.3593680887827,
     "lng": 25.30628986469133,
@@ -14434,42 +13677,6 @@
     "selected_polygon_area": 0.009336926095543435
   },
   {
-    "raw_area": "Al Bahia",
-    "lat": 55.57816411327896,
-    "lng": 25.41912354460853,
-    "matched_polygons": [
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Anykščiai District Municipality",
-    "selected_polygon_area": 0.009336926095543435
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Yasmeen",
     "lat": 55.57386592673419,
     "lng": 25.37862598919911,
@@ -14480,13 +13687,6 @@
     "raw_area": "Al Amerah",
     "lat": 55.582283005904,
     "lng": 25.392379912018,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rashidiya",
-    "lat": 55.4556597823385,
-    "lng": 25.39006398995903,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14673,55 +13873,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rawda",
-    "lat": 55.521957,
-    "lng": 25.389298,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rawda",
-    "lat": 55.500397408488,
-    "lng": 25.389701380412,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Amerah",
-    "lat": 55.586034,
-    "lng": 25.380745,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Marjan Island",
     "lat": 55.73273,
     "lng": 25.686038,
@@ -14750,51 +13901,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Aljada",
     "lat": 55.47337069857022,
     "lng": 25.31342974606767,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -14884,9 +13993,80 @@
     "selected_area": null
   },
   {
-    "raw_area": "Tilal City",
-    "lat": 55.589229514903,
-    "lng": 25.256183355465,
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.25145989,
+    "lng": 25.11178535,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.25145989,
+    "lng": 25.11178535,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.15035881024946,
+    "lng": 25.08931700755602,
+    "matched_polygons": [
+      {
+        "area": "Bajorai",
+        "osm_name": null,
+        "polygon_area": 0.00028269560091779086,
+        "polygon_centroid_lat": 55.1490953826476,
+        "polygon_centroid_lng": 25.106000485670226,
+        "bounds": {
+          "min_lng": 25.0736546,
+          "min_lat": 55.1312284,
+          "max_lng": 25.1375985,
+          "max_lat": 55.1556293
+        }
+      }
+    ],
+    "selected_area": "Bajorai",
+    "selected_polygon_area": 0.00028269560091779086
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.34779523454176,
+    "lng": 25.2054459232027,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Lagoons",
+    "lat": 55.231350334922,
+    "lng": 25.004668247806,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mudon",
+    "lat": 55.262207586337,
+    "lng": 25.016883956571,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mudon",
+    "lat": 55.262207586337,
+    "lng": 25.016883956571,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mudon",
+    "lat": 55.264709865539,
+    "lng": 25.014981656812,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.449544740764,
+    "lng": 24.526256172336,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -15690,98 +14870,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.135703,
-    "lng": 25.078428,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.1264145615419,
-    "lng": 25.07222227994064,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20802190440247,
-    "lng": 25.06138567414116,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
-  },
-  {
-    "raw_area": "Nad Al Sheba",
-    "lat": 55.31150767068,
-    "lng": 25.132607171585,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34569116106607,
-    "lng": 25.20861930099168,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.140392,
-    "lng": 25.111828,
-    "matched_polygons": [
-      {
-        "area": "Bajorai",
-        "osm_name": null,
-        "polygon_area": 0.00028269560091779086,
-        "polygon_centroid_lat": 55.1490953826476,
-        "polygon_centroid_lng": 25.106000485670226,
-        "bounds": {
-          "min_lng": 25.0736546,
-          "min_lat": 55.1312284,
-          "max_lng": 25.1375985,
-          "max_lat": 55.1556293
-        }
-      }
-    ],
-    "selected_area": "Bajorai",
-    "selected_polygon_area": 0.00028269560091779086
-  },
-  {
-    "raw_area": "The Greens",
-    "lat": 55.174058,
-    "lng": 25.0926,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34922435652717,
     "lng": 25.20153724671492,
@@ -15789,381 +14877,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Greens",
-    "lat": 55.172995,
-    "lng": 25.093557,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.27372564556487,
-    "lng": 25.18195386425001,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Marina",
-    "lat": 55.14873941920283,
-    "lng": 25.09067821344713,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai South",
-    "lat": 55.222852,
-    "lng": 24.939415,
-    "matched_polygons": [
-      {
-        "area": "Lyduokių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013649913569686125,
-        "polygon_centroid_lat": 55.247179531697526,
-        "polygon_centroid_lng": 24.900298056374623,
-        "bounds": {
-          "min_lng": 24.7936797,
-          "min_lat": 55.2160269,
-          "max_lng": 25.02612475300708,
-          "max_lat": 55.2975574
-        }
-      },
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      }
-    ],
-    "selected_area": "Lyduokių seniūnija",
-    "selected_polygon_area": 0.0013649913569686125
-  },
-  {
-    "raw_area": "Dubai South",
-    "lat": 55.222852,
-    "lng": 24.939415,
-    "matched_polygons": [
-      {
-        "area": "Lyduokių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013649913569686125,
-        "polygon_centroid_lat": 55.247179531697526,
-        "polygon_centroid_lng": 24.900298056374623,
-        "bounds": {
-          "min_lng": 24.7936797,
-          "min_lat": 55.2160269,
-          "max_lng": 25.02612475300708,
-          "max_lat": 55.2975574
-        }
-      },
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      }
-    ],
-    "selected_area": "Lyduokių seniūnija",
-    "selected_polygon_area": 0.0013649913569686125
-  },
-  {
-    "raw_area": "The Greens",
-    "lat": 55.1714488863945,
-    "lng": 25.0921575902031,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.252916100774,
-    "lng": 25.093067784933,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.139771,
-    "lng": 25.116252,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.13742848655417,
-    "lng": 25.11630432874502,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.137945,
-    "lng": 25.113713,
-    "matched_polygons": [
-      {
-        "area": "Bajorai",
-        "osm_name": null,
-        "polygon_area": 0.00028269560091779086,
-        "polygon_centroid_lat": 55.1490953826476,
-        "polygon_centroid_lng": 25.106000485670226,
-        "bounds": {
-          "min_lng": 25.0736546,
-          "min_lat": 55.1312284,
-          "max_lng": 25.1375985,
-          "max_lat": 55.1556293
-        }
-      }
-    ],
-    "selected_area": "Bajorai",
-    "selected_polygon_area": 0.00028269560091779086
-  },
-  {
-    "raw_area": "Dubai South",
-    "lat": 55.13694422670257,
-    "lng": 24.83739471898314,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.13556618468854,
-    "lng": 25.081475587645,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.30631432,
-    "lng": 25.29044178,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.30631432,
-    "lng": 25.29044178,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Barari",
-    "lat": 55.322592942369,
-    "lng": 25.098237935585,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.271063,
-    "lng": 25.197037,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.342916755918,
-    "lng": 25.116317602599,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.1461489498615,
-    "lng": 25.076277660726,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Nad Al Sheba",
-    "lat": 55.311701962622,
-    "lng": 25.137898752746,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.2810224890709,
-    "lng": 25.1932820714619,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.343798757331,
-    "lng": 25.119882626071,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Science Park",
-    "lat": 55.24874412187238,
-    "lng": 25.07091484680871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.28962460379719,
-    "lng": 25.18494517362533,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24131527984919,
-    "lng": 25.10468597189534,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.453680220734,
-    "lng": 25.003543693073,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.447626871072,
-    "lng": 25.007600568072,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.44680906435,
-    "lng": 25.009308691439,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.44680906435,
-    "lng": 25.009308691439,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.22028690373514,
-    "lng": 25.05496273556861,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arabian Ranches",
-    "lat": 55.267013759691,
-    "lng": 25.055506648732,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.20582206520655,
-    "lng": 25.02908082115023,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.453475528279,
-    "lng": 25.011215948341,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Triangle (JVT)",
-    "lat": 55.18413504533643,
-    "lng": 25.04016521357596,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.31993366767335,
-    "lng": 25.30496377636206,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.262778,
-    "lng": 25.129889,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Marina",
-    "lat": 55.1482009887695,
-    "lng": 25.0872001647949,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Jebel Ali",
     "lat": 55.11490119117,
     "lng": 25.036632722983,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.141777503427,
-    "lng": 25.14020305467702,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21698901947039,
-    "lng": 25.05942762373874,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai South",
-    "lat": 55.141086950048,
-    "lng": 24.866118804057,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Greens",
-    "lat": 55.1734873652458,
-    "lng": 25.0900685631322,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34569116106607,
-    "lng": 25.20861930099168,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.211363,
-    "lng": 25.047434,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16203,80 +14919,9 @@
     "selected_polygon_area": 0.00341776330703227
   },
   {
-    "raw_area": "Al Furjan",
-    "lat": 55.14048825387522,
-    "lng": 25.03177482495984,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.231094482924,
-    "lng": 25.02991353096,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.213055514403,
-    "lng": 25.013271706465,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.207598510219,
-    "lng": 25.021722186899,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai South",
-    "lat": 55.14514927598203,
-    "lng": 24.86042440473292,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Mudon",
     "lat": 55.266939403476,
     "lng": 25.013177122986,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Lagoons",
-    "lat": 55.22421526364134,
-    "lng": 25.00940312204155,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20487992808702,
-    "lng": 25.04610247291052,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Views",
-    "lat": 55.1681081950665,
-    "lng": 25.0923907817098,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16314,13 +14959,6 @@
     ],
     "selected_area": "Lyduokių seniūnija",
     "selected_polygon_area": 0.0013649913569686125
-  },
-  {
-    "raw_area": "Jebel Ali",
-    "lat": 55.11490119117,
-    "lng": 25.036632722983,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "Al Furjan",
@@ -16421,9 +15059,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Furjan",
-    "lat": 55.140038,
-    "lng": 25.038946,
+    "raw_area": "Saadiyat Island",
+    "lat": 54.443483398615,
+    "lng": 24.535078896215,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16435,86 +15073,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.445539504948,
-    "lng": 24.998608563818,
-    "matched_polygons": [
-      {
-        "area": "Kurklių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0019324807979947446,
-        "polygon_centroid_lat": 55.40712677314661,
-        "polygon_centroid_lng": 25.066435076860298,
-        "bounds": {
-          "min_lng": 24.965992,
-          "min_lat": 55.3058477,
-          "max_lng": 25.2018752,
-          "max_lat": 55.470043
-        }
-      },
-      {
-        "area": "Kavarsko seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.003318192316413332,
-        "polygon_centroid_lat": 55.47053191438743,
-        "polygon_centroid_lng": 24.881513493127787,
-        "bounds": {
-          "min_lng": 24.775262363123836,
-          "min_lat": 55.3399373,
-          "max_lng": 25.0678128,
-          "max_lat": 55.5559213
-        }
-      }
-    ],
-    "selected_area": "Kurklių seniūnija",
-    "selected_polygon_area": 0.0019324807979947446
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.218234754961,
-    "lng": 25.05786606102,
+    "raw_area": "Al Reem Island",
+    "lat": 54.40468872427192,
+    "lng": 24.49628732982454,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.202992,
-    "lng": 25.063212,
-    "matched_polygons": [
-      {
-        "area": "Šešuolių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.00341776330703227,
-        "polygon_centroid_lat": 55.190551889093065,
-        "polygon_centroid_lng": 24.993898614369858,
-        "bounds": {
-          "min_lng": 24.8862263,
-          "min_lat": 55.1166789,
-          "max_lng": 25.1023555,
-          "max_lat": 55.260798092723725
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Šešuolių seniūnija",
-    "selected_polygon_area": 0.00341776330703227
-  },
-  {
-    "raw_area": "Jebel Ali",
-    "lat": 55.115082846246,
-    "lng": 25.035311186394,
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41006798022357,
+    "lng": 24.53589880702493,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16529,13 +15097,6 @@
     "raw_area": "Arabian Ranches",
     "lat": 55.285286240526,
     "lng": 25.055445173141,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.24414294117189,
-    "lng": 25.02524252586852,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16589,16 +15150,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27035975227122,
-    "lng": 25.19431240083058,
+    "raw_area": "Dubai Marina",
+    "lat": 55.132774,
+    "lng": 25.073221,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Marina",
-    "lat": 55.132774,
-    "lng": 25.073221,
+    "raw_area": "Al Reem Island",
+    "lat": 54.40610080971199,
+    "lng": 24.4984843912363,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16658,13 +15219,6 @@
     "selected_polygon_area": 0.0001212539281351065
   },
   {
-    "raw_area": "Arabian Ranches 3",
-    "lat": 55.336272318301,
-    "lng": 25.068349669577,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Hills Estate",
     "lat": 55.24677770885111,
     "lng": 25.10814370811002,
@@ -16680,77 +15234,8 @@
   },
   {
     "raw_area": "Downtown Dubai",
-    "lat": 55.27173380086171,
-    "lng": 25.19268523811387,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.13899091435498,
-    "lng": 25.08068453322564,
-    "matched_polygons": [
-      {
-        "area": "Zibalų seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013651936070034256,
-        "polygon_centroid_lat": 55.10710062950153,
-        "polygon_centroid_lng": 25.037588426293215,
-        "bounds": {
-          "min_lng": 24.8824243,
-          "min_lat": 55.0437055,
-          "max_lng": 25.1752988,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Širvintų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.005227494482663035,
-        "polygon_centroid_lat": 55.029116903542224,
-        "polygon_centroid_lng": 24.878821166400137,
-        "bounds": {
-          "min_lng": 24.552557889227096,
-          "min_lat": 54.860715415790146,
-          "max_lng": 25.2357971,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Zibalų seniūnija",
-    "selected_polygon_area": 0.0013651936070034256
-  },
-  {
-    "raw_area": "Downtown Dubai",
     "lat": 55.278234,
     "lng": 25.187055,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.269557,
-    "lng": 25.195088,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.271766,
-    "lng": 25.195499,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16776,54 +15261,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Raha Beach",
-    "lat": 54.58617549473735,
-    "lng": 24.44609287486316,
-    "matched_polygons": [
-      {
-        "area": "Aukštadvario seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0029016897814893496,
-        "polygon_centroid_lat": 54.58409029156305,
-        "polygon_centroid_lng": 24.53886192473331,
-        "bounds": {
-          "min_lng": 24.4155001,
-          "min_lat": 54.5165995,
-          "max_lng": 24.701707645667472,
-          "max_lat": 54.6603635
-        }
-      },
-      {
-        "area": "Stakliškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0038654153236304598,
-        "polygon_centroid_lat": 54.58951048679733,
-        "polygon_centroid_lng": 24.336552502919,
-        "bounds": {
-          "min_lng": 24.2247194,
-          "min_lat": 54.5206371,
-          "max_lng": 24.4882331,
-          "max_lat": 54.679625934758235
-        }
-      },
-      {
-        "area": "Trakų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00545354602979951,
-        "polygon_centroid_lat": 54.53837308176002,
-        "polygon_centroid_lng": 24.729363654569138,
-        "bounds": {
-          "min_lng": 24.4043498,
-          "min_lat": 54.38924345330244,
-          "max_lng": 25.1695921,
-          "max_lat": 54.7383745
-        }
-      }
-    ],
-    "selected_area": "Aukštadvario seniūnija",
-    "selected_polygon_area": 0.0029016897814893496
-  },
-  {
     "raw_area": "Jumeirah Park",
     "lat": 55.16528266701,
     "lng": 25.044894531219,
@@ -16831,9 +15268,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "DAMAC Lagoons",
-    "lat": 55.237728075756,
-    "lng": 25.006214622407,
+    "raw_area": "Al Reem Island",
+    "lat": 54.40596510292185,
+    "lng": 24.49909450698135,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.40822721364501,
+    "lng": 24.49063403011194,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16845,9 +15289,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Reem Island",
-    "lat": 54.40514716557482,
-    "lng": 24.49673867098242,
+    "raw_area": "DAMAC Hills",
+    "lat": 55.257518300955,
+    "lng": 25.011943393072,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Yas Island",
+    "lat": 54.62893917257736,
+    "lng": 24.48459430366637,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16862,20 +15313,6 @@
     "raw_area": "Dubai Hills Estate",
     "lat": 55.245834,
     "lng": 25.111153,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.431038645749,
-    "lng": 25.011673606339,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.429307921897,
-    "lng": 25.013733766698,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16901,37 +15338,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Business Bay",
-    "lat": 55.2680828814135,
-    "lng": 25.18427671765799,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.404554,
-    "lng": 24.496727,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Harbour",
     "lat": 55.141881959433,
     "lng": 25.100634251965,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Furjan",
-    "lat": 55.1451488871902,
-    "lng": 25.03422158755457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.41704877453,
-    "lng": 24.488346172288,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -16941,54 +15350,6 @@
     "lng": 25.04556189,
     "matched_polygons": [],
     "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Marina",
-    "lat": 55.141301,
-    "lng": 25.082949,
-    "matched_polygons": [
-      {
-        "area": "Zibalų seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013651936070034256,
-        "polygon_centroid_lat": 55.10710062950153,
-        "polygon_centroid_lng": 25.037588426293215,
-        "bounds": {
-          "min_lng": 24.8824243,
-          "min_lat": 55.0437055,
-          "max_lng": 25.1752988,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Širvintų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.005227494482663035,
-        "polygon_centroid_lat": 55.029116903542224,
-        "polygon_centroid_lng": 24.878821166400137,
-        "bounds": {
-          "min_lng": 24.552557889227096,
-          "min_lat": 54.860715415790146,
-          "max_lng": 25.2357971,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Zibalų seniūnija",
-    "selected_polygon_area": 0.0013651936070034256
   },
   {
     "raw_area": "Jumeirah Village Circle (JVC)",
@@ -17012,13 +15373,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Saadiyat Island",
-    "lat": 54.41647608031198,
-    "lng": 24.53203705983406,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Marina",
     "lat": 55.12583422226436,
     "lng": 25.07086073368966,
@@ -17029,13 +15383,6 @@
     "raw_area": "Jebel Ali",
     "lat": 55.078083,
     "lng": 24.954722,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.421155507923,
-    "lng": 24.483989113965,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17062,57 +15409,8 @@
   },
   {
     "raw_area": "Al Furjan",
-    "lat": 55.1386753144985,
-    "lng": 25.04002920178149,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Furjan",
-    "lat": 55.13917580542564,
-    "lng": 25.01811527778692,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.249077875361,
-    "lng": 25.109632840483,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Hills",
-    "lat": 55.1584109385105,
-    "lng": 25.07830412233643,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.205358,
-    "lng": 25.047063,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24803838967674,
-    "lng": 25.11463737480489,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Furjan",
     "lat": 55.136301571429,
     "lng": 25.028470571429,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jebel Ali",
-    "lat": 55.120643382328,
-    "lng": 25.03302053742,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17131,9 +15429,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Barari",
-    "lat": 55.322592942369,
-    "lng": 25.098237935585,
+    "raw_area": "Yas Island",
+    "lat": 54.63204072641346,
+    "lng": 24.49830477619465,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17141,13 +15439,6 @@
     "raw_area": "DAMAC Hills",
     "lat": 55.26253469849,
     "lng": 25.030358207096,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "The Views",
-    "lat": 55.1681081950665,
-    "lng": 25.0923907817098,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17181,99 +15472,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.252916100774,
-    "lng": 25.093067784933,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24724978474708,
-    "lng": 25.10850185706401,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arabian Ranches",
-    "lat": 55.255484989068,
-    "lng": 25.052695022356,
-    "matched_polygons": [
-      {
-        "area": "Laukeliai",
-        "osm_name": null,
-        "polygon_area": 0.0001212539281351065,
-        "polygon_centroid_lat": 55.25735982148922,
-        "polygon_centroid_lng": 25.059327131666944,
-        "bounds": {
-          "min_lng": 25.0504393,
-          "min_lat": 55.2459664,
-          "max_lng": 25.0720199,
-          "max_lat": 55.2628355
-        }
-      },
-      {
-        "area": "Žemaitkiemio seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0010260281346588433,
-        "polygon_centroid_lat": 55.29406039627309,
-        "polygon_centroid_lng": 24.976858956904085,
-        "bounds": {
-          "min_lng": 24.85249,
-          "min_lat": 55.2532608,
-          "max_lng": 25.1107404,
-          "max_lat": 55.3499924
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Laukeliai",
-    "selected_polygon_area": 0.0001212539281351065
-  },
-  {
-    "raw_area": "The Meadows",
-    "lat": 55.151990791493,
-    "lng": 25.068614507964,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Islands",
     "lat": 55.32249999977217,
     "lng": 25.30364859806481,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20571338970913,
-    "lng": 25.06924595914418,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Bluewaters Island",
-    "lat": 55.12429254817249,
-    "lng": 25.07387866178911,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.13742848655417,
-    "lng": 25.11630432874502,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17295,13 +15496,6 @@
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34841802556082,
     "lng": 25.20201339358486,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.14664348025735,
-    "lng": 25.07018305828622,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17354,16 +15548,9 @@
     "selected_polygon_area": 0.0029016897814893496
   },
   {
-    "raw_area": "Arabian Ranches 3",
-    "lat": 55.321632462668,
-    "lng": 25.065148945646,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Furjan",
-    "lat": 55.13917580542564,
-    "lng": 25.01811527778692,
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43752228299033,
+    "lng": 24.52195163448043,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17371,6 +15558,13 @@
     "raw_area": "Downtown Dubai",
     "lat": 55.2714513848,
     "lng": 25.19751058339483,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Production City (IMPZ)",
+    "lat": 55.19549296409494,
+    "lng": 25.03596484187541,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17580,399 +15774,72 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai South",
-    "lat": 55.13949410830633,
-    "lng": 24.83675104932472,
+    "raw_area": "Dubai Industrial City",
+    "lat": 55.04442196627173,
+    "lng": 24.87602214371032,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Jebel Ali",
-    "lat": 55.09345521802374,
-    "lng": 24.97878259422842,
+    "raw_area": "Dubai Sports City",
+    "lat": 55.21783766708344,
+    "lng": 25.04291428459256,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.14444146528524,
-    "lng": 25.06665212088598,
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27122202341866,
-    "lng": 25.19003277621214,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.32271326957836,
-    "lng": 25.30301218326463,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Wasl",
-    "lat": 55.24626025213314,
-    "lng": 25.18707651524467,
-    "matched_polygons": [
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      },
-      {
-        "area": "Molėtų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00808881682923085,
-        "polygon_centroid_lat": 55.2220184455941,
-        "polygon_centroid_lng": 25.33626883939265,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.030879,
-          "max_lng": 25.8003868,
-          "max_lat": 55.425939
-        }
-      }
-    ],
-    "selected_area": "Videniškių seniūnija",
-    "selected_polygon_area": 0.0035224060623665807
-  },
-  {
-    "raw_area": "Jebel Ali",
-    "lat": 55.09345521802374,
-    "lng": 24.97878259422842,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.144074,
-    "lng": 25.069954,
-    "matched_polygons": [
-      {
-        "area": "Zibalų seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013651936070034256,
-        "polygon_centroid_lat": 55.10710062950153,
-        "polygon_centroid_lng": 25.037588426293215,
-        "bounds": {
-          "min_lng": 24.8824243,
-          "min_lat": 55.0437055,
-          "max_lng": 25.1752988,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Širvintų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.005227494482663035,
-        "polygon_centroid_lat": 55.029116903542224,
-        "polygon_centroid_lng": 24.878821166400137,
-        "bounds": {
-          "min_lng": 24.552557889227096,
-          "min_lat": 54.860715415790146,
-          "max_lng": 25.2357971,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Zibalų seniūnija",
-    "selected_polygon_area": 0.0013651936070034256
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.32271326957836,
-    "lng": 25.30301218326463,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.11171799944759,
-    "lng": 25.1239609218123,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.26063981708646,
-    "lng": 25.12651093934177,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.26855871294833,
-    "lng": 25.18871082966993,
-    "matched_polygons": [
-      {
-        "area": "Ščiurys",
-        "osm_name": null,
-        "polygon_area": 3.10985402732607e-05,
-        "polygon_centroid_lat": 55.2740841774366,
-        "polygon_centroid_lng": 25.19179405395132,
-        "bounds": {
-          "min_lng": 25.1842494,
-          "min_lat": 55.2676525,
-          "max_lng": 25.2021378,
-          "max_lat": 55.2799158
-        }
-      }
-    ],
-    "selected_area": "Ščiurys",
-    "selected_polygon_area": 3.10985402732607e-05
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34692936751237,
-    "lng": 25.20647729687822,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.3496738741735,
-    "lng": 25.20172037330222,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.26147315546677,
-    "lng": 25.18346898188757,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.2505049137421,
-    "lng": 25.11513286848127,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.24603635013639,
-    "lng": 25.01858030908015,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.25260293101167,
-    "lng": 25.18058138072017,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.25228995627071,
-    "lng": 25.18138493838939,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.13871001173283,
-    "lng": 25.06166110632131,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Wasl",
-    "lat": 55.26020198797281,
-    "lng": 25.20310377544111,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Umm Suqeim",
-    "lat": 55.19154787119876,
-    "lng": 25.13243116354678,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Harbour",
-    "lat": 55.141881959433,
-    "lng": 25.100634251965,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.1440464954205,
-    "lng": 25.06609014899024,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Science Park",
-    "lat": 55.24638720115984,
-    "lng": 25.07106389688617,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Business Bay",
-    "lat": 55.266893,
-    "lng": 25.188306,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.14435933874646,
-    "lng": 25.0710358419409,
-    "matched_polygons": [
-      {
-        "area": "Zibalų seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0013651936070034256,
-        "polygon_centroid_lat": 55.10710062950153,
-        "polygon_centroid_lng": 25.037588426293215,
-        "bounds": {
-          "min_lng": 24.8824243,
-          "min_lat": 55.0437055,
-          "max_lng": 25.1752988,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Širvintų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.005227494482663035,
-        "polygon_centroid_lat": 55.029116903542224,
-        "polygon_centroid_lng": 24.878821166400137,
-        "bounds": {
-          "min_lng": 24.552557889227096,
-          "min_lat": 54.860715415790146,
-          "max_lng": 25.2357971,
-          "max_lat": 55.1598333
-        }
-      },
-      {
-        "area": "Želvos seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.005733247357810744,
-        "polygon_centroid_lat": 55.20744087777653,
-        "polygon_centroid_lng": 25.15516530539487,
-        "bounds": {
-          "min_lng": 25.0246597,
-          "min_lat": 55.126989,
-          "max_lng": 25.2674013,
-          "max_lat": 55.2673844
-        }
-      }
-    ],
-    "selected_area": "Zibalų seniūnija",
-    "selected_polygon_area": 0.0013651936070034256
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21738904,
-    "lng": 25.06573933,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20867203872908,
-    "lng": 25.0692047299446,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Marina",
-    "lat": 55.148014,
-    "lng": 25.089626,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.207289,
-    "lng": 25.068841,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.2518664049916,
-    "lng": 25.11065257736453,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.253988,
-    "lng": 25.013229,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.252833,
-    "lng": 25.016833,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills",
-    "lat": 55.25367774135772,
-    "lng": 25.01585068900395,
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
     "matched_polygons": [],
     "selected_area": null
   },
   {
     "raw_area": "Arjan",
-    "lat": 55.23225934,
-    "lng": 25.06383995,
+    "lat": 55.24691192405393,
+    "lng": 25.0648572459059,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39158206580245,
-    "lng": 24.98329335273748,
+    "raw_area": "Remraam",
+    "lat": 55.247536,
+    "lng": 25.005626,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "",
+    "lat": 55.38058184003702,
+    "lng": 25.09758246865806,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubailand",
+    "lat": 55.360343340986,
+    "lng": 25.074394178567,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubailand",
+    "lat": 55.346583675328,
+    "lng": 25.074668134461,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -17987,13 +15854,6 @@
     "raw_area": "Dubai Investment Park (DIP)",
     "lat": 55.20323239815436,
     "lng": 24.98854754730364,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "",
-    "lat": 55.38225982341243,
-    "lng": 25.08597554891856,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18131,58 +15991,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Arjan",
-    "lat": 55.238355,
-    "lng": 25.066145,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.235912994398,
-    "lng": 25.018505267483,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.235912994398,
-    "lng": 25.018505267483,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.170073484459,
-    "lng": 24.992777803585,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.3847514816974,
     "lng": 25.09303942228972,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.215224,
-    "lng": 25.044179,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20264,
-    "lng": 25.033442,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18201,30 +16012,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.215265,
-    "lng": 25.045345,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Haven by Aldar",
     "lat": 55.380473092615,
     "lng": 25.081661829816,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Reem",
-    "lat": 55.304550609238,
-    "lng": 25.009801270001,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.232672444002,
-    "lng": 24.977051073172,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18278,13 +16068,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Discovery Gardens",
-    "lat": 55.13586130731012,
-    "lng": 25.04414067696667,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Investment Park (DIP)",
     "lat": 55.175242664522,
     "lng": 24.989269339548,
@@ -18292,14 +16075,7 @@
     "selected_area": null
   },
   {
-    "raw_area": "Majan",
-    "lat": 55.3242658878363,
-    "lng": 25.09361304068619,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37280160190662,
     "lng": 25.0949189454839,
     "matched_polygons": [],
@@ -18334,40 +16110,11 @@
     "selected_area": null
   },
   {
-    "raw_area": "Zayed City",
-    "lat": 54.648328274352,
-    "lng": 24.403884636333,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Sobha Hartland",
     "lat": 55.302392694971,
     "lng": 25.17670707839,
     "matched_polygons": [],
     "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.222927,
-    "lng": 25.031979,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
   },
   {
     "raw_area": "Sobha Hartland",
@@ -18377,23 +16124,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.30559315604137,
-    "lng": 25.17986093716455,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.315094,
-    "lng": 25.094416,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Hudayriat Island",
     "lat": 54.383152269865,
     "lng": 24.408864927294,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Fahid Island",
+    "lat": 54.55880360833092,
+    "lng": 24.50909369859011,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18412,6 +16152,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Al Shamkha",
+    "lat": 54.676927104413,
+    "lng": 24.362299586873,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Arjan",
     "lat": 55.24086288686886,
     "lng": 25.0560808268967,
@@ -18426,9 +16173,30 @@
     "selected_area": null
   },
   {
+    "raw_area": "Al Hudayriat Island",
+    "lat": 54.40427216769976,
+    "lng": 24.40773109120444,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "International City",
     "lat": 55.39609035961442,
     "lng": 25.16714401827882,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14552,
+    "lng": 25.076601,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.145298,
+    "lng": 25.076279,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18496,116 +16264,6 @@
   },
   {
     "raw_area": "Yas Island",
-    "lat": 54.598522,
-    "lng": 24.460181,
-    "matched_polygons": [
-      {
-        "area": "Aukštadvario seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0029016897814893496,
-        "polygon_centroid_lat": 54.58409029156305,
-        "polygon_centroid_lng": 24.53886192473331,
-        "bounds": {
-          "min_lng": 24.4155001,
-          "min_lat": 54.5165995,
-          "max_lng": 24.701707645667472,
-          "max_lat": 54.6603635
-        }
-      },
-      {
-        "area": "Stakliškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0038654153236304598,
-        "polygon_centroid_lat": 54.58951048679733,
-        "polygon_centroid_lng": 24.336552502919,
-        "bounds": {
-          "min_lng": 24.2247194,
-          "min_lat": 54.5206371,
-          "max_lng": 24.4882331,
-          "max_lat": 54.679625934758235
-        }
-      },
-      {
-        "area": "Trakų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00545354602979951,
-        "polygon_centroid_lat": 54.53837308176002,
-        "polygon_centroid_lng": 24.729363654569138,
-        "bounds": {
-          "min_lng": 24.4043498,
-          "min_lat": 54.38924345330244,
-          "max_lng": 25.1695921,
-          "max_lat": 54.7383745
-        }
-      }
-    ],
-    "selected_area": "Aukštadvario seniūnija",
-    "selected_polygon_area": 0.0029016897814893496
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.598522,
-    "lng": 24.460181,
-    "matched_polygons": [
-      {
-        "area": "Aukštadvario seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0029016897814893496,
-        "polygon_centroid_lat": 54.58409029156305,
-        "polygon_centroid_lng": 24.53886192473331,
-        "bounds": {
-          "min_lng": 24.4155001,
-          "min_lat": 54.5165995,
-          "max_lng": 24.701707645667472,
-          "max_lat": 54.6603635
-        }
-      },
-      {
-        "area": "Stakliškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0038654153236304598,
-        "polygon_centroid_lat": 54.58951048679733,
-        "polygon_centroid_lng": 24.336552502919,
-        "bounds": {
-          "min_lng": 24.2247194,
-          "min_lat": 54.5206371,
-          "max_lng": 24.4882331,
-          "max_lat": 54.679625934758235
-        }
-      },
-      {
-        "area": "Trakų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00545354602979951,
-        "polygon_centroid_lat": 54.53837308176002,
-        "polygon_centroid_lng": 24.729363654569138,
-        "bounds": {
-          "min_lng": 24.4043498,
-          "min_lat": 54.38924345330244,
-          "max_lng": 25.1695921,
-          "max_lat": 54.7383745
-        }
-      }
-    ],
-    "selected_area": "Aukštadvario seniūnija",
-    "selected_polygon_area": 0.0029016897814893496
-  },
-  {
-    "raw_area": "Al Raha Beach",
-    "lat": 54.60209667959522,
-    "lng": 24.44785858373068,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Islands",
-    "lat": 55.327553433077,
-    "lng": 25.319077010622,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
     "lat": 54.599803,
     "lng": 24.484382,
     "matched_polygons": [],
@@ -18615,129 +16273,6 @@
     "raw_area": "DAMAC Lagoons",
     "lat": 55.246361534926,
     "lng": 25.009123191741,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.392677,
-    "lng": 24.492602,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Yas Island",
-    "lat": 54.61603593311,
-    "lng": 24.504541234442,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Saadiyat Island",
-    "lat": 54.40257610895733,
-    "lng": 24.53883728462387,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.408149,
-    "lng": 24.493246,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.225034282983,
-    "lng": 25.022272249505,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.225034282983,
-    "lng": 25.022272249505,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.225034282983,
-    "lng": 25.022272249505,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.225034282983,
-    "lng": 25.022272249505,
-    "matched_polygons": [
-      {
-        "area": "Butkūnai",
-        "osm_name": null,
-        "polygon_area": 0.000348426067649987,
-        "polygon_centroid_lat": 55.22292898641539,
-        "polygon_centroid_lng": 25.016600911949233,
-        "bounds": {
-          "min_lng": 24.9989015,
-          "min_lat": 55.2156088,
-          "max_lng": 25.0344032,
-          "max_lat": 55.2294177
-        }
-      }
-    ],
-    "selected_area": "Butkūnai",
-    "selected_polygon_area": 0.000348426067649987
-  },
-  {
-    "raw_area": "Al Reem Island",
-    "lat": 54.404165,
-    "lng": 24.499773,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18790,13 +16325,6 @@
     "selected_polygon_area": 0.0035224060623665807
   },
   {
-    "raw_area": "Saadiyat Island",
-    "lat": 54.444338431491,
-    "lng": 24.519648299353,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Yas Island",
     "lat": 54.612382714768,
     "lng": 24.507217082218,
@@ -18825,70 +16353,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "The Villa",
-    "lat": 55.362073382598,
-    "lng": 25.087626942553,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Kurklių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0019324807979947446,
-        "polygon_centroid_lat": 55.40712677314661,
-        "polygon_centroid_lng": 25.066435076860298,
-        "bounds": {
-          "min_lng": 24.965992,
-          "min_lat": 55.3058477,
-          "max_lng": 25.2018752,
-          "max_lat": 55.470043
-        }
-      },
-      {
-        "area": "Molėtų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00808881682923085,
-        "polygon_centroid_lat": 55.2220184455941,
-        "polygon_centroid_lng": 25.33626883939265,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.030879,
-          "max_lng": 25.8003868,
-          "max_lat": 55.425939
-        }
-      },
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Mudon",
-    "lat": 55.264632584682,
-    "lng": 25.017845991839,
+    "raw_area": "International City",
+    "lat": 55.40221467919,
+    "lng": 25.15726826383,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18914,51 +16381,16 @@
     "selected_area": null
   },
   {
-    "raw_area": "City of Arabia",
-    "lat": 55.33225,
-    "lng": 25.086389,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "",
-    "lat": 55.37550054285117,
-    "lng": 25.09153015875824,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.22847907475935,
-    "lng": 25.04824532597208,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.393395594397,
-    "lng": 24.987104834855,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.3247678843471,
-    "lng": 25.17632363941991,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Dubai Studio City",
     "lat": 55.23575860068227,
     "lng": 25.03562988789544,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Arjan",
+    "lat": 55.232812,
+    "lng": 25.056678,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -18977,25 +16409,33 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
     "lat": 55.386862621076,
     "lng": 24.983187450139,
     "matched_polygons": [],
     "selected_area": null
+  },
+  {
+    "raw_area": "Al Ghafia",
+    "lat": 55.4375991821289,
+    "lng": 25.3754997253418,
+    "matched_polygons": [
+      {
+        "area": "Anykščiai District Municipality",
+        "osm_name": null,
+        "polygon_area": 0.009336926095543435,
+        "polygon_centroid_lat": 55.57662221704922,
+        "polygon_centroid_lng": 25.015986089966614,
+        "bounds": {
+          "min_lng": 24.653144131791166,
+          "min_lat": 55.3058477,
+          "max_lng": 25.5191985,
+          "max_lat": 55.761648
+        }
+      }
+    ],
+    "selected_area": "Anykščiai District Municipality",
+    "selected_polygon_area": 0.009336926095543435
   },
   {
     "raw_area": "Muwaileh",
@@ -19180,51 +16620,9 @@
     "selected_area": null
   },
   {
-    "raw_area": "Mina Al Arab",
-    "lat": 55.82921714127,
-    "lng": 25.712537504622,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Helio",
     "lat": 55.595150565966,
     "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Seanneeah",
-    "lat": 55.63072859948431,
-    "lng": 25.60639240600426,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "RAK Central",
-    "lat": 55.79607260034378,
-    "lng": 25.69036968871827,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Marjan Island",
-    "lat": 55.73604179876774,
-    "lng": 25.68709749816998,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Mowaihat",
-    "lat": 55.491085,
-    "lng": 25.36688,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19239,20 +16637,6 @@
     "raw_area": "Al Rashidiya",
     "lat": 55.46866111763337,
     "lng": 25.39185098122245,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19267,13 +16651,6 @@
     "raw_area": "Emirates City",
     "lat": 55.578203,
     "lng": 25.394552,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19377,13 +16754,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Muwaileh Commercial",
-    "lat": 55.4578018188477,
-    "lng": 25.2984008789062,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Rashidiya",
     "lat": 55.458126,
     "lng": 25.392367,
@@ -19419,35 +16789,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Nuaimiya",
-    "lat": 55.46182152214548,
-    "lng": 25.38595009646532,
-    "matched_polygons": [
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Anykščiai District Municipality",
-    "selected_polygon_area": 0.009336926095543435
-  },
-  {
-    "raw_area": "Al Manama",
-    "lat": 55.995941,
-    "lng": 25.331336,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Helio",
     "lat": 55.595150565966,
     "lng": 25.390655392167,
@@ -19469,27 +16810,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Al Nuaimiya",
-    "lat": 55.435697,
-    "lng": 25.39052,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.5713005065917,
-    "lng": 25.3784999847412,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Khan",
-    "lat": 55.360937,
-    "lng": 25.332545,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Yasmeen",
     "lat": 55.5713005065917,
     "lng": 25.3784999847412,
@@ -19500,34 +16820,6 @@
     "raw_area": "Al Yasmeen",
     "lat": 55.5713005065917,
     "lng": 25.3784999847412,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.5713005065917,
-    "lng": 25.3784999847412,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Corniche Ajman",
-    "lat": 55.430433,
-    "lng": 25.404942,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Ajmal Makan City - Sharjah Waterfront",
-    "lat": 55.532108,
-    "lng": 25.500872,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rashidiya",
-    "lat": 55.430576532835,
-    "lng": 25.395069728899,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19535,49 +16827,6 @@
     "raw_area": "Al Alia",
     "lat": 55.56962,
     "lng": 25.400288,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Ghafia",
-    "lat": 55.4375991821289,
-    "lng": 25.3754997253418,
-    "matched_polygons": [
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Anykščiai District Municipality",
-    "selected_polygon_area": 0.009336926095543435
-  },
-  {
-    "raw_area": "Al Rashidiya",
-    "lat": 55.42955556515316,
-    "lng": 25.39485084930585,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19610,20 +16859,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Ajmal Makan City - Sharjah Waterfront",
-    "lat": 55.532108,
-    "lng": 25.500872,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Tai",
     "lat": 55.589099,
     "lng": 25.24546,
@@ -19638,27 +16873,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "Hoshi",
-    "lat": 55.542508226666,
-    "lng": 25.263492184226,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Hoshi",
-    "lat": 55.542508226666,
-    "lng": 25.263492184226,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Ajmal Makan City - Sharjah Waterfront",
     "lat": 55.532108,
     "lng": 25.500872,
@@ -19669,20 +16883,6 @@
     "raw_area": "Al Bustan",
     "lat": 55.451093,
     "lng": 25.404653,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Old Town Area",
-    "lat": 55.57026115916266,
-    "lng": 25.59314843896267,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Fisht",
-    "lat": 55.401292,
-    "lng": 25.37947,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -19736,13 +16936,6 @@
     "selected_area": null
   },
   {
-    "raw_area": "",
-    "lat": 55.521536,
-    "lng": 25.503092,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
     "raw_area": "Al Bustan",
     "lat": 55.451093,
     "lng": 25.404653,
@@ -19784,6 +16977,335 @@
     ],
     "selected_area": "Anykščiai District Municipality",
     "selected_polygon_area": 0.009336926095543435
+  },
+  {
+    "raw_area": "Emirates City",
+    "lat": 55.57343220046565,
+    "lng": 25.38976465695946,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41249758311852,
+    "lng": 24.53725127400562,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Yas Island",
+    "lat": 54.60906280827507,
+    "lng": 24.46004716168622,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43898436212852,
+    "lng": 24.53890378329439,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.444338431491,
+    "lng": 24.519648299353,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41276210061215,
+    "lng": 24.53788760319861,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.1367988586426,
+    "lng": 25.0739994049072,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.14145272680676,
+    "lng": 25.08296934748297,
+    "matched_polygons": [
+      {
+        "area": "Zibalų seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0013651936070034256,
+        "polygon_centroid_lat": 55.10710062950153,
+        "polygon_centroid_lng": 25.037588426293215,
+        "bounds": {
+          "min_lng": 24.8824243,
+          "min_lat": 55.0437055,
+          "max_lng": 25.1752988,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Širvintų rajono savivaldybė",
+        "osm_name": null,
+        "polygon_area": 0.005227494482663035,
+        "polygon_centroid_lat": 55.029116903542224,
+        "polygon_centroid_lng": 24.878821166400137,
+        "bounds": {
+          "min_lng": 24.552557889227096,
+          "min_lat": 54.860715415790146,
+          "max_lng": 25.2357971,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Zibalų seniūnija",
+    "selected_polygon_area": 0.0013651936070034256
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21284505060012,
+    "lng": 25.05323237196717,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.078083,
+    "lng": 24.954722,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.089306,
+    "lng": 24.970806,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.09211357111146,
+    "lng": 24.97845819621965,
+    "matched_polygons": [
+      {
+        "area": "Zibalai",
+        "osm_name": null,
+        "polygon_area": 0.0002642811814252304,
+        "polygon_centroid_lat": 55.087098546538854,
+        "polygon_centroid_lng": 24.98633318734239,
+        "bounds": {
+          "min_lng": 24.966141,
+          "min_lat": 55.0707568,
+          "max_lng": 25.0048909,
+          "max_lat": 55.0976232
+        }
+      }
+    ],
+    "selected_area": "Zibalai",
+    "selected_polygon_area": 0.0002642811814252304
+  },
+  {
+    "raw_area": "Yas Island",
+    "lat": 54.624794224178,
+    "lng": 24.504932944677,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai South",
+    "lat": 55.22422756420862,
+    "lng": 24.93712082721595,
+    "matched_polygons": [
+      {
+        "area": "Lyduokių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0013649913569686125,
+        "polygon_centroid_lat": 55.247179531697526,
+        "polygon_centroid_lng": 24.900298056374623,
+        "bounds": {
+          "min_lng": 24.7936797,
+          "min_lat": 55.2160269,
+          "max_lng": 25.02612475300708,
+          "max_lat": 55.2975574
+        }
+      },
+      {
+        "area": "Šešuolių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.00341776330703227,
+        "polygon_centroid_lat": 55.190551889093065,
+        "polygon_centroid_lng": 24.993898614369858,
+        "bounds": {
+          "min_lng": 24.8862263,
+          "min_lat": 55.1166789,
+          "max_lng": 25.1023555,
+          "max_lat": 55.260798092723725
+        }
+      }
+    ],
+    "selected_area": "Lyduokių seniūnija",
+    "selected_polygon_area": 0.0013649913569686125
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.089306,
+    "lng": 24.970806,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21284505060012,
+    "lng": 25.05323237196717,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 55.13662385731314,
+    "lng": 25.11266681107747,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Raha Beach",
+    "lat": 55.228016,
+    "lng": 25.04457,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14095363290596,
+    "lng": 25.0635993500747,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14095363290596,
+    "lng": 25.0635993500747,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.27372564556487,
+    "lng": 25.18195386425001,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.40514716557482,
+    "lng": 24.49673867098242,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Mudon",
+    "lat": 55.264471578425,
+    "lng": 25.021236224569,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.392716,
+    "lng": 24.491938,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.394546,
+    "lng": 24.489662,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Al Reem Island",
@@ -20712,6 +18234,27 @@
     "selected_area": null
   },
   {
+    "raw_area": "Dubai South",
+    "lat": 55.13949410830633,
+    "lng": 24.83675104932472,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.09345521802374,
+    "lng": 24.97878259422842,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14444146528524,
+    "lng": 25.06665212088598,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Downtown Dubai",
     "lat": 55.27122202341866,
     "lng": 25.19003277621214,
@@ -20719,9 +18262,364 @@
     "selected_area": null
   },
   {
+    "raw_area": "Dubai Islands",
+    "lat": 55.32271326957836,
+    "lng": 25.30301218326463,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Wasl",
+    "lat": 55.24626025213314,
+    "lng": 25.18707651524467,
+    "matched_polygons": [
+      {
+        "area": "Videniškių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0035224060623665807,
+        "polygon_centroid_lat": 55.226784950020644,
+        "polygon_centroid_lng": 25.217313584742506,
+        "bounds": {
+          "min_lng": 25.157179,
+          "min_lat": 55.1808189,
+          "max_lng": 25.344215,
+          "max_lat": 55.2795475
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      },
+      {
+        "area": "Molėtų rajono savivaldybė",
+        "osm_name": null,
+        "polygon_area": 0.00808881682923085,
+        "polygon_centroid_lat": 55.2220184455941,
+        "polygon_centroid_lng": 25.33626883939265,
+        "bounds": {
+          "min_lng": 25.0689817,
+          "min_lat": 55.030879,
+          "max_lng": 25.8003868,
+          "max_lat": 55.425939
+        }
+      }
+    ],
+    "selected_area": "Videniškių seniūnija",
+    "selected_polygon_area": 0.0035224060623665807
+  },
+  {
+    "raw_area": "Jebel Ali",
+    "lat": 55.09345521802374,
+    "lng": 24.97878259422842,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.144074,
+    "lng": 25.069954,
+    "matched_polygons": [
+      {
+        "area": "Zibalų seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0013651936070034256,
+        "polygon_centroid_lat": 55.10710062950153,
+        "polygon_centroid_lng": 25.037588426293215,
+        "bounds": {
+          "min_lng": 24.8824243,
+          "min_lat": 55.0437055,
+          "max_lng": 25.1752988,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Širvintų rajono savivaldybė",
+        "osm_name": null,
+        "polygon_area": 0.005227494482663035,
+        "polygon_centroid_lat": 55.029116903542224,
+        "polygon_centroid_lng": 24.878821166400137,
+        "bounds": {
+          "min_lng": 24.552557889227096,
+          "min_lat": 54.860715415790146,
+          "max_lng": 25.2357971,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Zibalų seniūnija",
+    "selected_polygon_area": 0.0013651936070034256
+  },
+  {
+    "raw_area": "Dubai Islands",
+    "lat": 55.32271326957836,
+    "lng": 25.30301218326463,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Palm Jumeirah",
+    "lat": 55.11171799944759,
+    "lng": 25.1239609218123,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Dubai Hills Estate",
-    "lat": 55.25145989,
-    "lng": 25.11178535,
+    "lat": 55.26063981708646,
+    "lng": 25.12651093934177,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.26855871294833,
+    "lng": 25.18871082966993,
+    "matched_polygons": [
+      {
+        "area": "Ščiurys",
+        "osm_name": null,
+        "polygon_area": 3.10985402732607e-05,
+        "polygon_centroid_lat": 55.2740841774366,
+        "polygon_centroid_lng": 25.19179405395132,
+        "bounds": {
+          "min_lng": 25.1842494,
+          "min_lat": 55.2676525,
+          "max_lng": 25.2021378,
+          "max_lat": 55.2799158
+        }
+      }
+    ],
+    "selected_area": "Ščiurys",
+    "selected_polygon_area": 3.10985402732607e-05
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.34692936751237,
+    "lng": 25.20647729687822,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.3496738741735,
+    "lng": 25.20172037330222,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.26147315546677,
+    "lng": 25.18346898188757,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.2505049137421,
+    "lng": 25.11513286848127,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.24603635013639,
+    "lng": 25.01858030908015,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.25260293101167,
+    "lng": 25.18058138072017,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.25228995627071,
+    "lng": 25.18138493838939,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.13871001173283,
+    "lng": 25.06166110632131,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Wasl",
+    "lat": 55.26020198797281,
+    "lng": 25.20310377544111,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Umm Suqeim",
+    "lat": 55.19154787119876,
+    "lng": 25.13243116354678,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Harbour",
+    "lat": 55.141881959433,
+    "lng": 25.100634251965,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.1440464954205,
+    "lng": 25.06609014899024,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Science Park",
+    "lat": 55.24638720115984,
+    "lng": 25.07106389688617,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.266893,
+    "lng": 25.188306,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14435933874646,
+    "lng": 25.0710358419409,
+    "matched_polygons": [
+      {
+        "area": "Zibalų seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0013651936070034256,
+        "polygon_centroid_lat": 55.10710062950153,
+        "polygon_centroid_lng": 25.037588426293215,
+        "bounds": {
+          "min_lng": 24.8824243,
+          "min_lat": 55.0437055,
+          "max_lng": 25.1752988,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Širvintų rajono savivaldybė",
+        "osm_name": null,
+        "polygon_area": 0.005227494482663035,
+        "polygon_centroid_lat": 55.029116903542224,
+        "polygon_centroid_lng": 24.878821166400137,
+        "bounds": {
+          "min_lng": 24.552557889227096,
+          "min_lat": 54.860715415790146,
+          "max_lng": 25.2357971,
+          "max_lat": 55.1598333
+        }
+      },
+      {
+        "area": "Želvos seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.005733247357810744,
+        "polygon_centroid_lat": 55.20744087777653,
+        "polygon_centroid_lng": 25.15516530539487,
+        "bounds": {
+          "min_lng": 25.0246597,
+          "min_lat": 55.126989,
+          "max_lng": 25.2674013,
+          "max_lat": 55.2673844
+        }
+      }
+    ],
+    "selected_area": "Zibalų seniūnija",
+    "selected_polygon_area": 0.0013651936070034256
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.20867203872908,
+    "lng": 25.0692047299446,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.148014,
+    "lng": 25.089626,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.207289,
+    "lng": 25.068841,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.2518664049916,
+    "lng": 25.11065257736453,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.253988,
+    "lng": 25.013229,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.252833,
+    "lng": 25.016833,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.25367774135772,
+    "lng": 25.01585068900395,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Downtown Dubai",
+    "lat": 55.27122202341866,
+    "lng": 25.19003277621214,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -20729,13 +18627,6 @@
     "raw_area": "Za'abeel",
     "lat": 55.29369437451894,
     "lng": 25.22526214640345,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.153963,
-    "lng": 25.079233,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -26217,6 +24108,42 @@
     "selected_area": null
   },
   {
+    "raw_area": "Al Reef",
+    "lat": 54.6725535348636,
+    "lng": 24.45462464327142,
+    "matched_polygons": [
+      {
+        "area": "Žydiškės",
+        "osm_name": null,
+        "polygon_area": 8.184592441152212e-05,
+        "polygon_centroid_lat": 54.66441121855817,
+        "polygon_centroid_lng": 24.454712764191257,
+        "bounds": {
+          "min_lng": 24.4403154,
+          "min_lat": 54.6510941,
+          "max_lng": 24.4714963,
+          "max_lat": 54.6782075
+        }
+      }
+    ],
+    "selected_area": "Žydiškės",
+    "selected_polygon_area": 8.184592441152212e-05
+  },
+  {
+    "raw_area": "Al Furjan",
+    "lat": 55.13917580542564,
+    "lng": 25.01811527778692,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.135092,
+    "lng": 25.075712,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Business Bay",
     "lat": 55.27613890289321,
     "lng": 25.18090787704509,
@@ -27810,6 +25737,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Mohammed Bin Rashid City (MBR City)",
+    "lat": 55.2840402202628,
+    "lng": 25.14362200427396,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Mina Rashid",
     "lat": 55.287917,
     "lng": 25.270278,
@@ -27838,6 +25772,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.18613115,
+    "lng": 25.04127772,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Mina Rashid",
     "lat": 55.287917,
     "lng": 25.270278,
@@ -27848,6 +25789,13 @@
     "raw_area": "Jumeirah Village Triangle (JVT)",
     "lat": 55.18770439730747,
     "lng": 25.04239510791329,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Business Bay",
+    "lat": 55.273444,
+    "lng": 25.1765,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -27939,13 +25887,6 @@
     "raw_area": "Al Reem Island",
     "lat": 54.394113,
     "lng": 24.492201,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34779523454176,
-    "lng": 25.2054459232027,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -28143,6 +26084,20 @@
     "raw_area": "Jumeirah Village Circle (JVC)",
     "lat": 55.21743632151745,
     "lng": 25.06086551305016,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Downtown Dubai",
+    "lat": 55.27249623922484,
+    "lng": 25.1895468520721,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.408722,
+    "lng": 24.496028,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -28465,13 +26420,6 @@
     "raw_area": "Jumeirah Lake Towers (JLT)",
     "lat": 55.14444146528524,
     "lng": 25.06665212088598,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.346275,
-    "lng": 25.210124,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -28992,6 +26940,13 @@
     "selected_polygon_area": 0.00341776330703227
   },
   {
+    "raw_area": "Al Reem Island",
+    "lat": 54.392677,
+    "lng": 24.492602,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Jumeirah Village Triangle (JVT)",
     "lat": 55.18567542287587,
     "lng": 25.04103194366342,
@@ -29063,6 +27018,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Al Reem Island",
+    "lat": 54.406962,
+    "lng": 24.495999,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Jumeirah Village Circle (JVC)",
     "lat": 55.19874619218332,
     "lng": 25.05447408538393,
@@ -29115,6 +27077,13 @@
     "raw_area": "Yas Island",
     "lat": 54.61603593311,
     "lng": 24.504541234442,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Raha Beach",
+    "lat": 54.605983,
+    "lng": 24.449616,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -29261,6 +27230,13 @@
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34462779918985,
     "lng": 25.204346660306,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Maryah Island",
+    "lat": 54.38790322104203,
+    "lng": 24.49478778703113,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -30113,6 +28089,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41782082829545,
+    "lng": 24.53203158605154,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Dubai Marina",
     "lat": 55.148014,
     "lng": 25.089626,
@@ -30167,6 +28150,20 @@
     ],
     "selected_area": "Lyduokių seniūnija",
     "selected_polygon_area": 0.0013649913569686125
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43668693192254,
+    "lng": 24.52112746273463,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Raha Beach",
+    "lat": 54.597134869181,
+    "lng": 24.44902205862853,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Yas Island",
@@ -30270,6 +28267,13 @@
     "raw_area": "Business Bay",
     "lat": 55.2710643410137,
     "lng": 25.1771353283893,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43752228299033,
+    "lng": 24.52195163448043,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -30627,6 +28631,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Al Reem Island",
+    "lat": 54.4078495208797,
+    "lng": 24.51098596928264,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Jumeirah Village Triangle (JVT)",
     "lat": 55.17862999750935,
     "lng": 25.03670039295583,
@@ -30644,6 +28655,20 @@
     "raw_area": "Dubai South",
     "lat": 55.1431109276633,
     "lng": 24.83882538640148,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.394735,
+    "lng": 24.49193,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.41531451242079,
+    "lng": 24.50415941121266,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -30885,6 +28910,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21563962952035,
+    "lng": 25.04967033729282,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Business Bay",
     "lat": 55.27372564556487,
     "lng": 25.18195386425001,
@@ -31036,6 +29068,13 @@
     "raw_area": "Dubai Islands",
     "lat": 55.297417,
     "lng": 25.288639,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Umm Suqeim",
+    "lat": 55.19588229014532,
+    "lng": 25.13027746115067,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -31951,6 +29990,41 @@
     "selected_area": null
   },
   {
+    "raw_area": "The Valley by Emaar",
+    "lat": 55.451125867302,
+    "lng": 25.003481695614,
+    "matched_polygons": [
+      {
+        "area": "Kurklių seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.0019324807979947446,
+        "polygon_centroid_lat": 55.40712677314661,
+        "polygon_centroid_lng": 25.066435076860298,
+        "bounds": {
+          "min_lng": 24.965992,
+          "min_lat": 55.3058477,
+          "max_lng": 25.2018752,
+          "max_lat": 55.470043
+        }
+      },
+      {
+        "area": "Kavarsko seniūnija",
+        "osm_name": null,
+        "polygon_area": 0.003318192316413332,
+        "polygon_centroid_lat": 55.47053191438743,
+        "polygon_centroid_lng": 24.881513493127787,
+        "bounds": {
+          "min_lng": 24.775262363123836,
+          "min_lat": 55.3399373,
+          "max_lng": 25.0678128,
+          "max_lat": 55.5559213
+        }
+      }
+    ],
+    "selected_area": "Kurklių seniūnija",
+    "selected_polygon_area": 0.0019324807979947446
+  },
+  {
     "raw_area": "Dubai Science Park",
     "lat": 55.24759004532095,
     "lng": 25.06946276957106,
@@ -32124,13 +30198,6 @@
     ],
     "selected_area": "Lyduokių seniūnija",
     "selected_polygon_area": 0.0013649913569686125
-  },
-  {
-    "raw_area": "Bluewaters Island",
-    "lat": 55.12430538683333,
-    "lng": 25.07390434797496,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Village Triangle (JVT)",
@@ -32606,6 +30673,20 @@
     ],
     "selected_area": "Pumpučiai",
     "selected_polygon_area": 0.0006941710524800158
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.211032,
+    "lng": 25.066313,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.211032,
+    "lng": 25.066313,
+    "matched_polygons": [],
+    "selected_area": null
   },
   {
     "raw_area": "Jumeirah Lake Towers (JLT)",
@@ -33250,13 +31331,6 @@
     ],
     "selected_area": "Šešuolių seniūnija",
     "selected_polygon_area": 0.00341776330703227
-  },
-  {
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21363963804825,
-    "lng": 25.05909840268393,
-    "matched_polygons": [],
-    "selected_area": null
   },
   {
     "raw_area": "Mohammed Bin Rashid City (MBR City)",
@@ -33930,6 +32004,13 @@
     "selected_area": null
   },
   {
+    "raw_area": "Dubai Marina",
+    "lat": 55.138468,
+    "lng": 25.075303,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Jumeirah Village Circle (JVC)",
     "lat": 55.2158768252155,
     "lng": 25.05148793860586,
@@ -34143,6 +32224,13 @@
     "raw_area": "Umm Suqeim",
     "lat": 55.19301670707935,
     "lng": 25.13014715293238,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.249609626157,
+    "lng": 25.027452045255,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -34481,6 +32569,13 @@
     "raw_area": "Jumeirah Lake Towers (JLT)",
     "lat": 55.146824,
     "lng": 25.077198,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "DAMAC Hills",
+    "lat": 55.25964090438,
+    "lng": 25.018738355403,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -34981,6 +33076,34 @@
     "selected_area": null
   },
   {
+    "raw_area": "Dubai South",
+    "lat": 55.210602099319,
+    "lng": 24.944794222929,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Harbour",
+    "lat": 55.139725,
+    "lng": 25.09841,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Al Reem Island",
+    "lat": 54.39330818495795,
+    "lng": 24.4943110433925,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Dubai Marina",
+    "lat": 55.133048,
+    "lng": 25.070527,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
     "raw_area": "Palm Jumeirah",
     "lat": 55.10995647481663,
     "lng": 25.11581368891743,
@@ -35381,1028 +33504,58 @@
     "selected_area": null
   },
   {
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
+    "raw_area": "Dubai Islands",
+    "lat": 55.3139021304678,
+    "lng": 25.30001994114242,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Al Hudayriat Island",
-    "lat": 54.392959345387,
-    "lng": 24.411111936737,
+    "raw_area": "Dubai Islands",
+    "lat": 55.3139021304678,
+    "lng": 25.30001994114242,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.2697948671625,
-    "lng": 25.26347620168107,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Culture Village (Jaddaf Waterfront)",
-    "lat": 55.336114776132,
-    "lng": 25.227857246902,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.1884580814033,
-    "lng": 25.03810566737243,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "International City",
-    "lat": 55.401556,
-    "lng": 25.144556,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.27052145367097,
-    "lng": 25.26749668533239,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Living Legends",
-    "lat": 55.303974,
-    "lng": 25.089646,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Rawda",
-    "lat": 54.614714411344,
-    "lng": 24.431173622625,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3739780926856,
-    "lng": 25.09833825777163,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Zayed City",
-    "lat": 54.633209077221,
-    "lng": 24.40374094849,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17991994445,
-    "lng": 24.99156038205,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.22710859448492,
-    "lng": 25.04584967063537,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3126941018505,
-    "lng": 25.17602661455947,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.1884580814033,
-    "lng": 25.03810566737243,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.32463661973391,
-    "lng": 25.17614742122095,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.22710859448492,
-    "lng": 25.04584967063537,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.219939,
-    "lng": 25.038871,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.381152,
-    "lng": 25.084708,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sheikh Zayed Road",
-    "lat": 55.271303,
-    "lng": 25.207675,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Living Legends",
-    "lat": 55.303974,
-    "lng": 25.089646,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.35491791331,
-    "lng": 25.074727676105,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.26941064649625,
-    "lng": 25.27050299860879,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Reem",
-    "lat": 55.296553635427,
-    "lng": 25.01213717008,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.174721703113,
-    "lng": 24.989793561311,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.31499524,
-    "lng": 25.08567598,
-    "matched_polygons": [
-      {
-        "area": "Kibildžiai",
-        "osm_name": null,
-        "polygon_area": 9.595743449014712e-05,
-        "polygon_centroid_lat": 55.312063313289094,
-        "polygon_centroid_lng": 25.09610596708041,
-        "bounds": {
-          "min_lng": 25.081079,
-          "min_lat": 55.3051362,
-          "max_lng": 25.1212263,
-          "max_lat": 55.3184257
-        }
-      }
-    ],
-    "selected_area": "Kibildžiai",
-    "selected_polygon_area": 9.595743449014712e-05
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.24086288686886,
-    "lng": 25.0560808268967,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.382444,
-    "lng": 25.095167,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.280464055982,
-    "lng": 25.011678585822,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.29132933348456,
-    "lng": 25.00488203951133,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228917,
-    "lng": 25.04725,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3126941018505,
-    "lng": 25.17602661455947,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.202147,
-    "lng": 25.033668,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.178460273689,
-    "lng": 24.9895138505,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubailand",
-    "lat": 55.28581085316861,
-    "lng": 25.04199837091419,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.231222,
-    "lng": 25.062944,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.231222,
-    "lng": 25.062944,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Studio City",
-    "lat": 55.23759728341432,
-    "lng": 25.02841759882834,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.176382615165,
-    "lng": 24.988316754366,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.171921,
-    "lng": 24.990092,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.216191,
-    "lng": 25.043877,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.37767668626245,
-    "lng": 25.09671099210168,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Living Legends",
-    "lat": 55.302014,
-    "lng": 25.080817,
-    "matched_polygons": [
-      {
-        "area": "Žemaitkiemio seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0010260281346588433,
-        "polygon_centroid_lat": 55.29406039627309,
-        "polygon_centroid_lng": 24.976858956904085,
-        "bounds": {
-          "min_lng": 24.85249,
-          "min_lat": 55.2532608,
-          "max_lng": 25.1107404,
-          "max_lat": 55.3499924
-        }
-      },
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Molėtų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00808881682923085,
-        "polygon_centroid_lat": 55.2220184455941,
-        "polygon_centroid_lng": 25.33626883939265,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.030879,
-          "max_lng": 25.8003868,
-          "max_lat": 55.425939
-        }
-      }
-    ],
-    "selected_area": "Žemaitkiemio seniūnija",
-    "selected_polygon_area": 0.0010260281346588433
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.16994885916,
-    "lng": 24.990953276443,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.204142,
-    "lng": 25.037646,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.204142,
-    "lng": 25.037646,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.29964103190122,
-    "lng": 24.99766009726699,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Al Jaddaf",
-    "lat": 55.31446893431971,
-    "lng": 25.21225273501759,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17628667693496,
-    "lng": 24.99474155262661,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380444,
-    "lng": 25.086639,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Arjan",
-    "lat": 55.23330826014649,
-    "lng": 25.06405851745434,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Sports City",
-    "lat": 55.21906255254699,
-    "lng": 25.03994023781563,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17552441068,
-    "lng": 24.988405351565,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.175242664522,
-    "lng": 24.989269339548,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.2861742781123,
-    "lng": 25.00571829736806,
-    "matched_polygons": [
-      {
-        "area": "Valai",
-        "osm_name": null,
-        "polygon_area": 0.000416612094992987,
-        "polygon_centroid_lat": 55.28105401447631,
-        "polygon_centroid_lng": 25.020228156106967,
-        "bounds": {
-          "min_lng": 24.9834181,
-          "min_lat": 55.2646884,
-          "max_lng": 25.0416183,
-          "max_lat": 55.2916141
-        }
-      }
-    ],
-    "selected_area": "Valai",
-    "selected_polygon_area": 0.000416612094992987
-  },
-  {
-    "raw_area": "Meydan",
-    "lat": 55.31877045015,
-    "lng": 25.162089004672,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Meydan",
-    "lat": 55.31877045015,
-    "lng": 25.162089004672,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.24818287705617,
-    "lng": 25.04911422201722,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.202147,
-    "lng": 25.033668,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.26856094459282,
-    "lng": 25.27188288714804,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Al Jaddaf",
-    "lat": 55.32927585,
-    "lng": 25.21458132,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.295345,
-    "lng": 25.005782,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3797091704638,
-    "lng": 25.0962712669174,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "City of Arabia",
-    "lat": 55.33195908630545,
-    "lng": 25.08692076806398,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Living Legends",
-    "lat": 55.302014,
-    "lng": 25.080817,
-    "matched_polygons": [
-      {
-        "area": "Žemaitkiemio seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0010260281346588433,
-        "polygon_centroid_lat": 55.29406039627309,
-        "polygon_centroid_lng": 24.976858956904085,
-        "bounds": {
-          "min_lng": 24.85249,
-          "min_lat": 55.2532608,
-          "max_lng": 25.1107404,
-          "max_lat": 55.3499924
-        }
-      },
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Molėtų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00808881682923085,
-        "polygon_centroid_lat": 55.2220184455941,
-        "polygon_centroid_lng": 25.33626883939265,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.030879,
-          "max_lng": 25.8003868,
-          "max_lat": 55.425939
-        }
-      }
-    ],
-    "selected_area": "Žemaitkiemio seniūnija",
-    "selected_polygon_area": 0.0010260281346588433
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Zayed City",
-    "lat": 54.633209077221,
-    "lng": 24.40374094849,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.29722338947641,
-    "lng": 24.99816512528965,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Town Square",
-    "lat": 55.29016323683356,
-    "lng": 25.00403030177826,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3359087232827,
-    "lng": 25.18432895927254,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Sobha Hartland",
-    "lat": 55.31033471344952,
-    "lng": 25.17519478044186,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Wasl Gate",
-    "lat": 55.107222,
-    "lng": 25.020556,
-    "matched_polygons": [],
-    "selected_area": null
-  },
-  {
-    "raw_area": "Majan",
-    "lat": 55.317611,
-    "lng": 25.088972,
-    "matched_polygons": [
-      {
-        "area": "Kibildžiai",
-        "osm_name": null,
-        "polygon_area": 9.595743449014712e-05,
-        "polygon_centroid_lat": 55.312063313289094,
-        "polygon_centroid_lng": 25.09610596708041,
-        "bounds": {
-          "min_lng": 25.081079,
-          "min_lat": 55.3051362,
-          "max_lng": 25.1212263,
-          "max_lat": 55.3184257
-        }
-      },
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Kurklių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0019324807979947446,
-        "polygon_centroid_lat": 55.40712677314661,
-        "polygon_centroid_lng": 25.066435076860298,
-        "bounds": {
-          "min_lng": 24.965992,
-          "min_lat": 55.3058477,
-          "max_lng": 25.2018752,
-          "max_lat": 55.470043
-        }
-      },
-      {
-        "area": "Molėtų rajono savivaldybė",
-        "osm_name": null,
-        "polygon_area": 0.00808881682923085,
-        "polygon_centroid_lat": 55.2220184455941,
-        "polygon_centroid_lng": 25.33626883939265,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.030879,
-          "max_lng": 25.8003868,
-          "max_lat": 55.425939
-        }
-      },
-      {
-        "area": "Anykščiai District Municipality",
-        "osm_name": null,
-        "polygon_area": 0.009336926095543435,
-        "polygon_centroid_lat": 55.57662221704922,
-        "polygon_centroid_lng": 25.015986089966614,
-        "bounds": {
-          "min_lng": 24.653144131791166,
-          "min_lat": 55.3058477,
-          "max_lng": 25.5191985,
-          "max_lat": 55.761648
-        }
-      }
-    ],
-    "selected_area": "Kibildžiai",
-    "selected_polygon_area": 9.595743449014712e-05
-  },
-  {
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.2697948671625,
-    "lng": 25.26347620168107,
-    "matched_polygons": [
-      {
-        "area": "Balninkai Eldership",
-        "osm_name": null,
-        "polygon_area": 0.0013779170484946885,
-        "polygon_centroid_lat": 55.300930994930226,
-        "polygon_centroid_lng": 25.200433780672277,
-        "bounds": {
-          "min_lng": 25.0689817,
-          "min_lat": 55.2520139,
-          "max_lng": 25.322654,
-          "max_lat": 55.3754327
-        }
-      },
-      {
-        "area": "Videniškių seniūnija",
-        "osm_name": null,
-        "polygon_area": 0.0035224060623665807,
-        "polygon_centroid_lat": 55.226784950020644,
-        "polygon_centroid_lng": 25.217313584742506,
-        "bounds": {
-          "min_lng": 25.157179,
-          "min_lat": 55.1808189,
-          "max_lng": 25.344215,
-          "max_lat": 55.2795475
-        }
-      }
-    ],
-    "selected_area": "Balninkai Eldership",
-    "selected_polygon_area": 0.0013779170484946885
-  },
-  {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Al Bahia",
-    "lat": 54.636964304759,
-    "lng": 24.513340210259,
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Arjan",
-    "lat": 55.23959680557979,
-    "lng": 25.0626022882491,
+    "raw_area": "Business Bay",
+    "lat": 55.25924255150594,
+    "lng": 25.18429415225089,
     "matched_polygons": [],
     "selected_area": null
   },
   {
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.233695185624,
-    "lng": 24.973706896782,
+    "raw_area": "Al Furjan",
+    "lat": 55.153100099949,
+    "lng": 25.022857170783,
     "matched_polygons": [],
     "selected_area": null
   },
@@ -43515,114 +40668,114 @@
     "selected_polygon_area": 0.00018971501961500704
   },
   {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0006897771107349585,
-        "polygon_centroid_lat": 25.11880805799114,
-        "polygon_centroid_lng": 55.13047251496105,
-        "bounds": {
-          "min_lng": 55.1083124,
-          "min_lat": 25.0971363,
-          "max_lng": 55.1531713,
-          "max_lat": 25.1416085
-        }
-      },
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0017879471374549973,
-        "polygon_centroid_lat": 25.118611338059324,
-        "polygon_centroid_lng": 55.133551383751595,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0006897771107349585
-  },
-  {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0006897771107349585,
-        "polygon_centroid_lat": 25.11880805799114,
-        "polygon_centroid_lng": 55.13047251496105,
-        "bounds": {
-          "min_lng": 55.1083124,
-          "min_lat": 25.0971363,
-          "max_lng": 55.1531713,
-          "max_lat": 25.1416085
-        }
-      },
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0017879471374549973,
-        "polygon_centroid_lat": 25.118611338059324,
-        "polygon_centroid_lng": 55.133551383751595,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0006897771107349585
-  },
-  {
-    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.123205184936523,
-    "lng": 55.11220169067383,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0006897771107349585,
-        "polygon_centroid_lat": 25.11880805799114,
-        "polygon_centroid_lng": 55.13047251496105,
-        "bounds": {
-          "min_lng": 55.1083124,
-          "min_lat": 25.0971363,
-          "max_lng": 55.1531713,
-          "max_lat": 25.1416085
-        }
-      },
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0017879471374549973,
-        "polygon_centroid_lat": 25.118611338059324,
-        "polygon_centroid_lng": 55.133551383751595,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0006897771107349585
-  },
-  {
     "raw_area": "Serenia Living Tower 3, Serenia Living, Palm Jumeirah, Dubai",
     "lat": 25.123783111572266,
     "lng": 55.11256408691406,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
+  },
+  {
+    "raw_area": "Orla by Omniyat, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.123205184936523,
+    "lng": 55.11220169067383,
     "matched_polygons": [
       {
         "area": "Palm Jumeirah",
@@ -44947,6 +42100,28 @@
     "selected_polygon_area": 1.5057494130001607e-05
   },
   {
+    "raw_area": "Cheval Residences, Dubai Islands, Dubai",
+    "lat": 25.308719635009766,
+    "lng": 55.31583786010742,
+    "matched_polygons": [
+      {
+        "area": "Palm Deira",
+        "osm_name": null,
+        "polygon_area": 0.001694996489254967,
+        "polygon_centroid_lat": 25.314673906526092,
+        "polygon_centroid_lng": 55.307793050515606,
+        "bounds": {
+          "min_lng": 55.2812546,
+          "min_lat": 25.2792339,
+          "max_lng": 55.3317495,
+          "max_lat": 25.3566043
+        }
+      }
+    ],
+    "selected_area": "Palm Deira",
+    "selected_polygon_area": 0.001694996489254967
+  },
+  {
     "raw_area": "Seventh Heaven, Al Barari, Dubai",
     "lat": 25.100921630859375,
     "lng": 55.31316375732422,
@@ -45006,28 +42181,6 @@
     ],
     "selected_area": "Al Barari",
     "selected_polygon_area": 0.0001939259767250257
-  },
-  {
-    "raw_area": "Cheval Residences, Dubai Islands, Dubai",
-    "lat": 25.308719635009766,
-    "lng": 55.31583786010742,
-    "matched_polygons": [
-      {
-        "area": "Palm Deira",
-        "osm_name": null,
-        "polygon_area": 0.001694996489254967,
-        "polygon_centroid_lat": 25.314673906526092,
-        "polygon_centroid_lng": 55.307793050515606,
-        "bounds": {
-          "min_lng": 55.2812546,
-          "min_lat": 25.2792339,
-          "max_lng": 55.3317495,
-          "max_lat": 25.3566043
-        }
-      }
-    ],
-    "selected_area": "Palm Deira",
-    "selected_polygon_area": 0.001694996489254967
   },
   {
     "raw_area": "Upper House East, Upper House, Jumeirah Lake Towers, Dubai",
@@ -45584,63 +42737,6 @@
     ],
     "selected_area": "Dubai International Financial Centre",
     "selected_polygon_area": 5.7021091290009645e-05
-  },
-  {
-    "raw_area": "Bluewaters Residences Building 10, Bluewaters Residences, Bluewaters, Dubai",
-    "lat": 25.079551696777344,
-    "lng": 55.12113952636719,
-    "matched_polygons": [
-      {
-        "area": "Bluewaters",
-        "osm_name": null,
-        "polygon_area": 3.375109263499378e-05,
-        "polygon_centroid_lat": 25.079667376143423,
-        "polygon_centroid_lng": 55.12214029956723,
-        "bounds": {
-          "min_lng": 55.11819,
-          "min_lat": 25.075396,
-          "max_lng": 55.1250912,
-          "max_lat": 25.0837204
-        }
-      }
-    ],
-    "selected_area": "Bluewaters",
-    "selected_polygon_area": 3.375109263499378e-05
-  },
-  {
-    "raw_area": "Jumeirah Living Marina Gate, Marina Gate, Dubai Marina, Dubai",
-    "lat": 25.087146759033203,
-    "lng": 55.14668273925781,
-    "matched_polygons": [
-      {
-        "area": "Dubai Marina",
-        "osm_name": null,
-        "polygon_area": 0.0002706535925000033,
-        "polygon_centroid_lat": 25.079553353124606,
-        "polygon_centroid_lng": 55.13989095558866,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0921743
-        }
-      },
-      {
-        "area": "Dubai Marina",
-        "osm_name": null,
-        "polygon_area": 0.00032818875548501676,
-        "polygon_centroid_lat": 25.080493662830865,
-        "polygon_centroid_lng": 55.13911419185002,
-        "bounds": {
-          "min_lng": 55.1236635,
-          "min_lat": 25.0642641,
-          "max_lng": 55.1551429,
-          "max_lat": 25.0949874
-        }
-      }
-    ],
-    "selected_area": "Dubai Marina",
-    "selected_polygon_area": 0.0002706535925000033
   },
   {
     "raw_area": "Seven City JLT, Jumeirah Lake Towers, Dubai",
@@ -47354,28 +44450,6 @@
     ],
     "selected_area": "Dubai International Financial Centre",
     "selected_polygon_area": 5.7021091290009645e-05
-  },
-  {
-    "raw_area": "Club Place Building B, Club Place, Dubai Hills Estate, Dubai",
-    "lat": 25.12763023376465,
-    "lng": 55.26041030883789,
-    "matched_polygons": [
-      {
-        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
-        "osm_name": null,
-        "polygon_area": 0.003760337531000007,
-        "polygon_centroid_lat": 25.101235040106733,
-        "polygon_centroid_lng": 55.269397304573125,
-        "bounds": {
-          "min_lng": 55.2330231,
-          "min_lat": 25.0559232,
-          "max_lng": 55.2957661,
-          "max_lat": 25.1553966
-        }
-      }
-    ],
-    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "selected_polygon_area": 0.003760337531000007
   },
   {
     "raw_area": "Peninsula Four, Peninsula, Business Bay, Dubai",
@@ -50393,9 +47467,79 @@
     "selected_polygon_area": 0.0010480248859550177
   },
   {
-    "raw_area": "Opera Grand, Burj Khalifa Area, Downtown Dubai, Dubai",
-    "lat": 25.19428253173828,
-    "lng": 55.27188491821289,
+    "raw_area": "Jumeirah Village Circle",
+    "lat": 25.059972,
+    "lng": 55.209436,
+    "matched_polygons": [
+      {
+        "area": "District 11",
+        "osm_name": null,
+        "polygon_area": 7.772811409001951e-05,
+        "polygon_centroid_lat": 25.063311134333336,
+        "polygon_centroid_lng": 55.213636027097834,
+        "bounds": {
+          "min_lng": 55.2084751,
+          "min_lat": 25.0576809,
+          "max_lng": 55.2196751,
+          "max_lat": 25.0687897
+        }
+      },
+      {
+        "area": "Al Barsha South 4",
+        "osm_name": null,
+        "polygon_area": 0.0006062196929549992,
+        "polygon_centroid_lat": 25.058406037814667,
+        "polygon_centroid_lng": 55.20891253987827,
+        "bounds": {
+          "min_lng": 55.1951912,
+          "min_lat": 25.0433619,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      },
+      {
+        "area": "Jumeirah Village Circle",
+        "osm_name": null,
+        "polygon_area": 0.000873468946745014,
+        "polygon_centroid_lat": 25.0542570135479,
+        "polygon_centroid_lng": 55.20213268984282,
+        "bounds": {
+          "min_lng": 55.1685745,
+          "min_lat": 25.0294169,
+          "max_lng": 55.2237482,
+          "max_lat": 25.0769248
+        }
+      }
+    ],
+    "selected_area": "District 11",
+    "selected_polygon_area": 7.772811409001951e-05
+  },
+  {
+    "raw_area": "Dubai Sports City",
+    "lat": 25.040645,
+    "lng": 55.20505,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 4",
+        "osm_name": null,
+        "polygon_area": 0.0007618209028049966,
+        "polygon_centroid_lat": 25.03290091671137,
+        "polygon_centroid_lng": 55.21918423229297,
+        "bounds": {
+          "min_lng": 55.1997617,
+          "min_lat": 25.0129777,
+          "max_lng": 55.2384079,
+          "max_lat": 25.0519207
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 4",
+    "selected_polygon_area": 0.0007618209028049966
+  },
+  {
+    "raw_area": "Downtown",
+    "lat": 25.199342,
+    "lng": 55.272723,
     "matched_polygons": [
       {
         "area": "Downtown Dubai",
@@ -50426,5 +47570,253 @@
     ],
     "selected_area": "Downtown Dubai",
     "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Dubai RD Al Hiyar",
+    "lat": 25.27114,
+    "lng": 55.30748,
+    "matched_polygons": [
+      {
+        "area": "Naif",
+        "osm_name": null,
+        "polygon_area": 6.694416995000696e-05,
+        "polygon_centroid_lat": 25.27218980967446,
+        "polygon_centroid_lng": 55.31021667439006,
+        "bounds": {
+          "min_lng": 55.3023771,
+          "min_lat": 25.2689092,
+          "max_lng": 55.3164189,
+          "max_lat": 25.2765991
+        }
+      },
+      {
+        "area": NaN,
+        "osm_name": null,
+        "polygon_area": 0.0019428756540350765,
+        "polygon_centroid_lat": 25.276337888737277,
+        "polygon_centroid_lng": 55.32960893935885,
+        "bounds": {
+          "min_lng": 55.2921277,
+          "min_lat": 25.2346788,
+          "max_lng": 55.3602564,
+          "max_lat": 25.3076452
+        }
+      }
+    ],
+    "selected_area": "Naif",
+    "selected_polygon_area": 6.694416995000696e-05
+  },
+  {
+    "raw_area": "Majan",
+    "lat": 25.091652,
+    "lng": 55.316666,
+    "matched_polygons": [
+      {
+        "area": "Majan",
+        "osm_name": null,
+        "polygon_area": 0.00017214029505001696,
+        "polygon_centroid_lat": 25.091749234785087,
+        "polygon_centroid_lng": 55.3175477953786,
+        "bounds": {
+          "min_lng": 55.3097714,
+          "min_lat": 25.0818618,
+          "max_lng": 55.3299781,
+          "max_lat": 25.0985391
+        }
+      },
+      {
+        "area": "Wadi Al Safa 3",
+        "osm_name": null,
+        "polygon_area": 0.0031202935640899736,
+        "polygon_centroid_lat": 25.110779580894075,
+        "polygon_centroid_lng": 55.315278238512334,
+        "bounds": {
+          "min_lng": 55.2771511,
+          "min_lat": 25.0654081,
+          "max_lng": 55.3648636,
+          "max_lat": 25.1419909
+        }
+      },
+      {
+        "area": "Wadi Al Safa 3",
+        "osm_name": null,
+        "polygon_area": 0.003591422306680032,
+        "polygon_centroid_lat": 25.112502889578394,
+        "polygon_centroid_lng": 55.31735895505384,
+        "bounds": {
+          "min_lng": 55.2832883,
+          "min_lat": 25.0605711,
+          "max_lng": 55.3648828,
+          "max_lat": 25.1508228
+        }
+      }
+    ],
+    "selected_area": "Majan",
+    "selected_polygon_area": 0.00017214029505001696
+  },
+  {
+    "raw_area": "Downtown",
+    "lat": 25.195643,
+    "lng": 55.278198,
+    "matched_polygons": [
+      {
+        "area": "Downtown Dubai",
+        "osm_name": null,
+        "polygon_area": 0.0008274599583149869,
+        "polygon_centroid_lat": 25.186630976712973,
+        "polygon_centroid_lng": 55.272241590360515,
+        "bounds": {
+          "min_lng": 55.2496071,
+          "min_lat": 25.1690128,
+          "max_lng": 55.2940679,
+          "max_lat": 25.2048544
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Downtown Dubai",
+    "selected_polygon_area": 0.0008274599583149869
+  },
+  {
+    "raw_area": "Al Jaddaf",
+    "lat": 25.217415,
+    "lng": 55.330495,
+    "matched_polygons": [
+      {
+        "area": "Al Jaddaf",
+        "osm_name": null,
+        "polygon_area": 0.0009075079837449618,
+        "polygon_centroid_lat": 25.209110425053165,
+        "polygon_centroid_lng": 55.32498923117999,
+        "bounds": {
+          "min_lng": 55.3090287,
+          "min_lat": 25.1808167,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2318207
+        }
+      },
+      {
+        "area": "Bur Dubai",
+        "osm_name": null,
+        "polygon_area": 0.002699111736984241,
+        "polygon_centroid_lat": 25.22245456021672,
+        "polygon_centroid_lng": 55.28515039155924,
+        "bounds": {
+          "min_lng": 55.2289499,
+          "min_lat": 25.1826627,
+          "max_lng": 55.3453314,
+          "max_lat": 25.2885558
+        }
+      }
+    ],
+    "selected_area": "Al Jaddaf",
+    "selected_polygon_area": 0.0009075079837449618
+  },
+  {
+    "raw_area": "Dubailand",
+    "lat": 25.027482,
+    "lng": 55.252402,
+    "matched_polygons": [
+      {
+        "area": "Al Hebiah 3",
+        "osm_name": null,
+        "polygon_area": 0.0004120765762100287,
+        "polygon_centroid_lat": 25.021931428828847,
+        "polygon_centroid_lng": 55.25513765991566,
+        "bounds": {
+          "min_lng": 55.2399401,
+          "min_lat": 25.0074978,
+          "max_lng": 55.2667146,
+          "max_lat": 25.0354259
+        }
+      }
+    ],
+    "selected_area": "Al Hebiah 3",
+    "selected_polygon_area": 0.0004120765762100287
+  },
+  {
+    "raw_area": "Deira Islands",
+    "lat": 25.31846,
+    "lng": 55.305615,
+    "matched_polygons": [],
+    "selected_area": null
+  },
+  {
+    "raw_area": "Emaar South",
+    "lat": 24.869299,
+    "lng": 55.137248,
+    "matched_polygons": [
+      {
+        "area": "Emaar South Golf District",
+        "osm_name": null,
+        "polygon_area": 0.000614200028494933,
+        "polygon_centroid_lat": 24.85567195110818,
+        "polygon_centroid_lng": 55.14587150150653,
+        "bounds": {
+          "min_lng": 55.1264188,
+          "min_lat": 24.8409282,
+          "max_lng": 55.167111,
+          "max_lat": 24.8711532
+        }
+      }
+    ],
+    "selected_area": "Emaar South Golf District",
+    "selected_polygon_area": 0.000614200028494933
+  },
+  {
+    "raw_area": "Emaar South",
+    "lat": 24.869299,
+    "lng": 55.137248,
+    "matched_polygons": [
+      {
+        "area": "Emaar South Golf District",
+        "osm_name": null,
+        "polygon_area": 0.000614200028494933,
+        "polygon_centroid_lat": 24.85567195110818,
+        "polygon_centroid_lng": 55.14587150150653,
+        "bounds": {
+          "min_lng": 55.1264188,
+          "min_lat": 24.8409282,
+          "max_lng": 55.167111,
+          "max_lat": 24.8711532
+        }
+      }
+    ],
+    "selected_area": "Emaar South Golf District",
+    "selected_polygon_area": 0.000614200028494933
+  },
+  {
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 25.196154,
+    "lng": 55.349649,
+    "matched_polygons": [
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "New Ras Al Khor Community",
+    "selected_polygon_area": 0.002477630884340004
   }
 ]

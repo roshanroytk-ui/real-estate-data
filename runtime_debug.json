@@ -1,5 +1,61 @@
 [
   {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Harbour",
+    "lat": 55.14094557680649,
+    "lng": 25.09815726734817,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.003348634022400749
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.346275,
+    "lng": 25.210124,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.012316227351195103
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Arabian Ranches 2",
+    "lat": 55.273974341638,
+    "lng": 25.039630840532,
+    "nearest_area": "Valai",
+    "distance": 0.0014796490582446038
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.153963,
+    "lng": 25.079233,
+    "nearest_area": "Bajorai",
+    "distance": 0.002214344806028079
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Al Reem Island",
     "lat": 54.40610080971199,
@@ -1438,30 +1494,6 @@
     "lng": 25.022637307531,
     "nearest_area": "Valai",
     "distance": 0.0002971875479894679
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -11042,48 +11074,6 @@
     "distance": 0.005305963441290383
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.343798757331,
-    "lng": 25.119882626071,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.005901512187522811
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.00036016910597631006
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.00036016910597631006
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.249151866231,
-    "lng": 25.020483302739,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.00036016910597631006
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.204014,
-    "lng": 25.048591,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.00497450729896108
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20436747475478,
-    "lng": 25.04981334140857,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.004160930029873579
-  },
-  {
     "type": "close_polygon",
     "area": "Šešuolių seniūnija",
     "distance": 0.0
@@ -11146,14 +11136,6 @@
     "lng": 25.205295,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.006828237327382593
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "nearest_area": "Butkūnai",
-    "distance": 0.005757337986495243
   },
   {
     "type": "polygon_miss",
@@ -11239,54 +11221,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
     "area": "Lyduokių seniūnija",
     "distance": 0.0
   },
@@ -11324,30 +11258,6 @@
     "lng": 25.090962,
     "nearest_area": "Šešuolių seniūnija",
     "distance": 0.007200824414604561
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arabian Ranches 2",
-    "lat": 55.266242708757,
-    "lng": 25.035551180044,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.007816468221952625
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.253252837078,
-    "lng": 25.107429294234,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.010815511013780034
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.27248831037261,
-    "lng": 25.18179523428656,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0024743483922192717
   },
   {
     "type": "close_polygon",
@@ -11415,30 +11325,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.124693609791,
-    "lng": 25.023808248879,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.02244948072809103
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.592547354418,
-    "lng": 24.457414357713,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.0018816722528581646
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.11490119117,
-    "lng": 25.036632722983,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03740335884673019
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "DAMAC Hills",
     "lat": 55.259956525677,
     "lng": 25.033416130055,
@@ -11446,20 +11332,28 @@
     "distance": 0.001191919443461049
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "The Greens",
-    "lat": 55.1747426390648,
-    "lng": 25.0919535472702,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.007804211899213391
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27048,
-    "lng": 25.191735,
-    "nearest_area": "Ščiurys",
-    "distance": 0.001469153788617934
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
   },
   {
     "type": "polygon_miss",
@@ -11476,14 +11370,6 @@
     "lng": 25.093067784933,
     "nearest_area": "Žemaitkiemio seniūnija",
     "distance": 0.00482209501934223
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20156833852448,
-    "lng": 25.05106636221176,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0015533492580248247
   },
   {
     "type": "polygon_miss",
@@ -11548,30 +11434,6 @@
     "lng": 25.05731151044457,
     "nearest_area": "Šešuolių seniūnija",
     "distance": 0.005373948571188398
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
   },
   {
     "type": "polygon_miss",
@@ -11800,63 +11662,6 @@
     "match_count": 1
   },
   {
-    "type": "close_polygon",
-    "area": "Širvintų seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Širvintų seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Širvintų seniūnija",
-    "heatmap_area": "Širvintų seniūnija",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.2245270465,
-    "lng": 24.989481441631,
-    "nearest_area": "Butkūnai",
-    "distance": 0.00983119817679018
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jebel Ali",
-    "lat": 54.99713253652,
-    "lng": 25.017117335379,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.0050327868461057116
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.0008551299033283373
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0008551299033283373
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.237394859189,
-    "lng": 24.985667999466,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.0008551299033283373
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.308396237872,
-    "lng": 25.292604563985,
-    "nearest_area": "Pakryžė",
-    "distance": 0.019049448210389012
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34841802556082,
@@ -11894,12 +11699,37 @@
     "distance": 0.004667002630326124
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Al Raha Beach",
-    "lat": 54.60624466121821,
-    "lng": 24.44866124005624,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.00934021688116267
+    "type": "close_polygon",
+    "area": "Laukeliai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Laukeliai"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Žemaitkiemio seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Žemaitkiemio seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Laukeliai",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 3
   },
   {
     "type": "polygon_miss",
@@ -11908,78 +11738,6 @@
     "lng": 25.043331290237,
     "nearest_area": "Žemaitkiemio seniūnija",
     "distance": 0.006282608149933764
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.154039,
-    "lng": 25.057582,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0041277151886540625
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.154028,
-    "lng": 25.054977,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.003280886461189041
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.149897,
-    "lng": 25.063676,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0018639876845574991
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Islands",
-    "lat": 55.149897,
-    "lng": 25.063676,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0018639876845574991
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.63215231247389,
-    "lng": 24.49701918397001,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.014443074322910384
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Saadiyat Island",
-    "lat": 54.443483398615,
-    "lng": 24.535078896215,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.014052679653859987
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.404785,
-    "lng": 24.498713,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.018337600703474514
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.6017615442069,
-    "lng": 24.47636911635525,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.002235243247027042
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.598948,
-    "lng": 24.483866,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.0044808678833073235
   },
   {
     "type": "polygon_miss",
@@ -12007,14 +11765,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Saadiyat Island",
-    "lat": 54.447313497363,
-    "lng": 24.541806818354,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.017606352493677525
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Reem Island",
     "lat": 54.421155507923,
     "lng": 24.483989113965,
@@ -12039,27 +11789,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Masdar City",
-    "lat": 54.61383876601514,
-    "lng": 24.4344753291755,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.017093668010633375
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Green Community",
     "lat": 55.15564432932171,
     "lng": 25.00287629931355,
     "nearest_area": "Zibalų seniūnija",
     "distance": 0.004172634318403703
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.2815070129806,
-    "lng": 25.18450656243944,
-    "nearest_area": "Ščiurys",
-    "distance": 0.005146901542778633
   },
   {
     "type": "polygon_miss",
@@ -12084,6 +11818,14 @@
     "lng": 25.019624908004,
     "nearest_area": "Kurklių seniūnija",
     "distance": 0.01845157599207235
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.24861841677411,
+    "lng": 25.01593818327917,
+    "nearest_area": "Slabada",
+    "distance": 0.004143956204724298
   },
   {
     "type": "polygon_miss",
@@ -12378,30 +12120,6 @@
     "distance": 0.011614399893071288
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.23321666902217,
-    "lng": 25.06707653555288,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.006260511803403554
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.23321666902217,
-    "lng": 25.06707653555288,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.006260511803403554
-  },
-  {
     "type": "close_polygon",
     "area": "Butkūnai",
     "distance": 0.0
@@ -12415,166 +12133,6 @@
     "comparable_area": "Butkūnai",
     "heatmap_area": "Butkūnai",
     "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Valai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Valai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Valai",
-    "heatmap_area": "Valai",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.00063358543209076
-  },
-  {
-    "type": "close_polygon",
-    "area": "Alantos seniūnija",
-    "distance": 0.00063358543209076
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 55.31912037735391,
-    "lng": 25.21229513121177,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00063358543209076
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.216751,
-    "lng": 25.040036,
-    "nearest_area": "Butkūnai",
-    "distance": 0.006907580828336387
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Studio City",
-    "lat": 55.23670325371054,
-    "lng": 25.02944323735721,
-    "nearest_area": "Butkūnai",
-    "distance": 0.007302648525623218
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.300858091218,
-    "lng": 25.002050606249,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.006263823048135299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39099247068955,
-    "lng": 24.98294835585094,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.02736369189431817
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Discovery Gardens",
-    "lat": 55.14562842610272,
-    "lng": 25.03942841970518,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.007393914711836844
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Baniyas",
-    "lat": 54.619002,
-    "lng": 24.313741,
-    "nearest_area": "Stakliškių seniūnija",
-    "distance": 0.03690417209815113
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Videniškių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "nearest_area": "Bajorai",
-    "distance": 0.01313907252794807
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "nearest_area": "Bajorai",
-    "distance": 0.01313907252794807
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Internet City",
-    "lat": 55.16838804115608,
-    "lng": 25.09953779110903,
-    "nearest_area": "Bajorai",
-    "distance": 0.01313907252794807
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.240429838485,
-    "lng": 25.040877659396,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.012732392952165765
   },
   {
     "type": "polygon_miss",
@@ -12583,30 +12141,6 @@
     "lng": 24.9884609712675,
     "nearest_area": "Zibalų seniūnija",
     "distance": 0.03189539578427133
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.180653583305,
-    "lng": 24.987881968941,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03295588504012901
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17991994445,
-    "lng": 24.99156038205,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03091265403092718
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.314806,
-    "lng": 25.097222,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0010870283006487497
   },
   {
     "type": "polygon_miss",
@@ -12956,75 +12490,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.004533384325025567
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.374639,
-    "lng": 25.098306,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.005826817559848768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.004533384325025567
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.201681,
-    "lng": 25.034128,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.011031020569287604
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.40539456678721,
-    "lng": 25.14796413559107,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.014777963420294594
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.40319890549108,
-    "lng": 25.1631279057195,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.007305704734009083
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39358909548054,
-    "lng": 24.98444784455826,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.024407207774307264
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.40304873226432,
-    "lng": 25.14983931266904,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.014793200877983134
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.42022621282464,
-    "lng": 25.16213058550901,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.004109423259940647
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "nearest_area": "Nemaitonių seniūnija",
+    "distance": 0.01888941804614299
   },
   {
     "type": "polygon_miss",
@@ -13044,43 +12514,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "DAMAC Islands",
-    "lat": 55.30756556111082,
-    "lng": 25.039586,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.002829035665640903
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Sports City",
     "lat": 55.21809010759,
     "lng": 25.0359868073,
     "nearest_area": "Butkūnai",
     "distance": 0.0027086689660191596
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.3236355413693,
-    "lng": 25.17348090572518,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01894414189839663
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.378627842224,
-    "lng": 24.989421892071,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.013667976540926111
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
   },
   {
     "type": "polygon_miss",
@@ -13092,43 +12530,61 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.360343340986,
-    "lng": 25.074394178567,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.006536152506518854
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "nearest_area": "Nemaitonių seniūnija",
+    "distance": 0.01888941804614299
   },
   {
     "type": "polygon_miss",
-    "raw_area": "DAMAC Islands",
-    "lat": 55.314129853497,
-    "lng": 25.035276457058,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.0033152921401780867
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "nearest_area": "Nemaitonių seniūnija",
+    "distance": 0.01888941804614299
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.217111322811,
-    "lng": 24.97128183346,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.013609887364032307
+    "type": "close_polygon",
+    "area": "Balninkai Eldership",
+    "distance": 0.0
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.30960250091234,
-    "lng": 25.17538306453063,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.030485045987448365
+    "type": "polygon_match",
+    "area": "Balninkai Eldership"
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Meydan",
-    "lat": 55.306232,
-    "lng": 25.172831,
-    "nearest_area": "Ščiurys",
-    "distance": 0.03240595019931268
+    "type": "close_polygon",
+    "area": "Kurklių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Kurklių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Molėtų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Molėtų rajono savivaldybė"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Anykščiai District Municipality",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Anykščiai District Municipality"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Balninkai Eldership",
+    "heatmap_area": "Anykščiai District Municipality",
+    "match_count": 4
   },
   {
     "type": "polygon_miss",
@@ -13140,27 +12596,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Sports City",
     "lat": 55.205866,
     "lng": 25.037336,
     "nearest_area": "Ežeraičiai",
     "distance": 0.012895131585217047
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Zayed City",
-    "lat": 54.642862778286,
-    "lng": 24.40537462194,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.002980154071836289
   },
   {
     "type": "polygon_miss",
@@ -13180,23 +12620,7 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 55.319042,
-    "lng": 25.213721,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.0013792999549564076
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37280160190662,
     "lng": 25.0949189454839,
     "nearest_area": "Balninkai Eldership",
@@ -13204,7 +12628,7 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37172027302614,
     "lng": 25.09574803745835,
     "nearest_area": "Balninkai Eldership",
@@ -13232,14 +12656,6 @@
     "lng": 25.08016569473218,
     "nearest_area": "Žemaitkiemio seniūnija",
     "distance": 0.00022308372024649613
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Meydan",
-    "lat": 55.294626469913,
-    "lng": 25.144441964645,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.02973474189453801
   },
   {
     "type": "polygon_miss",
@@ -13291,22 +12707,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.376639,
     "lng": 25.100444,
@@ -13336,14 +12736,6 @@
     "lng": 25.086639,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.01641461604938224
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.4025809,
-    "lng": 25.14580881,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.018158417736749366
   },
   {
     "type": "polygon_miss",
@@ -13419,11 +12811,27 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37172027302614,
     "lng": 25.09574803745835,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.004443435485151894
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "nearest_area": "Nemaitonių seniūnija",
+    "distance": 0.01888941804614299
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Shamkha",
+    "lat": 54.67925206123816,
+    "lng": 24.40224173162871,
+    "nearest_area": "Nemaitonių seniūnija",
+    "distance": 0.01888941804614299
   },
   {
     "type": "polygon_miss",
@@ -13440,14 +12848,6 @@
     "lng": 25.02703679980081,
     "nearest_area": "Ežeraičiai",
     "distance": 0.014796218199383539
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.23399,
-    "lng": 25.066545,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.007193434531609485
   },
   {
     "type": "close_polygon",
@@ -13477,51 +12877,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Meydan Horizon",
-    "lat": 55.32264434821542,
-    "lng": 25.18103028947657,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.016350626457458346
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Islands",
-    "lat": 55.312493751578,
-    "lng": 25.036120404605,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.0016854365388557027
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.198677974081,
-    "lng": 25.034497552513,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.008813392608999982
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Shamkha",
     "lat": 54.678754472888,
     "lng": 24.358580289459,
     "nearest_area": "Stakliškių seniūnija",
     "distance": 0.007285509338033924
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Fahid Island",
-    "lat": 54.55880360833092,
-    "lng": 24.50909369859011,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.010744107493452426
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Discovery Gardens",
-    "lat": 55.14971337276273,
-    "lng": 25.03760993119558,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0032089417990531412
   },
   {
     "type": "polygon_miss",
@@ -13533,19 +12893,19 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Al Shamkha",
+    "lat": 54.672864750437,
+    "lng": 24.367948990675,
+    "nearest_area": "Stakliškių seniūnija",
+    "distance": 0.0034516928680958735
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.374386106865,
     "lng": 25.097882406181,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.005801414842746593
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.396781456722,
-    "lng": 25.15865605196,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.010785394520769155
   },
   {
     "type": "polygon_miss",
@@ -13794,115 +13154,12 @@
     "distance": 0.023482819517682912
   },
   {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Anykščiai District Municipality",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Nuaimiya",
-    "lat": 55.4409599304199,
-    "lng": 25.3907915832682,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.003315698993983832
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Al Nuaimiya",
     "lat": 55.435697,
     "lng": 25.39052,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.002758586777918423
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Khan",
-    "lat": 55.36104674454276,
-    "lng": 25.32809787340477,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.029556244047888428
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Muwaileh",
-    "lat": 55.466462862081,
-    "lng": 25.30897232582,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.05201327933795075
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03777368839406463
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03777368839406463
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Mamzar",
-    "lat": 55.3648124754105,
-    "lng": 25.31096686074115,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.025645655402657026
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Ajman Free Zone",
-    "lat": 55.45528910544604,
-    "lng": 25.39691635180789,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.010209912361414284
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.581915,
-    "lng": 25.380037,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03537853785135806
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.57386592673419,
-    "lng": 25.37862598919911,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03777368839406463
   },
   {
     "type": "polygon_miss",
@@ -13922,22 +13179,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Mowaihat",
-    "lat": 55.501041,
-    "lng": 25.378513,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.011082854414661125
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.029347964526386827
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Emirates City",
     "lat": 55.57343220046565,
     "lng": 25.38976465695946,
@@ -13951,14 +13192,6 @@
     "lng": 25.259921848529,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.11585799837906419
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Aljada",
-    "lat": 55.481748,
-    "lng": 25.320366,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03921868830371684
   },
   {
     "type": "polygon_miss",
@@ -14010,11 +13243,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Rodhat Al Qrt",
-    "lat": 55.65369721569397,
-    "lng": 25.261682,
+    "raw_area": "Al Amerah",
+    "lat": 55.57603736337992,
+    "lng": 25.38681945394501,
     "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.05811460634041573
+    "distance": 0.02930222847575667
   },
   {
     "type": "polygon_miss",
@@ -14047,14 +13280,6 @@
     "lng": 25.390655392167,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.014633620311420672
   },
   {
     "type": "polygon_miss",
@@ -14127,45 +13352,6 @@
     "lng": 25.31342974606767,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.04638732649514909
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Anykščiai District Municipality",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
   },
   {
     "type": "polygon_miss",
@@ -14257,35 +13443,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Amerah",
-    "lat": 55.582283005904,
-    "lng": 25.392379912018,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.023032189762517807
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Amerah",
-    "lat": 55.582283005904,
-    "lng": 25.392379912018,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.023032189762517807
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Muwaileh",
     "lat": 55.466462862081,
     "lng": 25.30897232582,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.05201327933795075
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.59179085788252,
-    "lng": 25.3769438893839,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03958557860637351
   },
   {
     "type": "polygon_miss",
@@ -14407,14 +13569,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Mowaihat",
-    "lat": 55.491085,
-    "lng": 25.36688,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.006107615917774216
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Mamzar",
     "lat": 55.3593680887827,
     "lng": 25.30628986469133,
@@ -14437,37 +13591,6 @@
     "match_count": 1
   },
   {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Anykščiai District Municipality",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Al Yasmeen",
     "lat": 55.57386592673419,
@@ -14482,14 +13605,6 @@
     "lng": 25.392379912018,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.023032189762517807
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rashidiya",
-    "lat": 55.4556597823385,
-    "lng": 25.39006398995903,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.003387809387603375
   },
   {
     "type": "polygon_miss",
@@ -14701,62 +13816,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.056054395678269364
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.5874985516939678
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.5874985516939678
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.5874985516939678
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rawda",
-    "lat": 55.521957,
-    "lng": 25.389298,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.017356520940845548
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rawda",
-    "lat": 55.500397408488,
-    "lng": 25.389701380412,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.005508333922696587
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Amerah",
-    "lat": 55.586034,
-    "lng": 25.380745,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03485132511827888
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Marjan Island",
     "lat": 55.73273,
     "lng": 25.686038,
@@ -14789,59 +13848,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.014633620311420672
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Aljada",
     "lat": 55.47337069857022,
     "lng": 25.31342974606767,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.04638732649514909
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.056054395678269364
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.056054395678269364
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.056054395678269364
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rahmaniya",
-    "lat": 55.549751118551,
-    "lng": 25.36040189524,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.056054395678269364
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.5874985516939678
   },
   {
     "type": "polygon_miss",
@@ -14932,11 +13943,97 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Tilal City",
-    "lat": 55.589229514903,
-    "lng": 25.256183355465,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.11993357442154469
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.25145989,
+    "lng": 25.11178535,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.01433666651297659
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.25145989,
+    "lng": 25.11178535,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.01433666651297659
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bajorai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bajorai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Bajorai",
+    "heatmap_area": "Bajorai",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.34779523454176,
+    "lng": 25.2054459232027,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011111959479665963
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Lagoons",
+    "lat": 55.231350334922,
+    "lng": 25.004668247806,
+    "nearest_area": "Slabada",
+    "distance": 0.0010057507745357326
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Mudon",
+    "lat": 55.262207586337,
+    "lng": 25.016883956571,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.0021807840440605368
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Mudon",
+    "lat": 55.262207586337,
+    "lng": 25.016883956571,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.0021807840440605368
+  },
+  {
+    "type": "close_polygon",
+    "area": "Valai",
+    "distance": 0.0004753631321971839
+  },
+  {
+    "type": "close_polygon",
+    "area": "Žemaitkiemio seniūnija",
+    "distance": 0.0004753631321971839
+  },
+  {
+    "type": "close_polygon",
+    "area": "Lyduokių seniūnija",
+    "distance": 0.0004753631321971839
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Mudon",
+    "lat": 55.264709865539,
+    "lng": 25.014981656812,
+    "nearest_area": "Valai",
+    "distance": 0.0004753631321971839
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.449544740764,
+    "lng": 24.526256172336,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.020467369074309412
   },
   {
     "type": "polygon_miss",
@@ -15671,455 +14768,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.135703,
-    "lng": 25.078428,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0019583134376278196
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.1264145615419,
-    "lng": 25.07222227994064,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.013126920411521813
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Nad Al Sheba",
-    "lat": 55.31150767068,
-    "lng": 25.132607171585,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.011506847596359338
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34569116106607,
-    "lng": 25.20861930099168,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.011018215588185505
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bajorai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bajorai",
-    "heatmap_area": "Bajorai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Greens",
-    "lat": 55.174058,
-    "lng": 25.0926,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008741669124965091
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Creek Harbour",
     "lat": 55.34922435652717,
     "lng": 25.20153724671492,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.010243038620549398
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Greens",
-    "lat": 55.172995,
-    "lng": 25.093557,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.010162091848572774
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.27372564556487,
-    "lng": 25.18195386425001,
-    "nearest_area": "Ščiurys",
-    "distance": 0.002473755849730996
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 0.0004117119213535401
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Marina",
-    "lat": 55.14873941920283,
-    "lng": 25.09067821344713,
-    "nearest_area": "Bajorai",
-    "distance": 0.0004117119213535401
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Lyduokių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Lyduokių seniūnija",
-    "heatmap_area": "Šešuolių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Lyduokių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Lyduokių seniūnija",
-    "heatmap_area": "Šešuolių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Greens",
-    "lat": 55.1714488863945,
-    "lng": 25.0921575902031,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.01030964278221684
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.252916100774,
-    "lng": 25.093067784933,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.00482209501934223
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.139771,
-    "lng": 25.116252,
-    "nearest_area": "Bajorai",
-    "distance": 0.0028654344405680036
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.13742848655417,
-    "lng": 25.11630432874502,
-    "nearest_area": "Bajorai",
-    "distance": 0.001597362311428407
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bajorai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bajorai",
-    "heatmap_area": "Bajorai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.13694422670257,
-    "lng": 24.83739471898314,
-    "nearest_area": "Pivonijos seniūnija",
-    "distance": 0.0242735937743316
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Beach Residence (JBR)",
-    "lat": 55.13556618468854,
-    "lng": 25.081475587645,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0016335433065857968
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.30631432,
-    "lng": 25.29044178,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01919002146452207
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.30631432,
-    "lng": 25.29044178,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01919002146452207
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Barari",
-    "lat": 55.322592942369,
-    "lng": 25.098237935585,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.005634098375303025
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.271063,
-    "lng": 25.197037,
-    "nearest_area": "Ščiurys",
-    "distance": 0.001262726774112635
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.342916755918,
-    "lng": 25.116317602599,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.0027968452136947993
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.1461489498615,
-    "lng": 25.076277660726,
-    "nearest_area": "Bajorai",
-    "distance": 0.0019235971219768756
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Nad Al Sheba",
-    "lat": 55.311701962622,
-    "lng": 25.137898752746,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.014517087307945094
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "nearest_area": "Butkūnai",
-    "distance": 0.005757337986495243
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.2810224890709,
-    "lng": 25.1932820714619,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0012383464129035648
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Mohammed Bin Rashid City (MBR City)",
-    "lat": 55.343798757331,
-    "lng": 25.119882626071,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.005901512187522811
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Science Park",
-    "lat": 55.24874412187238,
-    "lng": 25.07091484680871,
-    "nearest_area": "Laukeliai",
-    "distance": 0.004900608695958444
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.28962460379719,
-    "lng": 25.18494517362533,
-    "nearest_area": "Ščiurys",
-    "distance": 0.012360289901120671
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24131527984919,
-    "lng": 25.10468597189534,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.020342086383952542
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kurklių seniūnija",
-    "distance": 0.00028334806844623755
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kavarsko seniūnija",
-    "distance": 0.00028334806844623755
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.453680220734,
-    "lng": 25.003543693073,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.00028334806844623755
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.447626871072,
-    "lng": 25.007600568072,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.0031167389854205654
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.44680906435,
-    "lng": 25.009308691439,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.004998786374881969
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.44680906435,
-    "lng": 25.009308691439,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.004998786374881969
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.22028690373514,
-    "lng": 25.05496273556861,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008890083431420085
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arabian Ranches",
-    "lat": 55.267013759691,
-    "lng": 25.055506648732,
-    "nearest_area": "Laukeliai",
-    "distance": 0.004653693648194808
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.20582206520655,
-    "lng": 25.02908082115023,
-    "nearest_area": "Butkūnai",
-    "distance": 0.013172191167390252
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.453475528279,
-    "lng": 25.011215948341,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.006054909427888404
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0007974794386696809
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0007974794386696809
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Triangle (JVT)",
-    "lat": 55.18413504533643,
-    "lng": 25.04016521357596,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0007974794386696809
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.31993366767335,
-    "lng": 25.30496377636206,
-    "nearest_area": "Pakryžė",
-    "distance": 0.0022428017766474213
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.262778,
-    "lng": 25.129889,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.011597064077172951
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 0.00013287624177335186
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Marina",
-    "lat": 55.1482009887695,
-    "lng": 25.0872001647949,
-    "nearest_area": "Bajorai",
-    "distance": 0.00013287624177335186
   },
   {
     "type": "polygon_miss",
@@ -16130,54 +14783,6 @@
     "distance": 0.03740335884673019
   },
   {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.141777503427,
-    "lng": 25.14020305467702,
-    "nearest_area": "Bajorai",
-    "distance": 0.0027966512129839094
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21698901947039,
-    "lng": 25.05942762373874,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0033825382946073854
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.141086950048,
-    "lng": 24.866118804057,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03555590702589032
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Greens",
-    "lat": 55.1734873652458,
-    "lng": 25.0900685631322,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.007401446843744335
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34569116106607,
-    "lng": 25.20861930099168,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.011018215588185505
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.211363,
-    "lng": 25.047434,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.010055062101675585
-  },
-  {
     "type": "close_polygon",
     "area": "Šešuolių seniūnija",
     "distance": 0.0
@@ -16200,46 +14805,6 @@
     "comparable_area": "Šešuolių seniūnija",
     "heatmap_area": "Želvos seniūnija",
     "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.14048825387522,
-    "lng": 25.03177482495984,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.013131248899841264
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.231094482924,
-    "lng": 25.02991353096,
-    "nearest_area": "Butkūnai",
-    "distance": 0.0016793155094109104
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.213055514403,
-    "lng": 25.013271706465,
-    "nearest_area": "Butkūnai",
-    "distance": 0.002786382379759343
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Golf Estates",
-    "lat": 55.207598510219,
-    "lng": 25.021722186899,
-    "nearest_area": "Butkūnai",
-    "distance": 0.00817470729276686
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.14514927598203,
-    "lng": 24.86042440473292,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.041904797330683564
   },
   {
     "type": "polygon_miss",
@@ -16251,37 +14816,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20487992808702,
-    "lng": 25.04610247291052,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.00752033713565567
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Views",
-    "lat": 55.1681081950665,
-    "lng": 25.0923907817098,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.012990384423683617
-  },
-  {
-    "type": "close_polygon",
     "area": "Lyduokių seniūnija",
     "distance": 0.0
   },
@@ -16303,14 +14837,6 @@
     "comparable_area": "Lyduokių seniūnija",
     "heatmap_area": "Šešuolių seniūnija",
     "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.11490119117,
-    "lng": 25.036632722983,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03740335884673019
   },
   {
     "type": "polygon_miss",
@@ -16404,11 +14930,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.140038,
-    "lng": 25.038946,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.012885642852803903
+    "raw_area": "Saadiyat Island",
+    "lat": 54.443483398615,
+    "lng": 24.535078896215,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.014052679653859987
   },
   {
     "type": "polygon_miss",
@@ -16419,68 +14945,20 @@
     "distance": 0.010015402560543963
   },
   {
-    "type": "close_polygon",
-    "area": "Kurklių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kurklių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kavarsko seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kavarsko seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Kurklių seniūnija",
-    "heatmap_area": "Kavarsko seniūnija",
-    "match_count": 2
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.40468872427192,
+    "lng": 24.49628732982454,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.018111755221457006
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.218234754961,
-    "lng": 25.05786606102,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.005362875679930838
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.115082846246,
-    "lng": 25.035311186394,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.036495554259545114
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41006798022357,
+    "lng": 24.53589880702493,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.00486254245396347
   },
   {
     "type": "polygon_miss",
@@ -16497,14 +14975,6 @@
     "lng": 25.055445173141,
     "nearest_area": "Valai",
     "distance": 0.013930068454391679
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.24414294117189,
-    "lng": 25.02524252586852,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.0019636552411784053
   },
   {
     "type": "close_polygon",
@@ -16548,19 +15018,19 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27035975227122,
-    "lng": 25.19431240083058,
-    "nearest_area": "Ščiurys",
-    "distance": 0.002574991202674264
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Marina",
     "lat": 55.132774,
     "lng": 25.073221,
     "nearest_area": "Zibalų seniūnija",
     "distance": 0.0077275920254012975
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.40610080971199,
+    "lng": 24.4984843912363,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.017003104606925543
   },
   {
     "type": "polygon_miss",
@@ -16605,14 +15075,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Arabian Ranches 3",
-    "lat": 55.336272318301,
-    "lng": 25.068349669577,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.019336552394734804
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Hills Estate",
     "lat": 55.24677770885111,
     "lng": 25.10814370811002,
@@ -16630,67 +15092,10 @@
   {
     "type": "polygon_miss",
     "raw_area": "Downtown Dubai",
-    "lat": 55.27173380086171,
-    "lng": 25.19268523811387,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0030225175121766507
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Zibalų seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Širvintų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Zibalų seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
     "lat": 55.278234,
     "lng": 25.187055,
     "nearest_area": "Ščiurys",
     "distance": 0.0010045032205033733
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.269557,
-    "lng": 25.195088,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0022363019831871224
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.271766,
-    "lng": 25.195499,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0011147343405495645
   },
   {
     "type": "polygon_miss",
@@ -16717,39 +15122,6 @@
     "distance": 0.013243303401728664
   },
   {
-    "type": "close_polygon",
-    "area": "Aukštadvario seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Aukštadvario seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Stakliškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Stakliškių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Trakų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Aukštadvario seniūnija",
-    "heatmap_area": "Trakų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Jumeirah Park",
     "lat": 55.16528266701,
@@ -16758,17 +15130,20 @@
     "distance": 0.004469075870174063
   },
   {
-    "type": "close_polygon",
-    "area": "Slabada",
-    "distance": 0.00023092810318814462
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.40596510292185,
+    "lng": 24.49909450698135,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.017218423903209414
   },
   {
     "type": "polygon_miss",
-    "raw_area": "DAMAC Lagoons",
-    "lat": 55.237728075756,
-    "lng": 25.006214622407,
-    "nearest_area": "Slabada",
-    "distance": 0.00023092810318814462
+    "raw_area": "Al Reem Island",
+    "lat": 54.40822721364501,
+    "lng": 24.49063403011194,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.014141821982288357
   },
   {
     "type": "polygon_miss",
@@ -16780,11 +15155,19 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.40514716557482,
-    "lng": 24.49673867098242,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.01771713158938306
+    "raw_area": "DAMAC Hills",
+    "lat": 55.257518300955,
+    "lng": 25.011943393072,
+    "nearest_area": "Valai",
+    "distance": 0.008194804198133341
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Yas Island",
+    "lat": 54.62893917257736,
+    "lng": 24.48459430366637,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.008382590692229692
   },
   {
     "type": "polygon_miss",
@@ -16801,22 +15184,6 @@
     "lng": 25.111153,
     "nearest_area": "Žemaitkiemio seniūnija",
     "distance": 0.019115885681859734
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.431038645749,
-    "lng": 25.011673606339,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.010192992964147093
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.429307921897,
-    "lng": 25.013733766698,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.009413454601353177
   },
   {
     "type": "polygon_miss",
@@ -16844,22 +15211,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.2680828814135,
-    "lng": 25.18427671765799,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.002511472558225229
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.404554,
-    "lng": 24.496727,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.018303525630690567
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Harbour",
     "lat": 55.141881959433,
     "lng": 25.100634251965,
@@ -16868,60 +15219,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.1451488871902,
-    "lng": 25.03422158755457,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.008627462454389556
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.41704877453,
-    "lng": 24.488346172288,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.005273088278419816
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Jumeirah Village Triangle (JVT)",
     "lat": 55.19592286,
     "lng": 25.04556189,
     "nearest_area": "Ežeraičiai",
     "distance": 0.0011470380855543429
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Zibalų seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Širvintų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Zibalų seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 3
   },
   {
     "type": "close_polygon",
@@ -16959,14 +15261,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Saadiyat Island",
-    "lat": 54.41647608031198,
-    "lng": 24.53203705983406,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.006440569718410185
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Marina",
     "lat": 55.12583422226436,
     "lng": 25.07086073368966,
@@ -16980,14 +15274,6 @@
     "lng": 24.954722,
     "nearest_area": "Širvintos",
     "distance": 0.002641563046886026
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.421155507923,
-    "lng": 24.483989113965,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.0012456309549489244
   },
   {
     "type": "polygon_miss",
@@ -17021,66 +15307,10 @@
   {
     "type": "polygon_miss",
     "raw_area": "Al Furjan",
-    "lat": 55.1386753144985,
-    "lng": 25.04002920178149,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.014354394092733518
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.13917580542564,
-    "lng": 25.01811527778692,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.006930847757223102
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.249077875361,
-    "lng": 25.109632840483,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.015533917463719363
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Hills",
-    "lat": 55.1584109385105,
-    "lng": 25.07830412233643,
-    "nearest_area": "Bajorai",
-    "distance": 0.006693713863562496
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.205358,
-    "lng": 25.047063,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.006993393039965358
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24803838967674,
-    "lng": 25.11463737480489,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.018666397708453956
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Furjan",
     "lat": 55.136301571429,
     "lng": 25.028470571429,
     "nearest_area": "Zibalų seniūnija",
     "distance": 0.016373993312348747
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.120643382328,
-    "lng": 25.03302053742,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.030636214653330364
   },
   {
     "type": "polygon_miss",
@@ -17100,11 +15330,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Barari",
-    "lat": 55.322592942369,
-    "lng": 25.098237935585,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.005634098375303025
+    "raw_area": "Yas Island",
+    "lat": 54.63204072641346,
+    "lng": 24.49830477619465,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.014853328090122827
   },
   {
     "type": "polygon_miss",
@@ -17113,14 +15343,6 @@
     "lng": 25.030358207096,
     "nearest_area": "Žemaitkiemio seniūnija",
     "distance": 0.002476963150623814
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Views",
-    "lat": 55.1681081950665,
-    "lng": 25.0923907817098,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.012990384423683617
   },
   {
     "type": "close_polygon",
@@ -17147,102 +15369,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.252916100774,
-    "lng": 25.093067784933,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.00482209501934223
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.24724978474708,
-    "lng": 25.10850185706401,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.01668114804932962
-  },
-  {
-    "type": "close_polygon",
-    "area": "Laukeliai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Laukeliai"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Žemaitkiemio seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Žemaitkiemio seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Laukeliai",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Meadows",
-    "lat": 55.151990791493,
-    "lng": 25.068614507964,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.005305963441290383
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Islands",
     "lat": 55.32249999977217,
     "lng": 25.30364859806481,
     "nearest_area": "Pakryžė",
     "distance": 0.0037278539408797315
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0004432975020260595
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0004432975020260595
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20571338970913,
-    "lng": 25.06924595914418,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0004432975020260595
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Bluewaters Island",
-    "lat": 55.12429254817249,
-    "lng": 25.07387866178911,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.014221003615359601
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.13742848655417,
-    "lng": 25.11630432874502,
-    "nearest_area": "Bajorai",
-    "distance": 0.001597362311428407
   },
   {
     "type": "polygon_miss",
@@ -17267,29 +15398,6 @@
     "lng": 25.20201339358486,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.009813511995559007
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0006477724957477308
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0006477724957477308
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0006477724957477308
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.14664348025735,
-    "lng": 25.07018305828622,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0006477724957477308
   },
   {
     "type": "close_polygon",
@@ -17326,19 +15434,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Arabian Ranches 3",
-    "lat": 55.321632462668,
-    "lng": 25.065148945646,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.007345563764953352
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Furjan",
-    "lat": 55.13917580542564,
-    "lng": 25.01811527778692,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.006930847757223102
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43752228299033,
+    "lng": 24.52195163448043,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.008629667866150648
   },
   {
     "type": "close_polygon",
@@ -17352,6 +15452,14 @@
     "lng": 25.19751058339483,
     "nearest_area": "Ščiurys",
     "distance": 0.0007485035614303487
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Production City (IMPZ)",
+    "lat": 55.19549296409494,
+    "lng": 25.03596484187541,
+    "nearest_area": "Ežeraičiai",
+    "distance": 0.006103706782910295
   },
   {
     "type": "polygon_miss",
@@ -17574,471 +15682,83 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.13949410830633,
-    "lng": 24.83675104932472,
-    "nearest_area": "Pivonijos seniūnija",
-    "distance": 0.022450813490893715
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalai",
-    "distance": 0.00018338555508434938
+    "raw_area": "Dubai Industrial City",
+    "lat": 55.04442196627173,
+    "lng": 24.87602214371032,
+    "nearest_area": "Širvintų seniūnija",
+    "distance": 0.0355105962242885
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.09345521802374,
-    "lng": 24.97878259422842,
-    "nearest_area": "Zibalai",
-    "distance": 0.00018338555508434938
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 8.466195836896247e-05
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 8.466195836896247e-05
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 8.466195836896247e-05
+    "raw_area": "Dubai Sports City",
+    "lat": 55.21783766708344,
+    "lng": 25.04291428459256,
+    "nearest_area": "Butkūnai",
+    "distance": 0.009332678894551706
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.14444146528524,
-    "lng": 25.06665212088598,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 8.466195836896247e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Downtown Dubai",
-    "lat": 55.27122202341866,
-    "lng": 25.19003277621214,
-    "nearest_area": "Ščiurys",
-    "distance": 0.0013235931877826677
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.32271326957836,
-    "lng": 25.30301218326463,
-    "nearest_area": "Pakryžė",
-    "distance": 0.004394323519051889
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Molėtų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Videniškių seniūnija",
-    "heatmap_area": "Molėtų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalai",
-    "distance": 0.00018338555508434938
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jebel Ali",
-    "lat": 55.09345521802374,
-    "lng": 24.97878259422842,
-    "nearest_area": "Zibalai",
-    "distance": 0.00018338555508434938
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Zibalų seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Širvintų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Zibalų seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.32271326957836,
-    "lng": 25.30301218326463,
-    "nearest_area": "Pakryžė",
-    "distance": 0.004394323519051889
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.11171799944759,
-    "lng": 25.1239609218123,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.020168211745886316
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.26063981708646,
-    "lng": 25.12651093934177,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.013618488166571891
-  },
-  {
-    "type": "close_polygon",
-    "area": "Ščiurys",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Ščiurys"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Ščiurys",
-    "heatmap_area": "Ščiurys",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34692936751237,
-    "lng": 25.20647729687822,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.010927353103191104
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.3496738741735,
-    "lng": 25.20172037330222,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.010721096632447122
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.26147315546677,
-    "lng": 25.18346898188757,
-    "nearest_area": "Videniškių seniūnija",
-    "distance": 0.002488520273205777
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.2505049137421,
-    "lng": 25.11513286848127,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.016773239435301127
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.0006749453580662288
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0006749453580662288
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.24603635013639,
-    "lng": 25.01858030908015,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.0006749453580662288
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.25260293101167,
-    "lng": 25.18058138072017,
-    "nearest_area": "Videniškių seniūnija",
-    "distance": 0.0024539763994333454
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.25228995627071,
-    "lng": 25.18138493838939,
-    "nearest_area": "Videniškių seniūnija",
-    "distance": 0.0015928306056491308
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.13871001173283,
-    "lng": 25.06166110632131,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.007410150407535935
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0007067508588047914
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0007067508588047914
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Wasl",
-    "lat": 55.26020198797281,
-    "lng": 25.20310377544111,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.0007067508588047914
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Umm Suqeim",
-    "lat": 55.19154787119876,
-    "lng": 25.13243116354678,
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
     "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.03024707930307328
+    "distance": 0.004669705689920229
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Harbour",
-    "lat": 55.141881959433,
-    "lng": 25.100634251965,
-    "nearest_area": "Bajorai",
-    "distance": 0.004744483596474084
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0005934432487344882
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0005934432487344882
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0005934432487344882
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.1440464954205,
-    "lng": 25.06609014899024,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.0005934432487344882
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Science Park",
-    "lat": 55.24638720115984,
-    "lng": 25.07106389688617,
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
     "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0037428241284090166
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.00018273866152619374
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.00018273866152619374
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.00018273866152619374
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.266893,
-    "lng": 25.188306,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00018273866152619374
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zibalų seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Zibalų seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Širvintų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Širvintų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Zibalų seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 1.953484948852882e-05
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 1.953484948852882e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21738904,
-    "lng": 25.06573933,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 1.953484948852882e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.20867203872908,
-    "lng": 25.0692047299446,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.003000583413729771
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 0.00023361331944643892
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Marina",
-    "lat": 55.148014,
-    "lng": 25.089626,
-    "nearest_area": "Bajorai",
-    "distance": 0.00023361331944643892
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.207289,
-    "lng": 25.068841,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0016171265706213004
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Hills Estate",
-    "lat": 55.2518664049916,
-    "lng": 25.11065257736453,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.013474692603878619
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.253988,
-    "lng": 25.013229,
-    "nearest_area": "Slabada",
-    "distance": 0.00897020181065701
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.252833,
-    "lng": 25.016833,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.0052686126669284185
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills",
-    "lat": 55.25367774135772,
-    "lng": 25.01585068900395,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.006524475804754787
+    "distance": 0.004669705689920229
   },
   {
     "type": "polygon_miss",
     "raw_area": "Arjan",
-    "lat": 55.23225934,
-    "lng": 25.06383995,
+    "lat": 55.24691192405393,
+    "lng": 25.0648572459059,
     "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008196720918953343
+    "distance": 0.0018415929826283975
   },
   {
     "type": "polygon_miss",
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.39158206580245,
-    "lng": 24.98329335273748,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.02668996582618722
+    "raw_area": "Remraam",
+    "lat": 55.247536,
+    "lng": 25.005626,
+    "nearest_area": "Slabada",
+    "distance": 0.0019538933568609414
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Studio City",
+    "lat": 55.24906328,
+    "lng": 25.04326349,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.004669705689920229
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "",
+    "lat": 55.38058184003702,
+    "lng": 25.09758246865806,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011417963987138437
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubailand",
+    "lat": 55.360343340986,
+    "lng": 25.074394178567,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.006536152506518854
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubailand",
+    "lat": 55.346583675328,
+    "lng": 25.074668134461,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.007706355600632301
   },
   {
     "type": "polygon_miss",
@@ -18055,14 +15775,6 @@
     "lng": 24.98854754730364,
     "nearest_area": "Butkūnai",
     "distance": 0.020648068703683256
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.38225982341243,
-    "lng": 25.08597554891856,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.018329889199623965
   },
   {
     "type": "polygon_miss",
@@ -18243,67 +15955,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.238355,
-    "lng": 25.066145,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.004703437925603033
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.3724459,
-    "lng": 25.09692698,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.004533384325025567
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.235912994398,
-    "lng": 25.018505267483,
-    "nearest_area": "Slabada",
-    "distance": 0.003507685446456419
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.235912994398,
-    "lng": 25.018505267483,
-    "nearest_area": "Slabada",
-    "distance": 0.003507685446456419
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.170073484459,
-    "lng": 24.992777803585,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.021315048860143126
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Land Residence Complex (DLRC)",
     "lat": 55.3847514816974,
     "lng": 25.09303942228972,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.01722828807824135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.215224,
-    "lng": 25.044179,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011315294963014002
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20264,
-    "lng": 25.033442,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.012197998073456643
   },
   {
     "type": "close_polygon",
@@ -18343,35 +15999,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.215265,
-    "lng": 25.045345,
-    "nearest_area": "Butkūnai",
-    "distance": 0.012383344802597354
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Haven by Aldar",
     "lat": 55.380473092615,
     "lng": 25.081661829816,
     "nearest_area": "Kurklių seniūnija",
     "distance": 0.0162233338638996
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Reem",
-    "lat": 55.304550609238,
-    "lng": 25.009801270001,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.007077913310088699
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.232672444002,
-    "lng": 24.977051073172,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.009110509561165018
   },
   {
     "type": "polygon_miss",
@@ -18431,14 +16063,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Discovery Gardens",
-    "lat": 55.13586130731012,
-    "lng": 25.04414067696667,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.01640114703428807
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Investment Park (DIP)",
     "lat": 55.175242664522,
     "lng": 24.989269339548,
@@ -18447,15 +16071,7 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.3242658878363,
-    "lng": 25.09361304068619,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.006964123456933922
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
+    "raw_area": "",
     "lat": 55.37280160190662,
     "lng": 25.0949189454839,
     "nearest_area": "Balninkai Eldership",
@@ -18495,34 +16111,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Zayed City",
-    "lat": 54.648328274352,
-    "lng": 24.403884636333,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.0010846011476210648
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Sobha Hartland",
     "lat": 55.302392694971,
     "lng": 25.17670707839,
     "nearest_area": "Ščiurys",
     "distance": 0.027276951048457444
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -18534,52 +16127,19 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.30559315604137,
-    "lng": 25.17986093716455,
-    "nearest_area": "Ščiurys",
-    "distance": 0.028668458551044624
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kibildžiai",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kurklių seniūnija",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.315094,
-    "lng": 25.094416,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0006919022047593041
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Hudayriat Island",
     "lat": 54.383152269865,
     "lng": 24.408864927294,
     "nearest_area": "Varėnos seniūnija",
     "distance": 0.006891710902182532
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Fahid Island",
+    "lat": 54.55880360833092,
+    "lng": 24.50909369859011,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.010744107493452426
   },
   {
     "type": "polygon_miss",
@@ -18599,6 +16159,14 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Al Shamkha",
+    "lat": 54.676927104413,
+    "lng": 24.362299586873,
+    "nearest_area": "Stakliškių seniūnija",
+    "distance": 0.00626336668403483
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Arjan",
     "lat": 55.24086288686886,
     "lng": 25.0560808268967,
@@ -18615,11 +16183,35 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Al Hudayriat Island",
+    "lat": 54.40427216769976,
+    "lng": 24.40773109120444,
+    "nearest_area": "Trakų rajono savivaldybė",
+    "distance": 0.02382417293247704
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "International City",
     "lat": 55.39609035961442,
     "lng": 25.16714401827882,
     "nearest_area": "Kurklių seniūnija",
     "distance": 0.0032923967522719318
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14552,
+    "lng": 25.076601,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.001443192267209199
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.145298,
+    "lng": 25.076279,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.001136997701825123
   },
   {
     "type": "close_polygon",
@@ -18671,88 +16263,6 @@
     "distance": 0.027555085232169766
   },
   {
-    "type": "close_polygon",
-    "area": "Aukštadvario seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Aukštadvario seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Stakliškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Stakliškių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Trakų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Aukštadvario seniūnija",
-    "heatmap_area": "Trakų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Aukštadvario seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Aukštadvario seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Stakliškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Stakliškių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Trakų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Aukštadvario seniūnija",
-    "heatmap_area": "Trakų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Raha Beach",
-    "lat": 54.60209667959522,
-    "lng": 24.44785858373068,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.005126374423913761
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Islands",
-    "lat": 55.327553433077,
-    "lng": 25.319077010622,
-    "nearest_area": "Pakryžė",
-    "distance": 0.00378422513658596
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Yas Island",
     "lat": 54.599803,
@@ -18782,111 +16292,6 @@
     "lng": 25.009123191741,
     "nearest_area": "Slabada",
     "distance": 0.0005980943668461657
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.392677,
-    "lng": 24.492602,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.02976989567627728
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.61603593311,
-    "lng": 24.504541234442,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.01846172859975503
-  },
-  {
-    "type": "close_polygon",
-    "area": "Varėnos seniūnija",
-    "distance": 0.0008021496990709304
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Saadiyat Island",
-    "lat": 54.40257610895733,
-    "lng": 24.53883728462387,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.0008021496990709304
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.408149,
-    "lng": 24.493246,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.014353175426511284
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Butkūnai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Butkūnai",
-    "heatmap_area": "Butkūnai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Reem Island",
-    "lat": 54.404165,
-    "lng": 24.499773,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.01909253249545504
   },
   {
     "type": "close_polygon",
@@ -18923,14 +16328,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Saadiyat Island",
-    "lat": 54.444338431491,
-    "lng": 24.519648299353,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.015533745362308412
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Yas Island",
     "lat": 54.612382714768,
     "lng": 24.507217082218,
@@ -18962,69 +16359,12 @@
     "distance": 0.0052103220182720365
   },
   {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kurklių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kurklių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Molėtų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 4
-  },
-  {
-    "type": "close_polygon",
-    "area": "Valai",
-    "distance": 0.0006357545921164902
-  },
-  {
-    "type": "close_polygon",
-    "area": "Žemaitkiemio seniūnija",
-    "distance": 0.00020602003749031268
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.00020602003749031268
-  },
-  {
     "type": "polygon_miss",
-    "raw_area": "Mudon",
-    "lat": 55.264632584682,
-    "lng": 25.017845991839,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.00020602003749031268
+    "raw_area": "International City",
+    "lat": 55.40221467919,
+    "lng": 25.15726826383,
+    "nearest_area": "Kurklių seniūnija",
+    "distance": 0.010979335549719983
   },
   {
     "type": "polygon_miss",
@@ -19052,59 +16392,19 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "City of Arabia",
-    "lat": 55.33225,
-    "lng": 25.086389,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.013327753203369706
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.37550054285117,
-    "lng": 25.09153015875824,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00975751539553994
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.22847907475935,
-    "lng": 25.04824532597208,
-    "nearest_area": "Butkūnai",
-    "distance": 0.01480240064172832
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
-    "lat": 55.393395594397,
-    "lng": 24.987104834855,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.023718411005881145
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.3247678843471,
-    "lng": 25.17632363941991,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.016353074885589815
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Dubai Studio City",
     "lat": 55.23575860068227,
     "lng": 25.03562988789544,
     "nearest_area": "Butkūnai",
     "distance": 0.008473106481239284
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Arjan",
+    "lat": 55.232812,
+    "lng": 25.056678,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.013754515049606522
   },
   {
     "type": "polygon_miss",
@@ -19124,27 +16424,26 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Shamkha",
-    "lat": 54.67925206123816,
-    "lng": 24.40224173162871,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.01888941804614299
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "DAMAC Hills 2 (Akoya by DAMAC)",
     "lat": 55.386862621076,
     "lng": 24.983187450139,
     "nearest_area": "Kurklių seniūnija",
     "distance": 0.02348688514406881
+  },
+  {
+    "type": "close_polygon",
+    "area": "Anykščiai District Municipality",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Anykščiai District Municipality"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Anykščiai District Municipality",
+    "heatmap_area": "Anykščiai District Municipality",
+    "match_count": 1
   },
   {
     "type": "polygon_miss",
@@ -19356,59 +16655,11 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Mina Al Arab",
-    "lat": 55.82921714127,
-    "lng": 25.712537504622,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.2215859588431005
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Helio",
     "lat": 55.595150565966,
     "lng": 25.390655392167,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Helio",
-    "lat": 55.595150565966,
-    "lng": 25.390655392167,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.027790015626601768
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Seanneeah",
-    "lat": 55.63072859948431,
-    "lng": 25.60639240600426,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.10657741596405788
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "RAK Central",
-    "lat": 55.79607260034378,
-    "lng": 25.69036968871827,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.18692780525668617
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Marjan Island",
-    "lat": 55.73604179876774,
-    "lng": 25.68709749816998,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.1685753238923008
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Mowaihat",
-    "lat": 55.491085,
-    "lng": 25.36688,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.006107615917774216
   },
   {
     "type": "polygon_miss",
@@ -19425,22 +16676,6 @@
     "lng": 25.39185098122245,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.0021490572940811854
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.029347964526386827
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Mamzar",
-    "lat": 55.3593680887827,
-    "lng": 25.30628986469133,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.029347964526386827
   },
   {
     "type": "polygon_miss",
@@ -19457,14 +16692,6 @@
     "lng": 25.394552,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.021287355460460948
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.0444100078191869
   },
   {
     "type": "polygon_miss",
@@ -19571,14 +16798,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Muwaileh Commercial",
-    "lat": 55.4578018188477,
-    "lng": 25.2984008789062,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.06461019124354168
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Rashidiya",
     "lat": 55.458126,
     "lng": 25.392367,
@@ -19618,29 +16837,6 @@
     "distance": 0.00582140536380024
   },
   {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Anykščiai District Municipality",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Manama",
-    "lat": 55.995941,
-    "lng": 25.331336,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.2367465688558133
-  },
-  {
     "type": "polygon_miss",
     "raw_area": "Al Helio",
     "lat": 55.595150565966,
@@ -19666,30 +16862,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Nuaimiya",
-    "lat": 55.435697,
-    "lng": 25.39052,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.002758586777918423
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.5713005065917,
-    "lng": 25.3784999847412,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03855852710775044
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Khan",
-    "lat": 55.360937,
-    "lng": 25.332545,
-    "nearest_area": "Alantos seniūnija",
-    "distance": 0.029455855425086316
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Yasmeen",
     "lat": 55.5713005065917,
     "lng": 25.3784999847412,
@@ -19703,38 +16875,6 @@
     "lng": 25.3784999847412,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.03855852710775044
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.5713005065917,
-    "lng": 25.3784999847412,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.03855852710775044
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Corniche Ajman",
-    "lat": 55.430433,
-    "lng": 25.404942,
-    "nearest_area": "Molėtų rajono savivaldybė",
-    "distance": 0.007755565097125012
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Ajmal Makan City - Sharjah Waterfront",
-    "lat": 55.532108,
-    "lng": 25.500872,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.07306865314900732
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rashidiya",
-    "lat": 55.430576532835,
-    "lng": 25.395069728899,
-    "nearest_area": "Molėtų rajono savivaldybė",
-    "distance": 0.006229296725444669
   },
   {
     "type": "polygon_miss",
@@ -19743,45 +16883,6 @@
     "lng": 25.400288,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.01873500901071939
-  },
-  {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Anykščiai District Municipality",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rashidiya",
-    "lat": 55.42955556515316,
-    "lng": 25.39485084930585,
-    "nearest_area": "Molėtų rajono savivaldybė",
-    "distance": 0.00518632366776496
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.0444100078191869
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Yasmeen",
-    "lat": 55.569521,
-    "lng": 25.372925,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.0444100078191869
   },
   {
     "type": "polygon_miss",
@@ -19817,22 +16918,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Ajmal Makan City - Sharjah Waterfront",
-    "lat": 55.532108,
-    "lng": 25.500872,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.07306865314900732
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Zahya",
-    "lat": 55.602666465888,
-    "lng": 25.414129848511,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.014633620311420672
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Tai",
     "lat": 55.589099,
     "lng": 25.24546,
@@ -19849,30 +16934,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Hoshi",
-    "lat": 55.542508226666,
-    "lng": 25.263492184226,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.11357907203800376
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Hoshi",
-    "lat": 55.542508226666,
-    "lng": 25.263492184226,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.11357907203800376
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Khor Fakkan",
-    "lat": 56.34908867233519,
-    "lng": 25.37357849797723,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.5874985516939678
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Ajmal Makan City - Sharjah Waterfront",
     "lat": 55.532108,
     "lng": 25.500872,
@@ -19886,22 +16947,6 @@
     "lng": 25.404653,
     "nearest_area": "Anykščiai District Municipality",
     "distance": 0.017707163733225173
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Old Town Area",
-    "lat": 55.57026115916266,
-    "lng": 25.59314843896267,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.10776133292532923
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Fisht",
-    "lat": 55.401292,
-    "lng": 25.37947,
-    "nearest_area": "Molėtų rajono savivaldybė",
-    "distance": 0.010002650190599927
   },
   {
     "type": "polygon_miss",
@@ -19961,14 +17006,6 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "",
-    "lat": 55.521536,
-    "lng": 25.503092,
-    "nearest_area": "Anykščiai District Municipality",
-    "distance": 0.08386269219748659
-  },
-  {
-    "type": "polygon_miss",
     "raw_area": "Al Bustan",
     "lat": 55.451093,
     "lng": 25.404653,
@@ -20005,6 +17042,374 @@
     "comparable_area": "Anykščiai District Municipality",
     "heatmap_area": "Anykščiai District Municipality",
     "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Emirates City",
+    "lat": 55.57343220046565,
+    "lng": 25.38976465695946,
+    "nearest_area": "Anykščiai District Municipality",
+    "distance": 0.027185883263898203
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41249758311852,
+    "lng": 24.53725127400562,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.005788665767631614
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Yas Island",
+    "lat": 54.60906280827507,
+    "lng": 24.46004716168622,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.004562265597299944
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43898436212852,
+    "lng": 24.53890378329439,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.009402001834481297
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.444338431491,
+    "lng": 24.519648299353,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.015533745362308412
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41276210061215,
+    "lng": 24.53788760319861,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.005259261430218159
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Marina",
+    "lat": 55.1367988586426,
+    "lng": 25.0739994049072,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.0043600835678392885
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Zibalų seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Širvintų rajono savivaldybė"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Zibalų seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 3
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21284505060012,
+    "lng": 25.05323237196717,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.006086494477018628
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.078083,
+    "lng": 24.954722,
+    "nearest_area": "Širvintos",
+    "distance": 0.002641563046886026
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.089306,
+    "lng": 24.970806,
+    "nearest_area": "Zibalai",
+    "distance": 0.0022046142020767513
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Zibalai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Zibalai",
+    "heatmap_area": "Zibalai",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Yas Island",
+    "lat": 54.624794224178,
+    "lng": 24.504932944677,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.023475198311228247
+  },
+  {
+    "type": "close_polygon",
+    "area": "Lyduokių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Lyduokių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Lyduokių seniūnija",
+    "heatmap_area": "Šešuolių seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.089306,
+    "lng": 24.970806,
+    "nearest_area": "Zibalai",
+    "distance": 0.0022046142020767513
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "nearest_area": "Zibalai",
+    "distance": 0.002019471099000143
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21284505060012,
+    "lng": 25.05323237196717,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.006086494477018628
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Palm Jumeirah",
+    "lat": 55.13662385731314,
+    "lng": 25.11266681107747,
+    "nearest_area": "Bajorai",
+    "distance": 0.0010473442912250015
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Raha Beach",
+    "lat": 55.228016,
+    "lng": 25.04457,
+    "nearest_area": "Butkūnai",
+    "distance": 0.011235102171317828
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14095363290596,
+    "lng": 25.0635993500747,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.0044584475894245985
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14095363290596,
+    "lng": 25.0635993500747,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.0044584475894245985
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "nearest_area": "Ežeraičiai",
+    "distance": 0.0011470380855543429
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "nearest_area": "Ežeraičiai",
+    "distance": 0.0011470380855543429
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "nearest_area": "Ežeraičiai",
+    "distance": 0.0011470380855543429
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.19592286,
+    "lng": 25.04556189,
+    "nearest_area": "Ežeraičiai",
+    "distance": 0.0011470380855543429
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.27372564556487,
+    "lng": 25.18195386425001,
+    "nearest_area": "Ščiurys",
+    "distance": 0.002473755849730996
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.40514716557482,
+    "lng": 24.49673867098242,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.01771713158938306
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "nearest_area": "Zibalai",
+    "distance": 0.002019471099000143
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Mudon",
+    "lat": 55.264471578425,
+    "lng": 25.021236224569,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.0011301928026272179
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.392716,
+    "lng": 24.491938,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.029696029223144686
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.394546,
+    "lng": 24.489662,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.0277988174548341
   },
   {
     "type": "polygon_miss",
@@ -21032,6 +18437,50 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Dubai South",
+    "lat": 55.13949410830633,
+    "lng": 24.83675104932472,
+    "nearest_area": "Pivonijos seniūnija",
+    "distance": 0.022450813490893715
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalai",
+    "distance": 0.00018338555508434938
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.09345521802374,
+    "lng": 24.97878259422842,
+    "nearest_area": "Zibalai",
+    "distance": 0.00018338555508434938
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 8.466195836896247e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 8.466195836896247e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 8.466195836896247e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.14444146528524,
+    "lng": 25.06665212088598,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 8.466195836896247e-05
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Downtown Dubai",
     "lat": 55.27122202341866,
     "lng": 25.19003277621214,
@@ -21040,11 +18489,411 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Dubai Islands",
+    "lat": 55.32271326957836,
+    "lng": 25.30301218326463,
+    "nearest_area": "Pakryžė",
+    "distance": 0.004394323519051889
+  },
+  {
+    "type": "close_polygon",
+    "area": "Videniškių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Videniškių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Molėtų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Molėtų rajono savivaldybė"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Videniškių seniūnija",
+    "heatmap_area": "Molėtų rajono savivaldybė",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalai",
+    "distance": 0.00018338555508434938
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jebel Ali",
+    "lat": 55.09345521802374,
+    "lng": 24.97878259422842,
+    "nearest_area": "Zibalai",
+    "distance": 0.00018338555508434938
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Zibalų seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Širvintų rajono savivaldybė"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Zibalų seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 3
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Islands",
+    "lat": 55.32271326957836,
+    "lng": 25.30301218326463,
+    "nearest_area": "Pakryžė",
+    "distance": 0.004394323519051889
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Palm Jumeirah",
+    "lat": 55.11171799944759,
+    "lng": 25.1239609218123,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.020168211745886316
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Dubai Hills Estate",
-    "lat": 55.25145989,
-    "lng": 25.11178535,
+    "lat": 55.26063981708646,
+    "lng": 25.12651093934177,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.013618488166571891
+  },
+  {
+    "type": "close_polygon",
+    "area": "Ščiurys",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Ščiurys"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Ščiurys",
+    "heatmap_area": "Ščiurys",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.34692936751237,
+    "lng": 25.20647729687822,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.010927353103191104
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Creek Harbour",
+    "lat": 55.3496738741735,
+    "lng": 25.20172037330222,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.010721096632447122
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.26147315546677,
+    "lng": 25.18346898188757,
+    "nearest_area": "Videniškių seniūnija",
+    "distance": 0.002488520273205777
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.2505049137421,
+    "lng": 25.11513286848127,
     "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.01433666651297659
+    "distance": 0.016773239435301127
+  },
+  {
+    "type": "close_polygon",
+    "area": "Lyduokių seniūnija",
+    "distance": 0.0006749453580662288
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0006749453580662288
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.24603635013639,
+    "lng": 25.01858030908015,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.0006749453580662288
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.25260293101167,
+    "lng": 25.18058138072017,
+    "nearest_area": "Videniškių seniūnija",
+    "distance": 0.0024539763994333454
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.25228995627071,
+    "lng": 25.18138493838939,
+    "nearest_area": "Videniškių seniūnija",
+    "distance": 0.0015928306056491308
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.13871001173283,
+    "lng": 25.06166110632131,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.007410150407535935
+  },
+  {
+    "type": "close_polygon",
+    "area": "Balninkai Eldership",
+    "distance": 0.0007067508588047914
+  },
+  {
+    "type": "close_polygon",
+    "area": "Videniškių seniūnija",
+    "distance": 0.0007067508588047914
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Wasl",
+    "lat": 55.26020198797281,
+    "lng": 25.20310377544111,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.0007067508588047914
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Umm Suqeim",
+    "lat": 55.19154787119876,
+    "lng": 25.13243116354678,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.03024707930307328
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Harbour",
+    "lat": 55.141881959433,
+    "lng": 25.100634251965,
+    "nearest_area": "Bajorai",
+    "distance": 0.004744483596474084
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 0.0005934432487344882
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 0.0005934432487344882
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0005934432487344882
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.1440464954205,
+    "lng": 25.06609014899024,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.0005934432487344882
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Science Park",
+    "lat": 55.24638720115984,
+    "lng": 25.07106389688617,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.0037428241284090166
+  },
+  {
+    "type": "close_polygon",
+    "area": "Balninkai Eldership",
+    "distance": 0.00018273866152619374
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.00018273866152619374
+  },
+  {
+    "type": "close_polygon",
+    "area": "Molėtų rajono savivaldybė",
+    "distance": 0.00018273866152619374
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.266893,
+    "lng": 25.188306,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.00018273866152619374
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Zibalų seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Širvintų rajono savivaldybė"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Zibalų seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21738904,
+    "lng": 25.06573933,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 1.953484948852882e-05
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.20867203872908,
+    "lng": 25.0692047299446,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.003000583413729771
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bajorai",
+    "distance": 0.00023361331944643892
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Marina",
+    "lat": 55.148014,
+    "lng": 25.089626,
+    "nearest_area": "Bajorai",
+    "distance": 0.00023361331944643892
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.207289,
+    "lng": 25.068841,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.0016171265706213004
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Hills Estate",
+    "lat": 55.2518664049916,
+    "lng": 25.11065257736453,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.013474692603878619
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.253988,
+    "lng": 25.013229,
+    "nearest_area": "Slabada",
+    "distance": 0.00897020181065701
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.252833,
+    "lng": 25.016833,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.0052686126669284185
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.25367774135772,
+    "lng": 25.01585068900395,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.006524475804754787
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Downtown Dubai",
+    "lat": 55.27122202341866,
+    "lng": 25.19003277621214,
+    "nearest_area": "Ščiurys",
+    "distance": 0.0013235931877826677
   },
   {
     "type": "polygon_miss",
@@ -21053,14 +18902,6 @@
     "lng": 25.22526214640345,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.014859454555251969
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Lake Towers (JLT)",
-    "lat": 55.153963,
-    "lng": 25.079233,
-    "nearest_area": "Bajorai",
-    "distance": 0.002214344806028079
   },
   {
     "type": "close_polygon",
@@ -26717,6 +24558,37 @@
     "distance": 0.004524811183766176
   },
   {
+    "type": "close_polygon",
+    "area": "Žydiškės",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Žydiškės"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Žydiškės",
+    "heatmap_area": "Žydiškės",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Furjan",
+    "lat": 55.13917580542564,
+    "lng": 25.01811527778692,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.006930847757223102
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Marina",
+    "lat": 55.135092,
+    "lng": 25.075712,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.004332610883426077
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Business Bay",
     "lat": 55.27613890289321,
@@ -28308,6 +26180,14 @@
     "distance": 0.0009098607036213159
   },
   {
+    "type": "polygon_miss",
+    "raw_area": "Mohammed Bin Rashid City (MBR City)",
+    "lat": 55.2840402202628,
+    "lng": 25.14362200427396,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.023146184629377328
+  },
+  {
     "type": "close_polygon",
     "area": "Balninkai Eldership",
     "distance": 0.0009098607036213159
@@ -28356,6 +26236,24 @@
   },
   {
     "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.000996336604388478
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.000996336604388478
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Triangle (JVT)",
+    "lat": 55.18613115,
+    "lng": 25.04127772,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.000996336604388478
+  },
+  {
+    "type": "close_polygon",
     "area": "Balninkai Eldership",
     "distance": 0.0009098607036213159
   },
@@ -28389,6 +26287,14 @@
     "lng": 25.04239510791329,
     "nearest_area": "Šešuolių seniūnija",
     "distance": 0.0009539309108689744
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Business Bay",
+    "lat": 55.273444,
+    "lng": 25.1765,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.007483715082891712
   },
   {
     "type": "close_polygon",
@@ -28497,14 +26403,6 @@
     "lng": 24.492201,
     "nearest_area": "Varėnos seniūnija",
     "distance": 0.0283147939143236
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.34779523454176,
-    "lng": 25.2054459232027,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.011111959479665963
   },
   {
     "type": "close_polygon",
@@ -28666,6 +26564,22 @@
     "lng": 25.06086551305016,
     "nearest_area": "Šešuolių seniūnija",
     "distance": 0.002578639113173564
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Downtown Dubai",
+    "lat": 55.27249623922484,
+    "lng": 25.1895468520721,
+    "nearest_area": "Ščiurys",
+    "distance": 0.002219652830964309
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.408722,
+    "lng": 24.496028,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.014079664870459415
   },
   {
     "type": "close_polygon",
@@ -28989,14 +26903,6 @@
     "lng": 25.06665212088598,
     "nearest_area": "Zibalų seniūnija",
     "distance": 8.466195836896247e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Creek Harbour",
-    "lat": 55.346275,
-    "lng": 25.210124,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.012316227351195103
   },
   {
     "type": "close_polygon",
@@ -29431,6 +27337,14 @@
     "match_count": 2
   },
   {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.392677,
+    "lng": 24.492602,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.02976989567627728
+  },
+  {
     "type": "close_polygon",
     "area": "Šešuolių seniūnija",
     "distance": 0.00094413284151513
@@ -29522,6 +27436,14 @@
     "distance": 0.014052679653859987
   },
   {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.406962,
+    "lng": 24.495999,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.015820318432187473
+  },
+  {
     "type": "close_polygon",
     "area": "Šešuolių seniūnija",
     "distance": 0.0
@@ -29568,6 +27490,14 @@
     "lng": 24.504541234442,
     "nearest_area": "Aukštadvario seniūnija",
     "distance": 0.01846172859975503
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Raha Beach",
+    "lat": 54.605983,
+    "lng": 24.449616,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.009264044319843687
   },
   {
     "type": "polygon_miss",
@@ -29681,6 +27611,14 @@
     "lng": 25.204346660306,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.007845070604560618
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Maryah Island",
+    "lat": 54.38790322104203,
+    "lng": 24.49478778703113,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.028419588559401875
   },
   {
     "type": "polygon_miss",
@@ -30451,6 +28389,14 @@
     "distance": 0.00488891296030019
   },
   {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.41782082829545,
+    "lng": 24.53203158605154,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.005128867885082554
+  },
+  {
     "type": "close_polygon",
     "area": "Bajorai",
     "distance": 0.00023361331944643892
@@ -30502,6 +28448,37 @@
     "comparable_area": "Lyduokių seniūnija",
     "heatmap_area": "Šešuolių seniūnija",
     "match_count": 2
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43668693192254,
+    "lng": 24.52112746273463,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.007828481180793876
+  },
+  {
+    "type": "close_polygon",
+    "area": "Aukštadvario seniūnija",
+    "distance": 0.0005629141428890229
+  },
+  {
+    "type": "close_polygon",
+    "area": "Stakliškių seniūnija",
+    "distance": 0.0005629141428890229
+  },
+  {
+    "type": "close_polygon",
+    "area": "Trakų rajono savivaldybė",
+    "distance": 0.0005629141428890229
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Raha Beach",
+    "lat": 54.597134869181,
+    "lng": 24.44902205862853,
+    "nearest_area": "Aukštadvario seniūnija",
+    "distance": 0.0005629141428890229
   },
   {
     "type": "close_polygon",
@@ -30590,6 +28567,14 @@
     "lng": 25.1771353283893,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.005589383321913282
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.43752228299033,
+    "lng": 24.52195163448043,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.008629667866150648
   },
   {
     "type": "polygon_miss",
@@ -31005,6 +28990,14 @@
     "distance": 0.004998786374881969
   },
   {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.4078495208797,
+    "lng": 24.51098596928264,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.018853124757287756
+  },
+  {
     "type": "close_polygon",
     "area": "Šešuolių seniūnija",
     "distance": 0.0005774012938544624
@@ -31037,6 +29030,22 @@
     "lng": 24.83882538640148,
     "nearest_area": "Pivonijos seniūnija",
     "distance": 0.022833980975286827
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.394735,
+    "lng": 24.49193,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.027679402516903446
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.41531451242079,
+    "lng": 24.50415941121266,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.00898483247450974
   },
   {
     "type": "close_polygon",
@@ -31222,6 +29231,14 @@
     "lng": 25.03839421644209,
     "nearest_area": "Zibalų seniūnija",
     "distance": 0.01261455662939037
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.21563962952035,
+    "lng": 25.04967033729282,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.010602960847325926
   },
   {
     "type": "polygon_miss",
@@ -31435,6 +29452,14 @@
     "lng": 25.288639,
     "nearest_area": "Balninkai Eldership",
     "distance": 0.012202580111192497
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Umm Suqeim",
+    "lat": 55.19588229014532,
+    "lng": 25.13027746115067,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.02794436626385817
   },
   {
     "type": "polygon_miss",
@@ -32418,6 +30443,30 @@
     "distance": 0.004415457740446891
   },
   {
+    "type": "close_polygon",
+    "area": "Kurklių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Kurklių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Kavarsko seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Kavarsko seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Kurklių seniūnija",
+    "heatmap_area": "Kavarsko seniūnija",
+    "match_count": 2
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Dubai Science Park",
     "lat": 55.24759004532095,
@@ -32568,14 +30617,6 @@
     "comparable_area": "Lyduokių seniūnija",
     "heatmap_area": "Šešuolių seniūnija",
     "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Bluewaters Island",
-    "lat": 55.12430538683333,
-    "lng": 25.07390434797496,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.014199166595525491
   },
   {
     "type": "close_polygon",
@@ -33062,6 +31103,22 @@
     "comparable_area": "Pumpučiai",
     "heatmap_area": "Pumpučiai",
     "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.211032,
+    "lng": 25.066313,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.0029128797191636698
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.211032,
+    "lng": 25.066313,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.0029128797191636698
   },
   {
     "type": "close_polygon",
@@ -33730,14 +31787,6 @@
     "comparable_area": "Šešuolių seniūnija",
     "heatmap_area": "Želvos seniūnija",
     "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Jumeirah Village Circle (JVC)",
-    "lat": 55.21363963804825,
-    "lng": 25.05909840268393,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.001676252711286955
   },
   {
     "type": "polygon_miss",
@@ -34532,6 +32581,14 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Dubai Marina",
+    "lat": 55.138468,
+    "lng": 25.075303,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.002255215970939955
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Jumeirah Village Circle (JVC)",
     "lat": 55.2158768252155,
     "lng": 25.05148793860586,
@@ -34802,6 +32859,14 @@
     "lng": 25.13014715293238,
     "nearest_area": "Šešuolių seniūnija",
     "distance": 0.027846494540990915
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.249609626157,
+    "lng": 25.027452045255,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.0037826460604059543
   },
   {
     "type": "polygon_miss",
@@ -35176,6 +33241,14 @@
     "lng": 25.077198,
     "nearest_area": "Bajorai",
     "distance": 0.0014469768519187597
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DAMAC Hills",
+    "lat": 55.25964090438,
+    "lng": 25.018738355403,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.003803826912048678
   },
   {
     "type": "polygon_miss",
@@ -35711,6 +33784,38 @@
   },
   {
     "type": "polygon_miss",
+    "raw_area": "Dubai South",
+    "lat": 55.210602099319,
+    "lng": 24.944794222929,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.005626828706561848
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Harbour",
+    "lat": 55.139725,
+    "lng": 25.09841,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.002254670733086397
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Al Reem Island",
+    "lat": 54.39330818495795,
+    "lng": 24.4943110433925,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.029229464493198198
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai Marina",
+    "lat": 55.133048,
+    "lng": 25.070527,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.009374912164031185
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Palm Jumeirah",
     "lat": 55.10995647481663,
     "lng": 25.11581368891743,
@@ -36108,1044 +34213,67 @@
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.012689240446646488
+    "raw_area": "Dubai Islands",
+    "lat": 55.3139021304678,
+    "lng": 25.30001994114242,
+    "nearest_area": "Pakryžė",
+    "distance": 0.00986416401440022
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Hudayriat Island",
-    "lat": 54.392959345387,
-    "lng": 24.411111936737,
-    "nearest_area": "Varėnos seniūnija",
-    "distance": 0.016938279050731916
+    "raw_area": "Dubai Islands",
+    "lat": 55.3139021304678,
+    "lng": 25.30001994114242,
+    "nearest_area": "Pakryžė",
+    "distance": 0.00986416401440022
   },
   {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Videniškių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Culture Village (Jaddaf Waterfront)",
-    "lat": 55.336114776132,
-    "lng": 25.227857246902,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.013141982483424663
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.015584078045769459
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.1884580814033,
-    "lng": 25.03810566737243,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.004927619946407382
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "International City",
-    "lat": 55.401556,
-    "lng": 25.144556,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.019775673181969045
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.00021079592528118132
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.00021079592528118132
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Maritime City",
-    "lat": 55.27052145367097,
-    "lng": 25.26749668533239,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00021079592528118132
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakai",
-    "distance": 6.418053644856143e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Living Legends",
-    "lat": 55.303974,
-    "lng": 25.089646,
-    "nearest_area": "Trakai",
-    "distance": 6.418053644856143e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Rawda",
-    "lat": 54.614714411344,
-    "lng": 24.431173622625,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.017922430159345377
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3739780926856,
-    "lng": 25.09833825777163,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.005227569573253636
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Zayed City",
-    "lat": 54.633209077221,
-    "lng": 24.40374094849,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.012756584954897307
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17991994445,
-    "lng": 24.99156038205,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03091265403092718
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.22710859448492,
-    "lng": 25.04584967063537,
-    "nearest_area": "Butkūnai",
-    "distance": 0.01208433171149051
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3126941018505,
-    "lng": 25.17602661455947,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.027355510634239855
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01722828807824135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.1884580814033,
-    "lng": 25.03810566737243,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.004927619946407382
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0043889688536223135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01722828807824135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland 2",
-    "lat": 55.32463661973391,
-    "lng": 25.17614742122095,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01655982832752243
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.22710859448492,
-    "lng": 25.04584967063537,
-    "nearest_area": "Butkūnai",
-    "distance": 0.01208433171149051
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.219939,
-    "lng": 25.038871,
-    "nearest_area": "Butkūnai",
-    "distance": 0.0051266050852398345
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0043889688536223135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.381152,
-    "lng": 25.084708,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.017943568983168595
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sheikh Zayed Road",
-    "lat": 55.271303,
-    "lng": 25.207675,
-    "nearest_area": "Ščiurys",
-    "distance": 0.007331737529396801
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3847514816974,
-    "lng": 25.09303942228972,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01722828807824135
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakai",
-    "distance": 6.418053644856143e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Living Legends",
-    "lat": 55.303974,
-    "lng": 25.089646,
-    "nearest_area": "Trakai",
-    "distance": 6.418053644856143e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.35491791331,
-    "lng": 25.074727676105,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.0025099240180305607
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.015584078045769459
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Videniškių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Reem",
-    "lat": 55.296553635427,
-    "lng": 25.01213717008,
-    "nearest_area": "Valai",
-    "distance": 0.007445921168765585
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.174721703113,
-    "lng": 24.989793561311,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.026737776734637567
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kibildžiai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kibildžiai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Kibildžiai",
-    "heatmap_area": "Kibildžiai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.24086288686886,
-    "lng": 25.0560808268967,
-    "nearest_area": "Laukeliai",
-    "distance": 0.006653485098391015
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.012689240446646488
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.382444,
-    "lng": 25.095167,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01419364761401124
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.345525601015,
-    "lng": 25.067875124904,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.012689240446646488
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.015584078045769459
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0043889688536223135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.280464055982,
-    "lng": 25.011678585822,
-    "nearest_area": "Valai",
-    "distance": 0.0024738963419619116
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.29132933348456,
-    "lng": 25.00488203951133,
-    "nearest_area": "Valai",
-    "distance": 0.004032496375227565
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228917,
-    "lng": 25.04725,
-    "nearest_area": "Butkūnai",
-    "distance": 0.014047498460578648
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3126941018505,
-    "lng": 25.17602661455947,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.027355510634239855
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.008585697393021877
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.202147,
-    "lng": 25.033668,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.01168580001540268
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.178460273689,
-    "lng": 24.9895138505,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.03031429031998855
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubailand",
-    "lat": 55.28581085316861,
-    "lng": 25.04199837091419,
-    "nearest_area": "Valai",
-    "distance": 0.0012618606457847552
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.231222,
-    "lng": 25.062944,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008356459023882438
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.231222,
-    "lng": 25.062944,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008356459023882438
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Studio City",
-    "lat": 55.23759728341432,
-    "lng": 25.02841759882834,
-    "nearest_area": "Slabada",
-    "distance": 0.006975132483986795
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.176382615165,
-    "lng": 24.988316754366,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.028827390456139183
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.171921,
-    "lng": 24.990092,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.024025567824797808
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.216191,
-    "lng": 25.043877,
-    "nearest_area": "Butkūnai",
-    "distance": 0.010689084792439534
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.37767668626245,
-    "lng": 25.09671099210168,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00925777472300037
-  },
-  {
-    "type": "close_polygon",
-    "area": "Žemaitkiemio seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Žemaitkiemio seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Molėtų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Žemaitkiemio seniūnija",
-    "heatmap_area": "Molėtų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.16994885916,
-    "lng": 24.990953276443,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.021874699688990737
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.204142,
-    "lng": 25.037646,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.01117525435057299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.204142,
-    "lng": 25.037646,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.01117525435057299
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.29964103190122,
-    "lng": 24.99766009726699,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.006227956482726562
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 55.31446893431971,
-    "lng": 25.21225273501759,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.004804129101807409
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17628667693496,
-    "lng": 24.99474155262661,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.026359870103122452
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380444,
-    "lng": 25.086639,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01641461604938224
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.23330826014649,
-    "lng": 25.06405851745434,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.008604228414768931
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Sports City",
-    "lat": 55.21906255254699,
-    "lng": 25.03994023781563,
-    "nearest_area": "Butkūnai",
-    "distance": 0.006211536648689935
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Majan",
-    "lat": 55.32188921802,
-    "lng": 25.090813566325,
-    "nearest_area": "Kibildžiai",
-    "distance": 0.0043889688536223135
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.17552441068,
-    "lng": 24.988405351565,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.02799735847560831
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.175242664522,
-    "lng": 24.989269339548,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.027415788741130386
-  },
-  {
-    "type": "close_polygon",
-    "area": "Valai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Valai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Valai",
-    "heatmap_area": "Valai",
-    "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Meydan",
-    "lat": 55.31877045015,
-    "lng": 25.162089004672,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.03043077969005624
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Meydan",
-    "lat": 55.31877045015,
-    "lng": 25.162089004672,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.03043077969005624
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.380374131566,
-    "lng": 25.088282679928,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.015584078045769459
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.24818287705617,
-    "lng": 25.04911422201722,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0024824071031081265
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.202147,
-    "lng": 25.033668,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.01168580001540268
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Videniškių seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.00028910347881520534
-  },
-  {
-    "type": "close_polygon",
-    "area": "Alantos seniūnija",
-    "distance": 0.00028910347881520534
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Al Jaddaf",
-    "lat": 55.32927585,
-    "lng": 25.21458132,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.00028910347881520534
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.295345,
-    "lng": 25.005782,
-    "nearest_area": "Valai",
-    "distance": 0.007733048994422982
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Land Residence Complex (DLRC)",
-    "lat": 55.3797091704638,
-    "lng": 25.0962712669174,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.011259908017833007
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "City of Arabia",
-    "lat": 55.33195908630545,
-    "lng": 25.08692076806398,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.01336640838758161
-  },
-  {
-    "type": "close_polygon",
-    "area": "Žemaitkiemio seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Žemaitkiemio seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Molėtų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Žemaitkiemio seniūnija",
-    "heatmap_area": "Molėtų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Zayed City",
-    "lat": 54.633209077221,
-    "lng": 24.40374094849,
-    "nearest_area": "Nemaitonių seniūnija",
-    "distance": 0.012756584954897307
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.008585697393021877
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.008585697393021877
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Production City (IMPZ)",
-    "lat": 55.20133149,
-    "lng": 25.03774362,
-    "nearest_area": "Ežeraičiai",
-    "distance": 0.008585697393021877
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.29722338947641,
-    "lng": 24.99816512528965,
-    "nearest_area": "Žemaitkiemio seniūnija",
-    "distance": 0.00862431572807403
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Town Square",
-    "lat": 55.29016323683356,
-    "lng": 25.00403030177826,
-    "nearest_area": "Valai",
-    "distance": 0.0030938454829318738
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.3359087232827,
-    "lng": 25.18432895927254,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.0027023389210651966
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Sobha Hartland",
-    "lat": 55.31033471344952,
-    "lng": 25.17519478044186,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.029857171843997703
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
-  },
-  {
     "type": "polygon_miss",
-    "raw_area": "Wasl Gate",
-    "lat": 55.107222,
-    "lng": 25.020556,
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
     "nearest_area": "Zibalai",
-    "distance": 0.022729131916989213
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kibildžiai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kibildžiai"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Kurklių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Kurklių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Molėtų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Molėtų rajono savivaldybė"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Anykščiai District Municipality",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Anykščiai District Municipality"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Kibildžiai",
-    "heatmap_area": "Anykščiai District Municipality",
-    "match_count": 5
-  },
-  {
-    "type": "close_polygon",
-    "area": "Balninkai Eldership",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Balninkai Eldership"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Videniškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Videniškių seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Balninkai Eldership",
-    "heatmap_area": "Videniškių seniūnija",
-    "match_count": 2
+    "distance": 0.002019471099000143
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "nearest_area": "Zibalai",
+    "distance": 0.002019471099000143
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Dubai Industrial City",
-    "lat": 55.038554,
-    "lng": 24.870058,
-    "nearest_area": "Širvintų seniūnija",
-    "distance": 0.027147560370132853
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "nearest_area": "Zibalai",
+    "distance": 0.002019471099000143
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Al Bahia",
-    "lat": 54.636964304759,
-    "lng": 24.513340210259,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.01681010116232431
+    "raw_area": "Jebel Ali",
+    "lat": 55.08857651,
+    "lng": 24.97103564,
+    "nearest_area": "Zibalai",
+    "distance": 0.002019471099000143
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Motor City",
-    "lat": 55.228016,
-    "lng": 25.04457,
-    "nearest_area": "Butkūnai",
-    "distance": 0.011235102171317828
+    "raw_area": "Business Bay",
+    "lat": 55.25924255150594,
+    "lng": 25.18429415225089,
+    "nearest_area": "Videniškių seniūnija",
+    "distance": 0.00100649912519918
   },
   {
     "type": "polygon_miss",
-    "raw_area": "Arjan",
-    "lat": 55.23959680557979,
-    "lng": 25.0626022882491,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.005157793031037649
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Investment Park (DIP)",
-    "lat": 55.233695185624,
-    "lng": 24.973706896782,
-    "nearest_area": "Lyduokių seniūnija",
-    "distance": 0.0056305395764495465
+    "raw_area": "Al Furjan",
+    "lat": 55.153100099949,
+    "lng": 25.022857170783,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.003977000644266921
   },
   {
     "type": "close_polygon",
@@ -43295,6 +40423,21 @@
   },
   {
     "type": "close_polygon",
+    "area": "Palm Deira",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Deira"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Deira",
+    "heatmap_area": "Palm Deira",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Al Barari",
     "distance": 0.0
   },
@@ -43334,21 +40477,6 @@
     "comparable_area": "Al Barari",
     "heatmap_area": "Wadi Al Safa 3",
     "match_count": 4
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -43740,45 +40868,6 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bluewaters",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bluewaters"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bluewaters",
-    "heatmap_area": "Bluewaters",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubai Marina",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Dubai Marina"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubai Marina",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Dubai Marina"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
-    "heatmap_area": "Dubai Marina",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -45020,21 +42109,6 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -47163,6 +44237,59 @@
   },
   {
     "type": "close_polygon",
+    "area": "District 10",
+    "distance": 0.0007437962454842672
+  },
+  {
+    "type": "close_polygon",
+    "area": "District 11",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "District 11"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Barsha South 4",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Barsha South 4"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Village Circle",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Village Circle"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "District 11",
+    "heatmap_area": "Jumeirah Village Circle",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Hebiah 4",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 4"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Hebiah 4",
+    "heatmap_area": "Al Hebiah 4",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Bur Dubai",
     "distance": 0.0
   },
@@ -47184,5 +44311,178 @@
     "comparable_area": "Downtown Dubai",
     "heatmap_area": "Bur Dubai",
     "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Naif",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Naif"
+  },
+  {
+    "type": "close_polygon",
+    "area": NaN,
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": NaN
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Naif",
+    "heatmap_area": NaN,
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Majan",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Majan"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Wadi Al Safa 3",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Wadi Al Safa 3"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Wadi Al Safa 3",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Wadi Al Safa 3"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Majan",
+    "heatmap_area": "Wadi Al Safa 3",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Downtown Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Downtown Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Downtown Dubai",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Jaddaf",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Jaddaf"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Jaddaf",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Hebiah 3",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 3"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Hebiah 3",
+    "heatmap_area": "Al Hebiah 3",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Deira Islands",
+    "lat": 25.31846,
+    "lng": 55.305615,
+    "nearest_area": "Palm Deira",
+    "distance": 0.001213211749262529
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emaar South Golf District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emaar South Golf District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Emaar South Golf District",
+    "heatmap_area": "Emaar South Golf District",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emaar South Golf District",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emaar South Golf District"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Emaar South Golf District",
+    "heatmap_area": "Emaar South Golf District",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "New Ras Al Khor Community",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "New Ras Al Khor Community"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "New Ras Al Khor Community",
+    "heatmap_area": "New Ras Al Khor Community",
+    "match_count": 1
   }
 ]
