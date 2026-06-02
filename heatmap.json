@@ -2,20 +2,40 @@
   {
     "sources": [
       "propertyfinder",
-      "bhomes"
+      "dubizzle",
+      "bhomes",
+      "99acres"
     ],
     "area": "Jumeirah Village Circle",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1432,
+    "median_price_per_sqft": 1267,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.20867203872908,
+    "lng": 25.0692047299446,
+    "color": "green"
+  },
+  {
+    "sources": [
+      "dubizzle"
+    ],
+    "area": "Jumeirah Village Triangle (Jvt)",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 1497,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
-    "lat": 25.062724,
-    "lng": 55.208325,
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.181845227714,
+    "lng": 25.041558880969,
     "color": "green"
   },
   {
@@ -31,28 +51,28 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
+      "dubizzle",
       "bhomes"
     ],
-    "area": "Dubai Marina",
+    "area": "Jumeirah Village Circle",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 1852,
-    "listing_count": 7,
-    "comparable_count": 7,
+    "bedrooms": 0,
+    "median_price_per_sqft": 1689,
+    "listing_count": 6,
+    "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
-    "lat": 25.072954,
-    "lng": 55.128089,
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.213305535744,
+    "lng": 25.06841785674463,
     "color": "yellow"
   },
   {
@@ -69,7 +89,7 @@
     "listing_count": 9,
     "comparable_count": 9,
     "confidence": "High",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.068151,
     "lng": 55.129647,
     "color": "yellow"
@@ -88,9 +108,69 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Dubai Marina",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2183,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.140594,
+    "lng": 25.080958,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "99acres",
+      "bhomes"
+    ],
+    "area": "Bur Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2368,
+    "listing_count": 11,
+    "comparable_count": 11,
+    "confidence": "High",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 25.195023,
+    "lng": 55.283553,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "dubizzle",
+      "bhomes"
+    ],
+    "area": "Downtown Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 2397,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.27315133554561,
+    "lng": 25.19029633034682,
     "color": "yellow"
   },
   {
@@ -107,28 +187,9 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.212088,
     "lng": 55.282761,
-    "color": "yellow"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes"
-    ],
-    "area": "Bur Dubai",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 2468,
-    "listing_count": 11,
-    "comparable_count": 11,
-    "confidence": "High",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
-    "lat": 25.195023,
-    "lng": 55.283553,
     "color": "yellow"
   },
   {
@@ -145,7 +206,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.25863,
     "lng": 55.278074,
     "color": "yellow"
@@ -164,7 +225,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.202959,
     "lng": 55.26006,
     "color": "yellow"
@@ -172,6 +233,7 @@
   {
     "sources": [
       "propertyfinder",
+      "dubizzle",
       "bhomes"
     ],
     "area": "Palm Jumeirah",
@@ -180,12 +242,31 @@
     "quality_tier": "standard",
     "bedrooms": 2,
     "median_price_per_sqft": 3370,
-    "listing_count": 6,
-    "comparable_count": 6,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 55.11216947531227,
+    "lng": 25.12500362163502,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Bur Dubai",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "premium",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3397,
+    "listing_count": 7,
+    "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
-    "lat": 25.112604,
-    "lng": 55.143347,
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
+    "lat": 25.267706,
+    "lng": 55.285812,
     "color": "red"
   },
   {
@@ -201,7 +282,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T06:09:22.720237+00:00",
+    "last_updated": "2026-06-02T10:03:51.002215+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
