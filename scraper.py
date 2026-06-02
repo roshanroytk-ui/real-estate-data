@@ -1399,6 +1399,14 @@ for page in range(1,11):
     
         break
 
+    sleep_time = random.uniform(2, 6)
+
+    print(
+        f"99ACRES WAITING {sleep_time:.1f}s"
+    )
+    
+    time.sleep(sleep_time)
+
     print("99ACRES STATUS:", response.status_code)
     print("99ACRES URL:", response.url)
     print("99ACRES TITLE CHECK:")
