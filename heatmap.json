@@ -1,8 +1,8 @@
 [
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "bhomes",
+      "propertyfinder"
     ],
     "area": "Hadaeq Sheikh Mohammed Bin Rashid",
     "property_type": "apartment",
@@ -13,7 +13,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-01T17:28:21.469162+00:00",
+    "last_updated": "2026-06-02T03:00:30.145312+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
@@ -31,7 +31,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-01T17:28:21.469162+00:00",
+    "last_updated": "2026-06-02T03:00:30.145312+00:00",
     "lat": 25.198795318603516,
     "lng": 55.27134323120117,
     "color": "yellow"
@@ -49,10 +49,28 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-01T17:28:21.469162+00:00",
+    "last_updated": "2026-06-02T03:00:30.145312+00:00",
     "lat": 25.195236206054688,
     "lng": 55.27145004272461,
     "color": "yellow"
+  },
+  {
+    "sources": [
+      "propertyfinder"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 5023,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T03:00:30.145312+00:00",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
+    "color": "red"
   },
   {
     "sources": [
@@ -67,7 +85,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-01T17:28:21.469162+00:00",
+    "last_updated": "2026-06-02T03:00:30.145312+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
