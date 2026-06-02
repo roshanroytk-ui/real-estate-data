@@ -2308,6 +2308,13 @@ for source_data in all_soups:
 
         for prop in properties_data:
 
+            print(
+                "99ACRES FOUND:",
+                prop.get("PROP_HEADING"),
+                prop.get("MIN_PRICE"),
+                prop.get("CARPET_AREA")
+            )
+
             try:
 
                 property_url = (
@@ -2347,18 +2354,24 @@ for source_data in all_soups:
                     original_price,
                     "INR"
                 )
-
+                
                 currency = "AED"
-
+                
+                if not price or price <= 0:
+                    continue
+                
                 try:
-
+                
                     sqft = float(
                         prop.get(
                             "CARPET_AREA",
                             0
                         )
                     )
-
+                
+                    if sqft <= 0:
+                        continue
+                
                 except:
                     continue
 
@@ -2394,16 +2407,16 @@ for source_data in all_soups:
                 try:
 
                     lat = float(
-                        map_details.get(
-                            "LATITUDE"
-                        )
+                        map_details.get("LATITUDE")
                     )
-
+                    
                     lng = float(
-                        map_details.get(
-                            "LONGITUDE"
-                        )
+                        map_details.get("LONGITUDE")
                     )
+                    
+                    # 99acres sometimes swaps them
+                    if lat > 40:
+                        lat, lng = lng, lat
 
                 except:
 
@@ -2494,6 +2507,15 @@ for source_data in all_soups:
                     bedrooms
                 ):
                     continue
+
+                print(
+                    "ADDING 99ACRES:",
+                    title,
+                    area,
+                    bedrooms,
+                    sqft,
+                    price
+                )
 
                 properties.append({
 
@@ -2632,6 +2654,9 @@ for property in properties:
 
         initial_groups[key] = []
 
+    if "price_per_sqft" not in property:
+        continue
+    
     initial_groups[key].append(
         property["price_per_sqft"]
     )
