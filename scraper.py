@@ -13,10 +13,12 @@ from shapely.geometry import Point
 import os
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
-bayut_base_url = "https://www.bayut.com/for-sale/apartments/dubai/"
 propertyfinder_base_url = (
     "https://www.propertyfinder.ae/en/"
     "buy/dubai/apartments-for-sale.html"
+)
+ninetynineacres_base_url = (
+    "https://www.99acres.com/property-in-dubai-ffid"
 )
 
 headers = {
@@ -385,6 +387,21 @@ MIN_QUALITY_COMPS = {
 
     "ultra_luxury": 2
 }
+
+AED_TO_INR = 22.7
+
+def normalize_price_to_aed(price, currency):
+
+    if not price:
+        return None
+
+    if currency == "AED":
+        return float(price)
+
+    if currency == "INR":
+        return float(price) / AED_TO_INR
+
+    return float(price)
 
 
 def normalize_area(area):
@@ -1359,6 +1376,30 @@ for page in range(1, 11):
         "soup": soup
     })
 
+# 99ACRES
+
+for page in range(1,11):
+
+    url = (
+        ninetynineacres_base_url
+        + f"?page={page}"
+    )
+
+    response = session.get(
+        url,
+        timeout=20
+    )
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    all_soups.append({
+        "source": "99acres",
+        "soup": soup
+    })
+
 polygon_debug = []
 runtime_debug = []
 
@@ -2203,6 +2244,332 @@ for source_data in all_soups:
 
         print(
             "PROPERTYFINDER NEXT_DATA Error:",
+            e
+        )
+
+# =========================================
+# 99ACRES PARSER
+# =========================================
+
+for source_data in all_soups:
+
+    if source_data["source"] != "99acres":
+        continue
+
+    soup = source_data["soup"]
+
+    try:
+
+        scripts = soup.find_all("script")
+
+        json_text = None
+
+        for script in scripts:
+
+            text = script.string
+
+            if not text:
+                continue
+
+            if "window.__initialData__" in text:
+
+                match = re.search(
+                    r'window\.__initialData__\s*=\s*({.*?});',
+                    text,
+                    re.DOTALL
+                )
+
+                if match:
+                    json_text = match.group(1)
+                    break
+
+        if not json_text:
+            continue
+
+        data = json.loads(json_text)
+
+        print("99ACRES ROOT KEYS:")
+        print(data.keys())
+        
+        print("99ACRES SRP KEYS:")
+        print(data.get("srp", {}).keys())
+
+        properties_data = (
+            data
+            .get("srp", {})
+            .get("pageData", {})
+            .get("properties", [])
+        )
+
+        print(
+            "99ACRES PROPERTY COUNT:",
+            len(properties_data)
+        )
+
+        for prop in properties_data:
+
+            try:
+
+                property_url = (
+                    "https://www.99acres.com/"
+                    + prop.get(
+                        "PROP_DETAILS_URL",
+                        ""
+                    )
+                )
+
+                if not property_url:
+                    continue
+
+                if property_url in seen_urls:
+                    continue
+
+                seen_urls.add(property_url)
+
+                title = prop.get(
+                    "PROP_HEADING",
+                    "Unknown"
+                )
+
+                try:
+
+                    original_price = float(
+                        prop.get(
+                            "MIN_PRICE",
+                            0
+                        )
+                    )
+
+                except:
+                    continue
+
+                price = normalize_price_to_aed(
+                    original_price,
+                    "INR"
+                )
+
+                currency = "AED"
+
+                try:
+
+                    sqft = float(
+                        prop.get(
+                            "CARPET_AREA",
+                            0
+                        )
+                    )
+
+                except:
+                    continue
+
+                try:
+
+                    bedrooms = int(
+                        prop.get(
+                            "BEDROOM_NUM",
+                            0
+                        )
+                    )
+
+                except:
+                    bedrooms = 0
+
+                try:
+
+                    bathrooms = int(
+                        prop.get(
+                            "BATHROOM_NUM",
+                            0
+                        )
+                    )
+
+                except:
+                    bathrooms = None
+
+                map_details = prop.get(
+                    "MAP_DETAILS",
+                    {}
+                )
+
+                try:
+
+                    lat = float(
+                        map_details.get(
+                            "LATITUDE"
+                        )
+                    )
+
+                    lng = float(
+                        map_details.get(
+                            "LONGITUDE"
+                        )
+                    )
+
+                except:
+
+                    lat = None
+                    lng = None
+
+                raw_area = prop.get(
+                    "LOCALITY",
+                    "Unknown"
+                )
+
+                area_info = get_area_assignment(
+                    lat,
+                    lng,
+                    raw_area
+                )
+
+                area = area_info[
+                    "comparable_area"
+                ]
+
+                heatmap_area = area_info[
+                    "heatmap_area"
+                ]
+
+                description = prop.get(
+                    "DESCRIPTION",
+                    ""
+                )
+
+                tower_name = prop.get(
+                    "BUILDING_NAME",
+                    "Unknown"
+                )
+
+                amenities = normalize_amenities(
+                    prop.get(
+                        "TOP_USPS",
+                        []
+                    )
+                )
+
+                furnished_status = "UNKNOWN"
+
+                furnish_value = str(
+                    prop.get(
+                        "FURNISH",
+                        ""
+                    )
+                )
+
+                if furnish_value == "1":
+                    furnished_status = "YES"
+
+                elif furnish_value == "4":
+                    furnished_status = "PARTIAL"
+
+                completion_status = "unknown"
+
+                secondary_tags = prop.get(
+                    "SECONDARY_TAGS",
+                    []
+                )
+
+                if (
+                    "Ready To Move"
+                    in secondary_tags
+                ):
+                    completion_status = "ready"
+
+                elif (
+                    "Under Construction"
+                    in secondary_tags
+                ):
+                    completion_status = "off_plan"
+
+                property_type = normalize_property_type(
+                    "apartment",
+                    title=title,
+                    description=description
+                )
+
+                if is_duplicate_property(
+                    lat,
+                    lng,
+                    price,
+                    sqft,
+                    bedrooms
+                ):
+                    continue
+
+                properties.append({
+
+                    "source": "99acres",
+
+                    "title": title,
+
+                    "price": price,
+
+                    "currency": "AED",
+
+                    "original_price":
+                    original_price,
+
+                    "original_currency":
+                    "INR",
+
+                    "area": area,
+
+                    "heatmap_area":
+                    heatmap_area,
+
+                    "raw_area":
+                    raw_area,
+
+                    "lat": lat,
+
+                    "lng": lng,
+
+                    "sqft": sqft,
+
+                    "bedrooms": bedrooms,
+
+                    "bathrooms": bathrooms,
+
+                    "property_type":
+                    property_type,
+
+                    "url": property_url,
+
+                    "description":
+                    description,
+
+                    "tower_name":
+                    tower_name,
+
+                    "amenities":
+                    amenities,
+
+                    "completion_status":
+                    completion_status,
+
+                    "furnished_status":
+                    furnished_status,
+
+                    "is_verified":
+                    False,
+
+                    "layout_type":
+                    "standard",
+
+                    "quality_tier":
+                    "standard"
+                })
+
+            except Exception as e:
+
+                print(
+                    "99ACRES LISTING ERROR:",
+                    e
+                )
+
+    except Exception as e:
+
+        print(
+            "99ACRES PARSER ERROR:",
             e
         )
             
