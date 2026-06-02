@@ -1632,18 +1632,18 @@ for hit in dubizzle_hits:
             raw_area = names["en"][0]
 
         # DEBUG
-        if raw_area == "Emirates City":
+        if raw_area == "Downtown Dubai":
             print(
-                "EMIRATES CITY GEO:",
+                "Downtown Dubai:",
                 geo
             )
 
-        print(
-            "DUBIZZLE RAW:",
-            raw_area,
-            lat,
-            lng
-        )
+            print(
+                "Downtown Dubai:",
+                raw_area,
+                lat,
+                lng
+            )
 
         area_info = get_area_assignment(
             lat,
