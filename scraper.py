@@ -1390,12 +1390,16 @@ for page in range(1,11):
         timeout=20
     )
 
-    with open(
-        f"99acres_debug_page_{page}.html",
-        "w",
-        encoding="utf-8"
-    ) as f:
-        f.write(response.text)
+    print("99ACRES STATUS:", response.status_code)
+    print("99ACRES URL:", response.url)
+    print("99ACRES TITLE CHECK:")
+    
+    tmp_soup = BeautifulSoup(response.text, "html.parser")
+    
+    if tmp_soup.title:
+        print(tmp_soup.title.text)
+    
+    print(response.text[:500])
 
     soup = BeautifulSoup(
         response.text,
