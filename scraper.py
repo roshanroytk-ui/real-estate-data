@@ -1550,7 +1550,7 @@ seen_urls = set()
 potential_duplicates = []
 
 dubizzle_hits = fetch_dubizzle_algolia(
-    max_pages=5
+    max_pages=100
 )
 
 print(
