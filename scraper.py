@@ -1589,8 +1589,8 @@ for hit in dubizzle_hits:
             {}
         )
 
-        lat = geo.get("lat")
-        lng = geo.get("lng")
+        lat = geo.get("lng")
+        lng = geo.get("lat")
 
 
         title = (
@@ -1631,19 +1631,6 @@ for hit in dubizzle_hits:
 
             raw_area = names["en"][0]
 
-        # DEBUG
-        if raw_area == "Downtown Dubai":
-            print(
-                "Downtown Dubai:",
-                geo
-            )
-
-            print(
-                "Downtown Dubai:",
-                raw_area,
-                lat,
-                lng
-            )
 
         area_info = get_area_assignment(
             lat,
