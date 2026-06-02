@@ -1284,6 +1284,23 @@ Return format:
 all_soups = []
 
 # =========================================
+# DUBIZZLE ALGOLIA
+# =========================================
+
+APP_ID = "WD0PTZ13ZS"
+API_KEY = "cef139620248f1bc328a00fddc7107a6"
+
+ALGOLIA_URL = (
+    f"https://{APP_ID}-dsn.algolia.net/1/indexes/*/queries"
+)
+
+ALGOLIA_HEADERS = {
+    "X-Algolia-Application-Id": APP_ID,
+    "X-Algolia-API-Key": API_KEY,
+    "Content-Type": "application/json"
+}
+
+# =========================================
 # BHOMES
 # =========================================
 
@@ -1473,6 +1490,263 @@ coord_map = {
 properties = []
 seen_urls = set()
 potential_duplicates = []
+
+dubizzle_hits = fetch_dubizzle_algolia(
+    max_pages=5
+)
+
+print(
+    "TOTAL DUBIZZLE LISTINGS:",
+    len(dubizzle_hits)
+)
+
+# =========================================
+# DUBIZZLE SCRAPER
+# =========================================
+
+def fetch_dubizzle_algolia(max_pages=25):
+
+    listings = []
+
+    for page in range(max_pages):
+
+        payload = {
+            "requests": [
+                {
+                    "indexName":
+                    "by_verification_feature_asc_property-for-sale-residential.com",
+
+                    "params":
+                    f"query=&page={page}&hitsPerPage=35"
+                }
+            ]
+        }
+
+        try:
+
+            response = requests.post(
+                ALGOLIA_URL,
+                headers=ALGOLIA_HEADERS,
+                json=payload,
+                timeout=30
+            )
+
+            response.raise_for_status()
+
+            data = response.json()
+
+            hits = data["results"][0]["hits"]
+
+            listings.extend(hits)
+
+            print(
+                f"DUBIZZLE PAGE {page} "
+                f"({len(hits)} listings)"
+            )
+
+            time.sleep(0.5)
+
+        except Exception as e:
+
+            print(
+                "DUBIZZLE ERROR:",
+                page,
+                e
+            )
+
+    return listings
+
+# =========================================
+# DUBIZZLE PARSER
+# =========================================
+
+for hit in dubizzle_hits:
+
+    try:
+
+        price = hit.get("price")
+
+        sqft = hit.get("size")
+
+        if not price or not sqft:
+            continue
+
+        bedrooms = hit.get(
+            "bedrooms",
+            0
+        )
+
+        bathrooms = hit.get(
+            "bathrooms"
+        )
+
+        geo = hit.get(
+            "_geoloc",
+            {}
+        )
+
+        lat = geo.get("lat")
+        lng = geo.get("lng")
+
+        title = (
+            hit.get("name", {})
+            .get("en", "")
+        )
+
+        property_url = (
+            hit.get(
+                "absolute_url",
+                {}
+            )
+            .get("en")
+        )
+
+        if not property_url:
+            continue
+
+        if property_url in seen_urls:
+            continue
+
+        seen_urls.add(property_url)
+
+        raw_area = ""
+
+        neighborhoods = hit.get(
+            "neighborhoods",
+            {}
+        )
+
+        names = neighborhoods.get(
+            "name",
+            {}
+        )
+
+        if names.get("en"):
+
+            raw_area = names["en"][0]
+
+        area_info = get_area_assignment(
+            lat,
+            lng,
+            raw_area
+        )
+
+        area = (
+            area_info[
+                "comparable_area"
+            ]
+        )
+
+        heatmap_area = (
+            area_info[
+                "heatmap_area"
+            ]
+        )
+
+        if is_duplicate_property(
+            lat,
+            lng,
+            price,
+            sqft,
+            bedrooms
+        ):
+            continue
+
+        building = hit.get(
+            "building"
+        )
+
+        tower_name = "Unknown"
+
+        if building:
+
+            tower_name = (
+                building.get(
+                    "name",
+                    {}
+                )
+                .get("en", "Unknown")
+            )
+
+        properties.append({
+
+            "source": "dubizzle",
+
+            "title": title,
+
+            "price": float(price),
+
+            "currency": "AED",
+
+            "area": area,
+
+            "heatmap_area":
+            heatmap_area,
+
+            "raw_area":
+            raw_area,
+
+            "lat": lat,
+
+            "lng": lng,
+
+            "sqft": float(sqft),
+
+            "bedrooms": bedrooms,
+
+            "bathrooms": bathrooms,
+
+            "property_type":
+            "apartment",
+
+            "url":
+            property_url,
+
+            "description":
+            hit.get(
+                "description",
+                ""
+            ),
+
+            "tower_name":
+            tower_name,
+
+            "amenities":
+            [],
+
+            "completion_status":
+            hit.get(
+                "completion_status",
+                "unknown"
+            ),
+
+            "furnished_status":
+            str(
+                hit.get(
+                    "furnished",
+                    ""
+                )
+            ),
+
+            "is_verified":
+            hit.get(
+                "is_verified",
+                False
+            ),
+
+            "layout_type":
+            "standard",
+
+            "quality_tier":
+            "standard"
+        })
+
+    except Exception as e:
+
+        print(
+            "DUBIZZLE PARSE ERROR:",
+            e
+        )
 
 # =========================================
 # BHOMES PARSER
