@@ -1,6 +1,323 @@
 [
   {
     "type": "polygon_miss",
+    "raw_area": "Dubai Science Park",
+    "lat": 55.24885278650288,
+    "lng": 25.07694848538398,
+    "nearest_area": "Žemaitkiemio seniūnija",
+    "distance": 0.007679406674709862
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Lake Towers (JLT)",
+    "lat": 55.137654,
+    "lng": 25.067602,
+    "nearest_area": "Zibalų seniūnija",
+    "distance": 0.006487706768353972
+  },
+  {
+    "type": "close_polygon",
+    "area": "Lyduokių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Lyduokių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Lyduokių seniūnija",
+    "heatmap_area": "Šešuolių seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.217732,
+    "lng": 25.062218,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.00139149823907884
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Zibalų seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Zibalų seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Širvintų rajono savivaldybė",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Širvintų rajono savivaldybė"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Zibalų seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 3
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Dubai South",
+    "lat": 55.2028741825811,
+    "lng": 24.94836508323226,
+    "nearest_area": "Lyduokių seniūnija",
+    "distance": 0.01325980784271245
+  },
+  {
+    "type": "close_polygon",
+    "area": "Pumpučiai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Pumpučiai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Pumpučiai",
+    "heatmap_area": "Pumpučiai",
+    "match_count": 1
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Saadiyat Island",
+    "lat": 54.444338431491,
+    "lng": 24.519648299353,
+    "nearest_area": "Varėnos seniūnija",
+    "distance": 0.015533745362308412
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "The Oasis by Emaar",
+    "lat": 55.211808604721,
+    "lng": 25.005792864907,
+    "nearest_area": "Butkūnai",
+    "distance": 0.005757337986495243
+  },
+  {
+    "type": "close_polygon",
+    "area": "Ščiurys",
+    "distance": 0.0007485035614303487
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Downtown Dubai",
+    "lat": 55.2714513848,
+    "lng": 25.19751058339483,
+    "nearest_area": "Ščiurys",
+    "distance": 0.0007485035614303487
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DIFC",
+    "lat": 55.28303,
+    "lng": 25.211736,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011083400561170763
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DIFC",
+    "lat": 55.28303,
+    "lng": 25.211736,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011083400561170763
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DIFC",
+    "lat": 55.28303,
+    "lng": 25.211736,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011083400561170763
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "DIFC",
+    "lat": 55.28303,
+    "lng": 25.211736,
+    "nearest_area": "Balninkai Eldership",
+    "distance": 0.011083400561170763
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "The Views",
+    "lat": 55.172042,
+    "lng": 25.090597,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.008840732333818747
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "The Greens",
+    "lat": 55.1747426390648,
+    "lng": 25.0919535472702,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.007804211899213391
+  },
+  {
+    "type": "close_polygon",
+    "area": "Šešuolių seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Šešuolių seniūnija"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Želvos seniūnija",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Želvos seniūnija"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Šešuolių seniūnija",
+    "heatmap_area": "Želvos seniūnija",
+    "match_count": 2
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Mirdif",
+    "lat": 55.441078004098,
+    "lng": 25.223756765578,
+    "nearest_area": "Kurklių seniūnija",
+    "distance": 0.02459821452132067
+  },
+  {
+    "type": "polygon_miss",
+    "raw_area": "Jumeirah Village Circle (JVC)",
+    "lat": 55.208286,
+    "lng": 25.048406,
+    "nearest_area": "Šešuolių seniūnija",
+    "distance": 0.007524234434562864
+  },
+  {
+    "type": "polygon_miss",
     "raw_area": "Tilal Al Ghaf",
     "lat": 55.231094482924,
     "lng": 25.02991353096,
@@ -1513,6 +1830,21 @@
     "distance": 0.007816468221952625
   },
   {
+    "type": "close_polygon",
+    "area": "Ežeraičiai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Ežeraičiai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Ežeraičiai",
+    "heatmap_area": "Ežeraičiai",
+    "match_count": 1
+  },
+  {
     "type": "polygon_miss",
     "raw_area": "Arabian Ranches 3",
     "lat": 55.327414906883,
@@ -1798,319 +2130,6 @@
     "comparable_area": "Pakryžė",
     "heatmap_area": "Pakryžė",
     "match_count": 1
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Valley by Emaar",
-    "lat": 55.445422746011,
-    "lng": 25.011268837723,
-    "nearest_area": "Kurklių seniūnija",
-    "distance": 0.00739429459418804
-  },
-  {
-    "type": "close_polygon",
-    "area": "Pakryžė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Pakryžė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Pakryžė",
-    "heatmap_area": "Pakryžė",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Business Bay",
-    "lat": 55.2680828814135,
-    "lng": 25.18427671765799,
-    "nearest_area": "Balninkai Eldership",
-    "distance": 0.002511472558225229
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Yas Island",
-    "lat": 54.622272901061,
-    "lng": 24.499244777519,
-    "nearest_area": "Aukštadvario seniūnija",
-    "distance": 0.018519668125258723
-  },
-  {
-    "type": "close_polygon",
-    "area": "Šešuolių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Šešuolių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Želvos seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Želvos seniūnija"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Šešuolių seniūnija",
-    "heatmap_area": "Želvos seniūnija",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Aukštadvario seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Aukštadvario seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Stakliškių seniūnija",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Stakliškių seniūnija"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Trakų rajono savivaldybė",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Trakų rajono savivaldybė"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Aukštadvario seniūnija",
-    "heatmap_area": "Trakų rajono savivaldybė",
-    "match_count": 3
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.131588153281,
-    "lng": 24.829927684048,
-    "nearest_area": "Pivonijos seniūnija",
-    "distance": 0.019142144988216966
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Oasis by Emaar",
-    "lat": 55.211808604721,
-    "lng": 25.005792864907,
-    "nearest_area": "Butkūnai",
-    "distance": 0.005757337986495243
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "DAMAC Lagoons",
-    "lat": 55.231350334922,
-    "lng": 25.004668247806,
-    "nearest_area": "Slabada",
-    "distance": 0.0010057507745357326
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.233590634198,
-    "lng": 25.028951933637,
-    "nearest_area": "Butkūnai",
-    "distance": 0.004212780307081483
-  },
-  {
-    "type": "close_polygon",
-    "area": "Butkūnai",
-    "distance": 0.0004966662256550397
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Tilal Al Ghaf",
-    "lat": 55.229779635967,
-    "lng": 25.026714956492,
-    "nearest_area": "Butkūnai",
-    "distance": 0.0004966662256550397
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bajorai",
-    "distance": 4.727403952111163e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Palm Jumeirah",
-    "lat": 55.150081,
-    "lng": 25.105885,
-    "nearest_area": "Bajorai",
-    "distance": 4.727403952111163e-05
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Meadows",
-    "lat": 55.151990791493,
-    "lng": 25.068614507964,
-    "nearest_area": "Zibalų seniūnija",
-    "distance": 0.005305963441290383
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Science Park",
-    "lat": 55.24868481191345,
-    "lng": 25.07026919901496,
-    "nearest_area": "Laukeliai",
-    "distance": 0.004437222413488103
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai Harbour",
-    "lat": 55.14357463565724,
-    "lng": 25.10095752666058,
-    "nearest_area": "Bajorai",
-    "distance": 0.0035148999481796673
-  },
-  {
-    "type": "close_polygon",
-    "area": "Valai",
-    "distance": 0.0004753631321971839
-  },
-  {
-    "type": "close_polygon",
-    "area": "Žemaitkiemio seniūnija",
-    "distance": 0.0004753631321971839
-  },
-  {
-    "type": "close_polygon",
-    "area": "Lyduokių seniūnija",
-    "distance": 0.0004753631321971839
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Mudon",
-    "lat": 55.264709865539,
-    "lng": 25.014981656812,
-    "nearest_area": "Valai",
-    "distance": 0.0004753631321971839
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Lakes",
-    "lat": 55.17154731623,
-    "lng": 25.079339567078,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0040771026929627445
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "Dubai South",
-    "lat": 55.161437084236,
-    "lng": 24.852949824873,
-    "nearest_area": "Pivonijos seniūnija",
-    "distance": 0.03319314922162416
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Lakes",
-    "lat": 55.170685505391,
-    "lng": 25.083612412462,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.005451789008972197
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Lakes",
-    "lat": 55.170623809595,
-    "lng": 25.081519884601,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.004921041889868998
-  },
-  {
-    "type": "polygon_miss",
-    "raw_area": "The Lakes",
-    "lat": 55.17154731623,
-    "lng": 25.079339567078,
-    "nearest_area": "Šešuolių seniūnija",
-    "distance": 0.0040771026929627445
   },
   {
     "type": "close_polygon",
@@ -6968,6 +6987,198 @@
   },
   {
     "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Discovery Gardens",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Discovery Gardens"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jabal Ali 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jabal Ali 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Discovery Gardens",
+    "heatmap_area": "Jabal Ali 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
     "area": "Trade Centre",
     "distance": 0.0
   },
@@ -6980,198 +7191,6 @@
     "comparable_area": "Trade Centre",
     "heatmap_area": "Trade Centre",
     "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Discovery Gardens",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Discovery Gardens"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jabal Ali 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jabal Ali 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Discovery Gardens",
-    "heatmap_area": "Jabal Ali 1",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -7319,6 +7338,30 @@
   },
   {
     "type": "close_polygon",
+    "area": "Al Barsha South 4",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Barsha South 4"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Village Circle",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Village Circle"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Barsha South 4",
+    "heatmap_area": "Jumeirah Village Circle",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
     "area": NaN,
     "distance": 0.0
   },
@@ -7372,6 +7415,78 @@
     "type": "polygon_selection",
     "comparable_area": "Palm Jumeirah",
     "heatmap_area": "Palm Jumeirah",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Al Wasl",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Al Wasl",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah",
+    "heatmap_area": "Bur Dubai",
     "match_count": 2
   },
   {
@@ -8541,6 +8656,30 @@
   },
   {
     "type": "close_polygon",
+    "area": "Dubai Marina",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Marina"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Marina",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Marina"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Marina",
+    "heatmap_area": "Dubai Marina",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
     "area": "Bluewaters",
     "distance": 0.0
   },
@@ -9533,21 +9672,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "New Ras Al Khor Community",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "New Ras Al Khor Community"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "New Ras Al Khor Community",
-    "heatmap_area": "New Ras Al Khor Community",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
     "area": "Dubai International Financial Centre",
     "distance": 0.0
   },
@@ -9595,27 +9719,18 @@
   },
   {
     "type": "close_polygon",
-    "area": "Motor City",
+    "area": "New Ras Al Khor Community",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Motor City"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Hebiah 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Hebiah 1"
+    "area": "New Ras Al Khor Community"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Motor City",
-    "heatmap_area": "Al Hebiah 1",
-    "match_count": 2
+    "comparable_area": "New Ras Al Khor Community",
+    "heatmap_area": "New Ras Al Khor Community",
+    "match_count": 1
   },
   {
     "type": "close_polygon",
@@ -9682,6 +9797,30 @@
   },
   {
     "type": "close_polygon",
+    "area": "Motor City",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Motor City"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Hebiah 1",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Hebiah 1"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Motor City",
+    "heatmap_area": "Al Hebiah 1",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
     "area": "Palm Jumeirah",
     "distance": 0.0
   },
@@ -9702,6 +9841,35 @@
     "type": "polygon_selection",
     "comparable_area": "Palm Jumeirah",
     "heatmap_area": "Palm Jumeirah",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.000905541548038966
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Al Wasl",
     "match_count": 2
   },
   {
@@ -9741,35 +9909,6 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "City Walk",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "City Walk"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.000905541548038966
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "City Walk",
-    "heatmap_area": "Al Wasl",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -9959,21 +10098,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Al Wasl",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Wasl"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Al Wasl",
-    "heatmap_area": "Al Wasl",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
     "area": "Bluewaters",
     "distance": 0.0
   },
@@ -9985,6 +10109,21 @@
     "type": "polygon_selection",
     "comparable_area": "Bluewaters",
     "heatmap_area": "Bluewaters",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Al Wasl",
+    "heatmap_area": "Al Wasl",
     "match_count": 1
   },
   {
@@ -10566,6 +10705,39 @@
   },
   {
     "type": "close_polygon",
+    "area": "City Walk",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "City Walk"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Al Wasl",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Al Wasl"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Bur Dubai",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Bur Dubai"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "City Walk",
+    "heatmap_area": "Bur Dubai",
+    "match_count": 3
+  },
+  {
+    "type": "close_polygon",
     "area": "Jumeirah Lakes Towers",
     "distance": 0.000996798369902405
   },
@@ -10631,30 +10803,6 @@
     "type": "polygon_selection",
     "comparable_area": "Downtown Dubai",
     "heatmap_area": "Bur Dubai",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
-    "area": "Jumeirah Lakes Towers",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Jumeirah Lakes Towers"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Emirates Hills",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Emirates Hills"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Jumeirah Lakes Towers",
-    "heatmap_area": "Emirates Hills",
     "match_count": 2
   },
   {
@@ -10904,6 +11052,30 @@
     "comparable_area": "Emirates Hills",
     "heatmap_area": "Emirates Hills",
     "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Jumeirah Lakes Towers",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Jumeirah Lakes Towers"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Emirates Hills",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Emirates Hills"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Jumeirah Lakes Towers",
+    "heatmap_area": "Emirates Hills",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -11347,6 +11519,21 @@
   },
   {
     "type": "close_polygon",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
     "area": "Dubiotech",
     "distance": 0.0
   },
@@ -11422,18 +11609,27 @@
   },
   {
     "type": "close_polygon",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "area": "Jumeirah Beach Residence",
     "distance": 0.0
   },
   {
     "type": "polygon_match",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
+    "area": "Jumeirah Beach Residence"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Marina",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Marina"
   },
   {
     "type": "polygon_selection",
-    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "match_count": 1
+    "comparable_area": "Jumeirah Beach Residence",
+    "heatmap_area": "Dubai Marina",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -11838,6 +12034,30 @@
   },
   {
     "type": "close_polygon",
+    "area": "Dubai Marina",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Marina"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Dubai Marina",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Dubai Marina"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Dubai Marina",
+    "heatmap_area": "Dubai Marina",
+    "match_count": 2
+  },
+  {
+    "type": "close_polygon",
     "area": "Remraam 2",
     "distance": 0.0
   },
@@ -11868,30 +12088,6 @@
     "comparable_area": "Remraam 2",
     "heatmap_area": "Al Hebiah 5",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubai Marina",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Dubai Marina"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubai Marina",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Dubai Marina"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Dubai Marina",
-    "heatmap_area": "Dubai Marina",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -11954,193 +12150,5 @@
     "comparable_area": "Dubai International Financial Centre",
     "heatmap_area": "Zabeel",
     "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Deira",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Deira"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Deira",
-    "heatmap_area": "Palm Deira",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Meydan",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Meydan"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Meydan",
-    "heatmap_area": "Meydan",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Meydan",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Meydan"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Meydan",
-    "heatmap_area": "Meydan",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubiotech",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Dubiotech"
-  },
-  {
-    "type": "close_polygon",
-    "area": NaN,
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": NaN
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Barsha South 2",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Barsha South 2"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Barsha South",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Barsha South"
-  },
-  {
-    "type": "close_polygon",
-    "area": NaN,
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": NaN
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Barsha",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Al Barsha"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Dubiotech",
-    "heatmap_area": "Al Barsha",
-    "match_count": 6
-  },
-  {
-    "type": "close_polygon",
-    "area": "Umm Suqeim 3",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Umm Suqeim 3"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Umm Suqeim 3",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Umm Suqeim 3"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Sufouh 1",
-    "distance": 0.0006888062107770339
-  },
-  {
-    "type": "close_polygon",
-    "area": "Umm Suqeim",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Umm Suqeim"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Sufouh",
-    "distance": 0.0006888062107770339
-  },
-  {
-    "type": "close_polygon",
-    "area": "Al Sufouh",
-    "distance": 0.0006888062107770339
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Umm Suqeim 3",
-    "heatmap_area": "Umm Suqeim",
-    "match_count": 3
-  },
-  {
-    "type": "close_polygon",
-    "area": "Bluewaters",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bluewaters"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Bluewaters",
-    "heatmap_area": "Bluewaters",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": "Dubai Production City",
-    "distance": 0.00010351847474917569
-  },
-  {
-    "type": "close_polygon",
-    "area": "Me’aisem 1",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Me’aisem 1"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Me’aisem 1",
-    "heatmap_area": "Me’aisem 1",
-    "match_count": 1
   }
 ]

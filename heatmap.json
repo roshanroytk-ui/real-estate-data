@@ -1,22 +1,22 @@
 [
   {
     "sources": [
+      "dubizzle",
       "propertyfinder",
-      "bhomes",
-      "dubizzle"
+      "bhomes"
     ],
     "area": "Jumeirah Village Circle",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 1,
-    "median_price_per_sqft": 1432,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
-    "lat": 55.20867203872908,
-    "lng": 25.0692047299446,
+    "median_price_per_sqft": 1338,
+    "listing_count": 10,
+    "comparable_count": 10,
+    "confidence": "High",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
+    "lat": 55.217732,
+    "lng": 25.062218,
     "color": "green"
   },
   {
@@ -32,7 +32,7 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.064877,
     "lng": 55.141668,
     "color": "yellow"
@@ -51,16 +51,16 @@
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.08,
     "lng": 55.14,
     "color": "yellow"
   },
   {
     "sources": [
+      "dubizzle",
       "propertyfinder",
-      "bhomes",
-      "dubizzle"
+      "bhomes"
     ],
     "area": "Dubai Marina",
     "property_type": "apartment",
@@ -71,7 +71,7 @@
     "listing_count": 10,
     "comparable_count": 10,
     "confidence": "High",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 55.133048,
     "lng": 25.070527,
     "color": "yellow"
@@ -90,28 +90,27 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
   },
   {
     "sources": [
-      "propertyfinder",
-      "bhomes"
+      "dubizzle"
     ],
-    "area": "Palm Deira",
+    "area": "Želvos seniūnija",
     "property_type": "apartment",
     "layout_type": "standard",
-    "quality_tier": "ultra_luxury",
+    "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2093,
+    "median_price_per_sqft": 2157,
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
-    "lat": 25.28093,
-    "lng": 55.296249,
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
+    "lat": 55.174361264888,
+    "lng": 25.051038895544,
     "color": "yellow"
   },
   {
@@ -124,11 +123,11 @@
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2418,
-    "listing_count": 10,
-    "comparable_count": 10,
+    "median_price_per_sqft": 2468,
+    "listing_count": 11,
+    "comparable_count": 11,
     "confidence": "High",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.195023,
     "lng": 55.283553,
     "color": "yellow"
@@ -147,7 +146,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.212088,
     "lng": 55.282761,
     "color": "yellow"
@@ -166,7 +165,7 @@
     "listing_count": 6,
     "comparable_count": 6,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.25863,
     "lng": 55.278074,
     "color": "yellow"
@@ -185,49 +184,29 @@
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.202959,
     "lng": 55.26006,
     "color": "red"
   },
   {
     "sources": [
+      "dubizzle",
       "propertyfinder",
-      "bhomes",
-      "dubizzle"
+      "bhomes"
     ],
     "area": "Downtown Dubai",
     "property_type": "apartment",
     "layout_type": "standard",
     "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 3084,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
-    "lat": 55.2703115344593,
-    "lng": 25.1983262256967,
-    "color": "red"
-  },
-  {
-    "sources": [
-      "propertyfinder",
-      "bhomes",
-      "dubizzle"
-    ],
-    "area": "Palm Jumeirah",
-    "property_type": "apartment",
-    "layout_type": "standard",
-    "quality_tier": "standard",
-    "bedrooms": 2,
-    "median_price_per_sqft": 3370,
+    "median_price_per_sqft": 3136,
     "listing_count": 8,
     "comparable_count": 8,
     "confidence": "High",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
-    "lat": 55.11216947531227,
-    "lng": 25.12500362163502,
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
+    "lat": 55.2714513848,
+    "lng": 25.19751058339483,
     "color": "red"
   },
   {
@@ -240,13 +219,33 @@
     "layout_type": "standard",
     "quality_tier": "premium",
     "bedrooms": 2,
-    "median_price_per_sqft": 3397,
+    "median_price_per_sqft": 3682,
+    "listing_count": 6,
+    "comparable_count": 6,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
+    "lat": 25.267706,
+    "lng": 55.285812,
+    "color": "red"
+  },
+  {
+    "sources": [
+      "dubizzle",
+      "propertyfinder",
+      "bhomes"
+    ],
+    "area": "Palm Jumeirah",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 2,
+    "median_price_per_sqft": 3935,
     "listing_count": 7,
     "comparable_count": 7,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
-    "lat": 25.267706,
-    "lng": 55.285812,
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
+    "lat": 55.11216947531227,
+    "lng": 25.12500362163502,
     "color": "red"
   },
   {
@@ -262,7 +261,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T11:21:53.394316+00:00",
+    "last_updated": "2026-06-02T12:31:03.173947+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
