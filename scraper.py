@@ -2258,8 +2258,6 @@ for source_data in all_soups:
 
     soup = source_data["soup"]
 
-    print("99ACRES PAGE START")
-
     try:
 
         scripts = soup.find_all("script")
@@ -2288,15 +2286,8 @@ for source_data in all_soups:
         if not json_text:
             continue
 
-        print("FOUND INITIAL DATA")
 
         data = json.loads(json_text)
-
-        print("99ACRES ROOT KEYS:")
-        print(data.keys())
-        
-        print("99ACRES SRP KEYS:")
-        print(data.get("srp", {}).keys())
 
         properties_data = (
             data
@@ -2324,6 +2315,14 @@ for source_data in all_soups:
                 prop.get("MIN_PRICE"),
                 prop.get("CARPET_AREA")
             )
+
+            property_type_raw = prop.get(
+                "PROPERTY_TYPE",
+                ""
+            )
+            
+            if property_type_raw != "Residential Apartment":
+                continue
 
             try:
 
