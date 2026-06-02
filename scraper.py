@@ -196,25 +196,7 @@ def detect_quality_tier(property):
 
     description_raw = property.get("description", "")
     title_raw = property.get("title", "")
-    
-    if not isinstance(description_raw, str):
-    
-        print("\n===== BAD DESCRIPTION =====")
-        print("SOURCE:", property.get("source"))
-        print("URL:", property.get("url"))
-        print("TYPE:", type(description_raw))
-        print("VALUE:", description_raw)
-        print("===========================\n")
-    
-    if not isinstance(title_raw, str):
-    
-        print("\n===== BAD TITLE =====")
-        print("SOURCE:", property.get("source"))
-        print("URL:", property.get("url"))
-        print("TYPE:", type(title_raw))
-        print("VALUE:", title_raw)
-        print("=====================\n")
-    
+
     description = str(description_raw).lower()
     title = str(title_raw).lower()
 
@@ -1610,41 +1592,6 @@ for hit in dubizzle_hits:
         )
 
 
-        if len(properties) < 5:
-
-            print("\nDUBIZZLE FIELD CHECK")
-            print("TITLE:", title)
-        
-            print(
-                "HAS description:",
-                "description" in hit
-            )
-        
-            print(
-                "HAS description_short:",
-                "description_short" in hit
-            )
-        
-            print(
-                "description type:",
-                type(hit.get("description"))
-            )
-        
-            print(
-                "description_short type:",
-                type(hit.get("description_short"))
-            )
-        
-            print(
-                "description sample:",
-                str(hit.get("description"))[:200]
-            )
-        
-            print(
-                "description_short sample:",
-                str(hit.get("description_short"))[:200]
-            )
-
         property_url = (
             hit.get(
                 "absolute_url",
@@ -1757,6 +1704,9 @@ for hit in dubizzle_hits:
             "description":
             hit.get(
                 "description",
+                {}
+            ).get(
+                "en",
                 ""
             ),
 
