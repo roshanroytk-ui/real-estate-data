@@ -1,6 +1,44 @@
 [
   {
     "sources": [
+      "99acres",
+      "propertyfinder"
+    ],
+    "area": "Wadi Al Safa 3",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1652,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
+    "lat": 25.09952163696289,
+    "lng": 55.31328582763672,
+    "color": "yellow"
+  },
+  {
+    "sources": [
+      "99acres",
+      "propertyfinder"
+    ],
+    "area": "Jumeirah Village Circle",
+    "property_type": "apartment",
+    "layout_type": "standard",
+    "quality_tier": "standard",
+    "bedrooms": 1,
+    "median_price_per_sqft": 1972,
+    "listing_count": 5,
+    "comparable_count": 5,
+    "confidence": "Medium",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
+    "lat": 25.048561096191406,
+    "lng": 55.20402526855469,
+    "color": "yellow"
+  },
+  {
+    "sources": [
       "propertyfinder",
       "bhomes"
     ],
@@ -13,25 +51,26 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T04:30:46.698629+00:00",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
     "lat": 25.115477,
     "lng": 55.25108,
     "color": "yellow"
   },
   {
     "sources": [
+      "99acres",
       "propertyfinder"
     ],
     "area": "Bur Dubai",
     "property_type": "apartment",
     "layout_type": "standard",
-    "quality_tier": "premium",
+    "quality_tier": "standard",
     "bedrooms": 2,
-    "median_price_per_sqft": 2587,
-    "listing_count": 7,
-    "comparable_count": 7,
-    "confidence": "Medium",
-    "last_updated": "2026-06-02T04:30:46.698629+00:00",
+    "median_price_per_sqft": 2418,
+    "listing_count": 8,
+    "comparable_count": 8,
+    "confidence": "High",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
     "lat": 25.198795318603516,
     "lng": 55.27134323120117,
     "color": "yellow"
@@ -49,7 +88,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T04:30:46.698629+00:00",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
     "lat": 25.195236206054688,
     "lng": 55.27145004272461,
     "color": "yellow"
@@ -67,7 +106,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T04:30:46.698629+00:00",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
     "lat": 25.137941360473633,
     "lng": 55.12687683105469,
     "color": "red"
@@ -85,7 +124,7 @@
     "listing_count": 5,
     "comparable_count": 5,
     "confidence": "Medium",
-    "last_updated": "2026-06-02T04:30:46.698629+00:00",
+    "last_updated": "2026-06-02T04:36:28.174434+00:00",
     "lat": 25.123205184936523,
     "lng": 55.11220169067383,
     "color": "red"
