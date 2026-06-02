@@ -4691,21 +4691,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "match_count": 1
-  },
-  {
-    "type": "close_polygon",
     "area": "Bluewaters",
     "distance": 0.0
   },
@@ -4717,6 +4702,21 @@
     "type": "polygon_selection",
     "comparable_area": "Bluewaters",
     "heatmap_area": "Bluewaters",
+    "match_count": 1
+  },
+  {
+    "type": "close_polygon",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Hadaeq Sheikh Mohammed Bin Rashid"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "heatmap_area": "Hadaeq Sheikh Mohammed Bin Rashid",
     "match_count": 1
   },
   {
@@ -4751,6 +4751,30 @@
     "comparable_area": "Wasl Gate",
     "heatmap_area": "Jabal Ali 1",
     "match_count": 3
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Jumeirah"
+  },
+  {
+    "type": "close_polygon",
+    "area": "Palm Jumeirah",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "Palm Jumeirah"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "Palm Jumeirah",
+    "heatmap_area": "Palm Jumeirah",
+    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -4793,30 +4817,6 @@
     "comparable_area": "Al Barari",
     "heatmap_area": "Wadi Al Safa 3",
     "match_count": 4
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Palm Jumeirah",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Palm Jumeirah"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Palm Jumeirah",
-    "heatmap_area": "Palm Jumeirah",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -6456,35 +6456,6 @@
   },
   {
     "type": "close_polygon",
-    "area": "Bur Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Bur Dubai"
-  },
-  {
-    "type": "close_polygon",
-    "area": "Business Bay",
-    "distance": 0.0007770725822163063
-  },
-  {
-    "type": "close_polygon",
-    "area": "Downtown Dubai",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Downtown Dubai"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": "Downtown Dubai",
-    "heatmap_area": "Bur Dubai",
-    "match_count": 2
-  },
-  {
-    "type": "close_polygon",
     "area": "Bluewaters",
     "distance": 0.0
   },
@@ -7229,30 +7200,6 @@
     "comparable_area": "Palm Deira",
     "heatmap_area": "Palm Deira",
     "match_count": 1
-  },
-  {
-    "type": "close_polygon",
-    "area": NaN,
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": NaN
-  },
-  {
-    "type": "close_polygon",
-    "area": "Zabeel",
-    "distance": 0.0
-  },
-  {
-    "type": "polygon_match",
-    "area": "Zabeel"
-  },
-  {
-    "type": "polygon_selection",
-    "comparable_area": NaN,
-    "heatmap_area": "Zabeel",
-    "match_count": 2
   },
   {
     "type": "close_polygon",
@@ -9944,5 +9891,20 @@
     "comparable_area": "Dubai Production City",
     "heatmap_area": "Me’aisem 1",
     "match_count": 2
+  },
+  {
+    "type": "close_polygon",
+    "area": "New Ras Al Khor Community",
+    "distance": 0.0
+  },
+  {
+    "type": "polygon_match",
+    "area": "New Ras Al Khor Community"
+  },
+  {
+    "type": "polygon_selection",
+    "comparable_area": "New Ras Al Khor Community",
+    "heatmap_area": "New Ras Al Khor Community",
+    "match_count": 1
   }
 ]

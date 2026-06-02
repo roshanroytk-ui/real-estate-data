@@ -1453,54 +1453,6 @@
   },
   {
     "market_key": {
-      "area": NaN,
-      "property_type": "apartment",
-      "bedrooms": 3,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 3834,
-    "listing_count": 2,
-    "min_price_per_sqft": 3053,
-    "max_price_per_sqft": 4616,
-    "price_spread_percent": 0.41,
-    "prices_sorted": [
-      3053,
-      4616
-    ],
-    "listings": [
-      {
-        "title": "3 BEDROOM | PRIME D3 LOCATION | MAID'S ROOM",
-        "area": NaN,
-        "tower_name": "Artistry One Residences",
-        "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
-        "lat": 25.190338134765625,
-        "lng": 55.30483627319336,
-        "price_per_sqft": 3053,
-        "price": 6069000,
-        "sqft": 1988,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-design-district-artistry-one-residences-73114729.html"
-      },
-      {
-        "title": "Largest Layout | Full Palm View | Multiple Options",
-        "area": NaN,
-        "tower_name": "Address The Bay",
-        "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
-        "lat": 25.10262680053711,
-        "lng": 55.1435432434082,
-        "price_per_sqft": 4616,
-        "price": 9500000,
-        "sqft": 2058,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-address-the-bay-94013135.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
       "area": "City Walk",
       "property_type": "apartment",
       "bedrooms": 2,
@@ -6997,6 +6949,39 @@
   },
   {
     "market_key": {
+      "area": NaN,
+      "property_type": "apartment",
+      "bedrooms": 3,
+      "layout_type": "standard",
+      "quality_tier": "premium"
+    },
+    "median_price_per_sqft": 4616,
+    "listing_count": 1,
+    "min_price_per_sqft": 4616,
+    "max_price_per_sqft": 4616,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      4616
+    ],
+    "listings": [
+      {
+        "title": "Largest Layout | Full Palm View | Multiple Options",
+        "area": NaN,
+        "tower_name": "Address The Bay",
+        "raw_area": "Address The Bay, Emaar Beachfront, Dubai Harbour, Dubai",
+        "lat": 25.10262680053711,
+        "lng": 55.1435432434082,
+        "price_per_sqft": 4616,
+        "price": 9500000,
+        "sqft": 2058,
+        "quality_tier": "premium",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-harbour-emaar-beachfront-address-the-bay-94013135.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
       "area": "Al Barari",
       "property_type": "apartment",
       "bedrooms": 1,
@@ -7322,39 +7307,6 @@
         "quality_tier": "ultra_luxury",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-difc-central-park-tower-central-park-residential-tower-86618561.html"
-      }
-    ]
-  },
-  {
-    "market_key": {
-      "area": "Downtown Dubai",
-      "property_type": "studio apartment",
-      "bedrooms": 0,
-      "layout_type": "standard",
-      "quality_tier": "premium"
-    },
-    "median_price_per_sqft": 2519,
-    "listing_count": 1,
-    "min_price_per_sqft": 2519,
-    "max_price_per_sqft": 2519,
-    "price_spread_percent": 0.0,
-    "prices_sorted": [
-      2519
-    ],
-    "listings": [
-      {
-        "title": "Premium Studio | Vacant | High Yield",
-        "area": "Downtown Dubai",
-        "tower_name": "DT1",
-        "raw_area": "DT1, Downtown Dubai, Dubai",
-        "lat": 25.191650390625,
-        "lng": 55.269405364990234,
-        "price_per_sqft": 2519,
-        "price": 1350000,
-        "sqft": 536,
-        "quality_tier": "premium",
-        "layout_type": "standard",
-        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-dt1-95697775.html"
       }
     ]
   },
@@ -9269,6 +9221,39 @@
         "quality_tier": "premium",
         "layout_type": "standard",
         "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-south-dubai-world-central-the-pulse-the-pulse-residence-the-pulse-residence-b2-95284249.html"
+      }
+    ]
+  },
+  {
+    "market_key": {
+      "area": "New Ras Al Khor Community",
+      "property_type": "apartment",
+      "bedrooms": 1,
+      "layout_type": "standard",
+      "quality_tier": "standard"
+    },
+    "median_price_per_sqft": 2507,
+    "listing_count": 1,
+    "min_price_per_sqft": 2507,
+    "max_price_per_sqft": 2507,
+    "price_spread_percent": 0.0,
+    "prices_sorted": [
+      2507
+    ],
+    "listings": [
+      {
+        "title": "Genuine Resale | Vacant | Fully Furnished",
+        "area": "New Ras Al Khor Community",
+        "tower_name": "Bayshore at Creek Beach Building 4",
+        "raw_area": "Bayshore at Creek Beach Building 4, Bayshore at Creek Beach, Creek Beach, Dubai Creek Harbour (The Lagoons), Dubai",
+        "lat": 25.200410842895508,
+        "lng": 55.34886932373047,
+        "price_per_sqft": 2507,
+        "price": 1690000,
+        "sqft": 674,
+        "quality_tier": "standard",
+        "layout_type": "standard",
+        "url": "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-creek-harbour-the-lagoons-creek-beach-bayshore-at-creek-beach-bayshore-at-creek-beach-building-4-90937242.html"
       }
     ]
   }

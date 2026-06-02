@@ -6478,28 +6478,6 @@
     "selected_polygon_area": 3.375109263499378e-05
   },
   {
-    "raw_area": "Lime Gardens, Dubai Hills Estate, Dubai",
-    "lat": 25.106088638305664,
-    "lng": 55.24527359008789,
-    "matched_polygons": [
-      {
-        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
-        "osm_name": null,
-        "polygon_area": 0.003760337531000007,
-        "polygon_centroid_lat": 25.101235040106733,
-        "polygon_centroid_lng": 55.269397304573125,
-        "bounds": {
-          "min_lng": 55.2330231,
-          "min_lat": 25.0559232,
-          "max_lng": 55.2957661,
-          "max_lat": 25.1553966
-        }
-      }
-    ],
-    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
-    "selected_polygon_area": 0.003760337531000007
-  },
-  {
     "raw_area": "Bluewaters Residences Building 3, Bluewaters Residences, Bluewaters, Dubai",
     "lat": 25.078584671020508,
     "lng": 55.121341705322266,
@@ -6520,6 +6498,28 @@
     ],
     "selected_area": "Bluewaters",
     "selected_polygon_area": 3.375109263499378e-05
+  },
+  {
+    "raw_area": "Lime Gardens, Dubai Hills Estate, Dubai",
+    "lat": 25.106088638305664,
+    "lng": 55.24527359008789,
+    "matched_polygons": [
+      {
+        "area": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "osm_name": null,
+        "polygon_area": 0.003760337531000007,
+        "polygon_centroid_lat": 25.101235040106733,
+        "polygon_centroid_lng": 55.269397304573125,
+        "bounds": {
+          "min_lng": 55.2330231,
+          "min_lat": 25.0559232,
+          "max_lng": 55.2957661,
+          "max_lat": 25.1553966
+        }
+      }
+    ],
+    "selected_area": "Hadaeq Sheikh Mohammed Bin Rashid",
+    "selected_polygon_area": 0.003760337531000007
   },
   {
     "raw_area": "South Garden B, South Garden, Wasl Gate, Dubai",
@@ -6568,6 +6568,41 @@
     ],
     "selected_area": "Wasl Gate",
     "selected_polygon_area": 0.00017577930215001273
+  },
+  {
+    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
+    "lat": 25.137941360473633,
+    "lng": 55.12687683105469,
+    "matched_polygons": [
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0006897771107349585,
+        "polygon_centroid_lat": 25.11880805799114,
+        "polygon_centroid_lng": 55.13047251496105,
+        "bounds": {
+          "min_lng": 55.1083124,
+          "min_lat": 25.0971363,
+          "max_lng": 55.1531713,
+          "max_lat": 25.1416085
+        }
+      },
+      {
+        "area": "Palm Jumeirah",
+        "osm_name": null,
+        "polygon_area": 0.0017879471374549973,
+        "polygon_centroid_lat": 25.118611338059324,
+        "polygon_centroid_lng": 55.133551383751595,
+        "bounds": {
+          "min_lng": 55.1080724,
+          "min_lat": 25.0966381,
+          "max_lng": 55.1627225,
+          "max_lat": 25.142004
+        }
+      }
+    ],
+    "selected_area": "Palm Jumeirah",
+    "selected_polygon_area": 0.0006897771107349585
   },
   {
     "raw_area": "Seventh Heaven, Al Barari, Dubai",
@@ -6629,41 +6664,6 @@
     ],
     "selected_area": "Al Barari",
     "selected_polygon_area": 0.0001939259767250257
-  },
-  {
-    "raw_area": "Atlantis The Royal Residences, The Crescent, Palm Jumeirah, Dubai",
-    "lat": 25.137941360473633,
-    "lng": 55.12687683105469,
-    "matched_polygons": [
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0006897771107349585,
-        "polygon_centroid_lat": 25.11880805799114,
-        "polygon_centroid_lng": 55.13047251496105,
-        "bounds": {
-          "min_lng": 55.1083124,
-          "min_lat": 25.0971363,
-          "max_lng": 55.1531713,
-          "max_lat": 25.1416085
-        }
-      },
-      {
-        "area": "Palm Jumeirah",
-        "osm_name": null,
-        "polygon_area": 0.0017879471374549973,
-        "polygon_centroid_lat": 25.118611338059324,
-        "polygon_centroid_lng": 55.133551383751595,
-        "bounds": {
-          "min_lng": 55.1080724,
-          "min_lat": 25.0966381,
-          "max_lng": 55.1627225,
-          "max_lat": 25.142004
-        }
-      }
-    ],
-    "selected_area": "Palm Jumeirah",
-    "selected_polygon_area": 0.0006897771107349585
   },
   {
     "raw_area": "Sunset Bay 3 by Imtiaz, Dubai Islands, Dubai",
@@ -8991,41 +8991,6 @@
     "selected_polygon_area": 5.7021091290009645e-05
   },
   {
-    "raw_area": "DT1, Downtown Dubai, Dubai",
-    "lat": 25.191650390625,
-    "lng": 55.269405364990234,
-    "matched_polygons": [
-      {
-        "area": "Downtown Dubai",
-        "osm_name": null,
-        "polygon_area": 0.0008274599583149869,
-        "polygon_centroid_lat": 25.186630976712973,
-        "polygon_centroid_lng": 55.272241590360515,
-        "bounds": {
-          "min_lng": 55.2496071,
-          "min_lat": 25.1690128,
-          "max_lng": 55.2940679,
-          "max_lat": 25.2048544
-        }
-      },
-      {
-        "area": "Bur Dubai",
-        "osm_name": null,
-        "polygon_area": 0.002699111736984241,
-        "polygon_centroid_lat": 25.22245456021672,
-        "polygon_centroid_lng": 55.28515039155924,
-        "bounds": {
-          "min_lng": 55.2289499,
-          "min_lat": 25.1826627,
-          "max_lng": 55.3453314,
-          "max_lat": 25.2885558
-        }
-      }
-    ],
-    "selected_area": "Downtown Dubai",
-    "selected_polygon_area": 0.0008274599583149869
-  },
-  {
     "raw_area": "Bluewaters Residences Building 10, Bluewaters Residences, Bluewaters, Dubai",
     "lat": 25.079551696777344,
     "lng": 55.12113952636719,
@@ -10068,41 +10033,6 @@
     ],
     "selected_area": "Palm Deira",
     "selected_polygon_area": 0.001694996489254967
-  },
-  {
-    "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
-    "lat": 25.190338134765625,
-    "lng": 55.30483627319336,
-    "matched_polygons": [
-      {
-        "area": NaN,
-        "osm_name": null,
-        "polygon_area": 0.0014054120800900322,
-        "polygon_centroid_lat": 25.209735942619456,
-        "polygon_centroid_lng": 55.2984559222953,
-        "bounds": {
-          "min_lng": 55.2727324,
-          "min_lat": 25.1807377,
-          "max_lng": 55.3156084,
-          "max_lat": 25.2396768
-        }
-      },
-      {
-        "area": "Zabeel",
-        "osm_name": null,
-        "polygon_area": 0.0014054120800900322,
-        "polygon_centroid_lat": 25.209735942619456,
-        "polygon_centroid_lng": 55.2984559222953,
-        "bounds": {
-          "min_lng": 55.2727324,
-          "min_lat": 25.1807377,
-          "max_lng": 55.3156084,
-          "max_lat": 25.2396768
-        }
-      }
-    ],
-    "selected_area": NaN,
-    "selected_polygon_area": 0.0014054120800900322
   },
   {
     "raw_area": "Artistry One Residences, Dubai Design District, Dubai",
@@ -13874,5 +13804,27 @@
     ],
     "selected_area": "Dubai Production City",
     "selected_polygon_area": 0.0003920425935100168
+  },
+  {
+    "raw_area": "Bayshore at Creek Beach Building 4, Bayshore at Creek Beach, Creek Beach, Dubai Creek Harbour (The Lagoons), Dubai",
+    "lat": 25.200410842895508,
+    "lng": 55.34886932373047,
+    "matched_polygons": [
+      {
+        "area": "New Ras Al Khor Community",
+        "osm_name": null,
+        "polygon_area": 0.002477630884340004,
+        "polygon_centroid_lat": 25.191635028564292,
+        "polygon_centroid_lng": 55.35931587891704,
+        "bounds": {
+          "min_lng": 55.3169386,
+          "min_lat": 25.1606092,
+          "max_lng": 55.3969292,
+          "max_lat": 25.2410131
+        }
+      }
+    ],
+    "selected_area": "New Ras Al Khor Community",
+    "selected_polygon_area": 0.002477630884340004
   }
 ]
