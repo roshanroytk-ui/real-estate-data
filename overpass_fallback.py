@@ -223,6 +223,14 @@ for point in points:
             if int(element["id"]) in existing_osm_ids:
                 continue
 
+            name = (
+                tags.get("name:en")
+                or tags.get("name")
+            )
+            
+            if not name or str(name).strip() == "":
+                continue
+
             records.append({
 
                 "osm_id": element["id"],
@@ -310,6 +318,15 @@ if cache is not None:
     gdf = gdf.drop(
         columns=["unique_id"]
     )   
+
+
+gdf = gdf[
+    gdf["name"].notna()
+]
+
+gdf = gdf[
+    gdf["name"].astype(str).str.strip() != ""
+]
 
 gdf.to_file(
     CACHE_FILE,
