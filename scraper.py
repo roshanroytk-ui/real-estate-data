@@ -3414,6 +3414,16 @@ for market_key, data in market_groups.items():
 
     max_price = max(prices)
 
+    q1 = prices[len(prices) // 4]
+
+    q3 = prices[(len(prices) * 3) // 4]
+    
+    iqr = q3 - q1
+    
+    lower_bound = q1 - (1.5 * iqr)
+    
+    upper_bound = q3 + (1.5 * iqr)
+
     # =====================================
     # SPREAD DETECTION
     # =====================================
@@ -3429,6 +3439,10 @@ for market_key, data in market_groups.items():
 
         spread_percent = 0
 
+    low_outliers = []
+
+    high_outliers = []
+
     listings_debug = []
 
     for listing in data["listings"]:
@@ -3440,6 +3454,24 @@ for market_key, data in market_groups.items():
             ppsf = round(
                 listing["price"] / sqft
             )
+
+            if ppsf < lower_bound:
+
+                low_outliers.append({
+                    "title": listing.get("title"),
+                    "ppsf": ppsf,
+                    "quality_tier": listing.get("quality_tier"),
+                    "layout_type": listing.get("layout_type")
+                })
+            
+            elif ppsf > upper_bound:
+            
+                high_outliers.append({
+                    "title": listing.get("title"),
+                    "ppsf": ppsf,
+                    "quality_tier": listing.get("quality_tier"),
+                    "layout_type": listing.get("layout_type")
+                })
 
         except:
 
@@ -3508,6 +3540,20 @@ for market_key, data in market_groups.items():
         "median_price_per_sqft": round(
             market_median
         ),
+
+        "q1": round(q1),
+
+        "q3": round(q3),
+        
+        "iqr": round(iqr),
+        
+        "lower_bound": round(lower_bound),
+        
+        "upper_bound": round(upper_bound),
+        
+        "low_outliers": low_outliers,
+        
+        "high_outliers": high_outliers,
 
         "listing_count": len(prices),
 
@@ -3745,6 +3791,10 @@ for market_key, data in market_groups.items():
             "market_median_price_per_sqft": round(
                 market_median
             ),
+
+            "market_q1": round(q1),
+
+            "market_q3": round(q3),
         
             "comparable_count": comparable_count,
         
