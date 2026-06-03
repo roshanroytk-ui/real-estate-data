@@ -917,7 +917,7 @@ def normalize_amenities(amenities):
     # LIMIT TO TOP 3
     # =====================================
 
-    return amenities[:3]
+    return amenities
 
 
 def normalize_property_type(
@@ -1730,11 +1730,11 @@ for hit in dubizzle_hits:
             "tower_name":
             tower_name,
 
-            "amenities": [
+            "amenities": normalize_amenities([
                 amenity.get("en")
                 for amenity in hit.get("amenities_v2", [])
                 if amenity.get("en")
-            ],
+            ]),
 
             "completion_status":
             hit.get(
@@ -3727,6 +3727,10 @@ for market_key, data in market_groups.items():
             color = "yellow"
 
         opportunity = listing.copy()
+
+        opportunity["amenities"] = (
+            opportunity.get("amenities", [])[:3]
+        )
 
         opportunity.update({
         
