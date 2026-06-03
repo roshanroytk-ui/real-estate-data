@@ -3159,7 +3159,16 @@ if suspicious_properties:
         
         property["layout_type"] = layout_type
         
-        property["quality_tier"] = quality_tier
+        existing_tier = property["quality_tier"]
+        
+        tiers = {
+            "standard": 0,
+            "premium": 1,
+            "ultra_luxury": 2
+        }
+        
+        if tiers.get(quality_tier, 0) > tiers.get(existing_tier, 0):
+            property["quality_tier"] = quality_tier
 
         ai_cache[
             property["url"]
