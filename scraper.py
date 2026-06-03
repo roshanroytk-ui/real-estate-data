@@ -1745,15 +1745,14 @@ for hit in dubizzle_hits:
                 .get("en", "Unknown")
             )
 
-        "developer_name": (
-            hit.get("project_developer_name", {})
-            .get("en")
+        developer_name = (
+            hit.get("project_developer_name", {}).get("en")
             if isinstance(
                 hit.get("project_developer_name"),
                 dict
             )
             else hit.get("project_developer_name")
-        ),
+        )
 
         property_type = "apartment"
         property_age = 0
@@ -1813,6 +1812,8 @@ for hit in dubizzle_hits:
             "price": float(price),
 
             "currency": "AED",
+
+            "developer_name": developer_name,
 
             "property_age": property_age,
 
