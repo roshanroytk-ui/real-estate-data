@@ -1730,8 +1730,11 @@ for hit in dubizzle_hits:
             "tower_name":
             tower_name,
 
-            "amenities":
-            [],
+            "amenities": [
+                amenity.get("en")
+                for amenity in hit.get("amenities_v2", [])
+                if amenity.get("en")
+            ],
 
             "completion_status":
             hit.get(
