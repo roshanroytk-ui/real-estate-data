@@ -3172,11 +3172,6 @@ if suspicious_properties:
             quality_tier
         }
 
-        print(
-            "BATCH RESULT:",
-            layout_type
-        )
-
 
 last_updated = datetime.now(timezone.utc).isoformat()
 
@@ -3270,6 +3265,9 @@ for property in properties:
     heatmap_groups[heatmap_key]["listings"].append(
         property
     )
+
+print("MARKET GROUPS CREATED:", len(market_groups))
+print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
 
 # =========================================
 # BUILD HEATMAP
@@ -3392,6 +3390,8 @@ with open(
     )
 
 print("Saved professional heatmap.json")
+print("HEATMAP GROUPS:", len(heatmap))
+print("TOTAL HEATMAP MARKETS:", len(heatmap_groups))
 
 # =====================================
 # MARKET DEBUG ENGINE
@@ -3837,6 +3837,7 @@ with open(
     )
 
 print("Saved opportunities.json")
+print("TOTAL OPPORTUNITIES:", len(opportunities))
 
 # =====================================
 # SAVE AI CACHE
