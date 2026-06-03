@@ -3137,48 +3137,47 @@ if suspicious_properties:
     for property in suspicious_properties:
 
         result = batch_results.get(
-        
-            property["url"],
-        
-            {}
+            property["url"]
         )
-        
+    
+        if not result:
+    
+            print(
+                "NO GEMINI RESULT:",
+                property["url"]
+            )
+    
+            continue
+    
         layout_type = result.get(
-        
             "layout_type",
-        
             "standard"
         )
-        
+    
         quality_tier = result.get(
-        
             "quality_tier",
-        
             "standard"
         )
-        
+    
         property["layout_type"] = layout_type
-        
+    
         existing_tier = property["quality_tier"]
-        
+    
         tiers = {
             "standard": 0,
             "premium": 1,
             "ultra_luxury": 2
         }
-        
+    
         if tiers.get(quality_tier, 0) > tiers.get(existing_tier, 0):
+    
             property["quality_tier"] = quality_tier
-
-        ai_cache[
-            property["url"]
-        ] = {
-
-            "layout_type":
-            layout_type,
-
-            "quality_tier":
-            quality_tier
+    
+        ai_cache[property["url"]] = {
+    
+            "layout_type": layout_type,
+    
+            "quality_tier": quality_tier
         }
 
 
