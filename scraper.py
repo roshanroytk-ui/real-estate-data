@@ -216,6 +216,23 @@ def detect_quality_tier(property):
         0
     )
 
+    developer = str(
+        property.get(
+            "developer_name",
+            ""
+        )
+    ).lower()
+
+    try:
+        property_age = int(
+            property.get(
+                "property_age",
+                0
+            )
+        )
+    except:
+        property_age = 0
+
     try:
         sqft = float(sqft)
     except:
@@ -310,6 +327,36 @@ def detect_quality_tier(property):
         elif amenity in premium_amenities:
             score += 1
 
+
+    premium_developers = [    
+        "emaar",
+        "aldar",
+        "damac",
+        "binghatti",
+        "sobha",
+        "meraas",
+        "imtiaz",
+        "nakheel",
+        "ellington",
+        "select group"
+    ]
+    
+    ultra_developers = [ 
+        "omniyat"
+    ]
+    
+    for dev in premium_developers:
+    
+        if dev in developer:
+            score += 1
+    
+    for dev in ultra_developers:
+    
+        if dev in developer:
+            score += 3
+
+    
+
     title_upper = title.upper()
 
     if "ULTRA LUXURY" in title_upper:
@@ -340,6 +387,20 @@ def detect_quality_tier(property):
 
     elif sqft >= 2500:
         score += 2
+
+    # =====================================
+    # AGE PENALTY
+    # =====================================
+    
+    if property_age >= 20:
+        score -= 3
+    
+    elif property_age >= 15:
+        score -= 2
+    
+    elif property_age >= 10:
+        score -= 1
+
 
     # =====================================
     # FINAL CLASSIFICATION
@@ -1684,19 +1745,64 @@ for hit in dubizzle_hits:
                 .get("en", "Unknown")
             )
 
-        property_type = "apartment"
+        "developer_name": (
+            hit.get("project_developer_name", {})
+            .get("en")
+            if isinstance(
+                hit.get("project_developer_name"),
+                dict
+            )
+            else hit.get("project_developer_name")
+        ),
 
+        property_type = "apartment"
+        property_age = 0
+        
+        for item in hit.get("property_info", []):
+        
+            if not isinstance(item, dict):
+                continue
+        
+            item_id = item.get("id")
+        
+            # PROPERTY TYPE
+            if item_id == "property_type":
+        
+                value = item.get("value")
+        
+                if isinstance(value, dict):
+        
+                    property_type = normalize_property_type(
+                        value.get("en", "apartment")
+                    )
+        
+            # PROPERTY AGE
+            elif item_id == "property_age":
+        
+                value = item.get("value", {})
+        
+                if isinstance(value, dict):
+        
+                    age_text = value.get("en", "")
+        
+                    match = re.search(r"(\d+)", age_text)
+        
+                    if match:
+                        property_age = int(match.group(1))
+        
         url_lower = property_url.lower()
         title_lower = title.lower()
         
-        if "villa" in url_lower or "villa" in title_lower:
-            property_type = "villa"
+        if property_type == "apartment":
         
-        elif "townhouse" in url_lower or "townhouse" in title_lower:
-            property_type = "townhouse"
+            if "villa" in url_lower or "villa" in title_lower:
+                property_type = "villa"
         
-        elif "penthouse" in url_lower or "penthouse" in title_lower:
-            property_type = "penthouse"
+            elif "townhouse" in url_lower or "townhouse" in title_lower:
+                property_type = "townhouse"
+        
+            elif "penthouse" in url_lower or "penthouse" in title_lower:
+                property_type = "penthouse"
 
         properties.append({
 
@@ -1707,6 +1813,8 @@ for hit in dubizzle_hits:
             "price": float(price),
 
             "currency": "AED",
+
+            "property_age": property_age,
 
             "area": area,
 
