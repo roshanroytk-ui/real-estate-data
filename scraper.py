@@ -1684,6 +1684,20 @@ for hit in dubizzle_hits:
                 .get("en", "Unknown")
             )
 
+        property_type = "apartment"
+
+        url_lower = property_url.lower()
+        title_lower = title.lower()
+        
+        if "villa" in url_lower or "villa" in title_lower:
+            property_type = "villa"
+        
+        elif "townhouse" in url_lower or "townhouse" in title_lower:
+            property_type = "townhouse"
+        
+        elif "penthouse" in url_lower or "penthouse" in title_lower:
+            property_type = "penthouse"
+
         properties.append({
 
             "source": "dubizzle",
@@ -1713,7 +1727,7 @@ for hit in dubizzle_hits:
             "bathrooms": bathrooms,
 
             "property_type":
-            "apartment",
+            property_type,
 
             "url":
             property_url,
