@@ -704,13 +704,6 @@ def get_area_assignment(lat, lng, raw_area=""):
         matches.sort(
             key=lambda x: x["polygon_area"]
         )
-
-        print("\nMATCHES:")
-        for m in matches:
-            print(
-                m["area"],
-                m["polygon_area"]
-            )
     
         comparable_area = matches[0]["area"]
     
