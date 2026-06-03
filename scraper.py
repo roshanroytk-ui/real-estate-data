@@ -3078,7 +3078,7 @@ for property in properties:
         if "ground floor" in title_lower:
         
             property["layout_type"] = "ground_floor"
-            ai_audits_queued += 1,
+            ai_audits_queued += 1
             continue 
 
         
