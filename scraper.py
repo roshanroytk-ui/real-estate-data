@@ -2103,6 +2103,19 @@ for source_data in all_soups:
                             ""
                         )
 
+                        developer_name = None
+
+                        if "damac maison" in description.lower():
+                            developer_name = "DAMAC"
+                        
+                        elif "emaar" in description.lower():
+                            developer_name = "EMAAR"
+                        
+                        else:
+                            developer_name = extract_developer_name(
+                                description
+                            )
+
 
                         completion_status = detect_completion_status(
                             description
@@ -2156,6 +2169,13 @@ for source_data in all_soups:
                             "address",
                             {}
                         )
+
+                        street_address = (
+                            address.get("streetAddress")
+                            or address.get("addressRegion")
+                            or address.get("addressLocality")
+                            or ""
+                        )
                         
                         addressRegion = address.get(
                             "addressRegion",
@@ -2164,26 +2184,33 @@ for source_data in all_soups:
                         
                         tower_name = "Unknown"
 
-                        location_name = (
-                            location.get("name", "")
-                            .strip()
-                        )
+                        # 1. Best source
+                        if street_address:
                         
-                        if (
-                            location_name
-                            and location_name.lower() != "dubai"
-                        ):
-                            tower_name = location_name
+                            tower_name = (
+                                street_address
+                                .split(",")[0]
+                                .strip()
+                            )
                         
+                        # 2. Fallback
+                        elif location.get("name"):
+                        
+                            tower_name = (
+                                location.get("name")
+                                .strip()
+                            )
+                        
+                        # 3. Last fallback: description
                         else:
                         
                             tower_patterns = [
                         
-                                r"in ([A-Z][A-Za-z0-9&\- ]+)",
+                                r"located in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
                         
-                                r"at ([A-Z][A-Za-z0-9&\- ]+)",
+                                r"in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
                         
-                                r"located in ([A-Z][A-Za-z0-9&\- ]+)"
+                                r"at ([A-Z][A-Za-z0-9&\-\(\) ]+)"
                             ]
                         
                             for pattern in tower_patterns:
@@ -2255,6 +2282,8 @@ for source_data in all_soups:
                             "price": price,
 
                             "currency": currency,
+
+                            "developer_name": developer_name,
 
                             "area": area,
 
