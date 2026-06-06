@@ -3270,6 +3270,21 @@ for property in properties:
             )
 
 # =====================================
+# LIMIT NEW AI AUDITS PER RUN
+# =====================================
+
+MAX_LAYOUT_AI = 10
+
+suspicious_properties = (
+    suspicious_properties[:MAX_LAYOUT_AI]
+)
+
+print(
+    "NEW AI AUDITS THIS RUN:",
+    len(suspicious_properties)
+)
+
+# =====================================
 # BATCH GEMINI LAYOUT ANALYSIS
 # =====================================
 
@@ -3976,8 +3991,13 @@ for market_key, data in market_groups.items():
 # =====================================
 # AI INVESTMENT ANALYSIS
 # =====================================
+MAX_INVESTMENT_AI = 10
+investment_ai_count = 0
 
 for opportunity in opportunities:
+
+    if investment_ai_count >= MAX_INVESTMENT_AI:
+        break
 
     deviation = opportunity["deviation_score"]
 
@@ -4028,6 +4048,8 @@ for opportunity in opportunities:
     if analysis:
     
         opportunity["ai_analysis"] = analysis
+
+        investment_ai_count += 1
         
 # SORT BEST OPPORTUNITIES FIRST
 
