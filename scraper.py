@@ -3578,6 +3578,12 @@ for market_key, data in market_groups.items():
 
     prices = sorted(data["prices"])
 
+    sorted_prices = sorted(prices)
+
+    q1 = sorted_prices[len(sorted_prices) // 4]
+
+    q3 = sorted_prices[(len(sorted_prices) * 3) // 4]
+
     if not prices:
         continue
 
