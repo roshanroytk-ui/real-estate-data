@@ -1697,5 +1697,104 @@
       "Project-Specific Due Diligence: Botanica in JVC is a mid-tier development; investors must verify the quality of building management, historical maintenance of common areas, and the current structure of the service charges which directly impact net yields."
     ],
     "investment_summary": "At an implied purchase price of approximately AED 550,000, this property offers an excellent high-yield opportunity for buy-to-let investors. If the JVC location is confirmed, the area's consistently high occupancy rates and strong rental demand for studios should easily generate gross yields of 8-9%, particularly given the low entry price per sqft. The investment is highly recommended subject to resolving the location discrepancy, verifying the physical condition of the unit, and auditing the building's service charge history."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/6/4-bed-huge-plot-skyline-view-upgraded-2-230763/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/7/very-hot-deal-high-floor-prime-investme-3-899427/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/6/garden-villa-type-e-under-market-price--2-150442/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/4/fully-furnished-spacious-studio-high-fl-2-154833/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/4/exceptional-apartment-with-open-living--2-296248/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/5/15/4-brmaid-g2-community-living-available-2-688818/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/23/burj-view-1br-society-house-q3-2026-2-273788/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/large-2br-chiller-free-open-house-6th-j-2-169052/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/5/handover-soon-payment-plan-prime-locati-2-212817/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/large-1br-upgraded-apartment-open-house-2-229460/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.rea.global/international/ae/dubai-south-dubai-310107979926/_investment_analysis": {
+    "quality_context": "The property is priced at AED 939 per sqft, which is a significant 43% discount compared to the stated market median of AED 1,644 per sqft. At 1,324 sqft, this 1-bedroom apartment is exceptionally large—nearly double the size of a standard Dubai 1-bedroom (typically 700-800 sqft). While the price per sqft is highly competitive, the absolute price of AED 1,272,600 is on the higher end for a 1-bedroom in the Dubai South area. The project, 'South Living', is an off-plan development with a handover scheduled for March 2027, offering modern amenities and a flexible payment plan in a rapidly developing master community.",
+    "risk_flags": [
+      "Developer/Location Discrepancy: The listing specifies 'Emaar South Golf District', but 'South Living' is a project by Dubai South Properties, not Emaar. Emaar properties typically command a premium, and this misrepresentation could artificially inflate perceived value.",
+      "Unusual Unit Size: A 1,324 sqft 1-bedroom is highly unconventional. Investors must verify if a large portion of this square footage consists of non-livable outdoor terrace space, which yields lower rental value.",
+      "Off-Plan Construction Risk: With a handover date of March 2027, the investor faces capital lock-up for 3 years and potential project delays.",
+      "Exit Liquidity & Rental Yield Compression: At AED 1.27M, this unit competes in absolute price with 2-bedroom apartments in the same area. Tenants and future buyers in Dubai South are highly price-sensitive and may not pay a premium rent for an oversized 1-bedroom, potentially depressing the net ROI."
+    ],
+    "investment_summary": "This property presents a high-volume, low-cost-per-sqft entry into Dubai's fastest-growing macro-hub, driven by the recent AED 128 billion expansion announcement of Al Maktoum International Airport (DWC). The low rate of AED 939 per sqft offers strong capital appreciation potential as the March 2027 handover approaches. However, due to the unusually large layout for a 1-bedroom, the absolute ticket price is high for the area, which may limit rental yields. This asset is best suited for long-term capital growth investors rather than short-term yield seekers."
+  },
+  "https://www.rea.global/international/ae/96-58a-st-dubai-dubai-310108403966/_investment_analysis": {
+    "quality_context": "There is a severe data integrity conflict in this listing. While the metadata positions the property in the ultra-premium 'Al Wasl' district as a '2-bedroom' unit, the description explicitly details a '1-bedroom' apartment in 'Arjan' (a mid-market suburban community near Miracle Garden). This mismatch completely distorts the valuation metrics. The listed price of AED 1,672/sqft appears to be a massive discount against the Al Wasl market median of AED 2,710/sqft, but if the property is actually located in Arjan, AED 1,672/sqft represents a significant premium over Arjan's typical market average (usually AED 1,000 to AED 1,300/sqft), likely driven by the 'private pool' feature mentioned in the text.",
+    "risk_flags": [
+      "Critical Location Mismatch: Metadata states 'Al Wasl' but the description specifies 'Arjan' (two completely different market segments separated by ~20km).",
+      "Configuration Discrepancy: Metadata claims a '2-bedroom' unit, whereas the description repeatedly advertises a '1-bedroom' apartment.",
+      "Artificial Valuation Discount: The comparison to the AED 2,710/sqft market median is highly misleading, as it compares suburban Arjan real estate to prime Al Wasl land values.",
+      "Broker Listing Integrity: High risk of a copy-paste error or a misleading listing tactic, indicating poor broker due diligence."
+    ],
+    "investment_summary": "From an institutional investment perspective, this listing must be flagged as 'High Risk / Do Not Proceed' until fundamental details are verified. If the property is indeed in Arjan, purchasing at AED 1,672/sqft (totaling ~AED 1.8M for 1,076 sqft) is highly overpriced for a 1-bedroom in that community, even with a private pool. If the property is in Al Wasl, the description is entirely erroneous. Investors are advised to request the official Title Deed and Unified Ejari/DLD registration number to verify the actual location, layout, and developer before performing any financial underwriting."
+  },
+  "https://www.rea.global/international/ae/dubai-dubai-dubai-310108307885/_investment_analysis": {
+    "quality_context": "There is a critical discrepancy in this listing: the metadata localizes the property in 'Al Wasl' (a premium district near Downtown/Jumeirah), which explains the high Market Median of 2,710 AED/sqft. However, the description explicitly places the property in 'Al Jaddaf' (a mid-market, developing waterfront district). At 1,515 AED/sqft, the property appears to be a 44% discount against the Al Wasl median, but in reality, it is priced at a standard-to-premium rate for Al Jaddaf. A 1,055 sqft size for a 2-bedroom is relatively compact but typical for modern, high-density developments in Al Jaddaf.",
+    "risk_flags": [
+      "Location Mismatch: Advertised under Al Wasl metadata but physically located in Al Jaddaf, artificially inflating the perceived discount against the market median.",
+      "Unrealistic ROI Claims: The advertised 'up to 15% ROI' is highly speculative and unrealistic for standard residential buy-to-let in Al Jaddaf, where net yields typically range between 6% and 8%.",
+      "Inconsistent Marketing Data: Travel time to Dubai International Airport is listed as 28 minutes, whereas Al Jaddaf is actually only 10-12 minutes away, indicating copy-pasted or poorly vetted marketing materials.",
+      "Handover Delay Risk: Listed as 'handover soon', which carries typical off-plan completion and snagging risks."
+    ],
+    "investment_summary": "This property is misclassified under Al Wasl to make its 1,515 AED/sqft price tag look like an undervalued bargain compared to the 2,710 AED/sqft median. When evaluated against actual Al Jaddaf market comparables, the pricing is fair but not discounted. Al Jaddaf offers decent rental demand due to its proximity to Downtown and Dubai Healthcare City, making it a viable mid-market investment. However, prospective investors must ignore the inflated 15% ROI claims, run calculations based on realistic 6-8% net yields, and conduct strict due diligence on the developer's track record and actual handover timeline."
+  },
+  "https://www.rea.global/international/ae/jumeirah-village-circle-jumeirah-village-circle-dubai-dubai-310108209530/_investment_analysis": {
+    "quality_context": "The property is a 969 sqft, 2-bedroom apartment located in a premium low-rise (G+5) residential development in Jumeirah Village Circle (JVC). The project offers high-end specifications, including European craftsmanship, integrated kitchens, and luxury amenities such as a 38-meter leisure pool, a 30-meter rooftop infinity pool, and a clubhouse. While JVC is traditionally a mid-market, high-density community, this project positions itself in the premium boutique niche, aiming to attract tenants willing to pay a premium for superior build quality and lifestyle amenities.",
+    "risk_flags": [
+      "Critical Location Mismatch: The metadata classifies the area as 'Al Wasl' (a high-end, central district near Downtown/Jumeirah), whereas the title, description, and landmarks (Circle Mall, Al Khail Road) explicitly place the property in Jumeirah Village Circle (JVC), which is an inland suburban community.",
+      "Skewed Valuation Metrics: The 'Market Median' of 2,710 AED/sqft is representative of Al Wasl's luxury market, not JVC. At 1,860 AED/sqft, this property is actually priced at a significant premium compared to the actual JVC market median (typically 1,200 to 1,500 AED/sqft for premium off-plan).",
+      "Off-Plan Construction Risk: The reference to an 'advantageous payment plan' and project-level amenities indicates this is an off-plan property, exposing the investor to potential handover delays and developer execution risks."
+    ],
+    "investment_summary": "From an investment perspective, this property must not be evaluated against the Al Wasl market median of 2,710 AED/sqft, as doing so creates a false impression of a 31% discount. In its actual market of JVC, the price of 1,860 AED/sqft represents a premium-tier pricing structure. While the high-end European finishes and extensive resort-style amenities will command above-average rental yields and attract quality tenants, the high entry price per sqft limits immediate capital appreciation headroom compared to standard JVC inventory. It is a solid yield-generating asset for long-term investors, but carries a high premium entry barrier."
+  },
+  "https://www.rea.global/international/ae/96-58a-st-dubai-dubai-310107675791/_investment_analysis": {
+    "quality_context": "The listing presents a critical geographical and valuation discrepancy. While the metadata localizes the property in the ultra-premium Al Wasl district (explaining the high market median of AED 2,710/sqft), the marketing description explicitly details a project in Majan, a suburban mid-market development in Dubailand. At AED 1,222/sqft, the pricing is highly unrealistic for Al Wasl but represents standard to slightly premium pricing for a modern 2-bedroom unit in Majan. The advertised 'premium' quality, smart layouts, and resort-style amenities align with newer mid-tier developments in Majan rather than Al Wasl's high-end residential standards.",
+    "risk_flags": [
+      "Critical location mismatch: Metadata states 'Al Wasl' while the description repeatedly specifies 'Majan'. These areas are geographically and economically vastly different.",
+      "Misleading valuation metrics: The pricing of AED 1,222/sqft is compared against Al Wasl's median of AED 2,710/sqft, creating a false impression of a 55% discount.",
+      "Generic developer listing: The description refers to '1, 2 & 3-bedroom luxury apartments' and invites readers to 'Request Pricing', indicating this is a generic marketing template rather than a specific, verified secondary market unit."
+    ],
+    "investment_summary": "If evaluated as an Al Wasl property, this would be an immediate buy, but it is almost certainly located in Majan. For Majan, AED 1,222/sqft is a standard market rate for a modern handover. Majan offers attractive rental yields (typically 7-8% gross) due to lower entry costs and steady demand from suburban professionals, but capital appreciation is significantly slower than in prime central Dubai. Investors must verify the physical location, actual developer credentials, and title deed before proceeding, as the current listing data is highly misleading."
+  },
+  "https://www.rea.global/international/ae/dubai-dubai-dubai-310107674610/_investment_analysis": {
+    "quality_context": "There is a critical geographical and valuation discrepancy in this listing. The metadata categorizes the property in 'Al Wasl' (a highly prestigious, central coastal district near Downtown Dubai), which explains the high 'Market Median' of 2,710 AED/sqft. However, the actual property description explicitly places the unit in 'Dubai Land Residence Complex' (DLRC), a developing suburban community located far inland along Emirates Road. This mismatch falsely frames the property's price of 1,295 AED/sqft as a massive 52% discount, whereas it is actually a premium price point for DLRC.",
+    "risk_flags": [
+      "Bait-and-switch location marketing: Listing is categorized under prime 'Al Wasl' but the physical property is in suburban 'Dubai Land Residence Complex (DLRC)'.",
+      "Severely distorted valuation metrics: Comparing DLRC pricing to Al Wasl market medians creates a false narrative of high equity margin.",
+      "Overpriced for the actual micro-market: 1,295 AED/sqft is at the absolute ceiling for DLRC, where average transaction prices typically range between 850 to 1,100 AED/sqft.",
+      "Poor listing integrity: The title 'Dubai, Dubai, Dubai' and mismatched location fields indicate low-quality broker representation or automated spam listing.",
+      "Unproven premium features: Private pools in mid-market suburban apartments (DLRC) often suffer from high maintenance costs and leakage risks, which can erode net rental yields."
+    ],
+    "investment_summary": "As a Dubai real estate investment analyst, this property is a clear 'AVOID' under its current presentation. While a 2-bedroom unit with a private pool in DLRC has lifestyle appeal, the entry price of 1,295 AED/sqft (~1.6M AED total) is highly inflated for its actual location. The marketing attempts to leverage Al Wasl's premium status to justify this price. In DLRC, capital appreciation is limited by high future supply, and rental yields will not support the premium paid for the private pool. Investors should only engage if the price is renegotiated to align with genuine DLRC market rates (under 1,050 AED/sqft) and after verifying the developer's track record."
   }
 }
