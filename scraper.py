@@ -22,6 +22,10 @@ ninetynineacres_base_url = (
     "https://www.99acres.com/property-in-dubai-ffid"
 )
 
+REA_GRAPHQL_URL = (
+    "https://www.rea.global/international/graphql"
+)
+
 headers = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -1615,6 +1619,122 @@ coord_map = {
     for item in area_coords
 }
 
+# =========================================
+# REA GRAPHQL
+# =========================================
+
+def fetch_rea_listings():
+
+    listings = []
+
+    page = 1
+    page_size = 5000
+
+    query = """
+    query searchListViewQuery(
+      $country:String!,
+      $channel:String!,
+      $page:Int!,
+      $pageSize:Int!,
+      $language:String!,
+      $currencyCode:String,
+      $where:String,
+      $searchtypes:[String],
+      $includesurrounding:Boolean,
+      $distanceUnit:String
+    ){
+      searchListListings(
+        listingSearchInput:{
+          country:$country
+          channel:$channel
+          currencyCode:$currencyCode
+          where:$where
+          searchtypes:$searchtypes
+          includesurrounding:$includesurrounding
+          distanceUnit:$distanceUnit
+          language:$language
+        }
+        pageReq:{
+          pageNo:$page,
+          pageSize:$pageSize
+        }
+      ){
+        listings{
+          id
+          displayAddress
+          description
+
+          bedrooms
+          bathrooms
+          parkingSpaces
+
+          completionDate
+
+          propertyTypes(language:$language)
+
+          buildingSize(
+            language:$language,
+            unit:SQUARE_METERS
+          )
+
+          detailPageUrl(language:$language)
+
+          geoLocation{
+            latitude
+            longitude
+          }
+
+          price(
+            language:$language,
+            currency:$currencyCode
+          ){
+            displayConsumerPrice
+          }
+        }
+      }
+    }
+    """
+
+    variables = {
+        "country": "ae",
+        "channel": "buy",
+        "searchtypes": ["apartment"],
+        "where": "dubai",
+        "language": "en",
+        "currencyCode": "AED",
+        "page": page,
+        "pageSize": page_size,
+        "includesurrounding": True,
+        "distanceUnit": "Miles"
+    }
+
+    response = requests.post(
+        REA_GRAPHQL_URL,
+        json={
+            "operationName": "searchListViewQuery",
+            "variables": variables,
+            "query": query
+        },
+        timeout=60
+    )
+
+    response.raise_for_status()
+
+    data = response.json()
+
+    listings = (
+        data["data"]
+        ["searchListListings"]
+        ["listings"]
+    )
+
+    print(
+        "REA LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
 properties = []
 seen_urls = set()
 potential_duplicates = []
@@ -1622,6 +1742,8 @@ potential_duplicates = []
 dubizzle_hits = fetch_dubizzle_algolia(
     max_pages=100
 )
+
+rea_hits = fetch_rea_listings()
 
 print(
     "TOTAL DUBIZZLE LISTINGS:",
@@ -1890,6 +2012,181 @@ for hit in dubizzle_hits:
 
         print(
             "DUBIZZLE PARSE ERROR:",
+            e
+        )
+
+# =========================================
+# REA PARSER
+# =========================================
+
+for listing in rea_hits:
+
+    try:
+
+        bedrooms = listing.get(
+            "bedrooms",
+            0
+        )
+
+        bathrooms = listing.get(
+            "bathrooms"
+        )
+
+        description = listing.get(
+            "description",
+            ""
+        )
+
+        raw_area = listing.get(
+            "displayAddress",
+            "Unknown"
+        )
+
+        geo = listing.get(
+            "geoLocation"
+        ) or {}
+
+        lat = geo.get("latitude")
+        lng = geo.get("longitude")
+
+        area_info = get_area_assignment(
+            lat,
+            lng,
+            raw_area
+        )
+
+        area = area_info[
+            "comparable_area"
+        ]
+
+        heatmap_area = area_info[
+            "heatmap_area"
+        ]
+
+        price_obj = listing.get(
+            "price"
+        ) or {}
+
+        display_price = (
+            price_obj.get(
+                "displayConsumerPrice",
+                ""
+            )
+        )
+
+        digits = re.sub(
+            r"[^\d.]",
+            "",
+            display_price
+        )
+
+        if not digits:
+            continue
+
+        price = float(digits)
+
+        sqm = listing.get(
+            "buildingSize"
+        )
+
+        try:
+            sqm = float(sqm)
+            sqft = sqm * 10.7639
+        except:
+            continue
+
+        property_url = (
+            "https://www.rea.global"
+            + listing.get(
+                "detailPageUrl",
+                ""
+            )
+        )
+
+        if property_url in seen_urls:
+            continue
+
+        seen_urls.add(property_url)
+
+        property_types = listing.get(
+            "propertyTypes",
+            []
+        )
+
+        property_type = "apartment"
+
+        if property_types:
+
+            property_type = normalize_property_type(
+                property_types[0]
+            )
+
+        if is_duplicate_property(
+            lat,
+            lng,
+            price,
+            sqft,
+            bedrooms
+        ):
+            continue
+
+        properties.append({
+
+            "source": "rea",
+
+            "title": raw_area,
+
+            "price": price,
+
+            "currency": "AED",
+
+            "area": area,
+
+            "heatmap_area": heatmap_area,
+
+            "raw_area": raw_area,
+
+            "lat": lat,
+
+            "lng": lng,
+
+            "sqft": sqft,
+
+            "bedrooms": bedrooms,
+
+            "bathrooms": bathrooms,
+
+            "property_type": property_type,
+
+            "url": property_url,
+
+            "description": description,
+
+            "tower_name": None,
+
+            "amenities": [],
+
+            "completion_status": (
+                "off_plan"
+                if listing.get(
+                    "completionDate"
+                )
+                else "ready"
+            ),
+
+            "furnished_status": "UNKNOWN",
+
+            "is_verified": False,
+
+            "layout_type": "standard",
+
+            "quality_tier": "standard"
+        })
+
+    except Exception as e:
+
+        print(
+            "REA PARSE ERROR:",
             e
         )
 
