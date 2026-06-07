@@ -4341,18 +4341,22 @@ for opportunity in opportunities:
         )
     
         if analysis:
-    
+
             ai_cache[cache_key] = analysis
-    
+        
+            investment_ai_count += 1
+        
             print(
                 "NEW INVESTMENT ANALYSIS"
+            )
+        
+            print(
+                f"NEW AI USED: {investment_ai_count}/{MAX_INVESTMENT_AI}"
             )
     
     if analysis:
     
         opportunity["ai_analysis"] = analysis
-
-        investment_ai_count += 1
         
 # SORT BEST OPPORTUNITIES FIRST
 
