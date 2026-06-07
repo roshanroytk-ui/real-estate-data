@@ -1376,55 +1376,55 @@ ALGOLIA_HEADERS = {
 # DUBIZZLE SCRAPER
 # =========================================
 
-def fetch_dubizzle_algolia(max_pages=25):
+def fetch_dubizzle_algolia():
 
     listings = []
 
-    for page in range(max_pages):
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
 
-        payload = {
-            "requests": [
-                {
-                    "indexName":
-                    "by_verification_feature_asc_property-for-sale-residential.com",
+                "params":
+                f"query=&page={page}&hitsPerPage=1000"
+            }
+            for page in range(5)
+        ]
+    }
 
-                    "params":
-                    f"query=&page={page}&hitsPerPage=35"
-                }
-            ]
-        }
+    try:
 
-        try:
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=ALGOLIA_HEADERS,
+            json=payload,
+            timeout=60
+        )
 
-            response = requests.post(
-                ALGOLIA_URL,
-                headers=ALGOLIA_HEADERS,
-                json=payload,
-                timeout=30
-            )
+        response.raise_for_status()
 
-            response.raise_for_status()
+        data = response.json()
 
-            data = response.json()
+        for result in data["results"]:
 
-            hits = data["results"][0]["hits"]
+            hits = result.get("hits", [])
 
             listings.extend(hits)
 
             print(
-                f"DUBIZZLE PAGE {page} "
+                f"ALGOLIA PAGE {result.get('page')} "
                 f"({len(hits)} listings)"
             )
 
-            time.sleep(0.5)
+    except Exception as e:
 
-        except Exception as e:
+        print("DUBIZZLE ERROR:", e)
 
-            print(
-                "DUBIZZLE ERROR:",
-                page,
-                e
-            )
+    print(
+        "TOTAL DUBIZZLE LISTINGS:",
+        len(listings)
+    )
 
     return listings
 
@@ -1739,9 +1739,9 @@ properties = []
 seen_urls = set()
 potential_duplicates = []
 
-dubizzle_hits = fetch_dubizzle_algolia(
-    max_pages=100
-)
+dubizzle_hits = fetch_dubizzle_algolia()
+
+print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 
 rea_hits = fetch_rea_listings()
 
