@@ -592,16 +592,71 @@ def get_area_assignment(lat, lng, raw_area=""):
 
         lat = float(lat)
         lng = float(lng)
-
+    
     except:
-
+    
         fallback = normalize_area(raw_area)
-
+    
         return {
             "comparable_area": fallback,
             "heatmap_area": fallback
         }
-
+    
+    # =====================================
+    # REA GENERIC DUBAI FALLBACK LOCATION
+    # =====================================
+    
+    if (
+        abs(lat - 25.204849) < 0.0001
+        and
+        abs(lng - 55.270783) < 0.0001
+    ):
+        lat = None
+        lng = None
+    
+    if lat is None or lng is None:
+    
+        raw_lower = raw_area.lower()
+    
+        SEMANTIC_AREA_MATCHES = {
+    
+            "downtown": "Downtown Dubai",
+    
+            "business bay": "Business Bay",
+    
+            "difc": "DIFC",
+    
+            "city walk": "City Walk",
+    
+            "dubai marina": "Dubai Marina",
+    
+            "jumeirah lake towers": "Jumeirah Lake Towers",
+    
+            "jlt": "Jumeirah Lake Towers",
+    
+            "jumeirah village circle": "Jumeirah Village Circle",
+    
+            "jvc": "Jumeirah Village Circle",
+    
+            "dubai hills": "Dubai Hills Estate"
+        }
+    
+        for keyword, canonical in SEMANTIC_AREA_MATCHES.items():
+    
+            if keyword in raw_lower:
+    
+                return {
+                    "comparable_area": canonical,
+                    "heatmap_area": canonical
+                }
+    
+        fallback = normalize_area(raw_area)
+    
+        return {
+            "comparable_area": fallback,
+            "heatmap_area": fallback
+        }
+    
     point = Point(lng, lat)
 
 
