@@ -3713,6 +3713,13 @@ heatmap_groups = {}
 
 for property in properties:
 
+    # =====================================
+    # SKIP REA GENERIC DUBAI FALLBACK AREA
+    # =====================================
+
+    if property.get("area") == "Dubai, Dubai, Dubai":
+        continue
+
     area = property["area"]
     property_type = property["property_type"]
     bedrooms = property["bedrooms"]
