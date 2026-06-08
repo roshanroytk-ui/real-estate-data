@@ -3882,6 +3882,15 @@ for market_key, data in market_groups.items():
                 ppsf - market_median
             ) / market_median
 
+            if "Ain Dubai and Palm Views" in listing["title"]:
+
+                print("\nEMIRATES CROWN CLEANING")
+                print("market_key:", market_key)
+                print("prices:", prices)
+                print("market_median:", market_median)
+                print("ppsf:", ppsf)
+                print("deviation:", deviation)
+
             if deviation <= -0.50:
                 continue
 
