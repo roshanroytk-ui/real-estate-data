@@ -1412,6 +1412,10 @@ Return format:
 
         return json.loads(text)
 
+    except RuntimeError:
+
+        raise
+
     except Exception as e:
 
         print("AI ANALYSIS ERROR:", e)
