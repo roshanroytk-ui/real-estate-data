@@ -3882,7 +3882,7 @@ for market_key, data in market_groups.items():
                 ppsf - market_median
             ) / market_median
 
-            if deviation < -0.70:
+            if deviation <= -0.50:
                 continue
 
             cleaned_listings.append(listing)
