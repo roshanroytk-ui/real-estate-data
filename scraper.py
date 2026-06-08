@@ -3906,32 +3906,32 @@ for market_key, data in market_groups.items():
 
     for listing in data["listings"]:
 
-    try:
-
-        ppsf = (
-            listing["price"]
-            / float(listing["sqft"])
-        )
-
-    except:
-        continue
-
-    deviation = (
-        ppsf - market_median
-    ) / market_median
-
-    # remove extreme low outliers
-    if deviation <= -0.50:
-        continue
-
-    if ppsf < lower_bound:
-        continue
-
-    if ppsf > upper_bound:
-        continue
-
-    cleaned_listings.append(listing)
-    cleaned_prices.append(ppsf)
+        try:
+    
+            ppsf = (
+                listing["price"]
+                / float(listing["sqft"])
+            )
+    
+        except:
+            continue
+    
+        deviation = (
+            ppsf - market_median
+        ) / market_median
+    
+        # remove extreme low outliers
+        if deviation <= -0.50:
+            continue
+    
+        if ppsf < lower_bound:
+            continue
+    
+        if ppsf > upper_bound:
+            continue
+    
+        cleaned_listings.append(listing)
+        cleaned_prices.append(ppsf)
 
     data["listings"] = cleaned_listings
     data["prices"] = cleaned_prices
