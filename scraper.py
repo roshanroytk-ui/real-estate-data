@@ -1382,6 +1382,16 @@ Return format:
         # DEBUG GEMINI FAILURES
         # =====================================
         
+        if "error" in data:
+
+            error_code = data["error"].get("code")
+        
+            if error_code == 429:
+        
+                raise RuntimeError(
+                    "GEMINI_QUOTA_EXCEEDED"
+                )
+        
         if "candidates" not in data:
         
             print("GEMINI ANALYSIS BAD RESPONSE:")
@@ -4393,14 +4403,28 @@ for opportunity in opportunities:
     
     else:
     
-        analysis = generate_ai_analysis(
-    
-            opportunity,
-    
-            opportunity[
-                "market_median_price_per_sqft"
-            ]
-        )
+        try:
+
+            analysis = generate_ai_analysis(
+        
+                opportunity,
+        
+                opportunity[
+                    "market_median_price_per_sqft"
+                ]
+            )
+        
+        except RuntimeError as e:
+        
+            if str(e) == "GEMINI_QUOTA_EXCEEDED":
+        
+                print(
+                    "GEMINI QUOTA EXCEEDED - STOPPING INVESTMENT ANALYSIS"
+                )
+        
+                break
+        
+            raise
     
         if analysis:
 
