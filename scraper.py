@@ -3852,9 +3852,45 @@ for market_key, data in market_groups.items():
 
     prices = sorted(data["prices"])
 
+    if not prices:
+        continue
+
+    market_median = median(prices)
+
+    # =====================================
+    # SMALL MARKET CLEANING
+    # =====================================
+
     if len(prices) < 20:
-        # keep all remaining listings
-        # data-quality filters already handled
+
+        cleaned_listings = []
+        cleaned_prices = []
+
+        for listing in data["listings"]:
+
+            try:
+
+                ppsf = (
+                    listing["price"]
+                    / float(listing["sqft"])
+                )
+
+            except:
+                continue
+
+            deviation = (
+                ppsf - market_median
+            ) / market_median
+
+            if deviation < -0.70:
+                continue
+
+            cleaned_listings.append(listing)
+            cleaned_prices.append(ppsf)
+
+        data["listings"] = cleaned_listings
+        data["prices"] = cleaned_prices
+
         continue
 
     q1 = prices[len(prices) // 4]
