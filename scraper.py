@@ -3892,6 +3892,13 @@ for market_key, data in market_groups.items():
                 print("deviation:", deviation)
 
             if deviation <= -0.50:
+
+                print(
+                    "REMOVING:",
+                    listing["title"],
+                    deviation
+                )
+            
                 continue
 
             cleaned_listings.append(listing)
