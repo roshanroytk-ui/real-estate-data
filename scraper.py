@@ -3724,10 +3724,37 @@ heatmap_groups = {}
 for property in properties:
 
     # =====================================
-    # SKIP REA GENERIC DUBAI FALLBACK AREA
+    # DATA QUALITY FILTERS
     # =====================================
 
     if property.get("area") == "Dubai, Dubai, Dubai":
+        continue
+
+    try:
+        bedrooms = int(property.get("bedrooms", 0))
+        sqft = float(property.get("sqft", 0))
+    except:
+        continue
+
+    # impossible unit sizes
+
+    if bedrooms == 1 and sqft > 2500:
+        continue
+
+    if bedrooms <= 2 and bedrooms > 0 and sqft > 3500:
+        continue
+
+    if bedrooms > 0 and bedrooms <= 2 and sqft > 3500:
+        continue
+
+    try:
+        ppsf = property["price"] / sqft
+    except:
+        continue
+
+    # obvious bad data
+
+    if ppsf < 200:
         continue
 
     area = property["area"]
@@ -3812,6 +3839,54 @@ for property in properties:
 
 print("MARKET GROUPS CREATED:", len(market_groups))
 print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
+
+# =====================================
+# MARKET CLEANING
+# =====================================
+
+for market_key, data in market_groups.items():
+
+    prices = sorted(data["prices"])
+
+    if len(prices) < 20:
+        # keep all remaining listings
+        # data-quality filters already handled
+        continue
+
+    q1 = prices[len(prices) // 4]
+    q3 = prices[(len(prices) * 3) // 4]
+
+    iqr = q3 - q1
+
+    lower_bound = q1 - (1.5 * iqr)
+    upper_bound = q3 + (1.5 * iqr)
+
+    cleaned_listings = []
+    cleaned_prices = []
+
+    for listing in data["listings"]:
+
+        try:
+
+            ppsf = (
+                listing["price"]
+                / float(listing["sqft"])
+            )
+
+        except:
+            continue
+
+        if ppsf < lower_bound:
+            continue
+
+        if ppsf > upper_bound:
+            continue
+
+        cleaned_listings.append(listing)
+        cleaned_prices.append(ppsf)
+
+    data["listings"] = cleaned_listings
+    data["prices"] = cleaned_prices
 
 # =========================================
 # BUILD HEATMAP
