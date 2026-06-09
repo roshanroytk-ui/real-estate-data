@@ -4440,6 +4440,14 @@ for market_key, data in market_groups.items():
     else:
         confidence = "High"
 
+    prices = sorted(data["prices"])
+
+    if not prices:
+        continue
+    
+    q1 = prices[len(prices) // 4]
+    q3 = prices[(len(prices) * 3) // 4]
+
     for listing in data["listings"]:
 
         try:
