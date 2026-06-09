@@ -2263,5 +2263,87 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/8/1-bedroom-samana-ocean-crest-marina-vie-2-128895/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/9/2-br-study-fully-upgraded-maids-room-2-244746/_investment_analysis": {
+    "quality_context": "Located in the highly prestigious Madinat Jumeirah Living (MJL) - Asayel 2, Umm Suqeim 3, this property sits in one of Dubai's premier freehold luxury communities. The layout is exceptionally rare and desirable, featuring a 2-bedroom configuration supplemented by both a study and a maid's room, offering villa-like utility in an apartment format. Being 'Fully Upgraded' further elevates its positioning in a market where premium finishes command a significant rental and resale premium.",
+    "risk_flags": [
+      "The property is priced at a massive ~30% discount to the market median (AED 2,284/sqft vs. AED 3,296/sqft). This extreme underpricing requires rigorous due diligence to rule out distressed seller conditions, outstanding liabilities, structural issues, or an unfavorable long-term tenancy agreement that restricts immediate rental optimization.",
+      "High service charges typical of premium Dubai Holding master developments can impact net ROI if not factored into yield calculations.",
+      "Upgrades must be verified for official developer (Dubai Holding) and Dubai Municipality approvals/NOCs to prevent future compliance or resale issues."
+    ],
+    "investment_summary": "This property represents a highly lucrative 'buy' opportunity on paper, offering immediate equity capture due to its pricing significantly below the market median. The unique 2BR + Study + Maid layout is in high demand for both long-term family leasing and high-yield short-term holiday homes given its proximity to Burj Al Arab. If due diligence confirms the physical condition and clean title, this asset promises superior capital appreciation potential and strong net rental yields."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/25/exclusive-vacant-now-popular-a-type-2-224866/_investment_analysis": {
+    "quality_context": "The Shoreline Apartments on Palm Jumeirah represent a highly liquid, established mid-to-high-end residential segment. The 'A Type' layout is highly regarded in the market for its generous 2,160 sqft footprint, typically featuring a favorable semi-closed kitchen, maid's room, and spacious balcony. While Shoreline is an older Nakheel development (completed circa 2007) and may lack the ultra-modern finishes of newer Palm handovers, it offers robust community integration, beach access (for beach-side buildings), and proximity to Nakheel Mall.",
+    "risk_flags": [
+      "Significant underpricing relative to the market median (AED 2,312/sqft vs. AED 3,352/sqft) strongly indicates the unit may face the roadside/monorail (landside) rather than the beach/sea, or is in distressed/original condition requiring heavy CAPEX.",
+      "Aging infrastructure of the Shoreline development can lead to higher maintenance issues, AC/chiller efficiency problems, and potential plumbing snags.",
+      "High service charges typical of Palm Jumeirah master developments can dilute net rental yields if not factored into the cash flow model."
+    ],
+    "investment_summary": "At a ~31% discount to the Palm Jumeirah market median, this property presents a compelling value-add or 'fixer-upper' opportunity. The 'Vacant Now' status is highly lucrative in Dubai's current landlord-favorable market, allowing an investor to either immediately lease it at current market rates to maximize gross yield, or undertake a high-end renovation to flip the property and capture the massive spread between its purchase price and the market median. Assuming no structural defects, this is a high-conviction buy for value-oriented investors."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/2/4/private-garden-4966-sqft-plot-size-unfu-2-308098/_investment_analysis": {
+    "quality_context": "There is a critical discrepancy in this listing. While categorized under the ultra-luxury 'Emirates Hills' community, the description explicitly places the property in 'Ghadeer 2, The Lakes'. The Lakes is a premium, family-oriented Emaar community, but it commands lower market rates than Emirates Hills. Furthermore, the 4,966 sqft figure represents the plot size, not the Built-Up Area (BUA). Ghadeer 4-bedroom villas typically have a BUA of approximately 2,400 to 3,000 sqft. This mismatch distorts the pricing metrics significantly.",
+    "risk_flags": [
+      "Location Misrepresentation: Listed under Emirates Hills but physically located in Ghadeer 2, The Lakes, which has a lower price ceiling.",
+      "Pricing Metric Distortion: The AED 1,762 price per sqft is calculated using the plot size (4,966 sqft) instead of the Built-Up Area (BUA). If the BUA is ~2,800 sqft, the actual price per BUA sqft rises to over AED 3,100, which is a significant premium.",
+      "Renovation Risk: Listed as unfurnished; older villas in The Lakes often require substantial capital expenditure (CapEx) for modernization to achieve optimal rental yields."
+    ],
+    "investment_summary": "At first glance, the property appears to offer a 39% discount compared to the Emirates Hills market median (AED 1,762 vs AED 2,889/sqft). However, this is an analytical illusion caused by incorrect community tagging and calculating the price per sqft using plot size instead of BUA. At an implied valuation of ~AED 8.75M, this property is actually priced at a premium for The Lakes. Investors should discount the 'Emirates Hills' benchmark entirely, request the exact BUA, and re-evaluate the asset against actual transaction history in Ghadeer 2."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/4/3/exclusive-central-best-deal-call-archie-2-119873/_investment_analysis": {
+    "quality_context": "There is a critical discrepancy in this listing: while the designated area is 'Emirates Hills', the description explicitly identifies the property as a 'Legacy Nova in Jumeirah Park'. Emirates Hills is an ultra-luxury gated community, whereas Jumeirah Park is a premium, family-oriented villa community. The listed price of AED 2,022 per sqft is compared against a market median of AED 2,889 per sqft (which reflects Emirates Hills pricing), falsely implying a 30% discount. In reality, AED 2,022 per sqft is at the higher end of the market rate for a Legacy Nova villa in Jumeirah Park.",
+    "risk_flags": [
+      "Severe location mismatch: Listed under Emirates Hills but physically located in Jumeirah Park.",
+      "Misleading valuation metrics: The apparent discount is artificial, as Jumeirah Park property values are being compared against Emirates Hills benchmarks.",
+      "Incomplete listing details: The description cuts off abruptly ('in the middle of the...'), indicating a low-effort or outdated listing.",
+      "Potential bait-and-switch marketing tactic used to capture high-net-worth leads searching in Emirates Hills."
+    ],
+    "investment_summary": "Evaluated correctly as a Jumeirah Park asset, a 4-bedroom Legacy Nova (4,154 sqft) priced at AED 2,022/sqft (approx. AED 8.4M) is fully priced and offers limited immediate capital appreciation. Legacy Nova villas are highly desirable for their modern layouts, floor-to-ceiling windows, and rooftop terraces, making them easy to rent. However, investors must disregard the Emirates Hills comparison. True Jumeirah Park net yields typically range between 5.5% to 6.2%. This property is a solid buy-to-live or long-term yield play, but buyers should negotiate the price down closer to the actual Jumeirah Park median of AED 1,700 - 1,900/sqft."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/1/burj-view-10-roi-furnished-2-119107/_investment_analysis": {
+    "quality_context": "The property is a 436 sqft studio located in Executive Bay, Business Bay. At AED 1,720 per sqft, it is priced approximately 32% below the area's market median of AED 2,535 per sqft. This significant discount reflects the building's mid-tier status and age (completed circa 2017 by DAMAC) compared to newer ultra-luxury handovers in the area. However, the 'Burj View' and 'Fully Furnished' status position it highly for the lucrative short-term rental market.",
+    "risk_flags": [
+      "The advertised 10% ROI is likely a gross projection; net ROI will be lower once high Business Bay service charges and property management fees are deducted.",
+      "Executive Bay is an older development which may face higher maintenance costs and capital depreciation compared to newer prime projects in Business Bay.",
+      "The significant discount to the market median (32% below) warrants a strict due diligence check on outstanding service charges, building maintenance quality, and title deed status."
+    ],
+    "investment_summary": "An attractive high-yield entry-level investment. Purchasing at AED 1,720/sqft in Business Bay offers a strong margin of safety and immediate equity buffer against the market median. The studio layout, fully furnished condition, and Burj Khalifa view make it an ideal asset for a short-term holiday home strategy, which is the most viable path to achieving the targeted high single-digit or low double-digit net yields."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/9/fully-furnished-difc-view-prime-locatio-2-432261/_investment_analysis": {
+    "quality_context": "Sky Gardens is an established, high-rise residential tower strategically located at the edge of DIFC. The property is fully upgraded and furnished, offering premium DIFC views which appeals heavily to corporate professionals. While the listing is categorized under 'Za'abeel', the building physically sits in the DIFC/Park Towers vicinity. The asking price of AED 2,170 per sqft is highly competitive, representing a massive discount compared to the area's median of AED 3,529 per sqft, which is heavily skewed upward by ultra-luxury off-plan and recently completed projects in Za'abeel (such as One Za'abeel).",
+    "risk_flags": [
+      "Location Discrepancy: Listed under Za'abeel but located in DIFC (Sky Gardens), which can distort market comparison metrics.",
+      "Age of Building: Sky Gardens was completed in 2008; older towers in Dubai often carry higher maintenance fees (service charges) and potential infrastructure wear compared to newer Za'abeel developments.",
+      "Significant Underpricing: Pricing at ~38% below the market median suggests potential seller urgency, active tenancy contract limitations (e.g., low-rent sitting tenant), or outstanding service charge liabilities that need verification."
+    ],
+    "investment_summary": "This property represents a strong value-add or high-yield opportunistic play. At AED 2,170 per sqft for a fully upgraded, furnished 2-bedroom in a prime business district, the entry point is highly attractive. If purchased vacant on transfer, this unit can command premium rents from DIFC professionals, yielding an estimated gross ROI of 7.5% - 8.5%. Investors should conduct strict due diligence on the service charge history and current tenancy status to unlock the apparent immediate equity upside."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/21/two-bed-zabeel-view-high-floor-2-249346/_investment_analysis": {
+    "quality_context": "Sky Gardens in DIFC is an established, premium residential tower. A 1,272 sqft layout for a 2-bedroom unit is highly spacious compared to newer, more compact developments in the area. The high-floor Zabeel and DIFC views add premium value. However, as an older building, it may lack the ultra-modern finishes of brand-new Za'abeel/DIFC projects, though it offers superior space-to-price ratios.",
+    "risk_flags": [
+      "Significant price discrepancy: The listing's price per sqft (2,044 AED) is ~42% below the stated market median (3,529 AED), which may indicate an urgent distressed sale, underlying maintenance issues, or a comparison median skewed by ultra-luxury new launches like One Za'abeel.",
+      "Location/Title discrepancy: Listed under 'Za'abeel' area but physically located in DIFC (Sky Gardens). Investors must verify jurisdiction, DIFC-specific transaction fees, and ownership regulations.",
+      "Building Age: Completed over a decade ago, raising potential risks of high service charges, upcoming capital expenditure for building maintenance, or the need for internal renovation to achieve premium rental yields."
+    ],
+    "investment_summary": "At 2,044 AED/sqft, this property represents a highly attractive value-add or high-yield investment. It sits significantly below the market median, offering a strong safety margin and excellent potential for capital appreciation post-renovation. Given its prime DIFC location, it is highly liquid for corporate tenants, promising strong rental yields if acquired near this price point. Due diligence on service charges and physical unit condition is highly recommended."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/6/fully-furnished-i-well-maintained-i-2-b-2-207240/_investment_analysis": {
+    "quality_context": "The property is located in '8 BLVD Walk', an established, older development by Emaar in Downtown Dubai. At 1,399 sqft, this 2-bedroom unit offers a generous layout compared to newer, more compact Downtown developments. The asking price of AED 1,930 per sqft is roughly 40% below the Downtown market median of AED 3,243 per sqft. While 8 BLVD Walk historically trades at a discount due to its age (completed in 2008) and mid-market positioning compared to ultra-luxury Opera District or Address branded residences, this pricing represents a highly competitive entry point for the Downtown district.",
+    "risk_flags": [
+      "Listing Inconsistency: The listing title claims the property is 'Fully Furnished', while the description explicitly states it is 'unfurnished'. This indicates poor listing quality or a potential bait-and-switch.",
+      "Significant Underpricing: Pricing at 40% below the market median may indicate a distressed sale, a sitting tenant paying well below market rate (limiting immediate rental yield and eviction options), or an outdated/fake listing used for lead generation.",
+      "Capital Expenditure (CAPEX) Risk: Being an older Emaar building (2008), the unit may require significant renovation to compete with modern Downtown inventory, and the building may face higher maintenance or chiller-related costs."
+    ],
+    "investment_summary": "This property presents a high-yield value-add opportunity if acquired vacant or near-vacant. At AED 1,930 per sqft, the entry price is exceptionally low for Downtown Dubai. The spacious 1,399 sqft footprint is highly attractive for long-term tenants. An investor could purchase this unit, undertake a modern cosmetic renovation, and capture strong rental yields or flip it for capital appreciation. However, rigorous due diligence is required to verify the tenancy status, actual furnishing condition, and physical state of the property before proceeding."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/9/upgraded-high-floor-largest-layout-2-252507/_investment_analysis": {
+    "quality_context": "The property is located in 8 Boulevard Walk, one of Emaar's earlier mid-to-high-end developments in Downtown Dubai. At 1,634 sqft, this 2-bedroom unit is significantly larger than the modern Downtown average (typically 1,200–1,400 sqft), representing the 'largest layout' configuration. While the building itself is older and lacks the ultra-luxury status of newer Address-branded or Opera District developments, the 'upgraded' status of this high-floor unit mitigates aging aesthetics and enhances its rental appeal.",
+    "risk_flags": [
+      "Significant underpricing relative to the market median (AED 1,775/sqft vs. AED 3,243/sqft) may indicate a distressed sale, an active tenancy agreement at a below-market rate (limiting immediate rental yield optimization), or a potential 'bait-and-switch' listing.",
+      "8 Boulevard Walk is an older tower, which typically correlates with higher annual service charges and potential maintenance issues in common areas compared to newer handovers.",
+      "The 'city views' description suggests the unit does not face the premium Burj Khalifa or Fountain side, which limits its premium short-term rental potential."
+    ],
+    "investment_summary": "Priced at AED 1,775 per sqft—a massive 45% discount to the Downtown Dubai median of AED 3,243 per sqft—this property presents a highly attractive value-add investment. The combination of a high floor, upgraded interiors, and a generous layout makes it highly competitive for long-term leasing or holiday home conversion. If the listing is genuine and vacant-on-transfer, it offers an exceptional entry point into the Downtown market with strong capital appreciation potential and projected net yields exceeding 7-8% due to the low cost basis."
   }
 }
