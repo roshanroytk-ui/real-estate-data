@@ -3909,48 +3909,83 @@ for market_key, data in market_groups.items():
 
         continue
 
+    current_listings = data["listings"]
+
+    while True:
+    
+        current_prices = sorted([
+    
+            listing["price"] / float(listing["sqft"])
+    
+            for listing in current_listings
+        ])
+    
+        market_median = median(current_prices)
+    
+        cleaned_listings = []
+    
+        removed_any = False
+    
+        for listing in current_listings:
+    
+            try:
+    
+                ppsf = (
+                    listing["price"]
+                    / float(listing["sqft"])
+                )
+    
+            except:
+                continue
+    
+            deviation = (
+                ppsf - market_median
+            ) / market_median
+    
+            if deviation <= -0.50:
+    
+                removed_any = True
+                continue
+    
+            cleaned_listings.append(listing)
+    
+        if not removed_any:
+            break
+    
+        current_listings = cleaned_listings
+    
+    
+    data["listings"] = current_listings
+    
+    data["prices"] = [
+    
+        listing["price"] / float(listing["sqft"])
+    
+        for listing in current_listings
+    ]
+    prices = sorted(data["prices"])
+
     q1 = prices[len(prices) // 4]
+    
     q3 = prices[(len(prices) * 3) // 4]
-
+    
     iqr = q3 - q1
+    
+    data["final_q1"] = q1
+    
+    data["final_q3"] = q3
+    
+    data["final_iqr"] = iqr
+    
+    data["final_lower_bound"] = (
+        q1 - 1.5 * iqr
+    )
+    
+    data["final_upper_bound"] = (
+        q3 + 1.5 * iqr
+    )
 
-    lower_bound = q1 - (1.5 * iqr)
-    upper_bound = q3 + (1.5 * iqr)
 
-    cleaned_listings = []
-    cleaned_prices = []
-
-    for listing in data["listings"]:
-
-        try:
-    
-            ppsf = (
-                listing["price"]
-                / float(listing["sqft"])
-            )
-    
-        except:
-            continue
-    
-        deviation = (
-            ppsf - market_median
-        ) / market_median
-    
-        # remove extreme low outliers
-        if deviation <= -0.50:
-            continue
-    
-        if ppsf < lower_bound:
-            continue
-    
-        if ppsf > upper_bound:
-            continue
-    
-        cleaned_listings.append(listing)
-        cleaned_prices.append(ppsf)
-
-    data["listings"] = cleaned_listings
-    data["prices"] = cleaned_prices
 
 # =========================================
 # BUILD HEATMAP
