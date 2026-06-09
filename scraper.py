@@ -3890,6 +3890,10 @@ for market_key, data in market_groups.items():
                 print("market_median:", market_median)
                 print("ppsf:", ppsf)
                 print("deviation:", deviation)
+                print(
+                    "should_remove:",
+                    deviation <= -0.50
+                )
 
             if deviation <= -0.50:
 
