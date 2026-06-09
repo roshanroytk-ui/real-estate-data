@@ -3882,18 +3882,14 @@ for market_key, data in market_groups.items():
                 ppsf - market_median
             ) / market_median
 
-            if "Ain Dubai and Palm Views" in listing["title"]:
+            if listing["url"] == "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/12/4/fully-upgraded-single-row-near-park-2-160446/":
 
-                print("\nEMIRATES CROWN CLEANING")
-                print("market_key:", market_key)
+                print("\nTARGET CLEANING CHECK")
                 print("prices:", prices)
                 print("market_median:", market_median)
                 print("ppsf:", ppsf)
                 print("deviation:", deviation)
-                print(
-                    "should_remove:",
-                    deviation <= -0.50
-                )
+                print("removed:", deviation <= -0.50)
 
             if deviation <= -0.50:
 
