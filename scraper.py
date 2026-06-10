@@ -3890,32 +3890,6 @@ def split_market_clusters(prices, listings):
 
     upper_prices = prices[split_index + 1:]
 
-    results = []
-
-    if len(lower_prices) >= 5:
-    
-        results.extend(
-    
-            split_market_clusters(
-                lower_prices,
-                lower_listings
-            )
-    
-        )
-    
-    if len(upper_prices) >= 5:
-    
-        results.extend(
-    
-            split_market_clusters(
-                upper_prices,
-                upper_listings
-            )
-    
-        )
-    
-    return results
-
     lower_counter = Counter(lower_prices)
 
     lower_listings = []
@@ -3941,20 +3915,31 @@ def split_market_clusters(prices, listings):
 
             upper_listings.append(listing)
 
-    return (
+    results = []
 
-        split_market_clusters(
-            lower_prices,
-            lower_listings
+    if len(lower_prices) >= 5:
+    
+        results.extend(
+    
+            split_market_clusters(
+                lower_prices,
+                lower_listings
+            )
+    
         )
-
-        +
-
-        split_market_clusters(
-            upper_prices,
-            upper_listings
+    
+    if len(upper_prices) >= 5:
+    
+        results.extend(
+    
+            split_market_clusters(
+                upper_prices,
+                upper_listings
+            )
+    
         )
-    )
+    
+    return results
 
 print("MARKET GROUPS CREATED:", len(market_groups))
 print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
