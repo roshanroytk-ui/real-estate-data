@@ -3877,7 +3877,7 @@ def split_market_clusters(prices, listings):
 
     if (
         relative_iqr <= 0.30
-        or
+        and
         relative_gap <= 0.30
     ):
 
