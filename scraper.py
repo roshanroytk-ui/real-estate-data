@@ -3844,7 +3844,7 @@ for property in properties:
 
 def split_market_clusters(prices, listings):
 
-    if len(prices) <= 5:
+    if len(prices) <= 2:
         return [(prices, listings)]
 
     prices = sorted(prices)
@@ -4035,14 +4035,14 @@ for market_key, data in heatmap_groups.items():
     
         layout_type,
     
-        8
+        3
     )
     
     quality_required = MIN_QUALITY_COMPS.get(
     
         quality_tier,
     
-        8
+        3
     )
     
     minimum_required = max(
@@ -4482,14 +4482,14 @@ for market_key, data in market_groups.items():
     
         layout_type,
     
-        8
+        3
     )
     
     quality_required = MIN_QUALITY_COMPS.get(
     
         quality_tier,
     
-        8
+        3
     )
     
     minimum_required = max(
@@ -4509,10 +4509,10 @@ for market_key, data in market_groups.items():
 
     comparable_count = len(prices)
 
-    if comparable_count < 5:
+    if comparable_count < 15:
         confidence = "Low"
 
-    elif comparable_count < 8:
+    elif comparable_count < 25:
         confidence = "Medium"
 
     else:
