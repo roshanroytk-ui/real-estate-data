@@ -4035,14 +4035,14 @@ for market_key, data in heatmap_groups.items():
     
         layout_type,
     
-        3
+        8
     )
     
     quality_required = MIN_QUALITY_COMPS.get(
     
         quality_tier,
     
-        3
+        8
     )
     
     minimum_required = max(
@@ -4064,10 +4064,10 @@ for market_key, data in heatmap_groups.items():
 
     comparable_count = len(prices)
 
-    if comparable_count < 5:
+    if comparable_count < 15:
         confidence = "Low"
 
-    elif comparable_count < 8:
+    elif comparable_count < 25:
         confidence = "Medium"
 
     else:
@@ -4482,14 +4482,14 @@ for market_key, data in market_groups.items():
     
         layout_type,
     
-        3
+        8
     )
     
     quality_required = MIN_QUALITY_COMPS.get(
     
         quality_tier,
     
-        3
+        8
     )
     
     minimum_required = max(
