@@ -11,6 +11,7 @@ from bs4.element import Script
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
+from collections import Counter
 import os
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
@@ -3841,6 +3842,90 @@ for property in properties:
         property
     )
 
+def split_market_clusters(prices, listings):
+
+    if len(prices) <= 5:
+        return [(prices, listings)]
+
+    prices = sorted(prices)
+
+    market_median = median(prices)
+
+    q1 = prices[len(prices) // 4]
+
+    q3 = prices[(len(prices) * 3) // 4]
+
+    iqr = q3 - q1
+
+    relative_iqr = iqr / market_median
+
+    if relative_iqr <= 0.35:
+        return [(prices, listings)]
+
+    largest_gap = 0
+
+    split_index = None
+
+    for i in range(len(prices) - 1):
+
+        gap = prices[i + 1] - prices[i]
+
+        if gap > largest_gap:
+
+            largest_gap = gap
+
+            split_index = i
+
+    if split_index is None:
+        return [(prices, listings)]
+
+    lower_prices = prices[:split_index + 1]
+
+    upper_prices = prices[split_index + 1:]
+
+    if len(lower_prices) < 5 or len(upper_prices) < 5:
+        return [(prices, listings)]
+
+    lower_counter = Counter(lower_prices)
+
+    lower_listings = []
+
+    upper_listings = []
+
+    lower_used = 0
+
+    for listing in listings:
+
+        ppsf = (
+            listing["price"]
+            / float(listing["sqft"])
+        )
+
+        if lower_counter[ppsf] > 0:
+
+            lower_listings.append(listing)
+        
+            lower_counter[ppsf] -= 1
+
+        else:
+
+            upper_listings.append(listing)
+
+    return (
+
+        split_market_clusters(
+            lower_prices,
+            lower_listings
+        )
+
+        +
+
+        split_market_clusters(
+            upper_prices,
+            upper_listings
+        )
+    )
+
 print("MARKET GROUPS CREATED:", len(market_groups))
 print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
 
@@ -3848,142 +3933,67 @@ print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
 # MARKET CLEANING
 # =====================================
 
+market_groups_final = {}
+
 for market_key, data in market_groups.items():
 
     prices = sorted(data["prices"])
 
-    if not prices:
-        continue
+    listings = data["listings"]
 
-    market_median = median(prices)
-
-    # =====================================
-    # SMALL MARKET CLEANING
-    # =====================================
-
-    if len(prices) < 20:
-
-        cleaned_listings = []
-        cleaned_prices = []
-
-        for listing in data["listings"]:
-
-            try:
-
-                ppsf = (
-                    listing["price"]
-                    / float(listing["sqft"])
-                )
-
-            except:
-                continue
-
-            deviation = (
-                ppsf - market_median
-            ) / market_median
-
-            if listing["url"] == "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/12/4/fully-upgraded-single-row-near-park-2-160446/":
-
-                print("\nTARGET CLEANING CHECK")
-                print("prices:", prices)
-                print("market_median:", market_median)
-                print("ppsf:", ppsf)
-                print("deviation:", deviation)
-                print("removed:", deviation <= -0.50)
-
-            if deviation <= -0.50:
-
-                print(
-                    "REMOVING:",
-                    listing["title"],
-                    deviation
-                )
-            
-                continue
-
-            cleaned_listings.append(listing)
-            cleaned_prices.append(ppsf)
-
-        data["listings"] = cleaned_listings
-        data["prices"] = cleaned_prices
-
-        continue
-
-    current_listings = data["listings"]
-
-    while True:
-    
-        current_prices = sorted([
-    
-            listing["price"] / float(listing["sqft"])
-    
-            for listing in current_listings
-        ])
-    
-        market_median = median(current_prices)
-    
-        cleaned_listings = []
-    
-        removed_any = False
-    
-        for listing in current_listings:
-    
-            try:
-    
-                ppsf = (
-                    listing["price"]
-                    / float(listing["sqft"])
-                )
-    
-            except:
-                continue
-    
-            deviation = (
-                ppsf - market_median
-            ) / market_median
-    
-            if deviation <= -0.50:
-    
-                removed_any = True
-                continue
-    
-            cleaned_listings.append(listing)
-    
-        if not removed_any:
-            break
-    
-        current_listings = cleaned_listings
-    
-    
-    data["listings"] = current_listings
-    
-    data["prices"] = [
-    
-        listing["price"] / float(listing["sqft"])
-    
-        for listing in current_listings
-    ]
-    prices = sorted(data["prices"])
-
-    q1 = prices[len(prices) // 4]
-    
-    q3 = prices[(len(prices) * 3) // 4]
-    
-    iqr = q3 - q1
-    
-    data["final_q1"] = q1
-    
-    data["final_q3"] = q3
-    
-    data["final_iqr"] = iqr
-    
-    data["final_lower_bound"] = (
-        q1 - 1.5 * iqr
+    clusters = split_market_clusters(
+        prices,
+        listings
     )
-    
-    data["final_upper_bound"] = (
-        q3 + 1.5 * iqr
-    )
+
+    for cluster_prices, cluster_listings in clusters:
+
+        cluster_min = round(
+            min(cluster_prices),
+            -2
+        )
+        
+        cluster_max = round(
+            max(cluster_prices),
+            -2
+        )
+
+        market_segment = (
+
+            f"{cluster_min}-"
+            f"{cluster_max} PPSF"
+
+        )
+
+        new_key = (
+
+            *market_key,
+
+            market_segment
+        )
+
+        for listing in cluster_listings:
+
+            listing[
+                "market_segment"
+            ] = market_segment
+
+        market_groups_final[new_key] = {
+
+            "prices":
+            cluster_prices,
+
+            "listings":
+            cluster_listings,
+
+            "lat":
+            data["lat"],
+
+            "lng":
+            data["lng"]
+        }
+
+market_groups = market_groups_final
 
 
 
@@ -3995,7 +4005,13 @@ heatmap = []
 
 for market_key, data in heatmap_groups.items():
 
-    area, property_type, bedrooms, layout_type, quality_tier = market_key
+    (
+        area,
+        property_type,
+        bedrooms,
+        layout_type,
+        quality_tier
+    ) = market_key
 
     prices = data["prices"]
 
@@ -4130,7 +4146,14 @@ for market_key, data in market_groups.items():
     if not prices:
         continue
 
-    area, property_type, bedrooms, layout_type, quality_tier = market_key
+    (
+        area,
+        property_type,
+        bedrooms,
+        layout_type,
+        quality_tier,
+        market_segment
+    ) = market_key
 
     market_median = median(prices)
 
@@ -4258,7 +4281,9 @@ for market_key, data in market_groups.items():
 
             "layout_type": layout_type,
 
-            "quality_tier": quality_tier
+            "quality_tier": quality_tier,
+
+            "market_segment": market_segment
         },
 
         "median_price_per_sqft": round(
@@ -4428,7 +4453,14 @@ for market_key, data in market_groups.items():
 
     prices = data["prices"]
 
-    area, property_type, bedrooms, layout_type, quality_tier = market_key
+    (
+        area,
+        property_type,
+        bedrooms,
+        layout_type,
+        quality_tier,
+        market_segment
+    ) = market_key
 
     # STRONGER DATA QUALITY
     layout_required = MIN_LAYOUT_COMPS.get(
@@ -4529,7 +4561,11 @@ for market_key, data in market_groups.items():
             "market_q3": round(q3),
         
             "comparable_count": comparable_count,
-        
+
+            "market_segment": listing.get(
+                "market_segment"
+            ),
+            
             "confidence": confidence,
         
             "last_updated": last_updated,
