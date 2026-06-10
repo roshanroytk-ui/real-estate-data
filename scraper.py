@@ -4053,7 +4053,7 @@ for market_key, data in market_groups.items():
             tighten_cluster(
                 cluster_prices,
                 cluster_listings,
-                threshold=0.5,
+                threshold=0.4,
                 min_size=5
             )
         )
