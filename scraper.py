@@ -3890,8 +3890,31 @@ def split_market_clusters(prices, listings):
 
     upper_prices = prices[split_index + 1:]
 
-    if len(lower_prices) < 5 or len(upper_prices) < 5:
-        return [(prices, listings)]
+    results = []
+
+    if len(lower_prices) >= 5:
+    
+        results.extend(
+    
+            split_market_clusters(
+                lower_prices,
+                lower_listings
+            )
+    
+        )
+    
+    if len(upper_prices) >= 5:
+    
+        results.extend(
+    
+            split_market_clusters(
+                upper_prices,
+                upper_listings
+            )
+    
+        )
+    
+    return results
 
     lower_counter = Counter(lower_prices)
 
