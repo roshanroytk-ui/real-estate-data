@@ -3944,6 +3944,90 @@ def split_market_clusters(prices, listings):
 print("MARKET GROUPS CREATED:", len(market_groups))
 print("HEATMAP GROUPS CREATED:", len(heatmap_groups))
 
+def tighten_cluster(
+    prices,
+    listings,
+    threshold=0.35,
+    min_size=5
+):
+
+    prices = sorted(prices)
+
+    listing_pairs = []
+
+    for listing in listings:
+
+        try:
+
+            ppsf = (
+                listing["price"]
+                / float(listing["sqft"])
+            )
+
+            listing_pairs.append(
+                (ppsf, listing)
+            )
+
+        except:
+            continue
+
+    listing_pairs.sort(
+        key=lambda x: x[0]
+    )
+
+    while len(listing_pairs) >= min_size:
+
+        current_prices = [
+            p[0]
+            for p in listing_pairs
+        ]
+
+        market_median = median(
+            current_prices
+        )
+
+        min_price = current_prices[0]
+
+        max_price = current_prices[-1]
+
+        low_distance = (
+            market_median - min_price
+        ) / market_median
+
+        high_distance = (
+            max_price - market_median
+        ) / market_median
+
+        if (
+            low_distance <= threshold
+            and
+            high_distance <= threshold
+        ):
+            break
+
+        if low_distance > high_distance:
+
+            listing_pairs.pop(0)
+
+        else:
+
+            listing_pairs.pop()
+
+    final_prices = [
+        p[0]
+        for p in listing_pairs
+    ]
+
+    final_listings = [
+        p[1]
+        for p in listing_pairs
+    ]
+
+    return (
+        final_prices,
+        final_listings
+    )
+
 # =====================================
 # MARKET CLEANING
 # =====================================
@@ -3960,8 +4044,30 @@ for market_key, data in market_groups.items():
         prices,
         listings
     )
-
+    
+    tightened_clusters = []
+    
     for cluster_prices, cluster_listings in clusters:
+    
+        cluster_prices, cluster_listings = (
+            tighten_cluster(
+                cluster_prices,
+                cluster_listings,
+                threshold=0.5,
+                min_size=5
+            )
+        )
+    
+        if len(cluster_prices) >= 5:
+    
+            tightened_clusters.append(
+                (
+                    cluster_prices,
+                    cluster_listings
+                )
+            )
+    
+    for cluster_prices, cluster_listings in tightened_clusters:
 
         cluster_min = round(
             min(cluster_prices),
