@@ -3859,22 +3859,29 @@ def split_market_clusters(prices, listings):
 
     relative_iqr = iqr / market_median
 
-    if relative_iqr <= 0.35:
-        return [(prices, listings)]
-
     largest_gap = 0
 
     split_index = None
-
+    
     for i in range(len(prices) - 1):
-
+    
         gap = prices[i + 1] - prices[i]
-
+    
         if gap > largest_gap:
-
+    
             largest_gap = gap
-
+    
             split_index = i
+
+    relative_gap = largest_gap / market_median
+
+    if (
+        relative_iqr <= 0.35
+        and
+        relative_gap <= 0.35
+    ):
+
+        return [(prices, listings)]
 
     if split_index is None:
         return [(prices, listings)]
