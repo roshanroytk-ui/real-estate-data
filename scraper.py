@@ -1887,13 +1887,7 @@ def fetch_housing_listings():
             displayValue
           }
 
-          propertyInformation {
-            bedrooms
-            bathrooms
-            parking
-            area
-            price
-          }
+          propertyInformation
 
           description {
             overviewDescription
