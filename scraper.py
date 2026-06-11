@@ -1520,13 +1520,6 @@ def fetch_dubizzle_algolia():
             json=payload,
             timeout=60
         )
-
-        print("STATUS:", response.status_code)
-
-        try:
-            print(json.dumps(response.json(), indent=2))
-        except:
-            print(response.text)
         
         response.raise_for_status()
         
@@ -1966,8 +1959,15 @@ def fetch_housing_listings():
             timeout=60
         )
 
-        response.raise_for_status()
+        print("STATUS:", response.status_code)
 
+        try:
+            print(json.dumps(response.json(), indent=2))
+        except:
+            print(response.text)
+        
+        response.raise_for_status()
+        
         data = response.json()
 
         properties = (
