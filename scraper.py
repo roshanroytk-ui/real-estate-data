@@ -1521,8 +1521,15 @@ def fetch_dubizzle_algolia():
             timeout=60
         )
 
-        response.raise_for_status()
+        print("STATUS:", response.status_code)
 
+        try:
+            print(json.dumps(response.json(), indent=2))
+        except:
+            print(response.text)
+        
+        response.raise_for_status()
+        
         data = response.json()
 
         for result in data["results"]:
