@@ -27,6 +27,10 @@ REA_GRAPHQL_URL = (
     "https://www.rea.global/international/graphql"
 )
 
+HOUSING_GRAPHQL_URL = (
+    "https://mightyzeus-mum.housing.com/api/gql"
+)
+
 headers = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -465,6 +469,51 @@ def normalize_price_to_aed(price, currency):
         return float(price) / AED_TO_INR
 
     return float(price)
+
+def parse_housing_price(price_text):
+
+    price_text = str(price_text)
+
+    if "Cr" in price_text:
+
+        return (
+
+            float(
+
+                price_text
+                .replace("₹", "")
+                .replace("Cr", "")
+                .strip()
+
+            )
+
+            * 10000000
+        )
+
+    if "L" in price_text:
+
+        return (
+
+            float(
+
+                price_text
+                .replace("₹", "")
+                .replace("L", "")
+                .strip()
+
+            )
+
+            * 100000
+        )
+
+    return float(
+
+        re.sub(
+            r"[^\d.]",
+            "",
+            price_text
+        )
+    )
 
 
 def normalize_area(area):
@@ -1805,6 +1854,141 @@ def fetch_rea_listings():
 
     return listings
 
+def fetch_housing_listings():
+
+    listings = []
+
+    query = """
+    query(
+      $pageInfo: PageInfoInput
+      $city: CityInput
+      $hash: String!
+      $service: String!
+      $category: String!
+    ) {
+      searchResults(
+        hash: $hash
+        service: $service
+        category: $category
+        city: $city
+        pageInfo: $pageInfo
+      ) {
+        properties {
+
+          listingId
+
+          title
+
+          propertyType
+
+          coords
+
+          displayPrice {
+            displayValue
+          }
+
+          propertyInformation {
+            bedrooms
+            bathrooms
+            parking
+            area
+            price
+          }
+
+          description {
+            overviewDescription
+          } 
+
+          details {
+
+            overviewPoints {
+                label
+                description
+            }
+        
+            amenities {
+                type
+                data
+            }
+          }
+        }
+      }
+    }
+    """
+
+    page = 1
+
+    while True:
+
+        print("HOUSING PAGE:", page)
+
+        response = requests.post(
+
+            HOUSING_GRAPHQL_URL,
+
+            json={
+
+                "query": query,
+
+                "variables": {
+
+                    "hash": "P54p7jy36ukewjpga",
+
+                    "service": "buy",
+
+                    "category": "residential",
+
+                    "city": {
+
+                        "name": "Dubai",
+
+                        "id": "d53c5c7632ac07b8cf84",
+
+                        "cityId": "b8cc6e243a6a58a45f9a"
+                    },
+
+                    "pageInfo": {
+
+                        "page": page,
+
+                        "size": 30
+                    }
+                }
+            },
+
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        properties = (
+
+            data["data"]
+            ["searchResults"]
+            ["properties"]
+        )
+
+        print(
+            "HOUSING LISTINGS:",
+            len(properties)
+        )
+
+        if not properties:
+            break
+
+        listings.extend(properties)
+
+        if len(properties) < 30:
+            break
+
+        page += 1
+
+        time.sleep(1)
+
+    return listings
+
 properties = []
 seen_urls = set()
 potential_duplicates = []
@@ -1814,6 +1998,13 @@ dubizzle_hits = fetch_dubizzle_algolia()
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 
 rea_hits = fetch_rea_listings()
+
+housing_hits = fetch_housing_listings()
+
+print(
+    "TOTAL HOUSING LISTINGS:",
+    len(housing_hits)
+)
 
 print(
     "TOTAL DUBIZZLE LISTINGS:",
@@ -2257,6 +2448,288 @@ for listing in rea_hits:
 
         print(
             "REA PARSE ERROR:",
+            e
+        )
+
+# =========================================
+# HOUSING PARSER
+# =========================================
+
+for listing in housing_hits:
+
+    try:
+
+        info = listing.get(
+            "propertyInformation",
+            {}
+        )
+
+        title = listing.get(
+            "title",
+            "Unknown"
+        )
+
+        bedrooms = info.get(
+            "bedrooms",
+            0
+        )
+
+        bathrooms = info.get(
+            "bathrooms"
+        )
+
+        area_text = info.get(
+            "area",
+            ""
+        )
+
+        sqft_match = re.search(
+            r"([\d,.]+)",
+            area_text
+        )
+
+        if not sqft_match:
+            continue
+
+        sqft = float(
+
+            sqft_match.group(1)
+            .replace(",", "")
+        )
+
+        price_text = info.get(
+            "price"
+        )
+
+        if not price_text:
+            continue
+
+        price = normalize_price_to_aed(
+
+            parse_housing_price(
+                price_text
+            ),
+
+            "INR"
+        )
+
+        coords = listing.get(
+            "coords",
+            []
+        )
+
+        lat = None
+        lng = None
+
+        if len(coords) == 2:
+
+            lat = float(coords[0])
+
+            lng = float(coords[1])
+
+        description = (
+
+            listing.get(
+                "description",
+                {}
+            )
+            .get(
+                "overviewDescription",
+                ""
+            )
+        )
+
+        raw_area = ""
+
+        overview_points = (
+            listing.get(
+                "details",
+                {}
+            )
+            .get(
+                "overviewPoints",
+                []
+            )
+        )
+        
+        for point in overview_points:
+        
+            label = str(
+                point.get(
+                    "label",
+                    ""
+                )
+            ).lower()
+        
+            value = str(
+                point.get(
+                    "description",
+                    ""
+                )
+            ).strip()
+        
+            if (
+                "locality" in label
+                or "location" in label
+                or "area" in label
+                or "community" in label
+            ):
+        
+                raw_area = value
+                break
+
+        if not raw_area:
+
+            known_areas = [
+        
+                "Dubai Marina",
+                "Business Bay",
+                "Downtown Dubai",
+                "Jumeirah Village Circle",
+                "JVC",
+                "Dubai Hills",
+                "DIFC",
+                "City Walk",
+                "Jumeirah Lake Towers",
+                "JLT",
+                "Palm Jumeirah"
+            ]
+        
+            title_lower = title.lower()
+        
+            for area_name in known_areas:
+        
+                if area_name.lower() in title_lower:
+        
+                    raw_area = area_name
+                    break
+        
+        
+        if not raw_area:
+        
+            raw_area = "Dubai"
+
+        amenities = []
+
+        for group in (
+            listing.get(
+                "details",
+                {}
+            )
+            .get(
+                "amenities",
+                []
+            )
+        ):
+
+            amenities.extend(
+
+                group.get(
+                    "data",
+                    []
+                )
+            )
+
+        area_info = get_area_assignment(
+
+            lat,
+            lng,
+            raw_area
+        )
+
+        area = area_info[
+            "comparable_area"
+        ]
+
+        heatmap_area = area_info[
+            "heatmap_area"
+        ]
+
+        property_type = normalize_property_type(
+
+            "apartment",
+
+            title=title,
+
+            description=description
+        )
+
+        if is_duplicate_property(
+
+            lat,
+            lng,
+            price,
+            sqft,
+            bedrooms
+        ):
+            continue
+
+        properties.append({
+
+            "source": "housing",
+
+            "title": title,
+
+            "price": price,
+
+            "currency": "AED",
+
+            "original_price": (
+                parse_housing_price(
+                    price_text
+                )
+            ),
+
+            "original_currency": "INR",
+
+            "area": area,
+
+            "heatmap_area": heatmap_area,
+
+            "raw_area": raw_area,
+
+            "lat": lat,
+
+            "lng": lng,
+
+            "sqft": sqft,
+
+            "bedrooms": bedrooms,
+
+            "bathrooms": bathrooms,
+
+            "property_type": property_type,
+
+            "url": (
+                "https://housing.com/in/buy/resale/page/"
+                + str(
+                    listing["listingId"]
+                )
+            ),
+
+            "description": description,
+
+            "tower_name": None,
+
+            "amenities": normalize_amenities(
+                amenities
+            ),
+
+            "completion_status": "ready",
+
+            "furnished_status": "UNKNOWN",
+
+            "is_verified": False,
+
+            "layout_type": "standard",
+
+            "quality_tier": "standard"
+        })
+
+    except Exception as e:
+
+        print(
+            "HOUSING PARSE ERROR:",
             e
         )
 
