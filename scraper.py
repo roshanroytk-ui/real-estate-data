@@ -1911,8 +1911,9 @@ def fetch_housing_listings():
     """
 
     page = 1
-
-    while True:
+    MAX_HOUSING_PAGES = 50
+    
+    while page <= MAX_HOUSING_PAGES:
 
         print("HOUSING PAGE:", page)
 
@@ -1954,11 +1955,6 @@ def fetch_housing_listings():
         )
 
         print("STATUS:", response.status_code)
-
-        try:
-            print(json.dumps(response.json(), indent=2))
-        except:
-            print(response.text)
         
         response.raise_for_status()
         
@@ -1969,6 +1965,21 @@ def fetch_housing_listings():
             data["data"]
             ["searchResults"]
             ["properties"]
+        )
+
+        print(
+            f"HOUSING PAGE {page}: "
+            f"{len(properties)} properties"
+        )
+
+        listing_ids = {
+            p.get("listingId")
+            for p in properties
+        }
+        
+        print(
+            f"UNIQUE IDS THIS PAGE: "
+            f"{len(listing_ids)}"
         )
 
         print(
@@ -1987,6 +1998,11 @@ def fetch_housing_listings():
         page += 1
 
         time.sleep(1)
+
+        if page > MAX_HOUSING_PAGES:
+            print(
+                f"HOUSING STOPPED: reached MAX_HOUSING_PAGES={MAX_HOUSING_PAGES}"
+            )
 
     return listings
 
