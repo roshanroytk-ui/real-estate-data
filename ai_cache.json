@@ -2640,5 +2640,96 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/7/3/live-the-high-life-marina-skyline-1-bed-2-902729/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/6/new-to-market-4e-vacant-on-transfer-2-894884/_investment_analysis": {
+    "quality_context": "The property is a Type 4E end-unit townhouse (2-bedroom + study) located in Springs 11, a highly mature and desirable gated community within the Emirates Living master development. Known for its family-friendly environment, lakes, and parks, Springs 11 offers high occupancy rates and strong tenant retention. The 'Vacant on Transfer' status is a premium feature in the current Dubai market, appealing heavily to end-users wanting immediate occupancy and investors looking to avoid tenant eviction processes.",
+    "risk_flags": [
+      "Location Misrepresentation: The listing is categorized under 'Emirates Hills' (an ultra-luxury mansion enclave) to artificially boost search visibility, whereas the property is actually located in 'The Springs' (a mid-market townhouse community).",
+      "Size Discrepancy: The listing header states 2,706 sqft, but the description clarifies the Built-Up Area (BUA) is actually 1,780 sqft, with a plot size of 2,510 sqft.",
+      "Pricing Distortion: The advertised price of AED 1,423 per sqft is calculated using the incorrect 2,706 sqft figure. Based on the actual BUA of 1,780 sqft, the real price per sqft is approximately AED 2,163, which sits slightly above the stated market median of AED 2,109."
+    ],
+    "investment_summary": "Despite the listing's data discrepancies, a vacant Type 4E end-unit in The Springs is a highly liquid and defensive asset. At an adjusted real price of ~AED 2,163 per BUA sqft, the property is fairly priced for a vacant end-unit. It presents an excellent opportunity for a buy-to-let investor to secure immediate rental yields of 6-7% net, or for an end-user looking to undertake a cosmetic renovation to instantly capture equity upside in a prime, established location."
+  },
+  "https://www.rea.global/international/ae/dubai-hills-dubai-310107499189/_investment_analysis": {
+    "quality_context": "The property is located in Hadaeq Sheikh Mohammed Bin Rashid (MBR City), one of Dubai's most prestigious and centrally located master communities, known for high-end infrastructure, lush green spaces, and proximity to Downtown Dubai. At 840 sqft, this 1-bedroom apartment offers a generous layout compared to the standard 700-750 sqft found in newer Dubai developments. On paper, the pricing of AED 1,561 per sqft represents a massive discount compared to the market median of AED 2,346 per sqft, indicating a highly competitive entry point for the area.",
+    "risk_flags": [
+      "Severe Location Discrepancy: The listing title references 'Dubai Hills', the location field states 'Hadaeq Sheikh Mohammed Bin Rashid', and the description details 'District One'. These are three distinct master developments, indicating a highly inaccurate or misleading listing.",
+      "Developer/Project Inconsistency: The description refers to 'Damac District One'. District One is a premium master community developed by Meydan/Sobha, not DAMAC. This suggests a lack of broker diligence or a copy-paste description error.",
+      "Suspicious Pricing: A unit priced ~33% below the market median (AED 1,561 vs. AED 2,346) in a premium lagoon community is highly anomalous. This is a strong indicator of a 'bait advertisement' (a fake listing used to generate leads) or an off-plan property with a complex, outstanding payment plan not reflected in the initial price."
+    ],
+    "investment_summary": "From an investment standpoint, a genuine 1-bedroom apartment in MBR City/District One at AED 1,561 per sqft would yield an exceptional ROI and immediate capital equity. However, due to the critical contradictions in the listing (Dubai Hills vs. District One, DAMAC vs. Meydan), this listing carries high transaction risk. Investors are strongly advised to verify the RERA Form A, the title deed/Oqood, and the exact project name before proceeding. If the unit is genuine and available at this price, it represents an excellent value-add acquisition; otherwise, it should be treated as a unreliable broker lead-generation tactic."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/12/11/vacant-upgraded-ideal-location-2-707323/_investment_analysis": {
+    "quality_context": "The property is located in Marina Diamond, a established mid-to-low tier residential development in Dubai Marina. While the unit is marketed as 'partially upgraded' and 'vacant'—highly desirable traits in the current market—the building's overall infrastructure, common areas, and facilities are dated compared to premium Marina developments. This tier positioning explains why the property is priced at AED 1,402 per sqft, representing a significant ~30% discount against the Dubai Marina market median of AED 2,000 per sqft.",
+    "risk_flags": [
+      "Marina Diamond towers are older builds (mid-2000s) and are known to have higher wear-and-tear, potential chiller/AC efficiency issues, and occasional maintenance backlogs.",
+      "At 963 sqft, this is a highly compact layout for a 2-bedroom apartment in Dubai Marina, which may restrict appeal for long-term family tenants.",
+      "The term 'partially upgraded' is subjective and carries the risk of cosmetic-only improvements that may mask underlying plumbing or electrical issues."
+    ],
+    "investment_summary": "This property represents a strong high-yield opportunity rather than a capital appreciation play. Priced significantly below the market median, the low entry cost combined with its 'Vacant on Transfer' status allows an investor to immediately lease the unit at current peak market rents, optimizing net yields. Its proximity to the Dubai Metro (a key feature of Marina Diamond buildings) makes it highly attractive to mid-income professional tenants and viable for a high-occupancy short-term rental (Airbnb) strategy."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/5/largest-plot-greenbelt-best-location-2-278418/_investment_analysis": {
+    "quality_context": "Located in Raya, Arabian Ranches 3 (Wadi Al Safa 5), this property benefits from Emaar's premium master-community branding, high-quality infrastructure, and strong family appeal. The specific unit boasts excellent micro-location attributes, being a 'true corner' plot directly facing a greenbelt, which guarantees superior privacy, natural light, and the largest plot size in its category.",
+    "risk_flags": [
+      "Area Discrepancy: The advertised 4,270 sqft is the Plot Size, whereas the actual Built-Up Area (BUA) is significantly smaller at 2,353 sqft.",
+      "Pricing Distortion: The advertised AED 1,101/sqft is calculated using the plot size. Based on the actual BUA, the true purchase price is approximately AED 4.7M, translating to ~AED 1,998/sqft BUA, which is a substantial premium over the market median of AED 1,580/sqft.",
+      "Yield Compression: Paying a premium for a larger plot size rarely yields a proportional rental premium in Dubai's townhouse market, potentially lowering the net ROI."
+    ],
+    "investment_summary": "This property is highly attractive as an end-user 'buy-to-live' asset due to its massive plot, corner privacy, and greenbelt views. However, from a pure investment perspective, the pricing is deceptive; at a true BUA rate of ~AED 1,998/sqft, it sits well above the market median of AED 1,580/sqft. Investors should expect compressed rental yields, making this a play for long-term capital appreciation in a premium Emaar community rather than an immediate high-cash-flow asset."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/27/golf-view-motivated-seller-big-balcony-2-134069/_investment_analysis": {
+    "quality_context": "Priced at AED 1,059 per sqft, this 1-bedroom apartment in Golf Vita A (Al Hebiah 3 / DAMAC Hills) is positioned at a significant ~31.5% discount relative to the market median of AED 1,546 per sqft. The property benefits from a highly desirable golf course view and a spacious balcony, which are premium features in this master community. DAMAC Hills is a mature, high-demand family-oriented community, ensuring stable long-term asset value.",
+    "risk_flags": [
+      "Tenanted status: Immediate vacant possession is unavailable, which restricts saleability to end-users and limits immediate rental yield optimization due to RERA rental increase restrictions.",
+      "Substantial discount to market median: The 31.5% underpricing warrants due diligence to verify if the current rent is severely below market rate, or if there are building-specific maintenance issues.",
+      "Compact layout: At 642 sqft, the unit is on the smaller side for suburban 1-bedroom apartments in Dubai, which may slightly limit its appeal to long-term couples or small families."
+    ],
+    "investment_summary": "This property represents an excellent opportunistic buy-to-let investment. Acquiring a golf-view unit in an established community at a steep discount to the market median offers a strong margin of safety and high potential for capital appreciation upon future exit. While the active tenancy limits immediate rental growth, it secures immediate cash flow from day one, making it highly suitable for equity-rich investors seeking undervalued, income-generating assets."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/16/beautiful-spacious-fully-furnished-2-270589/_investment_analysis": {
+    "quality_context": "Located in District 10 (Jumeirah Village Circle - JVC), a highly popular mid-market residential hub in Dubai known for strong rental demand. At 857 sqft, this 1-bedroom apartment is exceptionally spacious compared to the community average of 700-800 sqft. The 'fully furnished' status adds immediate value, appealing to tenants seeking move-in-ready units and reducing upfront capital expenditure for investors.",
+    "risk_flags": [
+      "Significant underpricing (AED 951/sqft vs. AED 1,494/sqft market median) may indicate a bait-and-switch listing, a distressed seller, or underlying building quality/maintenance issues.",
+      "Potential for high service charges in older District 10 developments which could compress net yields.",
+      "Ongoing construction in JVC District 10 may lead to localized noise, dust, or future view obstructions."
+    ],
+    "investment_summary": "This property presents a highly lucrative value-add opportunity, priced at a ~36% discount to the market median. If the listing is verified, an entry point of AED 951/sqft for a spacious, fully furnished 1-bed in JVC offers excellent capital appreciation potential and projected gross rental yields of 8-9%, making it a strong buy for yield-seeking investors."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/24/invester-deal-one-bed-with-terrace-full-2-217385/_investment_analysis": {
+    "quality_context": "La Riviera Azure is a modern mid-rise residential building located in District 10, Jumeirah Village Circle (JVC). At 982 sqft, this 1-bedroom apartment is exceptionally spacious, significantly exceeding the typical JVC 1BHK average of 700 to 800 sqft. The 'fully furnished' and 'ready to move in' status provides immediate operational readiness, eliminating initial capital expenditure for fit-outs and minimizing vacancy periods.",
+    "risk_flags": [
+      "Significant underpricing: The asking price of 993 AED/sqft is ~33.5% below the market median of 1,494 AED/sqft, which strongly suggests a distressed sale, potential seller urgency, or underlying property/building issues.",
+      "The large layout (982 sqft) mathematically depresses the price-per-sqft metric. The absolute price (~975,000 AED) is closer to market standard for premium JVC 1BHKs, meaning the 'discount' is partially an artifact of the larger-than-average size.",
+      "Potential outstanding service charges or maintenance issues within the building that require strict due diligence before transaction closure."
+    ],
+    "investment_summary": "This property presents a high-yield opportunity for income-focused investors. Buying at 993 AED/sqft in JVC—a high-demand rental hub—offers strong downside protection and excellent capital appreciation potential as the market matures. Given the generous square footage and fully furnished condition, this unit is highly competitive in the rental market, with an estimated gross rental yield of 7.8% to 8.5% in the current JVC climate. Recommended as a 'Buy' subject to clean title deed verification and confirmation of zero outstanding developer/community service fees."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/22/1br-maid-ready-to-move-in-chiller-free-2-137997/_investment_analysis": {
+    "quality_context": "At 995 sqft, this unit is exceptionally spacious for a 1-bedroom apartment in Jumeirah Village Circle (JVC), where the average size typically ranges between 700 to 800 sqft. The '1BR + Maid' configuration is highly rare and premium, offering superior utility that appeals to small families. The 'chiller-free' status is a major value-add for tenants, lowering utility bills and driving higher net rental yields. Its location in District 10 near JSS International School ensures consistent rental demand from school staff and families.",
+    "risk_flags": [
+      "The property is priced ~30% below the market median (1,045 AED/sqft vs 1,494 AED/sqft), which is a strong indicator of a potential bait-and-switch listing or a distressed sale.",
+      "Potential for outstanding service charges or maintenance issues in the building that explain the steep discount.",
+      "Need to verify if the 'chiller-free' status is permanently developer-backed or subject to change by the owners' association."
+    ],
+    "investment_summary": "This property presents a high-yield investment opportunity with immediate equity capture, trading at a 30% discount to the JVC market median. The unique 1BR + Maid layout combined with chiller-free savings will command a rental premium, pushing projected net yields above 8.5%. It is a strong 'Buy' subject to rigorous physical inspection and verification of title deed and outstanding service fees."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/8/2-min-to-dubai-mall-furnished-prime-loc-2-327828/_investment_analysis": {
+    "quality_context": "Located in the ultra-prime Downtown Dubai district, DAMAC Maison Dubai Mall Street offers premium serviced living with immediate proximity to major landmarks. At 890 sqft, this 1-bedroom unit is exceptionally spacious compared to newer Downtown layouts. The property is fully furnished to hotel standards, making it immediately ready for the high-yield short-term rental market.",
+    "risk_flags": [
+      "High service charges typical of luxury serviced/hotel apartments in Downtown Dubai, which can heavily compress net rental yields.",
+      "Potential rental pool restrictions or management agreements with DAMAC Maison that may limit owner occupancy or independent holiday home operator selection.",
+      "Historically slower capital appreciation for hotel-managed apartments compared to standard residential properties in the Downtown micro-market.",
+      "Financing constraints, as some UAE lenders apply stricter valuation criteria and lower Loan-to-Value (LTV) limits on hotel-serviced units."
+    ],
+    "investment_summary": "Priced at AED 1,685 per sqft, this property represents a massive ~30% discount compared to the Downtown Dubai market median of AED 2,397 per sqft. This steep discount offers an attractive entry point into a premium location with a strong margin of safety. It is highly suitable for cash-buyers seeking hands-off, managed hospitality returns, provided the net yield is thoroughly vetted against the building's high service charge structure."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/18/exclusive-i-motivated-i-open-to-offers--2-298248/_investment_analysis": {
+    "quality_context": "Located in Grove 5, Creek Beach within Dubai Creek Harbour (officially registered under the New Ras Al Khor Community), this property sits in a highly desirable, master-planned waterfront development by Emaar. The unit is an exceptionally large 2-bedroom apartment spanning 2,143 sqft. At AED 1,624 per sqft, it is priced significantly below the area's market median of AED 2,518 per sqft, representing a nominal 35.5% discount to the market.",
+    "risk_flags": [
+      "The unusually large size of 2,143 sqft for a 2-bedroom apartment strongly suggests a massive private terrace or garden is included in the total area. Outdoor space is valued lower than indoor livable space, which may artificially inflate the perceived discount on a price-per-sqft basis.",
+      "High risk of 'bait-and-switch' or phantom listing, which is common in the Dubai market for listings advertised as 'Below Market Price' and 'Exclusive'.",
+      "Discrepancy in community naming: listed under 'New Ras Al Khor Community' instead of the premium 'Dubai Creek Harbour' brand, which can sometimes impact search visibility and valuation metrics on public portals."
+    ],
+    "investment_summary": "This property presents a highly opportunistic value play in one of Dubai's premier master communities. Acquiring an Emaar-built asset in Creek Beach at AED 1,624/sqft against a market median of AED 2,518/sqft offers a substantial safety margin and strong potential for capital appreciation. However, the investment thesis hinges on verifying the exact indoor-to-outdoor area ratio. If the internal layout is favorable, this is a high-yield, high-growth asset; if dominated by terrace space, the pricing is closer to fair market value."
   }
 }
