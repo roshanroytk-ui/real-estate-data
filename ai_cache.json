@@ -3123,5 +3123,73 @@
   "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/5/14/premium-living-modern-1br-apartment-vib-3-298072/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/waterfront-studio-furnished-balcony-azi-2-359265/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/wellness-lifestyle-5050-payment-plan-lu-2-294022/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/genuine-resale-beach-access-best-price--2-143712/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/ready-this-year-next-to-metro-investmen-2-135318/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/4-dld-waiver-40-60-payment-plan-the-res-2-140472/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/30/genuine-resale-water-view-community-liv-2-262374/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/resort-style-living-cash-price-q4-2027-2-235339/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/waterfront-living-emaar-community-minut-2-276056/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/11/downtown-view-studio-samana-manhattan-2-2-148076/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/13/single-row-spacious-3-br-maid-close-to--2-764997/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/11/downtown-view-studio-samana-manhattan-2-2-148076/_investment_analysis": {
+    "quality_context": "Priced at AED 1,143 per sqft, this studio is positioned at a significant ~30.7% discount compared to the market median of AED 1,651 per sqft. At 524 sqft, the unit is exceptionally spacious for a studio in the Dubai market, where typical sizes range between 350 to 450 sqft. Samana Manhattan 2 is a modern development known for resort-style amenities, which typically command premium rental rates.",
+    "risk_flags": [
+      "Location Discrepancy: The listing specifies 'Al Barsha South 4' as the area, but the description and project name place it in 'Jumeirah Village Circle (JVC)'. This discrepancy must be clarified as it affects valuation and rental yields.",
+      "Off-Plan Construction Risk: Samana Manhattan 2 is an off-plan project, exposing the investor to potential construction delays and developer delivery risks.",
+      "Pricing Authenticity: The heavily discounted price per sqft (AED 1,143 vs. AED 1,651 median) may indicate a 'bait-and-switch' listing, or the advertised price might only represent the down payment or a specific installment rather than the full purchase price."
+    ],
+    "investment_summary": "This property presents a highly attractive speculative opportunity on paper, offering a large studio layout at a 30% discount to the market median. If the pricing is genuine and represents the full purchase price, it promises strong capital appreciation potential upon completion and high rental yields, given JVC's robust demand for studio apartments. Investors are strongly advised to verify the payment plan, actual location, and total acquisition cost before proceeding."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/21/lowest-in-the-market-canal-brand-new-va-2-337823/_investment_analysis": {
+    "quality_context": "Imperial Avenue is a recently completed, high-end residential tower located on the southern edge of Downtown Dubai. The property offers premium finishes, LPG connections, and smart home automation. A size of 1,501 sqft for a 2-bedroom apartment is significantly larger than the average modern Downtown layout, offering superior spaciousness. The 'Brand New' and 'Vacant' status, combined with a Canal view, positions this unit as a highly desirable asset for both premium tenants and end-users.",
+    "risk_flags": [
+      "The asking price of AED 2,132/sqft is approximately 31% below the Downtown Dubai market median of AED 3,084/sqft. This extreme discount warrants immediate verification to rule out bait-and-switch listing tactics.",
+      "Imperial Avenue's location is on the periphery of Downtown Dubai (bordering Business Bay), which historically commands lower average rates than the core Burj Khalifa or Opera District zones.",
+      "Potential localized risks include high service charges typical of luxury Downtown towers, which could impact net yields, or specific unit-level drawbacks such as a low-floor location or proximity to road noise."
+    ],
+    "investment_summary": "This property presents a highly lucrative value-add or immediate-yield opportunity. Trading at a ~31% discount to the market median, the entry point of AED 2,132/sqft offers strong downside protection and excellent capital appreciation potential as the building establishes its secondary market footprint. Being vacant and brand new, an investor can immediately capitalize on Dubai's high-demand rental market—either through premium long-term leasing or high-yield holiday home management—without any renovation lag."
+  },
+  "https://www.rea.global/international/ae/dukes-the-palm-palm-jumeirah-dubai-palm-jumeirah-dubai-310103411671/_investment_analysis": {
+    "quality_context": "Dukes The Palm is a premium, hotel-managed development located on the highly desirable Trunk of Palm Jumeirah. At AED 2,398 per sqft, this 1-bedroom unit is priced at a substantial ~32% discount compared to the Palm Jumeirah market median of AED 3,537 per sqft. This pricing discount is typical for hotel apartments in Dubai, which trade lower than standard residential units due to restrictions on private occupancy and high operator fees, despite offering direct beach access and 5-star resort amenities.",
+    "risk_flags": [
+      "Hotel Pool Restrictions: Limited or restricted personal usage rights, with rental income highly dependent on the hotel operator's occupancy and management performance.",
+      "High Service Charges: Hotel-managed properties on the Palm typically carry significantly higher service charges and utility fees, which can heavily erode net rental yields.",
+      "Lower Liquidity: The secondary market for hotel-managed units is generally less active than standard residential apartments, potentially extending future exit timelines.",
+      "Subdued Capital Appreciation: Historically, hotel apartments in Dubai experience slower capital growth compared to private, non-managed residential properties in the same micro-market."
+    ],
+    "investment_summary": "Priced at approximately AED 1.87M, this property represents a highly accessible entry point into the premium Palm Jumeirah market at a steep discount to the area's median rate. It is an ideal asset for hands-off, yield-focused investors looking to capitalize on Dubai's booming tourism and short-term rental market. However, prospective buyers must treat this strictly as a cash-flow play rather than a capital appreciation vehicle, and conduct strict due diligence on the current hotel pool contract terms, historical net distributions, and service charge structures."
   }
 }
