@@ -3998,7 +3998,10 @@ for property in properties:
         property["verify_before_buying"] = {
             "source": "DLD",
             "url": "https://dubailand.gov.ae/en/#/",
-            "message": "Verify property records before purchase."
+            "message": (
+                "Verify ownership records, transaction history "
+                "and project details through DLD before purchase."
+            )
         }
             
 with open("properties.json", "w", encoding="utf-8") as f:
