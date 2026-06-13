@@ -2564,9 +2564,9 @@ for listing in housing_hits:
                 {}
             )
             .get(
-                "overviewPoints",
-                []
+                "overviewPoints"
             )
+            or []
         )
         
         for point in overview_points:
