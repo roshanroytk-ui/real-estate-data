@@ -3979,6 +3979,27 @@ count_99 = sum(
 )
 
 print("99ACRES SAVED:", count_99)
+
+# =========================================
+# INVESTOR VERIFICATION LINKS
+# =========================================
+
+for property in properties:
+
+    if property["source"] in [
+        "dubizzle",
+        "propertyfinder",
+        "bhomes",
+        "rea",
+        "housing",
+        "99acres"
+    ]:
+
+        property["verify_before_buying"] = {
+            "source": "DLD",
+            "url": "https://dubailand.gov.ae/en/#/",
+            "message": "Verify property records before purchase."
+        }
             
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
