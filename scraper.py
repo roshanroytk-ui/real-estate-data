@@ -1911,7 +1911,7 @@ def fetch_housing_listings():
     """
 
     page = 1
-    MAX_HOUSING_PAGES = 50
+    MAX_HOUSING_PAGES = 10
     
     seen_housing_ids = set()
     
