@@ -1994,6 +1994,15 @@ def fetch_housing_listings():
             f"{len(new_ids)}"
         )
         
+        # STOP IF PAGE IS A DUPLICATE
+        if page > 1 and len(new_ids) == 0:
+        
+            print(
+                "HOUSING STOPPED: duplicate pages detected"
+            )
+        
+            break
+        
         seen_housing_ids.update(
             listing_ids
         )
