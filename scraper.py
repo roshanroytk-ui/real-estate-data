@@ -2745,10 +2745,19 @@ for listing in housing_hits:
 
     except Exception as e:
 
+        import traceback
+    
         print(
             "HOUSING PARSE ERROR:",
             e
         )
+    
+        print(
+            "FAILED LISTING ID:",
+            listing.get("listingId")
+        )
+    
+        traceback.print_exc()
 
 # =========================================
 # BHOMES PARSER
