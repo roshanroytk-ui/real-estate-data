@@ -1913,6 +1913,8 @@ def fetch_housing_listings():
     page = 1
     MAX_HOUSING_PAGES = 50
     
+    seen_housing_ids = set()
+    
     while page <= MAX_HOUSING_PAGES:
 
         print("HOUSING PAGE:", page)
@@ -1980,6 +1982,20 @@ def fetch_housing_listings():
         print(
             f"UNIQUE IDS THIS PAGE: "
             f"{len(listing_ids)}"
+        )
+        
+        new_ids = (
+            listing_ids
+            - seen_housing_ids
+        )
+        
+        print(
+            f"NEW IDS THIS PAGE: "
+            f"{len(new_ids)}"
+        )
+        
+        seen_housing_ids.update(
+            listing_ids
         )
 
         print(
