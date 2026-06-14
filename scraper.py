@@ -656,14 +656,6 @@ def get_area_assignment(lat, lng, raw_area=""):
     # REA GENERIC DUBAI FALLBACK LOCATION
     # =====================================
     
-    if (
-        abs(lat - 25.204849) < 0.0001
-        and
-        abs(lng - 55.270783) < 0.0001
-    ):
-        lat = None
-        lng = None
-    
     if lat is None or lng is None:
     
         raw_lower = raw_area.lower()
@@ -2351,6 +2343,15 @@ for listing in rea_hits:
 
         lat = geo.get("latitude")
         lng = geo.get("longitude")
+
+        # Remove REA generic Dubai coordinates completely
+        if (
+            lat is not None
+            and lng is not None
+            and abs(float(lat) - 25.204849) < 0.0001
+            and abs(float(lng) - 55.270783) < 0.0001
+        ):
+            continue
 
         area_info = get_area_assignment(
             lat,
