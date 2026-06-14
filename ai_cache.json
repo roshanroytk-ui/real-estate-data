@@ -3492,5 +3492,63 @@
       "Traffic congestion during peak hours remains a persistent issue for certain clusters within JLT."
     ],
     "investment_summary": "At AED 1,587/sqft (implied transaction price of ~AED 1.83M), this property represents a strong buy opportunity for both yield-seeking investors and end-users. Because it is vacant on transfer, an investor can immediately capitalize on Dubai's high rental demand, targeting an estimated gross rental yield of 7.5% to 8.2% based on current JLT market rates for lake-view 2-bedroom units. Its proximity to the metro station and the permanent lake view ensure high liquidity and strong tenant retention, offering excellent downside protection."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/7/high-floor-and-breathtaking-views-golf--2-333716/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/21/exclusive-villa-extended-vastu-2-149079/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/9/premium-5-beds-nature-inspired-q42029-2-157190/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/6/5brmaid-standalone-villa-nature-inspire-2-253025/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/1/green-belt-extended-fully-upgraded-2-276998/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/4/7/luxurious-5-bhk-i-exclusive-i-prime-loc-2-132674/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/12/type-d-corner-unit-near-beach-on-the-pa-2-306405/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/4/3/hillcrest-luxury-villa-under-market-val-2-166141/": {
+    "layout_type": "luxury",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/12/luxury-1br-private-pool-strategic-locat-2-254286/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/5/12/hot-deal-luxury-1-br-premium-interiors--3-135713/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/11/7/springs-2-corner-plot-vot-type-3e-2-273915/_investment_analysis": {
+    "quality_context": "This property is presented as a fully renovated, extended, turn-key 4-bedroom villa situated on a desirable corner plot. Although categorized under 'Emirates Hills' (an ultra-luxury community), the description specifies it is located in 'The Springs 2', which is a mature, mid-to-high-end gated community within the broader Emirates Living master development. The 4,531 sqft figure refers to the plot size rather than the Built-Up Area (BUA). Fully upgraded, turn-key villas in established Emaar communities like The Springs command a high premium due to the current high costs and long timelines associated with private renovations in Dubai.",
+    "risk_flags": [
+      "Location Misrepresentation: The listing is categorized under 'Emirates Hills' to leverage its prestige, but the property is actually in 'The Springs 2'. The market median of AED 2,889/sqft reflects Emirates Hills pricing, making this property appear undervalued when it is actually priced at a premium for The Springs.",
+      "Plot vs. BUA Discrepancy: The 4,531 sqft metric represents the plot size. The actual Built-Up Area (BUA) of a standard or extended Springs villa is significantly smaller (typically 2,600 to 3,200 sqft), meaning the actual price per BUA sqft is much higher than the stated AED 2,030.",
+      "Extension Legality: The description notes the villa has been 'extended'. Buyers must perform strict due diligence to ensure all structural extensions have obtained official permits and No Objection Certificates (NOCs) from Emaar and the Dubai Municipality."
+    ],
+    "investment_summary": "While marketed at AED 2,030/sqft against an Emirates Hills median of AED 2,889/sqft, this is a positioning tactic. In reality, this property sits at the top-tier price point for The Springs due to its extensive renovations and corner plot. It represents an excellent end-user asset for buyers looking to bypass Dubai's tedious renovation process. For investors, the rental yield will be strong due to high demand for upgraded villas in Emirates Living, but capital appreciation headroom may be limited as the renovation premium is already fully priced into the asking rate."
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/27/canal-view-unfurnisehd-good-deal-2-207593/_investment_analysis": {
+    "quality_context": "The property is located in Churchill Residence, an established mid-to-high-end development by Deyaar completed around 2010. While the building is older, it offers a highly desirable Dubai Canal view and an exceptionally spacious layout (968 sqft) for a 1-bedroom apartment. The price of AED 1,601/sqft sits significantly below the Business Bay median of AED 2,361/sqft, which is currently driven upward by premium off-plan launches and newer luxury handovers.",
+    "risk_flags": [
+      "Building Age: Churchill Tower is over a decade old, which may entail higher maintenance/service charges and potential wear-and-tear compared to newer Business Bay developments.",
+      "Listing Quality: The presence of typos ('UNFURNISEHD') and an incomplete description suggests a potentially outdated or low-effort broker listing; unit availability and actual condition must be verified.",
+      "Capital Expenditure: Being unfurnished, the buyer must budget for furnishing and potential cosmetic upgrades to maximize rental yields in a highly competitive tenant market."
+    ],
+    "investment_summary": "This property represents a strong value-add opportunity, priced at a ~32% discount per sqft compared to the Business Bay median. The generous square footage and canal view are strong defensive assets. An investor can acquire this unit at a low entry point, undertake minor renovations/furnishing, and target a high single-digit net ROI (estimated 6.5% - 7.5% on a long-term lease) or position it for capital appreciation in a prime waterfront location."
   }
 }
