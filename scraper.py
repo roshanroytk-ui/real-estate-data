@@ -665,7 +665,7 @@ def get_area_assignment(lat, lng, raw_area=""):
         lng = None
     
     if lat is None or lng is None:
-    
+
         raw_lower = raw_area.lower()
     
         SEMANTIC_AREA_MATCHES = {
@@ -695,6 +695,15 @@ def get_area_assignment(lat, lng, raw_area=""):
     
             if keyword in raw_lower:
     
+                if canonical in coord_map:
+    
+                    return {
+                        "comparable_area": canonical,
+                        "heatmap_area": canonical,
+                        "lat": coord_map[canonical]["lat"],
+                        "lng": coord_map[canonical]["lng"]
+                    }
+    
                 return {
                     "comparable_area": canonical,
                     "heatmap_area": canonical
@@ -702,9 +711,20 @@ def get_area_assignment(lat, lng, raw_area=""):
     
         fallback = normalize_area(raw_area)
     
+        if fallback in coord_map:
+    
+            return {
+                "comparable_area": fallback,
+                "heatmap_area": fallback,
+                "lat": coord_map[fallback]["lat"],
+                "lng": coord_map[fallback]["lng"]
+            }
+    
         return {
             "comparable_area": fallback,
-            "heatmap_area": fallback
+            "heatmap_area": fallback,
+            "lat": None,
+            "lng": None
         }
     
     point = Point(lng, lat)
@@ -2366,6 +2386,9 @@ for listing in rea_hits:
             "heatmap_area"
         ]
 
+        lat = area_info.get("lat", lat)
+        lng = area_info.get("lng", lng)
+
         price_obj = listing.get(
             "price"
         ) or {}
@@ -2686,6 +2709,9 @@ for listing in housing_hits:
         heatmap_area = area_info[
             "heatmap_area"
         ]
+
+        lat = area_info.get("lat", lat)
+        lng = area_info.get("lng", lng)
 
         property_type = normalize_property_type(
 
