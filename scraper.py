@@ -1793,6 +1793,69 @@ def fetch_dubizzle_fujairah():
 
     return listings
 
+def fetch_dubizzle_uaq():
+
+    listings = []
+
+    uaq_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=15)"
+                )
+            }
+            for page in range(2)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=uaq_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"UAQ PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("UAQ ERROR:", e)
+
+    print(
+        "TOTAL UAQ LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
 # =========================================
 # BHOMES
 # =========================================
@@ -2291,16 +2354,20 @@ alain_hits = fetch_dubizzle_alain()
 
 fujairah_hits = fetch_dubizzle_fujairah()
 
+uaq_hits = fetch_dubizzle_uaq()
+
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 print("RAW RAK HITS:", len(rak_hits))
 print("RAW ABU DHABI HITS:", len(abu_hits))
 print("RAW AL AIN HITS:", len(alain_hits))
 print("RAW FUJAIRAH HITS:", len(fujairah_hits))
+print("RAW UAQ HITS:", len(uaq_hits))
 
 dubizzle_hits.extend(rak_hits)
 dubizzle_hits.extend(abu_hits)
 dubizzle_hits.extend(alain_hits)
 dubizzle_hits.extend(fujairah_hits)
+dubizzle_hits.extend(uaq_hits)
 
 rea_hits = fetch_rea_listings()
 
@@ -2357,6 +2424,7 @@ for hit in dubizzle_hits:
             3: "Abu Dhabi",
             11: "Ras Al Khaimah",
             13: "Fujairah",
+            15: "Umm Al Quwain",
             39: "Al Ain"
         }
         
@@ -4323,13 +4391,45 @@ for property in properties:
                 "before purchase."
             )
         }
+
+    elif emirate == "Al Ain":
+
+        property["verify_before_buying"] = {
+            "source": "DARI",
+            "url": "https://dari.ae/",
+            "message": (
+                "Verify ownership records, transaction history "
+                "and project details through Abu Dhabi authorities "
+                "before purchase."
+            )
+        }
+    
+    elif emirate == "Fujairah":
+    
+        property["verify_before_buying"] = {
+            "source": "Fujairah Municipality",
+            "url": "https://www.fujmun.gov.ae/",
+            "message": (
+                "Verify ownership records and project details "
+                "through Fujairah authorities before purchase."
+            )
+        }
+    
+    elif emirate == "Umm Al Quwain":
+    
+        property["verify_before_buying"] = {
+            "source": "UAQ Municipality",
+            "url": "https://uaq.ae/",
+            "message": (
+                "Verify ownership records and project details "
+                "through Umm Al Quwain authorities before purchase."
+            )
+        }
             
 with open("properties.json", "w", encoding="utf-8") as f:
     json.dump(properties, f, indent=2, ensure_ascii=False)
 
 print(f"Saved {len(properties)} properties.")
-
-
 
 
 # =========================================
