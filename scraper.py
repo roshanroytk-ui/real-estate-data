@@ -1473,6 +1473,8 @@ all_soups = []
 APP_ID = "WD0PTZ13ZS"
 API_KEY = "cef139620248f1bc328a00fddc7107a6"
 
+RAK_API_KEY = "cdd839b4fdac840289e88633779e8634"
+
 ALGOLIA_URL = (
     f"https://{APP_ID}-dsn.algolia.net/1/indexes/*/queries"
 )
@@ -1534,6 +1536,69 @@ def fetch_dubizzle_algolia():
 
     print(
         "TOTAL DUBIZZLE LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
+def fetch_dubizzle_rak():
+
+    listings = []
+
+    rak_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=11)"
+                )
+            }
+            for page in range(5)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=rak_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"RAK PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("RAK ERROR:", e)
+
+    print(
+        "TOTAL RAK LISTINGS:",
         len(listings)
     )
 
@@ -2029,7 +2094,12 @@ potential_duplicates = []
 
 dubizzle_hits = fetch_dubizzle_algolia()
 
+rak_hits = fetch_dubizzle_rak()
+
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
+print("RAW RAK HITS:", len(rak_hits))
+
+dubizzle_hits.extend(rak_hits)
 
 rea_hits = fetch_rea_listings()
 
