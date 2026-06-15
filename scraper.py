@@ -1667,6 +1667,69 @@ def fetch_dubizzle_abudhabi():
 
     return listings
 
+def fetch_dubizzle_alain():
+
+    listings = []
+
+    alain_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=39)"
+                )
+            }
+            for page in range(2)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=alain_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"AL AIN PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("AL AIN ERROR:", e)
+
+    print(
+        "TOTAL AL AIN LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
 # =========================================
 # BHOMES
 # =========================================
@@ -2161,12 +2224,16 @@ rak_hits = fetch_dubizzle_rak()
 
 abu_hits = fetch_dubizzle_abudhabi()
 
+alain_hits = fetch_dubizzle_alain()
+
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 print("RAW RAK HITS:", len(rak_hits))
 print("RAW ABU DHABI HITS:", len(abu_hits))
+print("RAW AL AIN HITS:", len(alain_hits))
 
 dubizzle_hits.extend(rak_hits)
 dubizzle_hits.extend(abu_hits)
+dubizzle_hits.extend(alain_hits)
 
 rea_hits = fetch_rea_listings()
 
@@ -2221,7 +2288,8 @@ for hit in dubizzle_hits:
         
         EMIRATE_MAP = {
             3: "Abu Dhabi",
-            11: "Ras Al Khaimah"
+            11: "Ras Al Khaimah",
+            39: "Al Ain"
         }
         
         emirate = EMIRATE_MAP.get(
