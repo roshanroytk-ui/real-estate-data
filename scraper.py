@@ -1565,7 +1565,7 @@ def fetch_dubizzle_rak():
                     f"&filters=(city.id=11)"
                 )
             }
-            for page in range(5)
+            for page in range(2)
         ]
     }
 
@@ -2149,15 +2149,17 @@ for hit in dubizzle_hits:
         lat = geo.get("lng")
         lng = geo.get("lat")
 
-        city_name = (
-            city.get("name", {})
-                .get("en", "")
-        )
+        city = hit.get("city", {})
+        city_id = city.get("id")
         
-        if city_name:
-            emirate = city_name
-        else:
-            emirate = "Dubai"
+        EMIRATE_MAP = {
+            11: "Ras Al Khaimah"
+        }
+        
+        emirate = EMIRATE_MAP.get(
+            city_id,
+            "Dubai"
+        )
 
 
         title = (
