@@ -2149,6 +2149,16 @@ for hit in dubizzle_hits:
         lat = geo.get("lng")
         lng = geo.get("lat")
 
+        city_name = (
+            city.get("name", {})
+                .get("en", "")
+        )
+        
+        if city_name:
+            emirate = city_name
+        else:
+            emirate = "Dubai"
+
 
         title = (
             hit.get("name", {})
@@ -2293,6 +2303,8 @@ for hit in dubizzle_hits:
         properties.append({
 
             "source": "dubizzle",
+
+            "emirate": emirate,
 
             "title": title,
 
@@ -2507,6 +2519,8 @@ for listing in rea_hits:
         properties.append({
 
             "source": "rea",
+
+            "emirate": "Dubai",
 
             "title": raw_area,
 
@@ -2780,6 +2794,8 @@ for listing in housing_hits:
         properties.append({
 
             "source": "housing",
+
+            "emirate": "Dubai",
 
             "title": title,
 
@@ -3239,6 +3255,8 @@ for source_data in all_soups:
 
                             "source": "bhomes",
 
+                            "emirate": "Dubai",
+
                             "title": title,
 
                             "price": price,
@@ -3569,6 +3587,8 @@ for source_data in all_soups:
 
                     "source":
                     "propertyfinder",
+
+                    "emirate": "Dubai",
 
                     "title":
                     title,
@@ -3969,6 +3989,8 @@ for source_data in all_soups:
 
                     "source": "99acres",
 
+                    "emirate": "Dubai",
+
                     "title": title,
 
                     "price": price,
@@ -4057,14 +4079,12 @@ print("99ACRES SAVED:", count_99)
 
 for property in properties:
 
-    if property["source"] in [
-        "dubizzle",
-        "propertyfinder",
-        "bhomes",
-        "rea",
-        "housing",
-        "99acres"
-    ]:
+    emirate = property.get(
+        "emirate",
+        "Dubai"
+    )
+
+    if emirate == "Dubai":
 
         property["verify_before_buying"] = {
             "source": "DLD",
@@ -4072,6 +4092,17 @@ for property in properties:
             "message": (
                 "Verify ownership records, transaction history "
                 "and project details through DLD before purchase."
+            )
+        }
+
+    elif emirate == "Ras Al Khaimah":
+
+        property["verify_before_buying"] = {
+            "source": "RAK Municipality",
+            "url": "https://mun.rak.ae/",
+            "message": (
+                "Verify ownership records and project details "
+                "through Ras Al Khaimah authorities before purchase."
             )
         }
             
