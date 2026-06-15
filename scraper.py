@@ -1604,6 +1604,69 @@ def fetch_dubizzle_rak():
 
     return listings
 
+def fetch_dubizzle_abudhabi():
+
+    listings = []
+
+    abu_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=3)"
+                )
+            }
+            for page in range(5)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=abu_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"ABU DHABI PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("ABU DHABI ERROR:", e)
+
+    print(
+        "TOTAL ABU DHABI LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
 # =========================================
 # BHOMES
 # =========================================
@@ -2096,10 +2159,14 @@ dubizzle_hits = fetch_dubizzle_algolia()
 
 rak_hits = fetch_dubizzle_rak()
 
+abu_hits = fetch_dubizzle_abudhabi()
+
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 print("RAW RAK HITS:", len(rak_hits))
+print("RAW ABU DHABI HITS:", len(abu_hits))
 
 dubizzle_hits.extend(rak_hits)
+dubizzle_hits.extend(abu_hits)
 
 rea_hits = fetch_rea_listings()
 
@@ -2153,6 +2220,7 @@ for hit in dubizzle_hits:
         city_id = city.get("id")
         
         EMIRATE_MAP = {
+            3: "Abu Dhabi",
             11: "Ras Al Khaimah"
         }
         
@@ -4105,6 +4173,18 @@ for property in properties:
             "message": (
                 "Verify ownership records and project details "
                 "through Ras Al Khaimah authorities before purchase."
+            )
+        }
+
+    elif emirate == "Abu Dhabi":
+
+        property["verify_before_buying"] = {
+            "source": "DARI",
+            "url": "https://dari.ae/",
+            "message": (
+                "Verify ownership records, transaction history "
+                "and project details through Abu Dhabi authorities "
+                "before purchase."
             )
         }
             
