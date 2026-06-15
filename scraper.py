@@ -1628,7 +1628,7 @@ def fetch_dubizzle_abudhabi():
                     f"&filters=(city.id=3)"
                 )
             }
-            for page in range(5)
+            for page in range(2)
         ]
     }
 
