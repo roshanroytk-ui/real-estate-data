@@ -1856,6 +1856,132 @@ def fetch_dubizzle_uaq():
 
     return listings
 
+def fetch_dubizzle_sharjah():
+
+    listings = []
+
+    sharjah_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=12)"
+                )
+            }
+            for page in range(2)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=sharjah_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"SHARJAH PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("SHARJAH ERROR:", e)
+
+    print(
+        "TOTAL SHARJAH LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
+def fetch_dubizzle_ajman():
+
+    listings = []
+
+    sharjah_headers = {
+        "X-Algolia-Application-Id": APP_ID,
+        "X-Algolia-API-Key": RAK_API_KEY,
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "requests": [
+            {
+                "indexName":
+                "by_verification_feature_asc_property-for-sale-residential.com",
+
+                "params":
+                (
+                    f"query="
+                    f"&page={page}"
+                    f"&hitsPerPage=1000"
+                    f"&filters=(city.id=14)"
+                )
+            }
+            for page in range(2)
+        ]
+    }
+
+    try:
+
+        response = requests.post(
+            ALGOLIA_URL,
+            headers=sharjah_headers,
+            json=payload,
+            timeout=60
+        )
+
+        response.raise_for_status()
+
+        data = response.json()
+
+        for result in data["results"]:
+
+            hits = result.get("hits", [])
+
+            listings.extend(hits)
+
+            print(
+                f"AJMAN PAGE {result.get('page')} "
+                f"({len(hits)} listings)"
+            )
+
+    except Exception as e:
+
+        print("AJMAN ERROR:", e)
+
+    print(
+        "TOTAL AJMAN LISTINGS:",
+        len(listings)
+    )
+
+    return listings
+
 # =========================================
 # BHOMES
 # =========================================
@@ -2356,18 +2482,26 @@ fujairah_hits = fetch_dubizzle_fujairah()
 
 uaq_hits = fetch_dubizzle_uaq()
 
+sharjah_hits = fetch_dubizzle_sharjah()
+
+ajman_hits = fetch_dubizzle_ajman()
+
 print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
 print("RAW RAK HITS:", len(rak_hits))
 print("RAW ABU DHABI HITS:", len(abu_hits))
 print("RAW AL AIN HITS:", len(alain_hits))
 print("RAW FUJAIRAH HITS:", len(fujairah_hits))
 print("RAW UAQ HITS:", len(uaq_hits))
+print("RAW SHARJAH HITS:", len(sharjah_hits))
+print("RAW AJMAN HITS:", len(ajman_hits))
 
 dubizzle_hits.extend(rak_hits)
 dubizzle_hits.extend(abu_hits)
 dubizzle_hits.extend(alain_hits)
 dubizzle_hits.extend(fujairah_hits)
 dubizzle_hits.extend(uaq_hits)
+dubizzle_hits.extend(sharjah_hits)
+dubizzle_hits.extend(ajman_hits)
 
 rea_hits = fetch_rea_listings()
 
@@ -2423,7 +2557,9 @@ for hit in dubizzle_hits:
         EMIRATE_MAP = {
             3: "Abu Dhabi",
             11: "Ras Al Khaimah",
+            12: "Sharjah",
             13: "Fujairah",
+            14: "Ajman",
             15: "Umm Al Quwain",
             39: "Al Ain"
         }
@@ -4392,6 +4528,17 @@ for property in properties:
             )
         }
 
+    elif emirate == "Sharjah":
+
+        property["verify_before_buying"] = {
+            "source": "Sharjah Real Estate Registration Department",
+            "url": "https://www.shjrerd.gov.ae/",
+            "message": (
+                "Verify ownership records and project details "
+                "through Sharjah authorities before purchase."
+            )
+        }
+
     elif emirate == "Al Ain":
 
         property["verify_before_buying"] = {
@@ -4423,6 +4570,17 @@ for property in properties:
             "message": (
                 "Verify ownership records and project details "
                 "through Umm Al Quwain authorities before purchase."
+            )
+        }
+
+    elif emirate == "Ajman":
+
+        property["verify_before_buying"] = {
+            "source": "Ajman Municipality & Planning Department",
+            "url": "https://www.am.gov.ae/",
+            "message": (
+                "Verify ownership records and project details "
+                "through Ajman authorities before purchase."
             )
         }
             
