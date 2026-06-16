@@ -2485,14 +2485,15 @@ def fetch_housing_listings():
 
     return listings
 
+properties = []
+rent_properties = []
+
 for SCRAPE_MODE in SCRAPE_MODES:
 
     print(
         f"RUNNING MODE: {SCRAPE_MODE}"
     )
 
-    properties = []
-    rent_properties = []
     seen_urls = set()
     potential_duplicates = []
 
