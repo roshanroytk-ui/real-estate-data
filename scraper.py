@@ -49,6 +49,11 @@ headers = {
 
 session = requests.Session()
 session.headers.update(headers)
+
+SCRAPE_MODES = [
+    "sale",
+    "rent"
+]
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
 
 if not GEMINI_KEY:
@@ -1485,6 +1490,20 @@ ALGOLIA_HEADERS = {
     "Content-Type": "application/json"
 }
 
+def get_dubizzle_index():
+
+    if SCRAPE_MODE == "rent":
+
+        return (
+            "by_verification_feature_asc_"
+            "property-for-rent-residential.com"
+        )
+
+    return (
+        "by_verification_feature_asc_"
+        "property-for-sale-residential.com"
+    )
+
 # =========================================
 # DUBIZZLE SCRAPER
 # =========================================
@@ -1497,7 +1516,7 @@ def fetch_dubizzle_algolia():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 f"query=&page={page}&hitsPerPage=1000"
@@ -1555,7 +1574,7 @@ def fetch_dubizzle_rak():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1618,7 +1637,7 @@ def fetch_dubizzle_abudhabi():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1681,7 +1700,7 @@ def fetch_dubizzle_alain():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1744,7 +1763,7 @@ def fetch_dubizzle_fujairah():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1807,7 +1826,7 @@ def fetch_dubizzle_uaq():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1870,7 +1889,7 @@ def fetch_dubizzle_sharjah():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -1933,7 +1952,7 @@ def fetch_dubizzle_ajman():
         "requests": [
             {
                 "indexName":
-                "by_verification_feature_asc_property-for-sale-residential.com",
+                get_dubizzle_index(),
 
                 "params":
                 (
@@ -2466,1157 +2485,1427 @@ def fetch_housing_listings():
 
     return listings
 
-properties = []
-seen_urls = set()
-potential_duplicates = []
+for SCRAPE_MODE in SCRAPE_MODES:
 
-dubizzle_hits = fetch_dubizzle_algolia()
-
-rak_hits = fetch_dubizzle_rak()
-
-abu_hits = fetch_dubizzle_abudhabi()
-
-alain_hits = fetch_dubizzle_alain()
-
-fujairah_hits = fetch_dubizzle_fujairah()
-
-uaq_hits = fetch_dubizzle_uaq()
-
-sharjah_hits = fetch_dubizzle_sharjah()
-
-ajman_hits = fetch_dubizzle_ajman()
-
-print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
-print("RAW RAK HITS:", len(rak_hits))
-print("RAW ABU DHABI HITS:", len(abu_hits))
-print("RAW AL AIN HITS:", len(alain_hits))
-print("RAW FUJAIRAH HITS:", len(fujairah_hits))
-print("RAW UAQ HITS:", len(uaq_hits))
-print("RAW SHARJAH HITS:", len(sharjah_hits))
-print("RAW AJMAN HITS:", len(ajman_hits))
-
-dubizzle_hits.extend(rak_hits)
-dubizzle_hits.extend(abu_hits)
-dubizzle_hits.extend(alain_hits)
-dubizzle_hits.extend(fujairah_hits)
-dubizzle_hits.extend(uaq_hits)
-dubizzle_hits.extend(sharjah_hits)
-dubizzle_hits.extend(ajman_hits)
-
-rea_hits = fetch_rea_listings()
-
-housing_hits = fetch_housing_listings()
-
-print(
-    "TOTAL HOUSING LISTINGS:",
-    len(housing_hits)
-)
-
-print(
-    "TOTAL DUBIZZLE LISTINGS:",
-    len(dubizzle_hits)
-)
-
-
-
-# =========================================
-# DUBIZZLE PARSER
-# =========================================
-
-for hit in dubizzle_hits:
-
-    try:
-
-        price = hit.get("price")
-
-        sqft = hit.get("size")
-
-        if not price or not sqft:
-            continue
-
-        bedrooms = hit.get(
-            "bedrooms",
-            0
-        )
-
-        bathrooms = hit.get(
-            "bathrooms"
-        )
-
-        geo = hit.get(
-            "_geoloc",
-            {}
-        )
-
-        lat = geo.get("lng")
-        lng = geo.get("lat")
-
-        city = hit.get("city", {})
-        city_id = city.get("id")
-        
-        EMIRATE_MAP = {
-            3: "Abu Dhabi",
-            11: "Ras Al Khaimah",
-            12: "Sharjah",
-            13: "Fujairah",
-            14: "Ajman",
-            15: "Umm Al Quwain",
-            39: "Al Ain"
-        }
-        
-        emirate = EMIRATE_MAP.get(
-            city_id,
-            "Dubai"
-        )
-
-
-        title = (
-            hit.get("name", {})
-            .get("en", "")
-        )
-
-
-        property_url = (
-            hit.get(
-                "absolute_url",
-                {}
-            )
-            .get("en")
-        )
-
-        if not property_url:
-            continue
-
-        if property_url in seen_urls:
-            continue
-
-        seen_urls.add(property_url)
-
-        raw_area = ""
-
-        neighborhoods = hit.get(
-            "neighborhoods",
-            {}
-        )
-
-        names = neighborhoods.get(
-            "name",
-            {}
-        )
-
-        if names.get("en"):
-
-            raw_area = names["en"][0]
-
-
-        area_info = get_area_assignment(
-            lat,
-            lng,
-            raw_area
-        )
-
-        area = (
-            area_info[
-                "comparable_area"
-            ]
-        )
-
-        heatmap_area = (
-            area_info[
-                "heatmap_area"
-            ]
-        )
-
-        if is_duplicate_property(
-            lat,
-            lng,
-            price,
-            sqft,
-            bedrooms
-        ):
-            continue
-
-        building = hit.get(
-            "building"
-        )
-
-        tower_name = "Unknown"
-
-        if building:
-
-            tower_name = (
-                building.get(
-                    "name",
-                    {}
-                )
-                .get("en", "Unknown")
-            )
-
-        developer_name = (
-            hit.get("project_developer_name", {}).get("en")
-            if isinstance(
-                hit.get("project_developer_name"),
-                dict
-            )
-            else hit.get("project_developer_name")
-        )
-
-        property_type = "apartment"
-        property_age = 0
-        
-        for item in hit.get("property_info", []):
-        
-            if not isinstance(item, dict):
-                continue
-        
-            item_id = item.get("id")
-        
-            # PROPERTY TYPE
-            if item_id == "property_type":
-        
-                value = item.get("value")
-        
-                if isinstance(value, dict):
-        
-                    property_type = normalize_property_type(
-                        value.get("en", "apartment")
-                    )
-        
-            # PROPERTY AGE
-            elif item_id == "property_age":
-        
-                value = item.get("value", {})
-        
-                if isinstance(value, dict):
-        
-                    age_text = value.get("en", "")
-        
-                    match = re.search(r"(\d+)", age_text)
-        
-                    if match:
-                        property_age = int(match.group(1))
-        
-        url_lower = property_url.lower()
-        title_lower = title.lower()
-        
-        if property_type == "apartment":
-        
-            if "villa" in url_lower or "villa" in title_lower:
-                property_type = "villa"
-        
-            elif "townhouse" in url_lower or "townhouse" in title_lower:
-                property_type = "townhouse"
-        
-            elif "penthouse" in url_lower or "penthouse" in title_lower:
-                property_type = "penthouse"
-
-        properties.append({
-
-            "source": "dubizzle",
-
-            "emirate": emirate,
-
-            "title": title,
-
-            "price": float(price),
-
-            "currency": "AED",
-
-            "developer_name": developer_name,
-
-            "property_age": property_age,
-
-            "area": area,
-
-            "heatmap_area":
-            heatmap_area,
-
-            "raw_area":
-            raw_area,
-
-            "lat": lat,
-
-            "lng": lng,
-
-            "sqft": float(sqft),
-
-            "bedrooms": bedrooms,
-
-            "bathrooms": bathrooms,
-
-            "property_type":
-            property_type,
-
-            "url":
-            property_url,
-
-            "description":
-            hit.get(
-                "description",
-                {}
-            ).get(
-                "en",
-                ""
-            ),
-
-            "tower_name":
-            tower_name,
-
-            "amenities": normalize_amenities([
-                amenity.get("en")
-                for amenity in hit.get("amenities_v2", [])
-                if amenity.get("en")
-            ]),
-
-            "completion_status":
-            hit.get(
-                "completion_status",
-                "unknown"
-            ),
-
-            "furnished_status":
-            str(
-                hit.get(
-                    "furnished",
-                    ""
-                )
-            ),
-
-            "is_verified":
-            hit.get(
-                "is_verified",
-                False
-            ),
-
-            "layout_type":
-            "standard",
-
-            "quality_tier":
-            "standard"
-        })
-
-    except Exception as e:
-
-        print(
-            "DUBIZZLE PARSE ERROR:",
-            e
-        )
-
-# =========================================
-# REA PARSER
-# =========================================
-
-for listing in rea_hits:
-
-    try:
-
-        bedrooms = listing.get(
-            "bedrooms",
-            0
-        )
-
-        bathrooms = listing.get(
-            "bathrooms"
-        )
-
-        description = listing.get(
-            "description",
-            ""
-        )
-
-        raw_area = listing.get(
-            "displayAddress",
-            "Unknown"
-        )
-
-        geo = listing.get(
-            "geoLocation"
-        ) or {}
-
-        lat = geo.get("latitude")
-        lng = geo.get("longitude")
-
-        # Remove REA generic Dubai coordinates completely
-        if (
-            lat is not None
-            and lng is not None
-            and abs(float(lat) - 25.204849) < 0.0001
-            and abs(float(lng) - 55.270783) < 0.0001
-        ):
-            continue
-
-        area_info = get_area_assignment(
-            lat,
-            lng,
-            raw_area
-        )
-
-        area = area_info[
-            "comparable_area"
-        ]
-
-        heatmap_area = area_info[
-            "heatmap_area"
-        ]
-
-        price_obj = listing.get(
-            "price"
-        ) or {}
-
-        display_price = (
-            price_obj.get(
-                "displayConsumerPrice",
-                ""
-            )
-        )
-
-        digits = re.sub(
-            r"[^\d.]",
-            "",
-            display_price
-        )
-
-        if not digits:
-            continue
-
-        price = float(digits)
-
-        sqm = listing.get(
-            "buildingSize"
-        )
-
-        try:
-            sqm = float(sqm)
-            sqft = sqm * 10.7639
-        except:
-            continue
-
-        property_url = (
-            "https://www.rea.global"
-            + listing.get(
-                "detailPageUrl",
-                ""
-            )
-        )
-
-        if property_url in seen_urls:
-            continue
-
-        seen_urls.add(property_url)
-
-        property_types = listing.get(
-            "propertyTypes",
-            []
-        )
-
-        property_type = "apartment"
-
-        if property_types:
-
-            property_type = normalize_property_type(
-                property_types[0]
-            )
-
-        if is_duplicate_property(
-            lat,
-            lng,
-            price,
-            sqft,
-            bedrooms
-        ):
-            continue
-
-        properties.append({
-
-            "source": "rea",
-
-            "emirate": "Dubai",
-
-            "title": raw_area,
-
-            "price": price,
-
-            "currency": "AED",
-
-            "area": area,
-
-            "heatmap_area": heatmap_area,
-
-            "raw_area": raw_area,
-
-            "lat": lat,
-
-            "lng": lng,
-
-            "sqft": sqft,
-
-            "bedrooms": bedrooms,
-
-            "bathrooms": bathrooms,
-
-            "property_type": property_type,
-
-            "url": property_url,
-
-            "description": description,
-
-            "tower_name": None,
-
-            "amenities": [],
-
-            "completion_status": (
-                "off_plan"
-                if listing.get(
-                    "completionDate"
-                )
-                else "ready"
-            ),
-
-            "furnished_status": "UNKNOWN",
-
-            "is_verified": False,
-
-            "layout_type": "standard",
-
-            "quality_tier": "standard"
-        })
-
-    except Exception as e:
-
-        print(
-            "REA PARSE ERROR:",
-            e
-        )
-
-# =========================================
-# HOUSING PARSER
-# =========================================
-
-for listing in housing_hits:
-
-    try:
-
-        info = listing.get(
-            "propertyInformation",
-            {}
-        )
-
-        title = listing.get(
-            "title",
-            "Unknown"
-        )
-
-        bedrooms = info.get(
-            "bedrooms",
-            0
-        )
-
-        bathrooms = info.get(
-            "bathrooms"
-        )
-
-        area_text = info.get(
-            "area",
-            ""
-        )
-
-        sqft_match = re.search(
-            r"([\d,.]+)",
-            area_text
-        )
-
-        if not sqft_match:
-            continue
-
-        sqft = float(
-
-            sqft_match.group(1)
-            .replace(",", "")
-        )
-
-        price_text = info.get(
-            "price"
-        )
-
-        if not price_text:
-            continue
-
-        price = normalize_price_to_aed(
-
-            parse_housing_price(
-                price_text
-            ),
-
-            "INR"
-        )
-
-        coords = listing.get(
-            "coords",
-            []
-        )
-
-        lat = None
-        lng = None
-
-        if len(coords) == 2:
-
-            lat = float(coords[0])
-
-            lng = float(coords[1])
-
-        description = (
-
-            listing.get(
-                "description",
-                {}
-            )
-            .get(
-                "overviewDescription",
-                ""
-            )
-        )
-
-        raw_area = ""
-
-        overview_points = (
-            listing.get(
-                "details",
-                {}
-            )
-            .get(
-                "overviewPoints"
-            )
-            or []
-        )
-        
-        for point in overview_points:
-        
-            label = str(
-                point.get(
-                    "label",
-                    ""
-                )
-            ).lower()
-        
-            value = str(
-                point.get(
-                    "description",
-                    ""
-                )
-            ).strip()
-        
-            if (
-                "locality" in label
-                or "location" in label
-                or "area" in label
-                or "community" in label
-            ):
-        
-                raw_area = value
-                break
-
-        if not raw_area:
-
-            known_areas = [
-        
-                "Dubai Marina",
-                "Business Bay",
-                "Downtown Dubai",
-                "Jumeirah Village Circle",
-                "JVC",
-                "Dubai Hills",
-                "DIFC",
-                "City Walk",
-                "Jumeirah Lake Towers",
-                "JLT",
-                "Palm Jumeirah"
-            ]
-        
-            title_lower = title.lower()
-        
-            for area_name in known_areas:
-        
-                if area_name.lower() in title_lower:
-        
-                    raw_area = area_name
-                    break
-        
-        
-        if not raw_area:
-        
-            raw_area = "Dubai"
-
-        amenities = []
-
-        for group in (
-            listing.get(
-                "details",
-                {}
-            )
-            .get(
-                "amenities",
-                []
-            )
-        ):
-
-            amenities.extend(
-
-                group.get(
-                    "data",
-                    []
-                )
-            )
-
-        area_info = get_area_assignment(
-
-            lat,
-            lng,
-            raw_area
-        )
-
-        area = area_info[
-            "comparable_area"
-        ]
-
-        heatmap_area = area_info[
-            "heatmap_area"
-        ]
-
-        property_type = normalize_property_type(
-
-            "apartment",
-
-            title=title,
-
-            description=description
-        )
-
-        if is_duplicate_property(
-
-            lat,
-            lng,
-            price,
-            sqft,
-            bedrooms
-        ):
-            continue
-
-        properties.append({
-
-            "source": "housing",
-
-            "emirate": "Dubai",
-
-            "title": title,
-
-            "price": price,
-
-            "currency": "AED",
-
-            "original_price": (
-                parse_housing_price(
-                    price_text
-                )
-            ),
-
-            "original_currency": "INR",
-
-            "area": area,
-
-            "heatmap_area": heatmap_area,
-
-            "raw_area": raw_area,
-
-            "lat": lat,
-
-            "lng": lng,
-
-            "sqft": sqft,
-
-            "bedrooms": bedrooms,
-
-            "bathrooms": bathrooms,
-
-            "property_type": property_type,
-
-            "url": (
-                "https://housing.com/in/buy/resale/page/"
-                + str(
-                    listing["listingId"]
-                )
-            ),
-
-            "description": description,
-
-            "tower_name": None,
-
-            "amenities": normalize_amenities(
-                amenities
-            ),
-
-            "completion_status": "ready",
-
-            "furnished_status": "UNKNOWN",
-
-            "is_verified": False,
-
-            "layout_type": "standard",
-
-            "quality_tier": "standard"
-        })
-
-    except Exception as e:
-
-        import traceback
-    
-        print(
-            "HOUSING PARSE ERROR:",
-            e
-        )
-    
-        print(
-            "FAILED LISTING ID:",
-            listing.get("listingId")
-        )
-    
-        traceback.print_exc()
-
-# =========================================
-# BHOMES PARSER
-# =========================================
-
-for source_data in all_soups:
-
-    if source_data["source"] != "bhomes":
-        continue
-
-    soup = source_data["soup"]
-
-    scripts = soup.find_all(
-        "script",
-        type="application/ld+json"
+    print(
+        f"RUNNING MODE: {SCRAPE_MODE}"
     )
 
-    for script in scripts:
+    properties = []
+    rent_properties = []
+    seen_urls = set()
+    potential_duplicates = []
 
+    dubizzle_hits = fetch_dubizzle_algolia()
+
+    rak_hits = fetch_dubizzle_rak()
+
+    abu_hits = fetch_dubizzle_abudhabi()
+
+    alain_hits = fetch_dubizzle_alain()
+
+    fujairah_hits = fetch_dubizzle_fujairah()
+
+    uaq_hits = fetch_dubizzle_uaq()
+
+    sharjah_hits = fetch_dubizzle_sharjah()
+
+    ajman_hits = fetch_dubizzle_ajman()
+
+    print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
+    print("RAW RAK HITS:", len(rak_hits))
+    print("RAW ABU DHABI HITS:", len(abu_hits))
+    print("RAW AL AIN HITS:", len(alain_hits))
+    print("RAW FUJAIRAH HITS:", len(fujairah_hits))
+    print("RAW UAQ HITS:", len(uaq_hits))
+    print("RAW SHARJAH HITS:", len(sharjah_hits))
+    print("RAW AJMAN HITS:", len(ajman_hits))
+
+    dubizzle_hits.extend(rak_hits)
+    dubizzle_hits.extend(abu_hits)
+    dubizzle_hits.extend(alain_hits)
+    dubizzle_hits.extend(fujairah_hits)
+    dubizzle_hits.extend(uaq_hits)
+    dubizzle_hits.extend(sharjah_hits)
+    dubizzle_hits.extend(ajman_hits)
+
+    if SCRAPE_MODE == "sale":
+
+        rea_hits = fetch_rea_listings()
+
+        housing_hits = fetch_housing_listings()
+
+    else:
+
+        rea_hits = []
+        housing_hits = []
+
+    print(
+        "TOTAL HOUSING LISTINGS:",
+        len(housing_hits)
+    )
+    
+    print(
+        "TOTAL DUBIZZLE LISTINGS:",
+        len(dubizzle_hits)
+    )
+
+
+
+    # =========================================
+    # DUBIZZLE PARSER
+    # =========================================
+    
+    for hit in dubizzle_hits:
+    
         try:
-
-            if not script.string:
+    
+            price = hit.get("price")
+    
+            sqft = hit.get("size")
+    
+            if not price or not sqft:
                 continue
-
-            data = json.loads(script.string)
-
-            if (
-                not isinstance(data, dict)
-                or data.get("@type") != "ItemList"
+    
+            bedrooms = hit.get(
+                "bedrooms",
+                0
+            )
+    
+            bathrooms = hit.get(
+                "bathrooms"
+            )
+    
+            geo = hit.get(
+                "_geoloc",
+                {}
+            )
+    
+            lat = geo.get("lng")
+            lng = geo.get("lat")
+    
+            city = hit.get("city", {})
+            city_id = city.get("id")
+            
+            EMIRATE_MAP = {
+                3: "Abu Dhabi",
+                11: "Ras Al Khaimah",
+                12: "Sharjah",
+                13: "Fujairah",
+                14: "Ajman",
+                15: "Umm Al Quwain",
+                39: "Al Ain"
+            }
+            
+            emirate = EMIRATE_MAP.get(
+                city_id,
+                "Dubai"
+            )
+    
+    
+            title = (
+                hit.get("name", {})
+                .get("en", "")
+            )
+    
+    
+            property_url = (
+                hit.get(
+                    "absolute_url",
+                    {}
+                )
+                .get("en")
+            )
+    
+            if not property_url:
+                continue
+    
+            if property_url in seen_urls:
+                continue
+    
+            seen_urls.add(property_url)
+    
+            raw_area = ""
+    
+            neighborhoods = hit.get(
+                "neighborhoods",
+                {}
+            )
+    
+            names = neighborhoods.get(
+                "name",
+                {}
+            )
+    
+            if names.get("en"):
+    
+                raw_area = names["en"][0]
+    
+    
+            area_info = get_area_assignment(
+                lat,
+                lng,
+                raw_area
+            )
+    
+            area = (
+                area_info[
+                    "comparable_area"
+                ]
+            )
+    
+            heatmap_area = (
+                area_info[
+                    "heatmap_area"
+                ]
+            )
+    
+            if is_duplicate_property(
+                lat,
+                lng,
+                price,
+                sqft,
+                bedrooms
             ):
                 continue
-
-            items = data.get("itemListElement", [])
-
-            for item in items:
-
-                listing = item.get("item", {})
-
-                title = listing.get("name")
-
-                property_url = listing.get("url")
-
-                if not property_url:
-                    continue
-
-                if property_url in seen_urls:
-                    continue
-
-                
-
-                try:
-
-                    detail_response = session.get(
-                        property_url,
-                        headers=headers,
-                        timeout=20
+    
+            building = hit.get(
+                "building"
+            )
+    
+            tower_name = "Unknown"
+    
+            if building:
+    
+                tower_name = (
+                    building.get(
+                        "name",
+                        {}
                     )
-
-                    time.sleep(1)
-
-                except Exception as e:
-
-                    print("BHOMES Request Error:", e)
-
+                    .get("en", "Unknown")
+                )
+    
+            developer_name = (
+                hit.get("project_developer_name", {}).get("en")
+                if isinstance(
+                    hit.get("project_developer_name"),
+                    dict
+                )
+                else hit.get("project_developer_name")
+            )
+    
+            property_type = "apartment"
+            property_age = 0
+            
+            for item in hit.get("property_info", []):
+            
+                if not isinstance(item, dict):
                     continue
-
-                detail_soup = BeautifulSoup(
-                    detail_response.text,
-                    "html.parser"
-                )
-
-                detail_scripts = detail_soup.find_all(
-                    "script",
-                    type="application/ld+json"
-                )
-
-                amenities = []
-
-                for detail_script in detail_scripts:
-
-                    try:
-
-                        if not detail_script.string:
-                            continue
-
-                        detail_data = json.loads(
-                            detail_script.string
+            
+                item_id = item.get("id")
+            
+                # PROPERTY TYPE
+                if item_id == "property_type":
+            
+                    value = item.get("value")
+            
+                    if isinstance(value, dict):
+            
+                        property_type = normalize_property_type(
+                            value.get("en", "apartment")
                         )
-                        
-                        # =====================================
-                        # HANDLE mainEntity
-                        # =====================================
-                        
-                        if (
-                            isinstance(detail_data, dict)
-                            and "mainEntity" in detail_data
-                        ):
-                        
-                            detail_data = detail_data["mainEntity"]
-                        
-                        # =====================================
-                        # HANDLE ARRAY JSON-LD
-                        # =====================================
-                        
-                        if isinstance(detail_data, list):
-                        
-                            for item_data in detail_data:
-                        
-                                item_type = item_data.get("@type")
-                        
-                                if isinstance(item_type, list):
-                        
-                                    if "RealEstateListing" in item_type:
-                        
-                                        detail_data = item_data
-                                        break
-                        
-                                elif item_type == "RealEstateListing":
-                        
-                                    detail_data = item_data
-                                    break
+            
+                # PROPERTY AGE
+                elif item_id == "property_age":
+            
+                    value = item.get("value", {})
+            
+                    if isinstance(value, dict):
+            
+                        age_text = value.get("en", "")
+            
+                        match = re.search(r"(\d+)", age_text)
+            
+                        if match:
+                            property_age = int(match.group(1))
+            
+            url_lower = property_url.lower()
+            title_lower = title.lower()
+            
+            if property_type == "apartment":
+            
+                if "villa" in url_lower or "villa" in title_lower:
+                    property_type = "villa"
+            
+                elif "townhouse" in url_lower or "townhouse" in title_lower:
+                    property_type = "townhouse"
+            
+                elif "penthouse" in url_lower or "penthouse" in title_lower:
+                    property_type = "penthouse"
+    
+            record = {
+    
+                "source": "dubizzle",
+    
+                "emirate": emirate,
+    
+                "title": title,
+    
+                "price": float(price),
+    
+                "currency": "AED",
+    
+                "developer_name": developer_name,
+    
+                "property_age": property_age,
+    
+                "area": area,
+    
+                "heatmap_area":
+                heatmap_area,
+    
+                "raw_area":
+                raw_area,
+    
+                "lat": lat,
+    
+                "lng": lng,
+    
+                "sqft": float(sqft),
+    
+                "bedrooms": bedrooms,
+    
+                "bathrooms": bathrooms,
+    
+                "property_type":
+                property_type,
+    
+                "url":
+                property_url,
+    
+                "description":
+                hit.get(
+                    "description",
+                    {}
+                ).get(
+                    "en",
+                    ""
+                ),
+    
+                "tower_name":
+                tower_name,
+    
+                "amenities": normalize_amenities([
+                    amenity.get("en")
+                    for amenity in hit.get("amenities_v2", [])
+                    if amenity.get("en")
+                ]),
+    
+                "completion_status":
+                hit.get(
+                    "completion_status",
+                    "unknown"
+                ),
+    
+                "furnished_status":
+                str(
+                    hit.get(
+                        "furnished",
+                        ""
+                    )
+                ),
+    
+                "is_verified":
+                hit.get(
+                    "is_verified",
+                    False
+                ),
+    
+                "layout_type":
+                "standard",
+    
+                "quality_tier":
+                "standard"
+            }
+    
+            if SCRAPE_MODE == "rent":
+        
+                rent_properties.append(record)
+            
+            else:
+            
+                properties.append(record)
+    
+        except Exception as e:
+    
+            print(
+                "DUBIZZLE PARSE ERROR:",
+                e
+            )
+    
+    # =========================================
+    # REA PARSER
+    # =========================================
+    
+    for listing in rea_hits:
+    
+        try:
+    
+            bedrooms = listing.get(
+                "bedrooms",
+                0
+            )
+    
+            bathrooms = listing.get(
+                "bathrooms"
+            )
+    
+            description = listing.get(
+                "description",
+                ""
+            )
+    
+            raw_area = listing.get(
+                "displayAddress",
+                "Unknown"
+            )
+    
+            geo = listing.get(
+                "geoLocation"
+            ) or {}
+    
+            lat = geo.get("latitude")
+            lng = geo.get("longitude")
+    
+            # Remove REA generic Dubai coordinates completely
+            if (
+                lat is not None
+                and lng is not None
+                and abs(float(lat) - 25.204849) < 0.0001
+                and abs(float(lng) - 55.270783) < 0.0001
+            ):
+                continue
+    
+            area_info = get_area_assignment(
+                lat,
+                lng,
+                raw_area
+            )
+    
+            area = area_info[
+                "comparable_area"
+            ]
+    
+            heatmap_area = area_info[
+                "heatmap_area"
+            ]
+    
+            price_obj = listing.get(
+                "price"
+            ) or {}
+    
+            display_price = (
+                price_obj.get(
+                    "displayConsumerPrice",
+                    ""
+                )
+            )
+    
+            digits = re.sub(
+                r"[^\d.]",
+                "",
+                display_price
+            )
+    
+            if not digits:
+                continue
+    
+            price = float(digits)
+    
+            sqm = listing.get(
+                "buildingSize"
+            )
+    
+            try:
+                sqm = float(sqm)
+                sqft = sqm * 10.7639
+            except:
+                continue
+    
+            property_url = (
+                "https://www.rea.global"
+                + listing.get(
+                    "detailPageUrl",
+                    ""
+                )
+            )
+    
+            if property_url in seen_urls:
+                continue
+    
+            seen_urls.add(property_url)
+    
+            property_types = listing.get(
+                "propertyTypes",
+                []
+            )
+    
+            property_type = "apartment"
+    
+            if property_types:
+    
+                property_type = normalize_property_type(
+                    property_types[0]
+                )
+    
+            if is_duplicate_property(
+                lat,
+                lng,
+                price,
+                sqft,
+                bedrooms
+            ):
+                continue
+    
+            properties.append({
+    
+                "source": "rea",
+    
+                "emirate": "Dubai",
+    
+                "title": raw_area,
+    
+                "price": price,
+    
+                "currency": "AED",
+    
+                "area": area,
+    
+                "heatmap_area": heatmap_area,
+    
+                "raw_area": raw_area,
+    
+                "lat": lat,
+    
+                "lng": lng,
+    
+                "sqft": sqft,
+    
+                "bedrooms": bedrooms,
+    
+                "bathrooms": bathrooms,
+    
+                "property_type": property_type,
+    
+                "url": property_url,
+    
+                "description": description,
+    
+                "tower_name": None,
+    
+                "amenities": [],
+    
+                "completion_status": (
+                    "off_plan"
+                    if listing.get(
+                        "completionDate"
+                    )
+                    else "ready"
+                ),
+    
+                "furnished_status": "UNKNOWN",
+    
+                "is_verified": False,
+    
+                "layout_type": "standard",
+    
+                "quality_tier": "standard"
+            })
+    
+        except Exception as e:
+    
+            print(
+                "REA PARSE ERROR:",
+                e
+            )
+    
+    # =========================================
+    # HOUSING PARSER
+    # =========================================
+    
+    for listing in housing_hits:
+    
+        try:
+    
+            info = listing.get(
+                "propertyInformation",
+                {}
+            )
+    
+            title = listing.get(
+                "title",
+                "Unknown"
+            )
+    
+            bedrooms = info.get(
+                "bedrooms",
+                0
+            )
+    
+            bathrooms = info.get(
+                "bathrooms"
+            )
+    
+            area_text = info.get(
+                "area",
+                ""
+            )
+    
+            sqft_match = re.search(
+                r"([\d,.]+)",
+                area_text
+            )
+    
+            if not sqft_match:
+                continue
+    
+            sqft = float(
+    
+                sqft_match.group(1)
+                .replace(",", "")
+            )
+    
+            price_text = info.get(
+                "price"
+            )
+    
+            if not price_text:
+                continue
+    
+            price = normalize_price_to_aed(
+    
+                parse_housing_price(
+                    price_text
+                ),
+    
+                "INR"
+            )
+    
+            coords = listing.get(
+                "coords",
+                []
+            )
+    
+            lat = None
+            lng = None
+    
+            if len(coords) == 2:
+    
+                lat = float(coords[0])
+    
+                lng = float(coords[1])
+    
+            description = (
+    
+                listing.get(
+                    "description",
+                    {}
+                )
+                .get(
+                    "overviewDescription",
+                    ""
+                )
+            )
+    
+            raw_area = ""
+    
+            overview_points = (
+                listing.get(
+                    "details",
+                    {}
+                )
+                .get(
+                    "overviewPoints"
+                )
+                or []
+            )
+            
+            for point in overview_points:
+            
+                label = str(
+                    point.get(
+                        "label",
+                        ""
+                    )
+                ).lower()
+            
+                value = str(
+                    point.get(
+                        "description",
+                        ""
+                    )
+                ).strip()
+            
+                if (
+                    "locality" in label
+                    or "location" in label
+                    or "area" in label
+                    or "community" in label
+                ):
+            
+                    raw_area = value
+                    break
+    
+            if not raw_area:
+    
+                known_areas = [
+            
+                    "Dubai Marina",
+                    "Business Bay",
+                    "Downtown Dubai",
+                    "Jumeirah Village Circle",
+                    "JVC",
+                    "Dubai Hills",
+                    "DIFC",
+                    "City Walk",
+                    "Jumeirah Lake Towers",
+                    "JLT",
+                    "Palm Jumeirah"
+                ]
+            
+                title_lower = title.lower()
+            
+                for area_name in known_areas:
+            
+                    if area_name.lower() in title_lower:
+            
+                        raw_area = area_name
+                        break
+            
+            
+            if not raw_area:
+            
+                raw_area = "Dubai"
+    
+            amenities = []
+    
+            for group in (
+                listing.get(
+                    "details",
+                    {}
+                )
+                .get(
+                    "amenities",
+                    []
+                )
+            ):
+    
+                amenities.extend(
+    
+                    group.get(
+                        "data",
+                        []
+                    )
+                )
+    
+            area_info = get_area_assignment(
+    
+                lat,
+                lng,
+                raw_area
+            )
+    
+            area = area_info[
+                "comparable_area"
+            ]
+    
+            heatmap_area = area_info[
+                "heatmap_area"
+            ]
+    
+            property_type = normalize_property_type(
+    
+                "apartment",
+    
+                title=title,
+    
+                description=description
+            )
+    
+            if is_duplicate_property(
+    
+                lat,
+                lng,
+                price,
+                sqft,
+                bedrooms
+            ):
+                continue
+    
+            properties.append({
+    
+                "source": "housing",
+    
+                "emirate": "Dubai",
+    
+                "title": title,
+    
+                "price": price,
+    
+                "currency": "AED",
+    
+                "original_price": (
+                    parse_housing_price(
+                        price_text
+                    )
+                ),
+    
+                "original_currency": "INR",
+    
+                "area": area,
+    
+                "heatmap_area": heatmap_area,
+    
+                "raw_area": raw_area,
+    
+                "lat": lat,
+    
+                "lng": lng,
+    
+                "sqft": sqft,
+    
+                "bedrooms": bedrooms,
+    
+                "bathrooms": bathrooms,
+    
+                "property_type": property_type,
+    
+                "url": (
+                    "https://housing.com/in/buy/resale/page/"
+                    + str(
+                        listing["listingId"]
+                    )
+                ),
+    
+                "description": description,
+    
+                "tower_name": None,
+    
+                "amenities": normalize_amenities(
+                    amenities
+                ),
+    
+                "completion_status": "ready",
+    
+                "furnished_status": "UNKNOWN",
+    
+                "is_verified": False,
+    
+                "layout_type": "standard",
+    
+                "quality_tier": "standard"
+            })
+    
+        except Exception as e:
+    
+            import traceback
+        
+            print(
+                "HOUSING PARSE ERROR:",
+                e
+            )
+        
+            print(
+                "FAILED LISTING ID:",
+                listing.get("listingId")
+            )
+        
+            traceback.print_exc()
 
-                        if (
-                            not isinstance(detail_data, dict)
-                            or (
-                                detail_data.get("@type") != "RealEstateListing"
-                                and not (
-                                    isinstance(
-                                        detail_data.get("@type"),
-                                        list
+    if SCRAPE_MODE == "sale":
+        
+        # =========================================
+        # BHOMES PARSER
+        # =========================================
+        
+        for source_data in all_soups:
+        
+            if source_data["source"] != "bhomes":
+                continue
+        
+            soup = source_data["soup"]
+        
+            scripts = soup.find_all(
+                "script",
+                type="application/ld+json"
+            )
+        
+            for script in scripts:
+        
+                try:
+        
+                    if not script.string:
+                        continue
+        
+                    data = json.loads(script.string)
+        
+                    if (
+                        not isinstance(data, dict)
+                        or data.get("@type") != "ItemList"
+                    ):
+                        continue
+        
+                    items = data.get("itemListElement", [])
+        
+                    for item in items:
+        
+                        listing = item.get("item", {})
+        
+                        title = listing.get("name")
+        
+                        property_url = listing.get("url")
+        
+                        if not property_url:
+                            continue
+        
+                        if property_url in seen_urls:
+                            continue
+        
+                        
+        
+                        try:
+        
+                            detail_response = session.get(
+                                property_url,
+                                headers=headers,
+                                timeout=20
+                            )
+        
+                            time.sleep(1)
+        
+                        except Exception as e:
+        
+                            print("BHOMES Request Error:", e)
+        
+                            continue
+        
+                        detail_soup = BeautifulSoup(
+                            detail_response.text,
+                            "html.parser"
+                        )
+        
+                        detail_scripts = detail_soup.find_all(
+                            "script",
+                            type="application/ld+json"
+                        )
+        
+                        amenities = []
+        
+                        for detail_script in detail_scripts:
+        
+                            try:
+        
+                                if not detail_script.string:
+                                    continue
+        
+                                detail_data = json.loads(
+                                    detail_script.string
+                                )
+                                
+                                # =====================================
+                                # HANDLE mainEntity
+                                # =====================================
+                                
+                                if (
+                                    isinstance(detail_data, dict)
+                                    and "mainEntity" in detail_data
+                                ):
+                                
+                                    detail_data = detail_data["mainEntity"]
+                                
+                                # =====================================
+                                # HANDLE ARRAY JSON-LD
+                                # =====================================
+                                
+                                if isinstance(detail_data, list):
+                                
+                                    for item_data in detail_data:
+                                
+                                        item_type = item_data.get("@type")
+                                
+                                        if isinstance(item_type, list):
+                                
+                                            if "RealEstateListing" in item_type:
+                                
+                                                detail_data = item_data
+                                                break
+                                
+                                        elif item_type == "RealEstateListing":
+                                
+                                            detail_data = item_data
+                                            break
+        
+                                if (
+                                    not isinstance(detail_data, dict)
+                                    or (
+                                        detail_data.get("@type") != "RealEstateListing"
+                                        and not (
+                                            isinstance(
+                                                detail_data.get("@type"),
+                                                list
+                                            )
+                                            and "RealEstateListing"
+                                            in detail_data.get("@type")
+                                        )
                                     )
-                                    and "RealEstateListing"
-                                    in detail_data.get("@type")
+                                ):
+                                    continue
+        
+                                # NEW FIX
+                                if not detail_data.get("additionalProperty"):
+                                    continue
+        
+                                offers = detail_data.get(
+                                    "offers",
+                                    {}
                                 )
-                            )
-                        ):
-                            continue
-
-                        # NEW FIX
-                        if not detail_data.get("additionalProperty"):
-                            continue
-
-                        offers = detail_data.get(
-                            "offers",
-                            {}
-                        )
-
-                        try:
-                            price = float(
-                                offers.get("price")
-                            )
-                        except:
-                            continue
-
-                        currency = offers.get(
-                            "priceCurrency"
-                        )
-
-                        geo = detail_data.get(
-                            "geo",
-                            {}
-                        )
-
-                        lat = geo.get("latitude")
-                        lng = geo.get("longitude")
-
-                        floor_size = detail_data.get(
-                            "floorSize",
-                            {}
-                        )
-
-                        sqft = floor_size.get("value")
-
-                        try:
-                            sqft = str(sqft).replace(",", "")
-                            sqft = float(sqft)
-                        except:
-                            continue
-
-                        bedrooms = detail_data.get(
-                            "numberOfRooms"
-                        )
-
-                        try:
-                            bedrooms = int(bedrooms)
-                        except:
-                            bedrooms = 0
-
-                        bathrooms = detail_data.get(
-                            "numberOfBathroomsTotal"
-                        )
+        
+                                try:
+                                    price = float(
+                                        offers.get("price")
+                                    )
+                                except:
+                                    continue
+        
+                                currency = offers.get(
+                                    "priceCurrency"
+                                )
+        
+                                geo = detail_data.get(
+                                    "geo",
+                                    {}
+                                )
+        
+                                lat = geo.get("latitude")
+                                lng = geo.get("longitude")
+        
+                                floor_size = detail_data.get(
+                                    "floorSize",
+                                    {}
+                                )
+        
+                                sqft = floor_size.get("value")
+        
+                                try:
+                                    sqft = str(sqft).replace(",", "")
+                                    sqft = float(sqft)
+                                except:
+                                    continue
+        
+                                bedrooms = detail_data.get(
+                                    "numberOfRooms"
+                                )
+        
+                                try:
+                                    bedrooms = int(bedrooms)
+                                except:
+                                    bedrooms = 0
+        
+                                bathrooms = detail_data.get(
+                                    "numberOfBathroomsTotal"
+                                )
+                                # =====================================
+                                # AMENITIES
+                                # =====================================
+                                
+                                features = detail_data.get(
+                                    "amenityFeature",
+                                    []
+                                )
+                                
+                                amenities = normalize_amenities(
+        
+                                    extract_amenities(features)
+                                )
+                                property_type = "other"
+        
+                                description = detail_data.get(
+                                    "description",
+                                    ""
+                                )
+        
+                                developer_name = None
+        
+                                if "damac maison" in description.lower():
+                                    developer_name = "DAMAC"
+                                
+                                elif "emaar" in description.lower():
+                                    developer_name = "EMAAR"
+                                
+                                else:
+                                    developer_name = extract_developer_name(
+                                        description
+                                    )
+        
+        
+                                completion_status = detect_completion_status(
+                                    description
+                                )
+        
+                                additional_properties = detail_data.get(
+                                    "additionalProperty",
+                                    []
+                                )
+                                
+                                # normalize into list
+                                if isinstance(additional_properties, dict):
+                                    additional_properties = [additional_properties]
+                                
+                                for prop in additional_properties:
+                                
+                                    if not isinstance(prop, dict):
+                                        continue
+                                
+                                    # CASE 1
+                                    if prop.get("name") == "Property Type":
+                                
+                                        property_type = normalize_property_type(
+                                            prop.get("value", "other"),
+                                            title=title,
+                                            description=description
+                                        )
+                                
+                                        break
+                                
+                                    # CASE 2 (bhomes weird schema)
+                                    elif (
+                                        prop.get("@type") == "PropertyValue"
+                                        and prop.get("name")
+                                    ):
+                                
+                                        property_type = normalize_property_type(
+                                            prop.get("name"),
+                                            title=title,
+                                            description=description
+                                        )
+        
+        
+                                location = detail_data.get(
+                                    "location",
+                                    {}
+                                )
+        
+                                raw_area = location.get("name")
+                                address = location.get(
+                                    "address",
+                                    {}
+                                )
+        
+                                street_address = (
+                                    address.get("streetAddress")
+                                    or address.get("addressRegion")
+                                    or address.get("addressLocality")
+                                    or ""
+                                )
+                                
+                                addressRegion = address.get(
+                                    "addressRegion",
+                                    ""
+                                )
+                                
+                                tower_name = "Unknown"
+        
+                                # 1. Best source
+                                if street_address:
+                                
+                                    tower_name = (
+                                        street_address
+                                        .split(",")[0]
+                                        .strip()
+                                    )
+                                
+                                # 2. Fallback
+                                elif location.get("name"):
+                                
+                                    tower_name = (
+                                        location.get("name")
+                                        .strip()
+                                    )
+                                
+                                # 3. Last fallback: description
+                                else:
+                                
+                                    tower_patterns = [
+                                
+                                        r"located in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
+                                
+                                        r"in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
+                                
+                                        r"at ([A-Z][A-Za-z0-9&\-\(\) ]+)"
+                                    ]
+                                
+                                    for pattern in tower_patterns:
+                                
+                                        match = re.search(
+                                            pattern,
+                                            description
+                                        )
+                                
+                                        if match:
+                                
+                                            tower_name = (
+                                                match.group(1)
+                                                .strip()
+                                            )
+                                
+                                            break
+        
+                                area_info = get_area_assignment(
+                                    lat,
+                                    lng,
+                                    raw_area
+                                )
+                                
+                                area = area_info["comparable_area"]
+                                
+                                heatmap_area = area_info["heatmap_area"]
+        
+                                if (
+                                    (not lat or not lng)
+                                    and area in coord_map
+                                ):
+        
+                                    lat = coord_map[area]["lat"]
+                                    lng = coord_map[area]["lng"]
+        
+                                if is_duplicate_property(
+                                
+                                    lat,
+                                    lng,
+                                    price,
+                                    sqft,
+                                    bedrooms
+                                ):
+                                    continue
+        
+                                is_verified = True
+        
+        
+                                seen_urls.add(property_url)
+        
+                                desc_lower = description.lower()
+                                    
+                                if "unfurnished" in desc_lower:
+                                    furnished_status = "NO"
+                                    
+                                elif "furnished" in desc_lower:
+                                    furnished_status = "YES"
+                                    
+                                else:
+                                    furnished_status = "UNKNOWN"
+        
+                                properties.append({
+        
+                                    "source": "bhomes",
+        
+                                    "emirate": "Dubai",
+        
+                                    "title": title,
+        
+                                    "price": price,
+        
+                                    "currency": currency,
+        
+                                    "developer_name": developer_name,
+        
+                                    "area": area,
+        
+                                    "heatmap_area": heatmap_area,
+        
+                                    "lat": lat,
+        
+                                    "lng": lng,
+        
+                                    "sqft": sqft,
+        
+                                    "bedrooms": bedrooms,
+        
+                                    "bathrooms": bathrooms,
+        
+                                    "property_type": property_type,
+        
+                                    "url": property_url,
+        
+                                    "description": description,
+        
+                                    "tower_name": tower_name,
+        
+                                    "amenities": amenities,
+        
+                                    "completion_status": completion_status,
+        
+                                    "is_verified": is_verified,
+                                    
+                                    "furnished_status": furnished_status,
+        
+                                    "layout_type": "standard",
+        
+                                    "quality_tier": "standard",
+                                })
+        
+                            except Exception as e:
+        
+                                import traceback
+        
+                                print("BHOMES Detail Error:", e)
+        
+                                traceback.print_exc()
+        
+                except Exception as e:
+        
+                    print("BHOMES Script Error:", e)
+        
+        
+        # =========================================
+        # PROPERTY FINDER PARSER
+        # =========================================
+        
+        for source_data in all_soups:
+        
+            if source_data["source"] != "propertyfinder":
+                continue
+        
+            soup = source_data["soup"]
+        
+            try:
+        
+                # =====================================
+                # GET __NEXT_DATA__
+                # =====================================
+        
+                next_data_script = soup.find(
+                    "script",
+                    id="__NEXT_DATA__"
+                )
+        
+                if (
+                    not next_data_script
+                    or not next_data_script.string
+                ):
+                    continue
+        
+                data = json.loads(
+                    next_data_script.string
+                )
+        
+                # =====================================
+                # GET LISTINGS
+                # =====================================
+        
+                listings = (
+                    data
+                    .get("props", {})
+                    .get("pageProps", {})
+                    .get("searchResult", {})
+                    .get("listings", [])
+                )
+        
+                # =====================================
+                # LOOP LISTINGS
+                # =====================================
+        
+                for listing_wrapper in listings:
+        
+                    try:
+        
                         # =====================================
-                        # AMENITIES
+                        # ACTUAL PROPERTY OBJECT
                         # =====================================
-                        
-                        features = detail_data.get(
-                            "amenityFeature",
-                            []
+        
+                        property_data = listing_wrapper.get(
+                            "property",
+                            {}
                         )
-                        
-                        amenities = normalize_amenities(
-
-                            extract_amenities(features)
+        
+                        if not property_data:
+                            continue
+        
+                        # =====================================
+                        # URL
+                        # =====================================
+        
+                        property_url = property_data.get(
+                            "share_url"
                         )
-                        property_type = "other"
-
-                        description = detail_data.get(
-                            "description",
-                            ""
+        
+                        if not property_url:
+                            continue
+        
+                        if property_url in seen_urls:
+                            continue
+        
+                        seen_urls.add(property_url)
+        
+                        # =====================================
+                        # TITLE
+                        # =====================================
+        
+                        title = property_data.get(
+                            "title",
+                            "Unknown"
                         )
-
-                        developer_name = None
-
-                        if "damac maison" in description.lower():
-                            developer_name = "DAMAC"
-                        
-                        elif "emaar" in description.lower():
-                            developer_name = "EMAAR"
-                        
-                        else:
-                            developer_name = extract_developer_name(
-                                description
-                            )
-
-
-                        completion_status = detect_completion_status(
-                            description
+        
+                        # =====================================
+                        # PRICE
+                        # =====================================
+        
+                        price_data = property_data.get(
+                            "price",
+                            {}
                         )
-
-                        additional_properties = detail_data.get(
-                            "additionalProperty",
-                            []
+        
+                        price = price_data.get("value")
+        
+                        if not price:
+                            continue
+        
+                        try:
+                            price = float(price)
+                        except:
+                            continue
+        
+                        currency = price_data.get(
+                            "currency",
+                            "AED"
                         )
-                        
-                        # normalize into list
-                        if isinstance(additional_properties, dict):
-                            additional_properties = [additional_properties]
-                        
-                        for prop in additional_properties:
-                        
-                            if not isinstance(prop, dict):
-                                continue
-                        
-                            # CASE 1
-                            if prop.get("name") == "Property Type":
-                        
-                                property_type = normalize_property_type(
-                                    prop.get("value", "other"),
-                                    title=title,
-                                    description=description
-                                )
-                        
-                                break
-                        
-                            # CASE 2 (bhomes weird schema)
-                            elif (
-                                prop.get("@type") == "PropertyValue"
-                                and prop.get("name")
-                            ):
-                        
-                                property_type = normalize_property_type(
-                                    prop.get("name"),
-                                    title=title,
-                                    description=description
-                                )
-
-
-                        location = detail_data.get(
+        
+                        # =====================================
+                        # LOCATION
+                        # =====================================
+        
+                        location = property_data.get(
                             "location",
                             {}
                         )
-
-                        raw_area = location.get("name")
-                        address = location.get(
-                            "address",
+        
+                        coordinates = location.get(
+                            "coordinates",
                             {}
                         )
-
-                        street_address = (
-                            address.get("streetAddress")
-                            or address.get("addressRegion")
-                            or address.get("addressLocality")
-                            or ""
+        
+                        lat = coordinates.get("lat")
+                        lng = coordinates.get("lon")
+        
+                        # =====================================
+                        # AREA
+                        # =====================================
+        
+                        raw_area = (
+                            location.get("full_name")
+                            or location.get("name")
+                            or "Unknown"
                         )
-                        
-                        addressRegion = address.get(
-                            "addressRegion",
-                            ""
-                        )
-                        
-                        tower_name = "Unknown"
-
-                        # 1. Best source
-                        if street_address:
-                        
-                            tower_name = (
-                                street_address
-                                .split(",")[0]
-                                .strip()
-                            )
-                        
-                        # 2. Fallback
-                        elif location.get("name"):
-                        
-                            tower_name = (
-                                location.get("name")
-                                .strip()
-                            )
-                        
-                        # 3. Last fallback: description
-                        else:
-                        
-                            tower_patterns = [
-                        
-                                r"located in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
-                        
-                                r"in ([A-Z][A-Za-z0-9&\-\(\) ]+)",
-                        
-                                r"at ([A-Z][A-Za-z0-9&\-\(\) ]+)"
-                            ]
-                        
-                            for pattern in tower_patterns:
-                        
-                                match = re.search(
-                                    pattern,
-                                    description
-                                )
-                        
-                                if match:
-                        
-                                    tower_name = (
-                                        match.group(1)
-                                        .strip()
-                                    )
-                        
-                                    break
-
+        
                         area_info = get_area_assignment(
                             lat,
                             lng,
@@ -3626,17 +3915,115 @@ for source_data in all_soups:
                         area = area_info["comparable_area"]
                         
                         heatmap_area = area_info["heatmap_area"]
-
+        
+                        # =====================================
+                        # SQFT
+                        # =====================================
+        
+                        size_data = property_data.get(
+                            "size",
+                            {}
+                        )
+        
+                        sqft = size_data.get("value")
+        
+                        try:
+        
+                            sqft = float(
+                                str(sqft)
+                                .replace(",", "")
+                            )
+        
+                        except:
+                            continue
+        
+                        # =====================================
+                        # BEDROOMS
+                        # =====================================
+        
+                        bedrooms = property_data.get(
+                            "bedrooms_value"
+                        )
+        
+                        if bedrooms is None:
+        
+                            bedrooms = property_data.get(
+                                "bedrooms",
+                                0
+                            )
+        
+                        try:
+                            bedrooms = int(bedrooms)
+                        except:
+                            bedrooms = 0
+        
+                        # =====================================
+                        # BATHROOMS
+                        # =====================================
+        
+                        bathrooms = property_data.get(
+                            "bathrooms_value"
+                        )
+        
+                        if bathrooms is None:
+        
+                            bathrooms = property_data.get(
+                                "bathrooms"
+                            )
+        
+                        try:
+                            bathrooms = int(bathrooms)
+                        except:
+                            bathrooms = None
+        
+                        description = property_data.get(
+                            "description",
+                            ""
+                        )
+                
+        
+                        # =====================================
+                        # PROPERTY TYPE
+                        # =====================================
+        
+                        property_type = normalize_property_type(
+        
+                            property_data.get(
+                                "property_type",
+                                "other"
+                            ),
+        
+                            title=title,
+        
+                            description=property_data.get(
+                                "description",
+                                ""
+                            )
+                        )
+        
+                        # =====================================
+                        # COORD FALLBACK
+                        # =====================================
+        
                         if (
                             (not lat or not lng)
                             and area in coord_map
                         ):
-
-                            lat = coord_map[area]["lat"]
-                            lng = coord_map[area]["lng"]
-
+        
+                            lat = coord_map[
+                                area
+                            ]["lat"]
+        
+                            lng = coord_map[
+                                area
+                            ]["lng"]
+        
+                        # =====================================
+                        # DUPLICATE CHECK
+                        # =====================================
+        
                         if is_duplicate_property(
-                        
+        
                             lat,
                             lng,
                             price,
@@ -3644,844 +4031,500 @@ for source_data in all_soups:
                             bedrooms
                         ):
                             continue
-
-                        is_verified = True
-
-
-                        seen_urls.add(property_url)
-
-                        desc_lower = description.lower()
-                            
-                        if "unfurnished" in desc_lower:
-                            furnished_status = "NO"
-                            
-                        elif "furnished" in desc_lower:
-                            furnished_status = "YES"
-                            
-                        else:
-                            furnished_status = "UNKNOWN"
-
+        
+                        # =====================================
+                        # SAVE PROPERTY
+                        # =====================================
+        
                         properties.append({
-
-                            "source": "bhomes",
-
+        
+                            "source":
+                            "propertyfinder",
+        
                             "emirate": "Dubai",
-
-                            "title": title,
-
-                            "price": price,
-
-                            "currency": currency,
-
-                            "developer_name": developer_name,
-
-                            "area": area,
-
+        
+                            "title":
+                            title,
+        
+                            "price":
+                            price,
+        
+                            "currency":
+                            currency,
+        
+                            "area":
+                            area,
+        
                             "heatmap_area": heatmap_area,
-
-                            "lat": lat,
-
-                            "lng": lng,
-
-                            "sqft": sqft,
-
-                            "bedrooms": bedrooms,
-
-                            "bathrooms": bathrooms,
-
-                            "property_type": property_type,
-
-                            "url": property_url,
-
+        
+                            "raw_area":
+                            raw_area,
+        
+                            "lat":
+                            lat,
+        
+                            "lng":
+                            lng,
+        
+                            "sqft":
+                            sqft,
+        
+                            "bedrooms":
+                            bedrooms,
+        
+                            "bathrooms":
+                            bathrooms,
+        
+                            "property_type":
+                            property_type,
+        
+                            "url":
+                            property_url,
+        
                             "description": description,
-
-                            "tower_name": tower_name,
-
-                            "amenities": amenities,
-
-                            "completion_status": completion_status,
-
-                            "is_verified": is_verified,
+        
+                            "tower_name": (
+                                location.get("name")
+                            ),
                             
-                            "furnished_status": furnished_status,
-
+                            "location_type": (
+                                location.get("type")
+                            ),
+                            
+                            "community_path": (
+                                location.get("path_name")
+                            ),
+                            
+                            "completion_status": (
+                                property_data.get(
+                                    "completion_status"
+                                )
+                            ),
+                            
+                            "furnished_status": (
+                                property_data.get(
+                                    "furnished"
+                                )
+                            ),
+                            
+                            "listing_level": (
+                                property_data.get(
+                                    "listing_level"
+                                )
+                            ),
+                            
+                            "is_verified": (
+                                property_data.get(
+                                    "is_verified"
+                                )
+                            ),
+                            
+                            "is_new_construction": (
+                                property_data.get(
+                                    "is_new_construction"
+                                )
+                            ),
+                        
+                            
+                            "amenities": normalize_amenities(
+                            
+                                property_data.get(
+                                    "amenity_names",
+                                    []
+                                )
+                            ),
+        
                             "layout_type": "standard",
-
+        
                             "quality_tier": "standard",
                         })
-
-                    except Exception as e:
-
-                        import traceback
-
-                        print("BHOMES Detail Error:", e)
-
-                        traceback.print_exc()
-
-        except Exception as e:
-
-            print("BHOMES Script Error:", e)
-
-
-# =========================================
-# PROPERTY FINDER PARSER
-# =========================================
-
-for source_data in all_soups:
-
-    if source_data["source"] != "propertyfinder":
-        continue
-
-    soup = source_data["soup"]
-
-    try:
-
-        # =====================================
-        # GET __NEXT_DATA__
-        # =====================================
-
-        next_data_script = soup.find(
-            "script",
-            id="__NEXT_DATA__"
-        )
-
-        if (
-            not next_data_script
-            or not next_data_script.string
-        ):
-            continue
-
-        data = json.loads(
-            next_data_script.string
-        )
-
-        # =====================================
-        # GET LISTINGS
-        # =====================================
-
-        listings = (
-            data
-            .get("props", {})
-            .get("pageProps", {})
-            .get("searchResult", {})
-            .get("listings", [])
-        )
-
-        # =====================================
-        # LOOP LISTINGS
-        # =====================================
-
-        for listing_wrapper in listings:
-
-            try:
-
-                # =====================================
-                # ACTUAL PROPERTY OBJECT
-                # =====================================
-
-                property_data = listing_wrapper.get(
-                    "property",
-                    {}
-                )
-
-                if not property_data:
-                    continue
-
-                # =====================================
-                # URL
-                # =====================================
-
-                property_url = property_data.get(
-                    "share_url"
-                )
-
-                if not property_url:
-                    continue
-
-                if property_url in seen_urls:
-                    continue
-
-                seen_urls.add(property_url)
-
-                # =====================================
-                # TITLE
-                # =====================================
-
-                title = property_data.get(
-                    "title",
-                    "Unknown"
-                )
-
-                # =====================================
-                # PRICE
-                # =====================================
-
-                price_data = property_data.get(
-                    "price",
-                    {}
-                )
-
-                price = price_data.get("value")
-
-                if not price:
-                    continue
-
-                try:
-                    price = float(price)
-                except:
-                    continue
-
-                currency = price_data.get(
-                    "currency",
-                    "AED"
-                )
-
-                # =====================================
-                # LOCATION
-                # =====================================
-
-                location = property_data.get(
-                    "location",
-                    {}
-                )
-
-                coordinates = location.get(
-                    "coordinates",
-                    {}
-                )
-
-                lat = coordinates.get("lat")
-                lng = coordinates.get("lon")
-
-                # =====================================
-                # AREA
-                # =====================================
-
-                raw_area = (
-                    location.get("full_name")
-                    or location.get("name")
-                    or "Unknown"
-                )
-
-                area_info = get_area_assignment(
-                    lat,
-                    lng,
-                    raw_area
-                )
-                
-                area = area_info["comparable_area"]
-                
-                heatmap_area = area_info["heatmap_area"]
-
-                # =====================================
-                # SQFT
-                # =====================================
-
-                size_data = property_data.get(
-                    "size",
-                    {}
-                )
-
-                sqft = size_data.get("value")
-
-                try:
-
-                    sqft = float(
-                        str(sqft)
-                        .replace(",", "")
-                    )
-
-                except:
-                    continue
-
-                # =====================================
-                # BEDROOMS
-                # =====================================
-
-                bedrooms = property_data.get(
-                    "bedrooms_value"
-                )
-
-                if bedrooms is None:
-
-                    bedrooms = property_data.get(
-                        "bedrooms",
-                        0
-                    )
-
-                try:
-                    bedrooms = int(bedrooms)
-                except:
-                    bedrooms = 0
-
-                # =====================================
-                # BATHROOMS
-                # =====================================
-
-                bathrooms = property_data.get(
-                    "bathrooms_value"
-                )
-
-                if bathrooms is None:
-
-                    bathrooms = property_data.get(
-                        "bathrooms"
-                    )
-
-                try:
-                    bathrooms = int(bathrooms)
-                except:
-                    bathrooms = None
-
-                description = property_data.get(
-                    "description",
-                    ""
-                )
         
-
-                # =====================================
-                # PROPERTY TYPE
-                # =====================================
-
-                property_type = normalize_property_type(
-
-                    property_data.get(
-                        "property_type",
-                        "other"
-                    ),
-
-                    title=title,
-
-                    description=property_data.get(
-                        "description",
-                        ""
-                    )
-                )
-
-                # =====================================
-                # COORD FALLBACK
-                # =====================================
-
-                if (
-                    (not lat or not lng)
-                    and area in coord_map
-                ):
-
-                    lat = coord_map[
-                        area
-                    ]["lat"]
-
-                    lng = coord_map[
-                        area
-                    ]["lng"]
-
-                # =====================================
-                # DUPLICATE CHECK
-                # =====================================
-
-                if is_duplicate_property(
-
-                    lat,
-                    lng,
-                    price,
-                    sqft,
-                    bedrooms
-                ):
-                    continue
-
-                # =====================================
-                # SAVE PROPERTY
-                # =====================================
-
-                properties.append({
-
-                    "source":
-                    "propertyfinder",
-
-                    "emirate": "Dubai",
-
-                    "title":
-                    title,
-
-                    "price":
-                    price,
-
-                    "currency":
-                    currency,
-
-                    "area":
-                    area,
-
-                    "heatmap_area": heatmap_area,
-
-                    "raw_area":
-                    raw_area,
-
-                    "lat":
-                    lat,
-
-                    "lng":
-                    lng,
-
-                    "sqft":
-                    sqft,
-
-                    "bedrooms":
-                    bedrooms,
-
-                    "bathrooms":
-                    bathrooms,
-
-                    "property_type":
-                    property_type,
-
-                    "url":
-                    property_url,
-
-                    "description": description,
-
-                    "tower_name": (
-                        location.get("name")
-                    ),
-                    
-                    "location_type": (
-                        location.get("type")
-                    ),
-                    
-                    "community_path": (
-                        location.get("path_name")
-                    ),
-                    
-                    "completion_status": (
-                        property_data.get(
-                            "completion_status"
+                    except Exception as e:
+        
+                        import traceback
+        
+                        print(
+                            "PROPERTYFINDER Listing Error:",
+                            e
                         )
-                    ),
-                    
-                    "furnished_status": (
-                        property_data.get(
-                            "furnished"
-                        )
-                    ),
-                    
-                    "listing_level": (
-                        property_data.get(
-                            "listing_level"
-                        )
-                    ),
-                    
-                    "is_verified": (
-                        property_data.get(
-                            "is_verified"
-                        )
-                    ),
-                    
-                    "is_new_construction": (
-                        property_data.get(
-                            "is_new_construction"
-                        )
-                    ),
-                
-                    
-                    "amenities": normalize_amenities(
-                    
-                        property_data.get(
-                            "amenity_names",
-                            []
-                        )
-                    ),
-
-                    "layout_type": "standard",
-
-                    "quality_tier": "standard",
-                })
-
+        
+                        traceback.print_exc()
+        
             except Exception as e:
-
-                import traceback
-
+        
                 print(
-                    "PROPERTYFINDER Listing Error:",
+                    "PROPERTYFINDER NEXT_DATA Error:",
                     e
                 )
-
-                traceback.print_exc()
-
-    except Exception as e:
-
-        print(
-            "PROPERTYFINDER NEXT_DATA Error:",
-            e
-        )
-
-# =========================================
-# 99ACRES PARSER
-# =========================================
-
-for source_data in all_soups:
-
-    if source_data["source"] != "99acres":
-        continue
-
-    soup = source_data["soup"]
-
-    try:
-
-        scripts = soup.find_all("script")
-
-        json_text = None
-
-        for script in scripts:
-
-            text = script.string
-
-            if not text:
+        
+        # =========================================
+        # 99ACRES PARSER
+        # =========================================
+        
+        for source_data in all_soups:
+        
+            if source_data["source"] != "99acres":
                 continue
-
-            if "window.__initialData__" in text:
-
-                match = re.search(
-                    r'window\.__initialData__\s*=\s*({.*?});',
-                    text,
-                    re.DOTALL
-                )
-
-                if match:
-                    json_text = match.group(1)
-                    break
-
-        if not json_text:
-            print("99ACRES: __initialData__ NOT FOUND")
-            continue
-
-
-        data = json.loads(json_text)
-
-        properties_data = (
-            data
-            .get("srp", {})
-            .get("pageData", {})
-            .get("properties", [])
-        )
-
-        count = len(properties_data)
-
-        print(
-            "99ACRES PROPERTY COUNT:",
-            count
-        )
         
-        if count == 0:
+            soup = source_data["soup"]
         
-            print(
-                "99ACRES PAGE DATA KEYS:",
-                list(
+            try:
+        
+                scripts = soup.find_all("script")
+        
+                json_text = None
+        
+                for script in scripts:
+        
+                    text = script.string
+        
+                    if not text:
+                        continue
+        
+                    if "window.__initialData__" in text:
+        
+                        match = re.search(
+                            r'window\.__initialData__\s*=\s*({.*?});',
+                            text,
+                            re.DOTALL
+                        )
+        
+                        if match:
+                            json_text = match.group(1)
+                            break
+        
+                if not json_text:
+                    print("99ACRES: __initialData__ NOT FOUND")
+                    continue
+        
+        
+                data = json.loads(json_text)
+        
+                properties_data = (
                     data
                     .get("srp", {})
                     .get("pageData", {})
-                    .keys()
+                    .get("properties", [])
                 )
-            )
-
-        for prop in properties_data:
-
-            property_type_raw = prop.get(
-                "PROPERTY_TYPE",
-                ""
-            )
-            
-            if property_type_raw != "Residential Apartment":
-                continue
-
-            try:
-
-                property_url = (
-                    "https://www.99acres.com/"
-                    + prop.get(
-                        "PROP_DETAILS_URL",
+        
+                count = len(properties_data)
+        
+                print(
+                    "99ACRES PROPERTY COUNT:",
+                    count
+                )
+                
+                if count == 0:
+                
+                    print(
+                        "99ACRES PAGE DATA KEYS:",
+                        list(
+                            data
+                            .get("srp", {})
+                            .get("pageData", {})
+                            .keys()
+                        )
+                    )
+        
+                for prop in properties_data:
+        
+                    property_type_raw = prop.get(
+                        "PROPERTY_TYPE",
                         ""
                     )
-                )
-
-                if not property_url:
-                    continue
-
-                if property_url in seen_urls:
-                    continue
-
-                seen_urls.add(property_url)
-
-                title = prop.get(
-                    "PROP_HEADING",
-                    "Unknown"
-                )
-
-                try:
-
-                    original_price = float(
-                        prop.get(
-                            "MIN_PRICE",
-                            0
-                        )
-                    )
-
-                except:
-                    continue
-
-                price = normalize_price_to_aed(
-                    original_price,
-                    "INR"
-                )
-                
-                currency = "AED"
-                
-                if not price or price <= 0:
-                    continue
-                
-                try:
-                
-                    sqft = float(
-                        prop.get(
-                            "CARPET_AREA",
-                            0
-                        )
-                    )
-                
-                    if sqft <= 0:
+                    
+                    if property_type_raw != "Residential Apartment":
                         continue
-                
-                except:
-                    continue
-
-                try:
-
-                    bedrooms = int(
-                        prop.get(
-                            "BEDROOM_NUM",
-                            0
+        
+                    try:
+        
+                        property_url = (
+                            "https://www.99acres.com/"
+                            + prop.get(
+                                "PROP_DETAILS_URL",
+                                ""
+                            )
                         )
-                    )
-
-                except:
-                    bedrooms = 0
-
-                try:
-
-                    bathrooms = int(
-                        prop.get(
-                            "BATHROOM_NUM",
-                            0
+        
+                        if not property_url:
+                            continue
+        
+                        if property_url in seen_urls:
+                            continue
+        
+                        seen_urls.add(property_url)
+        
+                        title = prop.get(
+                            "PROP_HEADING",
+                            "Unknown"
                         )
-                    )
-
-                except:
-                    bathrooms = None
-
-                map_details = prop.get(
-                    "MAP_DETAILS",
-                    {}
-                )
-
-                try:
-
-                    lat = float(
-                        map_details.get("LATITUDE")
-                    )
-                    
-                    lng = float(
-                        map_details.get("LONGITUDE")
-                    )
-                    
-                    # 99acres sometimes swaps them
-                    if lat > 40:
-                        lat, lng = lng, lat
-
-                except:
-
-                    lat = None
-                    lng = None
-
-                raw_area = prop.get(
-                    "LOCALITY",
-                    "Unknown"
-                )
-
-                area_info = get_area_assignment(
-                    lat,
-                    lng,
-                    raw_area
-                )
-
-                area = area_info[
-                    "comparable_area"
-                ]
-
-                heatmap_area = area_info[
-                    "heatmap_area"
-                ]
-
-                description = prop.get(
-                    "DESCRIPTION",
-                    ""
-                )
-
-                tower_name = prop.get(
-                    "BUILDING_NAME",
-                    "Unknown"
-                )
-
-                amenities = normalize_amenities(
-                    prop.get(
-                        "TOP_USPS",
-                        []
-                    )
-                )
-
-                furnished_status = "UNKNOWN"
-
-                furnish_value = str(
-                    prop.get(
-                        "FURNISH",
-                        ""
-                    )
-                )
-
-                if furnish_value == "1":
-                    furnished_status = "YES"
-
-                elif furnish_value == "4":
-                    furnished_status = "PARTIAL"
-
-                completion_status = "unknown"
-
-                secondary_tags = prop.get(
-                    "SECONDARY_TAGS",
-                    []
-                )
-
-                if (
-                    "Ready To Move"
-                    in secondary_tags
-                ):
-                    completion_status = "ready"
-
-                elif (
-                    "Under Construction"
-                    in secondary_tags
-                ):
-                    completion_status = "off_plan"
-
-                property_type = normalize_property_type(
-                    "apartment",
-                    title=title,
-                    description=description
-                )
-
-                if is_duplicate_property(
-                    lat,
-                    lng,
-                    price,
-                    sqft,
-                    bedrooms
-                ):
-                    continue
-
-                print(
-                    "ADDING 99ACRES:",
-                    title,
-                    area,
-                    bedrooms,
-                    sqft,
-                    price
-                )
-
-                properties.append({
-
-                    "source": "99acres",
-
-                    "emirate": "Dubai",
-
-                    "title": title,
-
-                    "price": price,
-
-                    "currency": "AED",
-
-                    "original_price":
-                    original_price,
-
-                    "original_currency":
-                    "INR",
-
-                    "area": area,
-
-                    "heatmap_area":
-                    heatmap_area,
-
-                    "raw_area":
-                    raw_area,
-
-                    "lat": lat,
-
-                    "lng": lng,
-
-                    "sqft": sqft,
-
-                    "bedrooms": bedrooms,
-
-                    "bathrooms": bathrooms,
-
-                    "property_type":
-                    property_type,
-
-                    "url": property_url,
-
-                    "description":
-                    description,
-
-                    "tower_name":
-                    tower_name,
-
-                    "amenities":
-                    amenities,
-
-                    "completion_status":
-                    completion_status,
-
-                    "furnished_status":
-                    furnished_status,
-
-                    "is_verified":
-                    False,
-
-                    "layout_type":
-                    "standard",
-
-                    "quality_tier":
-                    "standard"
-                })
-
+        
+                        try:
+        
+                            original_price = float(
+                                prop.get(
+                                    "MIN_PRICE",
+                                    0
+                                )
+                            )
+        
+                        except:
+                            continue
+        
+                        price = normalize_price_to_aed(
+                            original_price,
+                            "INR"
+                        )
+                        
+                        currency = "AED"
+                        
+                        if not price or price <= 0:
+                            continue
+                        
+                        try:
+                        
+                            sqft = float(
+                                prop.get(
+                                    "CARPET_AREA",
+                                    0
+                                )
+                            )
+                        
+                            if sqft <= 0:
+                                continue
+                        
+                        except:
+                            continue
+        
+                        try:
+        
+                            bedrooms = int(
+                                prop.get(
+                                    "BEDROOM_NUM",
+                                    0
+                                )
+                            )
+        
+                        except:
+                            bedrooms = 0
+        
+                        try:
+        
+                            bathrooms = int(
+                                prop.get(
+                                    "BATHROOM_NUM",
+                                    0
+                                )
+                            )
+        
+                        except:
+                            bathrooms = None
+        
+                        map_details = prop.get(
+                            "MAP_DETAILS",
+                            {}
+                        )
+        
+                        try:
+        
+                            lat = float(
+                                map_details.get("LATITUDE")
+                            )
+                            
+                            lng = float(
+                                map_details.get("LONGITUDE")
+                            )
+                            
+                            # 99acres sometimes swaps them
+                            if lat > 40:
+                                lat, lng = lng, lat
+        
+                        except:
+        
+                            lat = None
+                            lng = None
+        
+                        raw_area = prop.get(
+                            "LOCALITY",
+                            "Unknown"
+                        )
+        
+                        area_info = get_area_assignment(
+                            lat,
+                            lng,
+                            raw_area
+                        )
+        
+                        area = area_info[
+                            "comparable_area"
+                        ]
+        
+                        heatmap_area = area_info[
+                            "heatmap_area"
+                        ]
+        
+                        description = prop.get(
+                            "DESCRIPTION",
+                            ""
+                        )
+        
+                        tower_name = prop.get(
+                            "BUILDING_NAME",
+                            "Unknown"
+                        )
+        
+                        amenities = normalize_amenities(
+                            prop.get(
+                                "TOP_USPS",
+                                []
+                            )
+                        )
+        
+                        furnished_status = "UNKNOWN"
+        
+                        furnish_value = str(
+                            prop.get(
+                                "FURNISH",
+                                ""
+                            )
+                        )
+        
+                        if furnish_value == "1":
+                            furnished_status = "YES"
+        
+                        elif furnish_value == "4":
+                            furnished_status = "PARTIAL"
+        
+                        completion_status = "unknown"
+        
+                        secondary_tags = prop.get(
+                            "SECONDARY_TAGS",
+                            []
+                        )
+        
+                        if (
+                            "Ready To Move"
+                            in secondary_tags
+                        ):
+                            completion_status = "ready"
+        
+                        elif (
+                            "Under Construction"
+                            in secondary_tags
+                        ):
+                            completion_status = "off_plan"
+        
+                        property_type = normalize_property_type(
+                            "apartment",
+                            title=title,
+                            description=description
+                        )
+        
+                        if is_duplicate_property(
+                            lat,
+                            lng,
+                            price,
+                            sqft,
+                            bedrooms
+                        ):
+                            continue
+        
+                        print(
+                            "ADDING 99ACRES:",
+                            title,
+                            area,
+                            bedrooms,
+                            sqft,
+                            price
+                        )
+        
+                        properties.append({
+        
+                            "source": "99acres",
+        
+                            "emirate": "Dubai",
+        
+                            "title": title,
+        
+                            "price": price,
+        
+                            "currency": "AED",
+        
+                            "original_price":
+                            original_price,
+        
+                            "original_currency":
+                            "INR",
+        
+                            "area": area,
+        
+                            "heatmap_area":
+                            heatmap_area,
+        
+                            "raw_area":
+                            raw_area,
+        
+                            "lat": lat,
+        
+                            "lng": lng,
+        
+                            "sqft": sqft,
+        
+                            "bedrooms": bedrooms,
+        
+                            "bathrooms": bathrooms,
+        
+                            "property_type":
+                            property_type,
+        
+                            "url": property_url,
+        
+                            "description":
+                            description,
+        
+                            "tower_name":
+                            tower_name,
+        
+                            "amenities":
+                            amenities,
+        
+                            "completion_status":
+                            completion_status,
+        
+                            "furnished_status":
+                            furnished_status,
+        
+                            "is_verified":
+                            False,
+        
+                            "layout_type":
+                            "standard",
+        
+                            "quality_tier":
+                            "standard"
+                        })
+        
+                    except Exception as e:
+        
+                        print(
+                            "99ACRES LISTING ERROR:",
+                            e
+                        )
+        
             except Exception as e:
-
+        
                 print(
-                    "99ACRES LISTING ERROR:",
+                    "99ACRES PARSER ERROR:",
                     e
                 )
-
-    except Exception as e:
-
-        print(
-            "99ACRES PARSER ERROR:",
-            e
+        
+        count_99 = sum(
+            1
+            for p in properties
+            if p["source"] == "99acres"
         )
-
-count_99 = sum(
-    1
-    for p in properties
-    if p["source"] == "99acres"
-)
-
-print("99ACRES SAVED:", count_99)
+        
+        print("99ACRES SAVED:", count_99)
 
 # =========================================
 # INVESTOR VERIFICATION LINKS
@@ -4584,8 +4627,35 @@ for property in properties:
             )
         }
             
-with open("properties.json", "w", encoding="utf-8") as f:
-    json.dump(properties, f, indent=2, ensure_ascii=False)
+if SCRAPE_MODE == "sale":
+
+    with open(
+        "properties.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            properties,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+else:
+
+    with open(
+        "rent_properties.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            rent_properties,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
 print(f"Saved {len(properties)} properties.")
 
