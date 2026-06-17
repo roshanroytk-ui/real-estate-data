@@ -1136,6 +1136,16 @@ def normalize_property_type(
         cleaned
     )
 
+def property_type_display(property_type):
+
+    if not property_type:
+        return None
+
+    return (
+        property_type
+        .replace("_", " ")
+        .title()
+    )
 
 def batch_detect_layout_types(listings):
 
@@ -2997,6 +3007,8 @@ for SCRAPE_MODE in SCRAPE_MODES:
                 "bathrooms": bathrooms,
     
                 "property_type": property_type,
+
+                "property_type_display": property_type_display(property_type),
     
                 "url": property_url,
     
@@ -3280,6 +3292,8 @@ for SCRAPE_MODE in SCRAPE_MODES:
                 "bathrooms": bathrooms,
     
                 "property_type": property_type,
+
+                "property_type_display": property_type_display(property_type),
     
                 "url": (
                     "https://housing.com/in/buy/resale/page/"
@@ -3734,6 +3748,8 @@ for SCRAPE_MODE in SCRAPE_MODES:
                                     "bathrooms": bathrooms,
         
                                     "property_type": property_type,
+
+                                    "property_type_display": property_type_display(property_type),
         
                                     "url": property_url,
         
@@ -5398,6 +5414,8 @@ for market_key, data in heatmap_groups.items():
 
         "property_type": property_type,
 
+        "property_type_display": property_type_display(property_type),
+
         "layout_type": layout_type,
 
         "quality_tier": quality_tier,
@@ -5594,6 +5612,8 @@ for market_key, data in market_groups.items():
             "area": area,
 
             "property_type": property_type,
+
+            "property_type_display": property_type_display(property_type),
 
             "bedrooms": bedrooms,
 
