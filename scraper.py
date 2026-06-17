@@ -6134,6 +6134,34 @@ with open(
 print("Saved opportunities.json")
 print("TOTAL OPPORTUNITIES:", len(opportunities))
 
+yield_available = sum(
+    1
+    for o in opportunities
+    if o.get("gross_yield_percent") is not None
+)
+
+yield_missing = sum(
+    1
+    for o in opportunities
+    if o.get("gross_yield_percent") is None
+)
+
+print()
+print("YIELD COVERAGE")
+print("Yield Available:", yield_available)
+print("Yield Missing:", yield_missing)
+
+if len(opportunities) > 0:
+
+    coverage = round(
+        yield_available
+        * 100
+        / len(opportunities),
+        1
+    )
+
+    print("Yield Coverage:", coverage, "%")
+
 # =====================================
 # SAVE AI CACHE
 # =====================================
