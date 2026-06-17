@@ -2208,7 +2208,7 @@ coord_map = {
 
 def fetch_rea_listings():
 
-    listings = []
+    all_listings = []
 
     page = 1
     page_size = 5000
@@ -2278,45 +2278,58 @@ def fetch_rea_listings():
     }
     """
 
-    variables = {
-        "country": "ae",
-        "channel": "buy",
-        "searchtypes": ["apartment"],
-        "where": "dubai",
-        "language": "en",
-        "currencyCode": "AED",
-        "page": page,
-        "pageSize": page_size,
-        "includesurrounding": True,
-        "distanceUnit": "Miles"
-    }
+    while True:
 
-    response = requests.post(
-        REA_GRAPHQL_URL,
-        json={
-            "operationName": "searchListViewQuery",
-            "variables": variables,
-            "query": query
-        },
-        timeout=60
-    )
+        variables = {
+            "country": "ae",
+            "channel": "buy",
+            "searchtypes": ["apartment"],
+            "where": "uae",
+            "language": "en",
+            "currencyCode": "AED",
+            "page": page,
+            "pageSize": page_size,
+            "includesurrounding": True,
+            "distanceUnit": "Miles"
+        }
 
-    response.raise_for_status()
+        response = requests.post(
+            REA_GRAPHQL_URL,
+            json={
+                "operationName": "searchListViewQuery",
+                "variables": variables,
+                "query": query
+            },
+            timeout=60
+        )
 
-    data = response.json()
+        response.raise_for_status()
 
-    listings = (
-        data["data"]
-        ["searchListListings"]
-        ["listings"]
-    )
+        data = response.json()
+
+        listings = (
+            data.get("data", {})
+                .get("searchListListings", {})
+                .get("listings")
+        )
+
+        if not listings:
+            break
+
+        print(
+            f"REA PAGE {page}: {len(listings)} listings"
+        )
+
+        all_listings.extend(listings)
+
+        page += 1
 
     print(
-        "REA LISTINGS:",
-        len(listings)
+        "REA TOTAL LISTINGS:",
+        len(all_listings)
     )
 
-    return listings
+    return all_listings
 
 def fetch_housing_listings():
 
