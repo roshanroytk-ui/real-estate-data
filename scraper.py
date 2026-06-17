@@ -5761,6 +5761,63 @@ with open(
 
 print("Saved runtime_debug.json")
 
+# =====================================
+# RENTAL MARKET ENGINE
+# =====================================
+
+rent_market_groups = {}
+
+for property in rent_properties:
+
+    try:
+
+        sqft = float(property["sqft"])
+
+        if sqft <= 0:
+            continue
+
+    except:
+        continue
+
+    try:
+
+        rent_per_sqft = property["price"] / sqft
+
+    except:
+        continue
+
+    area = property["area"]
+
+    property_type = property["property_type"]
+
+    bedrooms = property["bedrooms"]
+
+    layout_type = property.get(
+        "layout_type",
+        "standard"
+    )
+
+    quality_tier = property.get(
+        "quality_tier",
+        "standard"
+    )
+
+    market_key = (
+        area,
+        property_type,
+        bedrooms,
+        layout_type,
+        quality_tier
+    )
+
+    if market_key not in rent_market_groups:
+
+        rent_market_groups[market_key] = []
+
+    rent_market_groups[market_key].append(
+        rent_per_sqft
+    )
+
 # =========================================
 # INVESTMENT OPPORTUNITY ENGINE
 # =========================================
@@ -5860,6 +5917,51 @@ for market_key, data in market_groups.items():
             opportunity.get("amenities", [])[:3]
         )
 
+        rent_key = (
+
+            area,
+        
+            property_type,
+        
+            bedrooms,
+        
+            layout_type,
+        
+            quality_tier
+        )
+        
+        median_rent_per_sqft = None
+        
+        gross_yield = None
+        
+        rental_comparable_count = 0
+        
+        if rent_key in rent_market_groups:
+        
+            rents = rent_market_groups[rent_key]
+        
+            rental_comparable_count = len(rents)
+        
+            if rental_comparable_count >= minimum_required:
+        
+                median_rent_per_sqft = median(rents)
+        
+                annual_rent = (
+        
+                    median_rent_per_sqft
+        
+                    * sqft
+        
+                )
+        
+                gross_yield = (
+        
+                    annual_rent
+        
+                    / listing["price"]
+        
+                ) * 100
+
         opportunity.update({
         
             "price": round(listing["price"]),
@@ -5894,6 +5996,34 @@ for market_key, data in market_groups.items():
             ),
         
             "color": color
+
+            "median_rent_per_sqft":
+
+                round(median_rent_per_sqft, 2)
+            
+                if median_rent_per_sqft
+            
+                else None,
+            
+            "estimated_annual_rent":
+            
+                round(annual_rent)
+            
+                if gross_yield is not None
+            
+                else None,
+            
+            "gross_yield_percent":
+            
+                round(gross_yield, 2)
+            
+                if gross_yield is not None
+            
+                else None,
+            
+            "rental_comparable_count":
+            
+                rental_comparable_count,
         })
         
         opportunities.append(opportunity)
