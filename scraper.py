@@ -5995,7 +5995,7 @@ for market_key, data in market_groups.items():
                 2
             ),
         
-            "color": color
+            "color": color,
 
             "median_rent_per_sqft":
 
