@@ -5792,22 +5792,10 @@ for property in rent_properties:
 
     bedrooms = property["bedrooms"]
 
-    layout_type = property.get(
-        "layout_type",
-        "standard"
-    )
-
-    quality_tier = property.get(
-        "quality_tier",
-        "standard"
-    )
-
     market_key = (
         area,
         property_type,
-        bedrooms,
-        layout_type,
-        quality_tier
+        bedrooms
     )
 
     if market_key not in rent_market_groups:
@@ -5923,11 +5911,7 @@ for market_key, data in market_groups.items():
         
             property_type,
         
-            bedrooms,
-        
-            layout_type,
-        
-            quality_tier
+            bedrooms
         )
         
         median_rent_per_sqft = None
