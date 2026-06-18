@@ -613,6 +613,53 @@ def nearest_poi(
         round(nearest_distance, 2)
     )
 
+def calculate_location_score(
+    metro_km,
+    mall_km,
+    beach_km,
+    school_km,
+    hospital_km
+):
+
+    score = 0
+
+    if metro_km is not None:
+
+        score += max(
+            0,
+            10 - metro_km * 2
+        ) * 0.30
+
+    if mall_km is not None:
+
+        score += max(
+            0,
+            10 - mall_km
+        ) * 0.20
+
+    if beach_km is not None:
+
+        score += max(
+            0,
+            10 - beach_km
+        ) * 0.20
+
+    if school_km is not None:
+
+        score += max(
+            0,
+            10 - school_km
+        ) * 0.15
+
+    if hospital_km is not None:
+
+        score += max(
+            0,
+            10 - hospital_km
+        ) * 0.15
+
+    return round(score, 1)
+
 def is_duplicate_property(
 
     lat,
@@ -6084,6 +6131,19 @@ for market_key, data in market_groups.items():
             )
         )
 
+        location_score = calculate_location_score(
+
+            nearest_metro,
+        
+            nearest_mall,
+        
+            nearest_beach,
+        
+            nearest_school,
+        
+            nearest_hospital
+        )
+
         opportunity.update({
         
             "price": round(listing["price"]),
@@ -6176,6 +6236,9 @@ for market_key, data in market_groups.items():
             
             "nearest_hospital_km":
                 nearest_hospital,
+            
+            "location_score":
+                location_score,
         })
         
         opportunities.append(opportunity)
