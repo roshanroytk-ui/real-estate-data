@@ -2803,6 +2803,8 @@ for SCRAPE_MODE in SCRAPE_MODES:
     
                 "property_type":
                 property_type,
+
+                "property_type_display": property_type_display(property_type),
     
                 "url":
                 property_url,
