@@ -17,18 +17,21 @@ def fetch_pois():
     area["ISO3166-1"="AE"]->.uae;
 
     (
-
       node["railway"="station"](area.uae);
       node["station"="subway"](area.uae);
-
+    
       node["shop"="mall"](area.uae);
       way["shop"="mall"](area.uae);
-
+    
       way["natural"="beach"](area.uae);
       relation["natural"="beach"](area.uae);
-
+    
+      node["amenity"="school"](area.uae);
+      way["amenity"="school"](area.uae);
+    
+      node["amenity"="hospital"](area.uae);
+      way["amenity"="hospital"](area.uae);
     );
-
     out center tags;
     """
 
@@ -89,8 +92,42 @@ for element in data.get("elements", []):
             tags.get("name:en")
             or tags.get("name")
         )
-
+        
         if not name:
+            continue
+        
+        name = str(name).strip()
+        
+        if len(name) < 3:
+            continue
+
+        lower_name = name.lower()
+
+        if tags.get("shop") == "mall":
+
+            bad_words = [
+                "tower",
+                "commercial centre",
+                "commercial center",
+                "village center",
+                "village centre",
+                "market",
+                "souq"
+            ]
+        
+            if any(
+                word in lower_name
+                for word in bad_words
+            ):
+                continue
+
+        if (
+            lower_name == "beach"
+            or lower_name == "private beach"
+            or lower_name == "شاطئ"
+            or "wasteland" in lower_name
+            or "общественный" in lower_name
+        ):
             continue
 
         poi_type = None
@@ -118,6 +155,20 @@ for element in data.get("elements", []):
         ):
 
             poi_type = "beach"
+
+        elif (
+            tags.get("amenity")
+            == "school"
+        ):
+        
+            poi_type = "school"
+
+        elif (
+            tags.get("amenity")
+            == "hospital"
+        ):
+        
+            poi_type = "hospital"
 
         if poi_type is None:
             continue
