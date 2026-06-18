@@ -554,7 +554,7 @@ def haversine_distance(lat1, lng1, lat2, lng2):
 
     return R * c
 
-def nearest_poi_distance(
+def nearest_poi(
     lat,
     lng,
     poi_type
@@ -567,16 +567,25 @@ def nearest_poi_distance(
 
     except:
 
-        return None
+        return (
+            None,
+            None
+        )
 
     subset = poi_gdf[
         poi_gdf["poi_type"] == poi_type
     ]
 
     if len(subset) == 0:
-        return None
 
-    nearest = None
+        return (
+            None,
+            None
+        )
+
+    nearest_distance = None
+
+    nearest_name = None
 
     for _, row in subset.iterrows():
 
@@ -589,15 +598,20 @@ def nearest_poi_distance(
             row["lng"]
         )
 
-        if nearest is None:
+        if (
+            nearest_distance is None
+            or
+            distance < nearest_distance
+        ):
 
-            nearest = distance
+            nearest_distance = distance
 
-        elif distance < nearest:
+            nearest_name = row["name"]
 
-            nearest = distance
-
-    return round(nearest, 2)
+    return (
+        nearest_name,
+        round(nearest_distance, 2)
+    )
 
 def is_duplicate_property(
 
@@ -6030,34 +6044,44 @@ for market_key, data in market_groups.items():
         
                 ) * 100
 
-        nearest_metro = nearest_poi_distance(
-            listing["lat"],
-            listing["lng"],
-            "metro"
+        nearest_metro_name, nearest_metro = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "metro"
+            )
         )
         
-        nearest_beach = nearest_poi_distance(
-            listing["lat"],
-            listing["lng"],
-            "beach"
+        nearest_beach_name, nearest_beach = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "beach"
+            )
         )
         
-        nearest_mall = nearest_poi_distance(
-            listing["lat"],
-            listing["lng"],
-            "mall"
+        nearest_mall_name, nearest_mall = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "mall"
+            )
         )
         
-        nearest_school = nearest_poi_distance(
-            listing["lat"],
-            listing["lng"],
-            "school"
+        nearest_school_name, nearest_school = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "school"
+            )
         )
         
-        nearest_hospital = nearest_poi_distance(
-            listing["lat"],
-            listing["lng"],
-            "hospital"
+        nearest_hospital_name, nearest_hospital = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "hospital"
+            )
         )
 
         opportunity.update({
@@ -6123,17 +6147,32 @@ for market_key, data in market_groups.items():
             
                 rental_comparable_count,
             
+            "nearest_metro":
+                nearest_metro_name,
+            
             "nearest_metro_km":
                 nearest_metro,
+            
+            "nearest_beach":
+                nearest_beach_name,
             
             "nearest_beach_km":
                 nearest_beach,
             
+            "nearest_mall":
+                nearest_mall_name,
+            
             "nearest_mall_km":
                 nearest_mall,
             
+            "nearest_school":
+                nearest_school_name,
+            
             "nearest_school_km":
                 nearest_school,
+            
+            "nearest_hospital":
+                nearest_hospital_name,
             
             "nearest_hospital_km":
                 nearest_hospital,
