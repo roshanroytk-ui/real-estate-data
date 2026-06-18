@@ -101,6 +101,19 @@ for element in data.get("elements", []):
         if len(name) < 3:
             continue
 
+        bad_names = {
+            "تمت ازالته",
+            "beach",
+            "private beach",
+            "شاطئ"
+        }
+        
+        if name.lower() in {
+            x.lower()
+            for x in bad_names
+        }:
+            continue
+
         lower_name = name.lower()
 
         if tags.get("shop") == "mall":
@@ -112,7 +125,9 @@ for element in data.get("elements", []):
                 "village center",
                 "village centre",
                 "market",
-                "souq"
+                "souq",
+                "centre",
+                "center"
             ]
         
             if any(
