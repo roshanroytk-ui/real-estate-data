@@ -554,6 +554,51 @@ def haversine_distance(lat1, lng1, lat2, lng2):
 
     return R * c
 
+def nearest_poi_distance(
+    lat,
+    lng,
+    poi_type
+):
+
+    try:
+
+        lat = float(lat)
+        lng = float(lng)
+
+    except:
+
+        return None
+
+    subset = poi_gdf[
+        poi_gdf["poi_type"] == poi_type
+    ]
+
+    if len(subset) == 0:
+        return None
+
+    nearest = None
+
+    for _, row in subset.iterrows():
+
+        distance = haversine_distance(
+
+            lat,
+            lng,
+
+            row["lat"],
+            row["lng"]
+        )
+
+        if nearest is None:
+
+            nearest = distance
+
+        elif distance < nearest:
+
+            nearest = distance
+
+    return round(nearest, 2)
+
 def is_duplicate_property(
 
     lat,
@@ -2167,6 +2212,10 @@ with open("areas.json", "r", encoding="utf-8") as f:
 
 areas_gdf = gpd.read_file(
     "polygon_cache.geojson"
+)
+
+poi_gdf = gpd.read_file(
+    "poi_cache.geojson"
 )
 
 areas_gdf = areas_gdf[
@@ -5981,6 +6030,36 @@ for market_key, data in market_groups.items():
         
                 ) * 100
 
+        nearest_metro = nearest_poi_distance(
+            listing["lat"],
+            listing["lng"],
+            "metro"
+        )
+        
+        nearest_beach = nearest_poi_distance(
+            listing["lat"],
+            listing["lng"],
+            "beach"
+        )
+        
+        nearest_mall = nearest_poi_distance(
+            listing["lat"],
+            listing["lng"],
+            "mall"
+        )
+        
+        nearest_school = nearest_poi_distance(
+            listing["lat"],
+            listing["lng"],
+            "school"
+        )
+        
+        nearest_hospital = nearest_poi_distance(
+            listing["lat"],
+            listing["lng"],
+            "hospital"
+        )
+
         opportunity.update({
         
             "price": round(listing["price"]),
@@ -6043,6 +6122,21 @@ for market_key, data in market_groups.items():
             "rental_comparable_count":
             
                 rental_comparable_count,
+            
+            "nearest_metro_km":
+                nearest_metro,
+            
+            "nearest_beach_km":
+                nearest_beach,
+            
+            "nearest_mall_km":
+                nearest_mall,
+            
+            "nearest_school_km":
+                nearest_school,
+            
+            "nearest_hospital_km":
+                nearest_hospital,
         })
         
         opportunities.append(opportunity)
