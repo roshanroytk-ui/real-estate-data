@@ -14,7 +14,7 @@ def fetch_pois():
     query = """
     [out:json][timeout:300];
 
-    area["name"="United Arab Emirates"]->.uae;
+    area["ISO3166-1"="AE"]->.uae;
 
     (
 
