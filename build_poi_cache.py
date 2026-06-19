@@ -785,11 +785,11 @@ print(
 
 print()
 
-print("SCHOOL")
+print("HOSPITAL")
 
 print(
     gdf[
-        gdf["poi_type"] == "school"
+        gdf["poi_type"] == "hospital"
     ][["name"]]
     .sort_values("name")
     .to_string(index=False)
