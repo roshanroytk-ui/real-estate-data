@@ -159,6 +159,23 @@ BAD_HOSPITAL_NAMES = {
     
     "preventative medecine department",
 
+    "beverly hills",
+
+    "nmc dip",
+    "nmc hospital dip",
+    "nmc hospital",
+    "nmc jabel ali",
+
+    "burjeel mhpc",
+
+    "franco emirien",
+
+    "gmc hospital,",
+
+    "al saha al shifa tatim",
+
+    "تجمعات مستشفى كرونا razeen 4"
+
 }
 
 BAD_HOSPITAL_WORDS = [
@@ -184,7 +201,11 @@ BAD_HOSPITAL_WORDS = [
 
     "home healthcare",
 
-    "home health care"
+    "home health care",
+
+    "training centre",
+    "academic medical center",
+    "academic medical centre",
 ]
 
 
