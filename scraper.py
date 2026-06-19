@@ -658,7 +658,14 @@ def calculate_location_score(
             10 - hospital_km
         ) * 0.15
 
-    return round(score, 1)
+    score = round(score, 1)
+
+    score = max(
+        2.5,
+        score
+    )
+    
+    return score
 
 def is_duplicate_property(
 
