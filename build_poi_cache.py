@@ -33,6 +33,21 @@ BAD_METRO_NAMES = {
     "auto market"
 }
 
+BAD_MALL_NAMES = {
+
+    "sparkle shine",
+    "shiseido",
+    "handmade carpets",
+    "mmi festival city",
+    "platinum link",
+    "grand hyper",
+    "grand hypermarket",
+    "lulu shopping",
+    "smart choice",
+    "makani"
+
+}
+
 
 def fetch_pois():
 
@@ -45,8 +60,8 @@ def fetch_pois():
       node["railway"="station"]["station"="subway"](area.uae);
       way["railway"="station"]["station"="subway"](area.uae);
     
-      node["shop"="mall"](area.uae);
       way["shop"="mall"](area.uae);
+      relation["shop"="mall"](area.uae);
     
       way["natural"="beach"](area.uae);
       relation["natural"="beach"](area.uae);
@@ -142,6 +157,9 @@ for element in data.get("elements", []):
         lower_name = name.lower()
 
         if lower_name in BAD_METRO_NAMES:
+            continue
+
+        if lower_name in BAD_MALL_NAMES:
             continue
 
         if tags.get("shop") == "mall":
