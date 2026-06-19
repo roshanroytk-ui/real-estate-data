@@ -524,14 +524,20 @@ for element in data.get("elements", []):
         elif tags.get("amenity") in {
 
             "school",
-            "college",
-            "university",
             "kindergarten"
         
         }:
         
             poi_type = "school"
-
+        
+        elif tags.get("amenity") in {
+        
+            "college",
+            "university"
+        
+        }:
+        
+            poi_type = "university"
         elif (
             tags.get("amenity")
             == "hospital"
@@ -736,15 +742,39 @@ gdf = pd.concat([
 
 ])
 
-gdf = gdf.drop(
-    columns=["norm_name"],
-    errors="ignore"
+university_mask = (
+    gdf["poi_type"] == "university"
 )
+
+gdf.loc[
+    university_mask,
+    "norm_name"
+] = (
+    gdf.loc[
+        university_mask,
+        "name"
+    ]
+    .str.lower()
+    .str.replace(" ", "", regex=False)
+    .str.replace("-", "", regex=False)
+)
+
+gdf = pd.concat([
+
+    gdf[~university_mask],
+
+    gdf[university_mask]
+    .drop_duplicates(
+        subset=["norm_name"]
+    )
+
+])
 
 gdf = gdf.drop(
     columns=["norm_name"],
     errors="ignore"
 )
+
 
 mall_mask = (
     gdf["poi_type"] == "mall"
