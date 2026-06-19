@@ -8,6 +8,31 @@ OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
 CACHE_FILE = "poi_cache.geojson"
 
+BAD_METRO_NAMES = {
+
+            "prt line",
+        
+            "concourse a",
+            "concourse b",
+            "concourse d",
+        
+            "city centre mirdif",
+            "al warqa'a",
+            "سوق التنبن",
+            "مدينة العالمية 1",
+            "مدينة العالمية 2",
+            "واحة دبي السيليكون",
+            "مدينة الأكاديمية",
+            "سوق السيارات",
+            "إعمار العقارية",
+            "دبي فيستيفال سيتي",
+        
+            "abu dhabi passenger station (under construction)",
+            "fujairah passenger station (under construction)",
+            "dubai passenger station (under construction)",
+            "auto market"
+}
+
 
 def fetch_pois():
 
@@ -115,31 +140,6 @@ for element in data.get("elements", []):
             continue
 
         lower_name = name.lower()
-
-        BAD_METRO_NAMES = {
-
-            "prt line",
-        
-            "concourse a",
-            "concourse b",
-            "concourse d",
-        
-            "city centre mirdif",
-            "al warqa'a",
-            "سوق التنبن",
-            "مدينة العالمية 1",
-            "مدينة العالمية 2",
-            "واحة دبي السيليكون",
-            "مدينة الأكاديمية",
-            "سوق السيارات",
-            "إعمار العقارية",
-            "دبي فيستيفال سيتي",
-        
-            "abu dhabi passenger station (under construction)",
-            "fujairah passenger station (under construction)",
-            "dubai passenger station (under construction)",
-            "auto market"
-        }
 
         if lower_name in BAD_METRO_NAMES:
             continue
