@@ -225,6 +225,16 @@ BAD_SCHOOL_NAMES = {
     "premier genie",
     "brainpower talent",
     "centre for musical arts",
+    "school",
+    "smart",
+    "safa",
+    "mother care",
+    "playhouse",
+    "writing center",
+    
+    "عجمان",
+    
+    "مركز مزيد",
     "victoria international school of sharjah"
 }
 
@@ -248,6 +258,10 @@ BAD_SCHOOL_WORDS = [
     "medical centre",
 
     "hospital",
+
+    "block ",
+    "training",
+    "traffic safety",
 
     "clinic"
 ]
