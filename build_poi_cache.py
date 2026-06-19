@@ -10,27 +10,27 @@ CACHE_FILE = "poi_cache.geojson"
 
 BAD_METRO_NAMES = {
 
-            "prt line",
+    "prt line",
         
-            "concourse a",
-            "concourse b",
-            "concourse d",
+    "concourse a",
+    "concourse b",
+    "concourse d",
         
-            "city centre mirdif",
-            "al warqa'a",
-            "سوق التنبن",
-            "مدينة العالمية 1",
-            "مدينة العالمية 2",
-            "واحة دبي السيليكون",
-            "مدينة الأكاديمية",
-            "سوق السيارات",
-            "إعمار العقارية",
-            "دبي فيستيفال سيتي",
+    "city centre mirdif",
+    "al warqa'a",
+    "سوق التنبن",
+    "مدينة العالمية 1",
+    "مدينة العالمية 2",
+    "واحة دبي السيليكون",
+    "مدينة الأكاديمية",
+    "سوق السيارات",
+    "إعمار العقارية",
+    "دبي فيستيفال سيتي",
         
-            "abu dhabi passenger station (under construction)",
-            "fujairah passenger station (under construction)",
-            "dubai passenger station (under construction)",
-            "auto market"
+    "abu dhabi passenger station (under construction)",
+    "fujairah passenger station (under construction)",
+    "dubai passenger station (under construction)",
+    "auto market"
 }
 
 
