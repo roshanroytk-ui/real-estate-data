@@ -394,7 +394,7 @@ for element in data.get("elements", []):
         if lower_name in BAD_SCHOOL_NAMES:
             continue
         
-       if (
+        if (
             tags.get("amenity") in {
                 "school",
                 "college",
