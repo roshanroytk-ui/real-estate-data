@@ -374,7 +374,6 @@ for element in data.get("elements", []):
 
             "lng":
                 lng,
-            "bounds": bounds,
 
             "geometry":
                 Point(
