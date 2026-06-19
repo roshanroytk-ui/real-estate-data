@@ -580,6 +580,18 @@ print(
     f"Removed {len(small_malls)} tiny malls"
 )
 
+print()
+
+print("HOSPITALS")
+
+print(
+    gdf[
+        gdf["poi_type"] == "hospital"
+    ][["name"]]
+    .sort_values("name")
+    .to_string(index=False)
+)
+
 gdf.to_file(
     CACHE_FILE,
     driver="GeoJSON"
