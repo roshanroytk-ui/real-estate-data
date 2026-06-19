@@ -103,7 +103,11 @@ BAD_BEACH_NAMES = {
     "dibba hisn publlic beach",
     "dibba hisn public beach+",
 
-    "ممشى البيت المتوحد"
+    "ممشى البيت المتوحد",
+
+    "al mamzar",
+    "la mer",
+    "yadi yas beach"
 
 }
 
