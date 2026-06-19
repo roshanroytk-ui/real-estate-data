@@ -91,6 +91,19 @@ BAD_MALL_NAMES = {
 BAD_BEACH_NAMES = {
 
     "mandarin oriental",
+    "al-mamzar park - sadaf beach (5)",
+    "al-mamzar park - danah beach (3)",
+
+    "lagoons beach",
+    "rapids beach",
+    "aquaventure beach",
+
+    "al mamzar sea island",
+
+    "dibba hisn publlic beach",
+    "dibba hisn public beach+",
+
+    "ممشى البيت المتوحد"
 
 }
 
