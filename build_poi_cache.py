@@ -243,7 +243,8 @@ BAD_SCHOOL_NAMES = {
     
     "مركز مزيد",
     "special education support center",
-    "victoria international school of sharjah"
+    "victoria international school of sharjah",
+    "quran school"
 }
 
 BAD_SCHOOL_WORDS = [
