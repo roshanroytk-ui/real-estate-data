@@ -51,7 +51,30 @@ BAD_MALL_NAMES = {
     "beach park plaza hotel",
     "la plage",
     "city mall",
-    "manama"
+    "manama",
+
+    "shopping centre",
+    
+    "karama centre - essen",
+    
+    "safeer market",
+    "safeer hyper market",
+    
+    "kenz hyper market",
+    
+    "lulu hypermarket kuwaitat al ain",
+    
+    "mirdif golden gate",
+    
+    "the gate avenue",
+    
+    "waterfront market",
+    
+    "ajman gold souq",
+    
+    "hili gifts markets",
+    
+    "aswaaq"
 }
 
 
@@ -78,7 +101,8 @@ def fetch_pois():
       node["amenity"="hospital"](area.uae);
       way["amenity"="hospital"](area.uae);
     );
-    out center tags;
+    
+    out center bb tags;
     """
 
     for attempt in range(5):
@@ -133,6 +157,7 @@ for element in data.get("elements", []):
             "tags",
             {}
         )
+        bounds = element.get("bounds")
 
         name = (
             tags.get("name:en")
@@ -200,20 +225,26 @@ for element in data.get("elements", []):
             ):
                 continue
 
-            if lower_name.endswith(" plaza"):
-                continue
-        
-            if lower_name.endswith(" avenue"):
-                continue
-        
-            if lower_name.endswith(" souk"):
-                continue
 
             if "u/c" in lower_name:
                 continue
             
             if "under construction" in lower_name:
                 continue
+
+
+        if any(
+            x in lower_name
+            for x in [
+                "hypermarket",
+                "hyper market",
+                "supermarket",
+                "grocery",
+                "mini mart",
+                "minimart"
+            ]
+        ):
+            continue
 
 
         if (
@@ -305,6 +336,7 @@ for element in data.get("elements", []):
 
             "lng":
                 lng,
+            "bounds": bounds,
 
             "geometry":
                 Point(
@@ -441,6 +473,45 @@ gdf = pd.concat([
 gdf = gdf.drop(
     columns=["norm_name"],
     errors="ignore"
+)
+
+mall_mask = (
+    gdf["poi_type"] == "mall"
+)
+
+small_malls = []
+
+for idx, row in gdf[mall_mask].iterrows():
+
+    bounds = row.get("bounds")
+
+    if not bounds:
+        continue
+
+    try:
+
+        height = (
+            bounds["maxlat"]
+            - bounds["minlat"]
+        )
+
+        width = (
+            bounds["maxlon"]
+            - bounds["minlon"]
+        )
+
+        approx_area = height * width
+
+        if approx_area < 0.000002:
+            small_malls.append(idx)
+
+    except:
+        pass
+
+gdf = gdf.drop(index=small_malls)
+
+print(
+    f"Removed {len(small_malls)} tiny malls"
 )
 
 gdf.to_file(
