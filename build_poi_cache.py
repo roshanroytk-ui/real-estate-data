@@ -17,8 +17,8 @@ def fetch_pois():
     area["ISO3166-1"="AE"]->.uae;
 
     (
-      node["railway"="station"](area.uae);
-      node["station"="subway"](area.uae);
+      node["railway"="station"]["station"="subway"](area.uae);
+      way["railway"="station"]["station"="subway"](area.uae);
     
       node["shop"="mall"](area.uae);
       way["shop"="mall"](area.uae);
@@ -116,6 +116,33 @@ for element in data.get("elements", []):
 
         lower_name = name.lower()
 
+        BAD_METRO_NAMES = {
+
+            "prt line",
+        
+            "concourse a",
+            "concourse b",
+            "concourse d",
+        
+            "city centre mirdif",
+            "al warqa'a",
+            "سوق التنبن",
+            "مدينة العالمية 1",
+            "مدينة العالمية 2",
+            "واحة دبي السيليكون",
+            "مدينة الأكاديمية",
+            "سوق السيارات",
+            "إعمار العقارية",
+            "دبي فيستيفال سيتي",
+        
+            "abu dhabi passenger station (under construction)",
+            "fujairah passenger station (under construction)",
+            "dubai passenger station (under construction)"
+        }
+
+        if lower_name in BAD_METRO_NAMES:
+            continue
+
         if tags.get("shop") == "mall":
 
             bad_words = [
@@ -150,7 +177,7 @@ for element in data.get("elements", []):
         if (
             tags.get("railway")
             == "station"
-            or
+            and
             tags.get("station")
             == "subway"
         ):
@@ -285,6 +312,49 @@ print(
         ]
     ]
     .head(20)
+)
+
+def normalize_station_name(name):
+
+    return (
+        str(name)
+        .lower()
+        .replace(" ", "")
+        .replace("-", "")
+        .replace("/", "")
+    )
+
+metro_mask = (
+    gdf["poi_type"] == "metro"
+)
+
+gdf.loc[
+    metro_mask,
+    "norm_name"
+] = (
+    gdf.loc[
+        metro_mask,
+        "name"
+    ]
+    .apply(
+        normalize_station_name
+    )
+)
+
+gdf = pd.concat([
+
+    gdf[~metro_mask],
+
+    gdf[metro_mask]
+    .drop_duplicates(
+        subset=["norm_name"]
+    )
+
+])
+
+gdf = gdf.drop(
+    columns=["norm_name"],
+    errors="ignore"
 )
 
 gdf.to_file(
