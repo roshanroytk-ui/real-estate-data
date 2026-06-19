@@ -618,6 +618,7 @@ def calculate_location_score(
     mall_km,
     beach_km,
     school_km,
+    university_km,
     hospital_km
 ):
 
@@ -635,37 +636,37 @@ def calculate_location_score(
         score += max(
             0,
             10 - mall_km
-        ) * 0.20
+        ) * 0.15
 
     if beach_km is not None:
 
         score += max(
             0,
             10 - beach_km
-        ) * 0.20
+        ) * 0.15
 
     if school_km is not None:
 
         score += max(
             0,
             10 - school_km
-        ) * 0.15
+        ) * 0.20
+
+    if university_km is not None:
+
+        score += max(
+            0,
+            10 - university_km
+        ) * 0.10
 
     if hospital_km is not None:
 
         score += max(
             0,
             10 - hospital_km
-        ) * 0.15
+        ) * 0.10
 
-    score = round(score, 1)
-
-    score = max(
-        2.5,
-        score
-    )
-    
-    return score
+    return round(score, 1)
 
 def is_duplicate_property(
 
@@ -6129,6 +6130,14 @@ for market_key, data in market_groups.items():
                 "school"
             )
         )
+
+        nearest_university_name, nearest_university = (
+            nearest_poi(
+                listing["lat"],
+                listing["lng"],
+                "university"
+            )
+        )
         
         nearest_hospital_name, nearest_hospital = (
             nearest_poi(
@@ -6147,6 +6156,8 @@ for market_key, data in market_groups.items():
             nearest_beach,
         
             nearest_school,
+
+            nearest_university,
         
             nearest_hospital
         )
@@ -6237,6 +6248,12 @@ for market_key, data in market_groups.items():
             
             "nearest_school_km":
                 nearest_school,
+
+            "nearest_university":
+                nearest_university_name,
+            
+            "nearest_university_km":
+                nearest_university,
             
             "nearest_hospital":
                 nearest_hospital_name,
