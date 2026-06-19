@@ -208,6 +208,50 @@ BAD_HOSPITAL_WORDS = [
     "academic medical centre",
 ]
 
+BAD_SCHOOL_NAMES = {
+
+    "freezone",
+    "baraha rooms",
+    "simon residence",
+    "old school",
+    "uips",
+    "american",
+    "altafawq",
+    "al minhaj",
+    "al refa'a",
+    "muweilah",
+    "foremarke",
+    "arabic school",
+    "premier genie",
+    "brainpower talent",
+    "centre for musical arts",
+    "victoria international school of sharjah"
+}
+
+BAD_SCHOOL_WORDS = [
+
+    "driving",
+    "driving institute",
+    "driving center",
+    "driving company",
+
+    "training center",
+    "training centre",
+
+    "accomodation",
+    "accommodation",
+
+    "residence",
+
+    "freezone",
+
+    "medical centre",
+
+    "hospital",
+
+    "clinic"
+]
+
 
 def fetch_pois():
 
@@ -337,6 +381,18 @@ for element in data.get("elements", []):
                 for word in BAD_HOSPITAL_WORDS
             ):
                 continue
+
+        if lower_name in BAD_SCHOOL_NAMES:
+            continue
+        
+        if (
+            tags.get("amenity") == "school"
+            and any(
+                word in lower_name
+                for word in BAD_SCHOOL_WORDS
+            )
+        ):
+            continue
 
         if tags.get("shop") == "mall":
 
