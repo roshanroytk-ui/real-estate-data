@@ -137,7 +137,8 @@ for element in data.get("elements", []):
         
             "abu dhabi passenger station (under construction)",
             "fujairah passenger station (under construction)",
-            "dubai passenger station (under construction)"
+            "dubai passenger station (under construction)",
+            "auto market"
         }
 
         if lower_name in BAD_METRO_NAMES:
