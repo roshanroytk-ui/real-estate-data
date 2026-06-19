@@ -75,7 +75,17 @@ BAD_MALL_NAMES = {
     
     "hili gifts markets",
     
-    "aswaaq"
+    "aswaaq",
+
+    "carrefour mall",
+    "كارفور",
+    "matajer",
+    "the mall",
+    "al souq",
+
+    "badrah pavalion",
+    "grove village",
+    "al barajeel oasis complex",
 }
 
 
@@ -148,17 +158,6 @@ print("Downloading POIs...")
 
 data = fetch_pois()
 
-mall_count = 0
-
-for e in data["elements"]:
-
-    tags = e.get("tags", {})
-
-    if tags.get("shop") == "mall":
-        mall_count += 1
-
-print("RAW MALLS FROM OVERPASS:", mall_count)
-
 records = []
 
 for element in data.get("elements", []):
@@ -203,12 +202,9 @@ for element in data.get("elements", []):
             continue
 
         if lower_name in BAD_MALL_NAMES:
-            print("BAD_MALL_NAMES:", name)
             continue
 
         if tags.get("shop") == "mall":
-
-            print("MALL ENTERED FILTER:", name)
 
             bad_words = [
                 "tower",
@@ -238,7 +234,6 @@ for element in data.get("elements", []):
                 word in lower_name
                 for word in bad_words
             ):
-                print("BAD_WORD:", name)
                 continue
 
 
@@ -260,7 +255,6 @@ for element in data.get("elements", []):
                 "minimart"
             ]
         ):
-            print("HYPERMARKET FILTER:", name)
             continue
 
 
@@ -289,8 +283,6 @@ for element in data.get("elements", []):
             tags.get("shop")
             == "mall"
         ):
-        
-            print("MALL REACHED POI_TYPE:", name)
         
             poi_type = "mall"
 
@@ -336,9 +328,6 @@ for element in data.get("elements", []):
         if lat is None or lng is None:
             continue
 
-        if poi_type == "mall":
-            print("KEEPING MALL:", name)
-
         records.append({
 
             "osm_id":
@@ -367,9 +356,8 @@ for element in data.get("elements", []):
                 )
         })
 
-    except Exception:
-
-        traceback.print_exc()
+    except Exception as e:
+        print("ERROR:", e)
 
 if not records:
 
