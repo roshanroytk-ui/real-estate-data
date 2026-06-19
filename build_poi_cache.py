@@ -3,6 +3,7 @@ import geopandas as gpd
 from shapely.geometry import Point
 import pandas as pd
 import time
+import traceback
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 
@@ -102,7 +103,7 @@ def fetch_pois():
       way["amenity"="hospital"](area.uae);
     );
     
-    out center bb tags;
+    out center tags;
     """
 
     for attempt in range(5):
@@ -207,6 +208,8 @@ for element in data.get("elements", []):
 
         if tags.get("shop") == "mall":
 
+            print("MALL ENTERED FILTER:", name)
+
             bad_words = [
                 "tower",
                 "commercial centre",
@@ -286,7 +289,9 @@ for element in data.get("elements", []):
             tags.get("shop")
             == "mall"
         ):
-
+        
+            print("MALL REACHED POI_TYPE:", name)
+        
             poi_type = "mall"
 
         elif (
@@ -362,12 +367,9 @@ for element in data.get("elements", []):
                 )
         })
 
-    except Exception as e:
+    except Exception:
 
-        print(
-            "ERROR:",
-            e
-        )
+        traceback.print_exc()
 
 if not records:
 
