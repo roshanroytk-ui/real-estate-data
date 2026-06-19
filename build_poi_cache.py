@@ -231,6 +231,13 @@ BAD_SCHOOL_NAMES = {
     "mother care",
     "playhouse",
     "writing center",
+    "hair & beauty academy",
+    "online trading academy",
+    "boys school",
+    "girls school",
+
+    "ahmed bin zayed",
+    "abou dhabi island int school site lcation",
     
     "عجمان",
     
