@@ -111,6 +111,82 @@ BAD_BEACH_NAMES = {
 
 }
 
+BAD_HOSPITAL_NAMES = {
+
+    "adm.ras.alkhaima.muncipality",
+    "alkhaled.car.samweel",
+    "asd.saadiat",
+
+    "american",
+    "infinity",
+
+    "clinic",
+    "medical centre",
+    "mediclinic",
+    "medeor",
+
+    "ibin sina",
+    "mustashfa sagar",
+
+    "pergil.burjeel",
+    "ultra care",
+
+    "hlg umar",
+
+    "دكتور اسنان",
+
+    "مركز شرطة هيلي",
+
+    "مستشفى",
+
+    "al shoala building",
+
+    "dha central service complex",
+    
+    "dhcc bldg 24",
+    
+    "al razi building (dhcc bldg 64)",
+    
+    "nmc specialty building 1",
+    "nmc specialty building 2",
+    "nmc specialty building 3",
+    
+    "hr building - al ain hospital",
+    
+    "parking.accomodition",
+    
+    "prime health centre ekka's office",
+    
+    "preventative medecine department",
+
+}
+
+BAD_HOSPITAL_WORDS = [
+
+    "block",
+    "building",
+
+    "parking",
+
+    "office",
+
+    "administration",
+
+    "department",
+
+    "emergency -",
+
+    "emergency department",
+
+    "service complex",
+
+    "staff accommodation",
+
+    "home healthcare",
+
+    "home health care"
+]
+
 
 def fetch_pois():
 
@@ -229,6 +305,17 @@ for element in data.get("elements", []):
 
         if lower_name in BAD_BEACH_NAMES:
             continue
+
+        if lower_name in BAD_HOSPITAL_NAMES:
+            continue
+        
+        if tags.get("amenity") == "hospital":
+        
+            if any(
+                word in lower_name
+                for word in BAD_HOSPITAL_WORDS
+            ):
+                continue
 
         if tags.get("shop") == "mall":
 
