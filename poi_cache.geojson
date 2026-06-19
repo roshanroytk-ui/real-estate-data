@@ -1148,7 +1148,6 @@
 { "type": "Feature", "properties": { "osm_id": 8641335749, "osm_type": "node", "poi_type": "metro", "name": "DMCC", "lat": 25.0708766, "lng": 55.1387113 }, "geometry": { "type": "Point", "coordinates": [ 55.1387113, 25.0708766 ] } },
 { "type": "Feature", "properties": { "osm_id": 8660753516, "osm_type": "node", "poi_type": "metro", "name": "Jumeirah Golf Estates", "lat": 25.0177925, "lng": 55.1633352 }, "geometry": { "type": "Point", "coordinates": [ 55.1633352, 25.0177925 ] } },
 { "type": "Feature", "properties": { "osm_id": 8660767717, "osm_type": "node", "poi_type": "metro", "name": "Dubai Investment Park", "lat": 25.0052466, "lng": 55.1556654 }, "geometry": { "type": "Point", "coordinates": [ 55.1556654, 25.0052466 ] } },
-{ "type": "Feature", "properties": { "osm_id": 8882647591, "osm_type": "node", "poi_type": "metro", "name": "Expo City Dubai", "lat": 24.9634934, "lng": 55.1460846 }, "geometry": { "type": "Point", "coordinates": [ 55.1460846, 24.9634934 ] } },
-{ "type": "Feature", "properties": { "osm_id": 1348189431, "osm_type": "way", "poi_type": "metro", "name": "Auto Market", "lat": 25.1759809, "lng": 55.3697519 }, "geometry": { "type": "Point", "coordinates": [ 55.3697519, 25.1759809 ] } }
+{ "type": "Feature", "properties": { "osm_id": 8882647591, "osm_type": "node", "poi_type": "metro", "name": "Expo City Dubai", "lat": 24.9634934, "lng": 55.1460846 }, "geometry": { "type": "Point", "coordinates": [ 55.1460846, 24.9634934 ] } }
 ]
 }
