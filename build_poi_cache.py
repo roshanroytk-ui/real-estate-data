@@ -272,6 +272,15 @@ def fetch_pois():
     
       node["amenity"="school"](area.uae);
       way["amenity"="school"](area.uae);
+
+      node["amenity"="college"](area.uae);
+      way["amenity"="college"](area.uae);
+    
+      node["amenity"="university"](area.uae);
+      way["amenity"="university"](area.uae);
+    
+      node["amenity"="kindergarten"](area.uae);
+      way["amenity"="kindergarten"](area.uae);
     
       node["amenity"="hospital"](area.uae);
       way["amenity"="hospital"](area.uae);
@@ -385,8 +394,13 @@ for element in data.get("elements", []):
         if lower_name in BAD_SCHOOL_NAMES:
             continue
         
-        if (
-            tags.get("amenity") == "school"
+       if (
+            tags.get("amenity") in {
+                "school",
+                "college",
+                "university",
+                "kindergarten"
+            }
             and any(
                 word in lower_name
                 for word in BAD_SCHOOL_WORDS
@@ -484,10 +498,14 @@ for element in data.get("elements", []):
 
             poi_type = "beach"
 
-        elif (
-            tags.get("amenity")
-            == "school"
-        ):
+        elif tags.get("amenity") in {
+
+            "school",
+            "college",
+            "university",
+            "kindergarten"
+        
+        }:
         
             poi_type = "school"
 
