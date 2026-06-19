@@ -44,8 +44,14 @@ BAD_MALL_NAMES = {
     "grand hypermarket",
     "lulu shopping",
     "smart choice",
-    "makani"
+    "makani",
 
+    "al ahlia stores",
+    "the factory mart",
+    "beach park plaza hotel",
+    "la plage",
+    "city mall",
+    "manama"
 }
 
 
@@ -168,12 +174,24 @@ for element in data.get("elements", []):
                 "tower",
                 "commercial centre",
                 "commercial center",
-                "village center",
-                "village centre",
-                "market",
-                "souq",
-                "centre",
-                "center"
+            
+                "retail",
+                "stores",
+                "store",
+            
+                "hotel",
+            
+                "cooperative",
+                "coop",
+            
+                "garden",
+                "gardens",
+            
+                "walk",
+            
+                "boulevard",
+            
+                "wharf"
             ]
         
             if any(
@@ -181,6 +199,22 @@ for element in data.get("elements", []):
                 for word in bad_words
             ):
                 continue
+
+            if lower_name.endswith(" plaza"):
+                continue
+        
+            if lower_name.endswith(" avenue"):
+                continue
+        
+            if lower_name.endswith(" souk"):
+                continue
+
+            if "u/c" in lower_name:
+                continue
+            
+            if "under construction" in lower_name:
+                continue
+
 
         if (
             lower_name == "beach"
@@ -365,6 +399,39 @@ gdf = pd.concat([
     gdf[~metro_mask],
 
     gdf[metro_mask]
+    .drop_duplicates(
+        subset=["norm_name"]
+    )
+
+])
+
+gdf = gdf.drop(
+    columns=["norm_name"],
+    errors="ignore"
+)
+
+mall_mask = (
+    gdf["poi_type"] == "mall"
+)
+
+gdf.loc[
+    mall_mask,
+    "norm_name"
+] = (
+    gdf.loc[
+        mall_mask,
+        "name"
+    ]
+    .str.lower()
+    .str.replace(" ", "", regex=False)
+    .str.replace("-", "", regex=False)
+)
+
+gdf = pd.concat([
+
+    gdf[~mall_mask],
+
+    gdf[mall_mask]
     .drop_duplicates(
         subset=["norm_name"]
     )
