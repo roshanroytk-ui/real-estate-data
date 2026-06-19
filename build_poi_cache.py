@@ -88,6 +88,12 @@ BAD_MALL_NAMES = {
     "al barajeel oasis complex",
 }
 
+BAD_BEACH_NAMES = {
+
+    "mandarin oriental",
+
+}
+
 
 def fetch_pois():
 
@@ -204,6 +210,9 @@ for element in data.get("elements", []):
         if lower_name in BAD_MALL_NAMES:
             continue
 
+        if lower_name in BAD_BEACH_NAMES:
+            continue
+
         if tags.get("shop") == "mall":
 
             bad_words = [
@@ -264,6 +273,7 @@ for element in data.get("elements", []):
             or lower_name == "شاطئ"
             or "wasteland" in lower_name
             or "общественный" in lower_name
+            or "private beach" in lower_name
         ):
             continue
 
@@ -476,6 +486,39 @@ gdf = pd.concat([
     )
 
 ])
+
+beach_mask = (
+    gdf["poi_type"] == "beach"
+)
+
+gdf.loc[
+    beach_mask,
+    "norm_name"
+] = (
+    gdf.loc[
+        beach_mask,
+        "name"
+    ]
+    .str.lower()
+    .str.replace(" ", "", regex=False)
+    .str.replace("-", "", regex=False)
+)
+
+gdf = pd.concat([
+
+    gdf[~beach_mask],
+
+    gdf[beach_mask]
+    .drop_duplicates(
+        subset=["norm_name"]
+    )
+
+])
+
+gdf = gdf.drop(
+    columns=["norm_name"],
+    errors="ignore"
+)
 
 gdf = gdf.drop(
     columns=["norm_name"],
