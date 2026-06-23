@@ -1610,7 +1610,7 @@ Return format:
 
         return json.loads(text)
 
-       print(
+        print(
             "AI ANALYSIS TIME:",
             round(time.time() - start, 1)
         )
