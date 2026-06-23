@@ -13,6 +13,16 @@ import pandas as pd
 from shapely.geometry import Point
 from collections import Counter
 import os
+import time
+
+TIMERS = {}
+
+def timer_start(name):
+    TIMERS[name] = time.time()
+
+def timer_end(name):
+    elapsed = time.time() - TIMERS[name]
+    print(f"\n[TIMER] {name}: {elapsed:.1f} seconds")
 
 base_url = "https://www.bhomes.com/en/buy/apartment/uae/dubai"
 propertyfinder_base_url = (
@@ -753,9 +763,17 @@ def is_duplicate_property(
     })
 
     return False
+    
 
 
 def get_area_assignment(lat, lng, raw_area=""):
+
+    global polygon_time
+
+    try:
+        polygon_time += 1
+    except:
+        polygon_time = 1
 
     try:
 
@@ -1263,6 +1281,8 @@ def property_type_display(property_type):
 
 def batch_detect_layout_types(listings):
 
+    start = time.time()
+
     try:
 
         simplified = []
@@ -1476,6 +1496,11 @@ Properties:
                 "quality_tier": quality_tier
             }
 
+        print(
+            "BATCH LAYOUT TIME:",
+            round(time.time() - start, 1)
+        )
+
         return results
 
     except Exception as e:
@@ -1485,6 +1510,8 @@ Properties:
         return {}
 
 def generate_ai_analysis(listing, market_median):
+
+    start = time.time()
 
     try:
 
@@ -1582,6 +1609,11 @@ Return format:
             text = text.replace("```", "")
 
         return json.loads(text)
+
+       print(
+            "AI ANALYSIS TIME:",
+            round(time.time() - start, 1)
+        )
 
     except RuntimeError:
 
@@ -2648,21 +2680,53 @@ for SCRAPE_MODE in SCRAPE_MODES:
     seen_urls = set()
     potential_duplicates = []
 
+    timer_start("DUBIZZLE")
+
     dubizzle_hits = fetch_dubizzle_algolia()
+
+    timer_end("DUBIZZLE")
+
+    timer_start("REA")
 
     rak_hits = fetch_dubizzle_rak()
 
+    timer_end("REA")
+
+    timer_start("ABU DHABI DUBIZZLE")
+
     abu_hits = fetch_dubizzle_abudhabi()
+    
+    timer_end("ABU DHABI DUBIZZLE")
+
+    timer_start("ALAIN")
 
     alain_hits = fetch_dubizzle_alain()
 
+    timer_end("ALAIN")
+
+    timer_start("FUJAIRAH")
+
     fujairah_hits = fetch_dubizzle_fujairah()
+
+    timer_end("FUJAIRAH")
+
+    timer_start("UAQ DUBIZZLE")
 
     uaq_hits = fetch_dubizzle_uaq()
 
+    timer_end("UAQ DUBIZZLE")
+
+    timer_start("SHARJAH DUBIZZLE")
+
     sharjah_hits = fetch_dubizzle_sharjah()
 
+    timer_end("SHARJAH DUBIZZLE")
+
+    timer_start("AJMAN")
+
     ajman_hits = fetch_dubizzle_ajman()
+
+    timer_end("AJMAN")
 
     print("RAW DUBIZZLE HITS:", len(dubizzle_hits))
     print("RAW RAK HITS:", len(rak_hits))
@@ -6429,3 +6493,8 @@ with open(
     )
 
 print("Saved ai_cache.json")
+
+print(
+    "GET_AREA_ASSIGNMENT CALLS:",
+    polygon_time
+)
