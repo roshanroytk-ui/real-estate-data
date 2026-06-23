@@ -2402,7 +2402,7 @@ def fetch_rea_listings():
             "country": "ae",
             "channel": "buy",
             "searchtypes": ["apartment"],
-            "where": "uae",
+            "where": "united arab emirates",
             "language": "en",
             "currencyCode": "AED",
             "page": page,
