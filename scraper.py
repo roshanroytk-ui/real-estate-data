@@ -2425,10 +2425,20 @@ def fetch_rea_listings():
 
         data = response.json()
 
+        if "errors" in data:
+            print("REA GRAPHQL ERRORS:")
+            print(json.dumps(data["errors"], indent=2))
+        
+        print("REA STATUS:", response.status_code)
+        
+        if data.get("data") is None:
+            print("REA DATA IS NULL")
+            print(json.dumps(data, indent=2)[:5000])
+
         listings = (
-            data.get("data", {})
-                .get("searchListListings", {})
-                .get("listings")
+            ((data.get("data") or {})
+              .get("searchListListings") or {})
+              .get("listings", [])
         )
 
         if not listings:
