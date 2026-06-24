@@ -5012,6 +5012,7 @@
     ],
     "investment_summary": "On paper, this unit presents a highly lucrative arbitrage opportunity, trading at an approximate 40% discount to the Port Rashid market median. If the pricing and availability are verified, the low entry barrier per square foot offers substantial room for capital appreciation as Emaar's maritime master community nears completion. Investors should target this as a premium capital-growth play, though rigorous due diligence on the payment plan status and seller motivation is mandatory."
   },
+<<<<<<< HEAD
   "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/19/modern-layout-premium-amenities-prime-l-3-536260/_investment_analysis": {
     "quality_context": "Reem Hills is a highly anticipated, premium gated master community developed by Q Properties on Al Reem Island. At 1,285 sqft, this 1-bedroom unit is exceptionally large—nearly double the size of a standard 1-bedroom apartment in the area—suggesting a luxury layout, loft, or townhouse-style configuration. The pricing of AED 1,167 per sqft is highly competitive, sitting roughly 33% below the stated market median of AED 1,745 per sqft, indicating strong intrinsic value and an attractive entry point for a premium development.",
     "risk_flags": [
@@ -5021,5 +5022,46 @@
       "Pricing Discrepancy: The steep discount to the market median (AED 1,167 vs. AED 1,745) requires verification to ensure it is not due to an unfavorable view, proximity to infrastructure, or hidden transfer/community fees."
     ],
     "investment_summary": "This property presents a high-value opportunistic play. Buying into a premium gated community on Al Reem Island at 33% below the market median per sqft offers significant margin of safety and strong capital appreciation potential upon community completion. However, because of its unusually large size for a 1-bedroom, investors should view this as a premium lifestyle asset targeting high-income single professionals or couples, rather than a high-yield volume play. Recommended as a 'Buy' subject to physical unit inspection/layout verification and confirmation of the payment plan structure."
+=======
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/23/luxury-2-bedroom-apartment-0-commission-3-199853/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/4/23/full-seaview-mid-floor-iconic-tower-pre-3-168484/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/5/amazing-layout-renovation-ready-a-must--2-434731/": {
+    "layout_type": "luxury",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/23/a-landmark-opportunity-in-dubai-luxury--2-844549/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/13/hot-deal-best-investment-balcony-2-137640/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/23/a-rare-opportunity-to-own-dubai-luxury--2-673814/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/30/premium-beachfront-residences-high-roi--2-119357/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/8/fully-furnished-chiller-free-spacious-2-106863/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/1/exclusive-skyline-view-rented-2-250554/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/1/29/flexible-payment-plans-spacious-modern--2-216690/": {
+    "layout_type": "luxury",
+    "quality_tier": "ultra_luxury"
+>>>>>>> 300de3f9f2d69f3a1ef914a76ef1c792fc062140
   }
 }
