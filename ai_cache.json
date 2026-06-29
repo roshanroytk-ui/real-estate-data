@@ -5142,5 +5142,83 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/25/single-row-genuine-sale-motivated-2-288230/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://www.rea.global/international/ae/maritime-city-dubai-310107907566/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.rea.global/international/ae/majan-dubai-310107014460/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://www.rea.global/international/ae/dubai-marina-dubai-dubai-310109106344/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://www.rea.global/international/ae/palm-jebel-ali-dubai-dubai-310109106188/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://www.rea.global/international/ae/al-marjan-island-ras-al-khaimah-ras-al-khaimah-310109106056/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://www.rea.global/international/ae/dubai-investment-park-dubai-dubai-310109106031/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.rea.global/international/ae/jumeirah-village-circle-dubai-310109100596/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://www.rea.global/international/ae/jumeirah-lakes-towers-dubai-310109100552/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://www.rea.global/international/ae/maritime-city-dubai-310109096982/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://www.rea.global/international/ae/dubai-dubai-310109096814/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://www.rea.global/international/ae/business-bay-dubai-310107949620/_investment_analysis": {
+    "quality_context": "The property is priced at AED 2,091 per sqft, representing a significant 33.4% discount against the stated market median of AED 3,141 per sqft. However, this discount is artificially inflated due to a location mismatch: the listing is categorized under 'Downtown Dubai' but the project (Binghatti Skyhall) is physically located in 'Business Bay'. While Downtown commands premium pricing, Business Bay's median is lower. At AED 2,091 per sqft, this near-completion unit is very competitively priced for Business Bay. Binghatti is a highly active, reliable developer known for rapid delivery, though their 'affordable luxury' finishings sit in the mid-market segment rather than the ultra-high-end tier of Downtown Emaar properties.",
+    "risk_flags": [
+      "Location Mismatch: Advertised under Downtown Dubai but located in Business Bay, distorting the true market median comparison.",
+      "Golden Visa Eligibility: The calculated price of the unit (893 sqft * AED 2,091/sqft = ~AED 1.87M) falls short of the AED 2,000,000 minimum threshold required for the 10-year Golden Visa, despite the listing's claim.",
+      "Developer Specification: Binghatti projects feature high-density layouts and distinct architectural aesthetics that may appeal to a specific tenant demographic, potentially limiting broader resale liquidity compared to institutional developers."
+    ],
+    "investment_summary": "This 1-bedroom unit in Binghatti Skyhall presents a strong cash-flow opportunity for yield-focused investors. With handover expected within 4 months, the asset minimizes off-plan construction risk and allows for immediate monetization. Its location in Business Bay, combined with a competitive entry price of AED 1.87M, makes it highly suitable for the high-demand short-term rental (holiday home) or corporate long-term rental market. Investors can expect an estimated net ROI of 6.5% to 7.5%, though capital appreciation will likely track the mid-market Business Bay index rather than the premium Downtown Dubai trajectory."
+  },
+  "https://www.rea.global/international/ae/harbour-lights-maritime-city-dubai-maritime-city-dubai-310103410448/_investment_analysis": {
+    "quality_context": "Harbour Lights is a high-end, branded residential project by DAMAC (in collaboration with luxury brand de GRISOGONO) located in the rapidly developing Dubai Maritime City. At 815 sqft, this 1-bedroom apartment is significantly more spacious than the average modern 1-bed in Dubai. Although located on a low floor—which typically commands a lower premium—the unit offers a desirable marina view, high-end finishes, built-in kitchen appliances, and premium lifestyle amenities.",
+    "risk_flags": [
+      "Off-plan construction risk: The project is currently incomplete, exposing the buyer to potential handover delays.",
+      "Infrastructure and community maturity: Dubai Maritime City is still undergoing heavy development, meaning early residents may face ongoing construction noise, dust, and incomplete community retail/road networks.",
+      "Low-floor discount: Units on lower floors generally experience higher ambient noise levels and may face future view obstructions as surrounding plots are developed."
+    ],
+    "investment_summary": "This property presents a highly compelling value proposition, priced at AED 1,988 per sqft—a substantial ~30.5% discount compared to the market median of AED 2,862 per sqft for the area. This significant price gap offers strong downside protection and immediate paper equity. Given the luxury branding, generous layout size, and the long-term growth trajectory of the waterfront Port Rashid/Maritime City corridor, this unit is an excellent candidate for capital appreciation and high-yield holiday home/long-term rental strategies upon completion."
+  },
+  "https://www.rea.global/international/ae/dubai-dubai-310108954730/_investment_analysis": {
+    "quality_context": "The property is listed at AED 937 per sqft, which is significantly below the stated market median of AED 1,505 per sqft. While this initially suggests a highly undervalued asset, a critical review of the description reveals a major geographical mismatch: the metadata lists the location as 'Al Ras' (a historic, high-density commercial area in Deira, Dubai), whereas the actual property described is 'Al Ghaf Tower' by Tiger Properties, located in Al Khan Beach, Sharjah. The pricing of AED 937/sqft is highly competitive for a premium, fully furnished beachfront off-plan development in Sharjah, but comparing it directly to Dubai market medians is highly misleading.",
+    "risk_flags": [
+      "Severe Location Discrepancy: Mislabeled as Al Ras (Dubai) in metadata, but the actual property is Al Ghaf Tower in Al Khan (Sharjah).",
+      "Misleading Valuation Metrics: The market median of AED 1,505/sqft reflects Dubai pricing, artificially inflating the perceived discount of this Sharjah-based property.",
+      "Off-Plan Construction Risk: As an off-plan project by Tiger Properties, investors face typical development risks including potential handover delays.",
+      "Commute and Traffic Congestion: Although advertised as 'minutes from Dubai', the Al Khan (Sharjah) to Dubai commute suffers from severe peak-hour traffic congestion, impacting rental appeal for Dubai-bound tenants."
+    ],
+    "investment_summary": "On paper, this 829 sqft 1-bedroom unit priced at AED 937/sqft represents an attractive entry point into beachfront living. However, because the property is located in Sharjah rather than Dubai, the investment thesis must be re-evaluated under Sharjah's regulatory and market framework. Sharjah offers strong rental yields and lower entry barriers, and Tiger Properties is an established developer. However, due to the severe listing errors and cross-border location mismatch, immediate due diligence is required to verify the actual pricing, payment plan, and registration details under Sharjah's real estate laws rather than Dubai's RERA."
+  },
+  "https://www.rea.global/international/ae/al-furjan-dubai-dubai-310109106216/_investment_analysis": {
+    "quality_context": "V1STARA House in Al Furjan offers an exceptionally spacious 1-bedroom layout of 1,130 sqft, which is significantly larger than the typical Dubai 1-bedroom average of 700 to 800 sqft. Located in a rapidly developing, family-friendly community with established infrastructure, the project is close to key amenities like The Arbor School (0.8 km) and Al Furjan Pavilion West. The building features premium lifestyle amenities including a cinema, clubhouse, and sauna. At the discounted cash price of AED 1,041 per sqft, the property is priced roughly 30% below the area's market median of AED 1,493 per sqft, representing excellent intrinsic value.",
+    "risk_flags": [
+      "Off-plan construction risk with a scheduled handover of Q4 2026, exposing the buyer to potential developer delays.",
+      "The highly attractive AED 1,041/sqft price is contingent on a 100% upfront cash payment, locking up capital for approximately two years with zero yield during the construction phase.",
+      "The standard payment plan carries a back-loaded risk, requiring a substantial 60% payment milestone upon handover in Q4 2026.",
+      "At 1,130 sqft, this 1-bedroom unit is oversized; while highly attractive to end-users, it may command a lower rental yield per square foot compared to smaller, more compact 1-bedroom units in the same area."
+    ],
+    "investment_summary": "This property represents a premium value-add opportunity, particularly for cash investors who can capitalize on the 20% discount. Purchasing at AED 1,041 per sqft in Al Furjan—where the median is AED 1,493—secures immediate paper equity of nearly 30%. Even under the standard payment plan (approx. AED 1,301 per sqft), the property remains priced below the market median. Driven by Al Furjan's strong rental demand, metro connectivity, and proximity to major hubs, this unit is highly recommended for cash-rich investors targeting capital appreciation by Q4 2026, or end-users seeking an exceptionally spacious home at a below-market entry point."
   }
 }
