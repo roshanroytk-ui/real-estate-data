@@ -649,5 +649,149 @@
     ],
     "investment_summary": "On paper, the property displays an attractive pricing position relative to active asking medians, combined with a post-handover or extended payment plan. However, significant credibility flags—specifically contradictory location details, incomplete text, and a price point that suggests a potential bait listing—mean this offer should be approached with high caution and verified thoroughly before considering it a genuine opportunity.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/-2-210124/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/fully-furnished-studio-premium-amenitie-2-125933/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/21/single-row-prime-location-spacious-vill-2-123182/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/exclusive-cancellation-unit-fully-furni-2-292493/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/full-golf-course-and-pool-view-low-floo-2-134784/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/stunning-community-1br-junior-invest-no-3-218086/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/13/canal-view-fully-furnished-mid-floor-bu-3-126040/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/7/high-rise-studio-jvt-skyline-marina-vie-2-839076/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/villahouse/2026/7/23/hot-deal-premium-6brpool-negotiableprim-3-332357/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/elegance-by-the-bay-modern-layout-garde-3-436436/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/20/1-monthly-mortgage-cash-disc-post-hando-2-149817/_investment_analysis_exceptional": {
+    "quality_context": "This listing offers a studio apartment located in the Jebel Ali region, developed under the Peace Avenue project by Peace Homes. It is positioned as an accessible entry-level residential option featuring a post-handover payment plan and close proximity to the metro. Qualitatively, the listing's asking rate per square foot sits substantially below the median price of verified closed transactions recorded by the DLD in this segment, as well as below prevailing market asking medians.",
+    "risk_flags": [
+      "Location mismatch between the structured property field (Jabal Ali Industrial 2) and the description body (Downtown Jebel Ali).",
+      "Pricing is discounted so far below actual DLD registered sales transactions that it creates significant risk of being a bait listing or unavailable inventory.",
+      "Potential handover delays or execution risks typical with aggressive marketing claims (1% monthly payment plan).",
+      "Micro-location considerations regarding industrial proximity and lower secondary market liquidity for studio units in this zone."
+    ],
+    "investment_summary": "While the entry pricing appears extremely attractive on paper compared to historical benchmark transactions, the listing carries strong indicators of a lead-generation or bait advertisement due to the severe downward price divergence and location label inconsistencies. Investors should independently verify physical unit availability, actual developer price lists, and location details with an agent before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/1/investor-choice-spacious-apartments-bul-2-180821/_investment_analysis_below_market": {
+    "quality_context": "Danube Opalz is located in Arjan (Dubiotech), a high-density suburban hub popular among yield-focused residential investors. Danube Properties developments in this cluster typically offer amenity-rich, fully furnished micro-units designed to attract entry-level tenants and short-term stay demand. While the project benefits from strong rental demand in the mid-market segment, the surrounding area faces high ongoing supply additions and heavy competition from similar modern master developments.",
+    "risk_flags": [
+      "Severe listing metadata discrepancy: The advert claims a bulk deal of 3 fully furnished studio apartments, but reports a total surface area of only 653 sqft, which is mathematically implausible for 3 independent units.",
+      "Potential bait listing or incomplete offer details given that the implied total cost for a 3-unit package is unrealistically low for recent completions in Danube Opalz.",
+      "High concentration of studio inventory in Arjan increases exposure to tenant churn and localized price competition.",
+      "Mass-market developer finish standards which may incur higher maintenance requirements over time compared to prime offerings."
+    ],
+    "investment_summary": "While the listing's nominal price per square foot appears positioned attractively below historical DLD closed transaction medians and broader market asking rates, the offer carries significant credibility risks. The fundamental conflict between the claimed unit count (3 studios) and the provided physical footprint suggests inaccurate data entry or misleading marketing. Investors should exercise extreme caution and verify the physical scope and title structure of the property before conducting further financial evaluation.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/17/private-pool-designer-studio-fully-furn-2-111959/_investment_analysis_exceptional": {
+    "quality_context": "This property is a designer off-plan resale studio in The Autograph S Series, a boutique development in Jumeirah Village Circle (JVC). Key features include a private balcony pool, fully furnished designer interiors, and a total area that is substantially larger than standard studio floor plans in the community. On a price-per-square-foot basis, the listing is positioned below comparable closed registration data from the Dubai Land Department (DLD) as well as active market askings in JVC. The primary driver for this favorable per-square-foot positioning is the generous layout size, which likely includes a substantial outdoor terrace accommodating the private pool.",
+    "risk_flags": [
+      "Off-plan construction & completion risk: Handover timeline and developer delivery standards must be verified.",
+      "Higher service fees: Units with private pools and luxury boutique amenities typically carry higher service charges and specialized ongoing maintenance costs.",
+      "Indoor vs. outdoor space allocation: A significant portion of the total square footage may be allocated to the terrace and pool area rather than air-conditioned living space.",
+      "Off-plan resale restrictions: Buyers must ensure the developer's required minimum payment threshold has been met to allow legal transfer of the sales agreement."
+    ],
+    "investment_summary": "This listing represents an appealing opportunity for investors seeking a premium, differentiated asset in JVC. The inclusion of a private pool and designer furnishings positions the property well for high-yield short-term holiday rental strategies. Because the asking price per square foot sits comfortably below recent closed DLD transactions in the area, the deal offers strong entry value. Investors should confirm the exact split between indoor living space and outdoor terrace area, verify the seller's payment status with the developer, and factor elevated service charges into net ROI projections.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103410903/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residences is an established, mid-rise development in Jumeirah Village Circle known for generous floor plans. At over 1,300 sq. ft., this two-bedroom layout provides significantly more living space than standard modern handovers in the area. While the building offers functional amenities and easy arterial road access, its older completion age means internal finishes and common area cosmetics reflect mid-tier, mature standards rather than luxury contemporary specs.",
+    "risk_flags": [
+      "Tenanted status limits immediate owner-occupancy and restricts rent adjustments to local RERA caps, which may keep initial yield below current market rates.",
+      "Older building age increases the likelihood of higher ongoing maintenance costs and service charge obligations over time.",
+      "Larger unit square footage results in a higher total annual service charge bill relative to typical compact two-bedroom units."
+    ],
+    "investment_summary": "This listing presents an appealing value entry, positioned below recent closed registration medians in the area on a per-square-foot basis. The combination of an oversized layout and existing tenant income makes it a viable candidate for buy-to-let investors seeking value-add potential or strong space utilization, provided current lease terms and service charges are factored into net yield calculations.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/9/hot-deal-below-the-market-fully-furnish-2-120717/_investment_analysis_market_rate": {
+    "quality_context": "Located in Sydney Tower within District 18 of Jumeirah Village Circle, this fully furnished two-bedroom apartment offers a spacious footprint and includes two dedicated parking spaces, a notable advantage in high-density sub-communities. Sydney Tower is an established residential building in JVC that offers standard lifestyle amenities and convenient access to local retail, parks, and major road networks.",
+    "risk_flags": [
+      "As an established mid-tier building, future capital expenditure for maintenance or aesthetic updates may be required.",
+      "Jumeirah Village Circle experiences high ongoing residential supply, which can create localized rental competition.",
+      "Furnished inventory requires ongoing upkeep and periodic replacement of soft goods between tenancies."
+    ],
+    "investment_summary": "This property is favorably priced below recent actual closed transaction benchmarks in Jumeirah Village Circle, presenting a genuine value opportunity relative to real historical sales data rather than inflated seller expectations. The inclusion of full furnishings and two parking bays further enhances its rental readiness and appeal to tenants, making it a compelling candidate for cash-flow-focused investors.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/7/selling-at-op-quick-sale-transferable-p-2-104486/_investment_analysis_below_market": {
+    "quality_context": "Situated in District 14 of Jumeirah Village Circle, this 1,221 sqft 2-bedroom apartment in Parkwood Residence offers a spacious layout relative to average district sizes. The property is positioned meaningfully below recent DLD closed-transaction benchmarks in JVC, as well as active seller asking prices. The lower entry price is attributed to an Original Price (OP) quick sale scenario with an attractive, transferable post-handover payment plan.",
+    "risk_flags": [
+      "Construction timeline and completion risk associated with off-plan or newly handed-over developments.",
+      "Substantial ongoing supply pipeline in Jumeirah Village Circle which may create localized rental competition.",
+      "Potential assignment or developer administrative fees required when transferring a post-handover payment plan."
+    ],
+    "investment_summary": "The unit presents a compelling entry price positioned favorably against historical DLD sold transaction medians in the area. The combination of a price below typical market benchmarks and the flexibility of a transferable post-handover payment plan significantly lowers upfront capital requirements, making it a strong prospective deal for cash-flow focused investors in a high-demand tenant hub.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/2-br-fully-furnished-motivated-seller-2-286605/_investment_analysis_market_rate": {
+    "quality_context": "Knightsbridge Court is an established low-rise residential building situated in Jumeirah Village Circle (JVC). Offered as a fully furnished unit, it provides immediate end-user or tenant readiness. However, the footprint is exceptionally compact for a two-bedroom configuration, reflecting a dense layout that prioritizes lower total unit capital over living space.",
+    "risk_flags": [
+      "Below-average floor plan area for a two-bedroom asset in JVC, which may limit appeal to families and impact long-term tenant retention.",
+      "Older building specifications and facilities relative to the influx of recently handed-over modern developments in the surrounding area.",
+      "High concentration of competing residential listings in JVC, placing pressure on secondary market capital appreciation and rental rate growth."
+    ],
+    "investment_summary": "The property is priced favorably relative to actual closed sales registered with the Dubai Land Department and stands markedly below current asking prices in the wider JVC market. Its fully furnished status minimizes upfront capital expenditure and allows for quick deployment onto the rental market, whether through long-term leases or short-term lets. It represents an attractive option for yield-focused investors seeking a low quantum entry into a high-demand suburban node.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/7/keys-in-hand-priced-to-sell-great-inves-2-202176/_investment_analysis_exceptional": {
+    "quality_context": "Zen Tower is an older, mid-tier residential building situated near the outer perimeter of Dubai Marina with direct proximity to Sheikh Zayed Road. While properties in this tower historically trade at a discount compared to prime waterfront or Marina Walk developments, this listing's rate per square foot sits exceptionally below both recent closed DLD transactions and general active asking medians across the area.",
+    "risk_flags": [
+      "Pricing is positioned at a severe discount relative to official DLD closed sales medians, which strongly signals a potential bait listing or unverified marketing post.",
+      "Zen Tower is an aging development subject to potential upcoming capital expenditure requirements or higher maintenance expenses.",
+      "Fringe location within Dubai Marina offers highway access but lacks direct waterfront positioning and premium lifestyle amenities.",
+      "Potential physical defects, seller distress, or encumbrances requiring rigorous legal and technical due diligence."
+    ],
+    "investment_summary": "On paper, this spacious three-bedroom layout presents an unusually low entry point into Dubai Marina, positioned far below historical DLD transaction medians for the district. However, because the asking rate deviates so sharply from actual recorded sales, investors should proceed with extreme caution to verify physical unit condition, title status, and whether the listing is genuine and available as advertised.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/9/spacious-vacant-on-transfer-dubai-marin-2-222289/_investment_analysis_exceptional": {
+    "quality_context": "This unit stands out for its exceptionally generous floor plan for a three-bedroom layout in Dubai Marina, complete with direct Marina views. Being vacant on transfer provides immediate flexibility for either an end-user to move in or an investor to capture current market rents without dealing with existing tenancy eviction notices.",
+    "risk_flags": [
+      "Significant underpricing relative to verified closed DLD transactions strongly suggests a potential lead-generation bait listing or an inaccurate listing entry.",
+      "A 2,700+ sq ft footprint in Dubai Marina typically indicates an older tower, which may carry higher service charges per year and require substantial renovation outlay.",
+      "Building-specific quality and ongoing maintenance standards vary widely across Dubai Marina and require independent physical inspection."
+    ],
+    "investment_summary": "On paper, the property is priced substantially below historical DLD closed transaction medians and active market asking prices in Dubai Marina, presenting a theoretical high-upside value proposition for a large, view-facing apartment. However, because the pricing gap is so pronounced compared to actual market sales, potential buyers should rigorously verify listing availability and property details before treating this as a genuine transactional opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/orchid-at-creek-beach-building-2-creek-beach-dubai-creek-harbour-the-lagoons-dubai-dubai-creek-harbour-the-lagoons-dubai-310103410911/_investment_analysis_exceptional": {
+    "quality_context": "Orchid at Creek Beach is a sought-after mid-rise development by Emaar within Dubai Creek Harbour, offering prime pedestrian access to beach amenities and strong long-term community fundamentals. This particular 1-bedroom listing stands out for its exceptionally large square footage compared to typical unit layouts in the building. From a valuation standpoint, the property is positioned qualitatively well below the median asking rates of competing active listings in the area. Note that this evaluation carries a key limitation: no official DLD closed-transaction data is available for this specific segment, so the analysis relies exclusively on active seller asking prices rather than confirmed, registered sales.",
+    "risk_flags": [
+      "Absence of DLD transaction history for this segment means market positioning is measured against seller asking prices, which can be subject to listing inflation or bias.",
+      "An unusually high square footage for a 1-bedroom unit in this development suggests potential misreporting of indoor vs. terrace area, or mislabeling of the unit type.",
+      "The severe deviation in price per square foot compared to competing seller listings raises a risk that this may be a bait listing or inaccurately input property record."
+    ],
+    "investment_summary": "On paper, this property presents a significantly lower rate per square foot compared to active market asking rates in Creek Beach. However, the combination of an oversized layout for a 1-bedroom and a drastic discount relative to asking medians indicates a high probability of data discrepancies or non-genuine listing details. Buyers should conduct thorough due diligence to verify the physical floorplan, usable indoor area, and listing authenticity, while keeping in mind that no verified DLD historical sales are available to confirm settled value.",
+    "credibility_flag": "suspicious"
   }
 }
