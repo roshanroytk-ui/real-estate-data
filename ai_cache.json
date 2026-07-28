@@ -1388,5 +1388,65 @@
     ],
     "investment_summary": "This listing is priced meaningfully below the median of actual closed DLD transactions for one-bedroom units in JVC, representing a value opportunity relative to recent real-market sales. While broader asking prices across active listings trend even higher, prioritizing verified DLD sales confirms this unit is positioned favorably against historical benchmark trades. The larger layout enhances end-user and long-term tenant appeal, making it a viable target for cash-flow investors, provided allowance is made for potential cosmetic updates.",
     "credibility_flag": "normal"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/villahouse/2026/7/27/great-dealstandalone-villabeach-accesso-3-539498/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/28/largest-plot-upgraded-prime-location-pr-2-263781/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/25/2br-apartment-skyline-view-asayel-avenu-2-657957/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/26/2000-monthly-5050-payment-plan-dld-waiv-2-215573/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/7/3/fully-furnished-stunning-burj-khalifa-v-2-240914/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/25/close-to-op-high-floor-city-skyline-vie-2-307513/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/27/prime-waterfront-oasis-elevated-lifesty-3-395343/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/luxury-living-modern-finishes-ready-to--2-188956/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/luxurious-waterfront-haven-upscale-life-3-125309/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/premium-location-modern-3br-maid-high-f-3-317204/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/20/high-floor-lowest-price-in-market-rare--2-326827/_investment_analysis_exceptional": {
+    "quality_context": "Located in Park Gate Residence A (Al Kifaf / Wasl1, Za'abeel area), this generous 2,162 sqft 3-bedroom apartment benefits from strong accessibility to DIFC, Downtown Dubai, and Zabeel Park views. However, investors should note that the broader Za'abeel asking median is heavily influenced by surrounding ultra-luxury developments, whereas Park Gate Residence represents a distinct development tier.",
+    "risk_flags": [
+      "Lack of DLD Transaction Data: Comparison is made exclusively against active seller asking prices, as no confirmed DLD closed-transaction data is available for this specific segment.",
+      "Potential Bait / Unverified Listing: The unit is listed substantially below active asking medians in the area, a common indicator of clickbait or unavailable inventory used to capture buyer leads.",
+      "Asking Price Disparity: Area medians may be skewed by higher-tier luxury projects in Za'abeel, making direct asking price comparisons misleading without unit-level verification."
+    ],
+    "investment_summary": "The property is marketed at a price positioned meaningfully below active seller asking prices in the Za'abeel area. While this presents an attractive entry point on paper, investors must consider that no DLD closed-transaction data exists for this segment to confirm real executed values. Due to the significant gap relative to active asking medians, independent verification of unit availability, title deed, and physical condition is critical before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/13/new-to-market-call-to-view-now-furnishe-2-983919/_investment_analysis_below_market": {
+    "quality_context": "At 525 sqft, this studio offers a generous layout compared to standard studio footprints in Jumeirah Village Circle. The unit is fully furnished and vacant on transfer, making it ready for immediate leasing or end-user occupancy without tenant transition delays.",
+    "risk_flags": [
+      "Specific building name and age are omitted, requiring further due diligence regarding service charges and facility maintenance quality.",
+      "High volume of existing and upcoming studio supply in JVC requires careful positioning to maintain high occupancy.",
+      "Truncated description text indicates incomplete broker documentation."
+    ],
+    "investment_summary": "The listing is positioned noticeably below recent DLD closed transaction medians for the area, offering an attractive valuation entry point. Combined with its turnkey furnished status and vacant availability, the property presents strong potential for immediate yield generation upon acquisition.",
+    "credibility_flag": "normal"
   }
 }
