@@ -1650,5 +1650,55 @@
     ],
     "investment_summary": "Positioned noticeably below recent closed DLD transactions and active market asking medians in Hadaeq Sheikh Mohammed Bin Rashid, this listing appears financially attractive for a ready, furnished unit. However, because the pricing sits so far below verified market sales, investors should approach with caution and verify listing authenticity, title status, and physical availability before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/20/premium-unit-q1-2026-multiple-options-2-932458/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/24/greenbelt-backing-exclusive-vacant-2-115732/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/vacant-on-transfer-c-type-well-maintain-2-632064/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/8/29/4-bedroom-villa-luxury-water-living-spa-2-180409/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/10-down-pay-cash-discount-20-roi-1-mont-2-272246/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/main-road-palm-view-near-metro-15-roi-1-2-466261/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/28/exclusive-resale-single-row-5br-villa-n-2-959359/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/exclusive-2080-plan-premium-2br-study-2-101480/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/13/4-beds-corner-park-back-north-east-faci-2-183359/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/10/waterfront-apartments-emaar-off-plan-pr-2-264167/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/18/unfurnished-close-to-metro-best-price-2-563025/_investment_analysis_exceptional": {
+    "quality_context": "The asking rate per square foot for this studio is positioned meaningfully below the median asking price of active listings in the area. However, an explicit limitation of this analysis is that no DLD closed-transaction data is available for this segment; all comparisons are made strictly against other sellers' active asking prices rather than confirmed historical sales. Additionally, there is a clear mismatch between the listed area (Dubai Media City 2) and the building identified in the description (Madison Residency in Barsha Heights / TECOM).",
+    "risk_flags": [
+      "Geographic discrepancy: Listing metadata indicates Dubai Media City 2, while the description specifies Madison Residency in Barsha Heights (TECOM).",
+      "Lack of verified DLD transaction history for this specific segment; market comparisons rely entirely on active asking prices.",
+      "High probability of a bait listing or inaccurate data entry given the combined location contradiction and substantial discount relative to market asking medians."
+    ],
+    "investment_summary": "On paper, the listing appears to offer an attractive entry point relative to prevailing seller asking rates. However, due to severe discrepancies between the stated location and the actual building description, this listing carries a high risk of being inaccurate or misleading. Investors should verify true property details, actual location, and title deed validity before considering this opportunity.",
+    "credibility_flag": "suspicious"
   }
 }

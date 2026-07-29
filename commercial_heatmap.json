@@ -1,24 +1,6 @@
 [
   {
     "segment": "commercial",
-    "area": "dubai international financial centre",
-    "property_type": "office",
-    "market_median_price_per_sqft": 7254.32,
-    "listing_count": 12,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "dubai investments park",
-    "property_type": "office",
-    "market_median_price_per_sqft": 894.66,
-    "listing_count": 8,
-    "transaction_median_price_per_sqft": 713.27,
-    "transaction_comparable_count": 17
-  },
-  {
-    "segment": "commercial",
     "area": "jumeirah lakes towers",
     "property_type": "office",
     "market_median_price_per_sqft": 2996.87,
@@ -28,12 +10,39 @@
   },
   {
     "segment": "commercial",
+    "area": "dubai international financial centre",
+    "property_type": "office",
+    "market_median_price_per_sqft": 7492.51,
+    "listing_count": 12,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
+    "area": "jabal ali industrial 2",
+    "property_type": "office",
+    "market_median_price_per_sqft": 1909.96,
+    "listing_count": 4,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
+    "area": "dubai investments park",
+    "property_type": "office",
+    "market_median_price_per_sqft": 894.66,
+    "listing_count": 10,
+    "transaction_median_price_per_sqft": 713.27,
+    "transaction_comparable_count": 17
+  },
+  {
+    "segment": "commercial",
     "area": "business bay",
     "property_type": "office",
-    "market_median_price_per_sqft": 2817.02,
-    "listing_count": 662,
-    "transaction_median_price_per_sqft": 4639.36,
-    "transaction_comparable_count": 97
+    "market_median_price_per_sqft": 2807.78,
+    "listing_count": 659,
+    "transaction_median_price_per_sqft": 4651.86,
+    "transaction_comparable_count": 95
   },
   {
     "segment": "commercial",
@@ -57,17 +66,8 @@
     "segment": "commercial",
     "area": "dubai media city 2",
     "property_type": "office",
-    "market_median_price_per_sqft": 2658.43,
-    "listing_count": 18,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "international city",
-    "property_type": "office",
-    "market_median_price_per_sqft": 1676.46,
-    "listing_count": 36,
+    "market_median_price_per_sqft": 2433.5,
+    "listing_count": 20,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -100,15 +100,6 @@
   },
   {
     "segment": "commercial",
-    "area": "jabal ali industrial 2",
-    "property_type": "office",
-    "market_median_price_per_sqft": 1680.04,
-    "listing_count": 3,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
     "area": "dubai residence complex",
     "property_type": "office",
     "market_median_price_per_sqft": 1460.73,
@@ -127,10 +118,19 @@
   },
   {
     "segment": "commercial",
+    "area": "emirates hills",
+    "property_type": "office",
+    "market_median_price_per_sqft": 1598.26,
+    "listing_count": 1,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
     "area": "al barsha south 4",
     "property_type": "office",
-    "market_median_price_per_sqft": 1839.3,
-    "listing_count": 3,
+    "market_median_price_per_sqft": 1994.92,
+    "listing_count": 4,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -147,8 +147,8 @@
     "segment": "commercial",
     "area": "centurion star tower, port saeed, deira, dubai",
     "property_type": "office",
-    "market_median_price_per_sqft": 2046.42,
-    "listing_count": 2,
+    "market_median_price_per_sqft": 1945.08,
+    "listing_count": 1,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -156,8 +156,8 @@
     "segment": "commercial",
     "area": "jumeirah heights",
     "property_type": "office",
-    "market_median_price_per_sqft": 2274.32,
-    "listing_count": 6,
+    "market_median_price_per_sqft": 2548.5,
+    "listing_count": 7,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -165,7 +165,7 @@
     "segment": "commercial",
     "area": "jumeirah village circle",
     "property_type": "office",
-    "market_median_price_per_sqft": 2303.39,
+    "market_median_price_per_sqft": 2222.48,
     "listing_count": 136,
     "transaction_median_price_per_sqft": 2307.57,
     "transaction_comparable_count": 13
@@ -184,7 +184,7 @@
     "area": "al sufouh",
     "property_type": "office",
     "market_median_price_per_sqft": 4539.78,
-    "listing_count": 87,
+    "listing_count": 88,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -208,15 +208,6 @@
   },
   {
     "segment": "commercial",
-    "area": "emirates hills",
-    "property_type": "office",
-    "market_median_price_per_sqft": 1598.26,
-    "listing_count": 1,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
     "area": "dubai marina",
     "property_type": "office",
     "market_median_price_per_sqft": 3686.91,
@@ -227,9 +218,9 @@
   {
     "segment": "commercial",
     "area": "jebel ali",
-    "property_type": "commercial",
-    "market_median_price_per_sqft": 1595.72,
-    "listing_count": 2,
+    "property_type": "office",
+    "market_median_price_per_sqft": 2355.74,
+    "listing_count": 45,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -244,12 +235,30 @@
   },
   {
     "segment": "commercial",
+    "area": "zibalai",
+    "property_type": "office",
+    "market_median_price_per_sqft": 1924.05,
+    "listing_count": 24,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
+    "area": "jebel ali",
+    "property_type": "commercial",
+    "market_median_price_per_sqft": 1595.72,
+    "listing_count": 2,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
     "area": "jumeirah lake towers",
     "property_type": "office",
     "market_median_price_per_sqft": 2187.35,
     "listing_count": 238,
     "transaction_median_price_per_sqft": 3557.53,
-    "transaction_comparable_count": 45
+    "transaction_comparable_count": 44
   },
   {
     "segment": "commercial",
@@ -257,15 +266,6 @@
     "property_type": "shop",
     "market_median_price_per_sqft": 3476.47,
     "listing_count": 36,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "zibalai",
-    "property_type": "office",
-    "market_median_price_per_sqft": 1983.3,
-    "listing_count": 20,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -327,17 +327,8 @@
     "segment": "commercial",
     "area": "dubai science park",
     "property_type": "shop",
-    "market_median_price_per_sqft": 4772.15,
-    "listing_count": 26,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "jebel ali",
-    "property_type": "office",
-    "market_median_price_per_sqft": 2372.13,
-    "listing_count": 44,
+    "market_median_price_per_sqft": 5132.39,
+    "listing_count": 28,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -345,8 +336,8 @@
     "segment": "commercial",
     "area": "zibalai",
     "property_type": "shop",
-    "market_median_price_per_sqft": 2345.6,
-    "listing_count": 23,
+    "market_median_price_per_sqft": 2294.25,
+    "listing_count": 21,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -372,8 +363,8 @@
     "segment": "commercial",
     "area": "dubai silicon oasis (dso)",
     "property_type": "shop",
-    "market_median_price_per_sqft": 2989.33,
-    "listing_count": 18,
+    "market_median_price_per_sqft": 2838.96,
+    "listing_count": 19,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -381,8 +372,8 @@
     "segment": "commercial",
     "area": "international city phase 2 (warsan 4)",
     "property_type": "shop",
-    "market_median_price_per_sqft": 2189.91,
-    "listing_count": 32,
+    "market_median_price_per_sqft": 2172.39,
+    "listing_count": 33,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -391,7 +382,7 @@
     "area": "arjan",
     "property_type": "shop",
     "market_median_price_per_sqft": 3684.28,
-    "listing_count": 66,
+    "listing_count": 67,
     "transaction_median_price_per_sqft": 3555.44,
     "transaction_comparable_count": 28
   },
@@ -417,8 +408,8 @@
     "segment": "commercial",
     "area": "international city",
     "property_type": "shop",
-    "market_median_price_per_sqft": 1343.21,
-    "listing_count": 66,
+    "market_median_price_per_sqft": 1434.23,
+    "listing_count": 64,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -436,7 +427,7 @@
     "area": "dubai land residence complex (dlrc)",
     "property_type": "office",
     "market_median_price_per_sqft": 1597.52,
-    "listing_count": 83,
+    "listing_count": 85,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -455,8 +446,8 @@
     "property_type": "office",
     "market_median_price_per_sqft": 2427.4,
     "listing_count": 39,
-    "transaction_median_price_per_sqft": 2168.88,
-    "transaction_comparable_count": 10
+    "transaction_median_price_per_sqft": 2161.11,
+    "transaction_comparable_count": 9
   },
   {
     "segment": "commercial",
@@ -480,17 +471,17 @@
     "segment": "commercial",
     "area": "majan",
     "property_type": "shop",
-    "market_median_price_per_sqft": 2998.66,
-    "listing_count": 137,
-    "transaction_median_price_per_sqft": 2561.58,
-    "transaction_comparable_count": 6
+    "market_median_price_per_sqft": 3002.0,
+    "listing_count": 138,
+    "transaction_median_price_per_sqft": 2222.22,
+    "transaction_comparable_count": 5
   },
   {
     "segment": "commercial",
     "area": "arjan",
     "property_type": "office",
-    "market_median_price_per_sqft": 1913.32,
-    "listing_count": 68,
+    "market_median_price_per_sqft": 1909.92,
+    "listing_count": 67,
     "transaction_median_price_per_sqft": 1750.79,
     "transaction_comparable_count": 37
   },
@@ -541,10 +532,19 @@
   },
   {
     "segment": "commercial",
+    "area": "jebel ali",
+    "property_type": "staff accommodation",
+    "market_median_price_per_sqft": 798.2,
+    "listing_count": 14,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
     "area": "business bay",
     "property_type": "shop",
-    "market_median_price_per_sqft": 4498.52,
-    "listing_count": 59,
+    "market_median_price_per_sqft": 4449.26,
+    "listing_count": 60,
     "transaction_median_price_per_sqft": 4500.0,
     "transaction_comparable_count": 25
   },
@@ -554,15 +554,6 @@
     "property_type": "office",
     "market_median_price_per_sqft": 3298.1,
     "listing_count": 40,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "jebel ali",
-    "property_type": "staff accommodation",
-    "market_median_price_per_sqft": 798.2,
-    "listing_count": 14,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -588,8 +579,8 @@
     "segment": "commercial",
     "area": "al furjan",
     "property_type": "shop",
-    "market_median_price_per_sqft": 3198.52,
-    "listing_count": 42,
+    "market_median_price_per_sqft": 3202.74,
+    "listing_count": 41,
     "transaction_median_price_per_sqft": 2438.04,
     "transaction_comparable_count": 21
   },
@@ -663,7 +654,7 @@
     "market_median_price_per_sqft": 2320.68,
     "listing_count": 39,
     "transaction_median_price_per_sqft": 1900.0,
-    "transaction_comparable_count": 16
+    "transaction_comparable_count": 21
   },
   {
     "segment": "commercial",
@@ -698,6 +689,15 @@
     "property_type": "commercial",
     "market_median_price_per_sqft": 9941.51,
     "listing_count": 3,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
+    "area": "želvos seniūnija",
+    "property_type": "shop",
+    "market_median_price_per_sqft": 3396.78,
+    "listing_count": 12,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -761,15 +761,6 @@
     "property_type": "showroom",
     "market_median_price_per_sqft": 2715.55,
     "listing_count": 1,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0
-  },
-  {
-    "segment": "commercial",
-    "area": "želvos seniūnija",
-    "property_type": "shop",
-    "market_median_price_per_sqft": 3310.05,
-    "listing_count": 11,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -919,6 +910,15 @@
   },
   {
     "segment": "commercial",
+    "area": "al satwa",
+    "property_type": "shop",
+    "market_median_price_per_sqft": 3369.87,
+    "listing_count": 6,
+    "transaction_median_price_per_sqft": 3877.64,
+    "transaction_comparable_count": 11
+  },
+  {
+    "segment": "commercial",
     "area": "al qusais",
     "property_type": "industrial",
     "market_median_price_per_sqft": 999.0,
@@ -937,15 +937,6 @@
   },
   {
     "segment": "commercial",
-    "area": "al satwa",
-    "property_type": "shop",
-    "market_median_price_per_sqft": 3981.66,
-    "listing_count": 5,
-    "transaction_median_price_per_sqft": 3877.64,
-    "transaction_comparable_count": 11
-  },
-  {
-    "segment": "commercial",
     "area": "liwan",
     "property_type": "shop",
     "market_median_price_per_sqft": 2512.49,
@@ -957,8 +948,17 @@
     "segment": "commercial",
     "area": "sobha hartland",
     "property_type": "shop",
-    "market_median_price_per_sqft": 5927.81,
-    "listing_count": 10,
+    "market_median_price_per_sqft": 5772.23,
+    "listing_count": 9,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0
+  },
+  {
+    "segment": "commercial",
+    "area": "international city",
+    "property_type": "office",
+    "market_median_price_per_sqft": 1676.46,
+    "listing_count": 35,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -984,8 +984,8 @@
     "segment": "commercial",
     "area": "bur dubai",
     "property_type": "office",
-    "market_median_price_per_sqft": 4876.33,
-    "listing_count": 5,
+    "market_median_price_per_sqft": 4869.85,
+    "listing_count": 6,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -993,8 +993,8 @@
     "segment": "commercial",
     "area": "dubai land residence complex (dlrc)",
     "property_type": "shop",
-    "market_median_price_per_sqft": 3595.09,
-    "listing_count": 23,
+    "market_median_price_per_sqft": 3595.82,
+    "listing_count": 24,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
   },
@@ -1344,7 +1344,7 @@
     "segment": "commercial",
     "area": "al garhoud",
     "property_type": "showroom",
-    "market_median_price_per_sqft": 77.67,
+    "market_median_price_per_sqft": 72.82,
     "listing_count": 1,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0
