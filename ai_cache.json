@@ -1822,5 +1822,56 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/exclusive-resale-waterfront-living-inve-2-145807/": {
     "layout_type": "standard",
     "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/villahouse/2026/6/19/5br-corner-villa-wilds-phase-1-saadiyat-3-247878/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/luxury-waterfront-apartment-in-business-2-235947/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/full-creek-tower-view-i-branded-3-bedro-2-113891/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/29/10-down-payment-premium-villa-community-2-316102/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/full-creek-tower-view-i-new-launch-i-du-2-159006/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/near-to-creek-tower-i-very-close-to-squ-2-102385/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/29/exclusive-emaar-community-one-of-the-la-2-134661/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/4-discount-4-dld-waiver-resort-style-am-2-295109/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/22/luxury-investment-large-studio-stylish-2-321867/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/limited-release-bulk-lot-10-dp-exclusiv-2-552368/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/29/well-maintained-rented-lake-2-776762/_investment_analysis_exceptional": {
+    "quality_context": "The subject property is listed as a Type 3E villa located in Springs 5 (within the Emirates Living master community) featuring lake views and currently tenanted status. Please note that market comparison data for this segment relies exclusively on active sellers' asking prices, as confirmed Dubai Land Department (DLD) closed-transaction data is currently unavailable for direct comparison.",
+    "risk_flags": [
+      "Location and Benchmark Mismatch: The listing is categorized under Emirates Hills, comparing a Springs villa to ultra-luxury market medians, which creates a deceptive pricing comparison.",
+      "Listing Text Contradiction: The description explicitly states 'Villa for Rent' while being presented alongside purchase pricing metrics.",
+      "Area Misconfiguration: The stated footprint of 3,888 sqft likely reflects plot size rather than the standard Built-Up Area (BUA) for a Type 3E layout, artificially distorting the price-per-sqft metric.",
+      "Data Limitation: Lack of DLD closed sold data means pricing position cannot be verified against historical finalized transactions."
+    ],
+    "investment_summary": "While the listing appears positioned meaningfully below the general market median for the listed area, this gap is primarily driven by operational listing errors—specifically benchmarking a Springs townhouse against Emirates Hills asking prices, conflating plot size with BUA, and mixing rental description language with sales data. Buyers should treat this listing with caution and verify the actual sale terms, true BUA, and realistic Springs market comps before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
