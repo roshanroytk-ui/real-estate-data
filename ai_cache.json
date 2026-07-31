@@ -1953,5 +1953,144 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/29/new-phase-3-standalone-villas-by-emaar--2-782550/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/next-to-metro-modern-layout-downtown-je-2-162550/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/1/4br-luxury-villa-single-row-prime-famil-2-639255/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/5/luxury-waterfront-living-ovelle-residen-2-225101/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/5/premium-farm-gardens-villa-nature-inspi-2-532311/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/27/exclusive-best-price-motivated-seller-2-864832/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/16/exclusive-beachfront-villas-high-roi-op-2-437998/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/21/4br-villa-farm-grove-2-park-pool-views--2-320193/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/13/park-view-furnished-private-elevator-2-289175/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/11/cheap-price-close-to-metro-opportunity--2-265781/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/30/luxury-1br-i-high-roi-i-park-and-pool-v-2-405994/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/13/upgraded-vacant-bright-airy-2-166650/_investment_analysis_exceptional": {
+    "quality_context": "The unit is a 1-bedroom apartment featuring an upgraded interior, vacant status, and a spacious layout. Its per-square-foot asking price is positioned below the market median for active listings in the area. Note that this market evaluation is based strictly on active seller asking prices, as official DLD closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Geographic discrepancy: The listing title/header cites Al Barsha South 4, while the description locates the unit in Fortunato, Jumeirah Village Circle (District 11).",
+      "Reliance on asking prices: Comparison data is based solely on active seller asking prices rather than confirmed DLD historical sales transactions.",
+      "Potential listing inaccuracy or bait offer due to contradictory location details combined with a significantly lower asking price relative to market median listings."
+    ],
+    "investment_summary": "While the listing presents appealing attributes—such as upgraded condition, vacancy, and a low asking rate relative to peer seller listings—the fundamental geographic contradiction between the designated area and the property description raises severe credibility concerns. Investors should exercise caution and independently verify the property's actual location, title deed, and listing authenticity before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/investor-deal-rented-prime-location-2-930253/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom apartment (790 sqft) is presented as a rented investor unit. However, there is a significant discrepancy in location data: the listing header specifies Al Barsha South 4, while the description text explicitly states the property is located in Fortunato 1, Jumeirah Village Circle (JVC).",
+    "risk_flags": [
+      "Geographic location conflict: metadata states Al Barsha South 4, while the property description references Fortunato 1 in Jumeirah Village Circle (JVC).",
+      "Data limitation: no Dubai Land Department (DLD) closed-transaction data is available for this segment. Market comparisons are strictly based on active listing asking prices set by other sellers, not confirmed historical sale prices.",
+      "Potential bait listing or incorrect listing data due to conflicting location claims combined with a heavily discounted asking price relative to active market listings."
+    ],
+    "investment_summary": "The property is priced meaningfully below the asking-price market median for active listings in the area. However, because this evaluation relies solely on competing sellers' asking prices rather than verified DLD closed transactions, and given the major location contradiction between the header and description, the opportunity carries high credibility risk and requires direct agent verification.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/7/fully-furnished-upgraded-spacious-2-317251/_investment_analysis_good_value": {
+    "quality_context": "Located in Diamond Views 1 within Jumeirah Village Circle (JVC), this 1-bedroom unit offers a unusually spacious layout of nearly 1,000 sqft. The apartment is listed as fully furnished and upgraded, providing move-in-ready convenience suitable for immediate lease-up. Diamond Views 1 is an established low-rise development, offering standard community amenities in a well-connected sector of JVC.",
+    "risk_flags": [
+      "Building age: Diamond Views is an older community compared to newer JVC handovers, which may entail higher ongoing maintenance fees or capital expenditure requirements.",
+      "Layout efficiency vs total price: Very large 1-bedroom square footage can suppress per-sqft rental yields, as tenants often pay based on bedroom count rather than pure square footage.",
+      "High local supply: JVC has significant continuous inventory, which creates competition for long-term tenant attraction."
+    ],
+    "investment_summary": "The property is priced favorably relative to closed historical transactions registered with the Dubai Land Department, and sits well below average asking prices across JVC. The combination of an upgraded interior, full furnishings, and a competitive per-sqft price point makes this a attractive entry option for income-seeking investors, provided rental projections account for the older building age.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/villa-pera-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411613/_investment_analysis_good_value": {
+    "quality_context": "Villa Pera is a mid-rise, five-storey residential development located in District 15 of Jumeirah Village Circle (JVC), completed in 2015 by FIVE Real Estate Development (formerly Skai Holdings). At nearly 937 sqft, this fully furnished 1-bedroom, 2-bathroom unit offers a notably larger floor plan than standard contemporary 1-bedroom layouts in the community.",
+    "risk_flags": [
+      "Building age (completed in 2015) means potential wear and tear requiring near-term capital expenditure or higher service charges compared to newer deliveries.",
+      "High supply concentration of 1-bedroom units in JVC creates ongoing competition for tenant absorption and rental pricing power."
+    ],
+    "investment_summary": "This unit is listed comfortably below recent closed DLD transaction medians for the area, presenting an attractive entry point on a price-per-square-foot basis. Its generous footprint and fully furnished status enhance immediate rental readiness, offering strong cash-flow potential for investors seeking value in mature JVC inventory.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/distress-deal-investment-plan-marina-vi-2-143699/_investment_analysis_good_value": {
+    "quality_context": "Located in Tower 108 within JVC District 18, this fully furnished 1-bedroom unit offers a larger-than-average layout for the area. The unit is priced below the recent DLD closed transaction median for Jumeirah Village Circle, as well as substantially below current active asking prices across comparable listings.",
+    "risk_flags": [
+      "Geographically impossible marketing claim: Advertising a 'Marina View' from Jumeirah Village Circle, an inland community miles away from Dubai Marina.",
+      "Potential clickbait listing used to generate leads rather than a genuine, available unit.",
+      "High service charges typical of DAMAC serviced apartment towers, which can impact net rental yields."
+    ],
+    "investment_summary": "On paper, the property is positioned below historical closed transaction benchmarks in JVC, making it financially attractive for income-focused investors looking for a fully furnished unit. However, due to misleading claims regarding view and location, buyers should exercise extreme caution and verify unit availability and actual details directly before engaging.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/prime-location-jvc-one-bedroom-ready-to-2-169388/_investment_analysis_good_value": {
+    "quality_context": "At nearly 900 sqft, this ready one-bedroom unit offers a significantly more spacious layout than many standard modern one-bedroom apartments in Jumeirah Village Circle. Being ready to move, the property enables immediate end-user occupation or quick tenant onboarding without handover delays.",
+    "risk_flags": [
+      "Specific building name is omitted in the description, preventing detailed checks on service charge rates, developer reputation, and building maintenance quality.",
+      "Jumeirah Village Circle features a dense pipeline of ongoing developments and high supply, which can moderate long-term rental growth and resale appreciation.",
+      "Community exit and entry points can experience traffic congestion during peak hours."
+    ],
+    "investment_summary": "This property is favorably positioned below recent closed DLD sale medians for the area, while offering an even greater discount relative to surrounding active asking prices. Combined with its generous square footage and immediate handover readiness, it presents a compelling value-oriented entry into the JVC market for yield-focused investors or end-users.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/fully-furnished-high-quality-highfloor-2-102036/_investment_analysis_good_value": {
+    "quality_context": "This 430 sqft fully furnished studio is located on a high floor in The One at Jumeirah Village Circle (JVC), a dedicated hotel apartment development. The listing is priced favorably below recent DLD closed transaction medians in the area and stands well below current active market asking prices. The turnkey condition offers immediate operational readiness for short-term hospitality leasing.",
+    "risk_flags": [
+      "Hotel apartment restrictions: Managed hotel units typically come with operator agreements, higher service charges, and limits on owner personal use compared to standard residential properties.",
+      "Net yield variability: Returns depend on hotel operator performance, occupancy fluctuations, and management revenue shares rather than steady long-term lease contracts.",
+      "Liquidity risk: Secondary market demand for hotel-pooled inventory can be more restricted than standard residential studios in JVC."
+    ],
+    "investment_summary": "The property offers an attractive entry point positioned below recent benchmark sales in JVC for a fully furnished unit. It appeals to investors seeking turnkey hospitality exposure, though thorough due diligence on the operator contract, service charge schedule, and net payout distribution is essential to confirm actual net return potential.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/20/one-bed-two-bath-investors-deal-2-232860/_investment_analysis_good_value": {
+    "quality_context": "Generously sized 810 sqft layout featuring a preferred 1-bedroom, 2-bathroom configuration in Downtown Dubai. The presence of a powder room enhances tenant appeal and functionality compared to single-bathroom units in the area.",
+    "risk_flags": [
+      "Specific building name, view, floor level, and handover/tenancy status are omitted from the listing description.",
+      "Downtown Dubai master developments often feature higher service charges per square foot, which can impact net rental yields.",
+      "Property condition and maintenance history need physical verification given the discounted pricing strategy."
+    ],
+    "investment_summary": "Priced comfortably below recent closed DLD transaction medians in Downtown Dubai, presenting a compelling entry point for investors. The favorable acquisition rate relative to historical sales leaves healthy headroom for strong rental yields and potential capital growth, making it a strong candidate for further due diligence once building details and tenancy terms are confirmed.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/oversized-1br-plus-study-best-value-bri-2-276990/_investment_analysis_good_value": {
+    "quality_context": "At nearly 1,300 square feet, this unit provides a significantly larger footprint than typical one-bedroom properties in Downtown Dubai, functioning almost like a two-bedroom footprint with its dedicated study space. On a rate-per-square-foot basis, the listing is priced at a clear discount relative to actual closed transactions recorded by the DLD, as well as active seller asking prices in the neighborhood. The attractive rate per square foot is largely reflective of its expanded layout size, which distributes the total price across greater overall area.",
+    "risk_flags": [
+      "Large square footage results in higher annual service charges in absolute terms, which can erode net rental yields.",
+      "Oversized one-bedroom units often have a narrower secondary buyer pool compared to standard-sized, lower-ticket investor layouts.",
+      "Building age, developer reputation, and exact location within Downtown Dubai vary significantly and dictate long-term capital growth."
+    ],
+    "investment_summary": "Priced noticeably below the DLD benchmark for completed sales in Downtown Dubai, this property offers attractive value on a square-foot basis. It is particularly well-suited for an end-user or long-term tenant seeking generous living space and a dedicated home office. Investors should factor in higher absolute service fee obligations when projecting net returns.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/the-signature-burj-khalifa-area-downtown-dubai-dubai-downtown-dubai-dubai-310103410943/_investment_analysis_exceptional": {
+    "quality_context": "The Signature is located in the prime Downtown Dubai district, offering close proximity to major landmarks such as the Burj Khalifa and Dubai Mall. A 3-bedroom layout at 1,517 sqft is relatively compact for this room count in Downtown Dubai, representing a more efficient footprint suited for serviced living or urban rentals.",
+    "risk_flags": [
+      "The listing price per square foot is severely below recent DLD registered transaction medians, raising strong suspicions of a bait listing or unverified data.",
+      "A 1,517 sqft footprint for a 3-bedroom unit is tighter than average for the segment, which may compromise bedroom dimensions or living area space.",
+      "Lack of detailed property description leaves key factors like unit condition, floor height, view, and service charge liabilities unverified."
+    ],
+    "investment_summary": "While the listing appears priced substantially below recent DLD registered sold transactions in Downtown Dubai, the extreme gap below market medians suggests this listing may not be a genuine, purchasable offer as advertised. Prospective buyers should approach with caution and thoroughly verify unit availability, physical condition, and ownership status with a verified broker before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
