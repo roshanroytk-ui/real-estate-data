@@ -32,10 +32,10 @@
     "area": "business bay",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.18602439895242,
-    "lng": 55.2704150987996,
+    "lat": 25.18601508636364,
+    "lng": 55.27040859291601,
     "market_median_price_per_sqft": 2798.66,
-    "listing_count": 825,
+    "listing_count": 823,
     "transaction_median_price_per_sqft": 4664.35,
     "transaction_comparable_count": 93,
     "deviation_score": 0.92,
@@ -116,10 +116,10 @@
     "area": "trade centre",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.21580265628558,
-    "lng": 55.27775731335046,
-    "market_median_price_per_sqft": 5129.51,
-    "listing_count": 45,
+    "lat": 25.21568793577275,
+    "lng": 55.277667136133644,
+    "market_median_price_per_sqft": 5113.87,
+    "listing_count": 46,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
     "deviation_score": 1.11,
@@ -326,10 +326,10 @@
     "area": "international city",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.121564487589517,
-    "lng": 55.39824713345337,
+    "lat": 25.121596775029296,
+    "lng": 55.39822346759765,
     "market_median_price_per_sqft": 1200.29,
-    "listing_count": 24,
+    "listing_count": 25,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
     "deviation_score": -0.51,
@@ -390,20 +390,6 @@
     "transaction_comparable_count": 5,
     "deviation_score": 0.72,
     "color": "red"
-  },
-  {
-    "segment": "commercial",
-    "area": "jebel ali",
-    "property_type": "commercial",
-    "property_type_display": "Commercial",
-    "lat": 24.978806581364665,
-    "lng": 55.072785372041814,
-    "market_median_price_per_sqft": 1306.62,
-    "listing_count": 3,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": -0.27,
-    "color": "green"
   },
   {
     "segment": "commercial",
@@ -562,16 +548,16 @@
   {
     "segment": "commercial",
     "area": "jebel ali industrial area",
-    "property_type": "commercial",
-    "property_type_display": "Commercial",
-    "lat": 25.00429667236278,
-    "lng": 55.117203969733126,
-    "market_median_price_per_sqft": 858.9,
-    "listing_count": 13,
+    "property_type": "labor_camp",
+    "property_type_display": "Labor Camp",
+    "lat": 25.00472481461626,
+    "lng": 55.11632962140364,
+    "market_median_price_per_sqft": 798.2,
+    "listing_count": 12,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.52,
-    "color": "green"
+    "deviation_score": 0.04,
+    "color": "yellow"
   },
   {
     "segment": "commercial",
@@ -696,7 +682,7 @@
     "listing_count": 3,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 4.53,
+    "deviation_score": 0.93,
     "color": "red"
   },
   {
@@ -766,8 +752,8 @@
     "listing_count": 8,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 1.86,
-    "color": "red"
+    "deviation_score": 0.0,
+    "color": "yellow"
   },
   {
     "segment": "commercial",
@@ -892,8 +878,8 @@
     "listing_count": 6,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.27,
-    "color": "red"
+    "deviation_score": -0.56,
+    "color": "green"
   },
   {
     "segment": "commercial",
@@ -1136,15 +1122,15 @@
   {
     "segment": "commercial",
     "area": "dubai investments park (dip)",
-    "property_type": "commercial",
-    "property_type_display": "Commercial",
-    "lat": 24.982531404384833,
-    "lng": 55.19112494687667,
-    "market_median_price_per_sqft": 740.6,
-    "listing_count": 6,
+    "property_type": "labor_camp",
+    "property_type_display": "Labor Camp",
+    "lat": 24.982434818194,
+    "lng": 55.195975224279,
+    "market_median_price_per_sqft": 741.48,
+    "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.59,
-    "color": "green"
+    "deviation_score": -0.04,
+    "color": "yellow"
   }
 ]
