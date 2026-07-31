@@ -2204,5 +2204,55 @@
     ],
     "investment_summary": "Priced favorably against verified closed DLD transactions, this property presents a solid value proposition for buyers seeking maximum space per square foot in JVC. Being ready-to-move and fully furnished provides immediate end-user occupancy or short-turnaround rental potential, subject to confirming that service fees do not overly dilute net yield.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/22/luxury-upgraded-villa-open-plan-private-2-115656/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/15/exclusive-mansion-villa-upgraded-large--2-245112/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/2bdr-prime-location-investor-deal-flexi-2-253022/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/cash-discount-offers-private-pool-luxur-2-246076/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/pre-launch-unit-high-floor-creek-tower--2-195155/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/31/lagoon-facing-villa-limited-time-deal-p-2-258453/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/elegant-3br-maid-unit-high-floor-canal--3-856645/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/31/type-2m-motivated-3-bed-study-maids-2-242052/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/11/6369-sqft-bua-custom-villa-ready-to-mov-2-600197/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/26/full-lagoon-view-ho-q1-2029-plus-maids--2-132794/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/22/investor-deal-premium-quality-branded-r-2-119196/_investment_analysis_exceptional": {
+    "quality_context": "Located in the developing Palm Deira area, this 1-bedroom branded residence is listed at a rate that sits drastically below both recent DLD closed transaction medians and active market asking medians for the location.",
+    "risk_flags": [
+      "The asking rate is severely undercut compared to real DLD transaction medians, raising strong concerns of a bait listing or erroneous pricing data.",
+      "Unverified developer track record and project execution risks associated with the specified development.",
+      "Off-plan and master-community development risks inherent to ongoing waterfront expansion projects in Palm Deira."
+    ],
+    "investment_summary": "While the listing appears highly attractive relative to established DLD sold benchmarks, the extreme price gap strongly indicates a credibility issue rather than a genuine discount. Investors should treat this listing with caution and independently verify unit availability, actual pricing, and contract terms with the agency before moving forward.",
+    "credibility_flag": "suspicious"
   }
 }
