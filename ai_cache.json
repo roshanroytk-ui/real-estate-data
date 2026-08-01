@@ -2254,5 +2254,149 @@
     ],
     "investment_summary": "While the listing appears highly attractive relative to established DLD sold benchmarks, the extreme price gap strongly indicates a credibility issue rather than a genuine discount. Investors should treat this listing with caution and independently verify unit availability, actual pricing, and contract terms with the agency before moving forward.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/10/waterfront-living-stunning-lagoon-view--2-218374/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2025/8/20/upgraded-and-beautifully-appointed-furn-2-164043/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/10/16/fully-furnished-spacious-layout-flexibl-2-115371/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/10/16/fully-furnished-spacious-layout-ameniti-2-207810/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/7/31/4-bedroom-townhouse-close-to-community--2-315945/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/12/30/high-demand-2br-emaar-new-downtown-stro-2-157532/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/14/creekside-1br-emaar-living-ideal-for-en-2-845215/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/24/modern-studio-off-plan-inaura-prime-loc-2-685754/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/cash-discount-offers-high-quality-high--2-189220/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/high-yield-investment-direct-beach-acce-2-167463/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/3/31/type-3m-priced-to-sell-large-3000-plot-2-295751/_investment_analysis_exceptional": {
+    "quality_context": "The property is described as a Type 3M three-bedroom plus study layout featuring a generous plot and extension potential. However, there is a fundamental conflict in the listing data: the header assigns the property to Emirates Hills, whereas the description explicitly identifies it as a townhouse in The Springs. Furthermore, the listed surface area uses the plot size rather than the built-up area (BUA). Please note that this market comparison is conducted exclusively against other sellers' active asking prices, as confirmed DLD closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Geographical mismatch: Stated area is Emirates Hills while description confirms The Springs",
+      "High probability of a bait listing or severe data entry error due to location and pricing discrepancies",
+      "Ambiguity in valuation metrics caused by mixing plot area and built-up area (BUA)",
+      "Absence of confirmed DLD sales records, relying solely on unverified seller asking prices"
+    ],
+    "investment_summary": "On paper, the property is listed qualitatively well below active asking price medians for the market segment. However, strong credibility concerns invalidate the financial appeal. The contradiction between the assigned luxury sub-community (Emirates Hills) and the actual property type (The Springs Type 3M), along with structural metric errors, indicates a potential bait or miscategorized listing. Note that all comparisons rely strictly on seller asking prices rather than verified DLD closed transactions. Investors should treat this listing with extreme skepticism.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/6/best-investment-close-to-metro-balcony--2-257136/_investment_analysis_exceptional": {
+    "quality_context": "Located in the Mogul Cluster of Discovery Gardens (Jabal Ali 1), this 835 sqft 1-bedroom apartment features a balcony, dedicated store room, and proximity to the Dubai Metro. The unit is currently rented, offering immediate cash flow upon completion.",
+    "risk_flags": [
+      "Pricing sits substantially below recent DLD closed transaction medians, presenting a strong possibility of a bait listing or inaccurate marketing data.",
+      "Discovery Gardens comprises mature building stock, which can entail higher long-term maintenance costs or service charges.",
+      "Unspecified tenant lease terms, current rent amount, and eviction notice status require full due diligence to confirm actual return potential."
+    ],
+    "investment_summary": "The property is marketed at a rate well below comparable closed DLD transactions, positioning it as an seemingly compelling income-generating asset given its spacious layout, metro proximity, and rented status. However, because the asking rate sits at such a deep discount relative to market benchmarks, potential buyers should strictly verify listing authenticity, unit availability, and title deed details prior to submitting an offer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/27/spacious-u-type-1-bedroom-med-cluster-2-490246/_investment_analysis_exceptional": {
+    "quality_context": "Located in the Mediterranean Cluster of Discovery Gardens (Jabal Ali 1), this property offers a generous 'U-type' layout. At nearly 1,000 square feet, the interior space is substantially larger than typical modern one-bedroom units in Dubai, situated within an established residential community with direct metro connectivity and proximity to major highway arterial routes.",
+    "risk_flags": [
+      "Asking price is drastically lower than closed DLD transaction medians, strongly indicating a potential bait listing or unverified marketing post.",
+      "Older community infrastructure in Discovery Gardens may entail higher maintenance or chiller fees and require refurbishment.",
+      "Potential risk of existing tenancy encumbrances or distress conditions given the extreme deviation from market benchmarks."
+    ],
+    "investment_summary": "On paper, the property presents a compelling entry price for a spacious layout in a mature residential hub, positioned well below recent DLD closed sales. However, because the pricing sits so far below market benchmarks, prospective investors should exercise extreme caution and independently verify listing authenticity, unit condition, and title deed availability before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/al-furjan-dubai-dubai-310119312195/_investment_analysis_good_value": {
+    "quality_context": "Azizi Jewel is a mid-rise residential development in Al Furjan, providing convenient connectivity to Sheikh Zayed Road, Sheikh Mohammed Bin Zayed Road, and nearby metro infrastructure. In terms of valuation, this listing is priced below the recent DLD sold-price median benchmark for the area and substantially below prevailing seller asking prices. However, with a footprint of 1,130 square feet, this unit is significantly larger than typical one-bedroom apartments in the community, which increases the total capital outlay despite the favorable rate per square foot.",
+    "risk_flags": [
+      "The 1,130 sqft area is unusually large for a 1-bedroom unit in this development, suggesting a substantial portion of the space may consist of an outdoor terrace rather than air-conditioned internal living space.",
+      "Al Furjan continues to see notable new supply, which could create rental competition and temper short-term capital growth.",
+      "Marketing claims regarding drive times to major hubs represent optimal traffic conditions rather than daily peak commute times."
+    ],
+    "investment_summary": "This property offers a favorable entry point on a price-per-square-foot basis compared to recent completed sales in Al Furjan, and sits well under active listing asking medians. Prior to proceeding, buyers should review the floor plan to ensure the high square footage translates into efficient, usable living space, as layout usability will directly govern rental yield performance.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/al-furjan-dubai-dubai-310109236873/_investment_analysis_exceptional": {
+    "quality_context": "V1STARA House in Al Furjan offers an unusually spacious one-bedroom off-plan apartment with a comprehensive amenity package including a cinema, clubhouse, and swimming pools. Positioned near key community infrastructure such as local schools and retail pavilions, the unit's per-square-foot valuation benefits from a generous floor plan relative to standard one-bedroom configurations in the area. On a per-square-foot basis, the property is positioned comfortably below historical DLD closed sales medians and active market asking prices in Al Furjan.",
+    "risk_flags": [
+      "Headline price relies on a full cash upfront payment, whereas the standard payment plan option increases the purchase price considerably.",
+      "Off-plan project scheduled for completion in late 2026, exposing buyers to development, construction timeline, and handover risks.",
+      "Full cash upfront requirement on off-plan inventory creates significant opportunity cost and capital lockup without immediate rental yield.",
+      "Large unit size for a one-bedroom layout may lead to yield compression on total capital invested compared to standard-sized units."
+    ],
+    "investment_summary": "This listing sits well below recent closed DLD transaction benchmarks in Al Furjan on a per-square-foot basis, making it attractive for buyers seeking lower unit-rate entry points. However, achieving this pricing requires full cash payment upfront for an uncompleted project. Investors should evaluate whether the capital lockup risk during construction outweighs the potential value captured compared to standard payment plan options or ready market alternatives.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/cash-discount-offers-high-quality-high--2-189220/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom unit in Palm Deira features a generous 1,401 sqft layout equipped with a private pool—an amenity that typically commands a distinct premium in the market. The property is listed at a price per square foot that sits substantially below actual closed transaction medians recorded by the Dubai Land Department, as well as below current asking rates in the surrounding area.",
+    "risk_flags": [
+      "Pricing sits substantially below verified DLD sold transactions, raising strong concerns of a bait-and-switch or unverified listing.",
+      "Promotions centered around cash discounts frequently involve restrictive payment conditions, off-plan completion uncertainties, or hidden fees.",
+      "Emerging waterfront developments in Palm Deira carry inherent off-plan timeline risks and infrastructure dependency."
+    ],
+    "investment_summary": "While the entry pricing appears exceptionally low relative to benchmark closed transactions for a private-pool apartment in Palm Deira, the listing presents significant credibility concerns. Investors should proceed with caution and verify the listing's genuine availability and actual contract terms before pursuing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/lowest-price-luxury-living-high-roi-1br-2-289061/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Tivanno within the emerging Dubai Islands (Palm Deira) master development, this 1-bedroom apartment offers a generous floor plan for its unit type. In terms of valuation, the listing is priced substantially below the DLD closed-transaction benchmark for the area, as well as below prevailing asking prices across active listings.",
+    "risk_flags": [
+      "Significant price disparity compared to official DLD closed transactions, raising a strong risk of bait listing practices or an incorrect total price figure.",
+      "Master-plan development timeline and construction risk associated with the broader Dubai Islands infrastructure.",
+      "Potential unverified payment plan terms or hidden seller assignment fees."
+    ],
+    "investment_summary": "On paper, the unit offers an extraordinarily low entry valuation per square foot for a large 1-bedroom layout in a waterfront growth zone. However, because the listed price sits far below actual closed transaction data registered with the DLD, buyers should approach with caution and verify whether this represents a genuine, full-purchase price.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/21/best-large-duplex-podium-house-with-roo-2-538615/_investment_analysis_exceptional": {
+    "quality_context": "This property is a spacious two-bedroom duplex podium residence with a private roof garden in Suburbia, a DAMAC-developed project in Downtown Jebel Ali. Note that official Dubai Land Department (DLD) closed-transaction data is currently unavailable for this specific segment, so this evaluation relies strictly on comparison against active seller asking prices rather than verified historical sales.",
+    "risk_flags": [
+      "Lack of DLD historical transaction data requires evaluating market value solely against active seller asking prices.",
+      "Geographical mislabeling in the listing details, which tags the property in Jabal Ali Industrial 2 despite Suburbia being located in Downtown Jebel Ali.",
+      "Asking rate is drastically below comparable active listings, raising concerns about potential bait pricing or unstated property liabilities."
+    ],
+    "investment_summary": "The unit is offered at a pricing level meaningfully below current asking prices for active listings in the area, offering a large layout and unique podium duplex features. However, due to the location tagging discrepancy and the sharp divergence from market asking medians, potential buyers should approach with caution and independently verify the listing's availability, physical condition, and title details.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/cash-discount-offers-private-pool-luxur-2-246076/_investment_analysis_exceptional": {
+    "quality_context": "Located in Palm Deira (Dubai Islands), this 1,018 sqft 1-bedroom apartment features a private pool, a premium feature that typically commands strong tenant demand in waterfront master developments. The property's pricing per square foot is positioned substantially below recent DLD closed sales data for the area, as well as active market asking medians.",
+    "risk_flags": [
+      "Asking price is significantly beneath benchmark DLD transactions, indicating a strong possibility of a lead-generation or bait listing.",
+      "Promotional cash discount offers frequently involve strict payment schedules or undisclosed conditions that alter the effective acquisition cost.",
+      "In-unit private pools introduce higher ongoing service charge overhead, potential leak/waterproofing risks, and specialized maintenance demands.",
+      "Ongoing infrastructure buildout in the master community may lead to construction-related nuisances or phased delivery timelines."
+    ],
+    "investment_summary": "While the listing promises an exceptionally attractive entry valuation and upscale amenities in an expanding waterfront precinct, the extreme gap between this price and verified DLD closed transactions raises notable credibility concerns. Investors should verify true availability, final payment terms, and developer credentials before viewing this as a genuine opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/waterfront-high-end-living-elevated-lif-3-337143/_investment_analysis_exceptional": {
+    "quality_context": "Perla 3 on Yas Island offers high-end waterfront living with canal views, rooftop wellness facilities, and immediate access to Yas Island's leisure and entertainment district. The 3-bedroom unit provides a generous functional footprint suitable for families and high-income tenants looking for premium island lifestyle amenities.",
+    "risk_flags": [
+      "Data limitation: Market comparisons are based strictly on active seller asking prices; no official closed transaction data (DLD/DMT confirmed sales) is available for this specific segment.",
+      "Pricing credibility risk: The listed price sits significantly below the active market asking median for 3-bedroom units in the area, raising the risk of a bait listing, outdated pricing, or undisclosed financial terms.",
+      "Jurisdiction context: Yas Island is located in Abu Dhabi and regulated by the Department of Municipalities and Transport (DMT), rather than the Dubai Land Department (DLD).",
+      "Developer and handover risk: Off-plan or recently delivered units carry potential construction timeline or snagging risks that must be independently verified."
+    ],
+    "investment_summary": "The property is advertised at an asking rate positioned substantially below the prevailing asking prices of comparable active listings in the Yas Island segment. While this creates a compelling narrative for high potential returns, the substantial gap below current seller medians suggests the listing may be a marketing lure, an unverified entry, or subject to non-standard payment terms. Investors are strongly advised to confirm listing validity and fee structures with the agent. Please note that market positioning is measured strictly against seller asking prices, as verified closed transaction records are currently unavailable for this category.",
+    "credibility_flag": "suspicious"
   }
 }
