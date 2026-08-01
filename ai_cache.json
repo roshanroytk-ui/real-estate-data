@@ -2553,5 +2553,55 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/31/4-bedrooms-motivated-seller-genuine-res-2-332833/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/1/resort-style-living-family-community-lu-2-149155/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/1/direct-developer-luxury-apartments-minu-2-901701/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/1/luxury-living-in-jvt-resort-amenities-n-2-114845/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/25/luxury-waterfront-no-commission-high-ro-2-249469/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/24/investor-deal-no-commission-4-dld-waive-2-809958/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/29/rare-by-location-exceptional-by-design--2-331326/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/24/ultra-luxury-residences-in-the-heart-of-2-259433/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/premium-studio-investors-choice-best-va-2-503298/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/next-to-mall-and-creek-tower-10-dp-guar-2-148254/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/27/spacious-1br-premium-amenities-prime-jv-2-912948/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/10/31/fully-furnished-apartment-at-tiger-sky--2-270252/_investment_analysis_exceptional": {
+    "quality_context": "The property is advertised with a price per square foot positioned significantly below recent closed DLD transactions and active asking medians in the recorded area segment. It features a fully furnished 1-bedroom off-plan layout supported by a long-term payment plan leading up to a late 2028 handover.",
+    "risk_flags": [
+      "Severe geographic mismatch: Title references JVT, location metadata indicates Jumeirah Village Circle, while the listing description specifies Business Bay.",
+      "Potential clickbait or mislabeled listing intended to generate leads rather than represent a genuine, purchasable inventory item at this rate.",
+      "Extended construction timeline stretching to Q4 2028 carries off-plan execution and market liquidity risk."
+    ],
+    "investment_summary": "While the listing presents a price per square foot well below comparable closed DLD transactions for the assigned area, the severe location contradictions render the comparison unreliable. The property appears to be Tiger Sky Tower in Business Bay misfiled under JVC/JVT metadata. Investors should not consider this a verified discounted deal until location, unit availability, and developer sales terms are fully validated.",
+    "credibility_flag": "suspicious"
   }
 }
