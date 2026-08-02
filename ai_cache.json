@@ -2643,5 +2643,149 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/18/spacious-3br-study-balcony-community-vi-2-727383/": {
     "layout_type": "standard",
     "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/30/waterfront-villa-private-beach-access-p-2-292009/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/17/call-now-long-returns-no-commission-2-112825/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/8/premium-finishes-prime-location-10-down-2-306470/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/30/new-phase-premium-villas-large-plot-802-2-951510/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/10/vacant-now-type-1-immaculate-garden-2-220594/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/10-booking-premium-lifestyle-sea-views-2-248503/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/waterfront-living-payment-plan-prime-lo-2-195174/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/17/investor-deal-mid-floor-premium-locatio-2-224664/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/branded-by-vida-investor-deal-genuine-r-2-149265/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/19/huge-plot-prime-location-waterside-livi-2-214631/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/21/4br-villa-farm-grove-pool-garden-views--2-539175/_investment_analysis_exceptional": {
+    "quality_context": "Located in Farm Grove within The Valley by Emaar (Umm Nahad 3 / Madinat Hind 3), this 4-bedroom villa benefits from a prime park-facing orientation within a master-planned community by a top-tier developer. Please note that market comparison for this property is conducted strictly against active seller asking prices, as confirmed DLD closed-transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Asking price per sqft is drastically lower than competing active listings, strongly suggesting a potential bait listing or incorrect area input (such as plot area used instead of built-up area).",
+      "Complete lack of DLD historical closed-transaction data for this segment requires reliance solely on seller asking benchmarks.",
+      "Potential off-plan completion and handover timeline risks associated with ongoing master development."
+    ],
+    "investment_summary": "On paper, this villa is priced substantially below prevailing active asking prices in the community, offering a park-facing layout backed by Emaar's strong brand reputation. However, because the pricing sits so far below market asking medians, investors should approach with caution and verify listing authenticity and true built-up area specs prior to engagement.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/1/28/close-to-park-standalone-community-expe-2-695508/_investment_analysis_market_rate": {
+    "quality_context": "Located in The Farm Gardens, a niche lifestyle sub-community within Emaar's master development, The Valley. This cluster focuses on a country-style, farming-retreat living concept featuring standalone family villas. The property is listed at a price per square foot that sits below the median of recent registered DLD closed transactions in the community, and significantly below the broader asking market among active sellers. This positions the listing as a competitively priced entry for a high-bedroom standalone layout.",
+    "risk_flags": [
+      "Verify whether the stated square footage represents the Built-Up Area (BUA) or the total plot size, as mixing these metrics can artificially lower the calculated rate per square foot.",
+      "The Valley is an evolving suburban master development; ongoing construction in adjacent phases may impact short-term tenancy demand and peace of living.",
+      "Suburban retreat concepts can have a more selective tenant pool compared to central urban residential hubs."
+    ],
+    "investment_summary": "This standalone villa in The Farm Gardens presents an attractive qualitative value proposition, being offered at a rate per square foot below recent historical DLD benchmark sales. While asking prices in the area reflect higher seller expectations, this property is anchored closer to real transaction value. Investors and end-users should confirm BUA dimensions and payment plan details to validate the true spatial value.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/close-metro-10down-post-handover-30roi--2-153303/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom property in Jumeirah Village Circle offers a expansive footprint relative to standard layouts, which may include terrace or outdoor space driving up total square footage. The listing is priced at a rate per square foot that sits significantly below recent DLD recorded sales transactions in the neighborhood, as well as current active asking prices.",
+    "risk_flags": [
+      "Internal inconsistencies within the listing details, specifically conflicting ROI figures between the title and description.",
+      "Misleading location claims regarding metro proximity, as Jumeirah Village Circle does not currently have direct access to an operational metro station.",
+      "Unrealistically high guaranteed return and capital appreciation promises in marketing text.",
+      "Extremely depressed rate per square foot compared to actual market transactions, raising potential concerns of a bait-and-switch marketing listing or undisclosed terms."
+    ],
+    "investment_summary": "On paper, the unit presents a heavily discounted entry point compared to actual closed transactions in Jumeirah Village Circle. However, severe marketing red flags—including contradictory yield claims, exaggerated capital growth assertions, inaccurate infrastructure claims, and a price point well below real market transactions—strongly suggest this listing warrants high scrutiny. Investors should verify true availability, exact floor plan breakdown, and actual payment terms before considering it a viable opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/skyline-view-1br-guzel-towers-furnished-2-164646/_investment_analysis_exceptional": {
+    "quality_context": "This furnished 1-bedroom layout offers a standard residential footprint for the neighborhood. From a pricing standpoint, the property is listed well below recent DLD closed transactions in the area, as well as below current asking medians across competing listings.",
+    "risk_flags": [
+      "Location conflict: Listed under Jumeirah Village Circle (JVC) in the main data, but the description references Guzel Towers in JVT (Jumeirah Village Triangle) District 1.",
+      "Unusually low price per square foot relative to verified DLD transaction benchmarks, raising potential bait-listing or listing accuracy concerns.",
+      "Truncated description cuts off key property details, handover status, or lease terms."
+    ],
+    "investment_summary": "While the listing appears financially attractive due to a heavy discount relative to actual DLD closed sales, the presence of conflicting location details and aggressive pricing suggests this listing may be inaccurate or a bait advert. Investors should verify true availability, correct location, and title deed details before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/10downpayment-60mortgage-metro-pool-vie-2-130958/_investment_analysis_below_market": {
+    "quality_context": "The property is priced at a substantial discount compared to recent closed DLD transaction medians in Jumeirah Village Circle, as well as prevailing asking prices across active market listings. The 662 sqft layout fits standard single-bedroom demand in the community, but its pricing sits well below established sales benchmarks for the area.",
+    "risk_flags": [
+      "Internal contradictions in listing details, including conflicting views (Pool view vs Skyline view) and mismatched return claims.",
+      "Grossly exaggerated ROI projections (30% to 35%) that far exceed realistic residential rental yields in Dubai.",
+      "Potentially misleading location claims regarding immediate Metro access in Jumeirah Village Circle.",
+      "Significantly underpriced relative to actual DLD closed transactions, pointing toward a possible clickbait or lead-generation listing."
+    ],
+    "investment_summary": "On paper, the unit presents an entry price positioned well below historical DLD sales medians in JVC. However, the listing exhibits multiple severe credibility flags, including internal specification conflicts, overstated yield promises, and questionable location claims. This strongly indicates a bait listing rather than a genuine, available transaction. Investors should exercise extreme caution and verify listing authenticity before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/marina-view-cash-offer-20dp-30roi-post--2-228568/_investment_analysis_exceptional": {
+    "quality_context": "This 674 sqft unit is listed at an asking rate per square foot that sits substantially below the median asking price for active 1-bedroom listings in Al Barsha South 4. Please note that confirmed DLD closed-transaction data is unavailable for this specific segment; therefore, this pricing position is evaluated strictly against active seller asking prices rather than verified completed sales. The listing includes features such as full furnishing, a smart home system, and a post-handover payment plan.",
+    "risk_flags": [
+      "Contradictory financial figures: The title advertises a 30% ROI while the description claims a 22% ROI.",
+      "Geographically misleading claim: Advertising a 'Marina skyline view' from Al Barsha South 4 is highly unrealistic given its inland location.",
+      "Bait-listing risk: The pricing per square foot is positioned so far below surrounding asking rates that it suggests a potential lead-generation listing rather than an actual available unit.",
+      "Lack of historical sales data: Absence of official DLD closed transaction records for this segment limits comparison to active asking prices only."
+    ],
+    "investment_summary": "While the listing superficially presents an exceptionally low entry price and favorable post-handover terms relative to local asking medians, severe credibility concerns undermine its viability. The presence of conflicting ROI metrics and geographically impossible view descriptions strongly indicates this is an unreliable or clickbait listing. Buyers should treat this offer with caution and independently verify the property's actual availability and details before dedicating resources.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/exclusive-listing-well-maintained-ideal-2-109220/_investment_analysis_exceptional": {
+    "quality_context": "This 746 sqft 1-bedroom apartment is positioned below the current asking-price market median for active listings in the area. Note that no DLD closed-transaction data is available for this segment; this analysis relies strictly on comparative seller asking prices and not confirmed historic sold prices.",
+    "risk_flags": [
+      "Geographical contradiction: The property is listed under Al Barsha South 4, but the description identifies it as Dana Tower in Jumeirah Village Circle (JVC) District 12.",
+      "Transaction type inconsistency: Listed as a sale, but the description explicitly states the unit is 'for rent'.",
+      "Absence of official DLD closed-transaction data to verify true historical market value."
+    ],
+    "investment_summary": "Although the listed rate appears lower than the market median asking price for active listings, the property exhibits severe credibility issues. The direct conflict between the specified location (Al Barsha South 4) and the building named in the text (Dana Tower, JVC), combined with text describing a rental rather than a sale, strongly suggests a copied description or miscategorized listing. Due to these flags, this should not be evaluated as a valid investment opportunity without prior verification.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/22/rented-best-investment-no-brokers-pleas-2-279971/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom unit is positioned at an asking rate per square foot that is significantly below the prevailing asking median for comparable active listings in the market. Note that this evaluation relies exclusively on active seller listing prices, as official DLD closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Geographical contradiction: The structured listing specifies Al Barsha South 4, whereas the description places the property in Dana Tower within Jumeirah Village Circle (JVC).",
+      "Potential bait listing: The severe pricing discount relative to active market askings, combined with conflicting location data, raises strong concerns regarding the listing's authenticity.",
+      "Data limitation: Absence of DLD closed-transaction records prevents verification against true historical sale prices.",
+      "Unverified rental details: While advertised as rented, essential lease parameters such as active rental income and lease expiry dates are not provided."
+    ],
+    "investment_summary": "While the qualitative pricing appears highly aggressive compared to active market askings, the property presents substantial credibility risks. The clear location conflict between the header and description, coupled with a heavily discounted asking rate, strongly indicates a high likelihood of a misleading or unverified listing. Investors should exercise extreme caution and verify unit availability and true location before pursuing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/17/exclusive-jvc-residence-1-bed-parking-g-2-199502/_investment_analysis_exceptional": {
+    "quality_context": "The property offers a standard 1-bedroom layout within the Diamond Views community. From a pricing perspective, the unit is listed at a rate significantly lower than prevailing market asking prices in the segment. Please note that this comparison is made strictly against other sellers' asking prices, as confirmed Dubai Land Department (DLD) closed-transaction data is unavailable for this segment.",
+    "risk_flags": [
+      "Location Inconsistency: The listing title and description place the property in Diamond Views, Jumeirah Village Circle (JVC), whereas the recorded area metadata states Al Barsha South 4.",
+      "Data Limitation: Absence of DLD historical closed transaction records means market comparison relies solely on seller asking prices, which may not reflect final contract values.",
+      "Bait Listing Risk: The substantial gap between this listing's rate and surrounding asking medians strongly suggests potential clickbait or an outdated advertisement."
+    ],
+    "investment_summary": "On paper, the property presents an exceptionally low entry price point relative to active market asking medians. However, due to conflicting location details (JVC vs. Al Barsha South 4) and an unusually steep price deviation from comparable active listings, investors should exercise heightened diligence to verify the property's actual availability and legitimacy before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/30/largest-layout-community-view-vacant-2-170457/_investment_analysis_exceptional": {
+    "quality_context": "The property is advertised as a spacious 1-bedroom unit with 2 bathrooms, vacant on transfer, featuring a large floor plan and community views. However, there is a critical discrepancy in the listing details: the location metadata specifies Al Barsha South 4, while the agent's description explicitly places the property in City Apartments, Jumeirah Village Circle (JVC). Please note that no DLD closed-transaction data is available for this segment; all market comparisons are strictly against other sellers' active asking prices, not confirmed sold prices.",
+    "risk_flags": [
+      "Location mismatch between listing header (Al Barsha South 4) and description text (City Apartments, JVC).",
+      "Absence of DLD closed-transaction data; relies solely on active seller asking prices.",
+      "Potential ghost or bait listing given the substantial pricing discrepancy alongside location errors."
+    ],
+    "investment_summary": "While the listing appears to offer an exceptionally attractive entry price well below the asking-price market median of active listings, the severe location inconsistency renders the data unreliable. The property cannot be properly evaluated as an investment until the true building, location, and title deed details are verified. Investors should exercise high caution as this listing displays strong markers of a inaccurate or non-genuine post.",
+    "credibility_flag": "suspicious"
   }
 }
