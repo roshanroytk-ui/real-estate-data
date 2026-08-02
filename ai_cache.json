@@ -2787,5 +2787,35 @@
     ],
     "investment_summary": "While the listing appears to offer an exceptionally attractive entry price well below the asking-price market median of active listings, the severe location inconsistency renders the data unreliable. The property cannot be properly evaluated as an investment until the true building, location, and title deed details are verified. Investors should exercise high caution as this listing displays strong markers of a inaccurate or non-genuine post.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/28/pool-level-direct-access-beautiful-gard-2-210559/_investment_analysis_below_market": {
+    "quality_context": "This 2-bedroom unit in Jumeirah Village Circle offers a larger-than-average footprint, featuring direct pool level access and a private garden area. Ground or podium-level garden apartments in JVC appeal to lifestyle renters seeking outdoor space, though total square footage calculations for these layout types usually blend indoor living space with outdoor garden area.",
+    "risk_flags": [
+      "Total square footage likely includes significant outdoor garden or terrace area, which can artificially depress the price-per-square-foot calculation relative to internal usable space.",
+      "Direct pool access and pool-level positioning can expose occupants to higher noise levels, limited privacy, and potential foot traffic.",
+      "Truncated description requires verification of property condition, actual floor plan split, service fees, and current tenancy status."
+    ],
+    "investment_summary": "Priced below real DLD closed transaction medians for the area, this property presents an attractive entry point in Jumeirah Village Circle. The unique feature of direct pool access and private garden space can support solid rental demand, provided the investor accounts for the ratio of internal living space versus outdoor square footage when modeling target yields.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/12/distress-deal-in-the-market-pool-view-2-2-257532/_investment_analysis_good_value": {
+    "quality_context": "Located in Jumeirah Village Circle (JVC), a high-demand mid-market residential community known for strong tenant absorption and steady rental yields. This 2-bedroom unit features a generous layout exceeding 1,200 sqft, a preferred pool view, a fitted kitchen, and vacant status allowing for immediate leasing or end-user move-in.",
+    "risk_flags": [
+      "Specific building name and developer are not clearly identified in the listing details, requiring site-specific verification of service charges, maintenance standards, and building age.",
+      "The label 'distress deal' is frequently used as marketing copy; buyers should verify clear title status and ensure there are no outstanding building liabilities or encumbrances.",
+      "Truncated listing text leaves key unit details and payment terms unconfirmed."
+    ],
+    "investment_summary": "The unit is priced below the recent median for completed DLD transaction sales in the area, offering an advantageous entry point relative to actual market transactions. The vacant status presents an attractive opportunity for investors seeking to secure immediate rental yields at current market rates, or end-users looking to avoid tenant eviction timelines.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/10/spacious-studio-community-view-ready-to-2-291688/_investment_analysis_below_market": {
+    "quality_context": "Masaar Residence is an established, low-rise residential development in Jumeirah Village Circle (JVC). At 481 square feet, this studio offers a generous floor plan relative to standard studio stock in the area. JVC remains one of Dubai's highest-demand rental hubs, though performance varies significantly between legacy low-rise buildings and newer luxury deliveries.",
+    "risk_flags": [
+      "Older low-rise developments in JVC typically experience higher ongoing maintenance costs and service charges compared to newer handover inventory.",
+      "Property may be currently tenanted at a legacy rental rate, which could limit immediate rental yield optimization upon acquisition.",
+      "Pricing significantly lower than general area averages often indicates building-specific capital appreciation ceilings or impending maintenance assessments."
+    ],
+    "investment_summary": "The property is priced at a clear discount relative to benchmark DLD registered transactions in Jumeirah Village Circle, as well as prevailing market asking prices. For income-focused investors, this entry point offers strong gross yield potential driven by JVC's consistent tenant demand, provided due diligence confirms low service charges and satisfactory unit condition.",
+    "credibility_flag": "normal"
   }
 }
