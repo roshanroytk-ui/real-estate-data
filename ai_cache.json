@@ -2958,5 +2958,96 @@
     ],
     "investment_summary": "On paper, this listing presents a heavily discounted entry price compared to benchmark DLD sales in the segment. However, the combination of a major location discrepancy between JVT and JVC and an unusually low asking price per square foot undermines its credibility. Investors should exercise caution, as this listing shows strong indicators of being an unreliable or inactive offer meant to generate leads rather than a genuine, ready transaction.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/10/exclusive-launch-near-parks-schools-ser-2-200599/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/12/large-studio-high-floor-2-184567/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/investors-choice-best-buy-best-decision-2-209119/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/8/private-pool-villa-resort-lifestyle-hig-2-194278/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/27/fully-upgraded-turn-key-golf-views-2-957397/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/luxury-high-end-pool-villas-view-2-148712/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/025-monthly-5050-payment-plan-high-roi--2-243687/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/18/exclusive-offer-corner-villa-capital-gr-2-958211/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/4/17/spacious-layouts-green-community-smart--2-323086/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/25/huge-plot-vastu-private-pool-great-loca-2-327074/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/near-jss-fully-renovated-2-baths-vacant-2-130840/_investment_analysis_exceptional": {
+    "quality_context": "This property offers a generous layout for a one-bedroom apartment, featuring two bathrooms and recent full renovations. Situated in Al Barsha South 4 near JSS International School, the unit is advertised as vacant, making it appealing for end-users seeking immediate occupancy or investors looking to achieve immediate rental yield without downtime or renovation expenses.",
+    "risk_flags": [
+      "Data Limitation: Comparison metrics rely entirely on active seller asking prices because confirmed Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment.",
+      "Asking price benchmarks tend to reflect seller expectations rather than true market value, which can skew comparative positioning.",
+      "The significantly lower asking price relative to neighboring active listings presents a risk of being a bait listing or an outdated advertisement.",
+      "The listing description is incomplete and cuts off mid-sentence, indicating potential lack of detail or poor listing maintenance."
+    ],
+    "investment_summary": "Positioned qualitatively below prevailing seller asking prices in Al Barsha South 4, this fully renovated and vacant unit presents a strong theoretical value proposition for buy-to-let investors or end-users. However, because benchmark data is restricted strictly to active listing askings rather than verified DLD sales, investors should perform thorough due diligence, confirm physical availability, and inspect the building's maintenance standard before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/al-hamri-shoreline-apartments-palm-jumeirah-dubai-palm-jumeirah-dubai-310103410539/_investment_analysis_market_rate": {
+    "quality_context": "Shoreline Apartments in Palm Jumeirah is an established mid-rise residential beachfront and park-facing community located on the trunk. Three-bedroom units in Al Hamri offer generous living space, appealing strongly to family end-users and premium long-term tenants seeking direct access to Palm amenities, retail, and beach clubs.",
+    "risk_flags": [
+      "Older construction age relative to newer luxury handovers on Palm Jumeirah, which may require ongoing CapEx or interior modernizations.",
+      "Higher annual service charges typical for beachfront master communities on the Palm.",
+      "Listed above the baseline set by actual completed transactions, requiring careful negotiation."
+    ],
+    "investment_summary": "This property is listed at a qualitative premium relative to verified closed transaction data from official registry records, despite appearing competitively priced against optimistic active listing asking prices. Because registered sales represent the true market benchmark, prospective investors should evaluate the listing based on historical closed values rather than active asking trends to ensure sound capital entry.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/10/vacant-royal-atlantis-view-a-type-2-338452/_investment_analysis_market_rate": {
+    "quality_context": "Located in Marina Residences on Palm Jumeirah, this 'A Type' three-bedroom layout offers a very large overall footprint with expansive terrace space and advertised views towards Royal Atlantis. It is listed as vacant on transfer. From a pricing perspective, the unit's asking rate per square foot commands a premium relative to recent closed DLD transactions, while remaining positioned below prevailing asking prices in active listings across the wider Palm Jumeirah market.",
+    "risk_flags": [
+      "A substantial portion of the large total square footage is dedicated to outdoor terrace space rather than internal living area, which affects effective usable space.",
+      "The asking price sits above benchmark closed DLD sales, necessitating careful verification of unit condition, upgrades, and exact view corridor to justify the higher entry price.",
+      "Service charges in Palm Jumeirah apply to total built-up area, meaning ongoing holding costs will be elevated due to the expansive outdoor footprint."
+    ],
+    "investment_summary": "Presents a strong end-user or value-add opportunity featuring immediate vacant possession in an established trunk development. While priced at a premium compared to historical recorded sales, it offers competitive scale relative to live market askings. Investors should evaluate net rental yield potential against service fee obligations on the full terrace footprint.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/premium-homes-prime-location-flexible-p-2-144627/_investment_analysis_exceptional": {
+    "quality_context": "The subject property is a 1-bedroom residence spanning 674 sqft in Auresta Tower, Al Barsha South 4. Its asking rate per square foot is positioned substantially below the median asking price of active listings in the immediate area. Please note that this analysis relies exclusively on active sellers' asking prices, as DLD closed-transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Conditional pricing: The advertised rate applies strictly to cash offers, meaning buyers seeking payment plans face an unstated price markup.",
+      "Data limitation: Comparison relies solely on active seller asking prices rather than confirmed DLD sold transactions.",
+      "Bait pricing risk: The steep discount relative to peer asking prices strongly suggests potential lead-generation or clickbait tactics rather than a genuine, purchasable unit at this rate."
+    ],
+    "investment_summary": "While the listing appears to offer exceptional relative value on paper for cash buyers compared to surrounding seller expectations, the extreme discount alongside conditional cash-only terms raises significant concerns. Investors should approach this listing cautiously, verifying unit availability, genuine final pricing, and actual payment terms before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/modern-layout-hot-deal-high-floor-spaci-2-128125/_investment_analysis_below_market": {
+    "quality_context": "Situated in Dubai Science Park (Dubiotech), Binghatti Hills Tower 1 is a prominent modern development known for its contemporary architectural style and extensive resort-style amenities. At 1,234 sqft, this 1-bedroom apartment is exceptionally spacious compared to standard unit layouts in the area, which strongly suggests the inclusion of a large private terrace or outdoor area that naturally skews the price-per-square-foot baseline.",
+    "risk_flags": [
+      "The advertised rate per square foot sits substantially below both actual DLD closed transaction medians and active market asking medians, raising the possibility of a clickbait listing or unverified marketing post.",
+      "The unusually large layout for a 1-bedroom unit implies a high proportion of outdoor terrace space relative to internal air-conditioned living space.",
+      "As an off-plan or recently launched development, the property carries project completion timelines, developer hand-over delays, and assignment transfer procedural risks."
+    ],
+    "investment_summary": "On paper, this listing presents an exceptionally low entry price per square foot compared to completed DLD sales and live competitor asking rates in Dubai Science Park. However, investors must perform thorough due diligence to verify whether the price reflects a genuine resale offer, confirm the exact indoor versus outdoor square footage split, and validate unit availability before pursuing.",
+    "credibility_flag": "suspicious"
   }
 }
