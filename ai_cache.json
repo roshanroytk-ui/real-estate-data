@@ -3180,5 +3180,55 @@
     ],
     "investment_summary": "While the entry price appears exceptionally low when compared against historical DLD registered sales in the area, the listing exhibits major credibility flaws due to conflicting location claims and mismatched project descriptions. Buyers should treat the financial metrics with high caution until the exact project, location, and genuine availability are independently verified.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/furnished-studio-raw-district-ii-dubais-2-134565/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/fully-furnished-1br-new-hot-launch-excl-2-157817/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/cash-offer-i-branded-residence-i-furnis-2-290517/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/22/exclusive-marina-view-vacant-on-transfe-2-335726/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/4-dld-waiver-free-investor-visa-6040-pa-2-280789/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/premium-1br-golf-lagoon-living-high-roi-2-174207/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/4/new-to-market-type-7-fully-upgraded-2-316193/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/6/new-to-market-lake-view-hattan-2-129710/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/6/exclusive-hattan-13395-sq-ft-plot-2-335938/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/lowest-price-opportunity-4-dld-waiver-l-2-196738/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/6/investment-deal-fully-furnished-best-pr-2-707914/_investment_analysis_good_value": {
+    "quality_context": "Burj Al Nujoom is an established, non-Emaar residential tower within Downtown Dubai that historically trades at a value discount compared to the neighborhood's prime and luxury developments. While offering a central location, the building features standard finishes and basic amenities relative to higher-end surrounding towers.",
+    "risk_flags": [
+      "Unit is tenant-occupied until mid-2026, restricting end-user occupancy and immediate rental rate adjustments.",
+      "Older building specifications may entail higher ongoing maintenance requirements and variable service charge impact.",
+      "Lower building tier compared to master-developer projects in Downtown Dubai may result in slower capital appreciation."
+    ],
+    "investment_summary": "Priced below recent closed DLD transactions in the Downtown Dubai market, this listing presents a cost-effective entry point into a high-demand central district. The existing tenancy provides immediate, predictable cash flow, making it suitable for yield-focused investors comfortable with an established secondary-tier building.",
+    "credibility_flag": "normal"
   }
 }
