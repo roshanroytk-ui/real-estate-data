@@ -3370,5 +3370,134 @@
     ],
     "investment_summary": "This listing is priced attractively below recent registered DLD transaction medians for comparable properties in JVC, presenting strong relative value on a per-square-foot basis. Its generous layout and lower entry pricing make it an appealing prospect for investors seeking solid rental yield potential in a high-demand residential district.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/6/best-location-multiple-options-6br-vill-2-130537/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/30/multiple-option-best-location-ultra-lux-2-298781/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/4/genuine-resale-close-to-op-blue-horizon-2-280178/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/14/op-price-exclusive-open-view-private-2-623079/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/10/op-price-park-backing-large-plot-unit-2-136195/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/30/immaculate-conditioncustom-built-on-the-2-185103/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/25/main-lake-extended-upgraded-huge-plot-v-2-246459/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/17/own-a-luxury-3-bedroom-freehold-0-commi-3-165747/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/28/luxury-1br-apartment-high-floor-skyline-2-622200/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/15/ideal-location-elegant-2-bhk-30-phpp-2-135342/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/1/invest-from-aed-650k-prime-szr-flexible-2-894276/_investment_analysis_exceptional": {
+    "quality_context": "The listing presents a fully furnished studio unit within RAW District by Imtiaz, offering a generous footprint for a studio layout. On a price-per-square-foot basis, the entry cost is positioned significantly below historical DLD closed transaction medians in the broader segment, as well as current asking price benchmarks, offering an attractive paper valuation for a furnished unit.",
+    "risk_flags": [
+      "Location Misalignment: The listing title advertises 'Prime SZR', whereas the registered location is Jabal Ali Industrial 2—a predominantly industrial district that lacks the premium residential infrastructure typical of core Sheikh Zayed Road locations.",
+      "Bait / Teaser Pricing: The use of 'Invest from' language combined with a rate far below market sales medians strongly indicates a lead-generation listing rather than an actual locked unit price.",
+      "Industrial Proximity Risk: Residential properties adjacent to industrial zones face potential capital appreciation headwinds and tenant retention challenges."
+    ],
+    "investment_summary": "While the entry pricing appears remarkably favorable when evaluated against DLD transaction medians, the deal requires heightened scrutiny. The geographic contradiction between advertised SZR positioning and an industrial zone location, coupled with teaser-style marketing, suggests this listing may not accurately represent a genuine, standalone secondary offer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/cash-price-lowest-price-in-dsp-spacious-2-716559/_investment_analysis_exceptional": {
+    "quality_context": "Located in Dubai Science Park (Dubiotech), this studio features an unusually generous footprint compared to typical studio units in the area. The listed price per square foot sits substantially below both recent DLD registered transaction benchmarks and prevailing market askings, positioning it at a heavy discount to historical area sales.",
+    "risk_flags": [
+      "Direct conflict between the listing title claiming 'READY TO MOVE IN' and the description identifying it as an 'off-plan' unit.",
+      "The extreme pricing gap compared to benchmark DLD closed transactions strongly indicates a potential bait listing, a partial cash down-payment advertised as the full price, or unstated seller liabilities/payment plan balance.",
+      "Very large studio footprint (649 sqft) may distort per-square-foot comparisons if the total lump-sum pricing structure is misquoted."
+    ],
+    "investment_summary": "On paper, the property offers an extraordinary pricing position far beneath established DLD transaction medians for Dubai Science Park. However, due to severe listing contradictions regarding handover status and a pricing level typical of distress or bait listings, formal due diligence is required to verify the true purchase price and availability before treating this as a viable investment.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/27/high-roi-i-furnished-i-spacious-2-286069/_investment_analysis_exceptional": {
+    "quality_context": "Located in Hadaeq Sheikh Mohammed Bin Rashid (MBR City), this 745 sqft 1-bedroom apartment in MAG 960 comes furnished with a spacious layout. MBR City is a major master-planned development offering good proximity to Downtown Dubai, Business Bay, and major transport corridors.",
+    "risk_flags": [
+      "The property is tagged as an AUCTION, indicating the advertised price is likely a starting bid or baseline estimate rather than a direct, fixed buy-it-now price.",
+      "Auction acquisitions in Dubai can carry procedural risks, such as mandatory bidding fees, tight completion timelines, potential court processes, or existing tenancy challenges.",
+      "The extreme price gap relative to historical closed transactions strongly indicates potential clickbait or an artificial starting bid designed to drive bidding activity."
+    ],
+    "investment_summary": "The property is listed qualitatively well below the established DLD median for closed transactions in the area. While this presents an appealing initial figure, investors must treat the number with caution due to the auction format, as competitive bidding will likely push the final sales price higher. Thorough due diligence regarding auction terms, deposit conditions, and unit vacant status is strongly advised before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/22/1-bedroom-apartment-florence-1-jvc-read-2-222021/_investment_analysis_exceptional": {
+    "quality_context": "Florence 1 in Tuscan Residences represents older, established JVC building stock characterized by significantly larger unit footprints (915 sqft for a 1-bedroom) compared to modern off-plan or recently handed-over developments. While the layout offers generous living space, building finishes and amenities reflect an older generation of construction. Note that all pricing comparisons are drawn strictly against active sellers' asking prices in the area, as confirmed DLD closed-transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Comparison relies exclusively on active seller asking prices rather than confirmed DLD sold transactions, which may distort baseline market expectations.",
+      "Tuscan Residences is an older development, potentially exposing owners to higher ongoing maintenance charges or wear-and-tear risks compared to newer area inventory.",
+      "Property is tenanted until March, restricting immediate owner-occupancy and requiring adherence to local tenancy eviction/renewal notice guidelines."
+    ],
+    "investment_summary": "This listing is priced meaningfully below the prevailing asking-price median for the surrounding area, largely driven by its older building age and higher square footage which dilutes the per-square-foot valuation relative to premium new-builds. The large footprint offers attractive space for tenants, making it a viable cash-flow opportunity if acquired at a favorable baseline, though capital appreciation potential may lag behind newer nearby developments.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/26/contemporary-1br-exceptional-value-prim-2-486568/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom apartment in Dezire Residences, Al Barsha South 4, offers a notably generous floor plan compared to typical 1-bedroom configurations in the surrounding neighborhood. Please note that market comparisons for this property are based entirely on active seller asking prices, as official Dubai Land Department (DLD) closed-transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Pricing sits substantially below the active market asking median, which strongly suggests a potential bait listing, inaccurate property data, or an unverified advertisement.",
+      "Absence of DLD closed-transaction data prevents verification against actual recorded sales prices in the area.",
+      "Truncated description leaves key details regarding unit condition, maintenance status, and existing lease terms unconfirmed."
+    ],
+    "investment_summary": "On paper, the property appears to offer an attractive entry point given its generous layout and favorable position relative to active asking listings in Al Barsha South 4. If legitimate, this price point could translate into strong rental yields. However, due to the severe discount against prevailing asking prices, thorough verification of the listing's authenticity and physical status is strongly recommended before taking any investment steps.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/5/1br-apartment-for-sale-the-east-crest-j-2-179117/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom unit in The East Crest (Jumeirah Village Circle / Al Barsha South 4) offers a generous floor plan relative to typical area stock. Positioned meaningfully below the prevailing market median of active competing listings, it represents a budget-friendly entry into the community. Important note: because official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment, this pricing comparison relies solely on active sellers' asking prices rather than verified, completed sale transactions.",
+    "risk_flags": [
+      "Lack of DLD historical closed-transaction data requires reliance on active seller asking prices, which may not accurately reflect true final transaction values.",
+      "The significant price gap compared to active area benchmarks carries a potential risk of being a bait listing or advertising unverified inventory.",
+      "Ongoing development and supply pipeline in JVC could impact long-term capital appreciation and rental competition."
+    ],
+    "investment_summary": "The property offers an attractive entry point for investors seeking favorable yield potential in JVC, given its qualitative discount relative to surrounding asking prices and comfortable unit size. However, given the absence of confirmed transaction data and the wide pricing gap against active listings, buyers should independently verify listing authenticity, unit availability, and maintenance fees before proceeding.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/8/best-priced-vot-motivated-seller-2-927431/_investment_analysis_good_value": {
+    "quality_context": "Located in Elite Residence within Dubai Marina, this high-floor unit features a generous floor plan compared to average one-bedroom layouts in the master community. The tower provides robust amenities, including indoor and outdoor pools and a gym, alongside convenient access to the Dubai Tram and Marina Walk. Represented by a reputable brokerage and offered Vacant on Transfer (VOT), the property allows for immediate occupancy or swift leasing.",
+    "risk_flags": [
+      "As an established tower, ongoing service charges and potential capital expenditure requirements should be factored into yield calculations.",
+      "Localized traffic congestion in the northern sector of Dubai Marina during peak hours may affect tenant convenience."
+    ],
+    "investment_summary": "Positioned attractively below recent DLD recorded sales benchmarks and current listing asking prices, this unit offers strong entry value in a high-demand rental corridor. The vacant status enables an investor to capitalize on current rental rates right away or an end-user to secure a well-proportioned residence below prevailing market transactions.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/11/prime-location-vot-community-view-2-246512/_investment_analysis_good_value": {
+    "quality_context": "At 886 sqft, this 1-bedroom apartment offers a generous layout compared to typical unit sizes in Dubai Marina. Being currently rented provides immediate cash flow for an investor, while its position offering community views aligns with standard residential units in high-density waterfront sectors.",
+    "risk_flags": [
+      "Existing tenancy limits immediate rent adjustments to current market rates due to RERA index constraints.",
+      "Community views generally achieve lower capital appreciation and rental premiums compared to full water or Marina views.",
+      "Potential high service charges typical of Dubai Marina high-rises could impact net yields."
+    ],
+    "investment_summary": "Priced below recent closed DLD transfer medians for 1-bedroom units in Dubai Marina, this property represents an attractive, discounted entry point relative to actual completed transactions in the area. The substantial gap below active market asking prices further underscores its positioning as a value-oriented investment, offering strong net yield potential supported by immediate rental income and above-average unit size.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/well-maintained-high-floor-marina-view-2-656015/_investment_analysis_good_value": {
+    "quality_context": "Sulafa Tower is a high-density residential skyscraper located in northern Dubai Marina. While it provides access to the broader Marina lifestyle and transport links, units in this building historically trade at a notable discount relative to prime developments in the master community due to tower density, building age, and historical performance.",
+    "risk_flags": [
+      "Encumbered by a long-term lease contract until December 2026, preventing immediate end-user occupancy and blocking immediate rental yield optimization to current market rates.",
+      "Sulafa Tower typically carries a persistent structural discount compared to wider Dubai Marina benchmarks.",
+      "Illiquidity risk during the remaining lease period if market conditions shift before vacant possession can be granted."
+    ],
+    "investment_summary": "The listing is priced below recent comparable closed DLD transactions in Dubai Marina. However, this pricing position is largely rationalized by the unit being encumbered with a tenant through late 2026 alongside the building's specific secondary-market standing. It offers an entry point into Dubai Marina for yield-focused investors comfortable holding a long-term locked tenant, though capital flexibility remains restricted until the lease expires.",
+    "credibility_flag": "normal"
   }
 }
