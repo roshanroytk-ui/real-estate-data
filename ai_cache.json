@@ -3558,5 +3558,148 @@
     ],
     "investment_summary": "This unit is positioned at a clear discount relative to both recent closed DLD transaction medians in Business Bay and active market asking prices. This softer valuation is primarily attributable to the building's age and positioning relative to prime luxury towers. For yield-focused buyers, the lower cost basis combined with a ready, furnished single-bedroom footprint presents an attractive gross rental yield opportunity.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/1/2/luxury-living-mortage-smart-home-2-129601/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/1/5-bedrooms-vastu-prime-meadows-location-2-317875/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/2/12/resort-style-oasis-huge-plot-premium-up-2-269886/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/7/16/brand-new-near-lagoon-family-home-2-212892/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/7/14/resortstyle-living-ready-soon-near-lago-2-109967/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/25/corner-unit-near-to-lagoon-5-bedroom-ma-2-157457/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/4/exclusive-renovated-to-perfection-priva-2-206629/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/5/14/contemporary-studio-with-premium-amenit-3-175847/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/20/vacant-on-tranfer-backing-park-single-r-2-166496/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/elevated-resort-style-sanctuary-upscale-3-155964/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/3/private-jacuzzi-high-roi-investor-deal-2-178847/_investment_analysis_exceptional": {
+    "quality_context": "This property is a studio unit located in Peace Avenue by Peace Homes Development within Jabal Ali Industrial 2. The unit's pricing per square foot is positioned significantly below both the DLD sold-price median for closed transactions and the active asking-price market median. While advertised with luxury selling points such as a private jacuzzi, the surrounding area is primarily an industrial and logistics zone undergoing sparse residential development, which creates a distinct contrast to standard residential hubs.",
+    "risk_flags": [
+      "Severe pricing gap: The asking rate per square foot sits far beneath actual DLD closed transaction medians, strongly indicating potential bait pricing, a partial down-payment representation, or misleading listing details.",
+      "Industrial micro-location: Jabal Ali Industrial 2 lacks mature residential infrastructure, lifestyle amenities, and master-planned community appeal, which may suppress secondary market liquidity and tenant quality.",
+      "Marketing claims vs location reality: Promoting high-end luxury features like private jacuzzis within an industrial sector raises questions regarding realistic rental positioning and end-user demand."
+    ],
+    "investment_summary": "While the listing appears to offer an exceptionally low entry point relative to benchmark DLD transaction prices in the district, the extreme valuation gap suggests this may not be a standard full-price listing. Investors should approach with caution, verify whether the advertised price reflects the full acquisition cost or merely a booking deposit, and weigh the cash-flow potential against the structural drawbacks of an industrial location.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/30/furnished-close-to-amenities-vacant-2-130635/_investment_analysis_exceptional": {
+    "quality_context": "Located in Artesia D within the DAMAC Hills (Al Hebiah 3) community, this 1-bedroom apartment features a generous layout and is advertised as vacant, fully furnished, and negotiable. Please note that this analysis relies strictly on comparative active seller asking prices; no official Dubai Land Department (DLD) closed-transaction data is available for this specific segment, meaning benchmarking reflects listing expectations rather than confirmed historic sales.",
+    "risk_flags": [
+      "Lack of DLD closed-transaction data requires relying exclusively on seller asking prices, which may not accurately reflect true market execution values.",
+      "The significantly lower asking price relative to competing listings indicates potential bait-advertising practices or undisclosed property liabilities.",
+      "A larger-than-average layout for a 1-bedroom unit may lead to higher absolute service fees based on total area."
+    ],
+    "investment_summary": "On paper, the listing is priced meaningfully below the median asking prices of active competitor listings in the community, presenting an attractive entry point for a vacant and furnished asset. However, because comparison data is limited to asking prices without DLD sold-transaction verification, and given the substantial pricing gap versus peer listings, prospective buyers must perform thorough due diligence to verify the listing's availability, legal status, and actual physical condition.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/spacious-1br-prime-location-best-deal-2-968529/_investment_analysis_exceptional": {
+    "quality_context": "At 778 sqft, this one-bedroom unit offers a generous footprint compared to standard market layouts. The asking price per square foot sits meaningfully below the prevailing median for active seller listings in the area. Note that this evaluation is based strictly on current asking prices from active listings, as confirmed Dubai Land Department (DLD) closed-transaction data is not available for this segment.",
+    "risk_flags": [
+      "Geographic location mismatch: Metadata lists the area as Al Barsha South 4, while the description text explicitly places the property in The Manhattan, JVC.",
+      "Absence of DLD registered transaction data, leaving price comparison reliant solely on active asking listings rather than historical sold prices.",
+      "Extremely low asking price relative to market median listings, which combined with the location mismatch indicates potential bait-and-switch or incorrect listing details."
+    ],
+    "investment_summary": "While the property appears heavily discounted relative to other active asking listings, the listing presents major red flags due to conflicting location details between the title/metadata and the description text. Further verification is required before treating this as a viable investment opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/4/modern-apartment-best-amenities-spaciou-2-218319/_investment_analysis_exceptional": {
+    "quality_context": "At 957 sqft, this 1-bedroom apartment in Al Barsha South 4 offers a larger-than-average layout for its category. The listing description is generic, highlighting standard points such as modern amenities and location without specifying the building name, floor level, view, or current tenancy status. Crucially, this market comparison relies entirely on active sellers' asking prices, as official DLD closed-transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Data limitation: Lack of official DLD closed-transaction data requires relying solely on seller asking prices, which may reflect speculative pricing rather than true market value.",
+      "Potential bait listing: The asking price per square foot is positioned extraordinarily lower than competing active listings, strongly suggesting a potential lead-generation or non-existent listing.",
+      "Omission of critical property details: Important details such as exact building name, service charges, completion status, and rental status are absent."
+    ],
+    "investment_summary": "This property is listed at a substantial discount compared to other active seller asking prices in Al Barsha South 4. On paper, a 1-bedroom unit of this size at a significantly reduced rate presents a high potential yield opportunity. However, given the extreme pricing disparity against the active market median and the absence of DLD transaction records to validate true market value, investors should approach with strong caution. Rigorous due diligence is required to verify the authenticity of the listing, inspect the physical unit, and confirm title deed details before making any commitments.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/11/high-roi-community-view-1bhk-near-jass--2-986624/_investment_analysis_exceptional": {
+    "quality_context": "This 886 sqft 1-bedroom unit is currently rented at AED 73,000 per year and is positioned at an asking price per square foot that is priced significantly below comparable active listings in the market. Please note that this market comparison is based exclusively on other sellers' asking prices, as official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Geographical conflict: Title and metadata list Al Barsha South 4, while the description identifies the building as Le Grand Chateau in Jumeirah Village Circle (JVC).",
+      "Priced substantially below market asking medians, which often indicates an outdated, unverified, or bait listing.",
+      "Lack of DLD closed-transaction data limits accurate valuation against true market sales history.",
+      "Potential eviction or rent adjustment limitations due to local RERA laws regarding existing tenancy."
+    ],
+    "investment_summary": "On paper, the property offers strong rental income relative to an asking price positioned far below asking medians in the surrounding area. However, due to critical discrepancies in the listing—specifically the conflicting location details between Al Barsha South 4 and JVC—investors should exercise extreme caution and verify property availability and details before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/unfurnished-rented-till-jan-27-best-lay-2-820868/_investment_analysis_exceptional": {
+    "quality_context": "This is a generously sized one-bedroom apartment measuring 890 square feet located in Laya Residences, Jumeirah Village Circle (officially designated as Al Barsha South Fourth under DLD mapping). The unit offers an expansive layout well above average size for 1-bedroom inventory in the area and is currently tenanted, offering immediate rental income for investors.",
+    "risk_flags": [
+      "Data Limitation: Comparison data relies entirely on active seller asking prices; no DLD confirmed closed-transaction data is available for this specific segment.",
+      "Tenant Occupancy: Rented through January, restricting immediate personal use or immediate rent readjustment to current market rates.",
+      "Layout PSF Distortion: The property's large square footage dilutes the price-per-square-foot relative to smaller standard 1-bedroom units in the neighborhood, which typically trade at higher per-foot rates."
+    ],
+    "investment_summary": "The property is positioned meaningfully below active market asking medians on a per-square-foot basis. However, please note that benchmark figures represent seller asking prices rather than confirmed DLD closed sales. The listing represents an attractive entry point for rental yields due to its large floor plan and existing tenancy, provided the underlying lease yield meets the investor's target return criteria.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/27/best-deal-community-view-prime-location-2-286143/_investment_analysis_exceptional": {
+    "quality_context": "This 633 sqft 1-bedroom apartment is priced substantially below the median asking price of active listings in the surrounding area. Please note that official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment; this comparison is made strictly against other sellers' asking prices, which do not reflect confirmed final sale values. Furthermore, while the property metadata assigns it to Al Barsha South 4, the property description identifies it as Hanover Square in Jumeirah Village Circle (JVC).",
+    "risk_flags": [
+      "Geographic mismatch: Metadata lists Al Barsha South 4, whereas the listing text describes Hanover Square in JVC.",
+      "Bait listing risk: The asking rate per square foot is significantly below peer seller asking medians, which often indicates an outdated, inaccurate, or non-genuine listing.",
+      "Data limitation: Analysis relies entirely on unverified seller asking prices due to a lack of DLD closed-transaction records."
+    ],
+    "investment_summary": "On paper, this property presents a qualitative value position relative to active asking prices in the market. However, severe credibility issues—specifically a location contradiction between the title data and description alongside an abnormally low asking price—suggest this may be a bait listing. Investors are advised to verify property availability and exact location credentials before pursuing due diligence.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/6/cheapest-fully-furnished-prime-location-2-122813/_investment_analysis_exceptional": {
+    "quality_context": "Pulse Smart Residence in Al Barsha South 4 features modern smart-home integrations. At 861 square feet, this 1-bedroom unit offers a noticeably larger floor plan compared to typical 1-bedroom apartments in the submarket. The listing includes full furnishing, which reduces initial move-in or leasing capital expenditure for an investor or end-user.",
+    "risk_flags": [
+      "No Dubai Land Department (DLD) closed-transaction data is available for this segment; comparison is based entirely on active seller asking prices, which may be inflated relative to actual historical trade values.",
+      "The heavy price positioning below active asking medians combined with clickbait phrasing ('Cheapest') suggests a high risk of a bait-and-switch listing or non-existent inventory.",
+      "Al Barsha South 4 remains a secondary district with potential supply pipelines that could impact long-term capital appreciation and rental yields."
+    ],
+    "investment_summary": "This fully furnished, spacious 1-bedroom unit in Pulse Smart Residence is offered at a price point meaningfully below prevailing active asking rates in Al Barsha South 4. However, investors should explicitly note that this comparison relies solely on active seller asking prices, as official DLD closed-transaction data is unavailable for this specific segment. While the large layout and turnkey condition are attractive on paper, the severe pricing disconnect relative to asking medians requires cautious verification of property availability and title deed status.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/4/studio-for-sell-big-layout-2-150278/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Discovery Gardens within the broader Jabal Ali 1 area, this studio features a generous layout relative to standard market offerings. Discovery Gardens is a mature, high-occupancy community favored by budget-conscious tenants due to its proximity to Metro connections and major road networks. Please note an important analytical limitation: this comparison is evaluated strictly against active sellers' asking prices, as confirmed Dubai Land Department (DLD) closed-transaction data is currently unavailable for this segment. The gap between this listing and the area median is largely attributable to newer, higher-end developments in Jabal Ali 1 pulling up the overall asking median compared to older Discovery Gardens stock.",
+    "risk_flags": [
+      "Lack of DLD closed transaction data requires reliance on asking-price benchmarks, which may reflect seller optimism rather than true market value.",
+      "The broader area median is skewed upward by newer developments in Jabal Ali 1, making direct comparison to mature Discovery Gardens inventory less direct.",
+      "Older asset age in Discovery Gardens may entail higher maintenance overheads or upcoming building capital expenditure.",
+      "Varying service charges across Discovery Gardens clusters can impact net rental yields."
+    ],
+    "investment_summary": "The listing is positioned qualitatively well below the prevailing asking-price median of active listings in the Jabal Ali 1 area. For yield-focused investors, the entry price relative to general area asking rates presents an attractive potential rental yield profile, subject to verification of actual historical sales in the specific cluster and physical inspection of the unit.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/16/furnished-studio-8-wardrobes-rented-at--2-754186/_investment_analysis_exceptional": {
+    "quality_context": "This property is a fully furnished studio located in Building 106, Mediterranean Cluster, Discovery Gardens (Jabal Ali 1). It is positioned below the active seller asking median for the broader Jabal Ali 1 area. Note that the area-wide asking median is heavily influenced by newer, premium developments in Jebel Ali, whereas Discovery Gardens represents an established, older low-rise community. Please note explicitly that no official DLD closed-transaction data is available for this specific segment; this comparison relies entirely on active seller asking prices rather than confirmed historical sales.",
+    "risk_flags": [
+      "Lack of DLD closed-transaction data requires relying solely on seller asking prices, which may not reflect actual settlement values.",
+      "Broader district asking metrics are skewed upward by newer stock in Jabal Ali 1 compared to older Discovery Gardens buildings.",
+      "Older property age increases potential exposure to maintenance costs, aging infrastructure, and higher service charges.",
+      "High existing tenant lease rate requires verification via official Ejari documentation to ensure sustainability and compliance with RERA renewal caps."
+    ],
+    "investment_summary": "The unit offers an attractive entry point for income-focused investors seeking cash flow from an already rented studio in an established master community. While its pricing position appears highly favorable relative to district asking medians, much of that gap is driven by building age differences. Due diligence should focus on validating the tenancy contract, building maintenance history, and service charge schedules.",
+    "credibility_flag": "normal"
   }
 }
