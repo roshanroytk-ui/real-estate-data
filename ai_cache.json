@@ -3499,5 +3499,64 @@
     ],
     "investment_summary": "The listing is priced below recent comparable closed DLD transactions in Dubai Marina. However, this pricing position is largely rationalized by the unit being encumbered with a tenant through late 2026 alongside the building's specific secondary-market standing. It offers an entry point into Dubai Marina for yield-focused investors comfortable holding a long-term locked tenant, though capital flexibility remains restricted until the lease expires.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/access-to-dubai-mall-high-roi-downtown-2-731983/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/23/semi-furnished-2br-apartment-veda-by-au-2-201557/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/10/luxury-residence-full-marina-views-smar-2-243187/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/eois-open-beside-creek-mall-new-launch-2-927767/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/13/sea-views-fully-furnished-vacant-2-204577/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/26/high-floor-incredible-views-best-priced-2-742571/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/23/lowest-price-brand-new-green-belt-view-2-123523/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/20/luxury-4br-villa-elie-saab-interiors-re-2-317009/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/cozy-studio-stunning-views-ideal-locati-3-838423/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/20/best-price-op-deal-spacious-2-195999/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/cozy-studio-stunning-views-ideal-locati-3-838423/_investment_analysis_exceptional": {
+    "quality_context": "Gardenia Bay is a master-planned waterfront community by Aldar on Yas Island, designed around wellness and sustainable urban living with access to canal views, parks, and major Yas Island leisure attractions. At 470 sqft, this studio unit offers a functional layout suitable for end-users or short-term holiday home rentals upon handover.",
+    "risk_flags": [
+      "Data Limitation Warning: Confirmed closed-transaction data from government registries is unavailable for this segment. This comparison relies strictly on active seller asking prices, which often carry a premium and may not reflect actual executed sale prices.",
+      "Off-plan completion & handover dependencies typical of ongoing developments in the area.",
+      "Incomplete listing description text suggests a hasty or templated advertisement upload."
+    ],
+    "investment_summary": "This studio is listed meaningfully below the median asking price of active competing seller listings in the Yas Island area. While this positioning appears attractive for an entry-level waterfront asset with strong future rental potential, investors should benchmark against original developer pricing rather than relying solely on asking prices from active sellers. Overall, the property presents a solid entry point into the Yas Island market subject to verification of payment plan status.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/31/canal-view-furnished-prime-location-2-228248/_investment_analysis_good_value": {
+    "quality_context": "Scala Tower is an established, mid-tier residential development in Business Bay. While the broader Business Bay area median is elevated by newer ultra-luxury and high-end canal-side developments, Scala Tower offers an entry-level residential option with functional layouts and furnished accommodations catering to high tenant demand in a central commercial hub.",
+    "risk_flags": [
+      "Scala Tower is an older building, which may carry higher service charges, potential maintenance issues, and slower capital growth compared to newly handed-over projects in Business Bay.",
+      "The truncated listing text lacks explicit details regarding current tenancy status, service charge breakdown, or direct canal view verification."
+    ],
+    "investment_summary": "This unit is positioned at a clear discount relative to both recent closed DLD transaction medians in Business Bay and active market asking prices. This softer valuation is primarily attributable to the building's age and positioning relative to prime luxury towers. For yield-focused buyers, the lower cost basis combined with a ready, furnished single-bedroom footprint presents an attractive gross rental yield opportunity.",
+    "credibility_flag": "normal"
   }
 }
