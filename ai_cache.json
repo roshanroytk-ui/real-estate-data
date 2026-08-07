@@ -3703,11 +3703,11 @@
     "credibility_flag": "normal"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/upgraded-5-star-facilities-palm-jumeira-2-243083/": {
-    "layout_type": "serviced",
+    "layout_type": "standard",
     "quality_tier": "ultra_luxury"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/15/best-price-burj-khalifa-view-vacant-lux-2-304120/": {
-    "layout_type": "serviced",
+    "layout_type": "standard",
     "quality_tier": "ultra_luxury"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/full-sea-view-corner-unit-high-floor-2-276546/": {
@@ -3743,94 +3743,54 @@
     "quality_tier": "premium"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/28/luxury-family-villa-package-5a-jumeirah-2-822619/_investment_analysis_exceptional": {
-    "quality_context": "The property is a spacious four-bedroom villa offering a generous built-up footprint. From a pricing perspective, it is positioned well below active market asking medians for the segment. Please note explicitly that this comparison is evaluated against other sellers' active asking prices only, as no confirmed Dubai Land Department (DLD) closed-transaction data is available for this segment.",
+    "quality_context": "The property offers a large 4-bedroom layout with extensive square footage. A major contextual issue is the contradiction between the listed location area (Emirates Hills) and the title/description, which identifies the unit as being in Package 5A, Jumeirah Park. Please note that market comparison data for this segment relies exclusively on active seller asking prices rather than confirmed Dubai Land Department (DLD) closed transactions.",
     "risk_flags": [
-      "Location Mismatch: The listing title and description state Package 5A in Jumeirah Park, whereas the metadata categorizes the property under Emirates Hills.",
-      "Credibility & Pricing Risk: The asking price per square foot sits substantially lower than active seller asking prices in the comparison set, pointing to possible bait advertising or location misclassification.",
-      "Lack of Sold Data: Valuation comparison relies strictly on asking prices from active listings rather than verified, completed DLD sale transactions."
+      "Geographic mismatch: Title and description state Jumeirah Park Package 5A, whereas the listed area is tagged as Emirates Hills.",
+      "Absence of official DLD transaction data; evaluation is limited to active seller asking prices, which may not reflect actual market value.",
+      "Significantly lower asking price compared to active market medians, suggesting a potential bait listing, miscategorization, or data input error."
     ],
-    "investment_summary": "On paper, the property appears heavily discounted relative to peer asking prices. However, the significant location contradiction between Jumeirah Park and Emirates Hills, combined with a price point far beneath market asking medians, strongly suggests this listing may be mislabeled or unverified. Investors should proceed with heightened caution and verify the underlying title deed and physical community prior to taking any further steps.",
+    "investment_summary": "The listing is priced substantially below current active asking medians in the segment. However, because comparison data is limited strictly to active asking prices rather than confirmed sold transactions, and given the conflicting location details between Emirates Hills and Jumeirah Park, the listing carries high risk of being inaccurate or misleading. Investors must verify the authentic location, title deed, and physical listing details before conducting financial modeling.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/5/high-roi-rented-great-investment-2-288171/_investment_analysis_exceptional": {
+    "quality_context": "Located in Gardenia 2 within Al Barsha South 4, this studio offers a generous footprint for its category. Please note that no official Dubai Land Department (DLD) closed-transaction data is available for this segment; all market comparisons are drawn strictly against active seller asking prices rather than confirmed sold transactions.",
+    "risk_flags": [
+      "Lack of historical DLD transaction data requires relying on seller asking prices rather than verified, executed sales prices.",
+      "The asking price sits substantially lower than peer listings in the area, raising the risk of an unverified or clickbait listing designed to generate leads.",
+      "Existing tenancy terms, current rental yield, and eviction notices must be independently audited to confirm advertised investment returns."
+    ],
+    "investment_summary": "The property is priced well below active seller asking medians in Al Barsha South 4, offering strong theoretical yield potential for an already-rented unit. However, because the price is significantly lower than comparable market listings and official DLD historical sales data is unavailable, buyers should exercise caution and verify listing authenticity, physical condition, and title deed status before proceeding.",
     "credibility_flag": "suspicious"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/exclusive-i-investor-deal-i-huge-terrac-2-135769/_investment_analysis_exceptional": {
-    "quality_context": "This studio unit in Al Barsha South 4 features a total area of 513 sqft, including a terrace. The unit is priced significantly below the median asking price of active listings in the same micro-market. However, note explicitly that no DLD closed-transaction data is available for this segment, meaning this comparison is strictly against other sellers' asking prices and not confirmed historical sales. The variance against the asking median may be driven by the unit layout—where a large terrace reduces indoor living space—or by premium off-plan asking prices inflating the area's overall asking median.",
+    "quality_context": "This studio apartment in Al Barsha South 4 features a total footprint of 513 sqft, which includes a large private terrace as highlighted in the listing. The unit is currently tenanted, offering immediate cash flow potential for income-focused buyers. Please note that official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment; therefore, this valuation is assessed strictly against active seller asking prices in the area. The property is positioned well below the asking-price median for comparable active listings in the neighborhood, though the inclusion of significant terrace area likely dilutes the overall price-per-square-foot figure.",
     "risk_flags": [
-      "Lack of DLD closed-transaction data for this segment prevents benchmarking against actual sold prices.",
-      "A significant portion of the 513 sqft footprint dedicated to a terrace reduces total indoor usable area, which may impact tenant preference.",
-      "Tenancy contract terms, current rental yield, and lease expiry dates require independent verification to confirm the claimed ROI.",
-      "Substantial gap below active asking medians warrants verifying listing availability and property condition to ensure it is not a lead-generation listing."
+      "No DLD historical closed-transaction data is available for this segment, meaning market comparison relies solely on non-validated seller asking prices.",
+      "The large terrace area distorts the price-per-square-foot metric, as outdoor space commands a lower market value than usable indoor living space.",
+      "The extreme price gap relative to neighboring active asking prices raises the risk that this may be a bait listing or contain outdated unit details.",
+      "Existing tenancy terms need thorough review to verify actual rental yield, lease expiration, and compliance with RERA eviction or rent-increase rules."
     ],
-    "investment_summary": "The unit offers an accessible entry point in Al Barsha South 4, positioned attractively relative to active seller expectations in the surrounding area. Being tenanted provides immediate rental income, making it a viable candidate for yield-focused investors, provided the layout, tenancy terms, and actual indoor dimensions align with investment requirements.",
-    "credibility_flag": "normal"
-  },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/2/10-discount-4-dld-waiver-10-down-paymen-2-102923/_investment_analysis_exceptional": {
-    "quality_context": "This 2-bedroom apartment in Al Barsha South 4 provides a spacious layout of 1,317 sqft and is marketed with attractive developer incentives, including a partial DLD waiver and a low down payment structure. Please note that no official DLD closed-transaction data is currently available for this specific segment; this comparison relies strictly on active seller asking prices rather than confirmed historical transaction records.",
-    "risk_flags": [
-      "Lack of verified DLD closed-transaction data prevents verification against actual historical sales prices in this segment.",
-      "The asking price per square foot is substantially lower than prevailing seller asking medians, raising concerns of potential bait marketing or outdated promotional pricing.",
-      "Developer incentives such as DLD waivers and low down payments are often tied to off-plan developments, carrying inherent delivery and construction timeline risks."
-    ],
-    "investment_summary": "The property is qualitatively positioned well below prevailing market asking rates in Al Barsha South 4, making it look exceptionally attractive on paper. However, given the absence of confirmed DLD transaction benchmarks and the substantial gap between this listing and competing asking prices, there is a heightened likelihood that this represents a promotional lead-generation listing. Buyers should independently verify unit availability, exact specifications, and total cash outflow before making commitments.",
+    "investment_summary": "On paper, this tenanted studio offers an attractive entry point and immediate yield potential, sitting substantially below active listing medians in Al Barsha South 4. However, because market benchmark data is limited exclusively to seller asking prices without DLD sold-transaction validation, and given the significant impact of terrace square footage on pricing, investors must independently verify unit availability, net internal area, and tenancy contracts.",
     "credibility_flag": "suspicious"
   },
   "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/6/grt-deal-2-br-with-maid-near-to-mall-en-2-323982/_investment_analysis_exceptional": {
-    "quality_context": "The unit features a generous layout spanning 1,492 sqft with a 2-bedroom plus maid's room configuration. Please note that market positioning is evaluated strictly against active seller asking prices in the segment, as official DLD closed-transaction data is currently unavailable for direct comparison.",
+    "quality_context": "The unit offers a generous 1,492 sqft layout for a 2-bedroom plus maid's room configuration. Qualitatively, the property is priced substantially below the market median of active seller asking prices for the segment. Please note that no Dubai Land Department (DLD) closed-transaction data is available for this specific segment; this comparison is drawn strictly against current seller asking prices, not confirmed sold transactions.",
     "risk_flags": [
-      "Location discrepancy: Stated location in the header is Al Barsha South 4, but the description identifies the building as Joya Verde Residences in Jumeirah Village Circle (JVC).",
-      "Price discrepancy / Bait concern: Stated per-sqft price sits exceptionally far below active area asking prices, indicating a probable clickbait listing or incorrect property details.",
-      "Data limitation: Valuation comparison relies entirely on active seller asking prices rather than verified DLD sales data."
+      "Geographic Misrepresentation: The listing title/metadata specifies Al Barsha South 4, while the description explicitly places the property in Joya Verde Residences within Jumeirah Village Circle (JVC).",
+      "Bait Listing Indicators: The combination of a location mismatch and pricing positioned exceptionally far below prevailing seller asking medians strongly points to an inaccurate or non-genuine listing.",
+      "Data Limitation: Absence of DLD historical closed-transaction records means valuation relies entirely on unverified seller asking benchmarks."
     ],
-    "investment_summary": "On paper, the property appears to be priced at a dramatic discount relative to active asking prices in the market segment. However, the listing exhibits critical credibility issues, specifically a severe geographical conflict between the listed area (Al Barsha South 4) and the described development (Joya Verde Residences in JVC). Given this misrepresentation alongside a price level far below comparable seller listings, this listing is likely unverified or a bait advertisement and should not be treated as a viable investment opportunity without extensive verification. Note that all comparative benchmarks reflect current asking prices rather than confirmed DLD closed transactions.",
+    "investment_summary": "On paper, the property presents a substantial qualitative discount compared to active market asking medians along with a desirable layout including a maid's room. However, the listing exhibits critical credibility issues, most notably a severe location contradiction between Al Barsha South 4 and JVC (Joya Verde Residences). Due to the high probability of this being an erroneous or bait listing, investors should exercise extreme caution and verify physical availability and title deed details before proceeding.",
     "credibility_flag": "suspicious"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/luxury-living-modern-finishes-ready-to--2-188956/_investment_analysis_good_value": {
-    "quality_context": "Located in Jumeirah Village Circle (JVC), a highly liquid community popular among tenant demographics for its central location and strong rental yields. The property offers a spacious layout for a one-bedroom unit in this cluster. Positioned qualitatively below both historical DLD closed transaction medians and active market asking levels, the unit represents an entry point below prevailing market benchmarks, offering potential for elevated gross rental yields if maintained well.",
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/investor-deal-prime-location-premium-am-2-540216/_investment_analysis_below_market": {
+    "quality_context": "Seasons Community (Autumn 2) is a low-rise, mature development located in Jumeirah Village Circle (JVC). While JVC has seen substantial modern redevelopment, Seasons Community represents an older, entry-level segment of the master project. Properties in this specific cluster historically trade at a discount relative to the wider JVC market due to building age, finishing standards, and developer track record.",
     "risk_flags": [
-      "Building and developer details are omitted from the listing summary, necessitating independent verification of building age, facilities, and developer reputation.",
-      "JVC exhibits significant variance in build quality, service fees, and property management standards across different developments.",
-      "A wide spread between active asking prices and actual closed DLD transactions in JVC highlights market inflation among live listings, making actual registered sales the primary benchmark for fair valuation."
+      "Building age and historical maintenance issues associated with Seasons Community cluster",
+      "Lower capital appreciation prospect compared to modern or recently completed JVC stock",
+      "Potential risk of higher ongoing maintenance costs impacting net yield"
     ],
-    "investment_summary": "This listing offers a compelling value-add entry for cash-flow-focused investors, positioned favorably compared to past closed sales in Jumeirah Village Circle. The unit's generous footprint enhances tenant demand potential. Investors should verify the specific building identity, physical condition, and current service charges before making an offer.",
-    "credibility_flag": "normal"
-  },
-  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411655/_investment_analysis_good_value": {
-    "quality_context": "Plaza Residences is a mature development situated in Jumeirah Village Circle. This unit offers an unusually expansive footprint for a one-bedroom layout, well above community averages. On a rate-per-square-foot basis, the unit is priced below recent verified DLD transaction medians in the area, a positioning influenced in part by its larger total footprint compressing per-sqft pricing.",
-    "risk_flags": [
-      "Currently rented status limits immediate end-user occupancy and subjects potential rent adjustments to RERA index caps.",
-      "An oversized square-footage inflates the overall purchase price relative to standard-sized 1-bedroom units, which could moderate resale liquidity.",
-      "Older building profile compared to newer deliveries in JVC may result in higher ongoing maintenance costs or service charges."
-    ],
-    "investment_summary": "Priced favorably relative to real closed sales in the surrounding market, this property presents an attractive entry point on a per-square-foot basis. The existing tenancy guarantees immediate cash flow upon acquisition, making it a compelling option for yield-oriented investors, provided the current passing rent delivers an acceptable return relative to current market rent potential.",
-    "credibility_flag": "normal"
-  },
-  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411350/_investment_analysis_good_value": {
-    "quality_context": "Plaza Residences is a mature, established residential development situated centrally in Jumeirah Village Circle (JVC). At nearly 890 square feet, this one-bedroom apartment provides a significantly larger floor plan than modern handover units in the area. On a square-foot basis, the asking price is positioned comfortably below recent closed DLD transactions for comparable properties, and at a deep discount relative to general asking listings across JVC. This favorable per-square-foot valuation is aided by the generous unit footprint, which naturally tempers the per-sqft rate compared to smaller units.",
-    "risk_flags": [
-      "Existing tenancy constraints: The unit is currently rented, which restricts immediate end-user occupancy and subjects rental income increases to standard legal notice periods and rental index caps.",
-      "Building age and upkeep: As an older completed community in JVC, capital allocation for ongoing property maintenance and potential wear-and-tear should be factored into overall ownership costs.",
-      "Resale liquidity for large layouts: One-bedroom units with high total square footage can carry a higher absolute price tag, which may slightly narrow the buyer pool compared to smaller entry-level investor units."
-    ],
-    "investment_summary": "This property presents a solid yield-focused option for investors looking to acquire a spacious layout in JVC at a price point favorably below recent historical transaction medians. The presence of an active tenant guarantees immediate rental income from day one, though buyers should perform due diligence on the current rental agreement to confirm whether the yield matches present market performance.",
-    "credibility_flag": "normal"
-  },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/high-roi-vacant-ready-to-move-best-pric-2-234257/_investment_analysis_market_rate": {
-    "quality_context": "Located in Villa Pera within Jumeirah Village Circle (JVC), this unit offers a larger-than-average floor plan for a one-bedroom apartment in the area. Villa Pera is an established, low-rise residential building, and the vacant status allows for immediate end-use or prompt tenant placement.",
-    "risk_flags": [
-      "Priced above recent actual closed transaction medians registered with the DLD, meaning it does not represent an absolute discount against historical sold data.",
-      "Older building age compared to newly completed or off-plan JVC inventory, which may carry higher maintenance considerations over time.",
-      "Wider market asking prices in JVC are heavily elevated compared to completed transactions, requiring reliance on actual sold benchmarks rather than listing prices."
-    ],
-    "investment_summary": "This spacious 1-bedroom unit is priced higher than historical closed sales in the area, but sits lower than the general active asking listing pool. The property's generous square footage and vacant state make it an attractive option for end-users seeking space or investors looking to achieve immediate rental yields without handling tenant evictions.",
-    "credibility_flag": "normal"
-  },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/28/spacious-layout-community-view-vacant-2-316134/_investment_analysis_good_value": {
-    "quality_context": "Plaza Residences in Jumeirah Village Circle offers generous living space, with a footprint noticeably larger than typical modern one-bedroom layouts in the community. As an established, older development, units in this building historically trade at lower rates compared to newly handed-over modern stock. The vacant status provides immediate flexibility, allowing an investor to lease out at current market rents or an end-user to move in immediately.",
-    "risk_flags": [
-      "Building age and maintenance: Older developments in JVC may face higher service charges or require ongoing property upkeep compared to newer completions.",
-      "Abundant community supply: Ongoing handovers across Jumeirah Village Circle create continuous rental competition.",
-      "Diminishing rental return per square foot: Extra-large layouts do not always command proportionally higher rent, which can impact total yield relative to unit size."
-    ],
-    "investment_summary": "This unit is offered at a favorable rate relative to recent closed sales for one-bedroom apartments in the area, and positioned far below typical active asking prices across the broader community. The price positioning reflects the building's mature status rather than an unrealistically discounted bait offer, making it an attractive value-driven acquisition for yield-focused investors or end-users seeking spacious living.",
+    "investment_summary": "The property is listed meaningfully below recent closed transaction medians registered with the DLD for the broader area. However, this lower pricing reflects the specific building's market positioning within an older, budget-tier development rather than a mispriced anomaly. It presents a low capital threshold for cash-flow-focused investors, but requires thorough physical inspection and verification of service charges prior to commitment.",
     "credibility_flag": "normal"
   }
 }
