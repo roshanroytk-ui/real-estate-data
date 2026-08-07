@@ -3842,5 +3842,55 @@
     ],
     "investment_summary": "Qualitatively, an extended Type 4E corner unit with lake views in The Springs represents a popular and highly liquid asset layout. The current asking price per square foot positions this unit significantly below competing seller asking prices in the segment. However, due to the severe location mismatch (Emirates Hills vs. The Springs 15) combined with a price point positioned vastly beneath market listing medians, this property carries high risk of being a non-viable or bait advertisement. Prospective buyers must explicitly note that this comparison is conducted solely against active sellers' asking prices, as official DLD closed-transaction data is unavailable for this segment.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/casagrand-hermina-dubai-islands-waterfr-2-916846/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/luxury-waterfront-apartments-casagrand--2-244682/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/9/exceptional-waterfront-living-refined-l-3-117154/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/22/upscale-waterfront-modern-living-refine-3-286904/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/townhouse/2026/7/14/elegant-living-single-row-middle-premiu-3-314220/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/8/custom-built-vacant-now-5-bedroom-villa-2-113242/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/8/exclusive-4-bed-large-internal-location-2-164888/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/8/exclusive-vacant-large-plot-view-today-2-169776/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/8/exclusive-internal-location-vacant-3br-2-376883/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/7/exclusive-huge-corner-plot-upgraded-2-142981/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/1-monthly-pool-view-3-years-post-handov-2-257168/_investment_analysis_below_market": {
+    "quality_context": "Located in the emerging waterfront master development of Palm Deira, this 1,262 sqft two-bedroom residence offers resort-style living with pool and sea views, complemented by luxury amenities such as an infinity pool, spa, and fitness facilities. The listing advertises a buyer-friendly payment plan structured around 1% monthly installments and a three-year post-handover schedule.",
+    "risk_flags": [
+      "Pricing structure anomaly: Post-handover payment plans generally carry a price premium relative to cash market transactions, whereas this listing is advertised well below standard closed sales benchmarks.",
+      "Master development execution and timeline risks associated with newly expanding waterfront communities.",
+      "High service charge exposure potential typical of luxury waterfront developments with extensive amenity offerings."
+    ],
+    "investment_summary": "The property is positioned substantially below both DLD registered transaction medians and active market ask prices. On paper, the combination of a qualitative discount and an extended post-handover payment plan provides an exceptionally attractive cash-flow profile for investors. However, because extended payment terms typically command a premium rather than a steep discount compared to cash baselines, investors should verify the listing's authenticity and actual developer inventory availability before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
