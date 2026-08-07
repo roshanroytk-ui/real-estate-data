@@ -3792,5 +3792,55 @@
     ],
     "investment_summary": "The property is listed meaningfully below recent closed transaction medians registered with the DLD for the broader area. However, this lower pricing reflects the specific building's market positioning within an older, budget-tier development rather than a mispriced anomaly. It presents a low capital threshold for cash-flow-focused investors, but requires thorough physical inspection and verification of service charges prior to commitment.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/7/27/mortgageable-g2-corner-unit-2-201819/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/lagoon-view-1br-premium-q2-2027-handove-2-121034/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/3/17/payment-plan-magnificent-studio-higher--2-225276/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/modern-1-bedroom-prime-location-excelle-2-805689/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/25/luxury-golf-view-high-floor-best-price--2-330578/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/5/modern-1bhk-high-floor-1-monthly-2-206054/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/9/luxury-studio-golden-woods-albab-views--2-292002/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/11/unique-design-high-quality-finish-15-dp-2-103992/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/11/corner-water-stream-facing-big-plot-sin-2-127291/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/11/corner-lagoon-facing-big-plot-15-dp-356-2-536631/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/28/type-4e-corner-plot-extended-2-222494/_investment_analysis_exceptional": {
+    "quality_context": "The property is an extended Type 4E two-bedroom villa with a study, en-suite bathrooms, and a corner plot offering lake and skyline views. Although the listing title metadata categorizes the location under Emirates Hills, the property description clarifies that it is situated in Springs 15 (a sub-community within the broader Emirates Living development).",
+    "risk_flags": [
+      "Geographical misattribution: Listed as Emirates Hills in the metadata despite being a standard Type 4E townhouse layout located in The Springs 15.",
+      "Potential non-genuine listing: The asking price per square foot sits dramatically below market asking medians, pointing to a potential bait listing or data entry error.",
+      "Absence of DLD transaction data: Market comparison relies entirely on active asking prices without confirmed historical closed sales data."
+    ],
+    "investment_summary": "Qualitatively, an extended Type 4E corner unit with lake views in The Springs represents a popular and highly liquid asset layout. The current asking price per square foot positions this unit significantly below competing seller asking prices in the segment. However, due to the severe location mismatch (Emirates Hills vs. The Springs 15) combined with a price point positioned vastly beneath market listing medians, this property carries high risk of being a non-viable or bait advertisement. Prospective buyers must explicitly note that this comparison is conducted solely against active sellers' asking prices, as official DLD closed-transaction data is unavailable for this segment.",
+    "credibility_flag": "suspicious"
   }
 }
