@@ -3892,5 +3892,145 @@
     ],
     "investment_summary": "The property is positioned substantially below both DLD registered transaction medians and active market ask prices. On paper, the combination of a qualitative discount and an extended post-handover payment plan provides an exceptionally attractive cash-flow profile for investors. However, because extended payment terms typically command a premium rather than a steep discount compared to cash baselines, investors should verify the listing's authenticity and actual developer inventory availability before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/2/large-5br-independent-villa-with-baseme-2-858117/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/25/stand-alone-single-row-large-plot-2-319031/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/17/branded-luxury-living-prime-view-2-312656/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/5/burj-khalifa-view-luxury-branded-big-ba-2-538209/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/11/5brfamilymaids-full-burj-view-mortgage--2-656489/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/1/exclusive-true-corner-single-row-2-306273/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/2/16/close-to-the-bay-ready-now-4-bedroom-2-184662/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/investor-deal-prime-location-premium-am-2-540216/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/waterfront-living-premium-growing-commu-2-249011/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/contemporary-premium-waterfront-living-2-219638/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/8/motivated-seller-serviced-good-roi-2-162681/_investment_analysis_good_value": {
+    "quality_context": "Situated in FIVE Jumeirah Village Circle, a high-profile luxury serviced hotel tower known for strong short-term tourism demand and premium lifestyle amenities. The listing is priced favorably below recent closed transaction medians in the surrounding area, presenting a competitive entry point when compared against both historical DLD sales data and active market listings.",
+    "risk_flags": [
+      "High ongoing service charges and hotel operator management fees typical of the FIVE brand, which significantly affect net ROI.",
+      "Yield exposure to short-term hospitality market trends, seasonal occupancy variations, and operator pool revenue-sharing models.",
+      "Below-median pricing warrants verification of unit availability, physical condition, and confirmation of any outstanding service fee liabilities."
+    ],
+    "investment_summary": "This studio offers an attractive entry into a prime hospitality-led asset in JVC. Because the asking rate sits below recent benchmark closed sales in the area, it holds strong potential for gross rental yields—particularly in the short-term rental market. Investors should verify net income projections after factoring in operator cuts and high maintenance fees.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/25/new-to-market-investor-deal-elegant-uni-2-332156/_investment_analysis_market_rate": {
+    "quality_context": "Located in Shamal Residences 2, Jumeirah Village Circle, this studio stands out for its generous 548 sqft layout, which is significantly larger than the standard studio footprint typical of JVC developments. Shamal Residences is an established, low-rise residential project that appeals to tenants seeking functional, spacious living spaces within a well-connected suburban community.",
+    "risk_flags": [
+      "As an established older building, it faces competition from newer, higher-end developments recently handed over in JVC.",
+      "Service charges and building maintenance standards must be audited to ensure net rental yield sustainability.",
+      "Larger studio square footage can increase the overall entry ticket price relative to smaller micro-studios in the area."
+    ],
+    "investment_summary": "This property is priced attractively below historical closed DLD transaction prices in the area, as well as sitting far below active seller asking prices. The generous floor plan for a studio unit enhances tenant appeal and rental liquidity. Assuming the unit is in good physical condition and current service charges are reasonable, it offers a strong value proposition for yield-focused investors in JVC.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/fully-furnished-vacant-high-floor-2-146413/_investment_analysis_market_rate": {
+    "quality_context": "The property is a high-floor studio unit offered in vacant condition and fully furnished, allowing for immediate tenancy or short-term holiday home operations without requiring upfront furniture expenditure.",
+    "risk_flags": [
+      "Location metadata conflict: Listed under Jumeirah Village Circle (JVC), whereas the description specifies Al Jawhara Tower located in Jumeirah Village Triangle (JVT).",
+      "Truncated description text indicating potentially unverified or automated listing generation."
+    ],
+    "investment_summary": "The unit is priced in line with actual closed registration data from the Dubai Land Department for comparable studios, offering a far more grounded entry point than the wider active market asking prices. Being vacant and fully furnished, it provides immediate revenue-generating potential without initial capital outlay for fit-out.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/fully-furnished-high-quality-highfloor-2-102036/_investment_analysis_market_rate": {
+    "quality_context": "This listing is a fully furnished high-floor studio hotel apartment in The One at Jumeirah Village Circle. In terms of positioning, the unit is priced below recent actual closed DLD transactions for similar properties in the submarket, and significantly below the broader active market asking prices. The fully furnished hotel apartment setup offers turnkey convenience, eliminating upfront furnishing capital expenses.",
+    "risk_flags": [
+      "Hotel apartment operational structure: revenue-sharing agreements, restricted owner personal use, and potential hotel management fees can impact net yield.",
+      "Higher recurring service charges and maintenance fees are common in hotel-serviced buildings compared to standard residential blocks.",
+      "High density of studio units across JVC creates strong rental competition, which can cap rental growth.",
+      "Financing and resale liquidity for hotel-managed apartments can be more restrictive than traditional residential units."
+    ],
+    "investment_summary": "This listing presents an attractive entry price, positioned favorably below recent closed DLD transaction benchmarks in JVC. Its turnkey nature and location make it well-suited for hands-off yield seekers or short-term holiday home strategies. Investors should thoroughly review the building's operator terms, service charges, and historical occupancy rates before proceeding.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/ready-to-moveinvestment-opportunity-2-682972/_investment_analysis_below_market": {
+    "quality_context": "Located in Sulafa Tower within the northern corridor of Dubai Marina, this property features a generous floor plan for a one-bedroom apartment. Sulafa Tower is a high-density, mid-tier residential skyscraper offering quick access to Sheikh Zayed Road, Marina Walk, and Media City. While positioned in a prime district, the tower itself sits in a mid-market segment and typically trades below the broader Marina average due to its density, age, and building classification.",
+    "risk_flags": [
+      "High-density tower environment leading to potential traffic congestion near the exit routes and longer elevator wait times during peak hours.",
+      "Capital appreciation potential may lag behind prime or newly handed-over waterfront developments in Dubai Marina.",
+      "Historical maintenance performance and service charge levels should be audited prior to final purchase."
+    ],
+    "investment_summary": "The listing is priced favorably below both the recent DLD transacted median and active asking prices for one-bedroom units in Dubai Marina. The spacious layout paired with a lower entry rate creates a compelling opportunity for income-focused investors looking to achieve strong gross rental yields, though long-term value growth will be influenced by the building's mid-tier positioning within the community.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/8/upgraded-no-fire-damage-investor-deal-2-107482/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom apartment in Marina Pinnacle offers a generous footprint compared to standard 1-bedroom units in Dubai Marina, featuring an upgraded interior, two bathrooms, and a partial sea view. However, Marina Pinnacle is recognized as a budget-tier tower within the community, which inherently trades at a discount compared to prime Dubai Marina developments.",
+    "risk_flags": [
+      "The listing explicitly notes the unit is 'undamaged by fire', pointing to historical building safety incidents in the tower that may impact building insurance, maintenance costs, and buyer perception.",
+      "Marina Pinnacle suffers from well-documented operational challenges, including elevator congestion, high-density occupancy, and lower building management standards.",
+      "The massive price disparity compared to recent closed DLD transactions in Dubai Marina raises concerns of a potential bait-and-switch listing or underlying building distress."
+    ],
+    "investment_summary": "The property is priced meaningfully below both recent registered DLD sales and active market listings in the area. While the low cost per square foot offers a low barrier to entry and strong gross yield potential, capital growth prospects are constrained by the building's reputation and quality tier. Rigorous due diligence on building maintenance history and service charge arrears is strongly advised.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/24/huge-plot-4-bedroom-maids-drivers-room-2-561312/_investment_analysis_exceptional": {
+    "quality_context": "The unit offers a 4-bedroom layout featuring dedicated driver and maid quarters situated on a large plot. From a market positioning standpoint, the unit is listed at an asking rate per square foot well below the current median asking price of active listings in the area. Note that this comparison is based strictly on active sellers' asking prices as no official DLD closed-transaction data is currently available for this specific segment.",
+    "risk_flags": [
+      "Location mismatch: Listed area is designated as Emirates Hills, but description text specifies a Type 2 villa in Meadows 9.",
+      "Potential bait listing or miscategorization: The significant discount against Emirates Hills asking rates is likely caused by mislabeling a Meadows 9 property into a premium neighborhood segment.",
+      "Lack of verified DLD transaction data requires reliance solely on seller asking benchmarks rather than confirmed sale prices."
+    ],
+    "investment_summary": "While the property appears heavily discounted relative to active asking prices in its listed master community, this advantage is distorted by an explicit location conflict in the description. The property is described as a Meadows 9 villa rather than an Emirates Hills residence, which naturally commands a different valuation. Due to this misrepresentation, the listing requires careful verification prior to any investment consideration.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/jvc-studio-for-sale-vacant-nov-balcony--2-580284/_investment_analysis_exceptional": {
+    "quality_context": "Located in May Residence within Jumeirah Village Circle (categorized under Al Barsha South 4), this studio represents a standard mid-tier residential option offering basic amenities such as a balcony, dedicated parking, pool, and gym access. The unit is priced qualitatively well below the median asking rate of other active listings in the surrounding area. However, it is essential to note that no DLD closed-transaction data is available for this segment; this evaluation is conducted strictly against active asking prices from other sellers, which may be elevated due to high-end or off-plan listings in the wider area, rather than confirmed sold prices.",
+    "risk_flags": [
+      "Absence of DLD closed-transaction data for this segment means pricing cannot be benchmarked against confirmed sales.",
+      "The active asking market median may be skewed upwards by newer or higher-specification projects, giving a inflated benchmark comparison.",
+      "Requires physical inspection to confirm the unit's maintenance condition and verify the stated vacancy status."
+    ],
+    "investment_summary": "This studio is positioned at a price point meaningfully below the active asking price median for the neighborhood. While this presents an accessible entry point for an income-generating asset in JVC, investors should exercise caution and conduct due diligence, as the benchmark relies solely on active listing asking prices rather than verified transaction history.",
+    "credibility_flag": "normal"
+  },
+  "https://www.bhomes.com/en/property/bh-s-290303_investment_analysis_exceptional": {
+    "quality_context": "The property is a spacious, vacant 2-bedroom apartment measuring 1,367 sqft located in Pantheon Boulevard. It features en-suite bathrooms, built-in kitchen appliances, a walk-in closet, and balcony access. The asking price per square foot is positioned substantially below the market median of active listings in the area. Note that this market benchmark is derived strictly from sellers' asking prices as no DLD closed-transaction data is available for this segment.",
+    "risk_flags": [
+      "Geographic discrepancy: The listing metadata states Al Barsha South 4, whereas the property description identifies the building in Jumeirah Village Circle (JVC).",
+      "Listing price is heavily discounted relative to active asking medians, raising concerns of a potential bait listing or inaccurate data input.",
+      "Absence of DLD registered sales data requires relying solely on asking price comparisons rather than confirmed historical transaction values."
+    ],
+    "investment_summary": "While the asset presents an appealing qualitative profile—vacant, well-proportioned, and significantly below prevailing asking rates—the geographic conflict between the listing header and description, paired with an unusually deep discount, mandates extreme caution. Due diligence is required to verify listing authenticity and genuine availability before considering an offer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/23/2-bedroom-marina-view-furnished-2-276238/_investment_analysis_exceptional": {
+    "quality_context": "Marina Pinnacle is an established high-rise tower situated in Dubai Marina, offering strong proximity to public transit, retail, and waterfront attractions. However, within the Dubai Marina master development, this specific tower is generally categorized as a budget to entry-level building, historically subject to higher density, traffic congestion around the northern precinct, and operational maintenance challenges compared to premium waterfront developments in the area.",
+    "risk_flags": [
+      "The asking price per square foot sits remarkably lower than recent DLD registered closed sales in the area, which strongly suggests either a potential bait-and-switch listing, an outdated advertisement, or severe distress.",
+      "Marina Pinnacle has a history of building-specific operational issues, including elevator delays and common area maintenance concerns, which can impact tenant retention and capital growth.",
+      "General Dubai Marina DLD median figures are heavily influenced by mid-to-luxury towers, meaning area-wide averages may overstate the intrinsic market value of units in lower-tier buildings."
+    ],
+    "investment_summary": "On paper, this unit appears to be priced at a substantial discount compared to both verified DLD transaction data and active asking prices across Dubai Marina. While this lower valuation profile offers an accessible entry point into a high-demand rental corridor, the extreme variance against market benchmarks warrants heightened caution regarding listing authenticity and building quality. Investors should verify property availability and physically inspect the unit before drawing conclusions on potential returns.",
+    "credibility_flag": "suspicious"
   }
 }
