@@ -4032,5 +4032,144 @@
     ],
     "investment_summary": "On paper, this unit appears to be priced at a substantial discount compared to both verified DLD transaction data and active asking prices across Dubai Marina. While this lower valuation profile offers an accessible entry point into a high-demand rental corridor, the extreme variance against market benchmarks warrants heightened caution regarding listing authenticity and building quality. Investors should verify property availability and physically inspect the unit before drawing conclusions on potential returns.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/8/on-the-park-ultra-luxury-living-10-dp-e-2-203109/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/luxury-waterfront-apartments-casagrand--2-203768/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/2/move-in-today-extended-internal-and-qui-2-183852/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/9/4-discount-5050-payment-plan-dld-waiver-2-742715/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/1br-creek-skyline-view-modern-layout-bo-2-112544/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/best-price-unit-direct-from-emaar-10-do-2-239533/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/next-to-dubai-square-mall-creek-tower-v-2-251120/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/townhouse/2026/7/13/hot-deal-4-bedroom-townhouse-private-po-3-308386/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/22/cheapest-price-l-near-lagoon-l-huge-plo-2-328252/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/24/open-view-hand-over-in-3-months-single--2-106538/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/investor-deal-rented-prime-location-2-930253/_investment_analysis_market_rate": {
+    "quality_context": "The listing advertises a 790 sqft 1-bedroom unit in a popular residential segment. Based on actual closed registration data, the unit's per-square-foot asking price is positioned noticeably above the median for recently completed transactions in the recorded area, despite remaining lower than the surrounding active asking prices from other sellers.",
+    "risk_flags": [
+      "Location Mismatch: Metadata assigns the property to Al Barsha South 4, whereas the listing text identifies it as Fortunato 1 in Jumeirah Village Circle (JVC).",
+      "Pricing vs. Real Transactions: Asking rate per square foot is elevated compared to historical DLD closed sales benchmarks.",
+      "Incomplete Listing Data: Description text cuts off abruptly, reflecting low quality control by the agency."
+    ],
+    "investment_summary": "This listing carries a high credibility risk due to a direct conflict between its listed area metadata and the specific building named in the property description. From a valuation standpoint, the asking price sits at a premium relative to real closed DLD sales in the benchmark area, even though it sits below competing active seller expectations. Investors should exercise caution and verify the true location, title deed, and actual tenancy contract details before conducting further due diligence.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/below-op-largest-layout-genuine-resale-2-281862/_investment_analysis_exceptional": {
+    "quality_context": "The property features a generous footprint for a one-bedroom apartment, advertised as the largest layout in the development. However, there is an explicit location conflict in the listing details, which cites Al Barsha South 4 in the header but refers to Roma Residences in Jumeirah Village Circle within the description. Please note that no DLD closed-transaction data is available for this segment, so this evaluation relies strictly on comparisons against active sellers' asking prices rather than confirmed sold prices.",
+    "risk_flags": [
+      "Location discrepancy: Metadata indicates Al Barsha South 4, while the description text places the property in Roma Residences, Jumeirah Village Circle.",
+      "Lack of verified DLD transaction data: Benchmark pricing reflects asking rates only, which may not represent actual realized sales values.",
+      "High risk of being an unverified or bait listing due to the substantial discount relative to active asking prices combined with conflicting location details."
+    ],
+    "investment_summary": "On paper, the unit is priced substantially below prevailing active asking prices in the adjacent market while offering an above-average footprint for a one-bedroom layout. However, serious credibility concerns arise from the conflicting geographic location details and the steep discount against active seller listings. Investors should verify listing availability and true location specs before taking further steps.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/22/best-priced-pool-view-vacant-2-264358/_investment_analysis_good_value": {
+    "quality_context": "Located in Pinnacle within Dubai Hills Estate (categorized under Hadaeq Sheikh Mohammed Bin Rashid in official land records), this vacant two-bedroom apartment offers a generous layout with two balconies and a desirable pool view.",
+    "risk_flags": [
+      "Pricing positioned notably below registered transaction benchmarks warrants physical due diligence to check for potential unit-specific defects or unpaid service charges.",
+      "Community-wide supply levels in the broader master development could influence capital appreciation trajectories."
+    ],
+    "investment_summary": "This listing is attractively positioned below both historical closed transaction medians and active market asking prices. Being vacant on transfer, it represents a compelling opportunity for end-users seeking immediate move-in capability or investors aiming to secure current market-rate rents without tenant eviction delays.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/investor-deal-prime-location-premium-am-2-540216/_investment_analysis_good_value": {
+    "quality_context": "The unit is located in Autumn 2 within Seasons Community, an older, entry-level sub-community in Jumeirah Village Circle (JVC). While JVC overall has seen strong market performance, Seasons Community represents a budget-tier segment characterized by basic finishing quality, older infrastructure, and historically lower tenant preference compared to newer modern developments in the area. Consequently, properties in this specific sub-community naturally trade at lower valuations than general JVC market averages.",
+    "risk_flags": [
+      "Building age and maintenance: Seasons Community has a record of higher wear-and-tear and potential ongoing maintenance demands compared to modern JVC stock.",
+      "Slower capital appreciation potential due to sub-community positioning and competition from newer residential handovers in JVC.",
+      "Rental yield dilution if service charges or unit repairs require ongoing capital expenditure."
+    ],
+    "investment_summary": "This apartment is listed at a price position meaningfully below recent closed DLD transactions for 1-bedroom units across JVC, as well as below active market asking medians. However, this pricing aligns with the lower-tier status of Seasons Community rather than indicating an undervalued prime property. It serves as a low-barrier entry option for yield-focused investors, provided potential maintenance overhead and sub-community quality are factored into the underwriting.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411229/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residences is an established, mid-tier development located in central Jumeirah Village Circle (JVC). At over 1,100 square feet, this one-bedroom unit features an exceptionally generous floor plan compared to modern JVC developments, where one-bedroom units are typically much smaller. Being vacant and ready for immediate possession adds appeal for both end-users wanting quick move-in and investors looking to generate immediate rental revenue.",
+    "risk_flags": [
+      "Oversized one-bedroom layouts often fail to command a proportional rental premium for extra square footage, which can suppress overall gross yield on a total cost basis.",
+      "Plaza Residences is an older development in JVC; potential buyers should inspect for building wear and tear and review service charge history.",
+      "The lower per-square-foot pricing relative to recent area sales warrants verifying unit maintenance condition and confirming there are no outstanding building liabilities."
+    ],
+    "investment_summary": "The listing is positioned favourably below historical closed DLD sales in JVC, as well as well below active market asking medians. Much of the lower per-square-foot rate is driven by its oversized layout, which naturally depresses per-foot metrics. Overall, it represents a well-priced opportunity for buyers seeking maximum living space or steady yield in an established community, provided maintenance and service charge details pass due diligence.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/24/luxury-living-modern-finishes-ready-to--2-188956/_investment_analysis_good_value": {
+    "quality_context": "Located in Jumeirah Village Circle (JVC), a highly liquid residential hub with strong rental demand among young professionals, this 1-bedroom apartment offers a generous floor plan relative to typical layout sizes in the community. The property is advertised as ready to move, providing immediate occupancy or rental potential without handover delays.",
+    "risk_flags": [
+      "The listing description is truncated and lacks details regarding the specific building name, service charges, and parking allocation.",
+      "Pricing well below active market asking medians warrants verification of building quality, age, and maintenance standards.",
+      "Ongoing completion of new residential projects across JVC creates continuous rental competition."
+    ],
+    "investment_summary": "The property is priced attractively below comparable closed DLD transactions in the area, offering a favorable entry price for investors seeking cash-flow opportunities in JVC. Given the strong tenant demand for ready 1-bedroom units in this area, the asset holds solid yield potential provided physical inspection and service charges align with expectations.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411655/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residences is an established mid-rise development in Jumeirah Village Circle known for exceptionally generous unit layouts. Featuring significantly more space than a standard one-bedroom apartment in the area, this property offers expansive living areas, though oversized layouts typically command a lower rate per square foot relative to smaller, more compact units in the same district.",
+    "risk_flags": [
+      "Oversized floor plan increases the total acquisition cost, which may limit liquidity and narrow the resale buyer pool compared to standard-sized units.",
+      "Currently rented, restricting immediate end-user occupancy and potentially capping yield optimization depending on existing lease terms and regulatory rent caps.",
+      "Older building relative to recent JVC deliveries, which could lead to higher service charge allocations or maintenance requirements over time."
+    ],
+    "investment_summary": "The unit is offered at a favorable valuation relative to both real closed DLD transactions and current seller asking prices across Jumeirah Village Circle. While the attractive rate per square foot is partially a function of its unusually large footprint, the property presents a solid income-generating opportunity for long-term investors aiming for strong space value and immediate rental cash flow.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411350/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residences is a mature, well-established residential complex within Jumeirah Village Circle. With a floor plan of nearly 888 sqft, this 1-bedroom layout is substantially larger than typical modern layouts in newer JVC developments. The property is currently listed at a clear discount relative to recent closed sales transactions recorded by the DLD, as well as prevailing active asking prices in the sub-market.",
+    "risk_flags": [
+      "Existing tenancy: Being sold with a tenant in place may restrict immediate end-user occupation and could cap short-term yield potential if the current rent is below market rates.",
+      "Capital appreciation ceiling: Older developments in JVC generally experience slower capital growth compared to newly handed-over or master-planned boutique projects.",
+      "Maintenance requirements: Older building infrastructure requires verification of service charges and building management history to avoid unexpected maintenance costs."
+    ],
+    "investment_summary": "The unit offers an attractive value entry point for yield-oriented investors, trading meaningfully below recent DLD closed transaction benchmarks for the community. Its spacious layout and active tenancy make it a strong candidate for steady rental cash flow, provided the current lease terms and eviction notices are thoroughly verified during due diligence.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/14/fully-furnished-investor-deal-spacious--2-310974/_investment_analysis_good_value": {
+    "quality_context": "Located in Summer 1 within the Seasons Community in Jumeirah Village Circle (JVC), this furnished 1-bedroom apartment offers a practical floor plan suited for tenants seeking affordable housing. Seasons Community is an established, low-rise residential development; however, it represents the entry-level segment of JVC and typically trades at a discount relative to newer or higher-specification projects across the broader master community.",
+    "risk_flags": [
+      "Building age and maintenance history in Seasons Community are known to trail newer JVC developments, which can affect tenant retention and long-term capital appreciation.",
+      "The broader JVC median is heavily skewed by recent handovers and prime inventory, meaning older developments naturally trade below community-wide transaction benchmarks.",
+      "Ongoing property management and service charges should be carefully evaluated to ensure net rental yields remain attractive."
+    ],
+    "investment_summary": "This listing is priced meaningfully below historical closed transaction medians in JVC, as well as current asking prices across active listings. Given the established broker representation and the typical market pricing for Seasons Community, the pricing position aligns with the asset's age profile rather than presenting a red flag. It serves as a budget-accessible rental play for investors prioritizing yield potential over high capital growth.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/near-metro-big-layout-capital-appreciat-2-276561/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Azizi Feirouz within the Al Furjan / Jabal Ali 1 cluster, this property benefits from proximity to the Dubai Metro line, enhancing its tenant appeal. The unit features an exceptionally generous 1-bedroom floor plan compared to market standards. On a per-square-foot basis, it is positioned well below both recent closed DLD transaction medians and broader active market asking prices, though its large overall size accounts for part of the per-foot rate variance.",
+    "risk_flags": [
+      "Significantly lower price per square foot relative to actual DLD closed transactions, which frequently indicates a bait listing or unavailable inventory.",
+      "Larger floor plan results in higher total service charges on an ongoing annual basis.",
+      "Mid-tier secondary market building requiring physical inspection to assess maintenance status and service charge history."
+    ],
+    "investment_summary": "The property presents a compelling qualitative value proposition on paper, offering high space efficiency near public transit at a valuation comfortably below real market transaction baselines. However, due to the substantial gap between the listed price and actual completed DLD sales, buyers should verify listing availability and authenticity before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
