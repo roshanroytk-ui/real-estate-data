@@ -4312,5 +4312,144 @@
     ],
     "investment_summary": "While the listing appears financially exceptional due to a price per square foot trading significantly below historical DLD market benchmarks, the drastic price discrepancy raises serious red flags regarding listing authenticity. Combined with aggressive promotional claims in the title, this property requires thorough verification before being treated as a genuine investment opportunity.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/lowest-price-luxury-living-high-roi-1br-2-289061/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/townhouse/2026/7/12/40-discount-4-bedroom-townhouse-0-commi-3-364197/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/vacantluxury-1br-prime-difc-high-roi-po-2-257788/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/31/waterfront-villa-private-beach-access-p-2-191944/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/18/furnished-burj-and-fountain-view-best-l-2-249998/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/1/private-balcony-spacious-unit-investor--2-282234/": {
+    "layout_type": "terrace",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/villahouse/2026/7/14/double-row-hand-over-soon-the-hottest-d-3-121533/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/16/spacious-layout-high-floor-fully-furnis-2-200578/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/exclusive-unit-waterfront-living-high-r-2-874185/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/22/exclusive-listing-vacant-lowest-price-f-2-316223/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/24/exclusive-lake-view-upgraded-owner-occu-2-295512/_investment_analysis_exceptional": {
+    "quality_context": "The property is listed as an upgraded, owner-occupied 4-bedroom villa featuring lake views and an exclusive listing status. Notably, there is a critical location conflict: while the listing metadata classifies the property under Emirates Hills, the description explicitly places it within Springs 9. Furthermore, market comparison is constrained by the absence of confirmed DLD closed-transaction data for this segment; all comparisons are made strictly against active sellers' asking prices.",
+    "risk_flags": [
+      "Location mismatch between metadata (Emirates Hills) and listing text (Springs 9), skewing market context.",
+      "Absence of historical DLD closed-transaction data, requiring reliance solely on seller asking prices.",
+      "Potential risk of listing miscategorization or bait marketing to position a Springs property against luxury Emirates Hills benchmarks."
+    ],
+    "investment_summary": "On paper, the listing appears priced qualitatively lower than active asking benchmarks in the assigned metadata category. However, the asset's overall credibility is heavily compromised by conflicting location details, as a Springs 9 villa carries vastly different sub-market dynamics than an Emirates Hills residence. Because evaluation is strictly based on active asking prices without DLD transaction validation, buyers must first verify the exact community and title deed before evaluating financial feasibility.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/6/spacious-layout-fully-furnished-elegant-2-221874/_investment_analysis_exceptional": {
+    "quality_context": "This property is a fully furnished, 1-bedroom, 2-bathroom apartment measuring 1,322 sqft in Celestia A, located within the Dubai South Residential District. Note that official DLD closed-transaction data is unavailable for this specific segment, meaning all pricing comparisons are made strictly against active seller asking prices rather than confirmed historical sales.",
+    "risk_flags": [
+      "Lack of verified DLD closed-transaction data; benchmarks rely entirely on active seller asking prices which may not reflect final transaction values.",
+      "Unusually large reported unit size (1,322 sqft) for a standard 1-bedroom layout in Celestia A, which often indicates significant terrace space included in the gross area or inaccurate listing data.",
+      "Pricing gap relative to asking medians suggests potential listing inaccuracy or unverified unit parameters."
+    ],
+    "investment_summary": "The unit is positioned noticeably below the broader seller asking median for the area on a per-square-foot basis. While this appears attractive on paper, the severe discrepancy in both square footage for a 1-bedroom layout and asking rate warrants careful verification. Buyers should confirm physical usability of the space and listing authenticity before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/best-price-huge-size-close-to-metro-2-264520/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom apartment in Discovery Gardens (Jabal Ali First) features a notably large floor plan well above standard sizes for the area, combined with favorable proximity to the metro. Its pricing per square foot sits substantially below both recent DLD closed sales medians and active market asking prices in the surrounding community.",
+    "risk_flags": [
+      "Pricing positioned far below recent verified DLD transaction medians presents a high risk of being a bait listing or non-genuine offer.",
+      "Older community infrastructure in Discovery Gardens can lead to higher ongoing maintenance costs and service charge obligations.",
+      "Truncated listing description lacks full details regarding bathroom count, current tenant status, and physical condition."
+    ],
+    "investment_summary": "On paper, the property offers strong capital growth and yield potential due to its generous size, location advantages, and exceptionally low entry price relative to historical market benchmarks. However, due to the severe price discrepancy versus actual sold transactions, buyers should thoroughly verify unit availability and title deed details prior to committing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/townhouse/2026/8/4/single-row-3br-end-unit-sunset-valley-3-198166/_investment_analysis_exceptional": {
+    "quality_context": "This property is a 3-bedroom end-unit townhouse situated on a single row in Sunset Valley, Reem Hills (Al Reem Island). Single-row end units are generally considered premium positions due to enhanced privacy, larger plot potential, and less immediate density compared to middle units. Please note that no official closed-transaction data is available for this segment; this assessment is based strictly on other active sellers' asking prices, which may not reflect actual completed transaction values.",
+    "risk_flags": [
+      "Lack of verified closed transaction data; comparison relies solely on unverified seller asking prices rather than confirmed sold records.",
+      "Significant price deviation from the market asking median, which strongly suggests potential bait listing practices or an inaccurate square footage calculation (such as combining plot area with built-up area).",
+      "Off-plan or newly delivered community completion and handover timeline risks associated with the development phase."
+    ],
+    "investment_summary": "On paper, this end-unit townhouse offers an attractive spatial layout and single-row orientation within a expanding master-planned community on Al Reem Island. It is positioned meaningfully below prevailing seller asking prices in the area. However, because market comparisons are restricted to asking prices rather than confirmed sold transactions, and given that the pricing gap is wide enough to raise credibility concerns, buyers should independently verify whether the listing reflects actual built-up area (BUA) and represents a genuine, active offer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/vacant-large-layout-furnished-apartment-2-698271/_investment_analysis_good_value": {
+    "quality_context": "At over 1,000 square feet, this 1-bedroom unit in 8 Boulevard Walk features a significantly larger footprint than typical Downtown 1-bedroom layouts. The apartment comes fully furnished and vacant, allowing for immediate end-user occupancy or fast rental placement. 8 Boulevard Walk is an established Emaar development offering a prime location along Mohammed Bin Rashid Boulevard, though it is an older building relative to neighboring prime towers and features standard rather than luxury finishes.",
+    "risk_flags": [
+      "Building maturity: Completed in 2008, the development may incur higher routine maintenance overhead or service charge costs relative to newer handovers.",
+      "Layout efficiency: Unusually large square footage for a 1-bedroom unit can depress rental yield efficiency on a per-square-foot basis, as total rent does not scale linearly with size."
+    ],
+    "investment_summary": "The unit is offered at a favorable entry point, positioned comfortably below recent DLD historical closed transaction medians as well as prevailing market asking prices in Downtown Dubai. Given that it is vacant on transfer and furnished, an investor can immediately execute a short-term holiday home strategy or secure a long-term tenant without additional capital expenditure or handover delays.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-downtown-dubai-burj-views-burj-views-a-125636003.html_investment_analysis_good_value": {
+    "quality_context": "Burj Views is an established Emaar development situated in Downtown Dubai, known for well-proportioned layouts and steady rental demand. This unit offers a spacious layout for a one-bedroom, complete with a guest powder room, a balcony, and a pool view. Being sold vacant offers immediate flexibility for either an end-user to move in or an investor to lease out at current market yields.",
+    "risk_flags": [
+      "Older Emaar building age compared to surrounding luxury supply, which may entail higher long-term maintenance needs or capital expenditure for upgrades",
+      "Pool view rather than a premium landmark or Burj Khalifa view, capping potential high-end rental yield premiums",
+      "Relatively high service charges typical for Downtown Dubai developments that can impact net rental yields"
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered sales transactions in the area, offering a favorable entry point into the Downtown Dubai market. It is also positioned at a substantial discount relative to active asking prices in the neighborhood. Combined with its vacant status, the unit presents a strong value proposition for buyers seeking immediate occupancy or yield generation without paying prevailing market asking premiums.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-park-heights-pinnacle-105957905.html_investment_analysis_good_value": {
+    "quality_context": "Located in Pinnacle within Park Heights, Dubai Hills Estate (categorized under Hadaeq Sheikh Mohammed Bin Rashid), this 2-bedroom unit spans approximately 1,240 sqft with pool views, two balconies, and three bathrooms. Built in 2021, the development benefits from proximity to key community infrastructure including King's College Hospital, GEMS schools, and Dubai Hills Park. The unit is vacant on transfer.",
+    "risk_flags": [
+      "High density of similar 2-bedroom apartments across the Park Heights cluster creates rental competition.",
+      "Master community service charges in Dubai Hills Estate need to be evaluated against expected gross rental revenue.",
+      "Lower-floor pool view positions can experience elevated ambient noise levels during peak recreational hours."
+    ],
+    "investment_summary": "The property is listed at a rate below recent DLD closed transaction medians for the area and at a substantial margin below current seller asking prices. Its vacant status eliminates eviction delays, allowing an investor to capitalize on current market rental rates immediately or an end-user to occupy upon transfer.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/al-wasl-al-wasl-dubai-dubai-310107559433/_investment_analysis_exceptional": {
+    "quality_context": "The property is listed at a rate substantially below the DLD transacted median for the area, as well as below current asking medians. Positioned along a major transit corridor with direct metro access, the development includes over 17 resort-style amenities ranging from pools and wellness spaces to private leisure facilities.",
+    "risk_flags": [
+      "Location misclassification: The listing is tagged under central 'Al Wasl', but the description explicitly details 'Al Wasl Gate' (a separate development near Jebel Ali/Ibn Battuta), creating a misleading benchmark comparison against prime central Dubai pricing.",
+      "Extremely compact layout: At 667 sqft, this footprint is exceptionally small for a two-bedroom unit, which may limit liveability and restrict end-user demand.",
+      "Potential bait pricing / data mismatch: The extreme variance against transacted market benchmarks is primarily driven by mislabeling the neighborhood rather than a genuine market discount."
+    ],
+    "investment_summary": "On paper, the property displays an unusually low price per square foot relative to the area's transacted medians. However, this discrepancy is driven by a geographical mismatch, as the property is located in Al Wasl Gate rather than prime Al Wasl. Prospective investors should evaluate the asset against lower-density suburban benchmarks in Wasl Gate and verify the unit's floor plan before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/11/discounted-price-l-full-dld-wavier-l-18-2-307840/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom unit features a exceptionally spacious layout compared to standard market inventory. Its asking price per square foot is positioned substantially below the active median asking price for comparable listings in the vicinity. Please note that this evaluation is based strictly on active sellers' asking prices, as official DLD closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Severe location discrepancy: Stated as Al Barsha South 4 in the location field, but the description explicitly claims a location in Jumeirah Village Circle (JVC).",
+      "Lack of confirmed DLD closed-transaction data, requiring reliance solely on active asking prices for context.",
+      "Potential risk of a bait-and-switch listing or inaccurate broker data entry given the conflicting geographical claims and heavily discounted asking rate."
+    ],
+    "investment_summary": "While the listing advertises enticing buyer incentives—such as a post-handover payment plan, a DLD fee waiver, and a generous floor plan at a price positioned well below peer asking prices—the listing itself is unreliable. The direct geographic contradiction between the listed community name and the property description strongly indicates an inaccurate or non-genuine listing. Investors should verify true location and availability before taking further steps.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/furnished-1br-apartment-sea-view-aurest-2-126391/_investment_analysis_below_market": {
+    "quality_context": "This 1-bedroom furnished unit in Auresta Tower is offered at a price per square foot positioned at a deep discount relative to both recent closed DLD transactions and broader asking prices in the surrounding area. On paper, the unit represents an entry-level price point well below prevailing market medians for similar 1-bedroom properties.",
+    "risk_flags": [
+      "Geographically impossible feature claim: 'Sea View' listed for a property in JVC, an inland community surrounded by multiple inland developments.",
+      "Location metadata mismatch between the property title/description (JVC) and the system location field (Al Barsha South 4).",
+      "Extreme price disparity below benchmark DLD sold medians strongly suggests a potential clickbait or unverified listing rather than an active, genuine offer."
+    ],
+    "investment_summary": "While the listed price per square foot appears exceptionally attractive compared to historical DLD transaction data, this listing carries severe credibility concerns. The claim of a sea view from JVC is physically impossible, and the pricing gap relative to recent market sales is typical of lead-generation bait listings. Investors should proceed with extreme caution and verify unit availability and actual property specs with a licensed broker before taking further action.",
+    "credibility_flag": "suspicious"
   }
 }
