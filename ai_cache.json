@@ -4451,5 +4451,55 @@
     ],
     "investment_summary": "While the listed price per square foot appears exceptionally attractive compared to historical DLD transaction data, this listing carries severe credibility concerns. The claim of a sea view from JVC is physically impossible, and the pricing gap relative to recent market sales is typical of lead-generation bait listings. Investors should proceed with extreme caution and verify unit availability and actual property specs with a licensed broker before taking further action.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/marina-view-furnished-high-floor-2-184614/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/3/park-facing-fully-furnished-vot-great-d-2-100395/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/6/1/corner-unit-next-to-pool-biggest-layout-2-319622/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/5/14/single-row-below-cost-price-facing-park-2-166040/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/2/exclusive-with-betterhomes-community-sp-2-305123/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/4/best-unit-marina-view-high-floor-furnis-2-548412/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/16/triplex-ph-rooftop-private-swimming-poo-2-204920/": {
+    "layout_type": "duplex",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/high-yield-investment-direct-beach-acce-2-235480/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/10/emaar-ultra-luxury-6br-mansion-lagoon-f-2-145084/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/10/ultra-luxury-4-bedroom-villa-palmiera-c-2-530686/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://www.rea.global/international/ae/2-al-sharta-st-dubai-dubai-310105787933/_investment_analysis_exceptional": {
+    "quality_context": "Located in Princess Tower within Dubai Marina, this 2-bedroom apartment features an expansive layout on a high floor with unobstructed panoramic views of Palm Jumeirah and the Emirates Golf Club. Princess Tower is a fully completed residential skyscraper offering comprehensive amenities including multiple swimming pools, sports facilities, and 24/7 concierge services. Dubai Marina is a premier, highly liquid real estate market supported by sustained short-term and long-term rental demand due to its coastal lifestyle and key transportation connectivity.",
+    "risk_flags": [
+      "Extremely low price per square foot compared to real DLD transaction medians indicates a high probability of a bait-and-switch listing or inaccurate listing data.",
+      "Large footprint for a 2-bedroom unit implies substantial absolute service charge costs, which could compress net rental yields if not factored into lease pricing.",
+      "High-density skyscraper considerations, including potential elevator wait times during peak hours and ongoing building maintenance standards in an older tower."
+    ],
+    "investment_summary": "This property is listed at a pricing level that sits dramatically below the DLD benchmark for completed sales in Dubai Marina, as well as below broader asking medians. While the asset profile—a high-floor Palm view unit in a central tower—presents strong theoretical yield and capital growth potential, the severe disparity with actual market transaction data strongly suggests the listing may not be genuine or available as advertised. Buyers should exercise caution and verify unit availability and title status prior to taking further action.",
+    "credibility_flag": "suspicious"
   }
 }
