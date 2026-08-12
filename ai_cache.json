@@ -4801,5 +4801,147 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/29/upgraded-private-pool-internal-location-2-600862/": {
     "layout_type": "standard",
     "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/7/1-bed-plus-study-prime-location-handove-2-127968/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/8/investor-deal-10-full-cash-discount-hig-2-301611/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/17/main-lake-skyline-view-extended-plot-2-340789/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/11/full-lake-view-upgraded-ef-4-beds-2-778430/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/cash-offer-0-commission-sea-view-luxuri-3-174922/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/12/240k-below-op-corner-unit-very-high-flo-2-328463/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/6/corner-unit-single-row-payment-plan-2-475414/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/waterfront-living-motivated-vacant-2-273893/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/29/luxury-upgraded-5br-type-4-private-pool-2-340245/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/burj-khalifa-view-branded-big-balcony-2-326272/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/21/ask-me-about-40-discount-easy-payment-p-2-321259/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom unit in the Elegancia project (Al Furjan / Jabal Ali 1) offers a generous layout above average unit sizes for the area. The unit's advertised rate per square foot is positioned substantially below established DLD closed transaction medians for the neighborhood, as well as below current asking rates across competing active listings.",
+    "risk_flags": [
+      "Headline advertising extreme percentage discounts is a common lead-generation tactic, suggesting the advertised rate may be a conditional starting figure rather than a direct cash price for a specific unit.",
+      "A pricing level positioned vastly beneath actual DLD transaction medians often signals a lead-capture listing or phantom inventory rather than a genuine, immediately purchasable offer.",
+      "Potential off-plan project risks including developer delivery timelines, construction milestones, and hidden costs embedded in extended payment plan structures."
+    ],
+    "investment_summary": "On paper, the property presents an exceptionally low entry price per square foot compared to validated benchmark transactions in the area. However, given the aggressive promotional claims in the title and the severe discount relative to real market transactions, this listing strongly exhibits characteristics of clickbait marketing. Investors should exercise caution and verify actual unit availability and genuine contract terms prior to committing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/19/wave-designsave-40sky-livingrare-deal-2-248962/_investment_analysis_exceptional": {
+    "quality_context": "The unit offers a generous two-bedroom layout within Jabal Ali 1. From a valuation standpoint, the listing is priced substantially below historical DLD closed transactions in the segment, as well as below current asking medians across active listings.",
+    "risk_flags": [
+      "High risk of bait-and-switch marketing or phantom listing due to extreme deviation from verified DLD transaction benchmarks",
+      "Developer completion and execution risk typical of emerging or off-plan launches in Jabal Ali 1",
+      "Future handovers in the surrounding master community could create localized supply competition and pressure rental yields"
+    ],
+    "investment_summary": "On paper, the unit presents a deeply discounted entry point compared to actual closed sales in Jabal Ali 1. However, the promotional headline claims and unrealistically low pricing relative to market standards raise strong credibility concerns. Buyers should verify exact availability, genuine price validity, and unit status before treating this as a viable transaction.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/13/fully-furnished-i-bright-studio-i-open--2-251242/_investment_analysis_market_rate": {
+    "quality_context": "Situated in La Residence within Jumeirah Village Circle (JVC), this fully furnished studio offers a well-proportioned layout with open views. The listing price per square foot is positioned favorably below recent DLD registered sold transactions in the neighborhood, while standing at a major discount compared to active seller asking prices across similar inventory. JVC continues to demonstrate sustained rental demand for ready, fully furnished studio units.",
+    "risk_flags": [
+      "High concentration of studio apartments in JVC can lead to increased tenant competition during leasing periods.",
+      "Higher tenant turnover rates are typical for studio layouts compared to multi-bedroom apartments.",
+      "Service charges and ongoing maintenance standards for La Residence should be reviewed to confirm net yield projections."
+    ],
+    "investment_summary": "The property presents a compelling entry point for yield-focused investors, listed below recent DLD benchmark transaction values. Its fully furnished condition allows for immediate tenant placement or short-term lease onboarding, optimizing cash flow in a high-demand rental district.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/17/largest-layout-2bed-vacant-furnished-2-232568/_investment_analysis_below_market": {
+    "quality_context": "Situated in Business Bay within Damac's Canal Views development, this generous two-bedroom apartment features a spacious layout on a high floor. Key value drivers include immediate availability (vacant on transfer) and turnkey condition (fully furnished). The unit is listed at an attractive entry point that sits noticeably lower than both historical DLD registered sales and active listing benchmarks in the surrounding market segment.",
+    "risk_flags": [
+      "Prudence dictates verifying the physical condition of the unit and furnishings given the heavily discounted entry price relative to historical sales.",
+      "Potential for higher annual service charges typical of branded or hotel-serviced Damac developments in Business Bay.",
+      "Need to confirm whether the existing furniture package meets modern tenant standards or requires cash outlay for updates."
+    ],
+    "investment_summary": "Priced meaningfully below comparable closed transactions in Business Bay, this listing represents a compelling opportunity for value-seeking investors. Being vacant and fully furnished allows for immediate lease execution—either via long-term tenancy or short-term holiday home management—to maximize gross rental yield.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/17/1870-sqft-vacant-maids-furnished-2-215633/_investment_analysis_good_value": {
+    "quality_context": "West Wharf Towers in Business Bay is an established residential development. Featuring a very spacious 1,870 sqft layout, this unit includes a maid's room and comes fully furnished. Being vacant on transfer provides immediate flexibility for either end-user occupancy or immediate lease placement.",
+    "risk_flags": [
+      "As an older building in Business Bay, maintenance fees and capital expenditure requirements may be higher compared to newer developments.",
+      "The large square footage increases the total unit price, which could impact resale liquidity compared to smaller, lower-ticket two-bedroom units in the district.",
+      "Secondary market units may require cosmetic upgrades or refreshes to achieve top-tier market rents."
+    ],
+    "investment_summary": "The unit is priced at a clear discount relative to recent closed DLD transactions in Business Bay and sits even further below current asking prices in the area. Given its spacious layout, fully furnished status, and immediate vacancy, it offers strong potential for attractive rental yields or end-user value without initial tenancy delays.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/25/high-end-furnishing-spacious-brand-new-2-277849/_investment_analysis_exceptional": {
+    "quality_context": "This brand-new, fully furnished 2-bedroom apartment is situated in Grove at Creek Beach (categorized under the New Ras Al Khor / Dubai Creek Harbour zone). The property features a remarkably expansive layout of 2,143 sqft, which strongly indicates the inclusion of a large private terrace or outdoor plot. Note that all market evaluations for this listing are based exclusively on active seller asking prices, as confirmed DLD closed-transaction data is not available for this specific segment.",
+    "risk_flags": [
+      "Market comparison relies entirely on active seller asking prices rather than verified DLD historical sales data.",
+      "The unusually large layout for a 2-bedroom apartment suggests a high proportion of terrace/outdoor space, which can distort total area metrics and artificially suppress the price per square foot.",
+      "A listing price positioned so far beneath active peer asking prices in Creek Beach raises risks of being an outdated post, an inaccurate area input, or a marketing bait listing."
+    ],
+    "investment_summary": "Qualitatively, this property is offered at a price point well below prevailing active asking benchmarks within the community. While the unit appears highly attractive on paper for buyers desiring extensive outdoor living space in a newly handed-over waterfront district, investors should proceed cautiously. Immediate verification is recommended to confirm listing availability, clarify the split between internal built-up area and outdoor terrace, and validate the legitimacy of the pricing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/24/cash-offer-dld-waiver-furnished-2-227678/_investment_analysis_below_market": {
+    "quality_context": "Located in Palm Deira, this 1-bedroom apartment features a generous layout and comes fully furnished, offering immediate convenience for end-users or tenants. Pricing per square foot sits comfortably below recent closed transaction medians registered with the DLD, as well as significantly below active asking prices in the surrounding submarket. While this positions the unit as an attractive value entry into an expanding coastal master development, the pricing gap warrants a careful look at the listing's authenticity and underlying transaction conditions.",
+    "risk_flags": [
+      "Pricing is noticeably below historical DLD closed sales, which frequently signals lead-generation baiting or non-exclusive, stale listing data.",
+      "Promotional claims such as full DLD fee waivers and cash-only requirements require strict legal verification to confirm applicability and seller authorization.",
+      "Palm Deira (Dubai Islands) is an evolving waterfront community with active construction and phased infrastructure delivery across various sub-projects."
+    ],
+    "investment_summary": "This property presents a compelling valuation on paper, offering a spacious, furnished 1-bedroom layout priced meaningfully below comparable sold transactions in the area. If authentic, the property holds strong capital appreciation and rental yield potential as the surrounding master development matures. However, given the deep discount relative to actual market transactions and aggressive headline terms, buyers must verify listing availability and underlying contract terms prior to making an offer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/12/30/high-demand-2br-emaar-new-downtown-stro-2-157532/_investment_analysis_good_value": {
+    "quality_context": "Silva by Emaar is an off-plan development located within the expanding Dubai Creek Harbour / Ras Al Khor master community. Emaar projects in this district benefit from strong master-community infrastructure, high build quality, and sustained long-term tenant demand. With a footprint of 1,439 sqft, this two-bedroom unit is noticeably larger than the standard layout for the area, which naturally skews the price-per-square-foot metric downward relative to smaller units.",
+    "risk_flags": [
+      "Listed price per square foot sits far below both historical DLD closed transactions and active market asking medians, strongly indicating potential clickbait or an unverified lead-generation listing.",
+      "Marketing title uses 'Emaar New Downtown' to describe a Ras Al Khor / Creek Harbour location, presenting a geographically misleading label to buyers.",
+      "Off-plan assignment resales often require significant upfront cash coverage to fulfill the developer payment plan and seller premium.",
+      "The larger square footage elevates the overall lump-sum purchase price, which may dilute gross rental yield relative to smaller, higher-density two-bedroom layouts."
+    ],
+    "investment_summary": "Positioned at a qualitative discount compared to recent DLD closed transactions in the surrounding community, this property appears highly attractive on paper due to Emaar's strong brand equity and the unit's generous floor plan. However, because the pricing deviates so sharply from both historical sales benchmarks and live market asking prices, investors should verify listing availability and true seller pricing before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/15/spacious-layout-prime-location-corner-u-2-831813/_investment_analysis_exceptional": {
+    "quality_context": "The property features an exceptionally large 3-bedroom corner layout in Creek Bay, Dubai Creek Harbour (categorized under the broader New Ras Al Khor Community area). On a price-per-square-foot basis, the listing is positioned comfortably below the median asking price of active market listings in the area. Please note explicitly that no Dubai Land Department (DLD) closed-transaction data is available for this specific segment; this comparison is made strictly against other active sellers' asking prices rather than confirmed historical sales prices.",
+    "risk_flags": [
+      "Absence of official DLD closed-transaction data requires reliance on asking prices, which may be inflated across active listings.",
+      "Unusually large footprint for a 3-bedroom apartment, which may indicate that extensive outdoor terrace or non-livable area is included in the total square footage calculation.",
+      "Significant downward divergence in asking price relative to active market listings raises potential bait-listing or lead-generation concerns.",
+      "Location labeling discrepancy between the master community name (Dubai Creek Harbour / Creek Bay) and the assigned area tag (New Ras Al Khor Community)."
+    ],
+    "investment_summary": "Qualitatively, this property offers a compelling price point per square foot relative to current seller expectations in Dubai Creek Harbour, combined with a rare corner layout and vast spatial footprint. However, because the pricing sits markedly below current market asking medians and the layout size is unusually expansive for a 3-bedroom unit, investors should exercise caution. Verification of the listing's authenticity, title deed details, and actual usable built-up area is strongly recommended before advancing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/4/20/distress-sell-large-plot-multiple-optio-2-391382/_investment_analysis_exceptional": {
+    "quality_context": "Situated in The Valley by Emaar, a master-planned suburban community along Dubai-Al Ain Road, this 3-bedroom townhouse offers a generous built-up area of 2,484 sqft featuring a large plot and Vastu-compliant layout. The property is listed at a rate significantly below the current active asking median for 3-bedroom units in this area. Please note that no official Dubai Land Department (DLD) closed-transaction data is available for this specific segment; this market assessment is based strictly on comparative seller asking prices rather than verified completed sales.",
+    "risk_flags": [
+      "High probability of a lead-generation or bait-and-switch listing given phrases like 'Distress Sell' and 'Multiple Options' paired with an abnormally low asking rate.",
+      "Absence of DLD registered transaction data means market valuation relies entirely on active seller listings rather than confirmed sold prices.",
+      "Off-plan / construction completion timeline and associated Emaar payment plan obligations require independent verification with the developer."
+    ],
+    "investment_summary": "On paper, this 3-bedroom property in The Valley is priced meaningfully lower than active seller benchmarks across the sub-community, presenting strong theoretical equity upside for an Emaar master development. However, key markers in the listing indicate it may serve as an agent lead magnet rather than a direct, purchasable unit. Investors should proceed cautiously and confirm direct availability, payment plan balance, and seller documentation prior to making commitments.",
+    "credibility_flag": "suspicious"
   }
 }
