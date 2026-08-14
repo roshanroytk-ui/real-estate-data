@@ -5254,5 +5254,74 @@
     ],
     "investment_summary": "On paper, the unit presents an exceptionally low entry price per square foot compared to prevailing market benchmarks in Jabal Ali 1. However, the combination of exaggerated yield claims, severe underpricing versus realized sales, and truncated listing details suggests this may not be a genuine, purchasable asset as advertised. Immediate due diligence and agent verification are strongly advised before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/2/8-roi-pool-view-exclusive-with-maids-ro-2-762553/_investment_analysis_exceptional": {
+    "quality_context": "The unit offers a generous layout for a one-bedroom apartment, featuring a maid's room and pool view. In terms of price per square foot, it is positioned well below the median asking price of competing active listings in the area. However, it is critical to note that no Dubai Land Department (DLD) closed-transaction data is currently available for this specific segment; this pricing context is benchmarked strictly against other sellers' asking prices, not confirmed historical sales.",
+    "risk_flags": [
+      "Location mismatch: The metadata specifies Al Barsha South 4, whereas the property description indicates the Alcove building in Jumeirah Village Circle (JVC).",
+      "Absence of official DLD closed-transaction benchmarks for this segment, meaning market comparison relies solely on unverified asking prices.",
+      "Incomplete and truncated listing description, suggesting potential listing duplication or syndicated data errors."
+    ],
+    "investment_summary": "While the listing appears attractively priced relative to prevailing asking medians in the area and advertises an appealing configuration with a maid's room, serious due diligence is required. The direct conflict in location details between the title metadata and the description body raises credibility concerns, and the lack of verified sold-transaction history limits valuation certainty.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/4/fully-furnished-prime-location-ready-to-2-327495/_investment_analysis_good_value": {
+    "quality_context": "The property is a spacious one-bedroom unit located in Mulberry 2, part of the established Emirates Garden II development in Jumeirah Village Circle (JVC). At nearly 930 sqft, the layout is larger than average contemporary one-bedroom stock in the area. Emirates Garden II is an older low-to-mid-rise development, which typically trades at a discount compared to newer handovers and modern developments in JVC. The listing advertises fully furnished and ready-to-move status.",
+    "risk_flags": [
+      "Building age and maintenance: Older buildings in JVC may have higher long-term maintenance requirements or capital expenditure needs compared to modern developments.",
+      "Larger unit footprint means absolute service charges will be higher relative to smaller modern one-bedroom layouts.",
+      "Very sparse listing description provides minimal details regarding view, floor level, tenanted status, or renovation quality."
+    ],
+    "investment_summary": "The unit is priced below the recent DLD sold transaction median and substantially below prevailing asking prices across Jumeirah Village Circle. This discount is largely reflective of the building's maturity rather than an acute distress sale. For investors, the lower acquisition cost per square foot provides attractive rental yield potential, though capital appreciation will likely lag newer stock in the master community.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/furnished-1br-35-cash-discount-12-roi-e-2-188903/_investment_analysis_good_value": {
+    "quality_context": "The property is offered at a price per square foot positioned below both recent registered DLD closed transaction medians and prevailing asking prices in the wider area. At nine hundred square feet, the layout provides generous living space for a one-bedroom apartment, complemented by furnished status. However, there is a notable contradiction between the designated area in the listing metadata and the specific development referenced in the description text.",
+    "risk_flags": [
+      "Location mismatch: Listed as Al Barsha South 4 in the metadata, while the description identifies the unit as Q Gardens Aliya in JVC District 12.",
+      "Promotional marketing claims regarding large upfront discounts and unusually high net yields are typical indicators of off-plan promotional bait or distressed resale terms that require rigorous verification."
+    ],
+    "investment_summary": "While the qualitative pricing profile sits below recent benchmark sales and current asking levels for the area, the listing exhibits significant credibility concerns. The direct conflict regarding the physical location and community, paired with aggressive promotional claims, warrants caution and thorough verification before considering this as a genuine secondary market opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/10/tenanted-high-floor-community-view-2-137168/_investment_analysis_market_rate": {
+    "quality_context": "Situated in AG Tower within Business Bay, this one-bedroom unit offers a generous layout above average unit sizes for the district. The property benefits from a high-floor position with open community views and comes fully furnished. Being currently tenanted, it provides immediate operational readiness for an investor looking for uninterrupted cash flow in a central commercial and residential hub.",
+    "risk_flags": [
+      "Existing tenancy terms may limit immediate rental adjustments in accordance with RERA rental index guidelines.",
+      "Tenanted status restricts immediate end-user occupancy upon transfer."
+    ],
+    "investment_summary": "Priced below recent historical DLD registered sales transactions and substantially below the broader market asking median, this unit represents an attractive entry valuation. The in-place tenancy ensures day-one rental yields, making it a viable defensive addition to a Dubai income-generating portfolio.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/23/fully-furnished-downtown-view-high-roi--2-150355/_investment_analysis_market_rate": {
+    "quality_context": "Located in AG Tower within Business Bay, this 1-bedroom unit offers a generous layout for the area. The fully furnished status paired with a Downtown view enhances its attractiveness for both prime long-term tenants and the high-yield short-term holiday home market.",
+    "risk_flags": [
+      "Priced slightly above the benchmark for recent closed DLD transactions in the area",
+      "High density and ongoing competition from newer handovers across Business Bay",
+      "Service charges in Business Bay towers can impact net rental yields if not verified prior to purchase"
+    ],
+    "investment_summary": "The property sits in a competitive pricing position—while it trades at a slight premium relative to historical registered sold transactions, it is positioned favorably well below active seller asking prices. The ready, fully furnished condition and desirable view make it an attractive turnkey asset with solid rental appeal.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-shams-shams-2-125168630.html_investment_analysis_exceptional": {
+    "quality_context": "This property is a spacious three-bedroom plus maid's room apartment measuring 1,990 sqft in the Shams cluster of Jumeirah Beach Residence (categorized under the broader Dubai Marina sector). Shams offers established beachfront community living with direct access to The Walk and public transit. The unit features en-suite bedrooms and a community view, which typically trades at a discount compared to sea or marina vistas. Units in JBR are known for generous floor plans, though the development is mature and properties may reflect original mid-2000s finishes unless recently renovated.",
+    "risk_flags": [
+      "Pricing is positioned substantially below prevailing DLD historical benchmarks, warranting immediate verification of genuine availability, unit condition, and title status.",
+      "Mature building age may necessitate capital expenditure for renovations and modernizations.",
+      "JBR properties generally carry higher-than-average service charges, which can compress net yields.",
+      "Community views generally experience lower rental premiums and slower appreciation compared to full sea or waterfront views in this submarket."
+    ],
+    "investment_summary": "The property is priced at an entry point positioned well below recent DLD closed transaction medians and broader asking levels for three-bedroom units in the district. Its vacant status offers immediate flexibility for either an end-user or an investor looking to renovate and capture higher rental yields. Provided the asking price is validated and the unit does not require extensive structural refurbishment, the property presents an attractive value-oriented opportunity within an established prime coastal community.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/8/motivated-seller-serviced-good-roi-2-162681/_investment_analysis_below_market": {
+    "quality_context": "Located in FIVE Jumeirah Village Circle, a well-known branded hospitality tower known for strong short-term rental appeal, hotel-grade amenities, and fully serviced living. While the development commands premium brand recognition, buyers must account for hotel-pool management structures and associated operating expenses.",
+    "risk_flags": [
+      "High service charges and hotel management fees standard for branded residences can impact net yields",
+      "Potential usage restrictions if the unit is enrolled in the hotel rental pool",
+      "Truncated listing description limits visibility into specific unit views and current tenancy status"
+    ],
+    "investment_summary": "The property is priced meaningfully below both the recent DLD sold-price benchmark and prevailing asking prices in Jumeirah Village Circle. Given the premium nature of the FIVE brand relative to standard JVC stock, this represents an attractive entry point for an investor seeking exposure to Dubai's serviced hospitality segment, provided net operational yields align with expectations.",
+    "credibility_flag": "normal"
   }
 }
