@@ -5323,5 +5323,45 @@
     ],
     "investment_summary": "The property is priced meaningfully below both the recent DLD sold-price benchmark and prevailing asking prices in Jumeirah Village Circle. Given the premium nature of the FIVE brand relative to standard JVC stock, this represents an attractive entry point for an investor seeking exposure to Dubai's serviced hospitality segment, provided net operational yields align with expectations.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/high-floor-1br-guzel-towers-block-a-sky-2-408277/_investment_analysis_exceptional": {
+    "quality_context": "The property is listed as a high-floor, fully furnished one-bedroom unit with skyline views and a standard 752 sqft layout. On a rate per square foot basis, the unit is listed substantially below both actual DLD closed transactions and broader market asking benchmarks for one-bedroom apartments in this segment.",
+    "risk_flags": [
+      "Location discrepancy: The listing metadata designates Jumeirah Village Circle (JVC), whereas the description specifies Guzel Towers in Jumeirah Village Triangle (JVT).",
+      "Extreme pricing deviation relative to real DLD transaction medians, which strongly suggests an unverified listing or bait pricing.",
+      "Incomplete and truncated listing description that omits critical contractual and handover details."
+    ],
+    "investment_summary": "While the listing optically presents a highly discounted entry price relative to historical market benchmarks, the severe price gap combined with conflicting location details points to listing unreliability. Due diligence is required to verify actual availability, correct community placement, and title deed status before treating this as a viable acquisition.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/3/limited-units_1br_smart-home_sikka-view-2-310533/_investment_analysis_exceptional": {
+    "quality_context": "Located in Berkeley Square by Prestige One in JVC District 13, this off-plan development is marketed with smart home technology, modern amenities, and premium finishes. The declared unit size is exceptionally large for a standard one-bedroom configuration, strongly suggesting the inclusion of substantial outdoor terrace or garden space rather than standard internal living area.",
+    "risk_flags": [
+      "Unusually high square footage for a 1-bedroom layout suggests a significant portion is outdoor terrace space, which artificially depresses the headline price per square foot.",
+      "Off-plan execution risks, including developer completion timelines, handover delays, and final snagging quality.",
+      "Service charges may apply to the gross titled area, potentially impacting net yields if a large portion is non-air-conditioned space."
+    ],
+    "investment_summary": "The unit enters the market priced substantially below the prevailing DLD transaction benchmark on a per-square-foot basis. While attractive on paper, buyers must review the architectural floor plan to differentiate actual indoor living space from terrace allocations, as outdoor area delivers lower functional utility and rental yields compared to interior space.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/15/amazing-deal-fully-furnished-1br-high-f-2-299572/_investment_analysis_market_rate": {
+    "quality_context": "This fully furnished high-floor 1-bedroom unit in Sydney Tower is priced right in line with real closed transaction benchmarks registered with the DLD, while positioned notably below the inflated asking prices typical of active market listings in Jumeirah Village Circle. Vacant on transfer, it offers immediate flexibility for either an end-user or an investor seeking quick rental placement.",
+    "risk_flags": [
+      "Sydney Tower is an older, established development in JVC, which may require higher ongoing maintenance or reflect lower capital appreciation compared to newer branded launches.",
+      "Truncated listing text suggests incomplete marketing details, requiring direct verification of title deed status and actual furnishings.",
+      "High supply of competing 1-bedroom units in JVC requires careful tenant screening to maintain consistent occupancy."
+    ],
+    "investment_summary": "Priced closely to actual historical transaction values rather than elevated asking market rates, this property represents a realistic entry point into JVC. With vacant possession and fully furnished status, an investor can achieve immediate rental yield without the typical premium demanded by current speculative listings.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/30/3br-apartment-samana-ocean-bay-pool-gar-2-311252/_investment_analysis_exceptional": {
+    "quality_context": "Samana Ocean Bay is positioned as an amenity-focused, mid-tier residential development on Dubai Islands (Palm Deira). The property is priced substantially below historical DLD sold transaction benchmarks for the broader area, largely because the district's overall transaction median is heavily elevated by ultra-luxury and branded beachfront developments rather than standard mid-market inventory.",
+    "risk_flags": [
+      "District sold transaction benchmarks are skewed by ultra-luxury developments across Dubai Islands, which may overstate the relative discount of mid-tier projects.",
+      "Off-plan delivery timelines and community infrastructure completion risk inherent to emerging master developments.",
+      "Truncated listing details require direct verification of unit floor plan, view, and specific payment plan obligations."
+    ],
+    "investment_summary": "The unit offers an accessible entry point into the evolving Dubai Islands waterfront master community at a price point positioned well below area transaction medians. It presents solid medium-to-long-term capital appreciation potential as infrastructure matures, provided investors account for the developer's positioning relative to luxury master-plan comparables.",
+    "credibility_flag": "normal"
   }
 }
