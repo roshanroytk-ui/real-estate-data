@@ -5363,5 +5363,66 @@
     ],
     "investment_summary": "The unit offers an accessible entry point into the evolving Dubai Islands waterfront master community at a price point positioned well below area transaction medians. It presents solid medium-to-long-term capital appreciation potential as infrastructure matures, provided investors account for the developer's positioning relative to luxury master-plan comparables.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/1/1-bhk-i-below-op-i-high-roi-i-ho-q326-2-129147/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/redefined-luxury-bespoke-home-vacant-2-135279/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/selling-at-op-payment-plan-available-gr-2-245893/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/11/burj-khalifa-view-branded-2-balconies-2-787542/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/green-planet-view-high-floor-near-op-2-336985/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/vacant-on-transfer-renovated-c-type-2-325122/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/address-branded-15-below-op-private-bea-2-289261/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/3/26/prime-location-4-bed-study-luxury-2-658749/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/7/on-the-park-motivated-seller-type-a-2-500765/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/freehold-i-2bhk-maid-park-view-5-years--2-244283/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/best-deal-i-brand-new-i-no-agent-commis-2-238711/_investment_analysis_market_rate": {
+    "quality_context": "At 801 square feet, this one-bedroom unit offers a generous layout for its category in a newer residential development. Its price per square foot closely aligns with historical closed transactions recorded by the Dubai Land Department, while sitting comfortably below prevailing asking prices across active listings in the area.",
+    "risk_flags": [
+      "Location naming mismatch in the description mentioning 'JV' while listed under Al Barsha South 4, requiring title deed verification.",
+      "Truncated listing description that lacks detailed specifications regarding view, parking allocation, or completion status.",
+      "Marketing claims such as 'no agent commission' should be vetted for hidden developer or administrative fees."
+    ],
+    "investment_summary": "The property represents a sound entry point that matches realistic historical transaction levels in the sub-community while offering an attractive entry point compared to elevated asking prices. Provided the location details and unit title are verified, it presents solid rental potential driven by its above-average floor plan size.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/22/rented-unit-fully-furnished-best-deal-2-127941/_investment_analysis_exceptional": {
+    "quality_context": "The subject property is a 424 sqft studio apartment advertised as fully furnished and currently rented. Please note that official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment; consequently, this pricing comparison is benchmarked exclusively against asking prices from other active market listings rather than verified historical sold figures. The listing description contains an apparent geographic discrepancy, citing 'The Manhattan, JVC' despite being classified under Al Barsha South 4.",
+    "risk_flags": [
+      "Location mismatch: Listed under Al Barsha South 4 in property data, but described as located in 'The Manhattan, JVC' (Jumeirah Village Circle).",
+      "Data limitation: Comparison is based entirely on asking prices of active competitor listings without verified DLD closed transaction benchmarks.",
+      "Truncated description cutting off abruptly mid-text, indicating low listing quality or incomplete broker input.",
+      "Lack of stated tenancy specifics (rental income, lease expiry, tenant status) despite advertising the property as a rented unit."
+    ],
+    "investment_summary": "The unit is listed at a substantial discount relative to the median asking price of active listings in the area. However, the geographic conflict between the assigned area and building description, combined with truncated listing details, raises notable credibility concerns. Investors should treat this as a potentially inaccurate or bait listing and verify the title deed and actual building location before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
