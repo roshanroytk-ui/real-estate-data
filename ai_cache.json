@@ -5424,5 +5424,45 @@
     ],
     "investment_summary": "The unit is listed at a substantial discount relative to the median asking price of active listings in the area. However, the geographic conflict between the assigned area and building description, combined with truncated listing details, raises notable credibility concerns. Investors should treat this as a potentially inaccurate or bait listing and verify the title deed and actual building location before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/16/exclusive-deal-investors-opportunity-ae-2-247156/_investment_analysis_market_rate": {
+    "quality_context": "Located in Plaza Residences Block B within Jumeirah Village Circle (JVC), this 463 sqft studio offers a practical footprint for entry-level leasing in a mature, established building. The development is well-settled with accessible community amenities, though it represents an older generation of JVC stock compared to recent handovers.",
+    "risk_flags": [
+      "Plaza Residences is an older development in JVC, which may entail higher ongoing maintenance costs or require cosmetic refurbishment to maximize rent.",
+      "High density of competing studio inventory across JVC can create tenant turnover and rental price sensitivity.",
+      "Service charges and net yield figures are not detailed in the listing and should be verified prior to acquisition."
+    ],
+    "investment_summary": "This studio is positioned comfortably below recent DLD registered transaction benchmarks and at a noticeable discount relative to active asking rates in the area. Given that the unit is vacant on transfer, it provides immediate leasing readiness or flexibility for an owner-occupier, offering solid entry-level rental yield potential in a high-demand tenant hub.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/27/high-floor-studio-reef-residence-jvc-pa-2-784881/_investment_analysis_market_rate": {
+    "quality_context": "Reef Residence is an established mid-tier residential tower located in District 13 of JVC, offering decent building amenities and park views. At over five hundred square feet, this studio offers a comfortable and practical floor plan compared to more compact recent off-plan deliveries in the area. The high-floor positioning and advertised upgrades offer modest appeal over standard baseline units in the building.",
+    "risk_flags": [
+      "Priced slightly above the historical median for completed transactions in the area, requiring verified upgrades to justify the premium over standard sold comps.",
+      "High volume of competing studio supply across JVC creates continuous downward pressure on both resale appreciation and tenant retention.",
+      "Traded description text is incomplete, necessitating verification of current tenancy status and service charge history."
+    ],
+    "investment_summary": "The unit is priced above the recent DLD sold transaction median for the district, yet remains significantly below the prevailing asking prices of active competitor listings. Studios in JVC typically deliver strong gross rental yields driven by consistent tenant demand for affordable community living. Provided the upgraded condition is validated, this property represents a standard entry-level cash-flow asset.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/dubai-hills-dubai-310108944000/_investment_analysis_below_market": {
+    "quality_context": "The property is a 1-bedroom apartment spanning 678 sqft, priced substantially below both the DLD sold-price median for closed transactions and prevailing market asking prices in the wider area. However, the listing suffers from severe informational inconsistencies, mixing references to Dubai Hills in the title with descriptive copy focused on District One in MBR City, alongside an erroneous attribution of District One to developer DAMAC.",
+    "risk_flags": [
+      "Severe project discrepancy: Title references Dubai Hills while description refers to District One, leading to high ambiguity regarding the actual asset.",
+      "Inaccurate developer attribution describing District One as a DAMAC master community.",
+      "Pricing is positioned far below historical DLD transaction medians, strongly suggesting a mispriced listing or classic bait-and-switch marketing."
+    ],
+    "investment_summary": "While the entry price per square foot appears highly attractive on paper compared to registered market transactions, the listing exhibits clear markers of inaccurate data and conflicting project details. Prospective buyers should exercise extreme caution and verify the actual unit location, developer, and title deed prior to committing capital.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/11/fully-furnished-apartment-well-maintain-2-152306/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Discovery Gardens (Jabal Ali 1), offering a generous layout for a one-bedroom unit that has been partitioned into a two-bedroom configuration. While priced substantially below both the historical DLD transaction median and current market asking medians for the broader Jabal Ali 1 district, this pricing difference is largely characteristic of Discovery Gardens' mature, budget-friendly building stock compared to newer premium developments in the wider district.",
+    "risk_flags": [
+      "The conversion from a one-bedroom to a two-bedroom unit may not have formal DLD/municipality approvals, which can complicate bank mortgages, valuation, and Ejari registration.",
+      "Older building age in Discovery Gardens comes with potential deferred maintenance and higher relative service charges.",
+      "Broader district transaction medians may be skewed upwards by modern off-plan handovers and newer communities within Jabal Ali 1."
+    ],
+    "investment_summary": "The unit offers an accessible price point well below the prevailing sold benchmarks of the wider area, providing attractive gross yield potential for rental investors targeting affordable housing demand. Investors should verify NOCs and building compliance for the internal partition before proceeding.",
+    "credibility_flag": "normal"
   }
 }
