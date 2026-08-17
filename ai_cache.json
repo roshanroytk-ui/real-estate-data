@@ -5464,5 +5464,34 @@
     ],
     "investment_summary": "The unit offers an accessible price point well below the prevailing sold benchmarks of the wider area, providing attractive gross yield potential for rental investors targeting affordable housing demand. Investors should verify NOCs and building compliance for the internal partition before proceeding.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/9/1-monthly-15-roi-discount-capital-appre-2-125638/_investment_analysis_below_market": {
+    "quality_context": "This 781 sqft one-bedroom property in Jumeirah Village Circle is priced comfortably below both recent DLD closed transaction medians and the prevailing asking market in the community.",
+    "risk_flags": [
+      "Geographically contradictory claim advertising a 'Marina View' for an inland development located in Jumeirah Village Circle.",
+      "Aggressive and potentially unrealistic marketing metrics in the title (15% ROI) paired with an incomplete and fragmented description.",
+      "Pricing significantly below benchmark sales in the area raises concerns of a potential bait-and-switch listing."
+    ],
+    "investment_summary": "While the headline rate per square foot is priced noticeably below benchmark closed transactions in JVC, the listing exhibits clear red flags including physically impossible view claims and inconsistent marketing buzzwords. Caution is advised as it displays classic indicators of an unreliable or non-genuine listing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/furnished-1br-apartment-decent-furnishi-2-251140/_investment_analysis_good_value": {
+    "quality_context": "Located in Laya Mansion within JVC District 15, this 1-bedroom apartment offers a generous layout above average unit sizes for the community. The property is offered fully furnished, which supports immediate tenant placement or short-term rental conversion in an area consistently driven by entry-to-mid-tier rental demand.",
+    "risk_flags": [
+      "Listing title indicates 'Multiple Units Available', which frequently points to generic broker marketing; exact unit condition and availability must be verified directly.",
+      "JVC experiences ongoing high supply and construction activity, which can impact localized rental growth and tenant retention across older or mid-tier low-rise buildings.",
+      "Furnished condition quality ('decent furnishing') should be inspected to ensure furniture meets tenant standards without requiring immediate capital replacement."
+    ],
+    "investment_summary": "The unit is listed at an attractive price point below both recent DLD closed transaction medians and the broader active asking market in Jumeirah Village Circle. With a spacious footprint and turn-key furnishing, the asset presents a compelling yield-focused opportunity, provided unit availability and title deed details are confirmed.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/20/higher-floor-fully-furnished-spacious-2-129525/_investment_analysis_market_rate": {
+    "quality_context": "Located in Ghalia by DAMAC within Jumeirah Village Circle, this one-bedroom unit offers a generous layout above standard market sizing for the area. The property features fully furnished interiors on a higher floor and is currently vacant, providing immediate handover capability for end-users or rental onboarding without tenancy encumbrance.",
+    "risk_flags": [
+      "DAMAC-managed and furnished developments in JVC often carry higher service charges, which may impact net rental yields.",
+      "High ongoing supply of one-bedroom units across JVC creates competitive rental and resale market conditions."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered transaction medians and significantly below active asking prices in JVC. Its vacant, turnkey condition allows an investor to deploy the unit immediately into long-term or holiday home leasing to capture rental income without transitional downtime, provided service fee structures align with yield expectations.",
+    "credibility_flag": "normal"
   }
 }
