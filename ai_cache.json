@@ -5493,5 +5493,25 @@
     ],
     "investment_summary": "The property is priced attractively below recent DLD registered transaction medians and significantly below active asking prices in JVC. Its vacant, turnkey condition allows an investor to deploy the unit immediately into long-term or holiday home leasing to capture rental income without transitional downtime, provided service fee structures align with yield expectations.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/15/prime-location-specious-layout-canal-vi-2-287262/_investment_analysis_exceptional": {
+    "quality_context": "At over 1,000 sq. ft., this 1-bedroom unit offers a notably larger floor plan than typical modern Business Bay stock, complemented by canal views and a closed kitchen in the Burj Pacific development.",
+    "risk_flags": [
+      "Listing misidentifies Burj Pacific as 'off-plan' despite it being a completed, established residential tower.",
+      "Significant price discount relative to recorded DLD transaction medians indicates high potential for a bait-and-switch listing.",
+      "Incomplete description suggests an unverified or automated broker upload."
+    ],
+    "investment_summary": "While the spacious layout and pricing well below DLD market transaction benchmarks appear attractive on paper, notable listing discrepancies—specifically mislabeling a ready building as off-plan alongside an unusually low asking rate—warrant heavy caution and immediate title deed verification.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/fully-furnished-modern-design-spacious--2-404286/_investment_analysis_exceptional": {
+    "quality_context": "This studio apartment is listed as a fully furnished residence priced considerably below the prevailing asking median for active listings in the designated area. It is important to note that this comparison is based solely on other sellers' asking prices, as confirmed Dubai Land Department (DLD) closed-transaction data is currently unavailable for this segment.",
+    "risk_flags": [
+      "Geographic contradiction: The listing is cataloged under Al Barsha South 4, but the marketing text explicitly names 'The Orchard Place' in Jumeirah Village Circle (JVC).",
+      "Lack of verified DLD transaction records means pricing benchmarks reflect active asking prices rather than true transacted market values.",
+      "Incomplete description cutting off mid-sentence, indicating a potentially careless or duplicate upload."
+    ],
+    "investment_summary": "While the entry price sits well below the active asking median, the fundamental conflict between the listed area (Al Barsha South 4) and the actual building location mentioned in the description (The Orchard Place in JVC) presents significant credibility concerns. Due diligence is required to verify which development and community this listing actually represents.",
+    "credibility_flag": "suspicious"
   }
 }
