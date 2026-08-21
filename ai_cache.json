@@ -5603,5 +5603,15 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/10/mortgage-eligible-motivated-seller-clos-2-272732/": {
     "layout_type": "standard",
     "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/18/post-payment-plan-biggest-layout-handov-2-244931/_investment_analysis_exceptional": {
+    "quality_context": "The property is a spacious studio apartment offering a larger-than-average layout for Danube developments, marketed with a post-handover payment plan. The asking price per square foot is positioned substantially below the median asking price of active competitor listings in the area. Note that this comparison is drawn strictly against other sellers' asking prices as no DLD closed-transaction data is available for this specific segment, meaning it reflects listing expectations rather than verified historical sale benchmarks.",
+    "risk_flags": [
+      "Location discrepancy: The listing metadata specifies Al Barsha South 4, whereas the property description identifies the building as Elitz by Danube in Jumeirah Village Circle (JVC).",
+      "Truncated description cutting off abruptly at handover details, indicating incomplete marketing information.",
+      "Lack of verified DLD transaction records to validate actual achievable market pricing versus asking expectations."
+    ],
+    "investment_summary": "While the entry price per square foot appears attractive compared to prevailing asking levels, the listing exhibits critical inconsistencies regarding its actual location (Al Barsha South 4 versus JVC). Investors should clarify the true building location, developer payment plan terms, and verify whether the pricing represents genuine developer inventory or an unverified marketing placeholder.",
+    "credibility_flag": "suspicious"
   }
 }
