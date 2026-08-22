@@ -5613,5 +5613,34 @@
     ],
     "investment_summary": "While the entry price per square foot appears attractive compared to prevailing asking levels, the listing exhibits critical inconsistencies regarding its actual location (Al Barsha South 4 versus JVC). Investors should clarify the true building location, developer payment plan terms, and verify whether the pricing represents genuine developer inventory or an unverified marketing placeholder.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/lavish-1bhk-furnished-apt-for-sale-in-s-2-221391/_investment_analysis_market_rate": {
+    "quality_context": "Sherena Residence in Wadi Al Safa 3 offers relatively spacious floor plans for one-bedroom apartments. At over 900 square feet and offered fully furnished, this unit provides above-average living space compared to standard compact layouts in newer developments. The asking rate per square foot trades slightly above recent closed transaction medians registered with the DLD, though it remains positioned considerably below the wider active listing asking prices across the sub-market.",
+    "risk_flags": [
+      "Listing description appears cut off, requiring direct verification of service charges, maintenance records, and parking allocations.",
+      "Wadi Al Safa 3 relies heavily on private vehicle transport with limited immediate metro connectivity.",
+      "Asking price sits at a modest premium over actual recorded historical sales in the building and immediate vicinity."
+    ],
+    "investment_summary": "The property presents a viable mid-market rental opportunity given its generous square footage and furnished condition, which appeals to tenants seeking ready-to-move-in suburban housing. Because the asking rate exceeds recent benchmark transaction data from the land registry, buyers should negotiate based on historical closed sales rather than neighboring asking quotes to maximize potential rental yields and capital protection.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/9/furnished-studio-well-maintained-spacio-2-803058/_investment_analysis_market_rate": {
+    "quality_context": "Located in Botanica within JVC District 13, this studio offers a generous layout compared to standard compact studios in the community. Being fully furnished adds immediate appeal for investors seeking immediate rental yield without upfront fit-out capital expenditures. JVC continues to maintain steady tenant demand for entry-level housing.",
+    "risk_flags": [
+      "Priced above recent historical DLD registered transaction benchmarks for the area",
+      "High density of competing studio units across JVC impacting rental pricing power",
+      "Botanica is an older, mid-tier development where maintenance standards and service charge ratios require due diligence"
+    ],
+    "investment_summary": "The unit is priced above the median of actual completed DLD sales transactions in JVC, although it sits well below the inflated asking prices typical of active market listings. Its ready, furnished condition and above-average studio size make it a practical rental asset, though buyers should negotiate closer to historical transaction medians to maximize cash-on-cash returns.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/prime-location-best-deal-bring-offer-2-323121/_investment_analysis_good_value": {
+    "quality_context": "Burj Views is a mature, well-regarded development by Emaar situated in Downtown Dubai. At over nine hundred square feet, this one-bedroom unit offers a more generous floor plan than most modern developments in the area. The vacant status provides immediate flexibility for either an owner-occupier or an investor looking to capture current rental yields without waiting for tenancy transitions.",
+    "risk_flags": [
+      "Being an older Emaar asset, potential buyers should account for upcoming maintenance, modernizing renovations, and prevailing building service charges.",
+      "The listing description is truncated and uses generic broker phrasing, requiring standard verification on exact floor, view, and parking allocation."
+    ],
+    "investment_summary": "The unit is priced attractively below recent DLD registered transaction medians and significantly under the broader active asking market in Downtown Dubai. Given its established developer pedigree, large footprint, and vacant status, it presents a compelling opportunity for solid rental returns or value enhancement via light cosmetic upgrades.",
+    "credibility_flag": "normal"
   }
 }
