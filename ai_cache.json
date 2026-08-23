@@ -5642,5 +5642,24 @@
     ],
     "investment_summary": "The unit is priced attractively below recent DLD registered transaction medians and significantly under the broader active asking market in Downtown Dubai. Given its established developer pedigree, large footprint, and vacant status, it presents a compelling opportunity for solid rental returns or value enhancement via light cosmetic upgrades.",
     "credibility_flag": "normal"
+  },
+  "https://www.bhomes.com/en/property/bh-s-291152_investment_analysis_market_rate": {
+    "quality_context": "Situated in Sandoval Gardens within Jumeirah Village Circle, this 1-bedroom unit offers distinct value-add features including a full interior upgrade, an allocated laundry room, and a rare private basement storage unit. The layout is spacious for a standard 1-bedroom in the district, and the vacant status allows for immediate tenant placement or end-user occupancy without notice period friction.",
+    "risk_flags": [
+      "Priced at a premium relative to historical DLD closed transaction medians in Jumeirah Village Circle, meaning buyers are paying upfront for the upgraded condition and storage amenity.",
+      "JVC has continuous incoming supply of new developments, which can introduce competition for older established buildings."
+    ],
+    "investment_summary": "The property is priced above the median benchmark for real closed transactions in the community, though it sits comfortably below prevailing active asking prices. For an investor, the combination of turnkey upgraded finishes, an efficient layout, and additional storage enhances rental appeal and reduces post-handover capital expenditure, supporting solid tenant retention.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/the-island-district-dubai-310109907623/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom property offering 1,572 sqft is priced at an asking rate positioned substantially below the active asking median for the designated submarket. Amenities highlighted include resort-style lagoon features, wellness areas, and leisure facilities. Please note the critical market limitation: this evaluation relies entirely on active seller asking prices, as verified Dubai Land Department (DLD) closed transaction data is currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Severe geographic mismatch: Listing metadata cites 'The Island District' and 'New Ras Al Khor Community', but description text details 'Damac Lagoons' with south Dubai landmarks (e.g., Dubai Polo Club, Mediclinic Parkview Hospital).",
+      "High probability of a duplicate, template-copied, or bait-and-switch listing given the location contradiction.",
+      "Absence of DLD registered transaction data means market benchmarks are based only on unverified seller asking prices."
+    ],
+    "investment_summary": "While the listing appears attractively priced relative to prevailing market asking medians, the major discrepancy between the assigned community (The Island District/Ras Al Khor) and the advertised project (Damac Lagoons) strongly indicates an erroneous or misleading listing. Due diligence is required to verify the authentic project identity and title deed before considering this asset.",
+    "credibility_flag": "suspicious"
   }
 }
