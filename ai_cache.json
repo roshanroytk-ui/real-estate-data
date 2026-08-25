@@ -5661,5 +5661,35 @@
     ],
     "investment_summary": "While the listing appears attractively priced relative to prevailing market asking medians, the major discrepancy between the assigned community (The Island District/Ras Al Khor) and the advertised project (Damac Lagoons) strongly indicates an erroneous or misleading listing. Due diligence is required to verify the authentic project identity and title deed before considering this asset.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/13/prime-location-i-easy-payment-plan-smar-2-177157/_investment_analysis_exceptional": {
+    "quality_context": "The listing features an unusually generous floor plan for a one-bedroom apartment, complemented by smart home integrations and flexible payment plan terms associated with a new development.",
+    "risk_flags": [
+      "Location discrepancy: The listing title states Jumeirah Village Circle (JVC), while the project description refers to Enaya Residences in Jumeirah Village Triangle (JVT).",
+      "Priced substantially below prevailing DLD registered transactions, raising concerns of a potential bait listing or misconfigured unit specifications.",
+      "Potential developer execution and handover timeline risks typical of new off-plan launches."
+    ],
+    "investment_summary": "The property is marketed at a rate significantly below both historical DLD benchmark transactions and current market asking medians. However, the geographic contradiction between JVC and JVT, alongside a rate well beneath market averages for a 1,000+ sqft unit, suggests verification is required before treating this as a viable acquisition.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/25/full-creek-and-burj-view-brand-new-low--2-254741/_investment_analysis_exceptional": {
+    "quality_context": "Located in Dubai Creek Residences South Tower 3 on Creek Island (categorized under the wider Ras Al Khor/Creek master area), this property occupies a prime waterfront enclave known for scenic skyline and water vistas. The stated unit size of 2,087 sqft is exceptionally generous for a standard two-bedroom layout in this development, suggesting either a podium unit with a substantial terrace or a unique corner floor plan.",
+    "risk_flags": [
+      "Data Limitation: Comparative evaluation is based solely on active asking prices from competing listings, as official DLD closed-transaction data is unavailable for this specific segment.",
+      "Credibility Concerns: The listing claims 'Brand New' status, despite Dubai Creek Residences being an established tower handed over several years ago.",
+      "Pricing Disconnect: The significantly lower price per square foot relative to prevailing asking medians on a prime full-view unit suggests potential bait-and-switch advertising or unverified availability.",
+      "Layout Verification Needed: At 2,087 sqft, buyers must confirm whether the square footage represents usable internal living space or includes large outdoor terrace areas."
+    ],
+    "investment_summary": "The property is marketed at a rate per square foot that sits substantially below prevailing asking prices for comparable waterfront units in this community. However, the combination of aggressive pricing, prime view claims, and mismatched descriptions regarding the building's handover age warrants strict due diligence to verify genuine seller intent and physical unit attributes before pursuing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/plaza-residences-2-plaza-residences-jumeirah-village-circle-dubai-jumeirah-village-circle-dubai-310103411350/_investment_analysis_market_rate": {
+    "quality_context": "Plaza Residences is an established mid-market residential complex in Jumeirah Village Circle known for offering larger unit layouts than most newer developments. At over 880 square feet with two bathrooms, this one-bedroom unit provides generous living space for the area, though finishes and building age reflect an older construction cycle.",
+    "risk_flags": [
+      "Unit is currently tenanted; buyers should verify existing rental yields, lease expiry dates, and RERA notice compliance if seeking vacant possession or rental increases.",
+      "Older developments in JVC can face higher ongoing maintenance requirements and variable service charge rates compared to newly handed-over projects."
+    ],
+    "investment_summary": "The unit is priced slightly above the median of actual registered DLD sales in the segment, while positioned well below broader active market asking prices in JVC. For buy-to-let investors seeking steady occupancy, the larger-than-average floor plan enhances tenant appeal, provided current rental income aligns with the purchase price.",
+    "credibility_flag": "normal"
   }
 }
