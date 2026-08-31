@@ -5771,5 +5771,85 @@
     ],
     "investment_summary": "While the listing appears exceptionally priced on a price-per-square-foot basis against prevailing asking rates, the property exhibits critical credibility concerns. A direct geographical mismatch between the specified area and the building mentioned in the description suggests inaccurate data entry or a potential bait listing. Investors should proceed with caution and verify the exact title deed and location before pursuing.",
     "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/damac-maison-the-distinction-downtown-dubai-dubai-downtown-dubai-dubai-310103411417/_investment_analysis_exceptional": {
+    "quality_context": "Damac Maison The Distinction is a luxury serviced hotel-apartment tower situated on the periphery of Downtown Dubai adjacent to Business Bay. The property provides fully furnished hospitality-grade accommodations with expansive layouts, premium amenities, and immediate proximity to the Dubai Canal and Burj Khalifa district.",
+    "risk_flags": [
+      "Serviced hotel-apartment classification often incurs high maintenance and operational service charges, which can compress net rental yields.",
+      "Potential operational restrictions or mandatory management programs typical of Damac hotel developments.",
+      "Priced at a significant discount compared to broader Downtown benchmarks, requiring verification of unit condition and transfer terms."
+    ],
+    "investment_summary": "This property is listed attractively below prevailing closed transaction medians and market asking rates for Downtown Dubai. Its fully furnished, vacant-on-transfer status presents immediate cash-flow potential, though overall net performance will heavily depend on annual service charge deductions and building management overhead.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/19/fully-renovated-vacant-luxury-signature-2-758233/_investment_analysis_below_market": {
+    "quality_context": "Located in The Signature by DAMAC in Downtown Dubai, this 2-bedroom unit offers a generous layout of 1,371 sq. ft. The property benefits from immediate vacancy and fully renovated finishes, positioning it well for either immediate end-user occupation or the luxury short-term rental market.",
+    "risk_flags": [
+      "Serviced apartment developments in Downtown typically carry higher service charges and maintenance fees, which can compress net yields.",
+      "The overall Downtown sold-price benchmark is heavily influenced by prime residential towers, whereas hospitality/serviced residences historically trade at a discount.",
+      "The listing description is truncated, necessitating direct verification of the exact renovation scope, view, and current title deed status."
+    ],
+    "investment_summary": "The property is priced substantially below both the DLD sold-price median and broader asking benchmarks for Downtown Dubai. While part of this discount reflects the serviced apartment nature of the building compared to prime Emaar residential stock, the vacant status and updated interior offer attractive entry pricing for investors targeting central Dubai.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/11/fully-furnished-huge-layout-burj-khalif-2-297633/_investment_analysis_below_market": {
+    "quality_context": "Located in Upper Crest (Damac Maison) in Downtown Dubai, this unit offers a generous layout exceeding standard two-bedroom footprints in the area. The fully furnished status and promised landmark views add short-term and holiday home rental appeal, though Upper Crest operates on a serviced-apartment model with specifications that trade at a discount compared to prime core Downtown developments.",
+    "risk_flags": [
+      "Serviced apartment structure typically incurs higher annual service charges that can impact net rental yields.",
+      "Upper Crest sits on the Downtown/Business Bay periphery, commanding lower capital appreciation than central Boulevard or Burj Crown/Opera District assets.",
+      "Potential wear and tear on existing furnishings requiring capital expenditure to achieve optimal rental rates."
+    ],
+    "investment_summary": "The property is priced substantially below both the historical DLD registered transaction benchmark and prevailing asking medians across Downtown Dubai. This discounted entry point offers strong capital efficiency for a large, furnished unit, making it an attractive yield play provided operating expenses and building-specific service fees are carefully budgeted.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/marasi-drive-dubai-dubai-310105789040/_investment_analysis_exceptional": {
+    "quality_context": "Executive Bay is an established, mid-tier mixed-use development by DAMAC situated on Marasi Drive in Business Bay. Completed around 2014, the building represents older secondary market inventory with standard developer-grade finishes, which typically trades at a noticeable discount relative to prime canal-front or luxury new-build towers in the district. At 678 sqft, the layout represents a functional and compact one-bedroom format that caters effectively to young professionals seeking accessible entry points into the central business core.",
+    "risk_flags": [
+      "Listing copy includes generic lead-generation phrasing ('Contact me to receive current pricing'), which may indicate a placeholder or non-exclusive listing rather than a strictly verified asking price.",
+      "Older building vintage compared to surrounding modern developments may entail higher maintenance requirements and variable building upkeep.",
+      "Potential tenancy restrictions or existing below-market rental contracts that could limit immediate yield optimization upon transfer.",
+      "Higher historical service charges typical of older developments in the area can compress net yields."
+    ],
+    "investment_summary": "The property is priced substantially below prevailing DLD registered transaction benchmarks and active asking prices across Business Bay. While the pricing position is highly attractive on paper for rental yield generation, the substantial gap relative to district medians reflects both the older specification of the building and common lead-generation pricing tactics in secondary portals. If verified at this price point, it represents an attractive entry-level cash-flow opportunity, provided due diligence confirms physical unit condition, vacant possession status, and net operational costs.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/3/amazing-amenities-prime-location-zaabee-2-229387/_investment_analysis_exceptional": {
+    "quality_context": "Located in Za'abeel, this 1-bedroom unit offers a notably generous floor plan well above standard 1-bedroom sizing in Dubai. The listing is priced well below prevailing competitor asking rates in the area. However, an important data limitation applies: this evaluation relies entirely on active asking prices from other sellers rather than confirmed Dubai Land Department (DLD) transaction records, as historical closed-sale data is unavailable for this specific micro-segment.",
+    "risk_flags": [
+      "Listing copy mentions the property is 'for leasing', indicating a potential miscategorization between rental and sales inventory or copied text.",
+      "Lack of official DLD closed-transaction records means market pricing cannot be verified against actual settled deals.",
+      "The significant pricing disparity against surrounding asking prices raises potential bait-and-switch or outdated listing concerns."
+    ],
+    "investment_summary": "While the entry price per square foot appears highly competitive against neighboring active listings, the property carries elevated listing-integrity risks due to conflicting rental phrasing in the description and an absence of realized DLD transaction data to substantiate market value. Direct verification of unit availability, title deed status, and genuine asking terms is strongly recommended before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/8/20/2br-high-floor-buy-now-hot-deal-3-270869/_investment_analysis_exceptional": {
+    "quality_context": "This property is a 1-bedroom apartment in Marina Blue, situated within Marina Square on Al Reem Island, offering a spacious layout for a one-bedroom unit. Please note as an explicit limitation that this analysis compares the listing exclusively against active asking prices from other sellers in the area, as confirmed closed-transaction data is currently unavailable for this segment. Realized sale prices may differ significantly from asking medians.",
+    "risk_flags": [
+      "Reliance on active asking prices rather than verified closed sales records may overstate or distort the apparent market gap.",
+      "Marina Blue represents an established development, so island-wide asking medians may be skewed upwards by newer luxury off-plan or handover projects.",
+      "The listing description is truncated and lacks critical details regarding unit condition, service charges, view specifics, and existing tenancy status."
+    ],
+    "investment_summary": "The apartment is positioned noticeably below the prevailing asking prices of comparable active listings across Al Reem Island, offering an entry point with a generous floor area. While the pricing appears competitive on paper, investors must conduct thorough due diligence on Marina Blue's specific historical pricing, building maintenance standards, and realistic achievable rental yields rather than relying solely on high-level asking benchmarks.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/27/fully-furnished-spacious-unit-vacant-so-2-510293/_investment_analysis_below_market": {
+    "quality_context": "Located in Knightsbridge Court within Jumeirah Village Circle, this unit offers a generous layout for a one-bedroom apartment. Knightsbridge Court is a mature, established residential building in JVC, which generally trades at a modest discount compared to newly handed-over or off-plan stock in the master community due to building age and standard finishes. The fully furnished condition and near-term vacancy provide flexibility for either immediate end-use or swift re-leasing in a high-demand rental district.",
+    "risk_flags": [
+      "The listing advertises five parking spaces for a single-bedroom unit, which is highly atypical and requires title deed verification to confirm genuine allocation versus a typographical error.",
+      "Older construction profile compared to emerging JVC sub-communities, which may entail higher service charges or future maintenance costs.",
+      "Pending vacancy status necessitates active leasing management to avoid void periods."
+    ],
+    "investment_summary": "The property is listed at an entry price per square foot that sits comfortably below both the historical DLD closed transaction median and active asking prices across Jumeirah Village Circle. While this discount is partially attributable to the age of Knightsbridge Court relative to newer master community launches, the sizable footprint and turnkey furnished status position it as a strong cash-flow asset with healthy gross yield potential, provided the parking and title details are validated.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/7/investor-deal-spacious-with-community-v-2-300993/_investment_analysis_good_value": {
+    "quality_context": "Situated in Plaza Residences within Jumeirah Village Circle, this unit features a generous floor plan that exceeds the average size of newer one-bedroom developments in the area. Plaza Residences is a mature, established development known for spacious layouts, though it represents older stock compared to modern high-spec handovers in JVC.",
+    "risk_flags": [
+      "Plaza Residences is an older development, potentially carrying higher maintenance overheads or requiring unit refurbishments to achieve peak rental yields.",
+      "Jumeirah Village Circle has a high volume of active and upcoming rental supply, which can create tenant competition and cap rental growth."
+    ],
+    "investment_summary": "The unit is priced below recent actual closed transaction medians and significantly under active market asking rates. Its lower entry rate per square foot combined with a larger floor plan makes it an appealing value-add or cash-flow play, provided the investor accounts for service charges and potential interior refresh costs.",
+    "credibility_flag": "normal"
   }
 }
