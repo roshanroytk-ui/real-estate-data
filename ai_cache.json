@@ -5851,5 +5851,86 @@
     ],
     "investment_summary": "The unit is priced below recent actual closed transaction medians and significantly under active market asking rates. Its lower entry rate per square foot combined with a larger floor plan makes it an appealing value-add or cash-flow play, provided the investor accounts for service charges and potential interior refresh costs.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/31/spacious-fully-refurbished-and-upgraded-2-560666/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/27/exclusive-lifestyle-private-beachfront--2-105268/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/26/fully-upgraded-backing-green-belt-priva-2-947457/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/flexible-payment-plan-q2-2029-hanover-e-2-306669/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/1/renovated-upgraded-4-bedroom-estate-rec-2-590171/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/11/own-dubais-next-creative-address-limite-2-109750/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/24/waterfront-living-high-number-sunset-vi-2-156848/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/25/premium-unit-q1-2026-multiple-options-2-327769/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/13/vacant-high-floor-full-marina-view-2-132880/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/10/best-priced-5-bed-corner-unit-large-plo-2-223235/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/28/sea-view-vacant-on-transfer-high-floor--2-326391/_investment_analysis_below_market": {
+    "quality_context": "DEC Tower 1 is an established residential development located in the southern section of Dubai Marina. While the building offers larger-than-average floor plans and functional amenities, it sits in an older, secondary tier of Dubai Marina stock compared to prime waterfront or luxury developments, which naturally places its achievable rates below the wider district average.",
+    "risk_flags": [
+      "Building age and standard original finishes may necessitate capital expenditure for renovations to achieve optimal rental returns.",
+      "DEC Towers consistently trades at a discount relative to the wider Dubai Marina submarket due to location within the community and older common facilities.",
+      "Potential buyers should audit annual service charges against achievable rental yields to confirm net returns."
+    ],
+    "investment_summary": "The unit is priced attractively below recent DLD recorded transactions in Dubai Marina, presenting a strong value-entry point into a high-occupancy market. Offered vacant on transfer with a generous square footage, the property serves as a compelling opportunity for value-add renovation or an immediate high-yield long-term rental asset.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/27/exclusive-i-large-4br-i-huge-11250-sqft-2-226868/_investment_analysis_exceptional": {
+    "quality_context": "The property is presented as a four-bedroom detached villa with a private pool situated on a substantial plot. However, there is a clear discrepancy between the listing header, which classifies the property under Emirates Hills, and the property description, which explicitly locates the villa in Meadows 1. Additionally, the total plot size appears to have been input into the overall square footage field, distorting the calculated pricing metrics.",
+    "risk_flags": [
+      "Location discrepancy: Listed under Emirates Hills but described as being in Meadows 1, two distinctly different sub-markets with separate price profiles.",
+      "Metric distortion: The plot area seems to be recorded as the property's built-up area, skewing the price-per-square-foot calculation.",
+      "Data limitation: No Dubai Land Department (DLD) closed-transaction data is available for this segment; this analysis relies solely on active asking prices from other sellers rather than confirmed sold records."
+    ],
+    "investment_summary": "While the listing appears to be priced significantly below active asking medians for Emirates Hills, this pricing position is largely an artifact of misclassification, as the unit is actually located in Meadows 1 where property values are comparatively lower. Investors should exercise extreme caution as this listing exhibits strong signs of a miscategorized or misleading property advertisement. Note that market comparisons are made strictly against current seller asking prices rather than verified transaction history.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/5/4/fully-upgraded-big-plot-great-location-2-177611/_investment_analysis_exceptional": {
+    "quality_context": "The listing describes a fully upgraded 3-bedroom plus maid's villa converted into a 4-bedroom residence on a 6,533 sqft plot. However, there is an immediate and critical discrepancy: the property is categorized under Emirates Hills in the metadata, while the listing description explicitly states it is located in Jumeirah Park.",
+    "risk_flags": [
+      "Location mismatch: Listed under Emirates Hills but described as being in Jumeirah Park, distorting pricing benchmarks.",
+      "Data limitation: Comparison is benchmarked entirely against other active asking prices, with no confirmed DLD closed-transaction data available for this segment.",
+      "Square footage ambiguity, where the 6,533 sqft figure is cited as plot size in the description rather than built-up area.",
+      "Structural conversion risks regarding municipal approvals and layout quality for the 3-bedroom to 4-bedroom modification."
+    ],
+    "investment_summary": "The property appears to be priced significantly below asking-price medians for Emirates Hills, but this is an artificial discrepancy caused by miscategorizing a Jumeirah Park villa into an ultra-luxury community. Additionally, this analysis relies exclusively on active asking prices from other sellers rather than confirmed DLD transaction records. Due to clear geographical contradictions and mislabeling, this listing cannot be considered an accurate representation of an Emirates Hills asset.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/20/largest-layout-study-room-unfurnished-2-518801/_investment_analysis_exceptional": {
+    "quality_context": "Located in 8 Boulevard Walk within Downtown Dubai, this property offers a notably large two-bedroom plus study layout. While 8 Boulevard Walk is an established, older development by Emaar compared to newer ultra-luxury towers in the district, the generous floor plan and inclusion of a dedicated study provide strong utility for families or professionals seeking space in a prime central location.",
+    "risk_flags": [
+      "Building age is higher than the Downtown average, which may necessitate interior capital expenditure or renovations to achieve peak rental rates.",
+      "The large square footage results in higher ongoing annual service charges, which can compress net yields.",
+      "Older towers in Downtown face competition from modern off-plan handovers with superior contemporary amenities."
+    ],
+    "investment_summary": "The property is priced substantially below both the historical DLD transaction median for closed sales and the prevailing asking prices in Downtown Dubai. This discount reflects the larger footprint and mature building vintage, presenting a compelling entry point for value-add investors or end-users prioritizing expansive living space in a core location.",
+    "credibility_flag": "normal"
   }
 }
