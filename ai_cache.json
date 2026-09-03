@@ -5932,5 +5932,55 @@
     ],
     "investment_summary": "The property is priced substantially below both the historical DLD transaction median for closed sales and the prevailing asking prices in Downtown Dubai. This discount reflects the larger footprint and mature building vintage, presenting a compelling entry point for value-add investors or end-users prioritizing expansive living space in a core location.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/26/spacious-1br-apartment-s1lva-park-livin-2-308850/_investment_analysis_exceptional": {
+    "quality_context": "At over 1,000 square feet, this one-bedroom unit offers an expansive layout well above standard sizes in the district. However, the listing presents major location inconsistencies, naming Jumeirah Village Circle as the primary area while explicitly referencing Jumeirah Village Triangle in the description. The project itself is a modern mid-rise concept, but the presentation shows evident copy-paste errors.",
+    "risk_flags": [
+      "Location mismatch: Listed under Jumeirah Village Circle (JVC) but described as located in Jumeirah Village Triangle (JVT).",
+      "Geographically implausible marketing claim: Advertising 'Marina views' from inland communities like JVC/JVT is unrealistic.",
+      "Bait listing risk: Priced substantially beneath benchmark closed DLD transactions, raising doubts about unit availability and pricing legitimacy."
+    ],
+    "investment_summary": "While the per-square-foot rate appears steeply discounted against both real closed transactions and active market asking levels, the listing exhibits multiple red flags. Inconsistent location details, fabricated view promises, and an aggressively discounted price suggest potential bait-and-switch marketing rather than a genuine, actionable opportunity. Independent verification of title deed and unit availability is imperative.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/18/modern-living-spacious-1br-prime-jvc-lo-2-202902/_investment_analysis_market_rate": {
+    "quality_context": "Botanica is an established mid-rise development in Jumeirah Village Circle known for larger-than-average floor plans. At nearly a thousand square feet, this one-bedroom unit offers substantially more internal living space than modern compact layouts typical in newer JVC handovers, though lower-floor placement may bring baseline street exposure and limited natural views.",
+    "risk_flags": [
+      "Priced slightly above the median benchmark of actual closed DLD transactions, despite appearing heavily discounted against optimistic active asking prices.",
+      "Botanica is an older building compared to recent master-community deliveries, presenting potential risks of higher service fees or deferred maintenance costs.",
+      "Lower-floor positioning can negatively impact privacy, acoustic insulation, and tenant appeal."
+    ],
+    "investment_summary": "The unit represents a sensible value-per-square-foot proposition, sitting in close alignment with real recorded transaction averages while tracking far below broader seller asking expectations. The generous layout serves as a strong differentiator for long-term rental demand in JVC, making it a viable yield-focused asset assuming building upkeep and service charges remain well-managed.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/22/bright-unit-spacious-semi-close-kitchen-2-291364/_investment_analysis_good_value": {
+    "quality_context": "Situated in Masaar Residence within Jumeirah Village Circle, this unit features a generous floor plan for a one-bedroom layout, contrasting favorably against the smaller micro-units typical of newer construction. Masaar Residence is an established, mid-tier building offering standard community amenities, though its age and interior finishes lag behind contemporary developments in the master community.",
+    "risk_flags": [
+      "Building vintage may entail higher ongoing maintenance expenses and potential capital expenditure for interior modernization.",
+      "The listing description is truncated, requiring independent verification of tenancy status, service charge figures, and current unit condition.",
+      "Sub-community competition is strong, with newer developments in JVC potentially commanding higher tenant appeal and lower vacancy risk."
+    ],
+    "investment_summary": "The unit is positioned attractively below both the prevailing DLD transaction benchmark and broader active asking levels in JVC. While this discount reflects the building's older profile and modest specification tier, it offers income-oriented investors an accessible entry price with potential for solid gross rental yields, provided unit condition and running costs are thoroughly vetted.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/1/motivated-seller-vacant-huge-layout-bal-2-210379/_investment_analysis_good_value": {
+    "quality_context": "At over 800 sqft, this one-bedroom unit offers a more generous floor plan than typical modern compact builds in the area. Vacancy on transfer provides immediate flexibility for either an owner-occupier or an investor seeking to capture prevailing market rent without waiting out an existing tenant tenancy or rent renewal cap.",
+    "risk_flags": [
+      "Location mismatch: Listed under Jumeirah Village Circle (JVC), but the description places the unit in Green Park Residence, District 4, Jumeirah Village Triangle (JVT).",
+      "Potential portal miscategorization or inaccurate listing details require verification before committing capital.",
+      "Green Park Residence is an established, older development that may require inspection for maintenance and service charge history."
+    ],
+    "investment_summary": "The property is priced below both recent registered DLD sales benchmarks and broader asking prices for comparable one-bedroom inventory. The immediate vacancy supports swift monetization. However, the geographic conflict between JVC and JVT in the listing details makes formal verification of the title deed and actual building location essential before treating this as a verified opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/26/investor-opprtunitytenanted7-roi-2-154281/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residences 2 is a well-established, mid-rise development within JVC known for considerably more spacious layouts than newer contemporary handovers. While the fixtures and aesthetic reflect mid-2010s construction rather than modern luxury finishes, a 1-bedroom approaching nearly one thousand square feet provides substantial living space that appeals strongly to long-term residents seeking functional value.",
+    "risk_flags": [
+      "Plaza Residences is an older development in JVC, which carries greater exposure to maintenance, building upkeep, and potential chiller or service charge burdens.",
+      "The larger-than-average square footage inflates overall service fees and service-charge-to-rent ratios relative to compact modern units.",
+      "Tenanted status requires due diligence on existing rental rates, lease expiration dates, and tenant payment history to verify true net yields."
+    ],
+    "investment_summary": "Priced comfortably below recent closed DLD transactions and substantially beneath broader asking medians, this property offers an attractive entry point into an established JVC community. The lower acquisition rate per square foot compensates for the older building age, positioning it well for income-focused investors looking for immediate cash flow from a tenanted asset.",
+    "credibility_flag": "normal"
   }
 }
