@@ -6064,5 +6064,15 @@
     ],
     "investment_summary": "The listing is priced notably below prevailing seller asking rates on a per-square-foot basis within the active market. However, investors should recognize that this lower unit-rate is primarily driven by the oversized layout, which keeps the total absolute purchase price in line with standard Dubai Creek Residences pricing rather than representing an anomalous absolute discount. Because no registered DLD transaction history is available for direct comparison, performance projections must rely on asking market dynamics. Ideal for an end-user seeking space or an investor targeting capital preservation in a prime waterfront community.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/1/vacant-2-bed-study-unfurnished-2-120156/_investment_analysis_exceptional": {
+    "quality_context": "The property offers an expansive footprint for a two-bedroom unit in Downtown Dubai, benefiting from a dedicated study room and a high-floor position. Its vacant status provides immediate operational flexibility for either end-use or immediate leasing without the delays associated with tenant eviction notices. However, the listing omits the specific tower name, which is critical in Downtown where quality, views, and developer reputation vary significantly.",
+    "risk_flags": [
+      "Pricing is positioned substantially below realized market transactions, which raises concerns of a potential bait-and-switch listing.",
+      "Omission of the building name prevents verification of service charges, construction quality, and actual location within Downtown.",
+      "Large square footage may lead to higher absolute annual service charges that could compress net rental yields."
+    ],
+    "investment_summary": "The property is priced substantially below prevailing DLD sold transaction benchmarks and broader active market asking prices in Downtown Dubai. While a large layout with a study and vacant status presents strong theoretical yield and capital appreciation potential, the significant pricing discount paired with sparse listing details warrants caution. Investors should verify listing authenticity and title deed availability before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
