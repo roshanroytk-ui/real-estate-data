@@ -6094,5 +6094,45 @@
     ],
     "investment_summary": "The unit is positioned attractively below prevailing closed DLD transaction medians and at a substantial discount compared to active asking prices across JVC. With an above-average footprint and ready-to-rent furnished status, it presents a compelling entry point for cash-flow-oriented investors seeking strong gross yields, provided the physical condition and building upkeep meet expectations upon inspection.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/spacious-2-br-3-yr-phpp-ready-this-year-2-115208/_investment_analysis_exceptional": {
+    "quality_context": "The property is a two-bedroom unit in Xenia Residences, a low-rise residential development situated in District 13 of Jumeirah Village Circle. The recorded size is exceptionally large for a standard two-bedroom in this community, which strongly indicates the inclusion of substantial private terrace or outdoor space that dilutes the overall rate per square foot. While positioned within a high-demand rental and mid-market community, the headline pricing per square foot sits substantially below historical closed transaction benchmarks registered with the Dubai Land Department.",
+    "risk_flags": [
+      "Pricing per square foot is positioned drastically below prevailing DLD registered sold medians, presenting a classic profile of a potential bait-and-switch listing.",
+      "The unusually large square footage for a two-bedroom unit likely includes significant non-internal terrace area, which inflates the denominator and distorts comparative valuation.",
+      "Off-plan and post-handover payment plan claims require direct verification with the developer and DLD escrow registry to confirm real contract terms and delivery feasibility."
+    ],
+    "investment_summary": "On paper, the listing offers an entry rate well below both secondary market askings and benchmark DLD closed transaction averages in Jumeirah Village Circle, accompanied by attractive post-handover financing terms. However, the combination of an atypical layout size and severe pricing divergence from prevailing market norms indicates high listing unreliability. Investors should proceed with caution and verify actual built-up area versus outdoor space, as well as direct unit availability.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/3/spacious-fully-furnished-rented-2-227909/_investment_analysis_good_value": {
+    "quality_context": "Situated in Emirates Gardens within Jumeirah Village Circle, this studio is located in a mature, low-rise residential development. While older than contemporary JVC stock, the property benefits from a relatively spacious studio footprint, comes fully furnished, and is already rented, offering immediate operational income.",
+    "risk_flags": [
+      "Building age in older developments like Emirates Gardens often incurs higher maintenance overhead and potential wear-and-tear expenses.",
+      "Existing tenancy terms must be audited to verify yield and check whether RERA rental index caps restrict immediate rental increases.",
+      "Capital appreciation for older secondary developments typically lags behind the substantial volume of newer and off-plan inventory entering JVC."
+    ],
+    "investment_summary": "Priced noticeably below both recent closed transaction benchmarks and prevailing asking medians in Jumeirah Village Circle, this property presents a solid entry-level income asset. The pricing reflects the building's vintage, making it best suited for an investor seeking consistent cash flow from an active lease rather than aggressive capital growth.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/26/exclusive-chiller-free-vacant-fully-fur-2-239019/_investment_analysis_good_value": {
+    "quality_context": "Sobha Daffodil is a mature, established residential development within JVC offering well-proportioned layouts. At over five hundred square feet, this studio is noticeably larger than contemporary new-build studios in the district. The combination of chiller-free status, full furnishings, and vacant possession provides immediate operational readiness for investors looking to lease out quickly without initial capital expenditure on interior fit-outs.",
+    "risk_flags": [
+      "Building age: Completed in the early 2010s, which may entail higher ongoing maintenance requirements and older common facilities compared to modern JVC supply.",
+      "Larger unit footprint means a higher absolute purchase price compared to compact micro-studios, which can exert pressure on gross percentage yields.",
+      "High density of competing studio supply across JVC, putting a premium on interior condition and tenant retention."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered transactions in the area and stands well below prevailing market asking rates. The pricing reflects the building's older vintage and larger layout rather than an anomaly. Given its vacant status and fully furnished condition, it represents a turnkey rental asset capable of generating steady cash flow, provided building condition and service fees are verified during due diligence.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-lake-towers-jlt-cluster-l-icon-tower-2-129738282.html_investment_analysis_good_value": {
+    "quality_context": "Icon Tower 2 in Cluster L is an established, mid-market residential tower developed by Mazaya. This 2-bedroom plus maid's layout is generous at over 1,300 sq. ft. and features four bathrooms, making it attractive for family tenants. However, being on a low floor with an internal community view places it on the more modest end of the tower's aesthetic appeal compared to high-floor lake-facing units.",
+    "risk_flags": [
+      "Building age: Icon 2 is an older development in JLT, which may entail higher ongoing maintenance needs and aging common facilities.",
+      "Low floor location paired with community views may limit premium rental rates and future capital appreciation upside.",
+      "Competition within JLT's older clusters is high, requiring targeted cosmetic upgrades to maximize tenant demand."
+    ],
+    "investment_summary": "The unit is positioned attractively below recent DLD recorded transaction benchmarks and sits substantially under prevailing market asking prices in JLT. Given the inclusion of a maid's room—a feature in strong demand among mid-income families—the apartment offers solid rental yield potential for value-driven investors willing to factor in older building maintenance.",
+    "credibility_flag": "normal"
   }
 }
