@@ -6154,5 +6154,55 @@
     ],
     "investment_summary": "The property is competitively priced below both recent DLD registered sold-price benchmarks and general active market asking levels. Given that it is offered vacant for immediate occupation or leasing, the combination of upgraded condition, dedicated storage, and below-market entry pricing positions it well for healthy rental yields and steady capital preservation.",
     "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/abu-zaby-abu-dhabi-310109925838/_investment_analysis_exceptional": {
+    "quality_context": "Julphar Residence by RAK Properties is located on Al Reem Island, a prominent investment and residential hub in Abu Dhabi known for solid tenant demand and proximity to key retail and educational anchors like Reem Mall and Sorbonne University. The building offers standard modern residential amenities including podium swimming pools, an indoor gym, and covered parking.",
+    "risk_flags": [
+      "Limitation: Benchmark comparison relies strictly on active seller asking prices, as confirmed closed-transaction data is unavailable for this segment, which may overstate general market levels.",
+      "The description uses generic developer marketing text describing all unit types with a 'starts from' price and nonsensical sizing ('From 6 sqm'), indicating a generic lead-generation listing rather than a verified, specific apartment.",
+      "Actual unit availability, view quality, specific floor plan, and ongoing service charges cannot be confirmed from this advertisement."
+    ],
+    "investment_summary": "The unit is positioned noticeably below median active asking rates on Al Reem Island, suggesting an attractive nominal entry point on paper. However, buyers should treat this listing with caution, as it exhibits hallmark characteristics of a generic promotional placeholder rather than an actionable, individual unit sale at the advertised baseline price.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/19/great-deal-fully-furnished-prime-locati-2-235159/_investment_analysis_good_value": {
+    "quality_context": "Located in Plaza Residences within Jumeirah Village Circle, this one-bedroom apartment offers an exceptionally generous floor plan compared to the standard compact layouts of newer handovers in the community. Plaza Residences is an established, mature development, which generally commands a lower price per square foot than newly delivered or off-plan projects in JVC. Being fully furnished adds short-term convenience, though the condition of furnishings and underlying finishes in older buildings can vary.",
+    "risk_flags": [
+      "Building age and potential maintenance demands typical of mature developments in JVC.",
+      "Higher total square footage for a one-bedroom can dampen gross rental yields if rent does not scale proportionally with unit size.",
+      "Truncated listing details leave service charges, exact view, and current tenancy status unconfirmed."
+    ],
+    "investment_summary": "The property is priced meaningfully below the benchmark of completed DLD transactions in JVC, and sits substantially lower than prevailing asking prices for active listings. While the discounted rate largely reflects the older vintage of the building and the larger unit footprint, it offers an accessible entry point on a per-square-foot basis for buyers prioritizing space and ready-to-move convenience.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/25/closed-kitchen-notice-served-furnished-2-146481/_investment_analysis_good_value": {
+    "quality_context": "The unit offers a generous layout for a one-bedroom apartment with practical features including a closed kitchen and fully furnished interior. Having an eviction notice already served provides immediate clarity for end-users seeking personal occupancy or investors aiming to re-lease at prevailing market rates. Al Manara Tower by Tiger Properties represents entry-to-mid tier finishing standard, which tends to attract steady tenant demand for budget-conscious renters.",
+    "risk_flags": [
+      "Location mismatch: Listing metadata cites Jumeirah Village Circle (JVC), whereas the description locates the property in Al Manara Tower in Jumeirah Village Triangle (JVT).",
+      "Description is abruptly truncated, indicating incomplete listing details or automated scraping.",
+      "Eviction notice claims must be verified with formal notarized documentation to ensure legal compliance and timeline accuracy."
+    ],
+    "investment_summary": "The property is priced attractively below recent registered transaction medians and significantly below active asking prices in the surrounding area. The served notice offers operational flexibility for occupancy or rent reset. However, the geographic contradiction between JVC and JVT requires immediate verification before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/27/fully-furnished-short-term-upto-12-cheq-2-315383/_investment_analysis_market_rate": {
+    "quality_context": "Sydney Tower offers standard mid-tier residential living in Jumeirah Village Circle, with this one-bedroom unit presenting an adequate layout size for the community. The property is offered fully furnished on a low floor, positioned comfortably below prevailing historical transaction prices registered with the DLD, and notably below wider seller asking expectations across the district.",
+    "risk_flags": [
+      "Low-floor location may result in street-level noise or restricted natural light depending on facing direction.",
+      "Sydney Tower is an older, mid-market building in JVC, which can carry higher long-term maintenance requirements compared to newer master-planned developments.",
+      "The truncated listing description leaves tenancy status and service charge details unconfirmed, requiring verification prior to acquisition."
+    ],
+    "investment_summary": "Priced slightly below historical closed sales transactions and well under the active market median, this furnished unit represents an accessible, cash-flow-oriented entry into JVC's resilient rental segment, provided due diligence confirms current building upkeep and tenancy terms.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/27/spacious-tenanted-gf-unit-high-roi-2-745803/_investment_analysis_exceptional": {
+    "quality_context": "Park Heights 2 in Dubai Hills Estate (Hadaeq Sheikh Mohammed Bin Rashid) is a prime Emaar master community with strong rental demand, park access, and retail infrastructure. The unit is situated on the ground floor, which likely features an extended terrace accounting for the above-average floor plate, but typically trades at a discount due to reduced privacy and limited views compared to higher floors.",
+    "risk_flags": [
+      "Pricing sits substantially below historical DLD recorded transactions, strongly indicating a potential bait-and-switch listing to generate leads.",
+      "Ground floor location often suffers from street-level noise, lack of views, reduced privacy, and potentially weaker secondary-market liquidity.",
+      "The listing description is truncated mid-sentence, indicating unverified or incomplete broker submission details."
+    ],
+    "investment_summary": "The property is marketed at a steep discount compared to benchmark DLD transaction prices in the building and sub-community. While the headline pricing would indicate exceptional yield potential in an Emaar development, the wide disparity relative to actual sold comparables points to a probable phantom or lead-generation listing. Direct verification of unit availability, title deed, and physical inspection of the ground floor layout are necessary before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
