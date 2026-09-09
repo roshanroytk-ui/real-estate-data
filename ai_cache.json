@@ -6204,5 +6204,66 @@
     ],
     "investment_summary": "The property is marketed at a steep discount compared to benchmark DLD transaction prices in the building and sub-community. While the headline pricing would indicate exceptional yield potential in an Emaar development, the wide disparity relative to actual sold comparables points to a probable phantom or lead-generation listing. Direct verification of unit availability, title deed, and physical inspection of the ground floor layout are necessary before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/29/next-to-metro-water-front-best-price-2-282870/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/17/upgraded-golf-and-lake-view-exclusive-2-268875/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/23/upgraded-and-extended-al-reem-for-inves-2-504569/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/4/spacious-3-bedroom-family-villa-in-jume-2-108774/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/upscale-waterfront-urban-oasis-refined--3-108555/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/6/smart-home-marina-skyline-view-investme-2-386498/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/24/exclusive-unit-close-to-ammenities-prem-2-438574/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/4/skyline-view-branded-address-competitiv-2-172476/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/10/exclusive-vacant-high-floor-motivated-2-185710/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/elevated-modern-waterfront-living-commu-3-761796/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/25/well-maintained-rented-lake-2-259913/_investment_analysis_exceptional": {
+    "quality_context": "The listing is advertised under Emirates Hills, yet the property description explicitly identifies it as a Type 3E villa located in Springs 5. While the property claims desirable attributes such as lake views and well-maintained condition, comparing a Springs townhouse against prime Emirates Hills asking prices creates a false impression of value. Additionally, note that this evaluation is benchmarked strictly against other sellers' asking prices, as verified DLD closed-transaction records are currently unavailable for this specific segment.",
+    "risk_flags": [
+      "Severe listing misclassification: Tagged in Emirates Hills but explicitly described as a Springs 5 Type 3E villa.",
+      "Artificial pricing discount caused by comparing a mid-tier Springs property against ultra-luxury Emirates Hills asking medians.",
+      "Lack of DLD closed-transaction data leaves the benchmark reliant entirely on active listing ask prices rather than confirmed sales.",
+      "Active tenancy status may limit immediate end-user occupancy and could be tied to an existing below-market rental rate."
+    ],
+    "investment_summary": "This listing displays critical red flags due to a clear geographic and property-type mismatch between the headline area of Emirates Hills and the actual Springs 5 villa described. Any perceived pricing advantage is entirely distorted by this misclassification. Investors should exercise extreme caution as this listing reads as mislabeled or bait inventory.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/pool-view-modern-2br-fully-furnished-pr-3-217949/_investment_analysis_exceptional": {
+    "quality_context": "The property is priced substantially below the prevailing median asking rate for comparable active listings in Masdar City. However, investors must note that this benchmark is derived strictly from other sellers' asking prices rather than registered DLD closed-transaction data, as historical sold records are not available for this segment.",
+    "risk_flags": [
+      "Listing discrepancy: The title advertises a 1-bedroom apartment, while the description states it is a 2-bedroom unit.",
+      "Benchmark limitation: No closed transaction records exist for this segment, meaning pricing comparisons rely exclusively on seller asking expectations.",
+      "Potential bait listing: The pronounced discount relative to surrounding asking prices alongside contradictory specifications strongly indicates inaccurate or unverified listing details."
+    ],
+    "investment_summary": "On paper, the property sits at an attractive per-square-foot rate relative to active market asking prices. However, the direct contradiction between the headline bedroom count and the description text, combined with an aggressive discount against peer listings, makes this listing unreliable in its current state. Immediate physical and legal verification is recommended before pursuing.",
+    "credibility_flag": "suspicious"
   }
 }
