@@ -6265,5 +6265,55 @@
     ],
     "investment_summary": "On paper, the property sits at an attractive per-square-foot rate relative to active market asking prices. However, the direct contradiction between the headline bedroom count and the description text, combined with an aggressive discount against peer listings, makes this listing unreliable in its current state. Immediate physical and legal verification is recommended before pursuing.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/7/well-maintained-great-aminities-spaciou-2-196208/_investment_analysis_market_rate": {
+    "quality_context": "At 732 sqft, this one-bedroom apartment provides a standard-to-spacious footprint for Jumeirah Village Circle, catering well to single professionals and couples. JVC remains one of Dubai's most liquid suburban rental hubs, driven by steady mid-market tenant demand and established community infrastructure.",
+    "risk_flags": [
+      "Specific building identity is not stated in the listing summary, making building maintenance history and service charge levels unverified.",
+      "Jumeirah Village Circle has a high volume of concurrent handovers and upcoming supply, which can create tenant competition across older and mid-tier stock.",
+      "Tenancy status (vacant on transfer versus tenanted at legacy rental rates) is not specified and must be clarified to assess immediate net yields."
+    ],
+    "investment_summary": "The property is priced moderately below recent registered DLD closed transactions for comparable one-bedroom units in JVC, while sitting significantly below prevailing asking prices across active market listings. Provided the underlying building is well-managed with reasonable service fees, the pricing offers solid fundamental entry value with dependable rental liquidity.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/jumeirah-village-triangle-dubai-dubai-310109817005/_investment_analysis_good_value": {
+    "quality_context": "The property is a high-floor two-bedroom unit in Al Manara Tower, offering a substantially larger layout than typical modern two-bedroom units in the surrounding areas. The unit is priced favorably below both recent historical registered transaction prices and active market listings, representing competitive entry pricing on a per-square-foot basis for a completed residential tower.",
+    "risk_flags": [
+      "Community classification mismatch: Listing metadata lists Jumeirah Village Circle, while the property is located in Jumeirah Village Triangle, which may distort automated district benchmark comparisons.",
+      "Minor size discrepancy between the headline portal data and the description text.",
+      "Al Manara Tower is a mid-tier mature development where capital appreciation tends to lag newer master-planned inventory and service charge efficiencies should be verified."
+    ],
+    "investment_summary": "The property presents attractive value for space-seeking end-users and buy-to-let investors, sitting at an entry price point positioned comfortably below recent DLD registered sales medians. Prospective buyers should confirm localized JVT building comparables and net rental yields, accounting for the portal's district labeling discrepancy.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/18/high-floor-canal-view-priced-to-sell-2-130686/_investment_analysis_below_market": {
+    "quality_context": "Millennium Binghatti Residences offers a recognizable mid-tier residential option in Business Bay. At over 1,400 sqft, this two-bedroom layout provides a generous footprint compared to newer compact developments in the master community. While the listing highlights high-floor canal views, finishings in this development cater primarily to the mid-market segment rather than ultra-luxury standards, which historically influences capital appreciation potential relative to prime waterfront towers.",
+    "risk_flags": [
+      "Unit orientation must be verified to confirm full canal views versus partial or skyline/highway views.",
+      "Binghatti developments historically face higher tenant turnover and secondary market competition compared to top-tier Business Bay master developments.",
+      "Net yields can be compressed if building service charges are elevated relative to achieved rental rates in this specific tower."
+    ],
+    "investment_summary": "The property is priced attractively below both recent DLD closed transaction medians and prevailing asking medians for Business Bay. This entry point offers solid rental yield potential for a buy-to-let investor and a competitive entry into a central location, provided the unit's condition, view claim, and service charge history are validated during physical inspection.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/23/largest-plot-corner-unit-motivated-sell-2-240457/_investment_analysis_exceptional": {
+    "quality_context": "The property is a 5-bedroom Type C corner villa in Jebel Ali Village by Nakheel, offering a substantial footprint and favorable plot positioning within a newly revitalized master community.",
+    "risk_flags": [
+      "No official Dubai Land Department (DLD) closed-transaction data is available for this segment; all comparisons rely strictly on current asking prices from other active listings, not verified registered sales.",
+      "Potential metric distortion: The stated area of 7,382 sqft may reflect the total plot size rather than the built-up area (BUA), which would artificially lower the calculated price per square foot.",
+      "Significant pricing divergence from prevailing seller expectations, combined with aggressive marketing language ('Lowest Priced', 'Serious Buyers Only'), carries risk of being an unverified or bait-and-switch listing."
+    ],
+    "investment_summary": "The villa is listed at a rate priced well below the median asking prices of competing active inventory in the area. However, because this evaluation is benchmarked purely against active seller listings without confirmed DLD transaction history, true market clearance levels cannot be validated. Prospective investors should verify whether the stated footage reflects built-up area or plot area and confirm the listing's genuine availability prior to proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/8/8343-sqft-plot-vacant-park-backing-2-335118/_investment_analysis_exceptional": {
+    "quality_context": "Located in Tilal Al Furjan (Jabal Ali 1), this 5-bedroom villa offers desirable attributes including vacant status, park-backing orientation, and a spacious plot. However, there is a fundamental structural mismatch in the listing data: the headline size of 8,343 sqft reflects the plot area rather than the built-up area (BUA), which the description specifies as 4,735 sqft.",
+    "risk_flags": [
+      "No official Dubai Land Department (DLD) closed transaction data is available for this segment; comparison is based entirely on active seller asking prices, which may reflect aspirational pricing rather than realized market values.",
+      "The listing calculates price per square foot using the expansive plot size rather than the interior built-up area, creating an artificially deflated unit rate that skews comparison against standard market listings.",
+      "When evaluated against actual built-up living area, the unit's true rate per square foot is substantially higher than displayed."
+    ],
+    "investment_summary": "On surface metrics, this villa appears priced well below prevailing asking rates in the area. However, this apparent pricing advantage is primarily a data distortion caused by using plot size instead of built-up area to compute the unit rate. Buyers should assess the total acquisition cost against true built-up area comparables rather than relying on the advertised per-square-foot figure, keeping in mind that the comparison is benchmarked against asking prices rather than verified closed sales.",
+    "credibility_flag": "suspicious"
   }
 }
