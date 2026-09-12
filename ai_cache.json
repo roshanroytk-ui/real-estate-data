@@ -6315,5 +6315,87 @@
     ],
     "investment_summary": "On surface metrics, this villa appears priced well below prevailing asking rates in the area. However, this apparent pricing advantage is primarily a data distortion caused by using plot size instead of built-up area to compute the unit rate. Buyers should assess the total acquisition cost against true built-up area comparables rather than relying on the advertised per-square-foot figure, keeping in mind that the comparison is benchmarked against asking prices rather than verified closed sales.",
     "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/36gq-hqc-al-barsha-al-barsha-south-dubai-united-arab-emirates-dubai-dubai-310099116343/_investment_analysis_below_market": {
+    "quality_context": "Skyhills Astra is an off-plan dual-tower development by HRE Development situated in Dubai Science Park (Dubiotech). The development emphasizes wellness and lifestyle amenities, featuring a beach-style pool, athletic facilities, co-working spaces, and smart home integration. Dubai Science Park offers steady rental demand driven by biotechnology, pharmaceutical, and business professionals, with convenient connectivity to Al Khail Road and Sheikh Mohammed Bin Zayed Road.",
+    "risk_flags": [
+      "Listing inconsistency: The listing details specific pricing and square footage, but the unit breakdown in the text explicitly states 2-bedroom duplexes are 'price on request' and sets 1-bedroom baseline prices near this unit's implied total cost, indicating lead-generation or placeholder data.",
+      "Extended construction timeline with handover targeted for late 2027, exposing buyers to development and completion delivery risks.",
+      "Post-handover payment plan commitments require long-term liquidity management beyond the completion date.",
+      "Ongoing infrastructure and community development in Dubai Science Park may impact short-term tenancy and area density."
+    ],
+    "investment_summary": "The unit is presented at an entry rate substantially below both the historical DLD transaction median and active market asking levels in Dubai Science Park. While the attractive payment plan and advertised unit rate suggest compelling off-plan upside and rental yield potential upon completion, the listing exhibits clear characteristics of a generic broker marketing template rather than a validated inventory unit. Investors must verify genuine unit allocation and final contract pricing directly with the developer before committing capital.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/26/single-row-type-3e-vacant-2-184978/_investment_analysis_exceptional": {
+    "quality_context": "The property is advertised as a Type 3E (3-bedroom plus study) single-row villa on a spacious plot. However, while tagged under Emirates Hills, the description explicitly specifies Springs 1 within the broader Emirates Living master community. A Type 3E layout is a standard Emaar townhouse floor plan native to The Springs, which represents a distinctly different asset class and finish standard compared to custom luxury mansions typically found in Emirates Hills.",
+    "risk_flags": [
+      "Severe location and community misclassification: Advertised under Emirates Hills, but the unit details confirm it is a Type 3E townhouse in Springs 1.",
+      "Distorted price comparison: Benchmark metrics reflect luxury Emirates Hills asking prices rather than relevant Springs 1 townhouse comparables.",
+      "Lack of verified transaction data: Comparison relies exclusively on active seller asking prices, as confirmed DLD closed-transaction records are not available for this segment."
+    ],
+    "investment_summary": "This listing appears miscategorized, blending Springs 1 inventory into Emirates Hills search criteria. While a single-row Type 3E in The Springs can be a desirable end-user and rental asset, its apparent discount is an artifact of being benchmarked against luxury Emirates Hills asking prices rather than actual Springs sub-market levels. Investors should also note that benchmark comparisons are limited strictly to seller asking prices rather than verified DLD closed sales. Due to the community discrepancy, caution is strongly advised.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/jumeirah-village-triangle-dubai-dubai-310109838283/_investment_analysis_good_value": {
+    "quality_context": "Al Manara Tower in Jumeirah Village Triangle features generously sized two-bedroom layouts compared to typical market standards, accompanied by standard residential amenities including a swimming pool, gym, sauna, and dedicated parking.",
+    "risk_flags": [
+      "Location mismatch: Listing metadata tags the property in Jumeirah Village Circle (JVC), whereas the property description and tower name firmly place it in Jumeirah Village Triangle (JVT).",
+      "Conflicting pricing and sizing metrics: The listed headline price per square foot conflicts with the explicit asking price and area detailed in the property description.",
+      "Benchmark distortion: Market benchmarks drawn from JVC do not accurately reflect the specific dynamics and transaction history of JVT."
+    ],
+    "investment_summary": "While the unit is positioned comfortably below historical median sold transactions on a per-square-foot basis, significant discrepancies in location tagging, overall asking price, and unit size suggest administrative errors or a potentially inaccurate listing. Investors should independently verify the authentic asking price and title deed details before evaluating returns.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/6/high-floor-large-layout-2-balconies-pri-2-188045/_investment_analysis_good_value": {
+    "quality_context": "Situated in The Square Tower within Jumeirah Village Circle, this one-bedroom unit features an expansive layout well above the typical footprint for the district, complemented by dual balconies and a high-floor elevation. Larger floor plans in JVC generally trade at lower unit rates per square foot, yet offer strong functional appeal for end-users seeking spacious living arrangements.",
+    "risk_flags": [
+      "The truncated listing description warrants direct verification with the broker to confirm current availability and accurate terms.",
+      "Higher total square footage for a one-bedroom can lead to a lower yield efficiency compared to smaller, more compact layouts in the submarket.",
+      "Capital appreciation and rental performance in JVC can vary widely by building quality, developer track record, and specific service charge structures."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered sold transaction medians and significantly underneath prevailing asking levels in Jumeirah Village Circle. This presents an appealing entry point on a price-per-foot basis, provided the investor confirms building maintenance standards and validates that larger one-bedroom rental premiums offset the higher absolute purchase amount.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/9/chiller-free-spacious-1-bedroom-study-v-2-548919/_investment_analysis_good_value": {
+    "quality_context": "Located in Sobha Daffodil within District 13 of Jumeirah Village Circle, this unit features a generous layout for a one-bedroom plus study. The building is an established development known for chiller-free arrangements, though it represents older stock compared to newer handovers in JVC. The entry price per square foot sits comfortably below both recent DLD registered transactions and broader asking medians, which is typical for earlier-generation assets in the community.",
+    "risk_flags": [
+      "Listing description explicitly states the apartment is 'for rent' despite being marketed with sales pricing metrics, indicating potential listing miscategorization or syndication error.",
+      "Sobha Daffodil is an older development (completed around 2011), which may carry higher maintenance requirements and capital expenditure compared to modern JVC developments.",
+      "Truncated description suggests incomplete verification by the listing agent."
+    ],
+    "investment_summary": "On paper, the property is priced attractively below typical sold benchmarks for JVC, offering decent space efficiency with the added study room. However, due to conflicting copy describing the unit as a rental rather than a sale, prospective buyers must first confirm whether this is a genuine sale listing and verify the true tenancy and vacant status before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/9/3/1-bedroom-apartment-for-sale-in-autumn--2-635220/_investment_analysis_good_value": {
+    "quality_context": "The unit is positioned attractively below both recent DLD historical transaction medians and broader active asking levels within Jumeirah Village Circle. At 662 square feet, the layout represents a typical, compact footprint for an entry-level one-bedroom apartment in this district, offering an accessible entry point for rental yields.",
+    "risk_flags": [
+      "Discounted pricing relative to actual transaction medians may indicate an older building, high service charges, poor maintenance, or an unfavorable location within JVC.",
+      "The truncated listing description and generic investor-oriented title provide limited details regarding title deed status, building name, or existing tenancy terms.",
+      "A notable gap between prevailing asking prices and actual closed registry prices across JVC suggests widespread seller optimism and market listing inflation."
+    ],
+    "investment_summary": "Priced well below comparable registered sales in JVC, this listing presents a compelling value proposition for yield-focused investors seeking low capital outlay. However, buyers should conduct thorough due diligence on the specific building's maintenance track record, historical occupancy rates, and ongoing service charges to ensure the pricing advantage translates into healthy net returns.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/4/upgraded-1br-designer-interior-1018-sqf-2-238159/_investment_analysis_good_value": {
+    "quality_context": "Situated in Plaza Residences 2 within JVC, this unit offers an expansive layout exceeding typical 1-bedroom footprints in the community. Advertised as fully upgraded, furnished, and vacant on transfer, it provides immediate utility for end-users or direct rental deployment without tenancy notice delays. Plaza Residences is an established, mature community development, which typically features larger layouts but older building infrastructure compared to newly handed-over stock in JVC.",
+    "risk_flags": [
+      "Older development vintage in Plaza Residences, which may involve higher maintenance costs and service charges compared to newer JVC handovers.",
+      "The oversized footprint naturally compresses the price per square foot; gross rental yields may face pressure if tenants are unwilling to pay a proportional premium for surplus space.",
+      "Truncated listing description indicates potential broker oversight or an incomplete listing upload."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD recorded transaction levels and well underneath active market asking medians. Being vacant on transfer provides strong flexibility for immediate occupancy or setting fresh rental rates in an active leasing market. Investors should verify the quality of the upgrades and review building service charge schedules to ensure net yields align with expectations.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/10/roi-spacious-huge-layout-investment-2-181543/_investment_analysis_market_rate": {
+    "quality_context": "Villa Pera in Jumeirah Village Circle offers an exceptionally generous floor plan for a one-bedroom unit, well above the typical footprint found in standard JVC developments. When evaluated against registered DLD sales benchmarks, the unit is priced at a noticeable premium to actual closed transactions in the community, despite sitting comfortably below speculative active asking levels. The large square footage provides strong livability, though rental pricing in JVC often favors bedroom count over surplus area, potentially tempering rental yield efficiency relative to its total acquisition cost.",
+    "risk_flags": [
+      "Listing presents an internal contradiction regarding tenancy status, claiming to be both tenanted and vacant simultaneously.",
+      "Priced above the median level of completed DLD transactions in the area, indicating closed market values trade lower than this unit's rate.",
+      "Very large layout for a one-bedroom apartment may lead to lower yield per square foot, as tenant budgets in JVC typically cap out based on bedroom count.",
+      "Villa Pera is an older development in District 15, which may carry higher ongoing maintenance or service charge considerations compared to newer inventory."
+    ],
+    "investment_summary": "While the expansive layout offers unique appeal for end-users or long-term tenants prioritizing space, the property trades higher on a rate basis than what genuine registered buyers have historically paid in the neighborhood. Combined with confusing listing details regarding tenancy and potential yield compression from the oversized footprint, investors should seek clarity on lease terms and negotiate toward prevailing transacted benchmarks before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
