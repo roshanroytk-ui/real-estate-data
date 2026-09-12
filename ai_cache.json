@@ -6397,5 +6397,37 @@
     ],
     "investment_summary": "While the expansive layout offers unique appeal for end-users or long-term tenants prioritizing space, the property trades higher on a rate basis than what genuine registered buyers have historically paid in the neighborhood. Combined with confusing listing details regarding tenancy and potential yield compression from the oversized footprint, investors should seek clarity on lease terms and negotiate toward prevailing transacted benchmarks before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/4/12/sea-view_5-down-payment_pool-access_-gr-2-869497/_investment_analysis_exceptional": {
+    "quality_context": "Located in the emerging Dubai Islands master development (historically Palm Deira), Lozura Residences by Dubai Investments offers a generous unit size for a one-bedroom layout at 928 square feet. The project is currently off-plan with an estimated handover in Q2 2027, featuring waterfront positioning and low initial capital outlay typical of early-stage developer launches in this evolving coastal district.",
+    "risk_flags": [
+      "Off-plan completion risk with handover targeted for Q2 2027, subject to potential construction or master community delays.",
+      "Master community maturity timeline: Dubai Islands infrastructure and amenities are actively under development, which may affect near-term tenant demand and rental yields post-handover.",
+      "Potential divergence in secondary market valuations between inland or mid-tier builds versus prime waterfront luxury stock within the same district."
+    ],
+    "investment_summary": "The property is priced substantially below prevailing DLD registered transaction medians as well as typical market asking rates in Palm Deira. Given the spacious layout and developer backing, it offers solid capital appreciation prospects for patient investors seeking waterfront exposure, provided they are comfortable with the extended delivery horizon and emerging infrastructure timeline.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/27/exclusive-large-layout-partial-bk-view-2-245298/_investment_analysis_good_value": {
+    "quality_context": "Located in Bahwan Tower within Downtown Dubai, this property offers a significantly larger layout than the standard one-bedroom units typically found in the area. Bahwan Tower is a private, non-Emaar development situated towards the southern edge of Downtown, which traditionally trades at a noticeable discount compared to core Emaar Boulevard developments. The unit benefits from an expansive floor plan and partial landmark views, making it an attractive end-user proposition on a pure space basis.",
+    "risk_flags": [
+      "Non-Emaar building quality and branding may limit long-term capital appreciation and liquidity compared to prime Downtown master-developer assets.",
+      "The large footprint increases the total ticket price, which can compress gross rental yields relative to more compact, high-efficiency layouts.",
+      "Periphery Downtown location near the border with Business Bay experiences differing tenant demand compared to central Burj Lake or Boulevard locations.",
+      "Listing description appears truncated or incomplete at the end."
+    ],
+    "investment_summary": "The unit is priced favorably below both recent DLD transacted medians and the prevailing active asking market. This pricing reflects its position in a secondary private development rather than an Emaar flagship. For an investor seeking generous interior living space and an entry point into a Downtown postal code below prevailing transacted rates per square foot, this represents a solid value-oriented purchase, provided expectations on rental premium and tenant profile are aligned with non-master-developer stock.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/4/16/exclusive-3br-corner-villa-rented-zulal-2-102184/_investment_analysis_exceptional": {
+    "quality_context": "Zulal 2 is an established, mature sub-community within The Lakes master development, renowned for family-friendly communal greenery, parks, and lakes. However, the listing is categorized under Emirates Hills, which represents an ultra-luxury segment distinct from standard Lakes townhouses and villas. In addition, a 4,044 sqft measurement for a 3-bedroom Zulal unit typically reflects the plot size rather than the built-up area (BUA), which distorts direct per-square-foot comparisons.",
+    "risk_flags": [
+      "Data limitation: No Dubai Land Department (DLD) closed-transaction data is available for this segment; comparisons rely solely on active asking prices from other sellers rather than confirmed sales.",
+      "Community misclassification: Zulal 2 is part of The Lakes, but the listing is tagged under Emirates Hills, creating an artificial pricing disparity against an ultra-luxury benchmark.",
+      "Likely plot vs. BUA distortion: A footprint of over 4,000 sqft strongly indicates plot area rather than internal living space for a 3-bedroom layout, artificially lowering the reported price per square foot.",
+      "Tenancy constraints: The property is sold as rented, meaning immediate vacant possession or rent adjustments will be governed by statutory notice periods."
+    ],
+    "investment_summary": "While the listing appears priced substantially below comparable active asking prices, this apparent discount is largely driven by a mismatch in community categorization (The Lakes vs. Emirates Hills) and probable calculation using plot size rather than internal BUA. Because no confirmed DLD transaction records are available, this comparison reflects only competitor asking expectations. Investors should conduct due diligence on the actual built-up area and benchmark the asset specifically against Zulal transactions in The Lakes before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
