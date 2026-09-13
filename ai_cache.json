@@ -6429,5 +6429,45 @@
     ],
     "investment_summary": "While the listing appears priced substantially below comparable active asking prices, this apparent discount is largely driven by a mismatch in community categorization (The Lakes vs. Emirates Hills) and probable calculation using plot size rather than internal BUA. Because no confirmed DLD transaction records are available, this comparison reflects only competitor asking expectations. Investors should conduct due diligence on the actual built-up area and benchmark the asset specifically against Zulal transactions in The Lakes before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/4/upgraded-2-bed-plus-study-sea-view-2-284753/_investment_analysis_market_rate": {
+    "quality_context": "Situated on Palm Jumeirah with direct West Beach lifestyle access, this unit offers high-demand amenities including private beach privileges, sea and Marina skyline views, and full interior renovations. The addition of a dedicated study room enhances appeal for both end-users and premium holiday home tenants seeking functional space in a prime resort-style setting.",
+    "risk_flags": [
+      "Carries a pricing premium over historical closed transaction medians for the area, making rigorous on-site verification of renovation quality essential to justify the acquisition cost.",
+      "Resort-style beachfront developments on the Palm typically incur higher annual service charges, which may compress net rental yields.",
+      "A wide spread between asking prices and settled registration prices in this submarket means active listings may reflect seller over-optimism rather than true clearing value."
+    ],
+    "investment_summary": "The property is priced above comparable settled historical transactions, reflecting a premium for its full upgrade and prime beachfront positioning, yet remains positioned noticeably below broader active asking levels in the community. It represents a compelling turnkey lifestyle asset or luxury short-term rental candidate, provided projected yields account for waterfront maintenance and service fees.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/22/spacious-layout-i-high-floor-i-ready-to-2-140886/_investment_analysis_good_value": {
+    "quality_context": "The Imperial Residence is a mature mid-market development within Jumeirah Village Circle. A typical two-bedroom unit of this size in an older community asset generally trades at a discount compared to newer handovers and modern off-plan deliveries in the area, explaining the softer pricing relative to community benchmarks.",
+    "risk_flags": [
+      "Mature building age may entail higher maintenance requirements or upcoming capital expenditures compared to newer JVC stock",
+      "Truncated listing text leaves specific maintenance condition, layout view, and parking allocation unconfirmed",
+      "Secondary market competition from a high volume of new handovers across JVC"
+    ],
+    "investment_summary": "The property is priced attractively below both recent closed transaction medians and prevailing asking levels across JVC. While the entry price presents solid rental yield potential for budget-focused tenants, long-term capital growth may be tempered by the age of the building relative to newer inventory in the immediate vicinity.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/29/high-roi-vacant-ready-to-move-best-pric-2-234257/_investment_analysis_market_rate": {
+    "quality_context": "Located in Villa Pera within Jumeirah Village Circle, this unit features a generous floor plan for a one-bedroom apartment compared to modern market averages. Villa Pera is an established mid-rise residential building offering larger square footage, though typically accompanied by older finishes and architectural design compared to newer off-plan or recently completed stock.",
+    "risk_flags": [
+      "Priced above the prevailing median for realized closed DLD sales transactions in the community, meaning capital appreciation potential must be scrutinized carefully rather than relying on asking prices.",
+      "Older property age relative to newer JVC inventory may necessitate renovation costs and higher ongoing service charge considerations.",
+      "Truncated listing description suggests an automated or uncurated upload."
+    ],
+    "investment_summary": "The unit occupies a middle ground in the market: it asks a noticeable premium over historical registered sale prices, while remaining positioned well beneath the speculative asking prices of current active listings. The vacant status provides an investor immediate leasing capability or an end-user quick occupancy, leveraging the above-average unit size to secure steady rental yields in JVC.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/24/tenanted-large-layout-prime-location-2-206025/_investment_analysis_good_value": {
+    "quality_context": "Plaza Residence 2 is an established, mature residential development in Jumeirah Village Circle. Offering an 887 sqft layout, the unit provides a significantly larger footprint than most newer one-bedroom developments in the community, though older building finishes and communal facilities reflect its vintage.",
+    "risk_flags": [
+      "Listing description mentions offering the unit to the 'Rental Market', suggesting careless copy-pasting by the broker and requiring verification of sale availability.",
+      "Plaza Residence is an older development in JVC, which can carry higher ongoing maintenance requirements and capital expenditure compared to newer handovers.",
+      "Tenanted status restricts immediate end-user occupancy and requires due diligence on the current rental yield and lease expiration."
+    ],
+    "investment_summary": "The property is priced below both typical closed registration benchmarks and current market asking figures in JVC, which is consistent with mature developments in the area. It offers an entry-level, income-producing opportunity with a spacious layout, though potential buyers must audit the active tenancy agreement and building service charges to confirm net returns.",
+    "credibility_flag": "normal"
   }
 }
