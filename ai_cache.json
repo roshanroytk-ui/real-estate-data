@@ -6469,5 +6469,67 @@
     ],
     "investment_summary": "The property is priced below both typical closed registration benchmarks and current market asking figures in JVC, which is consistent with mature developments in the area. It offers an entry-level, income-producing opportunity with a spacious layout, though potential buyers must audit the active tenancy agreement and building service charges to confirm net returns.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/10/investor-deal-fully-furnished-close-to--2-210850/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/11/binghatti-luxuria-luxrious-1-br-high-ro-2-668082/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/25/waterfront-view-prime-location-stong-ro-2-453642/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/26/dld-waiver-more-discounts-5050-payment--2-341434/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/11/below-op-distress-sale-corner-unit-park-2-191068/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/2/family-living-prime-location-cash-offer-2-141960/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/8/burj-khalifa-view-partially-upgraded-vo-2-651099/": {
+    "layout_type": "serviced",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/17/new-to-market-upgraded-end-unit-2-229681/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/18/fully-upgraded-private-pool-type-5-2-409671/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/2/own-a-1br-in-dubais-fast-growing-commun-2-340266/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/12/20/garden-view-luxury-one-bedroom-on-the-o-2-330767/_investment_analysis_exceptional": {
+    "quality_context": "This property offers an expansive one-bedroom layout on Dubai Islands (Palm Deira), featuring an unusually large floor plan that strongly implies significant private outdoor terrace or garden space. Positioned along a premier waterfront master development, the property is priced substantially below both recent benchmark transactions registered with the Dubai Land Department and the prevailing asking prices among competing active listings.",
+    "risk_flags": [
+      "Unusually large built-up area for a one-bedroom unit, suggesting a high proportion of outdoor terrace space that inflates gross area and masks the true indoor rate.",
+      "Pricing sits far below historical closed sales in the area, signaling potential bait-and-switch advertising or unverified availability.",
+      "Incomplete listing details omitting the specific project name, developer credentials, handover milestones, and payment structure.",
+      "Dubai Islands remains in active master-plan development, carrying typical master-community infrastructure and construction timeline risks."
+    ],
+    "investment_summary": "On paper, this asset presents a favorable entry point on a rate-per-square-foot basis compared to established DLD transaction benchmarks across Dubai Islands. However, the combination of an atypical layout size and heavily discounted pricing demands rigorous due diligence to confirm genuine unit availability, net internal square footage, and project completion timelines.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/11/below-op-distress-sale-corner-unit-park-2-191068/_investment_analysis_below_market": {
+    "quality_context": "The Valley by Emaar is an established, master-planned suburban family community located along the Dubai-Al Ain Road corridor, recognized for its green spaces and community amenities. The listing advertises a 4-bedroom corner villa positioned with park views and an expansive plot in what appears to be Venera (misspelled as 'Vindera'). If authentic, corner positions with open green views represent premium placements within Emaar villa enclaves.",
+    "risk_flags": [
+      "High probability of bait-and-switch advertising given classic lead-generation trigger phrases ('Distress Sale', 'Below OP', 'No Agents') paired with a rate far below prevailing market benchmarks.",
+      "Potential sub-community name error ('Vindera' does not exist; likely referring to Venera), reflecting poor listing verification.",
+      "Risk of square footage misrepresentation, where plot size may have been entered instead of built-up area (BUA), artificially deflating the stated price per square foot.",
+      "Standard off-plan resale risks, including mandatory developer NOC prerequisites, immediate cash requirements for paid-up equity, and project construction milestones."
+    ],
+    "investment_summary": "On paper, the property is positioned considerably below both benchmark DLD closed transaction medians and the prevailing asking prices of comparable active stock in The Valley. While this presents an ostensibly attractive entry point into an Emaar master community, the combination of aggressive distress claims, sub-community naming errors, and pricing disconnected from genuine market trades strongly warrants investor skepticism. Formal verification of title, Oqood registration, and actual unit availability is strictly required before engaging.",
+    "credibility_flag": "suspicious"
   }
 }
