@@ -6531,5 +6531,46 @@
     ],
     "investment_summary": "On paper, the property is positioned considerably below both benchmark DLD closed transaction medians and the prevailing asking prices of comparable active stock in The Valley. While this presents an ostensibly attractive entry point into an Emaar master community, the combination of aggressive distress claims, sub-community naming errors, and pricing disconnected from genuine market trades strongly warrants investor skepticism. Formal verification of title, Oqood registration, and actual unit availability is strictly required before engaging.",
     "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/hot-deal-furnished-apartment-ready-to-m-3-168672/_investment_analysis_exceptional": {
+    "quality_context": "This 2-bedroom furnished apartment on Al Reem Island offers a generous layout of 1,373 sqft and is positioned well below the median asking price of active listings in the area. Note that this analysis is benchmarked strictly against competing sellers' asking prices, as verified closed-transaction data is not available for this segment. In Al Reem Island, asking prices exhibit wide dispersion depending on tower age, developer reputation, and waterfront access, meaning older stock often lists at a considerable discount compared to prime or newly handed-over developments.",
+    "risk_flags": [
+      "Absence of recorded closed-transaction data prevents verification of actual realized sale values versus advertised asking rates.",
+      "The listing description is truncated and incomplete, which may indicate poor broker maintenance or a potential bait-and-switch listing.",
+      "Al Reem Island features variable service charges across master communities that can materially diminish net rental yields.",
+      "Older buildings in this submarket may face higher maintenance liabilities or chiller costs that offset the lower entry pricing."
+    ],
+    "investment_summary": "The property presents an attractive entry price on a per-square-foot basis relative to wider Al Reem Island asking prices, with immediate rental appeal given its furnished, ready-to-move status. However, because the benchmark is based exclusively on asking prices rather than confirmed transactions, buyers must perform building-specific due diligence, confirm the operational health and service fees of the development, and verify the physical availability of the unit.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/31/spacious-2bhk-maid-room-vot-prime-locat-2-677696/_investment_analysis_below_market": {
+    "quality_context": "Located in Summer 2 within the Seasons Community of JVC, this unit offers a generous layout with a maid's room and vacant-on-transfer status. However, Seasons Community represents an older, value-tier sub-development within JVC that typically trades at a notable discount compared to the district's newer master-planned stock due to dated finishes and historical building maintenance standards.",
+    "risk_flags": [
+      "Sub-community reputation: Summer cluster in Seasons Community has historically experienced maintenance, building management, and chiller quality issues.",
+      "Higher maintenance risk and potentially elevated service charges relative to newer developments in JVC.",
+      "Incomplete listing text indicates basic broker syndication, requiring direct verification of title deed and current condition."
+    ],
+    "investment_summary": "The unit is priced comfortably below recent DLD registered transactions and active market asking levels across Jumeirah Village Circle. This pricing reflects the asset's specific sub-community standing rather than an unnatural market discount. The vacant status enables immediate owner-occupation or tenant placement, appealing to cash-flow-driven investors willing to accept older building fundamentals in exchange for an accessible entry point.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/1/motivated-seller-vacant-huge-layout-bal-2-210379/_investment_analysis_market_rate": {
+    "quality_context": "At over 800 sqft, this 1-bedroom configuration offers a generous layout compared to typical modern inventory in the surrounding districts. The vacant on transfer status is a distinct operational advantage, eliminating the friction and mandatory notice periods associated with tenant eviction and allowing immediate capital deployment via tenancy placement or personal use. Green Park Residence is a low-rise, established development, typically providing functional residential living rather than luxury amenities.",
+    "risk_flags": [
+      "Location mismatch: Listed under Jumeirah Village Circle (JVC) in the metadata, yet the description specifies Green Park Residence in Jumeirah Village Triangle (JVT).",
+      "Comps distortion risk: Pricing metrics compared against JVC benchmarks may be skewed given the building physically resides in JVT District 4.",
+      "Building age and maintenance: Older low-rise stock in this cluster may carry deferred maintenance items or upcoming capital expenditure requirements."
+    ],
+    "investment_summary": "The unit is priced attractively below prevailing registered transaction medians and significantly under active asking levels in the surrounding submarkets. The primary upside lies in immediate rental execution given the vacant status. However, prospective buyers must clarify the community classification and verify the title deed, as the discrepancy between JVC and JVT creates valuation and operational confusion.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/7/spacious-1br-private-garden-ground-floo-2-246176/_investment_analysis_market_rate": {
+    "quality_context": "Sandoval Garden 1 is an established, low-rise residential project in Jumeirah Village Circle known for functional layouts and solid construction. At nearly one thousand square feet, this one-bedroom unit is notably larger than newer standard stock in JVC, and the inclusion of a private ground-floor garden adds distinct lifestyle appeal rarely available in mid-density apartment living.",
+    "risk_flags": [
+      "Ground floor units typically experience lower privacy, potential pest issues, and elevated ambient noise from common areas.",
+      "Private garden spaces add ongoing upkeep, landscaping, and irrigation maintenance obligations.",
+      "Older buildings in JVC may experience higher service charges and wear-and-tear considerations compared to recently handed-over developments."
+    ],
+    "investment_summary": "The unit is priced slightly below recent closed registration benchmarks in the community and substantially below prevailing active asking prices. For investors or end-users seeking generous indoor-outdoor living space at a fair entry point, it presents an attractive value proposition, provided buyers factor in the niche liquidity dynamics inherent to ground-floor garden apartments.",
+    "credibility_flag": "normal"
   }
 }
