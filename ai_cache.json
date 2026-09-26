@@ -6985,5 +6985,15 @@
     ],
     "investment_summary": "This apartment offers a compelling entry point for buyers prioritizing space, trading at a meaningful discount to recent neighborhood sales benchmarks. With vacant-on-transfer status and full furnishing, it caters well to end-users seeking immediate occupancy or investors aiming for prompt leasing, provided net yields are modeled accurately against square-footage-based service fees.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/9/chiller-free-spacious-1-bedroom-study-v-2-548919/_investment_analysis_below_market": {
+    "quality_context": "Sobha Daffodil is an established, mature residential building situated in District 13 of Jumeirah Village Circle, completed in the early 2010s. The unit offers an expansive layout featuring a dedicated study room, providing substantially more functional living space than newly constructed one-bedroom units in the area. However, because older assets in JVC typically trade at a discount to the wider community median—which is heavily skewed by newer off-plan and recently handed-over stock—the building's age and standard of finishes must be accounted for.",
+    "risk_flags": [
+      "The property description explicitly states the apartment is 'for rent', suggesting a miscategorized listing or an unverified agent copy-paste.",
+      "Sobha Daffodil is an older building, which may entail higher ongoing service charges and greater capital expenditure for maintenance compared to newer JVC towers.",
+      "'Chiller Free' status generally implies that air conditioning costs are absorbed into the owner's building service fees."
+    ],
+    "investment_summary": "The property is priced substantially below both the DLD registered sold-price median and active market askings, aligning with expectations for mature inventory in JVC. The inclusion of a study provides strong rental appeal for remote workers. Nonetheless, prospective buyers must first confirm whether this is a genuine sale listing given the rental description, and review the building's current service charge schedule.",
+    "credibility_flag": "suspicious"
   }
 }
