@@ -7006,5 +7006,45 @@
     ],
     "investment_summary": "The property appears attractively positioned when measured qualitatively against competing active asks, offering strong theoretical value per square foot for waterfront inventory on Al Reem Island. However, prospective buyers should exercise caution: the benchmark lacks official closed-sale verification, and the atypical unit dimensions require direct confirmation of the actual internal versus external floor plan before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/30/vacant-pool-view-study-room-spacious-la-2-305199/_investment_analysis_good_value": {
+    "quality_context": "Located in Rigel within JVC, this unit offers an 850-plus square foot layout that includes a dedicated study room, offering functional utility for work-from-home tenants. Mid-rise developments in this segment typically cater to budget-conscious end-users and renters seeking functional mid-market finishes. The advertised vacant status and pool view enhance immediate rental or occupancy appeal.",
+    "risk_flags": [
+      "Minor internal discrepancy between the headline rate per square foot and the absolute listing price stated in the description.",
+      "Jumeirah Village Circle has continuous incoming supply, which can put pressure on rental growth and resale liquidity for mid-tier buildings.",
+      "Incomplete listing description with truncated specification details."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD closed transaction benchmarks for JVC and sits well below prevailing seller asking levels. With the added utility of a study room and immediate vacancy, it presents a solid cash-flow prospect for investors targeting mid-market yields, subject to standard verification of service charges and title deed status.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-marina-marina-diamonds-marina-diamond-6-146455204.html_investment_analysis_below_market": {
+    "quality_context": "The unit is situated in Marina Diamond 6, an established, entry-level residential complex in Dubai Marina. While the asking rate per square foot is positioned considerably below both historical closed transactions and broader market asking medians, this discount primarily reflects the building's older age, standard specification finishes, and secondary positioning away from direct prime waterfront frontages, rather than an unrepeatable anomaly.",
+    "risk_flags": [
+      "Building age and basic build quality may require capital expenditure for interior modernization to achieve competitive rental returns.",
+      "Capital appreciation may lag behind premier and newly handed-over waterfront towers in Dubai Marina.",
+      "Marina Diamond clusters experience higher tenant turnover and denser traffic near metro access points."
+    ],
+    "investment_summary": "Priced noticeably below prevailing benchmark transaction medians for Dubai Marina, this property represents an accessible, cash-flow-driven investment. Its immediate proximity to the metro and tram ensures consistent tenant demand, making it suitable for yield-focused investors willing to manage older asset maintenance.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/23/exclusive-unit-luxury-living-resort-lif-2-301618/_investment_analysis_market_rate": {
+    "quality_context": "Located in Royal Amwaj Residences North at Anantara The Palm, this property offers a branded resort-living environment with hotel amenities and private beach access. At 1,524 square feet, the unit is exceptionally large for a standard one-bedroom configuration. Its pricing per square foot sits comfortably below recent closed transactions recorded by DLD for the area, and represents an even deeper discount against prevailing asking prices across active listings, largely driven by the compression typically seen on oversized layouts.",
+    "risk_flags": [
+      "Oversized layout for a one-bedroom may result in a higher absolute purchase price, potentially narrowing the prospective resale and tenant pool.",
+      "Branded hotel residences in Palm Jumeirah generally carry substantial annual service charges and maintenance fees that compress net rental yields.",
+      "The listing description is truncated mid-sentence, suggesting incomplete marketing details that warrant verification of unit condition and tenancy status."
+    ],
+    "investment_summary": "Priced marginally below the benchmark of actual completed sales in the community, this unit offers a sensible entry point into a prime luxury resort development without the speculative markup common in current Palm Jumeirah asking prices. Investors should verify net yields against Anantara's operational service fees and evaluate whether the unusually spacious layout commands a sufficient premium in the luxury holiday home rental market.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/15/springs-2-huge-plot-park-pool-backing-2-280333/_investment_analysis_exceptional": {
+    "quality_context": "Type 3E corner villa in Springs 2 backing directly onto the park and pool, positioned in a well-established sub-community with convenient access to Meadows Souk and Dubai British School.",
+    "risk_flags": [
+      "Data limitation: Comparison relies entirely on active seller asking prices; no confirmed Dubai Land Department (DLD) closed-transaction data is available for this specific segment.",
+      "Community misclassification: The property is categorized under Emirates Hills rather than The Springs, which improperly benchmarks a mid-market townhouse against prime luxury estate pricing.",
+      "Built-up area vs. plot confusion: The stated area reflects the plot dimension rather than the standard built-up area for a Type 3E layout, distorting the calculated price-per-square-foot metric."
+    ],
+    "investment_summary": "The property appears to sit substantially below active market asking medians, but this apparent value is misleading. The pricing gap is driven by classifying a Springs villa under Emirates Hills medians and calculating rates using plot size rather than built-up area. True unit economics require normalization against verified Springs townhouse transactions.",
+    "credibility_flag": "suspicious"
   }
 }
