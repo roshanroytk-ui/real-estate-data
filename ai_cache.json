@@ -6995,5 +6995,16 @@
     ],
     "investment_summary": "The property is priced substantially below both the DLD registered sold-price median and active market askings, aligning with expectations for mature inventory in JVC. The inclusion of a study provides strong rental appeal for remote workers. Nonetheless, prospective buyers must first confirm whether this is a genuine sale listing given the rental description, and review the building's current service charge schedule.",
     "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/21/premium-location-full-canal-view-modern-3-292040/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Radiant Marina on Al Reem Island, this waterfront unit is listed well below prevailing asking prices for comparable properties in the area. Note that this market benchmark reflects active seller asking prices only, as confirmed closed-transaction registry data is currently unavailable for this specific segment. The listing indicates a premium canal view and an unusually expansive footprint for a one-bedroom residence.",
+    "risk_flags": [
+      "Benchmark limitation: Valuation is measured strictly against competing asking prices rather than verified closed government transaction records.",
+      "Atypical layout metrics: At over 1,500 square feet, the unit is unusually large for a standard one-bedroom, suggesting a significant portion of the area may consist of outdoor terrace space rather than usable internal living area.",
+      "Potential bait listing: The combination of an oversized layout and a rate substantially below active asking medians raises the risk of an unverified listing or phantom inventory designed for lead generation.",
+      "Off-plan and handover exposure: Projects under construction in this submarket carry risks regarding completion timelines, service charge escalations, and developer delivery standards."
+    ],
+    "investment_summary": "The property appears attractively positioned when measured qualitatively against competing active asks, offering strong theoretical value per square foot for waterfront inventory on Al Reem Island. However, prospective buyers should exercise caution: the benchmark lacks official closed-sale verification, and the atypical unit dimensions require direct confirmation of the actual internal versus external floor plan before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
