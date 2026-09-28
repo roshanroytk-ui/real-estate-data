@@ -7046,5 +7046,64 @@
     ],
     "investment_summary": "The property appears to sit substantially below active market asking medians, but this apparent value is misleading. The pricing gap is driven by classifying a Springs villa under Emirates Hills medians and calculating rates using plot size rather than built-up area. True unit economics require normalization against verified Springs townhouse transactions.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/high-floor-iconic-views-best-priced-uni-2-597686/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/exclusive-below-op-sea-view-high-floor--2-249382/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/20/golf-views-high-floor-1br-study-2-117883/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/20/waterfront-furnished-high-roi-2-488424/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/fully-sold-out-development-exclusive-pa-2-317780/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/21/exclusive-golf-residence-negotiable-ful-2-267983/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/20/rare-full-marina-view-branded-marriott--2-253105/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/8/21/exclusive-4br-corner-villa-bright-spaci-2-155589/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/22/skyline-view-high-floor-close-to-op-2-142857/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/4/lagoon-view-high-roi-prime-location-2-179655/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/24/great-investment-premium-qulaity-modern-2-850087/_investment_analysis_good_value": {
+    "quality_context": "Located in Orchidea within Jumeirah Village Circle, this 410 sqft studio offers a compact, entry-level residential layout. Orchidea is an established, mid-tier development in JVC, which generally trades at an accessible price point compared to newer handover stock and branded off-plan developments in the district.",
+    "risk_flags": [
+      "The listing description is truncated and lacks critical details regarding tenancy status, rental income, and service charge rates.",
+      "Orchidea is an older building in JVC, which may entail higher ongoing maintenance requirements and slower capital appreciation compared to modern developments in the area."
+    ],
+    "investment_summary": "The property is listed below both prevailing DLD transacted medians and active market asking levels for JVC studios. This below-benchmark pricing makes it an attractive yield-focused entry point for investors seeking stable cash flow in a high-demand rental district, provided physical inspection confirms sound unit condition.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/30/vacant-pool-view-study-room-spacious-la-2-305199/_investment_analysis_market_rate": {
+    "quality_context": "Located in Rigel within Jumeirah Village Circle, this unit features a generous floor plan for a one-bedroom apartment, complemented by an additional study room and two bathrooms. The vacant status provides immediate flexibility for either end-user occupancy or quick tenant placement without dealing with existing tenancy eviction notices. Pool views and functional multi-room configurations generally maintain steady tenant interest in high-density communities like JVC.",
+    "risk_flags": [
+      "Slight pricing discrepancy between the metadata rate per square foot and the total price quoted in the description body.",
+      "High density of competing one-bedroom inventory and ongoing project completions throughout JVC can temper rental growth.",
+      "Listing description appears truncated, requiring direct verification of service charges, parking allocation, and final furnishing status."
+    ],
+    "investment_summary": "The property is priced attractively below prevailing DLD registered transaction benchmarks and sits well below active asking rates in the area. With its spacious layout and dedicated study room, it represents a competitive entry into the JVC market with solid yield potential, provided the final purchase terms and building maintenance standards align with expectations.",
+    "credibility_flag": "normal"
   }
 }
