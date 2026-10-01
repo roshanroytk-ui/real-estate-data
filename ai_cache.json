@@ -7125,5 +7125,25 @@
     ],
     "investment_summary": "On paper, the property appears positioned meaningfully below prevailing DLD sold transaction benchmarks and the broader asking market. However, the low-quality listing text and lead-generation phrasing strongly indicate a phantom or clickbait listing. Investors should not treat this as an actionable opportunity without independent verification of the title deed and actual unit availability.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/3/prime-location-exclusive-unit-vibrant-d-2-220510/_investment_analysis_below_market": {
+    "quality_context": "The property is located in Diamond Views 1, an established, older low-rise development within Jumeirah Village Circle. The broader JVC market median encompasses a high volume of newer handovers and premium off-plan inventory, which explains why older developments like Diamond Views trade at a distinct discount. At 685 sqft, the unit offers a standard, functional layout for a one-bedroom in this vintage of construction, though community amenities and common area finishes are basic compared to modern neighboring towers.",
+    "risk_flags": [
+      "Building age and potential deferred maintenance costs typical of older JVC phases",
+      "Capital expenditure may be required for interior refurbishment to stay competitive with newer rental stock",
+      "Secondary market capital appreciation may lag behind modern, amenity-rich developments in the area"
+    ],
+    "investment_summary": "The unit is priced noticeably below benchmark DLD registered sold transactions across JVC, primarily reflecting the building's older age and standard finish quality. For yield-focused investors, this entry point offers an attractive cost basis capable of generating robust rental returns, provided allowances are made for ongoing maintenance and potential cosmetic upgrades to attract reliable tenants.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/23/furnished-1br-apartment-la-residence-jv-2-656970/_investment_analysis_good_value": {
+    "quality_context": "This furnished one-bedroom unit offers a generous layout of 884 sqft in La Residence. Priced comfortably below the median rate of recent real closed DLD transactions, it also sits at a substantial discount compared to active market asking prices in the area. However, there is a critical discrepancy in the listing details: while categorized under Jumeirah Village Circle (JVC), the property name and description locate it within Jumeirah Village Triangle (JVT District 1).",
+    "risk_flags": [
+      "Location mismatch: Listed under Jumeirah Village Circle, but the title and description place the building in Jumeirah Village Triangle (JVT District 1).",
+      "Benchmark distortion: The comparative pricing benchmarks reflect JVC transactions rather than JVT, potentially skewing the value assessment.",
+      "Possible portal misallocation or bait tactic designed to capture search traffic from a neighboring district."
+    ],
+    "investment_summary": "While the headline price per square foot appears noticeably below recent closed transactions, the listing contains an unverified geographic conflict between its registered area (JVC) and the physical development (JVT). Investors must verify the title deed and run dedicated JVT District 1 comparables before treating this as a genuine below-market opportunity.",
+    "credibility_flag": "suspicious"
   }
 }
