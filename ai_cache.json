@@ -7145,5 +7145,36 @@
     ],
     "investment_summary": "While the headline price per square foot appears noticeably below recent closed transactions, the listing contains an unverified geographic conflict between its registered area (JVC) and the physical development (JVT). Investors must verify the title deed and run dedicated JVT District 1 comparables before treating this as a genuine below-market opportunity.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/1/furnished-well-maintained-premium-ameni-2-400906/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Celestia B within Dubai South Residential District and offers a substantially larger layout than typical one-bedroom units in the surrounding area. It is positioned at an asking rate well below the prevailing median asking price of active competing listings in the district. However, a critical limitation is that no Dubai Land Department (DLD) closed-transaction data is currently available for this segment, meaning this pricing comparison is drawn exclusively against other sellers' asking prices rather than verified, executed sales.",
+    "risk_flags": [
+      "Absence of DLD registered transaction data limits fair value verification to asking prices rather than confirmed market sales.",
+      "The large pricing gap relative to other active listings creates potential bait-pricing risk, requiring direct confirmation of unit availability and terms.",
+      "Truncated listing description lacks crucial details on current tenancy status, service charge liabilities, and title deed handover."
+    ],
+    "investment_summary": "This furnished one-bedroom unit presents an attractive headline entry price on a per-square-foot basis compared to broader Dubai South listing averages, aided by its generous floor plan. Investors should proceed with caution and conduct thorough due diligence: the absence of finalized transaction benchmarks means market depth and actual resale pricing power are unproven, and high service charges typical of serviced apartment developments in this submarket can weigh on net yields.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/dubai-south-residential-district-dubai-dubai-310119773682/_investment_analysis_exceptional": {
+    "quality_context": "This property is a ready, tenanted one-bedroom apartment in Celestia B by DAMAC, situated within the Dubai South Residential District near Expo City Dubai and Al Maktoum International Airport. At nearly 980 square feet, the unit offers a larger-than-average layout for a one-bedroom in this corridor and features full building amenities, including a pool, gymnasium, sauna, and concierge services. The unit benefits from immediate in-place rental income with an existing tenancy.",
+    "risk_flags": [
+      "Data Limitation: No official Dubai Land Department (DLD) closed-transaction data is currently available for this segment; this analysis relies entirely on active seller asking prices, which may reflect aspirational pricing rather than confirmed transaction values.",
+      "Gross-to-net yield erosion due to service charges and maintenance fees typical of DAMAC-managed multi-amenity buildings.",
+      "Tenancy expiry details should be verified to understand renewal terms, RERA rental index constraints, or notice periods for prospective owner-occupiers.",
+      "Location is reliant on ongoing infrastructure maturation around Dubai South, meaning tenant demand may be more sensitive to macro expansion timelines compared to central Dubai."
+    ],
+    "investment_summary": "The property is listed at a rate noticeably below the prevailing median asking price of active listings across the Dubai South Residential District. While prospective buyers must recognize that active market benchmarks reflect seller aspirations rather than registered DLD sales, this ready unit presents an attractive profile for income-focused investors seeking immediate cash flow alongside long-term capital upside linked to Al Maktoum International Airport's phased expansion.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/27/dana-tower-vacant-on-trransfer-higher-f-2-312005/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Dana Tower within Jumeirah Village Circle (officially registered as Al Barsha South Fourth). At 878 sqft, this 1-bedroom provides an above-average layout size on a higher floor. However, Dana Tower is an older, budget-oriented development that historically trades at a significant discount relative to newer, prime stock across the district due to aging common areas and building finishing standards.",
+    "risk_flags": [
+      "Benchmark limitation: This pricing comparison relies entirely on active asking prices across the area rather than confirmed DLD closed-transaction records, which may skew the perceived discount.",
+      "Building profile and capital growth: Dana Tower faces historical challenges regarding maintenance, aesthetic aging, and lower tenant retention compared to contemporary developments in JVC.",
+      "Potential service charge drag: Older mid-market buildings in the district can carry service charges that noticeably erode net rental returns despite a low entry price per square foot."
+    ],
+    "investment_summary": "The unit is priced substantially below prevailing asking prices across the wider district, driven primarily by building vintage and asset tier. Being offered vacant on transfer delivers immediate occupancy or rental leasing potential without tenant eviction friction. While appealing for cash-flow-driven buyers seeking a low barrier to entry, prospective investors should conduct thorough physical inspections and verify service charge liabilities before proceeding.",
+    "credibility_flag": "normal"
   }
 }
