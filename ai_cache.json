@@ -7196,5 +7196,65 @@
     ],
     "investment_summary": "The unit is priced noticeably below benchmark DLD sold transactions and active peer asking levels in JVC. If confirmed as genuine and not overly skewed toward non-air-conditioned balcony space, this listing represents an attractive capital entry point with the potential for strong rental yields typical of the district.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/25/furnished-low-floor-vacant-private-pool-2-483621/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/24/last-4br-direct-from-developer-private--2-101570/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/25/best-type-upgraded-furnished-vacant-2-132129/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/30/the-art-of-waterfront-living-2-313479/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/30/a-private-world-above-the-marina-2-482527/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/17/exclusive-upgraded-fully-furnished-2-183187/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/25/bunker-style-designspacious-layoutprime-2-101548/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/30/beachfront-1br-5050-payment-plan-luxury-2-188035/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/reduced-price-sea-view-vacant-furnished-2-151377/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/14/park-facing-upgraded-mazaya-c1-pool-gar-2-984263/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/3/high-fashion-tower-2br-apartment-orvess-2-367287/_investment_analysis_exceptional": {
+    "quality_context": "Located in Al Furjan (registered under Jabal Ali 1), this property offers a notably spacious footprint for a standard two-bedroom unit. While marketed with boutique luxury branding, Al Furjan primarily caters to the mid-market residential segment, benefiting from established road connectivity and metro access.",
+    "risk_flags": [
+      "Severe pricing deviation from prevailing transaction benchmarks, strongly suggesting potential bait pricing or non-genuine listing status.",
+      "Truncated description and lack of specific handover, floor, or view details.",
+      "Potential developer and project completion risks if purchased off-plan under an unestablished brand."
+    ],
+    "investment_summary": "The unit is listed at an entry price per square foot that sits dramatically below both official DLD recorded sale transactions and prevailing secondary market asking prices. While optically compelling on paper, pricing this disconnected from realized neighborhood medians is a primary indicator of a lead-generation bait listing or undisclosed structural liabilities.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/full-canal-view-mid-floor-1br-prime-loc-3-745075/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Marina Bay by DAMAC on Al Reem Island, this unit offers a notably generous 1-bedroom footprint exceeding standard modern layouts. The mid-floor canal view is a strong rental driver within the community, though Marina Bay is an established tower where age, finishes, and upkeep should be assessed against newer island developments.",
+    "risk_flags": [
+      "Benchmark limitation: Valuation is compared exclusively against other active asking prices, with no closed transaction registry data available to verify true transacted market clearing levels.",
+      "The listing description is abruptly truncated, omitting critical operational details such as tenancy status, service charge figures, and parking allocations.",
+      "Older inventory in this cluster can encounter higher maintenance expenditures and aging common facilities relative to newer Al Reem Island master communities."
+    ],
+    "investment_summary": "The property is listed favorably below the active asking price median for comparable bedroom segments on Al Reem Island, driven largely by its expansive unit size. While the per-square-foot entry rate appears attractive on paper, investors must account for the lack of confirmed historical transaction data, as peer asking prices often carry built-in negotiation room. Due diligence on service fees, net yield feasibility, and unit maintenance is recommended before proceeding.",
+    "credibility_flag": "normal"
   }
 }
