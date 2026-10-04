@@ -7256,5 +7256,57 @@
     ],
     "investment_summary": "The property is listed favorably below the active asking price median for comparable bedroom segments on Al Reem Island, driven largely by its expansive unit size. While the per-square-foot entry rate appears attractive on paper, investors must account for the lack of confirmed historical transaction data, as peer asking prices often carry built-in negotiation room. Due diligence on service fees, net yield feasibility, and unit maintenance is recommended before proceeding.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/26/hot-deal-15-off-5050-payment-plan-025-m-2-112690/_investment_analysis_exceptional": {
+    "quality_context": "Located in Jumeirah Village Circle within the ELAR1S Rise development by Object One, this unit features a 1-bedroom layout with a total area well above standard size for the district. The advertised pricing per square foot sits substantially beneath recent DLD closed transactions in the community, paired with heavily promoted developer incentives such as a deferred installment structure.",
+    "risk_flags": [
+      "Advertised rate per square foot is positioned drastically beneath benchmark registration levels, strongly indicating a potential teaser or bait-and-switch listing.",
+      "Oversized square footage for a 1-bedroom unit suggests significant outdoor terrace or gross built-up area has been bundled to artificially lower the per-square-foot metric.",
+      "Off-plan delivery and construction milestone risk under a niche developer profile.",
+      "Marketing terms featuring minimal monthly payments frequently carry back-loaded balloon obligations or strict post-handover conditions."
+    ],
+    "investment_summary": "While superficially appearing to offer remarkable value and flexible payment terms compared to broader JVC transaction levels, the sheer divergence between this listing's rate and actual closed market sales raises serious questions about authenticity. Buyers should exercise caution, treat the stated pricing as speculative marketing, and confirm net internal dimensions and true unit availability directly with the developer.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/7/spacious-1br-private-garden-ground-floo-2-246176/_investment_analysis_good_value": {
+    "quality_context": "Situated in Sandoval Garden 1, a low-rise, established development in Jumeirah Village Circle known for quiet community living. The inclusion of a private garden and ground-floor access provides a distinct layout advantage that appeals to pet owners and families seeking outdoor space, setting it apart from standard high-rise apartments in the area.",
+    "risk_flags": [
+      "Ground floor units can face privacy, noise, and pest concerns, along with ongoing upkeep for the private garden space.",
+      "The 996 sqft allocation likely bundles outdoor garden space into total area, which can make the headline price per square foot appear artificially low compared to pure internal living space.",
+      "Sandoval Garden is an older development compared to newer JVC handovers, potentially carrying higher maintenance requirements or refurbishment costs."
+    ],
+    "investment_summary": "The property is priced below recent registered transaction benchmarks in the district and well under active asking prices across JVC. This pricing position, coupled with the unique private garden feature, offers appealing upside for rental demand, provided the buyer verifies the ratio of internal living space versus outdoor terrace space and inspects the unit condition.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/30/no-fee-20-downpay-80-in-7-years-readyto-2-255231/_investment_analysis_good_value": {
+    "quality_context": "The property is listed at a rate per square foot that sits below prevailing DLD closed transaction averages in Jumeirah Village Circle and markedly below active asking prices. At well over 1,300 square feet, this is an unusually expansive footprint for a one-bedroom apartment, which naturally suppresses the per-square-foot figure while keeping the total purchase price elevated relative to typical one-bedroom units in the district.",
+    "risk_flags": [
+      "Outsized square footage for a one-bedroom layout can dilute gross rental yields and create resale liquidity friction compared to standard-sized units.",
+      "A 7-year post-handover payment structure on a ready property is uncommon and warrants scrutiny to confirm there are no unstated developer markups or stringent penalty clauses.",
+      "Truncated listing text leaves key details regarding view, maintenance costs, and parking unconfirmed."
+    ],
+    "investment_summary": "The unit presents an attractive headline rate per square foot and appealing post-handover payment terms. However, because the total capital outlay reflects its large built-up area rather than standard one-bedroom pricing in JVC, buyers should model returns based on total rent potential rather than per-foot metrics before committing.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/9/huge-terrace-fully-furnished-lowest-pri-2-455554/_investment_analysis_exceptional": {
+    "quality_context": "Situated in Roxana Residence B within Al Barsha South Fourth (JVC area), this one-bedroom unit offers a notably spacious layout at 871 square feet, well above typical compact layouts. The unit is priced substantially below prevailing active asking prices across comparable listings in the submarket. However, a critical limitation is that official Dubai Land Department (DLD) closed-transaction data is unavailable for this specific segment; consequently, this assessment relies solely on asking prices from other active sellers rather than confirmed historical sale values.",
+    "risk_flags": [
+      "The listing description explicitly describes the property 'for rent' despite carrying sale-side pricing metrics, indicating miscategorization or poor listing hygiene.",
+      "The asking price sits markedly below broader market asking levels, which frequently indicates a bait listing or unavailable inventory.",
+      "Description is truncated and lacks material details regarding tenancy status, service charges, or parking allocation.",
+      "Lack of verified DLD transaction records limits the ability to confirm actual realized capital values in this specific segment."
+    ],
+    "investment_summary": "On paper, the property represents an exceptionally low entry price per square foot relative to neighboring asking comparables, with a spacious floor plan that could drive healthy rental yields. However, severe listing discrepancies—notably marketing the unit 'for rent' within a sales entry—strongly suggest administrative error or an unverified listing. Investors should independently verify title deed availability, physical status, and actual pricing before treating this as a viable transaction.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/5/18/furnished-rented-near-circle-mall-2-755420/_investment_analysis_exceptional": {
+    "quality_context": "This property is presented as a fully furnished one-bedroom apartment, but it presents a direct location discrepancy: while categorized under Al Barsha South 4, the description explicitly identifies it as Diamond Views 2 in Jumeirah Village Circle (JVC). The unit is listed at an asking rate well below the prevailing median of competing active listings in the designated area. Crucially, this benchmark comparison is drawn exclusively against other sellers' asking prices, as verified DLD closed-transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Location mismatch: Listed area is Al Barsha South 4, but the text specifies Diamond Views 2 in Jumeirah Village Circle (JVC), skewing market comparisons.",
+      "Benchmark limitation: No DLD closed-transaction data is available for this segment; evaluation relies entirely on unverified asking prices rather than confirmed sales.",
+      "Listing copy is truncated and poorly audited, suggesting potential automated or careless portal publishing."
+    ],
+    "investment_summary": "While the property is positioned attractively below active asking medians in the tagged district, the apparent misclassification between Al Barsha South 4 and JVC makes direct valuation unreliable. Investors should independently verify the physical title deed location, genuine building identity, and actual JVC comparables before taking this apparent discount at face value.",
+    "credibility_flag": "suspicious"
   }
 }
