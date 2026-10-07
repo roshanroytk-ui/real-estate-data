@@ -7369,5 +7369,16 @@
     ],
     "investment_summary": "On surface metrics, this listing presents an exceptionally low entry price per square foot relative to competing active listings. However, the listing carries critical data inconsistencies, including a direct contradiction between the designated location and the development described in the copy. Given these discrepancies alongside atypical unit dimensions and pricing, this opportunity should be approached with extreme caution, as it exhibits classic hallmarks of an inaccurate or bait-and-switch listing.",
     "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/villahouse/2026/8/5/great-dealcornersingle-row-close-to-man-3-612121/_investment_analysis_exceptional": {
+    "quality_context": "Located in the Sidr cluster of Saadiyat Lagoons on Saadiyat Island, this four-bedroom property is presented with an expansive footprint. The asking rate per square foot is positioned substantially below the median asking price of competing active listings in the submarket. It is critical to note that this comparison relies strictly on active seller asking prices, as official closed transaction data is unavailable for this segment, meaning baseline market values reflect vendor expectations rather than verified executed sales.",
+    "risk_flags": [
+      "No official registry closed-transaction data is available for this segment; all benchmarks are derived purely from active listing asking prices.",
+      "The listing description is truncated mid-sentence and contains unparsed HTML tags, indicating poor listing maintenance or an automated/incomplete upload.",
+      "The unit size of 7,750 sqft for a 4-bedroom villa suggests possible confusion between total plot size and built-up area (BUA), which would distort the calculated rate per square foot.",
+      "The wide discount relative to surrounding asking rates combined with typical bait-ad phrasing ('HOT Deal', 'Lowest Price') presents a high risk of being an unavailable or inaccurate listing."
+    ],
+    "investment_summary": "While the listing optically appears to offer a premier luxury villa at an exceptionally competitive entry point relative to asking benchmarks in Saadiyat Lagoons, the fragmented listing quality and deep qualitative discount suggest structural inaccuracies. Prospective investors must independently confirm whether the cited dimensions represent actual built-up area or plot size, verify title availability with the agent, and benchmark against genuine developer sales rather than relying on unconfirmed active listing metrics.",
+    "credibility_flag": "suspicious"
   }
 }
