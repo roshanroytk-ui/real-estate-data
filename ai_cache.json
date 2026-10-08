@@ -7380,5 +7380,57 @@
     ],
     "investment_summary": "While the listing optically appears to offer a premier luxury villa at an exceptionally competitive entry point relative to asking benchmarks in Saadiyat Lagoons, the fragmented listing quality and deep qualitative discount suggest structural inaccuracies. Prospective investors must independently confirm whether the cited dimensions represent actual built-up area or plot size, verify title availability with the agent, and benchmark against genuine developer sales rather than relying on unconfirmed active listing metrics.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/24/low-floor-high-roi-prime-investor-deal-2-256008/_investment_analysis_exceptional": {
+    "quality_context": "The unit is situated on a low floor within Dubai Marina, offering partial marina and courtyard views. The listing omits the specific tower name and features an incomplete description, leaving building age, condition, and maintenance standards unverified.",
+    "risk_flags": [
+      "Pricing stands drastically below both benchmark registered transaction values and prevailing market asking prices, raising significant concerns of an unverified lead-generation or bait listing.",
+      "Low floor positioning may result in street noise, obstructed views, and reduced natural light.",
+      "Absence of tower identification prevents assessment of service charges, building amenities, and developer reputation.",
+      "Truncated listing description suggests poor listing management or lack of verified property details."
+    ],
+    "investment_summary": "While the qualitative entry price appears substantially discounted against prevailing closed sales in Dubai Marina, the steep gap relative to benchmark transactions coupled with vague listing specifics indicates a high likelihood of bait advertising or severe property-specific drawbacks. Thorough verification of the Title Deed, Form A listing authorization, and building identity is required before further consideration.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/dubai-hills-dubai-310109575243/_investment_analysis_exceptional": {
+    "quality_context": "The property offers an 840 sqft one-bedroom layout, which is generous in size for modern developments across the Mohammed Bin Rashid City corridor. In terms of price per square foot, the listing is positioned significantly below historical closed transactions recorded by the Dubai Land Department (DLD), as well as prevailing asking prices across competing active inventory in the wider district.",
+    "risk_flags": [
+      "Severe listing discrepancies: The listing title references Dubai Hills, the location tag specifies Hadaeq Sheikh Mohammed Bin Rashid, while the description markets 'Damac District One'—conflating three completely different master plans and developers.",
+      "Potential phantom or bait listing: The severe discount against real DLD transaction medians paired with contradictory project naming strongly indicates inaccurate or misleading marketing.",
+      "Unverified developer and project details: 'District One' is a Meydan development, not a DAMAC community, raising significant doubts about the underlying asset being sold."
+    ],
+    "investment_summary": "On paper, this listing displays pricing substantially below both DLD transaction benchmarks and active asking levels. However, the blatant geographic and project contradictions between Dubai Hills, DAMAC, and District One indicate that this advertisement is either a bait listing or severely miscategorized. Investors should treat this listing with high skepticism and require verified title deeds and exact building identification prior to further engagement.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/8/investor-alert-high-roi-prime-location--2-133097/_investment_analysis_below_market": {
+    "quality_context": "At 1,054 square feet, this two-bedroom layout aligns well with typical unit sizing in Dubai South Residential District. The listing is priced substantially below benchmark DLD closed transaction medians and active market asking prices, indicating significant headline discount potential.",
+    "risk_flags": [
+      "Geographically conflicting description: Text references Dubai Creek and the Arabian Gulf, which contradicts the stated inland location of Dubai South Residential District.",
+      "Abruptly truncated and generic marketing copy suggestive of a placeholder, inaccurate, or bait listing.",
+      "Pricing significantly undercuts historical registration benchmarks, raising concerns over whether the unit is actively available at the advertised rate and terms."
+    ],
+    "investment_summary": "On paper, the unit is priced notably below prevailing DLD registered transaction levels with attractive payment plan terms. However, severe listing discrepancies—specifically marketing waterfront Dubai Creek features for an inland Dubai South property—make this listing highly suspect. Verification of title, developer, and unit availability is critical before considering.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/26/distress-deal-i-furnished-branded-i-rea-2-999398/_investment_analysis_exceptional": {
+    "quality_context": "This 1-bedroom property in Palm Deira provides generous internal space for a one-bedroom layout, complete with branded furnishing in an emerging master waterfront destination. While Palm Deira represents an ambitious long-term regeneration corridor, project quality and actual completion status vary widely across sub-developments.",
+    "risk_flags": [
+      "Pricing sits substantially beneath verified DLD transaction benchmarks, raising strong concerns of a bait listing.",
+      "Marketing copy lacks specific project and developer details, relying heavily on urgent call-to-action tactics ('DM for exclusive offer').",
+      "Potential handover delays and ongoing infrastructure construction typical of early-stage master developments in Palm Deira."
+    ],
+    "investment_summary": "On paper, this asset is priced substantially lower than prevailing DLD transaction medians for the area, presenting what looks like exceptional upside. However, the aggressive promotional tone, lack of development transparency, and extreme discount against market benchmarks indicate this is likely an unverified lead-generation tactic rather than an executable distress sale. Independent verification of unit availability, title deed, and developer approval is required before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/ras-al-khor-dubai-dubai-310109730681/_investment_analysis_exceptional": {
+    "quality_context": "The listing features Everly Place by Ellington Properties, a developer recognized for design-led architecture, high build quality, and comprehensive lifestyle amenities including lagoon access, wellness studios, and extensive community facilities. A 797 sqft layout for a one-bedroom unit offers generous spatial proportions. Crucially, this benchmark is derived strictly against other active seller asking prices because historical Dubai Land Department (DLD) closed-transaction data is currently unavailable for this specific segment. Consequently, baseline values reflect unconfirmed seller expectations rather than realized transactional proof.",
+    "risk_flags": [
+      "No DLD registered transaction data is available for this micro-market; pricing comparisons rely entirely on competing asking prices, not verified sold records.",
+      "Significant location mismatch: listing metadata designates the property in New Ras Al Khor Community, whereas the project text specifies Meydan Horizon, MBR City.",
+      "The asking rate is notably depressed relative to typical Ellington waterfront inventory in Meydan Horizon, suggesting possible teaser or bait pricing designed to capture buyer inquiries.",
+      "Standard off-plan completion and handover timeline risks associated with newly launched developments."
+    ],
+    "investment_summary": "While Ellington developments in prime waterfront locations generally demonstrate strong investor demand and healthy rental yields, this listing raises significant transparency concerns. The asking rate stands substantially below prevailing seller asks in the area, and the conflicting geographic classification between Ras Al Khor and Meydan Horizon suggests the listing may not represent an authentic, purchasable unit at the stated price. Caution and direct broker verification are advised before committing capital.",
+    "credibility_flag": "suspicious"
   }
 }
