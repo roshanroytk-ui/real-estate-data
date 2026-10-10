@@ -7484,5 +7484,150 @@
     ],
     "investment_summary": "While the asking price per square foot appears significantly lower than the median asking price of active listings in Za'abeel, this is an artificial disparity caused by misclassification. Binghatti Skyflame is physically located in Majan, where prevailing market rates naturally trade lower than in Za'abeel. Furthermore, market comparisons in this segment are based exclusively on seller asking prices rather than confirmed DLD transaction records. Given the severe location contradiction, this listing should not be treated as a genuine high-discount opportunity in Za'abeel.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/25/exclusive-vacant-now-view-today-2-215395/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/10/7/family-living-private-garden-ho-q4-2026-2-325432/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/18/burj-khalifa-view-motivated-seller-pp-2-188731/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/9/9/luxury-living-investor-deal-best-locati-2-360951/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/7/waterfront-living-spacious-1bhk-communi-3-132191/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/6/exclusive-closed-kitchen-chiller-free-2-184866/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/30/80-complete-handover-q1-2027-fully-fitt-2-164879/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/7/priced-to-sell-luxury-1br-private-pool-2-157269/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/7/high-number-plot-direct-beach-sunset-vi-2-373422/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/10/7/sei-saadyiat-by-aldar-exclusive-for-sal-3-155374/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/23/spacious-1br-modern-living-near-ameniti-3-259189/_investment_analysis_exceptional": {
+    "quality_context": "The property is listed as a 1-bedroom unit in Radiant Marina Towers on Al Reem Island, offering an unusually large footprint for a single-bedroom layout. A unit size approaching two thousand square feet typically indicates either an extensive private terrace, a duplex layout, or an administrative misclassification of a multi-bedroom apartment. Note that Al Reem Island is located in Abu Dhabi rather than Dubai, meaning transaction governance falls under local Abu Dhabi registry frameworks.",
+    "risk_flags": [
+      "No official closed-transaction data is available for this segment; this analysis relies entirely on active asking prices, which reflect seller expectations rather than completed sales.",
+      "Unusually expansive square footage for a 1-bedroom unit suggests potential inclusion of large outdoor terraces or miscategorized unit specs, which skews per-square-foot comparisons.",
+      "The listing description exhibits cut-off formatting artifacts, indicating unverified or automated syndication.",
+      "The unit is priced significantly below prevailing asking levels in the development, presenting potential bait-and-switch or phantom listing risk."
+    ],
+    "investment_summary": "On paper, the property is priced well below active asking medians for comparable listings in the area on a per-square-foot basis. However, because this evaluation is strictly benchmarked against asking prices rather than confirmed historical sales, and given the anomalous size-to-bedroom ratio, the financial upside must be treated with substantial skepticism pending title deed verification and layout confirmation.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/24/resale-elegant-layout-modern-prime-loca-3-165675/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Reem Hills on Al Reem Island, Abu Dhabi, featuring an unusually expansive floor plan for a one-bedroom residence. It is currently positioned well below the active asking price median for comparable listings in the district. Note that this evaluation relies exclusively on other sellers' asking prices, as verified closed-transaction data is unavailable for this segment, meaning benchmark figures may reflect seller aspirations rather than settled market values.",
+    "risk_flags": [
+      "Reliance on asking-price benchmarks only, with no verified closed-transaction records to confirm real achieved values.",
+      "Unusually large unit size for a standard one-bedroom configuration, warranting verification of the true indoor living area versus outdoor terrace space.",
+      "Truncated description text with raw markup artifacts indicates potential copy-paste listing syndication."
+    ],
+    "investment_summary": "The listing is priced at an attractive qualitative discount relative to prevailing seller asking prices in Al Reem Island, offering a generous footprint in an emerging master community. However, due to the complete lack of confirmed registry transaction data and the potential for inflated asking benchmarks across peers, investors should independently verify title deed specifications and developer handover timelines before committing.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/16/investor-deal-tenanted-limited-units-2-512336/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Discovery Gardens, an established, mature community within the broader Jabal Ali 1 district. Discovery Gardens typically features older building stock and larger unit layouts compared to newly handed-over developments in the same master sector. While the rate per square foot appears notably lower than the official DLD transaction median for Jabal Ali 1, this difference is largely driven by community-level segmentation, as the wider district median includes newer, higher-spec developments like Wasl Gate.",
+    "risk_flags": [
+      "Tenanted status subject to RERA tenancy regulations, which may restrict immediate rental revisions or owner-occupancy.",
+      "Older community infrastructure in Discovery Gardens, which can lead to higher ongoing maintenance requirements and aging common areas.",
+      "The listing description is truncated and lacks key details regarding remaining lease term, current rental yield, and bathroom count.",
+      "The perceived discount against the broader area median reflects building vintage and sub-community tier rather than purely distressed pricing."
+    ],
+    "investment_summary": "Priced well below prevailing DLD registered transactions for the overall Jabal Ali 1 district, this unit offers an entry-level yield play for investors targeting affordable, high-occupancy residential stock. Prospective buyers should confirm the current in-place rent and lease expiry to verify immediate cash flow against service charges, keeping in mind that the low entry rate per square foot aligns naturally with Discovery Gardens' older profile rather than representing an anomalous bargain.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/5/spacious-layout-high-roi-beach-access-l-2-677492/_investment_analysis_exceptional": {
+    "quality_context": "The property is a generous one-bedroom unit measuring nearly one thousand square feet within Tivanno Residence, situated in the emerging waterfront master development of Dubai Islands (historically Palm Deira). The layout offers above-average spatial dimensions for a modern one-bedroom unit, positioned within an off-plan resort-style master plan featuring beachfront and lifestyle amenities.",
+    "risk_flags": [
+      "Significantly depressed entry pricing relative to prevailing closed transaction benchmarks, which frequently signals bait-and-switch advertising or down-payment-only quotes rather than full purchase price",
+      "Truncated listing description and missing development milestone dates, indicating incomplete agent verification",
+      "Off-plan master community delivery and infrastructure readiness timelines inherent to Dubai Islands developments"
+    ],
+    "investment_summary": "The unit is listed at an asking rate per square foot that sits dramatically below both historical DLD closed transaction medians and active competitor asking rates in the area. While a genuine sale at this valuation would represent a steep acquisition discount with substantial upside potential upon community delivery, the severe pricing dislocation strongly suggests a non-genuine listing, phantom inventory, or unstated post-handover payment obligations.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/18/exclusive-4-bed-maids-corner-unit-2-938294/_investment_analysis_exceptional": {
+    "quality_context": "The property is a 4-bedroom corner townhouse located in Maple 1, Dubai Hills Estate (within the broader Hadaeq Sheikh Mohammed Bin Rashid master community). The listing is positioned well below the median asking price of competing active listings in the wider district. However, this comparison is made strictly against other active seller asking prices; no Dubai Land Department (DLD) closed-transaction data is available for this segment, meaning benchmark levels reflect seller expectations rather than realized historical market values.",
+    "risk_flags": [
+      "No official DLD closed-transaction data is available for this segment; benchmark values are based entirely on unverified seller asking prices, which typically carry an aspirational markup.",
+      "Potential plot versus built-up area (BUA) mismatch: standard Maple 4-bedroom townhouses generally feature smaller internal BUAs, suggesting the stated square footage may represent plot size, which artificially suppresses the calculated price per square foot.",
+      "Broad geographic benchmarking: Hadaeq Sheikh Mohammed Bin Rashid encompasses premium luxury villa sub-communities (such as District One), which distorts district-wide medians when compared directly to mid-tier townhouse clusters like Maple."
+    ],
+    "investment_summary": "While the listing appears attractively priced against broader district-level asking prices, the underlying absolute asking price aligns closely with established market levels for Maple 4-bedroom units. High rental demand and strong community infrastructure in Dubai Hills Estate support solid occupancy fundamentals. Investors should verify true internal BUA against plot dimensions on the title deed to properly calculate yield and capital metrics.",
+    "credibility_flag": "normal"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/5/spacious-2-br-maids-room-waterfront-vie-3-208674/_investment_analysis_exceptional": {
+    "quality_context": "The unit offers a generous layout for a two-bedroom configuration with an added maid's room and waterfront views within Hydra Avenue on Al Reem Island. In qualitative terms, the unit is priced significantly below the active asking-price median for the wider area. However, this discount largely reflects the specific tier, age, and market standing of Hydra Avenue compared to newer, premium luxury developments on the island.",
+    "risk_flags": [
+      "No official DLD closed-transaction data is available for this segment; this analysis relies entirely on active asking prices from other sellers, which typically carry an aspirational markup over realized deals.",
+      "Hydra Avenue historically trades at a discount compared to prime Al Reem Island developments due to older building quality, maintenance reputation, and density.",
+      "The listing description is truncated and lacks critical details regarding tenancy status, actual view orientation, and service charge rates."
+    ],
+    "investment_summary": "The property presents a notably accessible entry point on a per-square-foot basis for a spacious waterfront unit, positioning it well below typical asking rates across Al Reem Island. While attractive for buyers seeking space-to-capital efficiency, investors must verify building-specific maintenance, current net yields, and actual closed sales in the tower rather than relying on broader island-wide asking figures.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/6/low-floor-e-type-best-priced-unit-2-241534/_investment_analysis_good_value": {
+    "quality_context": "This unit represents an E-Type layout in Jash Hamad, Shoreline Apartments on Palm Jumeirah. Offering generous proportions for a two-bedroom configuration, it is positioned on a low floor and priced at a discount compared to recent DLD registered transactions, while sitting substantially beneath the broader asking median for the submarket.",
+    "risk_flags": [
+      "Low-floor location typically offers restricted views and may be subject to ambient noise from trunk traffic or footpaths.",
+      "Jash Hamad is situated on the roadside/park side of the Shoreline development, meaning beach club and pool access usually requires an additional membership fee rather than direct on-site beach frontage.",
+      "Shoreline Apartments are an older asset class requiring due diligence on maintenance, air conditioning/chiller efficiency, and potential renovation capital expenditure."
+    ],
+    "investment_summary": "The property offers an accessible entry point onto Palm Jumeirah, transacting below prevailing median sold rates for the master community. Given the steady tenant demand for Shoreline two-bedroom units, it holds solid rental yield potential, though investors should factor in potential refurbishment costs and service charges to ensure net returns remain attractive.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-park-heights-park-heights-2-park-heights-2-tower-2-152352969.html_investment_analysis_exceptional": {
+    "quality_context": "Located in Park Heights 2 within the master-planned Dubai Hills Estate community (registered under Hadaeq Sheikh Mohammed Bin Rashid), this property offers convenient access to parks, retail amenities, and arterial highways. At 844 square feet, the layout is substantially larger than typical one-bedroom configurations in the development, which often indicates an extended ground-floor terrace or patio. The development features established community facilities including shared pools, fitness centers, and landscaped green spaces.",
+    "risk_flags": [
+      "Ground floor units typically experience lower market demand, compromised privacy, and higher noise exposure compared to upper-level units.",
+      "Internal listing discrepancy regarding bathroom count: the narrative description highlights two full bathrooms (en-suite plus guest), whereas the summary specifications list only one bathroom.",
+      "The asking rate per square foot sits dramatically below the established DLD sold transaction median, indicating potential bait advertising, undisclosed encumbrances, or a layout where a significant portion of square footage is low-value outdoor space.",
+      "Potential liquidity constraints upon resale due to narrower buyer preference for ground-floor apartments."
+    ],
+    "investment_summary": "The property is priced substantially below both recent benchmark DLD transaction levels and active peer listings. While the entry pricing suggests strong potential rental yields for a prime master development, the steep pricing discount combined with specification inconsistencies strongly warrants cautious due diligence to confirm unit availability, genuine ownership status, and physical layout boundaries before proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/9/waterfront-living-modern-luxury-high-ro-2-305874/_investment_analysis_exceptional": {
+    "quality_context": "This property offers an exceptionally large footprint for a two-bedroom residence in the evolving Dubai Islands (Palm Deira) waterfront district. The asking rate per square foot sits substantially below the median asking level of competing active listings in the area. However, an essential market limitation applies: there is no confirmed Dubai Land Department (DLD) closed-transaction data available for this segment, meaning this comparison relies entirely on other sellers' unverified asking prices rather than realized sales figures.",
+    "risk_flags": [
+      "No official DLD closed-transaction records exist for this segment, making true market value and achievable resale pricing difficult to independently verify.",
+      "The listing details are cut off mid-sentence and contain noticeable typos, indicating poor broker diligence or an incomplete automated upload.",
+      "The steep discount relative to competing asking prices, paired with a generic and truncated description, carries characteristics of an unverified or bait listing.",
+      "Dubai Islands is an emerging master development with ongoing infrastructure work, potential construction delays, and fluctuating handover schedules."
+    ],
+    "investment_summary": "On paper, this property presents an expansive waterfront layout offered at a notable discount relative to prevailing seller asking prices in Dubai Islands. However, because the benchmark is strictly limited to asking prices without historical DLD transaction backing, and given the incomplete nature of the listing text, investors should approach with caution. Direct verification of unit availability, project escrow status, and actual developer pricing is essential to ensure this represents a genuine transaction opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/8/26/elevated-contemporary-living-refined-li-3-253075/_investment_analysis_exceptional": {
+    "quality_context": "The property is located in Nouran Living on Saadiyat Island, an Aldar development tailored toward modern, urban-style living with accessible community amenities including pools, fitness centers, and recreational facilities. While prime Saadiyat Island typically commands high asking rates driven by ultra-luxury beachfront and cultural district developments, Nouran Living represents a more attainable, mid-market residential product. The unit's layout at two bedrooms across comfortable square footage offers practical end-user and tenant appeal.",
+    "risk_flags": [
+      "Absence of closed transaction data: Comparison is drawn solely against active asking prices from other listings, not registered or verified sold transaction prices.",
+      "Project segmentation disparity: The wider Saadiyat Island asking median is heavily elevated by ultra-prime beachfront and branded residences, which skews market-level asking comparisons against mid-scale developments like Nouran Living.",
+      "Off-plan and handover timeline risk: As a recently launched development, capital remains tied to construction milestones and market conditions at the time of completion.",
+      "Incomplete listing details: The promotional description is truncated, requiring buyers to verify exact payment plan terms, floor location, and developer milestones directly."
+    ],
+    "investment_summary": "This two-bedroom unit in Nouran Living is priced meaningfully below the prevailing asking-price median for active listings across Saadiyat Island. However, prospective buyers should recognize that this pricing position largely reflects the development's specific identity as an accessible, urban-focused community rather than an underpriced prime-luxury asset. Furthermore, because no official closed transaction records are available for this specific segment, evaluation relies strictly on active seller expectations. It represents an appealing entry-level opportunity for investors targeting rental demand on Saadiyat Island, provided entry pricing aligns with project-specific launch figures.",
+    "credibility_flag": "normal"
   }
 }
