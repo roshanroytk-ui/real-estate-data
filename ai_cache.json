@@ -8006,5 +8006,98 @@
     ],
     "investment_summary": "The unit is priced closely aligned with recent closed DLD transaction medians for the area, while sitting well below prevailing active asking prices. While the unit size and reported rental return are attractive on paper, the location contradiction within the listing description requires immediate clarification before progressing.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/15/3br-upgraded-villa-single-row-vacant-sp-2-256747/_investment_analysis_exceptional": {
+    "quality_context": "The property is a fully upgraded and converted Type 4E end-unit villa in Springs 5 featuring single-row positioning and vacant-on-transfer status, both desirable attributes for end-users seeking privacy and immediate occupancy in a mature gated community.",
+    "risk_flags": [
+      "No DLD closed-transaction data is available for this segment; this analysis is benchmarked solely against active asking prices rather than confirmed transaction values.",
+      "Community classification mismatch: The property is listed under Emirates Hills despite being located in The Springs, causing comparative asking benchmarks to appear heavily distorted by ultra-luxury master-community stock.",
+      "Incomplete listing description requires manual verification of conversion permits, renovation quality, and completion certificates."
+    ],
+    "investment_summary": "While the listing appears priced substantially below the active asking median for its recorded area, this pricing delta is largely an artifact of aggregating The Springs within Emirates Hills asking inventory. Within its actual peer group of upgraded Springs townhouses, the asking price reflects standard market positioning. The unit offers solid end-user appeal and rental liquidity due to its single-row setting and vacant status, though buyers should evaluate returns against genuine Springs transaction benchmarks rather than high-end asking metrics.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/2/close-to-lake-i-type-3m-i-back-to-back--2-132113/_investment_analysis_exceptional": {
+    "quality_context": "The property is marketed at a rate noticeably below the active asking-price median for its listed area. However, an essential limitation to note is that this comparison relies entirely on active seller asking prices rather than verified Dubai Land Department (DLD) closed sales transactions, as recorded transaction data is unavailable for this specific segment.",
+    "risk_flags": [
+      "Critical location discrepancy: Listed under Emirates Hills, but the title references a Type 3M layout and the description explicitly cites Springs 9, indicating a miscategorized Springs townhouse rather than an Emirates Hills villa.",
+      "Artificial discount distortion: The perceived price advantage is misleading because the asset is being benchmarked against ultra-prime Emirates Hills listings rather than comparable The Springs inventory.",
+      "Data limitation: Lack of official DLD closed-transaction benchmarks restricts verification to active asking prices only.",
+      "Incomplete description text indicating low-effort listing entry."
+    ],
+    "investment_summary": "While the listing appears attractively priced against the broader Emirates Hills asking median, this is driven by a fundamental misclassification. The property is clearly a standard Type 3M townhouse located in Springs 9. Consequently, evaluating it against Emirates Hills metrics creates a false impression of deep value. Buyers must evaluate this unit exclusively against The Springs 9 transaction history rather than its listed master community.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/8/spacious-layout-investor-deal-rented-2-663785/_investment_analysis_market_rate": {
+    "quality_context": "The unit is situated in Bayz by Danube, a high-density, entry-level residential development positioned on the peripheral boundary of Business Bay near Al Khail Road. While Business Bay as a whole commands premium valuations for prime canal-front and high-end towers, Danube properties typically trade at a discount to the wider district median due to standardized finishes, compact layouts, and higher unit density per floor.",
+    "risk_flags": [
+      "Currently rented status necessitates verification of the active tenancy contract, passing rental yield, and whether notice to vacate has been served if seeking an owner-occupier resale.",
+      "Peripheral Business Bay positioning results in higher reliance on vehicle transit compared to central canal-walk access.",
+      "Listing description is truncated, requiring confirmation of parking allocation, exact view, and service charge schedules directly with the agent."
+    ],
+    "investment_summary": "The property is priced marginally below recent transacted benchmarks for the wider district and well below prevailing asking prices, aligning realistically with building-specific pricing tiers for Danube developments in this pocket of Business Bay. As an income-generating asset with immediate tenancy in place, it represents a standard cash-flow proposition, though upside is moderated by the building's mass-market profile.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/19/vacant-1-sept-upgraded-best-price-on-ma-2-226401/_investment_analysis_market_rate": {
+    "quality_context": "The listing features a 740 sqft one-bedroom unit in Scala Tower, an established mid-tier residential building within Business Bay. The unit is advertised as upgraded and vacant soon, which caters well to immediate end-user occupancy or fast turnaround for rental income. While Business Bay as a master community contains a wide spectrum of luxury and premium waterfront stock, Scala Tower represents older, functional inventory where pricing naturally tracks closer to fundamental transacted medians rather than premium off-plan or luxury secondary listings.",
+    "risk_flags": [
+      "Listed at a rate slightly above recent registered transaction benchmarks in the sub-market, despite marketing claims of being the best price.",
+      "Scala Tower is an older development compared to surrounding supply, which may entail higher ongoing service fees and capital expenditure requirements.",
+      "The truncated listing description leaves specific details and scope of the advertised upgrades unverified."
+    ],
+    "investment_summary": "This property is positioned substantially below prevailing asking prices across Business Bay while trading closely in line with real, historical closed transactions. It presents a plausible rental yield opportunity supported by upcoming vacancy, provided an investor verifies the actual standard of the upgrades and factors in building-specific service charges.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/9/furnished-downtown-city-view-rented-2-969662/_investment_analysis_market_rate": {
+    "quality_context": "Located in Majestine Tower by DAMAC in Business Bay, this unit offers a generous layout for a one-bedroom apartment and comes fully furnished. Its location provides accessible connectivity to Downtown Dubai and commercial hubs, appealing to professionals seeking turnkey urban accommodation.",
+    "risk_flags": [
+      "Serviced and hotel-style residential developments in Business Bay often carry elevated service charges, which can compress net yields.",
+      "Being currently rented requires review of the active tenancy contract, rental amount, and eviction notice timelines to evaluate actual cash flow."
+    ],
+    "investment_summary": "Priced closely aligned with real registered transaction medians in Business Bay and positioned substantially below prevailing asking rates, this property offers a grounded entry point. It suits income-focused investors looking for an established, furnished asset with existing tenant occupancy.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/6/expansive-duplex-fully-furnished-living-2-146234/_investment_analysis_market_rate": {
+    "quality_context": "Marquise Square is a well-regarded residential development situated in Business Bay near the Dubai Canal and Downtown Dubai. At over one thousand square feet, this one-bedroom duplex offers an exceptionally generous floor plan compared to typical one-bedroom layouts in the district, complemented by turnkey fully furnished living.",
+    "risk_flags": [
+      "Duplex configurations often carry higher maintenance and service charge commitments relative to standard single-level units.",
+      "Larger unit footprint drives up the absolute purchase capital requirement compared to standard-sized one-bedroom apartments in Business Bay.",
+      "The listing description appears truncated, requiring direct verification of current lease status, furnishings inventory, and title deed details."
+    ],
+    "investment_summary": "The property is priced closely in line with actual historical closed transactions recorded by the Land Department, while sitting comfortably below the prevailing asking prices of competing active listings. Given the oversized duplex layout and established building quality, it represents a well-anchored entry point suitable for either long-term rental yield or high-end executive short-term leasing.",
+    "credibility_flag": "normal"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-dubai-hills-estate-park-heights-park-heights-2-park-heights-2-tower-2-152352969.html_investment_analysis_below_market": {
+    "quality_context": "Located in Park Heights 2 within Dubai Hills Estate (Hadaeq Sheikh Mohammed Bin Rashid), this unit benefits from an established master community with strong tenant demand, park access, and proximity to major transit corridors. However, it is designated as a ground-floor unit, a sub-category that typically trades and rents at a noticeable discount compared to mid- and high-floor apartments due to reduced privacy and limited views.",
+    "risk_flags": [
+      "Internal specification conflict: description details an en-suite plus a second full guest bathroom, whereas the property details section lists only one bathroom.",
+      "Unusually steep pricing discount relative to recent DLD closed transactions in the development, raising high risk of a bait listing.",
+      "Ground-floor location typically carries higher street noise, lower tenant retention, and reduced natural privacy.",
+      "The 844 sq.ft. footprint for a one-bedroom in this tower suggests significant outdoor terrace space might be bundled into the total area, which artificially suppresses the headline price per square foot."
+    ],
+    "investment_summary": "While the asset is priced substantially below recent comparable DLD closed transactions, the steep discount combined with internal contradictions regarding bathroom counts strongly suggests marketing inaccuracy or bait pricing. Investors should approach with caution and verify unit availability, actual title deed details, and indoor-to-outdoor space distribution before evaluating potential yields.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/4/furnished-2br-apt-duplex-private-jacuzz-3-249082/_investment_analysis_exceptional": {
+    "quality_context": "This property is a furnished two-bedroom duplex unit located in Oasis Residence within Masdar City, offering distinctive lifestyle features including a private jacuzzi. At 1,196 square feet, the duplex configuration distributes space across two levels, which may result in a more segmented floor plan compared to single-level units. Being fully furnished, it presents immediate rental or end-use capability.",
+    "risk_flags": [
+      "Data limitation: No DLD closed-transaction records are available for this segment; comparison is strictly against active seller asking prices, which may be aspirational rather than representative of realized exit values.",
+      "Jurisdiction note: Masdar City is situated in Abu Dhabi, operating under local municipal and land registry frameworks (DARI/ADM) rather than Dubai Land Department regulations.",
+      "Private amenity upkeep: Features like a private jacuzzi and duplex mechanical systems introduce higher ongoing maintenance and replacement considerations.",
+      "Truncated listing details: The listing description is incomplete, requiring direct confirmation of unit condition, service charges, and handover status."
+    ],
+    "investment_summary": "The property is positioned significantly below the prevailing asking-price median for comparable active listings in Masdar City. However, because this benchmark reflects asking prices rather than confirmed closed transactions, the apparent pricing gap may partly reflect speculative pricing among competing sellers rather than genuine capital appreciation upside. Investors should verify true transacted market rates and assess net rental yields after accounting for master-community service charges.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/5/marina-view-mid-floor-with-maids-room-2-837420/_investment_analysis_exceptional": {
+    "quality_context": "ARY Marina View is an established, older residential development in Dubai Marina known for exceptionally expansive floor plans compared to newer high-rises. At 2,860 sq. ft., this three-bedroom unit offers significantly more interior space than typical modern layouts, including a maid's room and multiple balconies, though interior specifications and building amenities are standard and may require modernizing to achieve optimal rental yields.",
+    "risk_flags": [
+      "High total service charges due to the oversized floor plate, which can impact net rental yields",
+      "Secondary building vintage requiring higher ongoing maintenance or potential renovation capital expenditure",
+      "Limited liquidity for oversized three-bedroom units compared to standard, compact layouts in Dubai Marina",
+      "Partial canal view indicates obstructed or angled water vistas rather than panoramic marina frontage"
+    ],
+    "investment_summary": "The property is priced substantially below both the district-wide DLD sold-price median and prevailing asking prices on a per-square-foot basis. This pricing position is primarily a function of the unit's unusually large footprint and the older vintage of the building, which naturally dilutes the per-square-foot rate relative to the wider Marina market. It represents an attractive value-oriented play for end-users seeking rare family-sized living space or investors willing to renovate for long-term rental income.",
+    "credibility_flag": "normal"
   }
 }
