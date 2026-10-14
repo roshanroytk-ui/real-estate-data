@@ -8099,5 +8099,97 @@
     ],
     "investment_summary": "The property is priced substantially below both the district-wide DLD sold-price median and prevailing asking prices on a per-square-foot basis. This pricing position is primarily a function of the unit's unusually large footprint and the older vintage of the building, which naturally dilutes the per-square-foot rate relative to the wider Marina market. It represents an attractive value-oriented play for end-users seeking rare family-sized living space or investors willing to renovate for long-term rental income.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/10/below-market-value-i-1br-unfurnished-wi-2-214398/_investment_analysis_good_value": {
+    "quality_context": "Located in Diamond Views 4 within Jumeirah Village Circle, this unit belongs to an established, older low-rise community offering basic functional amenities. The 641 sqft layout is on the compact side for a one-bedroom in JVC, and the facing road view may introduce street noise, which is standard for entry-tier units in this quadrant.",
+    "risk_flags": [
+      "Building age and standard maintenance profile compared to newer JVC handovers",
+      "Road view and lower floor exposure may impact tenant retention and rental yield ceiling",
+      "Capital appreciation upside may lag behind modern JVC developments with lifestyle amenities"
+    ],
+    "investment_summary": "The property is offered below both recent closed transaction benchmarks and broader asking levels, making it an accessible entry point for yield-focused buyers. While its pricing aligns with the aging profile and basic specifications of Diamond Views, sustained rental demand in JVC supports steady occupancy if acquired at this favorable rate.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/10/fully-furnished-modern-living-investor--2-158369/_investment_analysis_market_rate": {
+    "quality_context": "Located in Pantheon Elysee within Jumeirah Village Circle, this property offers an unusually generous layout for a one-bedroom apartment compared to standard community sizes. Pantheon Elysee is a contemporary mid-rise development known for modern finishes and lifestyle amenities.",
+    "risk_flags": [
+      "Direct listing contradiction: title advertises 'Fully Furnished' while the description explicitly lists the unit as 'Unfurnished'.",
+      "Lack of essential operational details regarding current tenancy status, rental yield history, or service charge rates."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered transaction benchmarks and well below prevailing asking prices in JVC, supported by an above-average unit size. However, due to the conflicting information regarding its furnishing status, prospective investors should independently verify the physical condition, inclusions, and vacant possession status prior to proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/16/fully-furnished-well-maintained-prime-l-2-976299/_investment_analysis_market_rate": {
+    "quality_context": "Located in Tower 108 within Jumeirah Village Circle, this one-bedroom unit offers a generous layout for the area. The building is a serviced apartment tower by DAMAC, typically delivering fully furnished interiors. In terms of valuation, the unit is priced comfortably in line with, and slightly below, recent closed transaction medians registered with the Dubai Land Department, while sitting at a substantial discount compared to prevailing active asking prices across JVC.",
+    "risk_flags": [
+      "Listing copy explicitly states the property is 'available for rent', indicating a likely miscategorization, template copy-paste error, or questionable listing validity for a sale.",
+      "As a serviced hotel-apartment development, Tower 108 typically carries higher-than-average service charges that can compress net rental yields.",
+      "Truncated description provides incomplete information regarding tenancy status, parking allocation, and title deed availability."
+    ],
+    "investment_summary": "On paper, the pricing tracks closely with benchmark closed transactions and looks highly competitive against speculative asking prices in the sub-market. However, the listing description conflicts directly with a sales offering by declaring the property available for rent. Investors should first clarify whether this is a genuine sale listing before assessing the impact of serviced-building maintenance charges on net cash flow.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/5/14/partial-sea-view-wide-terrace-corner-un-3-128946/_investment_analysis_exceptional": {
+    "quality_context": "This unit is a sizable two-bedroom corner apartment in Mayyas at The Bay on Yas Island, featuring partial sea views and an expansive terrace. The generous footprint of 1,678 sqft likely incorporates substantial outdoor terrace area, which typically lowers the overall blended price per square foot relative to pure internal living space.",
+    "risk_flags": [
+      "Benchmark limitation: This valuation benchmark relies exclusively on active asking prices from competing sellers; no official closed-transaction data is available for this segment to verify actual settled prices.",
+      "Internal timeline contradiction: The headline claims 'Handover Soon' while the description states completion is expected towards the end of 2026, pointing to potentially inaccurate or recycled listing copy.",
+      "Outdoor space dilution: The low rate per square foot may be heavily skewed by non-conditioned outdoor terrace square footage rather than prime indoor living area.",
+      "Off-plan execution risk: Subject to construction, handover, and developer delivery timelines under Advanced Properties."
+    ],
+    "investment_summary": "The property is priced substantially below prevailing asking prices for active listings across Yas Island. However, a significant portion of the total footprint appears to be terrace space, and the listing exhibits conflicting completion timelines between the headline and project description. Investors must verify the exact indoor-to-outdoor area ratio and actual delivery schedule before viewing this as a genuine value opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/9/vacant-now-single-row-great-location-2-128594/_investment_analysis_exceptional": {
+    "quality_context": "The listing features a 4-bedroom villa with 4,890 sqft of built-up area on a 5,490 sqft plot presented in original, unfurnished condition. On paper, the property is priced substantially below the prevailing asking median for its listed community. However, an important analytical limitation is that this comparison relies entirely on active seller asking prices rather than verified Dubai Land Department (DLD) closed transaction data, as closed transaction figures are unavailable for this segment.",
+    "risk_flags": [
+      "Critical location mismatch: The property is categorized under Emirates Hills, but the property description explicitly identifies it as being located in Jumeirah Park District 9.",
+      "The plot size of 5,490 sqft is standard for Jumeirah Park but highly atypical for Emirates Hills, confirming an incorrect community classification.",
+      "Potential bait listing or administrative error designed to generate leads by appearing as an anomalously low-priced Emirates Hills home.",
+      "Lack of verified DLD transaction records leaves pricing benchmarks reliant strictly on active listing asking prices."
+    ],
+    "investment_summary": "This listing should be treated with extreme caution and not evaluated as an Emirates Hills opportunity. The narrative description directly contradicts the location heading by stating the home is in Jumeirah Park District 9, explaining why the pricing appears significantly below Emirates Hills asking medians. Investors should avoid committing capital or making offers until the true location, title deed, and community status are verified.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/16/new-to-market-4e-vacant-on-transfer-2-556728/_investment_analysis_exceptional": {
+    "quality_context": "This property is listed as a fully upgraded Type 4E unit, but the listing contains severe discrepancies between the title metadata and the property description. A critical limitation of this market comparison is that no official Dubai Land Department (DLD) closed-transaction data is available for this segment; all benchmark metrics are derived exclusively from other sellers' active asking prices, which may reflect aspirational pricing rather than verified market value.",
+    "risk_flags": [
+      "Severe location mismatch: Listed under the ultra-luxury Emirates Hills master community, whereas the description clearly identifies the property as being in Springs 11 (The Springs).",
+      "Conflicting dimensional data: The listing specifications indicate 2,706 sqft, but the description details a 1,780 sqft built-up area on a 2,510 sqft plot.",
+      "Distorted price positioning: The rate per square foot appears discounted only because a modest townhouse in The Springs is being incorrectly benchmarked against Emirates Hills luxury listings.",
+      "Lack of verified DLD transaction data limits the analysis solely to competing active asking prices rather than concluded transfers."
+    ],
+    "investment_summary": "This listing displays multiple hallmarks of an erroneous or bait classification. While appearing priced well below market asking medians for Emirates Hills, this perceived discount is entirely artificial and caused by miscategorizing a Springs 11 townhouse into a prime luxury master development. Investors should disregard the Emirates Hills benchmark and evaluate the unit strictly against verified secondary market comparables within The Springs.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/14/not-open-view-low-floor-fully-furnished-2-555590/_investment_analysis_exceptional": {
+    "quality_context": "At 959 sq.ft, this unit offers a generous layout for a one-bedroom apartment in Dubai Marina. However, the listing exhibits clear internal contradictions regarding its quality attributes: the title specifies a low-floor unit with an obstructed view, whereas the marketing description claims a high-floor location with breathtaking open views.",
+    "risk_flags": [
+      "Direct conflict between title and description regarding floor level ('Low Floor' vs. 'high-floor') and view quality ('Not Open View' vs. 'breathtaking views').",
+      "Pricing sits substantially below both recent closed DLD transactions and prevailing active asking medians, strongly suggesting a potential phantom or bait-and-switch listing.",
+      "Incomplete description text reflects poor listing diligence and possible automated or inaccurate publishing."
+    ],
+    "investment_summary": "While the entry rate appears significantly discounted relative to historical benchmark transactions in Dubai Marina, the glaring discrepancies in the listing's core details warrant extreme caution. Investors should verify title deed details, physical floor, and actual availability before treating this as a viable acquisition opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/10/vot-prime-location-renovated-hot-unit-2-299114/_investment_analysis_exceptional": {
+    "quality_context": "This property is presented as a renovated 3-bedroom plus maids townhouse in the Dreamz community within Al Furjan (categorized cadastrally under Jabal Ali 1). The unit benefits from Vacant-on-Transfer (VOT) status, offering immediate flexibility for end-users or investors seeking immediate leasing yields without tenancy notice complications.",
+    "risk_flags": [
+      "Limitation: Benchmark comparison relies strictly on active seller asking prices; no DLD closed-transaction records are available for this specific segment to verify confirmed sold values.",
+      "Significant internal contradiction regarding unit area: the header lists a larger built-up area while the description explicitly cites a much smaller square footage, distorting the advertised price-per-square-foot metric.",
+      "Potential mismatch between cadastral zoning label and community naming convention that requires title deed verification."
+    ],
+    "investment_summary": "On paper, the unit appears priced meaningfully below prevailing asking medians in the segment. However, this apparent pricing advantage is heavily compromised by conflicting area figures in the listing text, which would bring the actual rate per square foot much closer to market levels if the smaller figure is accurate. Critical verification of the title deed and actual usable area is required before assessing viability.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/ready-to-move-spacious-1br-prime-locati-3-104771/_investment_analysis_exceptional": {
+    "quality_context": "At 1,190 sqft, this 1-bedroom apartment in Oceanscape on Al Reem Island offers an exceptionally generous layout compared to typical modern 1-bedroom configurations. The property is priced noticeably below the prevailing median of competing active listings in the area. A critical limitation of this assessment is that no official closed-transaction data is available for this segment; this benchmark relies exclusively on other sellers' asking prices rather than verified, registered sold prices, which typically incorporate negotiation margins.",
+    "risk_flags": [
+      "Reliance on asking-price data only: Without verified historical transaction data, the benchmark may be inflated by speculative seller pricing across competing listings.",
+      "Jurisdiction awareness: Oceanscape is situated in Abu Dhabi (Al Reem Island), operating under Abu Dhabi's Department of Municipalities and Transport (DARI/TAMM) rather than Dubai's DLD regulatory and transaction recording ecosystem.",
+      "Service charge implications: A 1,190 sqft footprint for a 1-bedroom apartment carries higher absolute annual maintenance and service fees, potentially impacting net rental yields."
+    ],
+    "investment_summary": "The unit presents an attractive qualitative pricing position against competing active listings on Al Reem Island, combined with rare, expansive square footage for a 1-bedroom property. Investors should confirm real-time achievable rental rates and cross-reference registered transaction values through Abu Dhabi's DARI platform, keeping in mind that asking-price comparisons alone do not reflect final transacted discounts.",
+    "credibility_flag": "normal"
   }
 }
