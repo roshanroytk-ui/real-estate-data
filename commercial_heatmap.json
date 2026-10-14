@@ -4,69 +4,27 @@
     "area": "Business Bay",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.185914411810646,
-    "lng": 55.27019872463479,
-    "market_median_price_per_sqft": 2788,
-    "listing_count": 809,
-    "transaction_median_price_per_sqft": 4616,
-    "transaction_comparable_count": 42,
-    "deviation_score": 1.03,
+    "lat": 25.185919018961904,
+    "lng": 55.27021565676465,
+    "market_median_price_per_sqft": 2787,
+    "listing_count": 814,
+    "transaction_median_price_per_sqft": 4330,
+    "transaction_comparable_count": 40,
+    "deviation_score": 0.94,
     "color": "red"
   },
   {
     "segment": "commercial",
-    "area": "Al Hebiah 4",
+    "area": "Trade Centre",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.0431952283056,
-    "lng": 55.205898923092136,
-    "market_median_price_per_sqft": 2412,
-    "listing_count": 24,
+    "lat": 25.215927565207572,
+    "lng": 55.27780723790153,
+    "market_median_price_per_sqft": 4958,
+    "listing_count": 49,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.06,
-    "color": "yellow"
-  },
-  {
-    "segment": "commercial",
-    "area": "Jabal Ali Industrial 2",
-    "property_type": "office",
-    "property_type_display": "Office",
-    "lat": 24.97482870727706,
-    "lng": 55.09124544312602,
-    "market_median_price_per_sqft": 1901,
-    "listing_count": 123,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": -0.16,
-    "color": "green"
-  },
-  {
-    "segment": "commercial",
-    "area": "Jumeirah Lake Towers",
-    "property_type": "office",
-    "property_type_display": "Office",
-    "lat": 25.072082419034444,
-    "lng": 55.14488344341233,
-    "market_median_price_per_sqft": 2185,
-    "listing_count": 405,
-    "transaction_median_price_per_sqft": 3548,
-    "transaction_comparable_count": 29,
-    "deviation_score": 0.56,
-    "color": "red"
-  },
-  {
-    "segment": "commercial",
-    "area": "Dubai International Financial Centre",
-    "property_type": "office",
-    "property_type_display": "Office",
-    "lat": 25.208926246481393,
-    "lng": 55.27669426031638,
-    "market_median_price_per_sqft": 6740,
-    "listing_count": 54,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": 1.97,
+    "deviation_score": 1.22,
     "color": "red"
   },
   {
@@ -80,7 +38,7 @@
     "listing_count": 39,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.53,
+    "deviation_score": -0.52,
     "color": "green"
   },
   {
@@ -88,27 +46,69 @@
     "area": "International City",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.141908363052156,
-    "lng": 55.39182524492917,
-    "market_median_price_per_sqft": 1501,
-    "listing_count": 148,
+    "lat": 25.141853283889244,
+    "lng": 55.39184370918039,
+    "market_median_price_per_sqft": 1505,
+    "listing_count": 147,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.34,
+    "deviation_score": -0.33,
     "color": "green"
+  },
+  {
+    "segment": "commercial",
+    "area": "Jumeirah Lake Towers",
+    "property_type": "office",
+    "property_type_display": "Office",
+    "lat": 25.072098986999876,
+    "lng": 55.14489348300245,
+    "market_median_price_per_sqft": 2185,
+    "listing_count": 407,
+    "transaction_median_price_per_sqft": 3548,
+    "transaction_comparable_count": 27,
+    "deviation_score": 0.59,
+    "color": "red"
+  },
+  {
+    "segment": "commercial",
+    "area": "Dubai International Financial Centre",
+    "property_type": "office",
+    "property_type_display": "Office",
+    "lat": 25.208926246481393,
+    "lng": 55.27669426031638,
+    "market_median_price_per_sqft": 6740,
+    "listing_count": 54,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": 2.02,
+    "color": "red"
   },
   {
     "segment": "commercial",
     "area": "Jumeirah Heights",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.067809663115003,
-    "lng": 55.14454521632022,
-    "market_median_price_per_sqft": 2095,
-    "listing_count": 42,
+    "lat": 25.0678044383914,
+    "lng": 55.144538629894164,
+    "market_median_price_per_sqft": 2085,
+    "listing_count": 43,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.08,
+    "deviation_score": -0.07,
+    "color": "yellow"
+  },
+  {
+    "segment": "commercial",
+    "area": "Jabal Ali Industrial 2",
+    "property_type": "office",
+    "property_type_display": "Office",
+    "lat": 24.974810477921963,
+    "lng": 55.09124126714074,
+    "market_median_price_per_sqft": 1901,
+    "listing_count": 122,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": -0.15,
     "color": "yellow"
   },
   {
@@ -116,13 +116,13 @@
     "area": "Dubai Media City 2",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.097632575618658,
-    "lng": 55.17753780731946,
+    "lat": 25.0976919126058,
+    "lng": 55.17749054005674,
     "market_median_price_per_sqft": 2884,
-    "listing_count": 150,
+    "listing_count": 153,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.27,
+    "deviation_score": 0.29,
     "color": "red"
   },
   {
@@ -136,22 +136,8 @@
     "listing_count": 67,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.16,
-    "color": "green"
-  },
-  {
-    "segment": "commercial",
-    "area": "Trade Centre",
-    "property_type": "office",
-    "property_type_display": "Office",
-    "lat": 25.216032993649396,
-    "lng": 55.277890097024475,
-    "market_median_price_per_sqft": 4979,
-    "listing_count": 48,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": 1.19,
-    "color": "red"
+    "deviation_score": -0.15,
+    "color": "yellow"
   },
   {
     "segment": "commercial",
@@ -164,7 +150,7 @@
     "listing_count": 10,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.04,
+    "deviation_score": -0.02,
     "color": "yellow"
   },
   {
@@ -178,7 +164,7 @@
     "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.45,
+    "deviation_score": 0.47,
     "color": "red"
   },
   {
@@ -186,13 +172,13 @@
     "area": "Al Hebiah 1",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.0478739564499,
-    "lng": 55.229343219603614,
-    "market_median_price_per_sqft": 2307,
-    "listing_count": 48,
+    "lat": 25.047909362544587,
+    "lng": 55.22927999605984,
+    "market_median_price_per_sqft": 2232,
+    "listing_count": 46,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.01,
+    "deviation_score": -0.0,
     "color": "yellow"
   },
   {
@@ -200,14 +186,28 @@
     "area": "Dubai Residence Complex",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.095512600868943,
-    "lng": 55.380107313880806,
-    "market_median_price_per_sqft": 1633,
-    "listing_count": 66,
+    "lat": 25.09544614253332,
+    "lng": 55.38008265291274,
+    "market_median_price_per_sqft": 1656,
+    "listing_count": 67,
     "transaction_median_price_per_sqft": 1503,
     "transaction_comparable_count": 41,
-    "deviation_score": -0.34,
+    "deviation_score": -0.33,
     "color": "green"
+  },
+  {
+    "segment": "commercial",
+    "area": "Al Hebiah 4",
+    "property_type": "office",
+    "property_type_display": "Office",
+    "lat": 25.043203397290437,
+    "lng": 55.20598848712288,
+    "market_median_price_per_sqft": 2414,
+    "listing_count": 22,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": 0.08,
+    "color": "yellow"
   },
   {
     "segment": "commercial",
@@ -220,7 +220,7 @@
     "listing_count": 60,
     "transaction_median_price_per_sqft": 3241,
     "transaction_comparable_count": 75,
-    "deviation_score": 0.43,
+    "deviation_score": 0.45,
     "color": "red"
   },
   {
@@ -228,13 +228,13 @@
     "area": "Bur Dubai",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.232863060926324,
-    "lng": 55.323708788003636,
-    "market_median_price_per_sqft": 2876,
-    "listing_count": 28,
+    "lat": 25.232858279025773,
+    "lng": 55.32362363781793,
+    "market_median_price_per_sqft": 2946,
+    "listing_count": 27,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.27,
+    "deviation_score": 0.32,
     "color": "red"
   },
   {
@@ -242,13 +242,13 @@
     "area": "Al Sufouh",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.108442271371942,
-    "lng": 55.17919468667763,
-    "market_median_price_per_sqft": 4530,
-    "listing_count": 38,
+    "lat": 25.108442224652265,
+    "lng": 55.17919470523649,
+    "market_median_price_per_sqft": 4521,
+    "listing_count": 37,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.99,
+    "deviation_score": 1.02,
     "color": "red"
   },
   {
@@ -256,13 +256,13 @@
     "area": "Al Barsha South 3",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.063562626902286,
-    "lng": 55.24383875998173,
-    "market_median_price_per_sqft": 1851,
-    "listing_count": 51,
+    "lat": 25.063572537160034,
+    "lng": 55.24386756283083,
+    "market_median_price_per_sqft": 1853,
+    "listing_count": 50,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.19,
+    "deviation_score": -0.17,
     "color": "green"
   },
   {
@@ -270,13 +270,13 @@
     "area": "Dubai Silicon Oasis (Dso)",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.113933835627986,
-    "lng": 55.38614482360115,
-    "market_median_price_per_sqft": 1243,
-    "listing_count": 40,
+    "lat": 25.11398575449024,
+    "lng": 55.38619028061657,
+    "market_median_price_per_sqft": 1248,
+    "listing_count": 39,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.45,
+    "deviation_score": -0.44,
     "color": "green"
   },
   {
@@ -290,7 +290,7 @@
     "listing_count": 14,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.25,
+    "deviation_score": -0.23,
     "color": "green"
   },
   {
@@ -304,21 +304,21 @@
     "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.17,
-    "color": "green"
+    "deviation_score": -0.15,
+    "color": "yellow"
   },
   {
     "segment": "commercial",
     "area": "Jumeirah Village Circle",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.050796796811902,
-    "lng": 55.200836305554475,
-    "market_median_price_per_sqft": 2437,
-    "listing_count": 100,
+    "lat": 25.050939518162412,
+    "lng": 55.20084953894617,
+    "market_median_price_per_sqft": 2418,
+    "listing_count": 101,
     "transaction_median_price_per_sqft": 1805,
     "transaction_comparable_count": 69,
-    "deviation_score": -0.21,
+    "deviation_score": -0.19,
     "color": "green"
   },
   {
@@ -332,7 +332,7 @@
     "listing_count": 17,
     "transaction_median_price_per_sqft": 2499,
     "transaction_comparable_count": 11,
-    "deviation_score": 0.1,
+    "deviation_score": 0.12,
     "color": "yellow"
   },
   {
@@ -340,13 +340,13 @@
     "area": "Wadi Al Safa 3",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.09334908927183,
-    "lng": 55.31254509442365,
-    "market_median_price_per_sqft": 1808,
-    "listing_count": 54,
+    "lat": 25.093201764654978,
+    "lng": 55.312805912479945,
+    "market_median_price_per_sqft": 1823,
+    "listing_count": 56,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.2,
+    "deviation_score": -0.18,
     "color": "green"
   },
   {
@@ -360,21 +360,7 @@
     "listing_count": 28,
     "transaction_median_price_per_sqft": 5854,
     "transaction_comparable_count": 7,
-    "deviation_score": 1.58,
-    "color": "red"
-  },
-  {
-    "segment": "commercial",
-    "area": "Za'abeel",
-    "property_type": "shop",
-    "property_type_display": "Shop",
-    "lat": 25.211736,
-    "lng": 55.28303,
-    "market_median_price_per_sqft": 4188,
-    "listing_count": 14,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": 0.16,
+    "deviation_score": 1.62,
     "color": "red"
   },
   {
@@ -393,6 +379,34 @@
   },
   {
     "segment": "commercial",
+    "area": "Jabal Ali Industrial 1",
+    "property_type": "labor_camp",
+    "property_type_display": "Labor Camp",
+    "lat": 25.00499419413725,
+    "lng": 55.11183178054195,
+    "market_median_price_per_sqft": 1092,
+    "listing_count": 12,
+    "transaction_median_price_per_sqft": 592,
+    "transaction_comparable_count": 15,
+    "deviation_score": -0.11,
+    "color": "yellow"
+  },
+  {
+    "segment": "commercial",
+    "area": "Za'abeel",
+    "property_type": "shop",
+    "property_type_display": "Shop",
+    "lat": 25.211736,
+    "lng": 55.28303,
+    "market_median_price_per_sqft": 4188,
+    "listing_count": 14,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": 0.17,
+    "color": "red"
+  },
+  {
+    "segment": "commercial",
     "area": "Jabal Ali 1",
     "property_type": "shop",
     "property_type_display": "Shop",
@@ -402,7 +416,7 @@
     "listing_count": 34,
     "transaction_median_price_per_sqft": 6500,
     "transaction_comparable_count": 39,
-    "deviation_score": 0.8,
+    "deviation_score": 0.81,
     "color": "red"
   },
   {
@@ -416,7 +430,7 @@
     "listing_count": 3,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.17,
+    "deviation_score": -0.16,
     "color": "green"
   },
   {
@@ -426,7 +440,7 @@
     "property_type_display": "Shop",
     "lat": 25.059834474887204,
     "lng": 55.21490893691656,
-    "market_median_price_per_sqft": 3548,
+    "market_median_price_per_sqft": 3510,
     "listing_count": 70,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
@@ -438,28 +452,14 @@
     "area": "Jumeirah Village Circle",
     "property_type": "shop",
     "property_type_display": "Shop",
-    "lat": 25.051888024515048,
-    "lng": 55.2001524819333,
-    "market_median_price_per_sqft": 3060,
-    "listing_count": 103,
-    "transaction_median_price_per_sqft": 2785,
-    "transaction_comparable_count": 35,
-    "deviation_score": -0.23,
+    "lat": 25.051789255532167,
+    "lng": 55.20030316187182,
+    "market_median_price_per_sqft": 3046,
+    "listing_count": 104,
+    "transaction_median_price_per_sqft": 2792,
+    "transaction_comparable_count": 102,
+    "deviation_score": -0.22,
     "color": "green"
-  },
-  {
-    "segment": "commercial",
-    "area": "Jabal Ali Industrial 1",
-    "property_type": "labor_camp",
-    "property_type_display": "Labor Camp",
-    "lat": 25.00499419413725,
-    "lng": 55.11183178054195,
-    "market_median_price_per_sqft": 1092,
-    "listing_count": 12,
-    "transaction_median_price_per_sqft": 592,
-    "transaction_comparable_count": 15,
-    "deviation_score": -0.11,
-    "color": "yellow"
   },
   {
     "segment": "commercial",
@@ -486,22 +486,8 @@
     "listing_count": 130,
     "transaction_median_price_per_sqft": 4500,
     "transaction_comparable_count": 35,
-    "deviation_score": 0.25,
+    "deviation_score": 0.26,
     "color": "red"
-  },
-  {
-    "segment": "commercial",
-    "area": "Wadi Al Safa 3",
-    "property_type": "shop",
-    "property_type_display": "Shop",
-    "lat": 25.09283232980859,
-    "lng": 55.31945179486142,
-    "market_median_price_per_sqft": 2964,
-    "listing_count": 84,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": -0.18,
-    "color": "green"
   },
   {
     "segment": "commercial",
@@ -519,13 +505,27 @@
   },
   {
     "segment": "commercial",
+    "area": "Wadi Al Safa 3",
+    "property_type": "shop",
+    "property_type_display": "Shop",
+    "lat": 25.09283232980859,
+    "lng": 55.31945179486142,
+    "market_median_price_per_sqft": 2964,
+    "listing_count": 84,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": -0.17,
+    "color": "green"
+  },
+  {
+    "segment": "commercial",
     "area": "Dubai Investments Park (Dip)",
     "property_type": "warehouse",
     "property_type_display": "Warehouse",
-    "lat": 24.98340402231466,
-    "lng": 55.18173997556397,
+    "lat": 24.983418488047803,
+    "lng": 55.181527509165235,
     "market_median_price_per_sqft": 557,
-    "listing_count": 68,
+    "listing_count": 67,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
     "deviation_score": 0.24,
@@ -564,13 +564,13 @@
     "area": "International City",
     "property_type": "shop",
     "property_type_display": "Shop",
-    "lat": 25.14550642438077,
-    "lng": 55.39483672881566,
-    "market_median_price_per_sqft": 2533,
-    "listing_count": 40,
+    "lat": 25.145330281416175,
+    "lng": 55.39489526032376,
+    "market_median_price_per_sqft": 2546,
+    "listing_count": 39,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.3,
+    "deviation_score": -0.29,
     "color": "green"
   },
   {
@@ -584,7 +584,7 @@
     "listing_count": 3,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.1,
+    "deviation_score": 0.11,
     "color": "yellow"
   },
   {
@@ -598,7 +598,7 @@
     "listing_count": 26,
     "transaction_median_price_per_sqft": 4224,
     "transaction_comparable_count": 38,
-    "deviation_score": 0.17,
+    "deviation_score": 0.18,
     "color": "red"
   },
   {
@@ -626,8 +626,22 @@
     "listing_count": 24,
     "transaction_median_price_per_sqft": 3398,
     "transaction_comparable_count": 30,
-    "deviation_score": -0.06,
+    "deviation_score": -0.05,
     "color": "yellow"
+  },
+  {
+    "segment": "commercial",
+    "area": "Al Jaddaf",
+    "property_type": "shop",
+    "property_type_display": "Shop",
+    "lat": 25.216356148188893,
+    "lng": 55.3244086703346,
+    "market_median_price_per_sqft": 4249,
+    "listing_count": 35,
+    "transaction_median_price_per_sqft": null,
+    "transaction_comparable_count": 0,
+    "deviation_score": 0.19,
+    "color": "red"
   },
   {
     "segment": "commercial",
@@ -640,7 +654,7 @@
     "listing_count": 26,
     "transaction_median_price_per_sqft": 1540,
     "transaction_comparable_count": 19,
-    "deviation_score": -0.32,
+    "deviation_score": -0.31,
     "color": "green"
   },
   {
@@ -654,7 +668,7 @@
     "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.27,
+    "deviation_score": 0.29,
     "color": "red"
   },
   {
@@ -676,28 +690,14 @@
     "area": "Al Barsha South 3",
     "property_type": "shop",
     "property_type_display": "Shop",
-    "lat": 25.062644559035032,
-    "lng": 55.24083193301802,
+    "lat": 25.062531289287172,
+    "lng": 55.24069896636068,
     "market_median_price_per_sqft": 3660,
-    "listing_count": 47,
+    "listing_count": 46,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
     "deviation_score": 0.02,
     "color": "yellow"
-  },
-  {
-    "segment": "commercial",
-    "area": "Al Jaddaf",
-    "property_type": "shop",
-    "property_type_display": "Shop",
-    "lat": 25.216356148188893,
-    "lng": 55.3244086703346,
-    "market_median_price_per_sqft": 4249,
-    "listing_count": 35,
-    "transaction_median_price_per_sqft": null,
-    "transaction_comparable_count": 0,
-    "deviation_score": 0.18,
-    "color": "red"
   },
   {
     "segment": "commercial",
@@ -738,7 +738,7 @@
     "listing_count": 60,
     "transaction_median_price_per_sqft": 2997,
     "transaction_comparable_count": 9,
-    "deviation_score": -0.17,
+    "deviation_score": -0.16,
     "color": "green"
   },
   {
@@ -752,7 +752,7 @@
     "listing_count": 28,
     "transaction_median_price_per_sqft": 10000,
     "transaction_comparable_count": 21,
-    "deviation_score": 1.77,
+    "deviation_score": 1.79,
     "color": "red"
   },
   {
@@ -760,13 +760,13 @@
     "area": "Business Bay",
     "property_type": "shop",
     "property_type_display": "Shop",
-    "lat": 25.18195272990371,
-    "lng": 55.27074078579095,
+    "lat": 25.181983070683366,
+    "lng": 55.27062052435283,
     "market_median_price_per_sqft": 4888,
-    "listing_count": 58,
+    "listing_count": 59,
     "transaction_median_price_per_sqft": 4500,
     "transaction_comparable_count": 65,
-    "deviation_score": 0.25,
+    "deviation_score": 0.26,
     "color": "red"
   },
   {
@@ -794,7 +794,7 @@
     "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.67,
+    "deviation_score": 0.7,
     "color": "red"
   },
   {
@@ -808,7 +808,7 @@
     "listing_count": 19,
     "transaction_median_price_per_sqft": 3076,
     "transaction_comparable_count": 38,
-    "deviation_score": 0.35,
+    "deviation_score": 0.38,
     "color": "red"
   },
   {
@@ -836,7 +836,7 @@
     "listing_count": 3,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.94,
+    "deviation_score": 0.95,
     "color": "red"
   },
   {
@@ -864,7 +864,7 @@
     "listing_count": 5,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.8,
+    "deviation_score": 0.81,
     "color": "red"
   },
   {
@@ -878,7 +878,7 @@
     "listing_count": 7,
     "transaction_median_price_per_sqft": 5548,
     "transaction_comparable_count": 5,
-    "deviation_score": 0.54,
+    "deviation_score": 0.55,
     "color": "red"
   },
   {
@@ -906,7 +906,7 @@
     "listing_count": 28,
     "transaction_median_price_per_sqft": 2750,
     "transaction_comparable_count": 8,
-    "deviation_score": -0.24,
+    "deviation_score": -0.23,
     "color": "green"
   },
   {
@@ -920,7 +920,7 @@
     "listing_count": 4,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": 0.78,
+    "deviation_score": 0.79,
     "color": "red"
   },
   {
@@ -1026,13 +1026,13 @@
     "area": "Deira",
     "property_type": "office",
     "property_type_display": "Office",
-    "lat": 25.25429214834581,
-    "lng": 55.328566753049536,
-    "market_median_price_per_sqft": 2239,
-    "listing_count": 3,
+    "lat": 25.25508463861361,
+    "lng": 55.329068620879404,
+    "market_median_price_per_sqft": 2238,
+    "listing_count": 4,
     "transaction_median_price_per_sqft": null,
     "transaction_comparable_count": 0,
-    "deviation_score": -0.01,
+    "deviation_score": 0.0,
     "color": "yellow"
   },
   {
