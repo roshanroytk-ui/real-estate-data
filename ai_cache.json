@@ -8311,5 +8311,66 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/29/flexible-payment-plan-golden-visa-inves-2-875125/": {
     "layout_type": "duplex",
     "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/2/fully-upgraded-villa-basement-spa-turn--2-178132/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/3/23/exceptional-ground-floor-oasis-expansiv-2-318998/": {
+    "layout_type": "ground_floor",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/2/canal-view-post-handover-payment-plan-2-874855/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/30/full-lake-view-upgraded-villa-expansive-2-189080/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/8/27/exclusive-opt-flexible-payment-plan-nea-2-172925/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/5/premium-deal-direct-beach-access-sea-vi-2-154978/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/3565-payment-plan-i-last-few-units-left-2-174915/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/17/high-floor-balcony-parking-30-amenities-2-337293/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/3/fully-furnished-spacious-living-premium-2-204754/": {
+    "layout_type": "terrace",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/23/vastu-home-bright-airy-pool-view-vacant-2-219258/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/10/exclusive-fully-renovated-in-prime-spot-2-336688/_investment_analysis_exceptional": {
+    "quality_context": "The listing is advertised as a fully renovated Type 3E unit, but there is a fundamental mismatch between the metadata indicating Emirates Hills and the property description locating it within Springs 2. Note that the pricing benchmark relies exclusively on active asking prices in the segment rather than confirmed Dubai Land Department (DLD) transaction records, which limits the reliability of the baseline.",
+    "risk_flags": [
+      "Location misclassification: Stated as Emirates Hills in the listing profile, but the description specifies a Type 3E villa in Springs 2.",
+      "Built-up area discrepancy: Listing reports 3,616 sqft, whereas the description clarifies a built-up area of 2,285 sqft on a 3,600 sqft plot.",
+      "Lack of verified transaction data: Comparison is drawn solely against other active asking prices rather than finalized DLD sale prices.",
+      "Misleading value proposition: The pricing appears considerably below area asking medians only because a mid-tier Springs property is mapped against an ultra-luxury Emirates Hills benchmark."
+    ],
+    "investment_summary": "The property appears substantially discounted relative to Emirates Hills asking figures, but this is an artifact of severe miscategorization. The asset is actually a Springs 2 townhouse, rendering comparisons against Emirates Hills asking medians invalid. Given the structural inaccuracies in location and area metrics, this listing presents high risk and does not reflect a true Emirates Hills investment opportunity. Furthermore, all comparative metrics reflect active seller expectations rather than realized DLD transaction values.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/25/fully-furnished-i-high-foor-i-ready-to--2-459331/_investment_analysis_market_rate": {
+    "quality_context": "The Imperial Residence in JVC is an established residential project dating back to roughly 2014, offering larger unit layouts than modern off-plan developments, as evidenced by this spacious layout for a one-bedroom. High-floor positioning and ready-to-move-in status make it attractive for immediate leasing or end-user occupancy, though older buildings in JVC generally command lower price points relative to newly handed-over stock.",
+    "risk_flags": [
+      "Older building age compared to surrounding newer JVC developments, which may require capital expenditure for cosmetic or internal maintenance.",
+      "Potential disparity in building upkeep and amenities compared to newer modern stock in the district.",
+      "The truncated listing description offers limited specific verification regarding service charge rates or existing tenancy status."
+    ],
+    "investment_summary": "The property is priced below both the historical median of completed DLD transactions and substantially under current asking prices across active listings in the area. Given the realistic pricing typical for older, established buildings in JVC, the unit presents a viable entry point for cash-flow-oriented investors seeking solid rental yields from larger floor plans.",
+    "credibility_flag": "normal"
   }
 }
