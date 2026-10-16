@@ -8412,5 +8412,47 @@
   "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/7/22/ultra-luxury-beachfront-sea-view-close--2-267925/": {
     "layout_type": "standard",
     "quality_tier": "ultra_luxury"
+  },
+  "https://www.propertyfinder.ae/en/plp/buy/apartment-for-sale-dubai-jumeirah-beach-residence-amwaj-amwaj-4-158688255.html_investment_analysis_below_market": {
+    "quality_context": "The unit is located in Amwaj 4 within JBR, a mature beachfront cluster often registered under the broader Dubai Marina master development. At nearly 1,200 square feet, this one-bedroom offers an exceptionally large floor plan compared to contemporary stock, complemented by upgraded interiors, full furnishings, and partial sea views.",
+    "risk_flags": [
+      "Location and asset vintage mismatch: JBR buildings are older (completed around 2007) and generally trade at lower rates per square foot than modern Dubai Marina waterfront towers.",
+      "Oversized layout dynamics: The expansive square footage naturally depresses the rate per square foot, even if the total lump-sum ticket price is aligned with typical one-bedroom trades.",
+      "High operating expenses: JBR developments carry relatively high ongoing service charges and district cooling fees, which directly compress net rental yields."
+    ],
+    "investment_summary": "This apartment is priced substantially below the prevailing DLD sold-price benchmark for the wider area, primarily reflecting the older building age of JBR and the large unit footprint. Given that the property is fully upgraded and furnished, it presents a viable turnkey rental prospect for holiday homes or executive tenants, though investors must account for elevated JBR service fees when projecting net returns.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/dubai-marina-dubai-dubai-310100107299/_investment_analysis_market_rate": {
+    "quality_context": "Franck Muller Vanguard Tower is a branded luxury off-plan development in Dubai Marina, combining signature Swiss horological design elements with high-end residential amenities, including rooftop leisure facilities, smart home automation, and dedicated concierge services.",
+    "risk_flags": [
+      "Listed at a premium per square foot relative to historical closed DLD transactions in Dubai Marina.",
+      "Off-plan asset carrying inherent handover timeline risks and potential construction delays.",
+      "Branded residences often incur higher ongoing service charges, potentially dampening net rental yields.",
+      "Listing copy is generic marketing material without unit-specific floor level, view orientation, or exact payment plan breakdown."
+    ],
+    "investment_summary": "The property sits above the historical median for completed DLD transactions in Dubai Marina, which is typical for newly launched branded residences, yet it remains noticeably below prevailing market asking rates for competing stock. While the Franck Muller branding and prime Marina location offer prestige and potential capital growth, prospective investors must evaluate high future service fees and off-plan execution risks against projected yields.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/12/burj-khalifa-view-2br-apartment-furnish-2-129934/_investment_analysis_market_rate": {
+    "quality_context": "DAMAC Towers by Paramount is a prominent branded development in Business Bay known for Hollywood-themed luxury, full furnishings, and hospitality-grade amenities. A 1,516 sqft layout offers generous proportions for a two-bedroom unit, well-suited to both long-term executive tenants and short-term holiday home guests seeking iconic skyline views.",
+    "risk_flags": [
+      "High service charges and maintenance fees associated with branded, serviced residences can compress net rental yields.",
+      "Significant spread between active asking prices and realized sales indicates active asking benchmarks may carry speculative seller premiums.",
+      "High unit density across the four-tower complex creates substantial internal rental competition among identical furnished layouts.",
+      "Peak-hour traffic congestion around Marasi Drive and access ramps to major highways."
+    ],
+    "investment_summary": "The unit is priced closely aligned with actual closed transaction medians registered with the DLD, while positioned notably below the broader active asking market. Its furnished condition and recognized branding support strong short-term rental occupancy, provided high operational and service expenses are factored into yield calculations.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/14/2br-in-west-bay-tower-cash-buyers-only--2-302817/_investment_analysis_market_rate": {
+    "quality_context": "West Bay Tower in Business Bay offers standard residential accommodation in a dense central commercial and residential district. At just over one thousand square feet, this two-bedroom configuration is relatively compact compared to standard two-bedroom layouts in the area. The unit's pricing tracks very closely with recent recorded transaction medians from the land department, despite sitting substantially below typical asking prices observed among active market listings.",
+    "risk_flags": [
+      "Strict 'cash buyers only' condition limits liquidity, negotiation leverage, and restricts the exit/buyer pool by excluding mortgage-backed purchasers.",
+      "Compact floor plan for a two-bedroom unit in Business Bay may constrain tenant profile and rental premiums.",
+      "Truncated listing description leaves key elements unverified, such as tenancy status, view orientation, service charges, and specific handover condition."
+    ],
+    "investment_summary": "The property presents a realistic entry point into Business Bay, priced directly in line with realized closed transaction benchmarks rather than inflated active asking rates. While the pricing reflects actual market trades rather than speculative asking levels, prospective investors must account for the cash-only acquisition constraint and perform due diligence on the building's maintenance history, service fees, and current occupancy status.",
+    "credibility_flag": "normal"
   }
 }
