@@ -8599,5 +8599,66 @@
     ],
     "investment_summary": "The property is priced substantially below recent closed DLD transactions and active listing medians for Dubai Marina, largely reflecting the asset's age rather than listing anomaly. Given the unit's vacant status and generous footprint, it represents a compelling value-play for an investor targeting strong rental yields through light cosmetic modernization or an end-user prioritizing space in a central location.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/9/custom-villa-fully-upgraded-italian-ren-2-330438/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/6/panoramic-main-lake-extended-plot-bua-v-2-130099/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/8/high-end-5br-villa-secure-family-commun-2-320938/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/26/distress-deal-2-147375/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/10/9/garden-view-balcony-orchid-3-273312/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/7/best-price-luxury-living-motivated-sell-2-148442/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/4/6-bedrooms-i-vacant-i-brand-new-i-prime-2-782687/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/17/below-op-high-floor-sea-view-open-to-of-2-241684/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/25/high-floor-best-investment-luxury-2-906120/": {
+    "layout_type": "standard",
+    "quality_tier": "ultra_luxury"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/30/distress-deal-2-151117/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/modern-layout-hot-deal-high-floor-spaci-2-173650/_investment_analysis_exceptional": {
+    "quality_context": "Binghatti Hills Tower 1 is a prominent off-plan development in Dubai Science Park (Dubiotech) characterized by high-density residential layouts and resort-style amenities. At over 1,200 square feet, the advertised footprint is unusually expansive for a one-bedroom unit in this cluster, where standard layouts are typically much more compact. This suggests the unit may include substantial outdoor terrace space, which materially affects the internal versus total living area valuation.",
+    "risk_flags": [
+      "Unusually large square footage for a one-bedroom layout indicates probable terrace or balcony inclusion that distorts the headline per-square-foot rate.",
+      "The advertised rate sits drastically below verified Dubai Land Department sold benchmarks, raising concerns of an unverified or bait listing.",
+      "Incomplete listing description abruptly cut off mid-sentence, reflecting low agent attention to detail and omitted payment plan or handover terms.",
+      "Substantial incoming handover supply across Binghatti Hills could create high competition for tenants upon project completion."
+    ],
+    "investment_summary": "While the listing is positioned significantly below prevailing market transaction medians on a per-square-foot basis, the apparent discount is likely an artifact of an oversized gross area rather than an underpriced asset. Investors must confirm the precise indoor net usable area, verify whether the quoted price covers the original contract price and outstanding developer installments, and ensure the unit is genuinely available at this advertised rate.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/5/investor-deal-address-villa-layout-bg1r-2-120042/_investment_analysis_exceptional": {
+    "quality_context": "The property represents a premium branded asset within the Address Villas - Hillcrest enclave, featuring an expansive B+G+1+Roof layout across nearly 10,000 sqft. Branded Address developments typically command strong market prestige, high finishing standards, and access to integrated lifestyle amenities within Dubai Hills Estate / Hadaeq Sheikh Mohammed Bin Rashid.",
+    "risk_flags": [
+      "No official Dubai Land Department (DLD) closed-transaction data is available for this specific segment; the benchmark relies entirely on active seller asking prices rather than verified historical sales.",
+      "The asking price is positioned extraordinarily below prevailing cluster asking medians, raising strong concern that this may represent an unverified or bait listing intended to generate investor inquiries.",
+      "Address Hillcrest projects require verification of construction milestones, developer assignment terms, and exact payment status before proceeding."
+    ],
+    "investment_summary": "On paper, the villa is priced substantially below prevailing asking rates for comparable luxury inventory in the area, offering an apparently exceptional entry point for a branded mansion layout. However, because there is no confirmed DLD closed-sales data to validate actual traded values, and given the wide divergence from peer asking prices, the listing exhibits classic indicators of speculative or phantom marketing that requires rigorous independent verification.",
+    "credibility_flag": "suspicious"
   }
 }
