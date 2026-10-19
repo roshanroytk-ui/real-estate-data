@@ -8925,44 +8925,147 @@
     "layout_type": "standard",
     "quality_tier": "premium"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/5/motivated-seller-high-floor-sea-and-pal-2-173782/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/17/vastu-north-east-exit-high-roi-premium--2-481717/": {
     "layout_type": "standard",
     "quality_tier": "premium"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/4/fully-upgraded-high-ceiling-vacant-on-t-2-321558/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/19/pristine-2-bedroom-green-living-vacant--2-126268/": {
+    "layout_type": "standard",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/prime-location-excellent-entry-vacant-2-180017/": {
     "layout_type": "standard",
     "quality_tier": "standard"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/3/upgraded-3-car-garage-5-bed-maids-and-d-2-301245/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/9/exclusive-marina-views-private-beach-ac-2-325377/": {
     "layout_type": "standard",
     "quality_tier": "premium"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/13/a-lake-of-your-own-extended-plot-built--2-239855/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/9/spacious-bright-storage-room-chiller-fr-2-247757/": {
+    "layout_type": "standard",
+    "quality_tier": "standard"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/19/signature-sea-and-marina-views-high-flo-2-108477/": {
     "layout_type": "standard",
     "quality_tier": "ultra_luxury"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/townhouse/2026/7/8/pool-and-park-backing-4-beds-plus-maids-2-317148/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/spacious-contemporary-living-3067-sqft--2-111788/": {
+    "layout_type": "terrace",
+    "quality_tier": "premium"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/exclusive-resale-sold-out-5050-pp-to-ha-2-159252/": {
     "layout_type": "standard",
     "quality_tier": "premium"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/9/vacant-full-sea-view-best-layout-2br-fu-2-138719/": {
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/exclusive-resale-sold-out-5050-pp-compl-2-214295/": {
     "layout_type": "standard",
     "quality_tier": "premium"
   },
-  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/waterfront-living-charming-apt-ideal-lo-3-175220/": {
-    "layout_type": "standard",
-    "quality_tier": "premium"
-  },
-  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/partial-sea-view-open-layout-premium-lo-3-257404/": {
-    "layout_type": "standard",
-    "quality_tier": "premium"
-  },
-  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/9/7/stunning-upgraded-villa-with-highest-re-2-238171/": {
-    "layout_type": "standard",
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/rare-to-market-huge-private-garden-spac-2-132549/": {
+    "layout_type": "ground_floor",
     "quality_tier": "ultra_luxury"
   },
-  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/4/genuine-5br-villa-lowest-price-in-opal--2-136927/": {
-    "layout_type": "standard",
-    "quality_tier": "premium"
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/13/vacant-fully-furnished-ready-for-air-bn-2-156379/_investment_analysis_good_value": {
+    "quality_context": "Situated in Diamond Views 1B, an established mid-rise community development in Jumeirah Village Circle. At 505 sqft, this studio offers a more spacious floor plan than many newer micro-studios being delivered in the area. The unit is advertised as vacant and fully furnished, allowing immediate move-in or deployment onto the rental market without upfront fit-out delays.",
+    "risk_flags": [
+      "Diamond Views is an older residential project in JVC, which can carry higher ongoing maintenance requirements and potentially aging common facilities.",
+      "Short-term rental and holiday home supply is highly saturated across JVC, requiring active management and marketing to achieve projected occupancy rates.",
+      "Capital appreciation in older low-rise buildings typically lags behind modern, amenity-rich new handovers in the district."
+    ],
+    "investment_summary": "The property is priced favorably below both the median closed transaction benchmarks registered with the DLD and the broader active asking prices in JVC. While this discount reflects the asset's older vintage, the turnkey furnishing and vacant status make it an accessible entry-level cash-flow opportunity for long-term or short-term leasing.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/20/burj-khalifa-view-big-layout-modern-fur-2-291465/_investment_analysis_below_market": {
+    "quality_context": "The apartment offers a noticeably generous 900 sqft layout for a one-bedroom configuration within MAG 970, part of the wider Hadaeq Sheikh Mohammed Bin Rashid master community. It is marketed as fully furnished with landmark views. When evaluated against historical closed transactions recorded by the DLD, the listing sits comfortably below prevailing district medians, representing an accessible entry point for the broader area.",
+    "risk_flags": [
+      "Sub-community pricing variance: District-wide DLD median benchmarks are elevated by prime luxury developments in MBR City, whereas MAG Eye represents a more entry-to-mid-market tier.",
+      "View preservation risk: Continuing construction and future mid-to-high-rise plots in the Meydan corridor may compromise currently unobstructed skyline views.",
+      "Secondary market supply: Substantial volume of upcoming and recently handed-over units in adjacent clusters could generate competition for tenants and moderate resale growth."
+    ],
+    "investment_summary": "Priced favorably below realized market transactions in the surrounding master district, this property appeals to investors seeking an accessible entry into an evolving urban master plan. The spacious layout and ready furnishing enhance immediate rental appeal, though underwriting should be grounded in direct building comparables rather than high-end district medians.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2025/8/7/turnkey-investment-modern-2br-in-marina-2-188141/_investment_analysis_exceptional": {
+    "quality_context": "Marina Diamond 2 is an established, budget-friendly residential building within Dubai Marina, offering direct access to the metro and tram. While Dubai Marina's community-wide transaction benchmarks are heavily elevated by premium waterfront and luxury towers, the Marina Diamond cluster typically commands a more accessible valuation due to its older build quality, standard finishes, and functional amenities.",
+    "risk_flags": [
+      "Building age requires due diligence on upcoming capital expenditures, chiller performance, and maintenance history.",
+      "A 963 sqft layout is relatively compact for a two-bedroom unit, which may limit appeal among larger families.",
+      "Capital appreciation prospects tend to lag newer or prime waterfront assets across Dubai Marina.",
+      "Incomplete listing description provides no clarity on current tenancy status, rental income, or required refurbishments."
+    ],
+    "investment_summary": "Priced noticeably below prevailing transaction medians for the broader Dubai Marina area, this property serves as an entry-level turnkey option with compelling gross yield potential. The discount reflects the building's older asset profile rather than an obvious pricing error, making it attractive for yield-focused investors comfortable managing an older unit.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/20/well-priced-i-spacious-i-great-location-2-276870/_investment_analysis_exceptional": {
+    "quality_context": "The property offers an above-average footprint for a two-bedroom layout in Dubai Marina, providing generous internal space. However, the listing omits critical property attributes, including the specific tower name, floor level, view, condition, and service charge details. The marketing copy is incomplete and generic, leaving unit quality and tower tier unverified.",
+    "risk_flags": [
+      "Omission of the building name prevents verification of building quality, age, and actual capital values.",
+      "The substantial pricing disconnect relative to historical benchmark sales strongly suggests either a distressed asset, significant deferred maintenance, or a bait-and-switch listing.",
+      "Truncated and sparse listing description indicates poor listing management or an unverified lead capture listing.",
+      "Tenancy status, current rental yield, and potential eviction requirements are completely unstated."
+    ],
+    "investment_summary": "On paper, the property sits substantially below both historical DLD registered sales and active asking benchmarks for Dubai Marina. While this appears to represent exceptional entry pricing on a per-foot basis, the absence of building identification paired with an unfinished listing description introduces significant operational risk. Investors should independently verify the physical availability and specific tower before treating this as a viable investment opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/dubai-hills-dubai-310119636661/_investment_analysis_below_market": {
+    "quality_context": "The unit is presented as a 786 sqft one-bedroom apartment offered at a rate substantially below recent DLD transaction medians and prevailing asking prices in Hadaeq Sheikh Mohammed Bin Rashid. However, the listing details conflict fundamentally with the actual property described, creating significant ambiguity around the true underlying asset.",
+    "risk_flags": [
+      "Critical location mismatch: The title and listing metadata place the unit in Dubai Hills / Hadaeq Sheikh Mohammed Bin Rashid, whereas the description markets Damac Valencia within Damac Lagoons, an entirely different submarket.",
+      "Potential bait-and-switch listing: The substantially below-market pricing for MBR City appears to be a result of miscategorizing a Damac Lagoons unit under a higher-value location to capture search traffic.",
+      "Unprofessional marketing copy with obvious errors (e.g., claiming the brokerage was established by a '10-year-old experienced agent') and conflicting project details."
+    ],
+    "investment_summary": "Despite appearing heavily discounted against DLD transaction medians for Hadaeq Sheikh Mohammed Bin Rashid, this listing demonstrates severe credibility issues. The property is being marketed as a Damac Lagoons development while categorized in Dubai Hills/MBR City. Investors should avoid committing funds or inquiries without direct verification, as the unit is likely misclassified or a bait listing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/smart-home-8-disc-high-quality-eoi-stag-2-290332/_investment_analysis_exceptional": {
+    "quality_context": "The property offers a generous layout for a two-bedroom apartment within the developing Palm Deira (Dubai Islands) waterfront district. Marketed with smart-home features, the property caters to the emerging master-plan community appeal, though it remains in the pre-launch or Expression of Interest phase.",
+    "risk_flags": [
+      "Listed at the Expression of Interest (EOI) stage, meaning unit availability, final layout, and pricing are unconfirmed and subject to developer adjustments.",
+      "The substantial pricing disconnect relative to established market transaction benchmarks indicates high likelihood of an unverified lead-generation bait listing.",
+      "Lack of critical project fundamentals including developer identity, escrow account details, payment plan terms, and verified completion dates."
+    ],
+    "investment_summary": "While the listing is positioned substantially below both DLD transaction benchmarks and active market asking levels, the advertised rate appears indicative of speculative pre-launch marketing rather than an executable contract. Investors should treat the pricing with skepticism until an official inventory allocation and SPA are verified.",
+    "credibility_flag": "suspicious"
+  },
+  "https://abudhabi.dubizzle.com/property-for-sale/residential/apartment/2026/10/7/full-sea-view-mid-level-great-location-3-301913/_investment_analysis_exceptional": {
+    "quality_context": "At over 1,000 square feet, this unit offers a notably spacious layout for a one-bedroom apartment, complemented by advertised mid-floor positioning and full sea views. However, the listing description is incomplete and abruptly cuts off mid-sentence, omitting essential property specifics such as the tower name, finishing quality, parking allocation, and maintenance status.",
+    "risk_flags": [
+      "No DLD closed-transaction data is available for this segment; pricing is evaluated solely against other active asking prices, not verified sold records.",
+      "Al Reem Island is an Abu Dhabi master community subject to Abu Dhabi municipality registration rather than the Dubai Land Department, which accounts for the absence of standard DLD benchmark data.",
+      "The truncated listing description and steep pricing gap relative to prevailing asking levels suggest potential bait-and-switch advertising or a stale, unverified listing."
+    ],
+    "investment_summary": "The unit is priced substantially below the prevailing active asking median in the community, presenting an apparently strong entry point on a rate-per-square-foot basis. However, because this comparison relies entirely on competing asking quotes rather than confirmed historical sales—and given the incomplete listing details—investors must directly verify unit availability, actual view authenticity, and building-specific transaction values via Abu Dhabi property registries before advancing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/29/vacant-now-ready-to-move-in-premium-lay-2-600962/_investment_analysis_exceptional": {
+    "quality_context": "At 928 sqft, the property offers a notably generous floor plan for a one-bedroom apartment with immediate vacant possession. However, qualitative assessment is compromised by a direct discrepancy in the listing details: while categorized under Al Barsha South 4, the description explicitly references Dezire Residence in Jumeirah Village Circle (JVC).",
+    "risk_flags": [
+      "Severe location mismatch: the listing is tagged as Al Barsha South 4 but the marketing copy explicitly places the unit in Dezire Residence, JVC.",
+      "Data limitation: No official DLD closed-transaction benchmarks exist for this segment, meaning comparative analysis is strictly restricted to competing sellers' asking figures rather than finalized market sales.",
+      "High probability of a phantom or misconfigured listing given the conflicting geographical markers and steep discount against surrounding asking prices."
+    ],
+    "investment_summary": "While the unit is positioned noticeably below competing asking prices in the segment, the severe internal contradiction regarding its true location—Al Barsha South 4 versus JVC—presents significant risk. Prospective buyers must treat this listing with caution and verify the title deed and physical building location prior to proceeding.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/15/vacant-best-priced-high-floor-spacious-2-151833/_investment_analysis_exceptional": {
+    "quality_context": "The unit is situated in Burj Views, an established Emaar development located on the eastern edge of Downtown Dubai. While Burj Views offers generous floor plans compared to newer contemporary stock, it represents an older generation of Downtown buildings that typically trades at a discount to the prime core near the Burj Khalifa and Dubai Mall. High-floor positioning and a vacant status are strong practical advantages for immediate occupancy or rental onboarding.",
+    "risk_flags": [
+      "Pricing sits drastically below comparable sold transactions in Downtown Dubai, raising high likelihood of being a non-genuine or bait-and-switch listing.",
+      "The listing description cuts off mid-sentence, indicating unverified or low-effort listing management.",
+      "Older building profile entails higher potential maintenance requirements and service fees relative to modern developments."
+    ],
+    "investment_summary": "If confirmed authentic and purchasable as advertised, this property offers an exceptionally low entry cost into Downtown Dubai well below the district's registered transaction norms. However, given the deep discrepancy against recent market sales and an incomplete description, investors must verify title deeds, seller authorization, and actual vacant availability prior to committing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/21/unfurnished-with-dishwasher-high-floor-2-380734/_investment_analysis_exceptional": {
+    "quality_context": "The property is a 1-bedroom apartment in Rose 2, Emirates Garden 1, situated within the Al Barsha South Fourth / JVC cadastral master community. At over nine hundred square feet, the unit offers a noticeably larger layout than typical newer one-bedroom developments in Dubai. Emirates Garden is an established, low-rise development by DAMAC dating back to 2010, which generally features older architectural finishes and community amenities compared to modern surrounding stock.",
+    "risk_flags": [
+      "No DLD closed-transaction records are available for this specific segment; comparison relies entirely on active seller asking prices, which typically skew higher due to unnegotiated listing expectations.",
+      "The large disparity between this property's rate and the area median is primarily attributable to building vintage, as the median includes brand-new and off-plan inventory across the wider sector.",
+      "Potential deferred maintenance and higher long-term upkeep expenses typical of older low-rise buildings in this cluster.",
+      "The listing description is truncated, requiring independent verification of current tenancy, maintenance status, and service charge balances."
+    ],
+    "investment_summary": "The property is priced substantially below the prevailing asking-price median for active listings in the area, offering a comparatively low entry point on a per-square-foot basis for a generous layout. However, investors must note that this pricing position is benchmarked against competing active asking prices rather than verified, executed DLD transaction data. The perceived discount largely reflects the mature age and secondary-market positioning of Emirates Garden rather than an immediate arbitrage gain.",
+    "credibility_flag": "normal"
   }
 }
