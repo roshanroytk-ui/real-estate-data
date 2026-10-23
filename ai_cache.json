@@ -9158,5 +9158,56 @@
     ],
     "investment_summary": "Priced favorably on a unit-rate basis against historical sold benchmarks across JVC, the asset appeals to value-oriented buyers prioritizing sheer space over modern turnkey finishes. However, investors must evaluate total service charges and capital reinvestment needs against gross rental potential to confirm net yield sustainability.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/1/motivated-seller-vacant-huge-layout-bal-2-210379/_investment_analysis_below_market": {
+    "quality_context": "The property offers a generous one-bedroom layout with an immediate vacant status, suitable for either an end-user or quick rental placement. However, there is a fundamental discrepancy: the listing classification specifies Jumeirah Village Circle (JVC), while the property description clearly cites Green Park Residence located in Jumeirah Village Triangle (JVT).",
+    "risk_flags": [
+      "Geographic location conflict: metadata states Jumeirah Village Circle, whereas the description identifies Green Park Residence in Jumeirah Village Triangle (District 4).",
+      "Market comparison data may be distorted due to the submarket mismatch between JVC and JVT.",
+      "Risk of a syndicated bait listing or administrative error regarding the true unit details and title deed."
+    ],
+    "investment_summary": "While the listing appears attractively priced well below typical DLD registered transaction levels and market asking medians, the direct contradiction between the specified community and the descriptive text is a major red flag. Investors should exercise caution and verify the actual location and title deed before considering this an actionable opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/5/marina-view-mid-floor-with-maids-room-2-837420/_investment_analysis_below_market": {
+    "quality_context": "Located in ARY Marina View, this property offers an expansive floor plan that is significantly larger than typical modern three-bedroom units in Dubai Marina. The building represents older, secondary residential stock in the district, which generally trades at a discount to newer prime towers but offers generous interior space including a maid's room and multiple balconies with partial waterway views.",
+    "risk_flags": [
+      "Building age may entail higher maintenance requirements, dated communal amenities, or need for interior refurbishment.",
+      "Oversized floor plan creates a high total purchase quantum and higher ongoing service fees, potentially narrowing the secondary buyer pool.",
+      "Capital appreciation in older Marina developments often lags behind prime waterfront towers unless substantial renovations are undertaken."
+    ],
+    "investment_summary": "The property is priced attractively below prevailing transacted benchmark levels in Dubai Marina on a rate-per-square-foot basis. While the per-foot valuation is competitive against recent closed deeds and broader asking prices, the opportunity is primarily suited for end-users seeking space or investors prepared to renovate to achieve competitive rental yields.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/24/marina-view-tenanted-middle-floor-2-333179/_investment_analysis_good_value": {
+    "quality_context": "The Zen Tower is an established residential building located on the southern edge of Dubai Marina, providing practical access to Sheikh Zayed Road and public transit. Typically, properties in this building trade at a discount compared to prime waterfront developments within the Marina due to the building's age, standard finishes, and location slightly removed from the central Marina walk and beach amenities.",
+    "risk_flags": [
+      "Direct internal conflict regarding tenancy status: the listing title advertises the unit as 'TENANTED' while the description explicitly states 'VACANT'.",
+      "Incomplete description text suggests poor listing diligence or potential bait-and-switch marketing.",
+      "Older building profile implies potential exposure to wear and tear, dated common areas, and capital expenditure or maintenance costs."
+    ],
+    "investment_summary": "The property is listed at an attractive rate noticeably below both historical DLD registered transaction benchmarks and prevailing market asking prices in Dubai Marina. While the pricing offers an appealing entry point per square foot for a spacious three-bedroom unit, immediate verification is needed to resolve conflicting claims regarding whether the unit is vacant or tenanted.",
+    "credibility_flag": "suspicious"
+  },
+  "https://www.rea.global/international/ae/dubai-hills-dubai-310119636661/_investment_analysis_exceptional": {
+    "quality_context": "On paper, the property is priced substantially below recent DLD recorded transactions in Hadaeq Sheikh Mohammed Bin Rashid, as well as prevailing asking rates in the area. However, the listing details reveal critical discrepancies: while titled under Dubai Hills and categorized within Mohammed Bin Rashid City benchmarks, the promotional text explicitly describes Damac Valencia inside Damac Lagoons—an entirely different master community with distinctly different pricing fundamentals and infrastructure timelines.",
+    "risk_flags": [
+      "Severe geographic mismatch: Title and portal metadata indicate Dubai Hills / Hadaeq Sheikh Mohammed Bin Rashid, while the listing text promotes Damac Valencia in Damac Lagoons.",
+      "High probability of bait-and-switch marketing intended to generate leads under a premium location tag using lower-priced outer-suburb inventory.",
+      "Erroneous and low-quality listing copy, including conflicting agency credentials.",
+      "Off-plan delivery and developer execution risks inherent to early-stage master community clusters."
+    ],
+    "investment_summary": "While the headline rate per square foot appears heavily discounted compared to median DLD sold transactions in Hadaeq Sheikh Mohammed Bin Rashid, this comparison is fundamentally flawed due to community misrepresentation. The asset being advertised is located in Damac Lagoons, not Dubai Hills or MBR City. Investors should treat this listing with caution, as it exhibits hallmark signs of deceptive lead-generation marketing.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/1/ready-to-move-in-brand-new-upgraded-bal-2-164254/_investment_analysis_market_rate": {
+    "quality_context": "Located in Ontario Tower, an established mixed-use development in Business Bay, this one-bedroom unit offers a generous layout of 806 sqft. The property benefits from being fully furnished and newly upgraded, enhancing its immediate tenant appeal despite the building's older vintage compared to newer prime stock in the master community.",
+    "risk_flags": [
+      "Ontario Tower is an older mixed-use commercial and residential building, which can limit long-term capital appreciation relative to purely residential luxury towers.",
+      "The broader asking median in Business Bay is skewed upward by high-end new deliveries and luxury inventory, creating an artificial gap with secondary established buildings.",
+      "Potential risk of higher maintenance costs or service charges typical of older towers, which may impact net rental yields."
+    ],
+    "investment_summary": "The property is priced closely in line with realistic closed DLD transaction medians for the area, while sitting well below the inflated asking prices typical of active market listings. Its upgraded, turnkey condition positions it well for immediate rental income with minimal initial capital expenditure, making it a solid income-focused option in central Business Bay.",
+    "credibility_flag": "normal"
   }
 }
