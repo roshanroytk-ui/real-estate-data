@@ -9209,5 +9209,107 @@
     ],
     "investment_summary": "The property is priced closely in line with realistic closed DLD transaction medians for the area, while sitting well below the inflated asking prices typical of active market listings. Its upgraded, turnkey condition positions it well for immediate rental income with minimal initial capital expenditure, making it a solid income-focused option in central Business Bay.",
     "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/6/25/25428-sq-ft-plot-two-villas-private-lif-2-339946/_investment_analysis_below_market": {
+    "quality_context": "Situated in The Villa community within Wadi Al Safa 5, this asset offers a rare compound setup featuring two independent five-bedroom villas on an exceptionally large single plot. High-end features like private elevators cater well to multi-generational living or luxury long-term tenancies in an established suburban enclave.",
+    "risk_flags": [
+      "Metric calculation risk: The quoted area reflects the total plot size rather than the combined built-up area (BUA), which can distort standard price-per-square-foot comparisons against market benchmarks.",
+      "Title deed complexity: Housing two separate villas on a single undivided plot can introduce legal, subdivision, and mortgage financing constraints upon acquisition or exit.",
+      "Liquidity limitation: Twin-villa compounds target a highly niche buyer pool compared to conventional standalone single-family homes in the community."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD transaction medians and broader asking benchmarks on a land-inclusive basis. It presents a distinctive opportunity for multi-generational owner-occupiers or investors seeking a dual-income residential compound, provided buyers verify the total built-up area and confirm the title deed structure.",
+    "credibility_flag": "normal"
+  },
+  "https://www.bhomes.com/en/property/bh-s-294256_investment_analysis_below_market": {
+    "quality_context": "Knightsbridge Court is an established residential building in Jumeirah Village Circle. Offering nearly 950 square feet of built-up area with two full bathrooms, this 1-bedroom layout is notably larger than typical newly built stock in the community, providing comfortable dimensions and vacant-on-transfer flexibility for immediate leasing or occupation.",
+    "risk_flags": [
+      "Direct listing contradiction: The title specifies a ground floor unit with a terrace, whereas the description repeatedly references mid-floor positioning and privacy.",
+      "Knightsbridge Court is an older development within JVC, which can carry potential risks of dated finishes, wear and tear, and varying service charge levels compared to newer master-planned towers.",
+      "Listing inaccuracies indicate a copied template, requiring direct verification of actual floor plan, outdoor space, and physical condition."
+    ],
+    "investment_summary": "Priced well below typical DLD registered transactions in JVC and at a deep discount relative to active asking medians, the unit offers compelling square footage and immediate occupancy. However, the blatant inconsistency regarding whether the unit is on the ground floor with a terrace or on a mid-level floor necessitates strict confirmation before proceeding with due diligence.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/8/26/fully-furnished-vacant-motivated-seller-2-533436/_investment_analysis_market_rate": {
+    "quality_context": "Tower 108 by DAMAC in Jumeirah Village Circle is a furnished residential and serviced apartment development offering standard community amenities and straightforward access to major thoroughfares. Units in this tower frequently target short-term and serviced-living tenants.",
+    "risk_flags": [
+      "Listing copy explicitly states the unit is 'offered for rent' despite being marketed with sale metrics, suggesting a miscategorized listing or sloppy agent copy-paste.",
+      "Serviced and furnished units in this development often incur higher service charges that can noticeably compress net rental returns.",
+      "The description cuts off abruptly, indicating lack of listing diligence."
+    ],
+    "investment_summary": "The property is priced on par with recent historical transaction values recorded by the Dubai Land Department, while remaining well below the prevailing asking prices of active competitors. However, the internal contradiction regarding whether the unit is for sale or for rent warrants direct verification with the broker before treating this as an actionable investment opportunity.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/26/good-roi-furnished-vacant-opposite-the--2-186846/_investment_analysis_market_rate": {
+    "quality_context": "This is a typical 675 sqft one-bedroom unit in Jumeirah Village Circle, marketed as furnished, vacant on transfer, and positioned opposite a park. The unit size aligns with standard entry-level one-bedroom layouts in the community, offering immediate readiness for end-users or rental placement.",
+    "risk_flags": [
+      "The building name is not identified, preventing verification of maintenance quality, historical service charges, and specific developer track record.",
+      "The listing description is truncated and incomplete.",
+      "Priced slightly above the benchmark of actual closed transactions in the area, despite appearing discounted against speculative active listing prices."
+    ],
+    "investment_summary": "The property sits closely aligned with, though slightly above, real closed sale benchmarks in JVC while remaining well below the prevailing active asking median. Its vacant status and furnished condition provide immediate cash-flow potential or flexibility for an end-user, but buyers should negotiate based on historical registered transactions rather than asking-market expectations.",
+    "credibility_flag": "normal"
+  },
+  "https://www.rea.global/international/ae/dubai-south-dubai-310119573582/_investment_analysis_good_value": {
+    "quality_context": "The unit offers an expansive layout for a two-bedroom property at over 1,500 square feet, reportedly including community amenities like pools, sports courts, and landscaped gardens. However, there is a fundamental contradiction in the listing details: the classified location indicates Emaar South Golf District, while the descriptive marketing text explicitly identifies the property as being located within Dubai Investments Park (DIP).",
+    "risk_flags": [
+      "Location mismatch: Listed under Emaar South Golf District, but the text describes a development within Dubai Investments Park (DIP).",
+      "High likelihood of a bait-and-switch or copy-paste listing error.",
+      "Potentially misleading transit times to core central destinations."
+    ],
+    "investment_summary": "While the headline unit price sits substantially below both recent DLD transacted medians and prevailing asking benchmarks in Emaar South, this pricing cannot be evaluated in isolation. The major discrepancy between the assigned master community and the actual narrative text indicates an inaccurate or duplicate listing. Direct verification of title deed and exact project location is required before committing resources.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/smart-home-8-disc-high-quality-eoi-stag-2-630857/_investment_analysis_exceptional": {
+    "quality_context": "This property is presented as a three-bedroom smart home in the Palm Deira (Dubai Islands) master development. Offering generous family-scale square footage, the listing emphasizes modern automated finishes and connectivity to coastal attractions and established Deira infrastructure.",
+    "risk_flags": [
+      "Listed at the EOI (Expression of Interest) stage, indicating this is pre-launch marketing rather than a confirmed, ready-to-contract unit.",
+      "The rate per square foot sits dramatically below verified DLD historical transactions, suggesting promotional teaser pricing designed to capture buyer leads rather than an actual available inventory rate.",
+      "The description is minimal and fragmented, omitting critical developer details, anticipated completion dates, and confirmed payment structures."
+    ],
+    "investment_summary": "On paper, the property appears positioned substantially below benchmark transaction levels established by DLD sold data, as well as prevailing asking prices across the area. However, because it is advertised at the pre-launch EOI phase with an unusually steep discount against real market comparables, it functions primarily as a speculative marketing vehicle. Capital deployment should proceed only after confirming actual unit availability, final contract pricing, and developer credentials.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/20/handover-in-6-months-fully-furnished-sm-2-195593/_investment_analysis_good_value": {
+    "quality_context": "Located in Dubai Islands (Palm Deira), Mackerel Tower by Saeed Tarrad Development represents a boutique residential project in an emerging master-planned waterfront destination. The unit offers a generous two-bedroom layout featuring smart home automation and fully furnished handover. The area is undergoing comprehensive long-term infrastructure and hospitality development, which provides strong capital growth potential as the island matures.",
+    "risk_flags": [
+      "Developer track record: Saeed Tarrad Development is a niche developer, requiring buyers to verify project milestone progress and escrow compliance independently.",
+      "Short handover horizon: A targeted completion within months poses potential timeline risks typical of mid-stage off-plan deliveries.",
+      "Emerging submarket maturity: Dubai Islands is in an early growth phase, meaning surrounding amenities, retail, and tenant demand may take time to fully establish.",
+      "Listing copy is truncated, necessitating direct verification of the exact payment plan and snagging terms."
+    ],
+    "investment_summary": "The property is priced favorably below both recent DLD recorded sold-transaction levels and prevailing asking prices in the wider area. With full furnishings and smart home features included near delivery, it offers an attractive entry point into the Dubai Islands master plan for investors looking to capture long-term waterfront appreciation.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/2/9/creek-views-elegantly-furnished-spaciou-2-303968/_investment_analysis_below_market": {
+    "quality_context": "This unit offers a generous layout for a two-bedroom apartment at nearly 1,500 square feet, presented as an elegantly furnished resale. However, the title 'Creek Views' conflicts with the stated Palm Deira location, as Creek-facing master developments are typically situated in Al Jaddaf, Dubai Healthcare City, or Dubai Creek Harbour rather than the coastal island district of Palm Deira.",
+    "risk_flags": [
+      "Location and title inconsistency: 'Creek Views' strongly suggests a different master community or project than Palm Deira.",
+      "Abruptly truncated listing description lacking essential development details and unit specifications.",
+      "Pricing sits substantially below historical closed transaction medians, raising the likelihood of a bait listing or misclassified project entry."
+    ],
+    "investment_summary": "While the headline unit rate is positioned considerably below both benchmark DLD transaction levels and prevailing market asking prices in the district, the listing exhibits clear markers of miscategorization or bait marketing. Investors should exercise extreme caution and verify unit authenticity, specific tower location, and title deed validity before considering further action.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/7/2/smart-home-8-disc-high-quality-eoi-stag-2-290332/_investment_analysis_below_market": {
+    "quality_context": "The property is marketed as an upcoming smart home residence in the expanding Palm Deira / Dubai Islands corridor. From a valuation standpoint, the listing is priced substantially below both the benchmark of real closed DLD transactions and prevailing active asking rates in the area. However, because it is presented at the initial Expression of Interest (EOI) stage, the listed rate likely represents entry-level promotional or teaser pricing for an upcoming launch rather than a fully confirmed, secondary-market unit.",
+    "risk_flags": [
+      "Listed at the Expression of Interest (EOI) stage, meaning specific unit allocation, final pricing, and floor plans may not be confirmed or secured.",
+      "Promotional pricing sits noticeably below typical closed market transactions in the submarket, signaling potential lead-generation or starting-from pricing.",
+      "Listing description is truncated and omits critical project specifics such as the developer identity, payment structure, service charges, and anticipated completion date.",
+      "Off-plan master community execution and handover timing risks inherent to early-stage developments."
+    ],
+    "investment_summary": "While the qualitative pricing appears exceptionally attractive compared to historical closed transactions in Palm Deira, this opportunity carries the typical ambiguities of a pre-launch EOI. Investors should treat the rate as indicative and conduct direct due diligence to confirm actual inventory availability, developer credentials, and payment milestones before committing booking capital.",
+    "credibility_flag": "normal"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/29/2brstoremaid_sea-skyline-views_ask-abou-2-106702/_investment_analysis_good_value": {
+    "quality_context": "Situated in the emerging Dubai Islands (formerly Palm Deira) master development, Floarea Breeze offers an expansive layout for a two-bedroom unit at 1,711 sqft, notably including both a maid's room and a dedicated storeroom. The listing highlights sea and skyline views along with developer post-handover payment plan incentives, which are common in off-plan phases across the island. The property is positioned comfortably below historical registered DLD transaction medians and significantly under the broader asking market in the area, offering an attractive rate per square foot for a spacious waterfront-concept unit.",
+    "risk_flags": [
+      "Master community and infrastructure on Dubai Islands are still in early development phases, which may delay lifestyle amenity delivery and rental stabilization.",
+      "Off-plan execution risk, including potential construction milestone delays prior to handover.",
+      "Truncated listing text indicates incomplete marketing details that require verification of exact floor plans, handover dates, and post-handover payment terms."
+    ],
+    "investment_summary": "Priced noticeably below the median for closed government-registered transactions in the area and well under competing asking prices, this unit represents an accessible capital entry point into a high-growth island master plan. The generous interior size, maid's quarters, and post-handover terms provide solid medium- to long-term capital appreciation potential as the island's infrastructure matures.",
+    "credibility_flag": "normal"
   }
 }
