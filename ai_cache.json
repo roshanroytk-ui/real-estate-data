@@ -9341,5 +9341,26 @@
     ],
     "investment_summary": "The property is priced noticeably below recent DLD historical transaction medians and well below current active market askings for JVC studios. If verified as an authentic, vacant-on-transfer or high-yielding unit, it represents strong cash-flow potential; however, buyers must scrutinize title deed ownership and inspect the unit given misleading marketing claims in the listing.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/26/tenanted-low-floor-furnished-stunning-u-2-135409/_investment_analysis_exceptional": {
+    "quality_context": "The property is a spacious one-bedroom branded residence located in the Paramount development in Business Bay. At over 900 square feet, the layout is generous compared to typical one-bedroom configurations in the district. It comes fully furnished and currently tenanted, providing immediate rental continuity. However, branded hospitality residences in this sub-community often carry higher-than-average service charges, which directly impacts net operating income.",
+    "risk_flags": [
+      "Listing claims direct views of the Dubai Fountain and Dubai Mall, which is physically implausible for a low-floor unit in this location.",
+      "The asking price sits substantially below the median level of completed DLD transactions in Business Bay, suggesting a high probability of a bait-and-switch listing.",
+      "Service charges for branded hotel-apartments in this development are typically elevated, which may severely erode net yields.",
+      "Existing tenancy terms, renewal dates, and actual passing rent must be audited to verify real cash flow."
+    ],
+    "investment_summary": "While the headline rate per square foot appears deeply discounted against recent benchmark DLD transactions in Business Bay, the listing exhibits clear markers of an unverified or bait listing, notably conflicting claims regarding fountain views from a low floor. Investors should exercise extreme caution, confirm unit availability directly, and review audited service charge schedules before treating this as a viable acquisition.",
+    "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/10/26/investor-end-user-deal-stylish-1br-stud-2-601888/_investment_analysis_below_market": {
+    "quality_context": "Sobha Daffodil is an established mid-rise development in District 13 of Jumeirah Village Circle. A 1-bedroom plus study layout across more than nine hundred square feet offers substantial space compared to typical 1-bedroom layouts in newer developments. While built by a reputable developer, the building is older than surrounding stock, which generally impacts its ceiling for capital appreciation and rental yield compared to modern handovers in JVC.",
+    "risk_flags": [
+      "Listing copy explicitly states the unit is 'for rent', presenting an internal conflict with sales metrics and signaling potential miscategorization.",
+      "Sobha Daffodil is an older asset within JVC, which can carry higher maintenance requirements or capital expenditure risks.",
+      "Abruptly cut off description indicates a low-effort listing that warrants direct verification of title deed and ownership status."
+    ],
+    "investment_summary": "The unit is listed at a rate per square foot comfortably below both the benchmark DLD sold median and broader market askings in Jumeirah Village Circle. However, the presence of rental copy on what is framed as a sales listing raises serious questions regarding whether this is a genuine sale opportunity or an incorrectly cataloged rental.",
+    "credibility_flag": "suspicious"
   }
 }
