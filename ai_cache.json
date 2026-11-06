@@ -9362,5 +9362,15 @@
     ],
     "investment_summary": "The unit is listed at a rate per square foot comfortably below both the benchmark DLD sold median and broader market askings in Jumeirah Village Circle. However, the presence of rental copy on what is framed as a sales listing raises serious questions regarding whether this is a genuine sale opportunity or an incorrectly cataloged rental.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/villahouse/2026/10/13/turn-key-4-bed-private-pool-vacant-2-998916/_investment_analysis_exceptional": {
+    "quality_context": "This property is a Type 3E villa in Springs 15, presented as a fully upgraded, vacant-on-transfer home featuring a private pool and extended accommodation. Note that market comparison benchmarks in this segment are drawn strictly against active seller asking prices rather than verified Dubai Land Department (DLD) closed sales transactions, meaning current asking figures reflect speculative vendor expectations rather than settled market value.",
+    "risk_flags": [
+      "Severe metric distortion: The 4,420 sqft figure represents the external plot size rather than the built-up area (BUA), which for a standard Type 3E is typically around 2,250 sqft. This artificially deflates the calculated price per square foot.",
+      "Bedroom discrepancy: Listed as a 3-bedroom in the core specifications but marketed as a 4-bedroom plus maid's room, pointing to converted spaces (such as the ground-floor study) that require verification of proper municipal permits and structural quality.",
+      "Absence of official DLD transaction data for this segment limits valuation confidence strictly to competitor asking prices."
+    ],
+    "investment_summary": "On paper, the listing appears priced substantially below the market median asking price; however, this is an illusion driven by inputting plot area instead of built-up area into the size metric. Recalculating against true internal living space positions the villa at or above prevailing asking rates rather than at a discount. Given the misleading data inputs and potential unpermitted space conversions, thorough due diligence on actual living dimensions and title deed specifics is essential before considering this property.",
+    "credibility_flag": "suspicious"
   }
 }
