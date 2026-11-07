@@ -9372,5 +9372,15 @@
     ],
     "investment_summary": "On paper, the listing appears priced substantially below the market median asking price; however, this is an illusion driven by inputting plot area instead of built-up area into the size metric. Recalculating against true internal living space positions the villa at or above prevailing asking rates rather than at a discount. Given the misleading data inputs and potential unpermitted space conversions, thorough due diligence on actual living dimensions and title deed specifics is essential before considering this property.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/6/19/rented-well-maintained-burj-views-c-2-333323/_investment_analysis_good_value": {
+    "quality_context": "Burj Views is a mature, well-regarded Emaar development situated along the outer perimeter of Downtown Dubai. A 910 sqft footprint is notably generous for a one-bedroom apartment in Downtown, offering practical living space and steady rental demand, though the building is older compared to recently handed-over prime towers in the district.",
+    "risk_flags": [
+      "Direct conflict in tenancy status: the listing title claims the unit is vacant soon, whereas the description headline explicitly states it is rented at AED 100K.",
+      "Potential bait-and-switch or outdated listing details, casting doubt on actual availability and immediate occupancy terms.",
+      "Higher service fees typical of master-planned Downtown developments can significantly dilute gross returns."
+    ],
+    "investment_summary": "The property is priced attractively below recent DLD registered transaction medians and significantly below prevailing asking prices across Downtown Dubai. While the unit size and price point present strong fundamentals on paper, the severe contradiction between the advertised vacant status and tenanted claim requires immediate verification before proceeding.",
+    "credibility_flag": "suspicious"
   }
 }
