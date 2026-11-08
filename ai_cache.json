@@ -9382,5 +9382,15 @@
     ],
     "investment_summary": "The property is priced attractively below recent DLD registered transaction medians and significantly below prevailing asking prices across Downtown Dubai. While the unit size and price point present strong fundamentals on paper, the severe contradiction between the advertised vacant status and tenanted claim requires immediate verification before proceeding.",
     "credibility_flag": "suspicious"
+  },
+  "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/23/largest-layout-rented-mid-floor-balcony-2-155151/_investment_analysis_below_market": {
+    "quality_context": "Situated in Ocean Heights, a prominent high-rise in Dubai Marina, this one-bedroom unit features a significantly larger floor plan than the district average. It is priced substantially below recent closed DLD transaction benchmarks for the area. However, part of this favorable per-square-foot position reflects the natural compression observed in oversized one-bedroom layouts within mature high-rises compared to more compact, higher-density stock.",
+    "risk_flags": [
+      "Currently tenanted, which may bind a buyer to below-market rental rates and necessitate statutory notice procedures for personal use or repricing.",
+      "Higher gross square footage entails higher absolute service charge expenses, which can weigh on net yields.",
+      "Listing copy is abruptly truncated, indicating a potentially rushed or incomplete broker submission that warrants basic due diligence."
+    ],
+    "investment_summary": "The property presents an appealing qualitative discount relative to broader Dubai Marina transaction activity, primarily driven by its expansive footprint in Ocean Heights. While the pricing appears compelling on paper, prospective buyers must evaluate net returns after service charges and confirm the existing lease terms and tenant profile before proceeding.",
+    "credibility_flag": "normal"
   }
 }
